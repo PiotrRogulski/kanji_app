@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:kanji_app/features/kanji_data/loader.dart';
 import 'package:kanji_app/navigation/router.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final d = await loadKanji();
+  print(d[20].toJson());
+
   runApp(const MainApp());
 }
 

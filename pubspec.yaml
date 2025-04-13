@@ -6,6 +6,7 @@ environment:
   flutter: 3.32.0-1.0.pre.73
 
 dependencies:
+  equatable: ^2.0.7
   flutter:
     sdk: flutter
   flutter_adaptive_scaffold: ^0.3.2
@@ -24,7 +25,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - kanji_data/
+    - kanji_data/1/
+    - kanji_data/2/
+    - kanji_data/3/
+    - kanji_data/4/
 
   fonts:
     - family: Material Symbols Rounded
