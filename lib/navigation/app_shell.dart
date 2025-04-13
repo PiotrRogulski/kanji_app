@@ -14,29 +14,64 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AdaptiveScaffold(
-      destinations: const [
-        NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
-        NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
-        NavigationDestination(
-          icon: Icon(Icons.workspaces),
-          label: 'Pierwiastki',
+    final theme = Theme.of(context);
+
+    Widget body(BuildContext context) {
+      final isSmall = Breakpoints.small.isActive(context);
+
+      return Container(
+        margin: switch (isSmall) {
+          false => const EdgeInsetsGeometry.directional(
+            top: 16,
+            bottom: 16,
+            end: 16,
+          ),
+          true => EdgeInsets.zero,
+        },
+        decoration: BoxDecoration(
+          borderRadius: switch (isSmall) {
+            false => BorderRadius.circular(16),
+            true => BorderRadius.zero,
+          },
         ),
-      ],
-      selectedIndex: navigationShell.currentIndex,
-      onSelectedIndexChange: (index) {
-        navigationShell.goBranch(
-          index,
-          initialLocation: index == navigationShell.currentIndex,
-        );
-      },
-      useDrawer: false,
-      internalAnimations: false,
-      body:
-          (context) => AnimatedBranchContainer(
+        clipBehavior: Clip.antiAlias,
+        child: Theme(
+          data: theme,
+          child: AnimatedBranchContainer(
             currentIndex: navigationShell.currentIndex,
             children: children,
           ),
+        ),
+      );
+    }
+
+    return Theme(
+      data: theme.copyWith(
+        scaffoldBackgroundColor: theme.colorScheme.surfaceContainer,
+        navigationRailTheme: theme.navigationRailTheme.copyWith(
+          backgroundColor: theme.colorScheme.surfaceContainer,
+        ),
+      ),
+      child: AdaptiveScaffold(
+        destinations: const [
+          NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
+          NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
+          NavigationDestination(
+            icon: Icon(Icons.workspaces),
+            label: 'Pierwiastki',
+          ),
+        ],
+        selectedIndex: navigationShell.currentIndex,
+        onSelectedIndexChange: (index) {
+          navigationShell.goBranch(
+            index,
+            initialLocation: index == navigationShell.currentIndex,
+          );
+        },
+        useDrawer: false,
+        internalAnimations: false,
+        body: body,
+      ),
     );
   }
 }
