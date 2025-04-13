@@ -18,17 +18,17 @@ class ScaffoldWithNavBar extends StatelessWidget {
         currentIndex: navigationShell.currentIndex,
         children: children,
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.list), label: 'Znaki'),
-          BottomNavigationBarItem(icon: Icon(Icons.bookmark), label: 'Zestawy'),
-          BottomNavigationBarItem(
+      bottomNavigationBar: NavigationBar(
+        destinations: const [
+          NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
+          NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
+          NavigationDestination(
             icon: Icon(Icons.workspaces),
             label: 'Pierwiastki',
           ),
         ],
-        currentIndex: navigationShell.currentIndex,
-        onTap: (index) {
+        selectedIndex: navigationShell.currentIndex,
+        onDestinationSelected: (index) {
           navigationShell.goBranch(
             index,
             initialLocation: index == navigationShell.currentIndex,
