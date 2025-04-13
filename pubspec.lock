@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.0"
+  bloc:
+    dependency: transitive
+    description:
+      name: bloc
+      sha256: "52c10575f4445c61dd9e0cafcc6356fdd827c4c64dd7945ef3c4105f6b6ac189"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.0.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -246,6 +254,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_hooks:
+    dependency: transitive
+    description:
+      name: flutter_hooks
+      sha256: cde36b12f7188c85286fba9b38cc5a902e7279f36dd676967106c041dc9dde70
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.5"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -355,6 +371,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.9.0"
+  leancode_hooks:
+    dependency: "direct main"
+    description:
+      name: leancode_hooks
+      sha256: "79e6d08feb004ac784a71c641a51cb5de71da60d65616ca75d4cbcb4453377bc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.1"
   leancode_lint:
     dependency: "direct dev"
     description:

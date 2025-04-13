@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/navigation/app_shell.dart';
+import 'package:kanji_app/navigation/list_branch.dart';
+import 'package:kanji_app/navigation/radicals_branch.dart';
+import 'package:kanji_app/navigation/sets_branch.dart';
 
 part 'routes.g.dart';
 
 @TypedStatefulShellRoute<RootRoute>(
-  branches: [
-    TypedStatefulShellBranch<KanjiListBranch>(),
-    TypedStatefulShellBranch<KanjiSetBranch>(),
-    TypedStatefulShellBranch<RadicalsBranch>(),
-  ],
+  branches: [listBranch, setsBranch, radicalsBranch],
 )
 class RootRoute extends StatefulShellRouteData {
   @override
@@ -33,25 +32,4 @@ class RootRoute extends StatefulShellRouteData {
       children: children,
     );
   }
-}
-
-class KanjiListBranch extends StatefulShellBranchData {
-  const KanjiListBranch();
-
-  static final $navigatorKey = GlobalKey<NavigatorState>();
-  static const $restorationScopeId = 'kanjiListBranch';
-}
-
-class KanjiSetBranch extends StatefulShellBranchData {
-  const KanjiSetBranch();
-
-  static final $navigatorKey = GlobalKey<NavigatorState>();
-  static const $restorationScopeId = 'kanjiSetBranch';
-}
-
-class RadicalsBranch extends StatefulShellBranchData {
-  const RadicalsBranch();
-
-  static final $navigatorKey = GlobalKey<NavigatorState>();
-  static const $restorationScopeId = 'radicalsBranch';
 }
