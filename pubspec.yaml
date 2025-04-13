@@ -1,0 +1,16 @@
+name: kanji_app
+version: 0.1.0
+
+environment:
+  sdk: 3.8.0-265.0.dev
+  flutter: 3.32.0-1.0.pre.73
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  leancode_lint: ^15.1.0
+
+flutter:
+  uses-material-design: true
