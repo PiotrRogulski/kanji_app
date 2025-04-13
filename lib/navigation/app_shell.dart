@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
 
 class ScaffoldWithNavBar extends StatelessWidget {
@@ -13,28 +14,29 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: AnimatedBranchContainer(
-        currentIndex: navigationShell.currentIndex,
-        children: children,
-      ),
-      bottomNavigationBar: NavigationBar(
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
-          NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
-          NavigationDestination(
-            icon: Icon(Icons.workspaces),
-            label: 'Pierwiastki',
+    return AdaptiveScaffold(
+      destinations: const [
+        NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
+        NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
+        NavigationDestination(
+          icon: Icon(Icons.workspaces),
+          label: 'Pierwiastki',
+        ),
+      ],
+      selectedIndex: navigationShell.currentIndex,
+      onSelectedIndexChange: (index) {
+        navigationShell.goBranch(
+          index,
+          initialLocation: index == navigationShell.currentIndex,
+        );
+      },
+      useDrawer: false,
+      internalAnimations: false,
+      body:
+          (context) => AnimatedBranchContainer(
+            currentIndex: navigationShell.currentIndex,
+            children: children,
           ),
-        ],
-        selectedIndex: navigationShell.currentIndex,
-        onDestinationSelected: (index) {
-          navigationShell.goBranch(
-            index,
-            initialLocation: index == navigationShell.currentIndex,
-          );
-        },
-      ),
     );
   }
 }
