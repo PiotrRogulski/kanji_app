@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
+import 'package:kanji_app/design_system/dynamic_weight.dart';
+import 'package:kanji_app/design_system/icon.dart';
+import 'package:kanji_app/design_system/icons.dart';
 
 class ScaffoldWithNavBar extends StatelessWidget {
   const ScaffoldWithNavBar({
@@ -45,6 +48,8 @@ class ScaffoldWithNavBar extends StatelessWidget {
       );
     }
 
+    final currentIndex = navigationShell.currentIndex;
+
     return Theme(
       data: theme.copyWith(
         scaffoldBackgroundColor: theme.colorScheme.surfaceContainer,
@@ -53,19 +58,28 @@ class ScaffoldWithNavBar extends StatelessWidget {
         ),
       ),
       child: AdaptiveScaffold(
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.list), label: 'Znaki'),
-          NavigationDestination(icon: Icon(Icons.bookmark), label: 'Zestawy'),
-          NavigationDestination(
-            icon: Icon(Icons.workspaces),
+        destinations: [
+          AppNavigationDestination(
+            icon: AppIconData.listAlt,
+            label: 'Znaki',
+            selected: currentIndex == 0,
+          ),
+          AppNavigationDestination(
+            icon: AppIconData.bookmark,
+            label: 'Zestawy',
+            selected: currentIndex == 1,
+          ),
+          AppNavigationDestination(
+            icon: AppIconData.workspaces,
             label: 'Pierwiastki',
+            selected: currentIndex == 2,
           ),
         ],
-        selectedIndex: navigationShell.currentIndex,
+        selectedIndex: currentIndex,
         onSelectedIndexChange: (index) {
           navigationShell.goBranch(
             index,
-            initialLocation: index == navigationShell.currentIndex,
+            initialLocation: index == currentIndex,
           );
         },
         useDrawer: false,
@@ -110,4 +124,20 @@ class AnimatedBranchContainer extends StatelessWidget {
       ],
     );
   }
+}
+
+class AppNavigationDestination extends NavigationDestination {
+  AppNavigationDestination({
+    super.key,
+    required super.label,
+    required AppIconData icon,
+    required bool selected,
+  }) : super(
+    icon: AppIcon(
+      icon,
+      size: 24,
+      fill: selected ? 1 : 0,
+      weight: selected ? AppDynamicWeight.bold : AppDynamicWeight.regular,
+    ),
+  );
 }
