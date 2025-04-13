@@ -90,7 +90,6 @@ class ScaffoldWithNavBar extends StatelessWidget {
   }
 }
 
-// TODO: Replace with a horizontal page view
 class AnimatedBranchContainer extends StatelessWidget {
   const AnimatedBranchContainer({
     super.key,
@@ -103,15 +102,22 @@ class AnimatedBranchContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final baseOffset = switch (Breakpoints.small.isActive(context)) {
+      true => const Offset(0.1, 0),
+      false => const Offset(0, 0.1),
+    };
+
     return Stack(
       children: [
         for (final (index, navigator) in children.indexed)
-          AnimatedScale(
-            scale: index == currentIndex ? 1 : 1.5,
-            duration: const Duration(milliseconds: 400),
+          AnimatedSlide(
+            offset: baseOffset * index.compareTo(currentIndex).toDouble(),
+            duration: Durations.medium4,
+            curve: Curves.easeInOutCubicEmphasized,
             child: AnimatedOpacity(
               opacity: index == currentIndex ? 1 : 0,
-              duration: const Duration(milliseconds: 400),
+              duration: Durations.medium4,
+              curve: Curves.easeInOutCubicEmphasized,
               child: IgnorePointer(
                 ignoring: index != currentIndex,
                 child: TickerMode(
@@ -133,11 +139,11 @@ class AppNavigationDestination extends NavigationDestination {
     required AppIconData icon,
     required bool selected,
   }) : super(
-    icon: AppIcon(
-      icon,
-      size: 24,
-      fill: selected ? 1 : 0,
-      weight: selected ? AppDynamicWeight.bold : AppDynamicWeight.regular,
-    ),
-  );
+         icon: AppIcon(
+           icon,
+           size: 24,
+           fill: selected ? 1 : 0,
+           weight: selected ? AppDynamicWeight.bold : AppDynamicWeight.regular,
+         ),
+       );
 }
