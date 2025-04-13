@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/navigation/router.dart';
+import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
 void main() {
@@ -13,6 +14,6 @@ class MainApp extends HookWidget {
   Widget build(BuildContext context) {
     final router = useGoRouter();
 
-    return MaterialApp.router(routerConfig: router);
+    return MaterialApp.router(routerConfig: router, theme: appTheme());
   }
 }
