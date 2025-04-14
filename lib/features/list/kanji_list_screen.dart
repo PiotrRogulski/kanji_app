@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system/icon.dart';
 import 'package:kanji_app/design_system/icons.dart';
@@ -24,6 +25,7 @@ class KanjiListScreen extends HookWidget {
             kanjiData.entries
                 .map((e) => (entry: e, score: _entryMatch(e, value.text)))
                 .where((e) => e.score != null)
+                .sortedBy((e) => e.score!)
                 .map((e) => e.entry)
                 .toList();
       }
@@ -176,6 +178,16 @@ int? _entryMatch(KanjiEntry entry, String query) {
   // TODO: search more fuzzily
   if (entry.kanji == query) {
     return 1;
+  }
+
+  if (entry.readings.onyomi.contains(query) ||
+      entry.readings.kunyomi.contains(query)) {
+    return 2;
+  }
+
+  if (entry.readings.onyomi.any((r) => r.contains(query)) ||
+      entry.readings.kunyomi.any((r) => r.contains(query))) {
+    return 3;
   }
 
   return null;
