@@ -31,7 +31,6 @@ class KanjiListScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                // const SliverToBoxAdapter(child: SizedBox(height: 16)),
                 PinnedHeaderSliver(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16),
@@ -49,7 +48,6 @@ class KanjiListScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                // const SliverToBoxAdapter(child: SizedBox(height: 16)),
                 SliverList.separated(
                   itemCount: kanjiData.entries.length,
                   separatorBuilder: (_, _) => const SizedBox(height: 16),
@@ -76,6 +74,7 @@ class _Entry extends StatelessWidget {
 
     return Card.filled(
       clipBehavior: Clip.antiAlias,
+      margin: EdgeInsets.zero,
       child: InkWell(
         onTap: () {},
         child: Padding(
