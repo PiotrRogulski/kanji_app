@@ -75,27 +75,34 @@ class _Entry extends StatelessWidget {
     return Card.filled(
       clipBehavior: Clip.antiAlias,
       margin: EdgeInsets.zero,
-      child: InkWell(
-        onTap: () {},
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            spacing: 16,
-            children: [
-              Text(
-                entry.kanji,
-                style: theme.textTheme.displayMedium
-                    ?.apply(color: theme.colorScheme.onSurfaceVariant)
-                    .copyWith(height: 1),
-              ),
-              if (entry.readings.onyomi.isNotEmpty)
-                _Readings(entry.readings.onyomi),
-              if (entry.readings.kunyomi.isNotEmpty)
-                _Readings(entry.readings.kunyomi),
-            ],
+      child: Stack(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 16,
+              children: [
+                Text(
+                  entry.kanji,
+                  style: theme.textTheme.displayMedium
+                      ?.apply(color: theme.colorScheme.onSurfaceVariant)
+                      .copyWith(height: 1),
+                ),
+                if (entry.readings.onyomi.isNotEmpty)
+                  _Readings(entry.readings.onyomi),
+                if (entry.readings.kunyomi.isNotEmpty)
+                  _Readings(entry.readings.kunyomi),
+              ],
+            ),
           ),
-        ),
+          Positioned.fill(
+            child: Material(
+              type: MaterialType.transparency,
+              child: InkWell(onTap: () {}),
+            ),
+          ),
+        ],
       ),
     );
   }

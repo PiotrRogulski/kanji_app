@@ -7,7 +7,7 @@ ThemeData appTheme() {
 
   return baseTheme.copyWith(
     splashFactory: InkSparkle.splashFactory,
-    splashColor: colorScheme.primary.withValues(alpha: 0.3),
+    splashColor: colorScheme.primary.withValues(alpha: 0.25),
     highlightColor: colorScheme.primary.withValues(alpha: 0.2),
     hoverColor: colorScheme.primary.withValues(alpha: 0.1),
     focusColor: colorScheme.primary.withValues(alpha: 0.2),
