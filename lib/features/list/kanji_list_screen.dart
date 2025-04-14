@@ -96,6 +96,16 @@ class _Entry extends StatelessWidget {
               ],
             ),
           ),
+          PositionedDirectional(
+            start: 8,
+            top: 4,
+            child: Text(
+              entry.id.toString(),
+              style: theme.textTheme.labelSmall?.apply(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ),
           Positioned.fill(
             child: Material(
               type: MaterialType.transparency,
