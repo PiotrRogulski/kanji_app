@@ -35,3 +35,15 @@ flutter:
     - family: Material Symbols Rounded
       fonts:
         - asset: assets/fonts/MaterialSymbolsRounded.ttf
+    - family: EB Garamond
+      fonts:
+        - asset: assets/fonts/EBGaramond.ttf
+    - family: Roboto Flex
+      fonts:
+        - asset: assets/fonts/RobotoFlex.ttf
+    - family: KleeOne
+      fonts:
+        - asset: assets/fonts/KleeOne.ttf
+    - family: Noto Sans JP
+      fonts:
+        - asset: assets/fonts/NotoSansJP.ttf
