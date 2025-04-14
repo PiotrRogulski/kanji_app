@@ -3,14 +3,14 @@ import 'package:kanji_app/features/kanji_data/loader.dart';
 import 'package:kanji_app/navigation/router.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  final d = await loadKanji();
-  print(d[20].toJson());
+  final kanjiData = await loadKanji();
 
-  runApp(const MainApp());
+  runApp(Provider.value(value: kanjiData, child: const MainApp()));
 }
 
 class MainApp extends HookWidget {

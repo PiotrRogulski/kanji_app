@@ -1,7 +1,13 @@
 import 'package:equatable/equatable.dart';
 
-class KanjiData with EquatableMixin {
-  const KanjiData({
+class KanjiData {
+  const KanjiData(this.entries);
+
+  final List<KanjiEntry> entries;
+}
+
+class KanjiEntry with EquatableMixin {
+  const KanjiEntry({
     required this.id,
     required this.kanji,
     required this.strokes,
@@ -12,7 +18,7 @@ class KanjiData with EquatableMixin {
     required this.words,
   });
 
-  KanjiData.fromJson(Map<String, dynamic> json)
+  KanjiEntry.fromJson(Map<String, dynamic> json)
     : id = json['id'] as int,
       kanji = json['kanji'] as String,
       strokes = json['strokes'] as int,
