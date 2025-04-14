@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system/icon.dart';
 import 'package:kanji_app/design_system/icons.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
-class KanjiListScreen extends StatelessWidget {
+class KanjiListScreen extends HookWidget {
   const KanjiListScreen({super.key});
 
   @override
@@ -12,6 +13,21 @@ class KanjiListScreen extends StatelessWidget {
     final theme = Theme.of(context);
 
     final kanjiData = context.read<KanjiData>();
+
+    final filteredKanji = useState(kanjiData.entries);
+
+    final searchController = useSyncedTextEditingController((value) {
+      if (value.text.isEmpty) {
+        filteredKanji.value = kanjiData.entries;
+      } else {
+        filteredKanji.value =
+            kanjiData.entries
+                .map((e) => (entry: e, score: _entryMatch(e, value.text)))
+                .where((e) => e.score != null)
+                .map((e) => e.entry)
+                .toList();
+      }
+    });
 
     return Scaffold(
       body: CustomScrollView(
@@ -35,6 +51,7 @@ class KanjiListScreen extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16),
                     child: SearchBar(
+                      controller: searchController,
                       elevation: const WidgetStatePropertyAll(0),
                       hintText: 'Szukaj znaków',
                       leading: Padding(
@@ -49,10 +66,10 @@ class KanjiListScreen extends StatelessWidget {
                   ),
                 ),
                 SliverList.separated(
-                  itemCount: kanjiData.entries.length,
+                  itemCount: filteredKanji.value.length,
                   separatorBuilder: (_, _) => const SizedBox(height: 16),
                   itemBuilder:
-                      (context, index) => _Entry(kanjiData.entries[index]),
+                      (context, index) => _Entry(filteredKanji.value[index]),
                 ),
               ],
             ),
@@ -153,4 +170,13 @@ class _Readings extends StatelessWidget {
       ),
     );
   }
+}
+
+int? _entryMatch(KanjiEntry entry, String query) {
+  // TODO: search more fuzzily
+  if (entry.kanji == query) {
+    return 1;
+  }
+
+  return null;
 }
