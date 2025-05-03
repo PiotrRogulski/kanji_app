@@ -21,12 +21,12 @@ class KanjiListScreen extends HookWidget {
       if (value.text.isEmpty) {
         filteredKanji.value = kanjiData.entries;
       } else {
+        final scores = {
+          for (final e in kanjiData.entries) e.id: ?_entryMatch(e, value.text),
+        };
         filteredKanji.value = kanjiData.entries
-            .map((e) => (entry: e, score: _entryMatch(e, value.text)))
-            .where((e) => e.score != null)
-            .sortedBy((e) => e.score!)
-            .map((e) => e.entry)
-            .toList();
+            .where((e) => scores.containsKey(e.id))
+            .sortedBy((e) => scores[e.id]!);
       }
     });
 
