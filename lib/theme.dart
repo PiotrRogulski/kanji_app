@@ -36,17 +36,15 @@ extension on TextTheme {
 }
 
 extension on TextStyle {
-  TextStyle get display =>
-      copyWith(
-        fontFamily: 'EB Garamond',
-        fontFamilyFallback: ['KleeOne'],
-      ).applyAxes;
+  TextStyle get display => copyWith(
+    fontFamily: 'EB Garamond',
+    fontFamilyFallback: ['KleeOne'],
+  ).applyAxes;
 
-  TextStyle get body =>
-      copyWith(
-        fontFamily: 'Roboto Flex',
-        fontFamilyFallback: ['Noto Sans JP'],
-      ).applyAxes;
+  TextStyle get body => copyWith(
+    fontFamily: 'Roboto Flex',
+    fontFamilyFallback: ['Noto Sans JP'],
+  ).applyAxes;
 
   TextStyle get applyAxes => copyWith(
     fontVariations: [

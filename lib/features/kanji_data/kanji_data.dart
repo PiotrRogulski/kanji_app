@@ -26,10 +26,9 @@ class KanjiEntry with EquatableMixin {
       antonyms = (json['antonyms'] as List?)?.cast() ?? [],
       synonyms = (json['synonyms'] as List?)?.cast() ?? [],
       readings = Readings.fromJson(json['readings'] as Map<String, dynamic>),
-      words =
-          (json['words'] as List)
-              .map((e) => Word.fromJson(e as Map<String, dynamic>))
-              .toList();
+      words = (json['words'] as List)
+          .map((e) => Word.fromJson(e as Map<String, dynamic>))
+          .toList();
 
   final int id;
   final String kanji;
@@ -93,10 +92,9 @@ class Word with EquatableMixin {
     : word = json['word'] as String,
       reading = json['reading'] as String,
       meaning = json['meaning'] as String,
-      related =
-          (json['related'] as List?)
-              ?.map((e) => RelatedWord.fromJson(e as Map<String, dynamic>))
-              .toList();
+      related = (json['related'] as List?)
+          ?.map((e) => RelatedWord.fromJson(e as Map<String, dynamic>))
+          .toList();
 
   final String word;
   final String reading;

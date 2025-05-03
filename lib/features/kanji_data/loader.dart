@@ -8,15 +8,12 @@ Future<KanjiData> loadKanji() async {
   final assetsFile = await rootBundle.loadString('AssetManifest.json');
   final assets = jsonDecode(assetsFile) as Map<String, dynamic>;
 
-  final data =
-      await assets.keys
-          .where((key) => key.startsWith('kanji_data/'))
-          // TODO: Load all kanji
-          .where(
-            (key) => int.parse(key.split('/').last.split('.').first) <= 150,
-          )
-          .map(_loadKanji)
-          .wait;
+  final data = await assets.keys
+      .where((key) => key.startsWith('kanji_data/'))
+      // TODO: Load all kanji
+      .where((key) => int.parse(key.split('/').last.split('.').first) <= 150)
+      .map(_loadKanji)
+      .wait;
 
   return KanjiData(data.sortedBy((e) => e.id));
 }

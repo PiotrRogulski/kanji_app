@@ -25,10 +25,9 @@ useDynamicWeight() {
   final controller = useMaterialStatesController();
   useEffect(() {
     void listener() {
-      final (weightValue, fillValue) =
-          _stateMap.entries
-              .firstWhere((e) => e.key.isSatisfiedBy(controller.value))
-              .value;
+      final (weightValue, fillValue) = _stateMap.entries
+          .firstWhere((e) => e.key.isSatisfiedBy(controller.value))
+          .value;
       iconWeight.value = weightValue;
       fill.value = fillValue;
     }

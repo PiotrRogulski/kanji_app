@@ -21,13 +21,12 @@ class KanjiListScreen extends HookWidget {
       if (value.text.isEmpty) {
         filteredKanji.value = kanjiData.entries;
       } else {
-        filteredKanji.value =
-            kanjiData.entries
-                .map((e) => (entry: e, score: _entryMatch(e, value.text)))
-                .where((e) => e.score != null)
-                .sortedBy((e) => e.score!)
-                .map((e) => e.entry)
-                .toList();
+        filteredKanji.value = kanjiData.entries
+            .map((e) => (entry: e, score: _entryMatch(e, value.text)))
+            .where((e) => e.score != null)
+            .sortedBy((e) => e.score!)
+            .map((e) => e.entry)
+            .toList();
       }
     });
 
@@ -70,8 +69,8 @@ class KanjiListScreen extends HookWidget {
                 SliverList.separated(
                   itemCount: filteredKanji.value.length,
                   separatorBuilder: (_, _) => const SizedBox(height: 16),
-                  itemBuilder:
-                      (context, index) => _Entry(filteredKanji.value[index]),
+                  itemBuilder: (context, index) =>
+                      _Entry(filteredKanji.value[index]),
                 ),
               ],
             ),
