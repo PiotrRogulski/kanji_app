@@ -11,7 +11,7 @@ Future<KanjiData> loadKanji() async {
   final data = await assets.keys
       .where((key) => key.startsWith('kanji_data/'))
       // TODO: Load all kanji
-      .where((key) => int.parse(key.split('/').last.split('.').first) <= 200)
+      .where((key) => int.parse(key.split('/').last.split('.').first) <= 250)
       .map(_loadKanji)
       .wait;
 
