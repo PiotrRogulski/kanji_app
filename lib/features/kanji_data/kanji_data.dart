@@ -1,9 +1,12 @@
+import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
 
 class KanjiData {
   const KanjiData(this.entries);
 
   final List<KanjiEntry> entries;
+
+  KanjiEntry? get(int id) => entries.firstWhereOrNull((e) => e.id == id);
 }
 
 class KanjiEntry with EquatableMixin {

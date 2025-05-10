@@ -12,6 +12,10 @@ ThemeData appTheme() {
     hoverColor: colorScheme.primary.withValues(alpha: 0.1),
     focusColor: colorScheme.primary.withValues(alpha: 0.2),
     textTheme: baseTheme.textTheme.applyFontFamilies(),
+    cardTheme: baseTheme.cardTheme.copyWith(
+      clipBehavior: Clip.antiAlias,
+      margin: EdgeInsets.zero,
+    ),
   );
 }
 

@@ -1,8 +1,12 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:kanji_app/design_system/card.dart';
 import 'package:kanji_app/design_system/icon.dart';
 import 'package:kanji_app/design_system/icons.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/list_branch.dart';
+import 'package:kanji_app/navigation/routes.dart';
+import 'package:kanji_app/widgets/readings.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
@@ -90,9 +94,8 @@ class _Entry extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    return Card.filled(
-      clipBehavior: Clip.antiAlias,
-      margin: EdgeInsets.zero,
+    return AppCard(
+      onTap: () => KanjiDetailsRoute(entry.id).go(context),
       child: Stack(
         children: [
           Padding(
@@ -108,9 +111,9 @@ class _Entry extends StatelessWidget {
                       .copyWith(height: 1),
                 ),
                 if (entry.readings.onyomi.isNotEmpty)
-                  _Readings(entry.readings.onyomi),
+                  KanjiReadings(entry.readings.onyomi),
                 if (entry.readings.kunyomi.isNotEmpty)
-                  _Readings(entry.readings.kunyomi),
+                  KanjiReadings(entry.readings.kunyomi),
               ],
             ),
           ),
@@ -124,49 +127,6 @@ class _Entry extends StatelessWidget {
               ),
             ),
           ),
-          Positioned.fill(
-            child: Material(
-              type: MaterialType.transparency,
-              child: InkWell(onTap: () {}),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _Readings extends StatelessWidget {
-  const _Readings(this.readings);
-
-  final List<String> readings;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return IntrinsicWidth(
-      child: Column(
-        spacing: 2,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          for (final (index, reading) in readings.indexed)
-            Container(
-              padding: const EdgeInsets.symmetric(vertical: 2, horizontal: 4),
-              decoration: BoxDecoration(
-                color: theme.colorScheme.surface,
-                borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(index == 0 ? 8 : 4),
-                  bottom: Radius.circular(index == readings.length - 1 ? 8 : 4),
-                ),
-              ),
-              child: Text(
-                reading,
-                style: theme.textTheme.bodyLarge?.apply(
-                  color: theme.colorScheme.onSurface,
-                ),
-              ),
-            ),
         ],
       ),
     );

@@ -22,6 +22,13 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
           path: '/list',
 
           factory: $KanjiListRouteExtension._fromState,
+          routes: [
+            GoRouteData.$route(
+              path: ':id',
+
+              factory: $KanjiDetailsRouteExtension._fromState,
+            ),
+          ],
         ),
       ],
     ),
@@ -60,6 +67,23 @@ extension $KanjiListRouteExtension on KanjiListRoute {
   static KanjiListRoute _fromState(GoRouterState state) => KanjiListRoute();
 
   String get location => GoRouteData.$location('/list');
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $KanjiDetailsRouteExtension on KanjiDetailsRoute {
+  static KanjiDetailsRoute _fromState(GoRouterState state) =>
+      KanjiDetailsRoute(int.parse(state.pathParameters['id']!)!);
+
+  String get location =>
+      GoRouteData.$location('/list/${Uri.encodeComponent(id.toString())}');
 
   void go(BuildContext context) => context.go(location);
 
