@@ -22,7 +22,7 @@ class KanjiEntry with EquatableMixin {
     : id = json['id'] as int,
       kanji = json['kanji'] as String,
       strokes = json['strokes'] as int,
-      radical = json['radical'] as String?,
+      radical = json['radical'] as String,
       antonyms = (json['antonyms'] as List?)?.cast() ?? [],
       synonyms = (json['synonyms'] as List?)?.cast() ?? [],
       readings = Readings.fromJson(json['readings'] as Map<String, dynamic>),
@@ -33,8 +33,7 @@ class KanjiEntry with EquatableMixin {
   final int id;
   final String kanji;
   final int strokes;
-  // FIXME: Add radicals to all kanji
-  final String? radical;
+  final String radical;
   final List<String> antonyms;
   final List<String> synonyms;
   final Readings readings;
@@ -108,7 +107,7 @@ class Word with EquatableMixin {
     'word': word,
     'reading': reading,
     'meaning': meaning,
-    if (related != null) 'related': related?.map((e) => e.toJson()).toList(),
+    'related': ?related?.map((e) => e.toJson()).toList(),
   };
 }
 
