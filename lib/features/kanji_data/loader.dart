@@ -8,19 +8,21 @@ import 'package:logging/logging.dart';
 Logger get _logger => Logger('KanjiLoader');
 
 Future<KanjiData> loadKanji() async {
-  final assetsFile = await rootBundle.loadString('AssetManifest.json');
-  final assets = jsonDecode(assetsFile) as Map<String, dynamic>;
+  final stopwatch = Stopwatch()..start();
+  final keys = await rootBundle
+      .loadString('AssetManifest.json')
+      .then((jsonString) => jsonDecode(jsonString) as Map<String, dynamic>)
+      .then((json) => json.keys.where((key) => key.startsWith('kanji_data/')));
 
-  final data = await assets.keys
-      .where((key) => key.startsWith('kanji_data/'))
-      // TODO: Load all kanji
-      .where((key) => int.parse(key.split('/').last.split('.').first) <= 400)
+  final sortedData = await keys
       .map(_loadKanji)
-      .wait;
+      .wait
+      .then((data) => data.nonNulls.sortedBy((e) => e.id));
 
-  final sortedData = data.nonNulls.sortedBy((e) => e.id);
-
-  _logger.fine('Loaded ${sortedData.length}/${data.length} kanji entries');
+  final time = stopwatch.elapsed;
+  _logger.fine(
+    'Loaded ${sortedData.length}/${keys.length} kanji entries in $time',
+  );
 
   return KanjiData(sortedData);
 }
