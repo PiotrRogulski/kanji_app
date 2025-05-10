@@ -20,7 +20,7 @@ class RootRoute extends StatefulShellRouteData {
     return navigationShell;
   }
 
-  static const String $restorationScopeId = 'root';
+  static const $restorationScopeId = 'root';
 
   static Widget $navigatorContainerBuilder(
     BuildContext context,
