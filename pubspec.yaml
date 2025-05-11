@@ -32,6 +32,7 @@ flutter:
     - kanji_data/3/
     - kanji_data/4/
     - kanji_data/5/
+    - kanji_data/6/
 
   fonts:
     - family: Material Symbols Rounded
