@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:kanji_app/design_system/card.dart';
 import 'package:kanji_app/design_system/grouped_kanji_row.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/details/widgets/readings_group.dart';
-import 'package:kanji_app/features/details/widgets/readings_group.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
-import 'package:kanji_app/widgets/readings.dart';
 import 'package:provider/provider.dart';
 
 class KanjiDetailsScreen extends StatelessWidget {

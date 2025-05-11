@@ -72,8 +72,8 @@ class _Item extends StatelessWidget {
       child: Material(
         color: theme.colorScheme.surface,
         borderRadius: BorderRadius.horizontal(
-          left: isFirst ? const Radius.circular(8) : const Radius.circular(4),
-          right: isLast ? const Radius.circular(8) : const Radius.circular(4),
+          left: Radius.circular(isFirst ? 8 : 4),
+          right: Radius.circular(isLast ? 8 : 4),
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
@@ -81,7 +81,7 @@ class _Item extends StatelessWidget {
           child: Center(
             child: Text(
               item,
-              style: theme.textTheme.headlineSmall?.copyWith(
+              style: theme.textTheme.titleLarge?.copyWith(
                 color: theme.colorScheme.onSurfaceVariant,
               ),
             ),
