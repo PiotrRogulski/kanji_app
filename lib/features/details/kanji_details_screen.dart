@@ -43,23 +43,40 @@ class _NarrowBody extends StatelessWidget {
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
-                  child: Wrap(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 8,
-                    runSpacing: 8,
                     children: [
-                      KanjiTile(kanji),
-                      Column(
-                        mainAxisSize: MainAxisSize.min,
+                      Wrap(
                         spacing: 8,
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        runSpacing: 8,
                         children: [
-                          GroupedKanjiRow(
-                            label: 'Pierwiastek',
-                            items: [kanji.radical],
+                          KanjiTile(kanji),
+                          Column(
+                            mainAxisSize: MainAxisSize.min,
+                            spacing: 8,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              GroupedKanjiRow(
+                                label: 'Pierwiastek',
+                                items: [kanji.radical],
+                              ),
+                              KanjiReadingsGroup(kanji),
+                            ],
                           ),
-                          KanjiReadingsGroup(kanji),
                         ],
                       ),
+                      if (kanji.synonyms.isNotEmpty)
+                        GroupedKanjiRow(
+                          label: 'Synonimy',
+                          items: kanji.synonyms,
+                        ),
+                      if (kanji.antonyms.isNotEmpty)
+                        GroupedKanjiRow(
+                          label: 'Antonimy',
+                          items: kanji.antonyms,
+                        ),
                     ],
                   ),
                 ),
