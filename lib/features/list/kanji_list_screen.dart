@@ -72,6 +72,13 @@ class KanjiListScreen extends HookWidget {
                           color: theme.colorScheme.onSurfaceVariant,
                         ),
                       ),
+                      trailing: [
+                        if (searchController.text.isNotEmpty)
+                          IconButton(
+                            onPressed: searchController.clear,
+                            icon: const AppIcon(AppIconData.close, size: 24),
+                          ),
+                      ],
                     ),
                   ),
                 ),
