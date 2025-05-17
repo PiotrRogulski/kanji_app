@@ -2,7 +2,10 @@ import 'package:flutter/widgets.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 
 final _queryByID = RegExp(r'^#?(?<id>\d+)$');
-final _kanjiRegex = RegExp(r'^\p{Script=Han}+$', unicode: true);
+final _japaneseOnly = RegExp(
+  r'^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]+$',
+  unicode: true,
+);
 
 // TODO: search more fuzzily
 SearchMatch matchEntry(KanjiEntry entry, String query) {
@@ -15,7 +18,7 @@ SearchMatch matchEntry(KanjiEntry entry, String query) {
     }
   }
 
-  if (_kanjiRegex.hasMatch(query) && query.characters.contains(entry.kanji)) {
+  if (_japaneseOnly.hasMatch(query) && query.characters.contains(entry.kanji)) {
     return SearchMatch.kanji;
   }
 
