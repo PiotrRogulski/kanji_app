@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/features/list/kanji_search.dart';
 import 'package:kanji_app/navigation/list_branch.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:kanji_app/widgets/readings.dart';
@@ -25,12 +26,12 @@ class KanjiListScreen extends HookWidget {
       if (value.text.isEmpty) {
         filteredKanji.value = kanjiData.entries;
       } else {
-        final scores = {
-          for (final e in kanjiData.entries) e.id: ?_entryMatch(e, value.text),
+        final matches = {
+          for (final e in kanjiData.entries) e: matchEntry(e, value.text),
         };
         filteredKanji.value = kanjiData.entries
-            .where((e) => scores.containsKey(e.id))
-            .sortedBy((e) => scores[e.id]!);
+            .where((e) => matches[e] != SearchMatch.none)
+            .sortedBy((e) => matches[e]!);
       }
     });
 
@@ -135,23 +136,4 @@ class _Entry extends StatelessWidget {
       ),
     );
   }
-}
-
-int? _entryMatch(KanjiEntry entry, String query) {
-  // TODO: search more fuzzily
-  if (entry.kanji == query) {
-    return 1;
-  }
-
-  if (entry.readings.onyomi.contains(query) ||
-      entry.readings.kunyomi.contains(query)) {
-    return 2;
-  }
-
-  if (entry.readings.onyomi.any((r) => r.contains(query)) ||
-      entry.readings.kunyomi.any((r) => r.contains(query))) {
-    return 3;
-  }
-
-  return null;
 }
