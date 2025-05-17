@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/widgets/readings.dart';
 
@@ -10,6 +11,7 @@ class KanjiReadingsGroup extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
     final theme = Theme.of(context);
 
     return AppCard(
@@ -21,7 +23,7 @@ class KanjiReadingsGroup extends StatelessWidget {
           children: [
             Padding(
               padding: const AppPadding.symmetric(horizontal: AppUnit.xsmall),
-              child: Text('Czytania', style: theme.textTheme.bodyLarge),
+              child: Text(s.kanji_readings, style: theme.textTheme.bodyLarge),
             ),
             Row(
               mainAxisSize: MainAxisSize.min,

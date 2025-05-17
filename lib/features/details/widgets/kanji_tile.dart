@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 
 class KanjiTile extends StatelessWidget {
@@ -9,6 +10,7 @@ class KanjiTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
     final theme = Theme.of(context);
 
     final contentColor = theme.colorScheme.onSurfaceVariant;
@@ -39,7 +41,7 @@ class KanjiTile extends StatelessWidget {
                   children: [
                     AppUnit.small.gap,
                     Text(
-                      'Kolejność pisania',
+                      s.kanji_strokeOrder,
                       style: theme.textTheme.bodyLarge?.apply(
                         color: contentColor,
                       ),

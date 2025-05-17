@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/details/widgets/readings_group.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -30,7 +31,7 @@ class _NarrowBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
+    final s = context.l10n;
 
     return Scaffold(
       body: CustomScrollView(
@@ -56,7 +57,7 @@ class _NarrowBody extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               GroupedKanjiRow(
-                                label: 'Pierwiastek',
+                                label: s.kanji_radical,
                                 items: [kanji.radical],
                               ),
                               KanjiReadingsGroup(kanji),
@@ -66,12 +67,12 @@ class _NarrowBody extends StatelessWidget {
                       ),
                       if (kanji.synonyms.isNotEmpty)
                         GroupedKanjiRow(
-                          label: 'Synonimy',
+                          label: s.kanji_synonyms,
                           items: kanji.synonyms,
                         ),
                       if (kanji.antonyms.isNotEmpty)
                         GroupedKanjiRow(
-                          label: 'Antonimy',
+                          label: s.kanji_antonyms,
                           items: kanji.antonyms,
                         ),
                     ],

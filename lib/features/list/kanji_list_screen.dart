@@ -1,6 +1,7 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/list_branch.dart';
 import 'package:kanji_app/navigation/routes.dart';
@@ -13,6 +14,7 @@ class KanjiListScreen extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
     final theme = Theme.of(context);
 
     final kanjiData = context.read<KanjiData>();
@@ -45,7 +47,7 @@ class KanjiListScreen extends HookWidget {
                       horizontal: AppUnit.large,
                     ),
                     child: Text(
-                      'Znaki',
+                      s.kanjiList_title,
                       style: theme.textTheme.displayLarge?.apply(
                         color: theme.colorScheme.secondary,
                       ),
@@ -60,7 +62,7 @@ class KanjiListScreen extends HookWidget {
                     child: SearchBar(
                       controller: searchController,
                       elevation: const WidgetStatePropertyAll(0),
-                      hintText: 'Szukaj znaków',
+                      hintText: s.kanjiList_search,
                       leading: Padding(
                         padding: const AppPadding.all(AppUnit.medium),
                         child: AppIcon(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 
 class ScaffoldWithNavBar extends StatelessWidget {
   const ScaffoldWithNavBar({
@@ -15,6 +16,7 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
     final theme = Theme.of(context);
 
     Widget body(BuildContext context) {
@@ -59,17 +61,17 @@ class ScaffoldWithNavBar extends StatelessWidget {
         destinations: [
           AppNavigationDestination(
             icon: AppIconData.listAlt,
-            label: 'Znaki',
+            label: s.kanjiList_title,
             selected: currentIndex == 0,
           ),
           AppNavigationDestination(
             icon: AppIconData.bookmark,
-            label: 'Zestawy',
+            label: s.kanjiSets_title,
             selected: currentIndex == 1,
           ),
           AppNavigationDestination(
             icon: AppIconData.workspaces,
-            label: 'Pierwiastki',
+            label: s.radicals_title,
             selected: currentIndex == 2,
           ),
         ],

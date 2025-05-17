@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:kanji_app/features/kanji_data/loader.dart';
+import 'package:kanji_app/l10n/app_l10n.dart';
 import 'package:kanji_app/navigation/router.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
@@ -24,7 +25,12 @@ class MainApp extends HookWidget {
   Widget build(BuildContext context) {
     final router = useGoRouter();
 
-    return MaterialApp.router(routerConfig: router, theme: appTheme());
+    return MaterialApp.router(
+      routerConfig: router,
+      theme: appTheme(),
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+    );
   }
 }
 
