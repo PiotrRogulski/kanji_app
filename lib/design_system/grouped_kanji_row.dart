@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kanji_app/design_system/card.dart';
+import 'package:kanji_app/design_system.dart';
 
 class GroupedKanjiRow extends StatelessWidget {
   const GroupedKanjiRow({
@@ -19,20 +19,20 @@ class GroupedKanjiRow extends StatelessWidget {
 
     return AppCard(
       child: Padding(
-        padding: const EdgeInsetsDirectional.only(
-          top: 4,
-          bottom: 4,
-          start: 8,
-          end: 4,
+        padding: const AppPadding.only(
+          top: AppUnit.xsmall,
+          bottom: AppUnit.xsmall,
+          start: AppUnit.small,
+          end: AppUnit.xsmall,
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
-          spacing: 4,
+          spacing: AppUnit.xsmall,
           children: [
             Text(label, style: theme.textTheme.bodyLarge),
             Row(
               mainAxisSize: MainAxisSize.min,
-              spacing: 2,
+              spacing: AppUnit.tiny,
               children: [
                 for (final (index, item) in items.indexed)
                   _Item(
@@ -71,9 +71,9 @@ class _Item extends StatelessWidget {
       dimension: 32,
       child: Material(
         color: theme.colorScheme.surface,
-        borderRadius: BorderRadius.horizontal(
-          left: Radius.circular(isFirst ? 8 : 4),
-          right: Radius.circular(isLast ? 8 : 4),
+        borderRadius: AppBorderRadius.horizontal(
+          start: isFirst ? AppUnit.small : AppUnit.xsmall,
+          end: isLast ? AppUnit.small : AppUnit.xsmall,
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(

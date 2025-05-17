@@ -1,8 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:kanji_app/design_system/card.dart';
-import 'package:kanji_app/design_system/icon.dart';
-import 'package:kanji_app/design_system/icons.dart';
+import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/list_branch.dart';
 import 'package:kanji_app/navigation/routes.dart';
@@ -38,12 +36,14 @@ class KanjiListScreen extends HookWidget {
       body: CustomScrollView(
         slivers: [
           SliverPadding(
-            padding: const EdgeInsets.all(16),
+            padding: const AppPadding.all(AppUnit.large),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const AppPadding.symmetric(
+                      horizontal: AppUnit.large,
+                    ),
                     child: Text(
                       'Znaki',
                       style: theme.textTheme.displayLarge?.apply(
@@ -54,13 +54,15 @@ class KanjiListScreen extends HookWidget {
                 ),
                 PinnedHeaderSliver(
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    padding: const AppPadding.symmetric(
+                      vertical: AppUnit.large,
+                    ),
                     child: SearchBar(
                       controller: searchController,
                       elevation: const WidgetStatePropertyAll(0),
                       hintText: 'Szukaj znaków',
                       leading: Padding(
-                        padding: const EdgeInsets.all(12),
+                        padding: const AppPadding.all(AppUnit.medium),
                         child: AppIcon(
                           AppIconData.search,
                           size: 24,
@@ -72,7 +74,7 @@ class KanjiListScreen extends HookWidget {
                 ),
                 SliverList.separated(
                   itemCount: filteredKanji.value.length,
-                  separatorBuilder: (_, _) => const SizedBox(height: 16),
+                  separatorBuilder: (_, _) => AppUnit.large.gap,
                   itemBuilder: (context, index) =>
                       _Entry(filteredKanji.value[index]),
                 ),
@@ -99,10 +101,10 @@ class _Entry extends StatelessWidget {
       child: Stack(
         children: [
           Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const AppPadding.all(AppUnit.large),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 16,
+              spacing: AppUnit.large,
               children: [
                 Text(
                   entry.kanji,
@@ -118,8 +120,8 @@ class _Entry extends StatelessWidget {
             ),
           ),
           PositionedDirectional(
-            start: 8,
-            top: 4,
+            start: AppUnit.small,
+            top: AppUnit.xsmall,
             child: Text(
               entry.id.toString(),
               style: theme.textTheme.labelSmall?.apply(

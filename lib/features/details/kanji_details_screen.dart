@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:kanji_app/design_system/grouped_kanji_row.dart';
+import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/details/widgets/readings_group.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -36,23 +36,23 @@ class _NarrowBody extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverPadding(
-            padding: const EdgeInsets.all(16),
+            padding: const AppPadding.all(AppUnit.large),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 8,
+                    spacing: AppUnit.small,
                     children: [
                       Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
+                        spacing: AppUnit.small,
+                        runSpacing: AppUnit.small,
                         children: [
                           KanjiTile(kanji),
                           Column(
                             mainAxisSize: MainAxisSize.min,
-                            spacing: 8,
+                            spacing: AppUnit.small,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               GroupedKanjiRow(

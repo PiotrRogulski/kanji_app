@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kanji_app/design_system.dart';
 
 class KanjiReadings extends StatelessWidget {
   const KanjiReadings(this.readings, {super.key});
@@ -11,17 +12,22 @@ class KanjiReadings extends StatelessWidget {
 
     return IntrinsicWidth(
       child: Column(
-        spacing: 2,
+        spacing: AppUnit.tiny,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           for (final (index, reading) in readings.indexed)
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 2, horizontal: 4),
+              padding: const AppPadding.symmetric(
+                vertical: AppUnit.tiny,
+                horizontal: AppUnit.xsmall,
+              ),
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
-                borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(index == 0 ? 8 : 4),
-                  bottom: Radius.circular(index == readings.length - 1 ? 8 : 4),
+                borderRadius: AppBorderRadius.vertical(
+                  top: index == 0 ? AppUnit.small : AppUnit.xsmall,
+                  bottom: index == readings.length - 1
+                      ? AppUnit.small
+                      : AppUnit.xsmall,
                 ),
               ),
               child: Text(

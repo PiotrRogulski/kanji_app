@@ -1,0 +1,28 @@
+import 'package:flutter/material.dart';
+import 'package:kanji_app/design_system.dart';
+
+class AppRadius extends Radius {
+  const AppRadius._circular(super.radius) : super.circular();
+  const factory AppRadius.circular(AppUnit radius) = AppRadius._circular;
+
+  static const zero = AppRadius._circular(0);
+}
+
+class AppBorderRadius extends BorderRadiusDirectional {
+  AppBorderRadius.circular(AppUnit super.radius) : super.circular();
+
+  AppBorderRadius.vertical({AppUnit? top, AppUnit? bottom})
+    : super.vertical(
+        top: top != null ? AppRadius.circular(top) : AppRadius.zero,
+        bottom: AppRadius.circular(bottom ?? AppUnit.xsmall),
+      );
+
+  AppBorderRadius.horizontal({AppUnit? start, AppUnit? end})
+    : super.horizontal(
+        start: start != null ? AppRadius.circular(start) : AppRadius.zero,
+        end: AppRadius.circular(end ?? AppUnit.xsmall),
+      );
+
+  const AppBorderRadius._zero() : super.all(AppRadius.zero);
+  static const zero = AppBorderRadius._zero();
+}

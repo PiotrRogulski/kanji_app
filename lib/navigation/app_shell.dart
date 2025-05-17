@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
-import 'package:kanji_app/design_system/dynamic_weight.dart';
-import 'package:kanji_app/design_system/icon.dart';
-import 'package:kanji_app/design_system/icons.dart';
+import 'package:kanji_app/design_system.dart';
 
 class ScaffoldWithNavBar extends StatelessWidget {
   const ScaffoldWithNavBar({
@@ -24,17 +22,17 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
       return Container(
         margin: switch (isSmall) {
-          false => const EdgeInsetsGeometry.directional(
-            top: 16,
-            bottom: 16,
-            end: 16,
+          false => const AppPadding.only(
+            top: AppUnit.large,
+            bottom: AppUnit.large,
+            end: AppUnit.large,
           ),
           true => EdgeInsets.zero,
         },
         decoration: BoxDecoration(
           borderRadius: switch (isSmall) {
-            false => BorderRadius.circular(16),
-            true => BorderRadius.zero,
+            false => AppBorderRadius.circular(AppUnit.large),
+            true => AppBorderRadius.zero,
           },
         ),
         clipBehavior: Clip.antiAlias,

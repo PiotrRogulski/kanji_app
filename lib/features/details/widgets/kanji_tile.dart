@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kanji_app/design_system/card.dart';
-import 'package:kanji_app/design_system/icon.dart';
-import 'package:kanji_app/design_system/icons.dart';
+import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 
 class KanjiTile extends StatelessWidget {
@@ -23,10 +21,10 @@ class KanjiTile extends StatelessWidget {
       child: Stack(
         children: [
           Padding(
-            padding: const EdgeInsets.all(4),
+            padding: const AppPadding.all(AppUnit.xsmall),
             child: Column(
               mainAxisSize: MainAxisSize.min,
-              spacing: 12,
+              spacing: AppUnit.medium,
               children: [
                 Text(
                   kanji.kanji,
@@ -39,7 +37,7 @@ class KanjiTile extends StatelessWidget {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const SizedBox(width: 8),
+                    AppUnit.small.gap,
                     Text(
                       'Kolejność pisania',
                       style: theme.textTheme.bodyLarge?.apply(
@@ -57,14 +55,14 @@ class KanjiTile extends StatelessWidget {
             ),
           ),
           PositionedDirectional(
-            top: 4,
-            start: 4,
+            top: AppUnit.xsmall,
+            start: AppUnit.xsmall,
             child: Container(
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
-                borderRadius: BorderRadius.circular(8),
+                borderRadius: AppBorderRadius.circular(AppUnit.small),
               ),
-              padding: const EdgeInsets.symmetric(horizontal: 4),
+              padding: const AppPadding.symmetric(horizontal: AppUnit.xsmall),
               child: Text(
                 kanji.id.toString(),
                 style: theme.textTheme.bodyLarge,
