@@ -14,7 +14,7 @@ class AppBorderRadius extends BorderRadiusDirectional {
   AppBorderRadius.vertical({AppUnit? top, AppUnit? bottom})
     : super.vertical(
         top: top != null ? AppRadius.circular(top) : AppRadius.zero,
-        bottom: AppRadius.circular(bottom ?? AppUnit.xsmall),
+        bottom: bottom != null ? AppRadius.circular(bottom) : AppRadius.zero,
       );
 
   AppBorderRadius.horizontal({AppUnit? start, AppUnit? end})
