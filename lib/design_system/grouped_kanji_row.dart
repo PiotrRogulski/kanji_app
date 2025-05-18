@@ -4,12 +4,12 @@ import 'package:kanji_app/design_system.dart';
 class GroupedKanjiRow extends StatelessWidget {
   const GroupedKanjiRow({
     super.key,
-    this.onItemTap,
+    this.onItemTapHandlerGetter,
     required this.label,
     required this.items,
   });
 
-  final void Function(String item)? onItemTap;
+  final VoidCallback? Function(String item)? onItemTapHandlerGetter;
   final String label;
   final List<String> items;
 
@@ -36,7 +36,7 @@ class GroupedKanjiRow extends StatelessWidget {
               children: [
                 for (final (index, item) in items.indexed)
                   _Item(
-                    onItemTap: onItemTap,
+                    onTap: onItemTapHandlerGetter?.call(item),
                     isFirst: index == 0,
                     isLast: index == items.length - 1,
                     item: item,
@@ -52,13 +52,13 @@ class GroupedKanjiRow extends StatelessWidget {
 
 class _Item extends StatelessWidget {
   const _Item({
-    required this.onItemTap,
+    required this.onTap,
     required this.isFirst,
     required this.isLast,
     required this.item,
   });
 
-  final void Function(String item)? onItemTap;
+  final VoidCallback? onTap;
   final bool isFirst;
   final bool isLast;
   final String item;
@@ -77,7 +77,7 @@ class _Item extends StatelessWidget {
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
-          onTap: onItemTap != null ? () => onItemTap?.call(item) : null,
+          onTap: onTap,
           child: Center(
             child: Text(
               item,
