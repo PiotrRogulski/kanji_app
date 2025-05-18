@@ -21,6 +21,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get kanji_antonyms => 'Antonimy';
 
   @override
+  String get kanji_openInJisho => 'Otwórz w Jisho';
+
+  @override
   String get kanji_radical => 'Pierwiastek';
 
   @override

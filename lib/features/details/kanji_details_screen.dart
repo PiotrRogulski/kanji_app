@@ -7,6 +7,7 @@ import 'package:kanji_app/features/details/widgets/readings_group.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class KanjiDetailsScreen extends StatelessWidget {
   const KanjiDetailsScreen(this.id, {super.key});
@@ -35,6 +36,22 @@ class _NarrowBody extends StatelessWidget {
     final s = context.l10n;
 
     return Scaffold(
+      appBar: AppBar(
+        actionsPadding: const AppPadding.only(end: AppUnit.small),
+        actions: [
+          IconButton(
+            icon: const AppIcon(AppIconData.openInNew, size: 24),
+            onPressed: () => launchUrl(
+              Uri(
+                scheme: 'https',
+                host: 'jisho.org',
+                pathSegments: ['search', '${entry.kanji} #kanji'],
+              ),
+            ),
+            tooltip: s.kanji_openInJisho,
+          ),
+        ],
+      ),
       body: CustomScrollView(
         slivers: [
           SliverPadding(

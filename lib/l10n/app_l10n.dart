@@ -118,6 +118,12 @@ abstract class AppLocalizations {
   /// **'Antonimy'**
   String get kanji_antonyms;
 
+  /// No description provided for @kanji_openInJisho.
+  ///
+  /// In pl, this message translates to:
+  /// **'Otwórz w Jisho'**
+  String get kanji_openInJisho;
+
   /// No description provided for @kanji_radical.
   ///
   /// In pl, this message translates to:
