@@ -36,24 +36,26 @@ class _NarrowBody extends StatelessWidget {
     final s = context.l10n;
 
     return Scaffold(
-      appBar: AppBar(
-        actionsPadding: const AppPadding.only(end: AppUnit.small),
-        actions: [
-          IconButton(
-            icon: const AppIcon(AppIconData.openInNew, size: 24),
-            onPressed: () => launchUrl(
-              Uri(
-                scheme: 'https',
-                host: 'jisho.org',
-                pathSegments: ['search', '${entry.kanji} #kanji'],
-              ),
-            ),
-            tooltip: s.kanji_openInJisho,
-          ),
-        ],
-      ),
       body: CustomScrollView(
         slivers: [
+          SliverAppBar(
+            actionsPadding: const AppPadding.only(end: AppUnit.small),
+            floating: true,
+            snap: true,
+            actions: [
+              IconButton(
+                icon: const AppIcon(AppIconData.openInNew, size: 24),
+                onPressed: () => launchUrl(
+                  Uri(
+                    scheme: 'https',
+                    host: 'jisho.org',
+                    pathSegments: ['search', '${entry.kanji} #kanji'],
+                  ),
+                ),
+                tooltip: s.kanji_openInJisho,
+              ),
+            ],
+          ),
           SliverPadding(
             padding: const AppPadding.all(AppUnit.large),
             sliver: SliverMainAxisGroup(
