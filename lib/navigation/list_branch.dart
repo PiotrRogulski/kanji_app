@@ -20,6 +20,8 @@ class KanjiListBranch extends StatefulShellBranchData {
 }
 
 class KanjiListRoute extends GoRouteData {
+  const KanjiListRoute();
+
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const KanjiListScreen();

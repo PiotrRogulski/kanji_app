@@ -7,7 +7,7 @@ GoRouter useGoRouter() {
   return useMemoized(
     () => GoRouter(
       routes: $appRoutes,
-      initialLocation: KanjiListRoute().location,
+      initialLocation: const KanjiListRoute().location,
     ),
   );
 }

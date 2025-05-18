@@ -64,7 +64,8 @@ extension $RootRouteExtension on RootRoute {
 }
 
 extension $KanjiListRouteExtension on KanjiListRoute {
-  static KanjiListRoute _fromState(GoRouterState state) => KanjiListRoute();
+  static KanjiListRoute _fromState(GoRouterState state) =>
+      const KanjiListRoute();
 
   String get location => GoRouteData.$location('/list');
 
