@@ -87,21 +87,23 @@ class Word with EquatableMixin {
     required this.word,
     required this.reading,
     required this.meaning,
-    this.related,
+    required this.related,
   });
 
   Word.fromJson(Map<String, dynamic> json)
     : word = json['word'] as String,
       reading = json['reading'] as String,
       meaning = json['meaning'] as String,
-      related = (json['related'] as List?)
-          ?.map((e) => RelatedWord.fromJson(e as Map<String, dynamic>))
-          .toList();
+      related =
+          (json['related'] as List?)
+              ?.map((e) => RelatedWord.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [];
 
   final String word;
   final String reading;
   final String meaning;
-  final List<RelatedWord>? related;
+  final List<RelatedWord> related;
 
   @override
   List<Object?> get props => [word, reading, meaning, related];
@@ -110,7 +112,7 @@ class Word with EquatableMixin {
     'word': word,
     'reading': reading,
     'meaning': meaning,
-    'related': ?related?.map((e) => e.toJson()).toList(),
+    if (related.isNotEmpty) 'related': related.map((e) => e.toJson()).toList(),
   };
 }
 

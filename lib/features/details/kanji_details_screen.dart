@@ -4,6 +4,7 @@ import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/details/widgets/readings_group.dart';
+import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:provider/provider.dart';
 
@@ -25,9 +26,9 @@ class KanjiDetailsScreen extends StatelessWidget {
 }
 
 class _NarrowBody extends StatelessWidget {
-  const _NarrowBody(this.kanji);
+  const _NarrowBody(this.entry);
 
-  final KanjiEntry kanji;
+  final KanjiEntry entry;
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +51,7 @@ class _NarrowBody extends StatelessWidget {
                         spacing: AppUnit.small,
                         runSpacing: AppUnit.small,
                         children: [
-                          KanjiTile(kanji),
+                          KanjiTile(entry),
                           Column(
                             mainAxisSize: MainAxisSize.min,
                             spacing: AppUnit.small,
@@ -58,27 +59,28 @@ class _NarrowBody extends StatelessWidget {
                             children: [
                               GroupedKanjiRow(
                                 label: s.kanji_radical,
-                                items: [kanji.radical],
+                                items: [entry.radical],
                               ),
-                              KanjiReadingsGroup(kanji),
+                              KanjiReadingsGroup(entry),
                             ],
                           ),
                         ],
                       ),
-                      if (kanji.synonyms.isNotEmpty)
+                      if (entry.synonyms.isNotEmpty)
                         GroupedKanjiRow(
                           label: s.kanji_synonyms,
-                          items: kanji.synonyms,
+                          items: entry.synonyms,
                         ),
-                      if (kanji.antonyms.isNotEmpty)
+                      if (entry.antonyms.isNotEmpty)
                         GroupedKanjiRow(
                           label: s.kanji_antonyms,
-                          items: kanji.antonyms,
+                          items: entry.antonyms,
                         ),
                     ],
                   ),
                 ),
-              ],
+                SliverKanjiWords(entry: entry),
+              ].spacedSliver(AppUnit.small),
             ),
           ),
         ],
