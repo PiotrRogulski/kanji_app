@@ -9,6 +9,7 @@ import 'package:kanji_app/navigation/routes.dart';
 import 'package:kanji_app/widgets/readings.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
+import 'package:super_sliver_list/super_sliver_list.dart';
 
 class KanjiListScreen extends HookWidget {
   const KanjiListScreen({super.key});
@@ -82,7 +83,7 @@ class KanjiListScreen extends HookWidget {
                     ),
                   ),
                 ),
-                SliverList.separated(
+                SuperSliverList.separated(
                   itemCount: filteredKanji.value.length,
                   separatorBuilder: (_, _) => AppUnit.large.gap,
                   itemBuilder: (context, index) =>
