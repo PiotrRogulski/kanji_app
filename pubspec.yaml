@@ -6,6 +6,7 @@ environment:
   flutter: 3.33.0-1.0.pre.122
 
 dependencies:
+  archive: ^4.0.7
   collection: ^1.19.1
   equatable: ^2.0.7
   flutter:
@@ -18,6 +19,7 @@ dependencies:
   leancode_hooks: ^0.1.1
   logging: ^1.3.0
   provider: ^6.1.5
+  sliver_tools: ^0.2.12
 
 dev_dependencies:
   arb_utils: ^0.8.3
@@ -28,6 +30,7 @@ dev_dependencies:
   leancode_lint: ^16.0.0
 
 dependency_overrides:
+  archive: ^4.0.7
   intl: ^0.20.2
 
 flutter:
@@ -35,13 +38,7 @@ flutter:
   generate: true
 
   assets:
-    - kanji_data/1/
-    - kanji_data/2/
-    - kanji_data/3/
-    - kanji_data/4/
-    - kanji_data/5/
-    - kanji_data/6/
-    - kanji_data/7/
+    - assets/kanji.jsonl.xz
 
   fonts:
     - family: Material Symbols Rounded

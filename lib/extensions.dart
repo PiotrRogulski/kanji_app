@@ -16,3 +16,7 @@ extension WidgetListX on List<Widget> {
 
   List<Widget> spaced(AppUnit space) => _spaced(space.gap);
 }
+
+extension GenericX<T extends Object> on T {
+  R apply<R>(R Function(T) f) => f(this);
+}

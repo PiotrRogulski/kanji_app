@@ -1,7 +1,9 @@
 import 'dart:convert';
 
+import 'package:archive/archive.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:logging/logging.dart';
 
@@ -9,38 +11,30 @@ Logger get _logger => Logger('KanjiLoader');
 
 Future<KanjiData> loadKanji() async {
   final stopwatch = Stopwatch()..start();
-  final keys = await rootBundle
-      .loadString('AssetManifest.json')
-      .then((jsonString) => jsonDecode(jsonString) as Map<String, dynamic>)
-      .then((json) => json.keys.where((key) => key.startsWith('kanji_data/')));
 
-  final sortedData = await keys
-      .map(_loadKanji)
-      .wait
-      .then((data) => data.nonNulls.sortedBy((e) => e.id));
+  final assetBytes = await rootBundle.load('assets/kanji.jsonl.xz');
+
+  final jsons = assetBytes
+      .apply(Uint8List.sublistView)
+      .apply(XZDecoder().decodeBytes)
+      .apply(utf8.decode)
+      .trimRight()
+      .split('\n');
+
+  final data = jsons.map(_parseKanji).nonNulls.sortedBy((e) => e.id);
 
   final time = stopwatch.elapsed;
-  _logger.fine(
-    'Loaded ${sortedData.length}/${keys.length} kanji entries in $time',
-  );
+  _logger.fine('Loaded ${data.length}/${jsons.length} kanji entries in $time');
 
-  return KanjiData(sortedData);
+  return KanjiData(data);
 }
 
-Future<KanjiEntry?> _loadKanji(String key) async {
-  final String jsonString;
-  try {
-    jsonString = await rootBundle.loadString(key);
-  } catch (err, st) {
-    _logger.severe('Failed to load asset for $key', err, st);
-    return null;
-  }
-
+KanjiEntry? _parseKanji(String jsonString) {
   final Map<String, dynamic> json;
   try {
     json = jsonDecode(jsonString) as Map<String, dynamic>;
   } catch (err, st) {
-    _logger.severe('Failed to decode JSON for $key\n$jsonString', err, st);
+    _logger.severe('Failed to decode JSON\n$jsonString', err, st);
     return null;
   }
 
@@ -48,7 +42,7 @@ Future<KanjiEntry?> _loadKanji(String key) async {
     return KanjiEntry.fromJson(json);
   } catch (err, st) {
     final prettyJson = const JsonEncoder.withIndent('  ').convert(json);
-    _logger.severe('KanjiEntry.fromJson failed for $key\n$prettyJson', err, st);
+    _logger.severe('KanjiEntry.fromJson failed\n$prettyJson', err, st);
     return null;
   }
 }
