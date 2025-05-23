@@ -1,5 +1,7 @@
 {
   "@@locale": "pl",
+  "kanjiDetails_next": "Następne kanji",
+  "kanjiDetails_previous": "Poprzednie kanji",
   "kanjiList_search": "Szukaj znaków",
   "kanjiList_title": "Znaki",
   "kanjiSets_title": "Zestawy",

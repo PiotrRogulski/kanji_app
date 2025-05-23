@@ -5,7 +5,6 @@ import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/details/widgets/readings_group.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
-import 'package:kanji_app/navigation/list_branch.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:provider/provider.dart';
 

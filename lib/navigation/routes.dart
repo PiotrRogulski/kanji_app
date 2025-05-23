@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:kanji_app/features/details/kanji_details_screen.dart';
+import 'package:kanji_app/features/list/kanji_list_screen.dart';
+import 'package:kanji_app/features/radicals/radicals_screen.dart';
+import 'package:kanji_app/features/sets/kanji_sets_screen.dart';
 import 'package:kanji_app/navigation/app_shell.dart';
-import 'package:kanji_app/navigation/list_branch.dart';
-import 'package:kanji_app/navigation/radicals_branch.dart';
-import 'package:kanji_app/navigation/sets_branch.dart';
 
 part 'routes.g.dart';
+part 'list_branch.dart';
+part 'radicals_branch.dart';
+part 'sets_branch.dart';
 
 @TypedStatefulShellRoute<RootRoute>(
   branches: [listBranch, setsBranch, radicalsBranch],

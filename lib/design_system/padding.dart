@@ -18,4 +18,6 @@ class AppPadding extends EdgeInsetsDirectional {
 
   const AppPadding.symmetric({AppUnit? horizontal, AppUnit? vertical})
     : super.symmetric(horizontal: horizontal ?? 0, vertical: vertical ?? 0);
+
+  static const zero = AppPadding.only();
 }

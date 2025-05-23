@@ -20,7 +20,7 @@ class AppBorderRadius extends BorderRadiusDirectional {
   AppBorderRadius.horizontal({AppUnit? start, AppUnit? end})
     : super.horizontal(
         start: start != null ? AppRadius.circular(start) : AppRadius.zero,
-        end: AppRadius.circular(end ?? AppUnit.xsmall),
+        end: end != null ? AppRadius.circular(end) : AppRadius.zero,
       );
 
   const AppBorderRadius._zero() : super.all(AppRadius.zero);
