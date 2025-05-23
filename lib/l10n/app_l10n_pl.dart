@@ -37,4 +37,10 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get radicals_title => 'Pierwiastki';
+
+  @override
+  String get previousKanjiTooltip => 'Poprzednie kanji';
+
+  @override
+  String get nextKanjiTooltip => 'Następne kanji';
 }

@@ -153,6 +153,18 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Pierwiastki'**
   String get radicals_title;
+
+  /// No description provided for @previousKanjiTooltip.
+  ///
+  /// In pl, this message translates to:
+  /// **'Poprzednie kanji'**
+  String get previousKanjiTooltip;
+
+  /// No description provided for @nextKanjiTooltip.
+  ///
+  /// In pl, this message translates to:
+  /// **'Następne kanji'**
+  String get nextKanjiTooltip;
 }
 
 class _AppLocalizationsDelegate
