@@ -9,5 +9,7 @@
   "kanji_readings": "Czytania",
   "kanji_strokeOrder": "Kolejność pisania",
   "kanji_synonyms": "Synonimy",
-  "radicals_title": "Pierwiastki"
+  "radicals_title": "Pierwiastki",
+  "previousKanjiTooltip": "Poprzednie kanji",
+  "nextKanjiTooltip": "Następne kanji"
 }
