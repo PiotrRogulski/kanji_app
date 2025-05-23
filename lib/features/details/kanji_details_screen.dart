@@ -16,17 +16,9 @@ class KanjiDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
-    final kanjiData = context.read<KanjiData>();
-    final allKanjiEntries = kanjiData.entries;
 
     // TODO: Add not found screen
-    final entry = kanjiData.get(id)!;
-
-    // KanjiData.entries is guaranteed not to be empty.
-    final int lastKanjiId = allKanjiEntries.last.id;
-
-    final bool canGoToPrevious = id > 1;
-    final bool canGoToNext = id < lastKanjiId;
+    final entry = context.read<KanjiData>().get(id)!;
 
     return Scaffold(
       body: Stack(
@@ -77,43 +69,90 @@ class KanjiDetailsScreen extends StatelessWidget {
                   },
                 ),
               ),
-              // Add padding at the bottom of the scroll view so content isn't obscured by buttons
-              SliverToBoxAdapter(
-                child: SizedBox(
-                  height: AppUnit.large.value * 5,
-                ), // 5 * 16.0 = 80.0
+              const SliverToBoxAdapter(
+                child: SizedBox(height: AppUnit.xlarge * 2),
               ),
             ],
           ),
           Positioned(
-            bottom: AppUnit.large.value, // 16.0
-            // left: 0 and right: 0 are removed as per instruction
-            child: Center(
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  IconButton(
-                    icon: const AppIcon(AppIconData.arrowLeft, size: 32),
-                    onPressed: canGoToPrevious
-                        ? () => KanjiDetailsRoute(id - 1).go(context)
-                        : null,
-                    tooltip: s.previousKanjiTooltip,
-                  ),
-                  SizedBox(
-                    width: AppUnit.large.value + AppUnit.xsmall.value,
-                  ), // 16.0 + 4.0 = 20.0
-                  IconButton(
-                    icon: const AppIcon(AppIconData.arrowRight, size: 32),
-                    onPressed: canGoToNext
-                        ? () => KanjiDetailsRoute(id + 1).go(context)
-                        : null,
-                    tooltip: s.nextKanjiTooltip,
-                  ),
-                ],
-              ),
+            bottom: AppUnit.large.value,
+            left: 0,
+            right: 0,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                _NavButton(type: _NavButtonType.previous, id: id),
+                AppUnit.tiny.gap,
+                _NavButton(type: _NavButtonType.next, id: id),
+              ],
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+enum _NavButtonType {
+  previous,
+  next;
+
+  int getTargetID(int id) => switch (this) {
+    previous => id - 1,
+    next => id + 1,
+  };
+
+  AppBorderRadius get borderRadius => switch (this) {
+    previous => AppBorderRadius.horizontal(
+      start: AppUnit.xlarge,
+      end: AppUnit.xsmall,
+    ),
+    next => AppBorderRadius.horizontal(
+      start: AppUnit.xsmall,
+      end: AppUnit.xlarge,
+    ),
+  };
+
+  AppIconData get icon => switch (this) {
+    previous => AppIconData.chevronBackward,
+    next => AppIconData.chevronForward,
+  };
+
+  String tooltip(BuildContext context) => switch (this) {
+    previous => context.l10n.kanjiDetails_previous,
+    next => context.l10n.kanjiDetails_next,
+  };
+
+  bool enabled(BuildContext context, int id) => switch (this) {
+    previous => id > 1,
+    next => id < context.read<KanjiData>().entries.last.id,
+  };
+}
+
+class _NavButton extends StatelessWidget {
+  const _NavButton({required this.type, required this.id});
+
+  final _NavButtonType type;
+  final int id;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    final enabled = type.enabled(context, id);
+
+    return IconButton(
+      icon: AppIcon(type.icon, size: 32),
+      onPressed: enabled
+          ? () => KanjiDetailsRoute(type.getTargetID(id)).go(context)
+          : null,
+      tooltip: type.tooltip(context),
+      style: IconButton.styleFrom(
+        backgroundColor: theme.colorScheme.primaryContainer,
+        disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
+        fixedSize: const Size.fromHeight(AppUnit.large * 2),
+        padding: const AppPadding.only(),
+        shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
       ),
     );
   }
