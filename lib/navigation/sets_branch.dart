@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:kanji_app/features/sets/kanji_sets_screen.dart';
+part of 'routes.dart';
 
 const setsBranch = TypedStatefulShellBranch<KanjiSetsBranch>(
   routes: [TypedGoRoute<KanjiSetsRoute>(path: '/sets')],

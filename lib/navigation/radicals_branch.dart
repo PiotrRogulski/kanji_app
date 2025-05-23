@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:kanji_app/features/radicals/radicals_screen.dart';
+part of 'routes.dart';
 
 const radicalsBranch = TypedStatefulShellBranch<RadicalsBranch>(
   routes: [TypedGoRoute<RadicalsRoute>(path: '/radicals')],

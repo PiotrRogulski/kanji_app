@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:kanji_app/features/details/kanji_details_screen.dart';
-import 'package:kanji_app/features/list/kanji_list_screen.dart';
+part of 'routes.dart';
 
 const listBranch = TypedStatefulShellBranch<KanjiListBranch>(
   routes: [
