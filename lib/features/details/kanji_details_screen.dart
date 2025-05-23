@@ -151,7 +151,7 @@ class _NavButton extends StatelessWidget {
         backgroundColor: theme.colorScheme.primaryContainer,
         disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
         fixedSize: const Size.fromHeight(AppUnit.large * 2),
-        padding: const AppPadding.only(),
+        padding: AppPadding.zero,
         shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
       ),
     );
