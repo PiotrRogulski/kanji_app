@@ -112,6 +112,12 @@ abstract class AppLocalizations {
   /// **'Kolejność pisania niedostępna'**
   String get kanjiDetails_strokeOrderNotAvailable;
 
+  /// No description provided for @kanjiList_scrollToTop.
+  ///
+  /// In pl, this message translates to:
+  /// **'Przewiń do góry'**
+  String get kanjiList_scrollToTop;
+
   /// No description provided for @kanjiList_search.
   ///
   /// In pl, this message translates to:

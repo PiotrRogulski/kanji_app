@@ -19,6 +19,9 @@ class AppLocalizationsPl extends AppLocalizations {
       'Kolejność pisania niedostępna';
 
   @override
+  String get kanjiList_scrollToTop => 'Przewiń do góry';
+
+  @override
   String get kanjiList_search => 'Szukaj znaków';
 
   @override

@@ -1,5 +1,7 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -8,7 +10,6 @@ import 'package:kanji_app/navigation/routes.dart';
 import 'package:kanji_app/widgets/readings.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
-import 'package:super_sliver_list/super_sliver_list.dart';
 
 class KanjiListScreen extends HookWidget {
   const KanjiListScreen({super.key});
@@ -35,8 +36,39 @@ class KanjiListScreen extends HookWidget {
       }
     });
 
+    final scrollController = useScrollController();
+    final position = useListenableSelector(
+      scrollController,
+      () => scrollController.hasClients ? scrollController.offset : 0,
+    );
+
     return Scaffold(
+      floatingActionButtonLocation:
+          FloatingActionButtonLocation.miniCenterFloat,
+      floatingActionButton: position > 0
+          ? FloatingActionButton(
+              onPressed: () {
+                if (position > 500) {
+                  scrollController.jumpTo(500);
+                }
+                scrollController.animateTo(
+                  0,
+                  duration: Durations.long1,
+                  curve: Curves.easeInOutCubicEmphasized,
+                );
+              },
+              mini: true,
+              elevation: 0,
+              hoverElevation: 0,
+              focusElevation: 0,
+              highlightElevation: 0,
+              tooltip: s.kanjiList_scrollToTop,
+              child: const AppIcon(AppIconData.arrowUpward, size: 24),
+            )
+          : null,
       body: CustomScrollView(
+        controller: scrollController,
+        cacheExtent: 10_000,
         slivers: [
           SliverPadding(
             padding: const AppPadding.all(AppUnit.large),
@@ -55,39 +87,43 @@ class KanjiListScreen extends HookWidget {
                     ),
                   ),
                 ),
-                PinnedHeaderSliver(
-                  child: Padding(
-                    padding: const AppPadding.symmetric(
-                      vertical: AppUnit.large,
-                    ),
-                    child: SearchBar(
-                      controller: searchController,
-                      elevation: const WidgetStatePropertyAll(0),
-                      hintText: s.kanjiList_search,
-                      leading: Padding(
-                        padding: const AppPadding.all(AppUnit.medium),
-                        child: AppIcon(
-                          AppIconData.search,
-                          size: 24,
-                          color: theme.colorScheme.onSurfaceVariant,
-                        ),
+                AppUnit.xsmall.sliverGap,
+                SliverToBoxAdapter(
+                  child: SearchBar(
+                    controller: searchController,
+                    elevation: const WidgetStatePropertyAll(0),
+                    hintText: s.kanjiList_search,
+                    leading: Padding(
+                      padding: const AppPadding.all(AppUnit.medium),
+                      child: AppIcon(
+                        AppIconData.search,
+                        size: 24,
+                        color: theme.colorScheme.onSurfaceVariant,
                       ),
-                      trailing: [
-                        if (searchController.text.isNotEmpty)
-                          IconButton(
-                            onPressed: searchController.clear,
-                            icon: const AppIcon(AppIconData.close, size: 24),
-                          ),
-                      ],
                     ),
+                    trailing: [
+                      if (searchController.text.isNotEmpty)
+                        IconButton(
+                          onPressed: searchController.clear,
+                          icon: const AppIcon(AppIconData.close, size: 24),
+                        ),
+                    ],
                   ),
                 ),
-                SuperSliverList.separated(
-                  itemCount: filteredKanji.value.length,
-                  separatorBuilder: (_, _) => AppUnit.large.gap,
-                  itemBuilder: (context, index) =>
-                      _Entry(filteredKanji.value[index]),
+                AppUnit.large.sliverGap,
+                SliverLayoutBuilder(
+                  builder: (context, constraints) {
+                    return SliverMasonryGrid.count(
+                      crossAxisCount: constraints.crossAxisExtent ~/ 290,
+                      childCount: filteredKanji.value.length,
+                      itemBuilder: (context, index) =>
+                          _Entry(filteredKanji.value[index]),
+                      crossAxisSpacing: AppUnit.large,
+                      mainAxisSpacing: AppUnit.large,
+                    );
+                  },
                 ),
+                const SliverGap(48),
               ],
             ),
           ),
@@ -113,6 +149,7 @@ class _Entry extends StatelessWidget {
           Padding(
             padding: const AppPadding.all(AppUnit.large),
             child: Row(
+              key: ValueKey(entry.id),
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: AppUnit.large,
               children: [
