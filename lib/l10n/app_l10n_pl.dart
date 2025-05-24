@@ -15,6 +15,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String get kanjiDetails_previous => 'Poprzednie kanji';
 
   @override
+  String get kanjiDetails_strokeOrderNotAvailable =>
+      'Kolejność pisania niedostępna';
+
+  @override
   String get kanjiList_search => 'Szukaj znaków';
 
   @override

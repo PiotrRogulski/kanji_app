@@ -106,6 +106,12 @@ abstract class AppLocalizations {
   /// **'Poprzednie kanji'**
   String get kanjiDetails_previous;
 
+  /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
+  ///
+  /// In pl, this message translates to:
+  /// **'Kolejność pisania niedostępna'**
+  String get kanjiDetails_strokeOrderNotAvailable;
+
   /// No description provided for @kanjiList_search.
   ///
   /// In pl, this message translates to:
