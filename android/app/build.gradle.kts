@@ -1,8 +1,17 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+val keystoreProperties = Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 }
 
 android {
@@ -20,21 +29,54 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.kanji_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        register("tst") {
+            storeFile = file(keystoreProperties.getProperty("tst.storeFile"))
+            storePassword = keystoreProperties.getProperty("tst.storePassword")
+            keyAlias = keystoreProperties.getProperty("tst.keyAlias")
+            keyPassword = keystoreProperties.getProperty("tst.keyPassword")
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            isDebuggable = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+        }
+
+        debug {
+            isDebuggable = true
+            isMinifyEnabled = false
+            isShrinkResources = false
+            signingConfig = null
+        }
+    }
+
+    flavorDimensions += "environment"
+
+    val baseAppName = "Kanji Dictionary"
+
+    productFlavors {
+        create("dev") {
+            dimension = "environment"
+            applicationIdSuffix = ".dev"
+            manifestPlaceholders["appName"] = "$baseAppName DEV"
+            signingConfig = signingConfigs.getByName("tst")
+        }
+
+        create("tst") {
+            dimension = "environment"
+            applicationIdSuffix = ".tst"
+            manifestPlaceholders["appName"] = "$baseAppName TST"
+            signingConfig = signingConfigs.getByName("tst")
         }
     }
 }
