@@ -75,7 +75,7 @@ class KanjiDetailsScreen extends StatelessWidget {
             ],
           ),
           Positioned(
-            bottom: AppUnit.large.value,
+            bottom: AppUnit.large,
             left: 0,
             right: 0,
             child: Row(

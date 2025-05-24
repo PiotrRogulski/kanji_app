@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-extension type const AppUnit._(double value) implements double {
+extension type const AppUnit._(double _value) implements double {
   /// A value of 2.0.
   static const tiny = AppUnit._(2);
 
@@ -20,7 +20,7 @@ extension type const AppUnit._(double value) implements double {
   /// A value of 28.0.
   static const xlarge = AppUnit._(28);
 
-  Widget get gap => Gap(value);
+  Widget get gap => Gap(_value);
 
-  Widget get sliverGap => SliverGap(value);
+  Widget get sliverGap => SliverGap(_value);
 }
