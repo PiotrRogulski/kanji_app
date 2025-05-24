@@ -16,6 +16,11 @@ ThemeData appTheme() {
       clipBehavior: Clip.antiAlias,
       margin: EdgeInsets.zero,
     ),
+    pageTransitionsTheme: const PageTransitionsTheme(
+      builders: {
+        TargetPlatform.android: PredictiveBackPageTransitionsBuilder(),
+      },
+    ),
   );
 }
 

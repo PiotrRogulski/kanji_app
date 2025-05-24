@@ -27,14 +27,13 @@ class KanjiTile extends StatelessWidget {
             PageRouteBuilder<void>(
               opaque: false,
               barrierDismissible: true,
-              // barrierColor: theme.colorScheme.surface,
               transitionsBuilder: (context, animation, _, child) {
-                final value = animation.value;
+                final blurSigma = 8 * animation.value;
 
                 return BackdropFilter(
                   filter: ImageFilter.blur(
-                    sigmaX: 8 * value,
-                    sigmaY: 8 * value,
+                    sigmaX: blurSigma,
+                    sigmaY: blurSigma,
                     tileMode: TileMode.clamp,
                   ),
                   child: child,
