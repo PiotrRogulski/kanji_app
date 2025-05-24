@@ -70,7 +70,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                 ),
               ),
               const SliverToBoxAdapter(
-                child: SizedBox(height: AppUnit.xlarge * 2),
+                child: SizedBox(height: AppUnit.xlarge * 2 + AppUnit.large),
               ),
             ],
           ),
@@ -150,10 +150,10 @@ class _NavButton extends StatelessWidget {
       style: IconButton.styleFrom(
         backgroundColor: theme.colorScheme.primaryContainer,
         disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
-        fixedSize: const Size.fromHeight(AppUnit.large * 2),
         padding: AppPadding.zero,
         shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
       ),
+      constraints: BoxConstraints.tight(const Size.square(AppUnit.xlarge * 2)),
     );
   }
 }
