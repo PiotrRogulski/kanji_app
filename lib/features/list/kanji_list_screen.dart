@@ -42,6 +42,8 @@ class KanjiListScreen extends HookWidget {
       () => scrollController.hasClients ? scrollController.offset : 0,
     );
 
+    final viewPadding = MediaQuery.viewPaddingOf(context);
+
     return Scaffold(
       floatingActionButtonLocation:
           FloatingActionButtonLocation.miniCenterFloat,
@@ -71,7 +73,7 @@ class KanjiListScreen extends HookWidget {
         cacheExtent: 10_000,
         slivers: [
           SliverPadding(
-            padding: const AppPadding.all(AppUnit.large),
+            padding: viewPadding.add(const AppPadding.all(AppUnit.large)),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(

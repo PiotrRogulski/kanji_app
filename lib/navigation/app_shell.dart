@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
@@ -22,14 +24,16 @@ class ScaffoldWithNavBar extends StatelessWidget {
     Widget body(BuildContext context) {
       final isSmall = Breakpoints.small.isActive(context);
 
+      final viewPadding = MediaQuery.viewPaddingOf(context);
+
       return Container(
         margin: switch (isSmall) {
-          false => const AppPadding.only(
-            top: AppUnit.large,
-            bottom: AppUnit.large,
+          false => EdgeInsetsDirectional.only(
+            top: max(AppUnit.large, viewPadding.top),
+            bottom: max(AppUnit.large, viewPadding.bottom),
             end: AppUnit.large,
           ),
-          true => EdgeInsets.zero,
+          true => null,
         },
         decoration: BoxDecoration(
           borderRadius: switch (isSmall) {
@@ -40,9 +44,16 @@ class ScaffoldWithNavBar extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         child: Theme(
           data: theme,
-          child: AnimatedBranchContainer(
-            currentIndex: navigationShell.currentIndex,
-            children: children,
+          child: MediaQuery.removeViewPadding(
+            context: context,
+            removeBottom: true,
+            removeLeft: !isSmall,
+            removeRight: !isSmall,
+            removeTop: !isSmall,
+            child: AnimatedBranchContainer(
+              currentIndex: navigationShell.currentIndex,
+              children: children,
+            ),
           ),
         ),
       );
@@ -84,6 +95,7 @@ class ScaffoldWithNavBar extends StatelessWidget {
         },
         useDrawer: false,
         internalAnimations: false,
+        extendedNavigationRailWidth: 210,
         body: body,
       ),
     );
