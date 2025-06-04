@@ -11,7 +11,7 @@ class RadicalsBranch extends StatefulShellBranchData {
   static const $restorationScopeId = 'radicalsBranch';
 }
 
-class RadicalsRoute extends GoRouteData {
+class RadicalsRoute extends GoRouteData with _$RadicalsRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const RadicalsScreen();

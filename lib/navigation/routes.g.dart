@@ -21,12 +21,12 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
         GoRouteData.$route(
           path: '/list',
 
-          factory: $KanjiListRouteExtension._fromState,
+          factory: _$KanjiListRoute._fromState,
           routes: [
             GoRouteData.$route(
               path: ':id',
 
-              factory: $KanjiDetailsRouteExtension._fromState,
+              factory: _$KanjiDetailsRoute._fromState,
             ),
           ],
         ),
@@ -37,11 +37,7 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
       restorationScopeId: KanjiSetsBranch.$restorationScopeId,
 
       routes: [
-        GoRouteData.$route(
-          path: '/sets',
-
-          factory: $KanjiSetsRouteExtension._fromState,
-        ),
+        GoRouteData.$route(path: '/sets', factory: _$KanjiSetsRoute._fromState),
       ],
     ),
     StatefulShellBranchData.$branch(
@@ -52,7 +48,7 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
         GoRouteData.$route(
           path: '/radicals',
 
-          factory: $RadicalsRouteExtension._fromState,
+          factory: _$RadicalsRoute._fromState,
         ),
       ],
     ),
@@ -63,65 +59,88 @@ extension $RootRouteExtension on RootRoute {
   static RootRoute _fromState(GoRouterState state) => RootRoute();
 }
 
-extension $KanjiListRouteExtension on KanjiListRoute {
+mixin _$KanjiListRoute on GoRouteData {
   static KanjiListRoute _fromState(GoRouterState state) =>
       const KanjiListRoute();
 
+  @override
   String get location => GoRouteData.$location('/list');
 
+  @override
   void go(BuildContext context) => context.go(location);
 
+  @override
   Future<T?> push<T>(BuildContext context) => context.push<T>(location);
 
+  @override
   void pushReplacement(BuildContext context) =>
       context.pushReplacement(location);
 
+  @override
   void replace(BuildContext context) => context.replace(location);
 }
 
-extension $KanjiDetailsRouteExtension on KanjiDetailsRoute {
+mixin _$KanjiDetailsRoute on GoRouteData {
   static KanjiDetailsRoute _fromState(GoRouterState state) =>
       KanjiDetailsRoute(int.parse(state.pathParameters['id']!)!);
 
-  String get location =>
-      GoRouteData.$location('/list/${Uri.encodeComponent(id.toString())}');
+  KanjiDetailsRoute get _self => this as KanjiDetailsRoute;
 
+  @override
+  String get location => GoRouteData.$location(
+    '/list/${Uri.encodeComponent(_self.id.toString())}',
+  );
+
+  @override
   void go(BuildContext context) => context.go(location);
 
+  @override
   Future<T?> push<T>(BuildContext context) => context.push<T>(location);
 
+  @override
   void pushReplacement(BuildContext context) =>
       context.pushReplacement(location);
 
+  @override
   void replace(BuildContext context) => context.replace(location);
 }
 
-extension $KanjiSetsRouteExtension on KanjiSetsRoute {
+mixin _$KanjiSetsRoute on GoRouteData {
   static KanjiSetsRoute _fromState(GoRouterState state) => KanjiSetsRoute();
 
+  @override
   String get location => GoRouteData.$location('/sets');
 
+  @override
   void go(BuildContext context) => context.go(location);
 
+  @override
   Future<T?> push<T>(BuildContext context) => context.push<T>(location);
 
+  @override
   void pushReplacement(BuildContext context) =>
       context.pushReplacement(location);
 
+  @override
   void replace(BuildContext context) => context.replace(location);
 }
 
-extension $RadicalsRouteExtension on RadicalsRoute {
+mixin _$RadicalsRoute on GoRouteData {
   static RadicalsRoute _fromState(GoRouterState state) => RadicalsRoute();
 
+  @override
   String get location => GoRouteData.$location('/radicals');
 
+  @override
   void go(BuildContext context) => context.go(location);
 
+  @override
   Future<T?> push<T>(BuildContext context) => context.push<T>(location);
 
+  @override
   void pushReplacement(BuildContext context) =>
       context.pushReplacement(location);
 
+  @override
   void replace(BuildContext context) => context.replace(location);
 }
