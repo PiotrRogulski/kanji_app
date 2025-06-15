@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -20,74 +21,81 @@ class KanjiDetailsScreen extends StatelessWidget {
     // TODO: Add not found screen
     final entry = context.read<KanjiData>().get(id)!;
 
-    return Scaffold(
-      body: Stack(
-        children: [
-          CustomScrollView(
-            slivers: [
-              SliverAppBar(
-                actionsPadding: const AppPadding.only(end: AppUnit.small),
-                floating: true,
-                snap: true,
-                actions: [
-                  IconButton(
-                    icon: const AppIcon(AppIconData.openInNew, size: 24),
-                    onPressed: () => launchUrl(
-                      Uri(
-                        scheme: 'https',
-                        host: 'jisho.org',
-                        pathSegments: ['search', '${entry.kanji} #kanji'],
+    return KanjiSwipeSwitcher(
+      entry: entry,
+      child: Scaffold(
+        body: Stack(
+          children: [
+            CustomScrollView(
+              slivers: [
+                SliverAppBar(
+                  actionsPadding: const AppPadding.only(end: AppUnit.small),
+                  floating: true,
+                  snap: true,
+                  actions: [
+                    IconButton(
+                      icon: const AppIcon(AppIconData.openInNew, size: 24),
+                      onPressed: () => launchUrl(
+                        Uri(
+                          scheme: 'https',
+                          host: 'jisho.org',
+                          pathSegments: ['search', '${entry.kanji} #kanji'],
+                        ),
                       ),
+                      tooltip: s.kanji_openInJisho,
                     ),
-                    tooltip: s.kanji_openInJisho,
-                  ),
-                ],
-              ),
-              SliverPadding(
-                padding: const AppPadding.all(AppUnit.large),
-                sliver: SliverLayoutBuilder(
-                  builder: (context, constraints) {
-                    return switch (constraints.crossAxisExtent) {
-                      < 700 => SliverMainAxisGroup(
-                        slivers: [
-                          SliverToBoxAdapter(child: KanjiSummary(entry: entry)),
-                          AppUnit.small.sliverGap,
-                          SliverKanjiWords(entry: entry),
-                        ],
-                      ),
-                      _ => SliverCrossAxisGroup(
-                        slivers: [
-                          SliverToBoxAdapter(child: KanjiSummary(entry: entry)),
-                          const SliverConstrainedCrossAxis(
-                            maxExtent: AppUnit.small,
-                            sliver: SliverToBoxAdapter(),
-                          ),
-                          SliverKanjiWords(entry: entry),
-                        ],
-                      ),
-                    };
-                  },
+                  ],
                 ),
-              ),
-              const SliverToBoxAdapter(
-                child: SizedBox(height: AppUnit.xlarge * 2 + AppUnit.large),
-              ),
-            ],
-          ),
-          Positioned(
-            bottom: AppUnit.large,
-            left: 0,
-            right: 0,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                _NavButton(type: _NavButtonType.previous, id: id),
-                AppUnit.tiny.gap,
-                _NavButton(type: _NavButtonType.next, id: id),
+                SliverPadding(
+                  padding: const AppPadding.all(AppUnit.large),
+                  sliver: SliverLayoutBuilder(
+                    builder: (context, constraints) {
+                      return switch (constraints.crossAxisExtent) {
+                        < 700 => SliverMainAxisGroup(
+                          slivers: [
+                            SliverToBoxAdapter(
+                              child: KanjiSummary(entry: entry),
+                            ),
+                            AppUnit.small.sliverGap,
+                            SliverKanjiWords(entry: entry),
+                          ],
+                        ),
+                        _ => SliverCrossAxisGroup(
+                          slivers: [
+                            SliverToBoxAdapter(
+                              child: KanjiSummary(entry: entry),
+                            ),
+                            const SliverConstrainedCrossAxis(
+                              maxExtent: AppUnit.small,
+                              sliver: SliverToBoxAdapter(),
+                            ),
+                            SliverKanjiWords(entry: entry),
+                          ],
+                        ),
+                      };
+                    },
+                  ),
+                ),
+                const SliverToBoxAdapter(
+                  child: SizedBox(height: AppUnit.xlarge * 2 + AppUnit.large),
+                ),
               ],
             ),
-          ),
-        ],
+            Positioned(
+              bottom: AppUnit.large,
+              left: 0,
+              right: 0,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  _NavButton(type: _NavButtonType.previous, id: id),
+                  AppUnit.tiny.gap,
+                  _NavButton(type: _NavButtonType.next, id: id),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
