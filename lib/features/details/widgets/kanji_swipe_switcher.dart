@@ -120,33 +120,12 @@ class _KanjiPreviewBubble extends HookWidget {
       keys: [tickerProvider],
     );
 
-    useValueChanged<bool, void>(percentArmed == 1, (_, _) {
-      if (percentArmed == 1) {
+    final isArmed = percentArmed == 1;
+    useValueChanged<bool, void>(isArmed, (_, _) {
+      if (isArmed) {
         HapticFeedback.vibrate();
-        scaleController.animateWith(
-          SpringSimulation(
-            SpringDescription.withDurationAndBounce(
-              duration: Durations.medium4,
-              bounce: 0.75,
-            ),
-            scaleController.value,
-            1,
-            1,
-          ),
-        );
-      } else {
-        scaleController.animateWith(
-          SpringSimulation(
-            SpringDescription.withDurationAndBounce(
-              duration: Durations.medium4,
-              bounce: 0.5,
-            ),
-            scaleController.value,
-            _unarmedScale,
-            1,
-          ),
-        );
       }
+      scaleController.animateBubble(forward: isArmed);
     });
 
     return Center(
@@ -194,3 +173,17 @@ List<double> _saturationMatrix(double s) => [
   0            , 0            , 0            , 1, 0,
 ];
 // dart format on
+
+extension on AnimationController {
+  Future<void> animateBubble({required bool forward}) => animateWith(
+    SpringSimulation(
+      SpringDescription.withDurationAndBounce(
+        duration: Durations.medium4,
+        bounce: forward ? 0.75 : 0.5,
+      ),
+      value,
+      forward ? 1 : _unarmedScale,
+      1,
+    ),
+  );
+}
