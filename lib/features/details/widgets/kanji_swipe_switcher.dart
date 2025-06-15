@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 
 const _bubbleSize = 64.0;
 const _unarmedScale = 0.75;
+const _triggerThreshold = 100.0;
 
 class KanjiSwipeSwitcher extends HookWidget {
   const KanjiSwipeSwitcher({
@@ -20,8 +21,6 @@ class KanjiSwipeSwitcher extends HookWidget {
 
   final KanjiEntry entry;
   final Widget child;
-
-  static const _triggerThreshold = 100.0;
 
   @override
   Widget build(BuildContext context) {
@@ -74,27 +73,13 @@ class KanjiSwipeSwitcher extends HookWidget {
               top: 0,
               bottom: 0,
               left: min(offset, _triggerThreshold) - _bubbleSize,
-              child: Transform.scale(
-                origin: const Offset(-_bubbleSize, 0),
-                scaleX: 1 + max(0, offset - _triggerThreshold) / 500,
-                child: _KanjiPreviewBubble(
-                  previousEntry,
-                  percentArmed: (offset / _triggerThreshold).clamp(0, 1),
-                ),
-              ),
+              child: _KanjiPreviewBubble(previousEntry, offset: offset),
             ),
             < 0 when nextEntry != null => Positioned(
               top: 0,
               bottom: 0,
               right: min(-offset, _triggerThreshold) - _bubbleSize,
-              child: Transform.scale(
-                origin: const Offset(_bubbleSize, 0),
-                scaleX: 1 + max(0, -offset - _triggerThreshold) / 500,
-                child: _KanjiPreviewBubble(
-                  nextEntry,
-                  percentArmed: (-offset / _triggerThreshold).clamp(0, 1),
-                ),
-              ),
+              child: _KanjiPreviewBubble(nextEntry, offset: -offset),
             ),
             _ => null,
           },
@@ -105,11 +90,13 @@ class KanjiSwipeSwitcher extends HookWidget {
 }
 
 class _KanjiPreviewBubble extends HookWidget {
-  const _KanjiPreviewBubble(this.entry, {required this.percentArmed})
-    : assert(percentArmed >= 0 && percentArmed <= 1);
+  _KanjiPreviewBubble(this.entry, {required double offset})
+    : percentArmed = (offset / _triggerThreshold).clamp(0, 1),
+      stretch = max(0, offset - _triggerThreshold);
 
   final KanjiEntry entry;
   final double percentArmed;
+  final double stretch;
 
   @override
   Widget build(BuildContext context) {
@@ -157,12 +144,13 @@ class _KanjiPreviewBubble extends HookWidget {
       child: ScaleTransition(
         scale: scaleController,
         child: Container(
+          margin: EdgeInsets.symmetric(horizontal: sqrt(stretch)),
           width: _bubbleSize,
           height: _bubbleSize,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
+          decoration: ShapeDecoration(
+            shape: const OvalBorder(),
             color: theme.colorScheme.surface.withValues(alpha: 0.25),
-            boxShadow: [
+            shadows: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.5 * percentArmed),
                 blurStyle: BlurStyle.outer,
