@@ -68,23 +68,30 @@ class KanjiSwipeSwitcher extends HookWidget {
       child: Stack(
         children: [
           Positioned.fill(child: child),
-          ?switch (offset) {
-            > 0 when previousEntry != null => Positioned(
-              top: 0,
-              bottom: 0,
-              left: min(offset, _triggerThreshold) - _bubbleSize,
-              child: _KanjiPreviewBubble(previousEntry, offset: offset),
-            ),
-            < 0 when nextEntry != null => Positioned(
-              top: 0,
-              bottom: 0,
-              right: min(-offset, _triggerThreshold) - _bubbleSize,
-              child: _KanjiPreviewBubble(nextEntry, offset: -offset),
-            ),
-            _ => null,
-          },
+          if (previousEntry != null && offset > 0)
+            _PositionedKanjiPreview(previousEntry, offset),
+          if (nextEntry != null && offset < 0)
+            _PositionedKanjiPreview(nextEntry, offset),
         ],
       ),
+    );
+  }
+}
+
+class _PositionedKanjiPreview extends StatelessWidget {
+  const _PositionedKanjiPreview(this.entry, this.offset);
+
+  final KanjiEntry entry;
+  final double offset;
+
+  @override
+  Widget build(BuildContext context) {
+    return Positioned.directional(
+      textDirection: offset > 0 ? TextDirection.ltr : TextDirection.rtl,
+      top: 0,
+      bottom: 0,
+      start: min(offset.abs(), _triggerThreshold) - _bubbleSize,
+      child: _KanjiPreviewBubble(entry, offset: offset.abs()),
     );
   }
 }
