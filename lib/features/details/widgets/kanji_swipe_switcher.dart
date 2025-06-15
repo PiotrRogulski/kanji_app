@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
+import 'package:flutter/services.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
@@ -61,7 +62,7 @@ class KanjiSwipeSwitcher extends HookWidget {
 
     return GestureDetector(
       onHorizontalDragUpdate: (details) {
-        dragOffsetController.value += details.delta.dx / 2;
+        dragOffsetController.value += details.delta.dx;
       },
       onHorizontalDragCancel: onDragEnd,
       onHorizontalDragEnd: (_) => onDragEnd(),
@@ -121,6 +122,7 @@ class _KanjiPreviewBubble extends HookWidget {
 
     useValueChanged<bool, void>(percentArmed == 1, (_, _) {
       if (percentArmed == 1) {
+        HapticFeedback.vibrate();
         scaleController.animateWith(
           SpringSimulation(
             SpringDescription.withDurationAndBounce(
