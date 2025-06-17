@@ -2,8 +2,8 @@ name: kanji_app
 version: 0.1.0
 
 environment:
-  sdk: 3.9.0-234.0.dev
-  flutter: 3.33.0-1.0.pre.511
+  sdk: 3.9.0-238.0.dev
+  flutter: 3.33.0-1.0.pre.546
 
 dependencies:
   archive: ^4.0.7
@@ -33,7 +33,7 @@ dependencies:
 
 dev_dependencies:
   arb_utils: ^0.8.3
-  build_runner: ^2.4.15
+  build_runner: ^2.5.1
   code_builder: ^4.10.1
   dart_style: ^3.1.0
   go_router_builder: ^3.0.0
