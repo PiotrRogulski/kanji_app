@@ -113,7 +113,7 @@ class KanjiListScreen extends HookWidget {
                 SliverLayoutBuilder(
                   builder: (context, constraints) {
                     return SliverMasonryGrid.count(
-                      crossAxisCount: constraints.crossAxisExtent ~/ 290,
+                      crossAxisCount: constraints.crossAxisExtent ~/ 320,
                       childCount: filteredKanji.value.length,
                       itemBuilder: (context, index) =>
                           _Entry(filteredKanji.value[index]),
