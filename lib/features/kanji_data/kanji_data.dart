@@ -19,6 +19,7 @@ class KanjiEntry with EquatableMixin {
     required this.synonyms,
     required this.readings,
     required this.words,
+    required this.sentences,
   });
 
   KanjiEntry.fromJson(Map<String, dynamic> json)
@@ -31,7 +32,8 @@ class KanjiEntry with EquatableMixin {
       readings = Readings.fromJson(json['readings'] as Map<String, dynamic>),
       words = (json['words'] as List)
           .map((e) => Word.fromJson(e as Map<String, dynamic>))
-          .toList();
+          .toList(),
+      sentences = (json['sentences'] as List?)?.cast() ?? [];
 
   final int id;
   final String kanji;
@@ -41,6 +43,7 @@ class KanjiEntry with EquatableMixin {
   final List<String> synonyms;
   final Readings readings;
   final List<Word> words;
+  final List<String> sentences;
 
   @override
   List<Object?> get props => [
@@ -52,6 +55,7 @@ class KanjiEntry with EquatableMixin {
     synonyms,
     readings,
     words,
+    sentences,
   ];
 
   Map<String, dynamic> toJson() => {
@@ -63,6 +67,7 @@ class KanjiEntry with EquatableMixin {
     'synonyms': synonyms,
     'readings': readings.toJson(),
     'words': words.map((e) => e.toJson()).toList(),
+    'sentences': sentences,
   };
 }
 

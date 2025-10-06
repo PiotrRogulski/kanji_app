@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
+import 'package:kanji_app/features/details/widgets/sentences.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -58,18 +59,26 @@ class KanjiDetailsScreen extends StatelessWidget {
                             ),
                             AppUnit.small.sliverGap,
                             SliverKanjiWords(entry: entry),
+                            AppUnit.small.sliverGap,
+                            SliverKanjiSentences(entry: entry),
                           ],
                         ),
-                        _ => SliverCrossAxisGroup(
+                        _ => SliverMainAxisGroup(
                           slivers: [
-                            SliverToBoxAdapter(
-                              child: KanjiSummary(entry: entry),
+                            SliverCrossAxisGroup(
+                              slivers: [
+                                SliverToBoxAdapter(
+                                  child: KanjiSummary(entry: entry),
+                                ),
+                                const SliverConstrainedCrossAxis(
+                                  maxExtent: AppUnit.small,
+                                  sliver: SliverToBoxAdapter(),
+                                ),
+                                SliverKanjiWords(entry: entry),
+                              ],
                             ),
-                            const SliverConstrainedCrossAxis(
-                              maxExtent: AppUnit.small,
-                              sliver: SliverToBoxAdapter(),
-                            ),
-                            SliverKanjiWords(entry: entry),
+                            AppUnit.small.sliverGap,
+                            SliverKanjiSentences(entry: entry),
                           ],
                         ),
                       };
