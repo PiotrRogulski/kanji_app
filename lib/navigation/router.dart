@@ -4,7 +4,7 @@ import 'package:leancode_hooks/leancode_hooks.dart';
 
 GoRouter useGoRouter() {
   return useMemoized(
-    () => GoRouter(
+    () => .new(
       routes: $appRoutes,
       initialLocation: const KanjiListRoute().location,
     ),

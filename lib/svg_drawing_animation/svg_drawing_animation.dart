@@ -27,22 +27,22 @@ class SvgDrawingAnimation extends HookWidget {
 
     return FittedBox(
       child: Container(
-        width: size.longestSide,
-        height: size.longestSide,
-        alignment: Alignment.center,
+        width: size.width,
+        height: size.height,
+        alignment: .center,
         child: Stack(
           children: [
             CustomPaint(
-              size: controller.pathInfo.size,
+              size: size,
               painter: ClippedPathPainter(
                 controller.pathInfo.paths,
-                pathLengthLimit: double.infinity,
+                pathLengthLimit: .infinity,
                 strokePaint: Paint.from(strokePaint)
                   ..color = colorScheme.outlineVariant,
               ),
             ),
             CustomPaint(
-              size: controller.pathInfo.size,
+              size: size,
               painter: ClippedPathPainter(
                 controller.pathInfo.paths.take((drawnStrokes ?? -1) + 1),
                 pathLengthLimit: pathLengthLimit,

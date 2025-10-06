@@ -29,12 +29,12 @@ class KanjiDetailsScreen extends StatelessWidget {
             CustomScrollView(
               slivers: [
                 SliverAppBar(
-                  actionsPadding: const AppPadding.only(end: AppUnit.small),
+                  actionsPadding: const AppEdgeInsets.only(end: .small),
                   floating: true,
                   snap: true,
                   actions: [
                     IconButton(
-                      icon: const AppIcon(AppIconData.openInNew, size: 24),
+                      icon: const AppIcon(.openInNew, size: .large),
                       onPressed: () => launchUrl(
                         Uri(
                           scheme: 'https',
@@ -47,7 +47,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                   ],
                 ),
                 SliverPadding(
-                  padding: const AppPadding.all(AppUnit.large),
+                  padding: const AppEdgeInsets.all(.large),
                   sliver: SliverLayoutBuilder(
                     builder: (context, constraints) {
                       return switch (constraints.crossAxisExtent) {
@@ -76,9 +76,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                     },
                   ),
                 ),
-                const SliverToBoxAdapter(
-                  child: SizedBox(height: AppUnit.xlarge * 2 + AppUnit.large),
-                ),
+                (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
               ],
             ),
             Positioned(
@@ -111,19 +109,13 @@ enum _NavButtonType {
   };
 
   AppBorderRadius get borderRadius => switch (this) {
-    previous => AppBorderRadius.horizontal(
-      start: AppUnit.xlarge,
-      end: AppUnit.xsmall,
-    ),
-    next => AppBorderRadius.horizontal(
-      start: AppUnit.xsmall,
-      end: AppUnit.xlarge,
-    ),
+    previous => .horizontal(start: .xlarge, end: .xsmall),
+    next => .horizontal(start: .xsmall, end: .xlarge),
   };
 
   AppIconData get icon => switch (this) {
-    previous => AppIconData.chevronBackward,
-    next => AppIconData.chevronForward,
+    previous => .chevronBackward,
+    next => .chevronForward,
   };
 
   String tooltip(BuildContext context) => switch (this) {
@@ -150,7 +142,7 @@ class _NavButton extends StatelessWidget {
     final enabled = type.enabled(context, id);
 
     return IconButton(
-      icon: AppIcon(type.icon, size: 32),
+      icon: AppIcon(type.icon, size: .xlarge),
       onPressed: enabled
           ? () => KanjiDetailsRoute(type.getTargetID(id)).go(context)
           : null,
@@ -158,10 +150,10 @@ class _NavButton extends StatelessWidget {
       style: IconButton.styleFrom(
         backgroundColor: theme.colorScheme.primaryContainer,
         disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
-        padding: AppPadding.zero,
+        padding: .zero,
         shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
       ),
-      constraints: BoxConstraints.tight(const Size.square(AppUnit.xlarge * 2)),
+      constraints: BoxConstraints.tight(Size.square(AppUnit.xlarge * 2)),
     );
   }
 }

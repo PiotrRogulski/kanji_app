@@ -22,14 +22,14 @@ void main() async {
 
   if (kIsWeb) {
     databaseFactory = databaseFactoryFfiWeb;
-  } else if (defaultTargetPlatform == TargetPlatform.linux) {
+  } else if (defaultTargetPlatform == .linux) {
     databaseFactory = databaseFactoryFfi;
   }
 
   CachedQuery.instance.configFlutter(
-    config: QueryConfigFlutter(
-      refetchDuration: const Duration(days: 7),
-      cacheDuration: const Duration(days: 7),
+    config: const .new(
+      staleDuration: .new(days: 7),
+      cacheDuration: .new(days: 7),
     ),
     storage: await CachedStorage.ensureInitialized(),
     observers: [const QueryLoggingObserver()],
@@ -77,9 +77,9 @@ class MainApp extends HookWidget {
 
 void _setupLogger() {
   if (kDebugMode) {
-    Logger.root.level = Level.ALL;
+    Logger.root.level = .ALL;
   } else {
-    Logger.root.level = Level.INFO;
+    Logger.root.level = .INFO;
   }
 
   Logger.root.onRecord.listen((record) {

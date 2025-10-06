@@ -1,23 +1,48 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 
-class AppPadding extends EdgeInsetsDirectional {
-  const AppPadding.all(AppUnit super.value) : super.all();
+class AppPadding extends StatelessWidget {
+  const AppPadding({super.key, required this.padding, required this.child});
 
-  const AppPadding.only({
-    AppUnit? start,
-    AppUnit? top,
-    AppUnit? end,
-    AppUnit? bottom,
-  }) : super.only(
-         start: start ?? 0,
-         top: top ?? 0,
-         end: end ?? 0,
-         bottom: bottom ?? 0,
-       );
+  final AppEdgeInsets padding;
+  final Widget child;
 
-  const AppPadding.symmetric({AppUnit? horizontal, AppUnit? vertical})
-    : super.symmetric(horizontal: horizontal ?? 0, vertical: vertical ?? 0);
+  @override
+  Widget build(BuildContext context) {
+    return Padding(padding: padding, child: child);
+  }
+}
 
-  static const zero = AppPadding.only();
+class AppSliverPadding extends StatelessWidget {
+  const AppSliverPadding({
+    super.key,
+    required this.padding,
+    required this.sliver,
+  });
+
+  final AppEdgeInsets padding;
+  final Widget sliver;
+
+  @override
+  Widget build(BuildContext context) {
+    return SliverPadding(padding: padding, sliver: sliver);
+  }
+}
+
+class AppEdgeInsets extends EdgeInsetsDirectional {
+  const AppEdgeInsets.all(AppUnit super.value) : super.all();
+
+  const AppEdgeInsets.only({
+    AppUnit super.start = .zero,
+    AppUnit super.top = .zero,
+    AppUnit super.end = .zero,
+    AppUnit super.bottom = .zero,
+  }) : super.only();
+
+  const AppEdgeInsets.symmetric({
+    AppUnit super.horizontal = .zero,
+    AppUnit super.vertical = .zero,
+  }) : super.symmetric();
+
+  static const zero = AppEdgeInsets.only();
 }

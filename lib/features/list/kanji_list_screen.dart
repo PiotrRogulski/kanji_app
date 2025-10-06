@@ -31,7 +31,7 @@ class KanjiListScreen extends HookWidget {
           for (final e in kanjiData.entries) e: matchEntry(e, value.text),
         };
         filteredKanji.value = kanjiData.entries
-            .where((e) => matches[e] != SearchMatch.none)
+            .where((e) => matches[e] != .none)
             .sortedBy((e) => matches[e]!);
       }
     });
@@ -45,8 +45,7 @@ class KanjiListScreen extends HookWidget {
     final viewPadding = MediaQuery.viewPaddingOf(context);
 
     return Scaffold(
-      floatingActionButtonLocation:
-          FloatingActionButtonLocation.miniCenterFloat,
+      floatingActionButtonLocation: .miniCenterFloat,
       floatingActionButton: position > 0
           ? FloatingActionButton(
               onPressed: () {
@@ -65,7 +64,7 @@ class KanjiListScreen extends HookWidget {
               focusElevation: 0,
               highlightElevation: 0,
               tooltip: s.kanjiList_scrollToTop,
-              child: const AppIcon(AppIconData.arrowUpward, size: 24),
+              child: const AppIcon(.arrowUpward, size: .large),
             )
           : null,
       body: CustomScrollView(
@@ -73,14 +72,12 @@ class KanjiListScreen extends HookWidget {
         cacheExtent: 10_000,
         slivers: [
           SliverPadding(
-            padding: viewPadding.add(const AppPadding.all(AppUnit.large)),
+            padding: viewPadding.add(const AppEdgeInsets.all(.large)),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const AppPadding.symmetric(
-                      horizontal: AppUnit.large,
-                    ),
+                  child: AppPadding(
+                    padding: const .symmetric(horizontal: .large),
                     child: Text(
                       s.kanjiList_title,
                       style: theme.textTheme.displayLarge?.apply(
@@ -95,11 +92,11 @@ class KanjiListScreen extends HookWidget {
                     controller: searchController,
                     elevation: const WidgetStatePropertyAll(0),
                     hintText: s.kanjiList_search,
-                    leading: Padding(
-                      padding: const AppPadding.all(AppUnit.medium),
+                    leading: AppPadding(
+                      padding: const .all(.medium),
                       child: AppIcon(
-                        AppIconData.search,
-                        size: 24,
+                        .search,
+                        size: .large,
                         color: theme.colorScheme.onSurfaceVariant,
                       ),
                     ),
@@ -107,7 +104,7 @@ class KanjiListScreen extends HookWidget {
                       if (searchController.text.isNotEmpty)
                         IconButton(
                           onPressed: searchController.clear,
-                          icon: const AppIcon(AppIconData.close, size: 24),
+                          icon: const AppIcon(.close, size: .large),
                         ),
                     ],
                   ),
@@ -148,11 +145,11 @@ class _Entry extends StatelessWidget {
       onTap: () => KanjiDetailsRoute(entry.id).go(context),
       child: Stack(
         children: [
-          Padding(
-            padding: const AppPadding.all(AppUnit.large),
+          AppPadding(
+            padding: const .all(.large),
             child: Row(
               key: ValueKey(entry.id),
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: .start,
               spacing: AppUnit.large,
               children: [
                 Text(

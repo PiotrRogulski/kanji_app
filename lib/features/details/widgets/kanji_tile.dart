@@ -34,7 +34,7 @@ class KanjiTile extends StatelessWidget {
                   filter: ImageFilter.blur(
                     sigmaX: blurSigma,
                     sigmaY: blurSigma,
-                    tileMode: TileMode.clamp,
+                    tileMode: .clamp,
                   ),
                   child: child,
                 );
@@ -63,10 +63,10 @@ class KanjiTile extends StatelessWidget {
         },
         child: Stack(
           children: [
-            Padding(
-              padding: const AppPadding.all(AppUnit.xsmall),
+            AppPadding(
+              padding: const .all(.xsmall),
               child: Column(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisSize: .min,
                 spacing: AppUnit.medium,
                 children: [
                   Text(
@@ -78,7 +78,7 @@ class KanjiTile extends StatelessWidget {
                     ),
                   ),
                   Row(
-                    mainAxisSize: MainAxisSize.min,
+                    mainAxisSize: .min,
                     children: [
                       AppUnit.small.gap,
                       Text(
@@ -89,7 +89,7 @@ class KanjiTile extends StatelessWidget {
                       ),
                       AppIcon(
                         AppIconData.chevronForward,
-                        size: 24,
+                        size: .large,
                         color: contentColor,
                       ),
                     ],
@@ -100,15 +100,17 @@ class KanjiTile extends StatelessWidget {
             PositionedDirectional(
               top: AppUnit.xsmall,
               start: AppUnit.xsmall,
-              child: Container(
+              child: DecoratedBox(
                 decoration: BoxDecoration(
                   color: theme.colorScheme.surface,
-                  borderRadius: AppBorderRadius.circular(AppUnit.small),
+                  borderRadius: AppBorderRadius.circular(.small),
                 ),
-                padding: const AppPadding.symmetric(horizontal: AppUnit.xsmall),
-                child: Text(
-                  kanji.id.toString(),
-                  style: theme.textTheme.bodyLarge,
+                child: AppPadding(
+                  padding: const .symmetric(horizontal: .xsmall),
+                  child: Text(
+                    kanji.id.toString(),
+                    style: theme.textTheme.bodyLarge,
+                  ),
                 ),
               ),
             ),

@@ -12,27 +12,27 @@ SearchMatch matchEntry(KanjiEntry entry, String query) {
   if (_queryByID.firstMatch(query) case final match?) {
     final id = int.parse(match.namedGroup('id')!);
     if (entry.id == id) {
-      return SearchMatch.id;
+      return .id;
     } else {
-      return SearchMatch.none;
+      return .none;
     }
   }
 
   if (_japaneseOnly.hasMatch(query) && query.characters.contains(entry.kanji)) {
-    return SearchMatch.kanji;
+    return .kanji;
   }
 
   if (entry.readings.onyomi.contains(query) ||
       entry.readings.kunyomi.contains(query)) {
-    return SearchMatch.fullReading;
+    return .fullReading;
   }
 
   if (entry.readings.onyomi.any((r) => r.contains(query)) ||
       entry.readings.kunyomi.any((r) => r.contains(query))) {
-    return SearchMatch.partialReading;
+    return .partialReading;
   }
 
-  return SearchMatch.none;
+  return .none;
 }
 
 enum SearchMatch implements Comparable<SearchMatch> {

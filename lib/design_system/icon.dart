@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 
+// FIXME: replace
 class AppIcon extends ImplicitlyAnimatedWidget {
   const AppIcon(
     this.icon, {
@@ -15,7 +16,7 @@ class AppIcon extends ImplicitlyAnimatedWidget {
        );
 
   final AppIconData icon;
-  final double size;
+  final AppUnit size;
   final Color? color;
   final double fill;
   final AppDynamicWeight? weight;

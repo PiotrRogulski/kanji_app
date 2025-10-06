@@ -1,4 +1,4 @@
-import 'package:cached_query_flutter/cached_query_flutter.dart';
+import 'package:cached_query_flutter/cached_query_flutter.dart' show Query;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/design_system.dart';
@@ -9,6 +9,7 @@ import 'package:kanji_app/svg_drawing_animation.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
+// FIXME: replace
 class KanjiAnimationDialog extends StatelessWidget {
   const KanjiAnimationDialog(this.kanji, {super.key});
 
@@ -22,24 +23,24 @@ class KanjiAnimationDialog extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       decoration: ShapeDecoration(
         shape: RoundedRectangleBorder(
-          borderRadius: AppBorderRadius.circular(AppUnit.xlarge),
+          borderRadius: AppBorderRadius.circular(.xlarge),
         ),
         color: colorScheme.surfaceContainerHighest,
       ),
       child: Stack(
         fit: StackFit.expand,
         children: [
-          Padding(
-            padding: const AppPadding.all(AppUnit.large),
+          AppPadding(
+            padding: const .all(.large),
             child: _KanjiDetailsBody(kanji),
           ),
           PositionedDirectional(
             top: AppUnit.xsmall,
             end: AppUnit.xsmall,
             child: IconButton(
-              icon: const AppIcon(AppIconData.close, size: AppUnit.xlarge),
+              icon: const AppIcon(.close, size: .xlarge),
               onPressed: context.pop,
-              padding: const AppPadding.all(AppUnit.medium),
+              padding: const AppEdgeInsets.all(.medium),
             ),
           ),
         ],
@@ -60,29 +61,23 @@ class _KanjiDetailsBody extends HookWidget {
 
     final kanjiApi = context.read<KanjiApi>();
 
-    final result = useFuture(
-      useMemoized(
-        () => Query(
-          key: 'kanjiSvg-$kanji',
-          queryFn: () => kanjiApi.kanjiSvg(kanji),
-        ).fetch(),
-        [kanji],
-      ),
-    ).data;
+    final (result, _) = useQuery(
+      Query(key: 'kanjiSvg-$kanji', queryFn: () => kanjiApi.kanjiSvg(kanji)),
+    );
 
     return switch (result) {
-      null => const Center(child: CircularProgressIndicator()),
+      QueryLoading() => const Center(child: CircularProgressIndicator()),
       QuerySuccess(:final value) => _KanjiDetailsLoaded(value),
       QueryFailure() => FittedBox(
-        fit: BoxFit.scaleDown,
+        fit: .scaleDown,
         child: Center(
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            mainAxisSize: .min,
             children: [
               AppIcon(
-                AppIconData.indeterminateQuestionBox,
-                size: 196,
-                weight: AppDynamicWeight.light,
+                .indeterminateQuestionBox,
+                size: AppUnit.xlarge * 6,
+                weight: .light,
                 color: colorScheme.onSurface,
               ),
               Text(

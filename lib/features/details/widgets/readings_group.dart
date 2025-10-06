@@ -15,20 +15,20 @@ class KanjiReadingsGroup extends StatelessWidget {
     final theme = Theme.of(context);
 
     return AppCard(
-      child: Padding(
-        padding: const AppPadding.all(AppUnit.xsmall),
+      child: AppPadding(
+        padding: const .all(.xsmall),
         child: Column(
           spacing: AppUnit.tiny,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: .start,
           children: [
-            Padding(
-              padding: const AppPadding.symmetric(horizontal: AppUnit.xsmall),
+            AppPadding(
+              padding: const .symmetric(horizontal: .xsmall),
               child: Text(s.kanji_readings, style: theme.textTheme.bodyLarge),
             ),
             Row(
-              mainAxisSize: MainAxisSize.min,
+              mainAxisSize: .min,
               spacing: AppUnit.small,
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: .start,
               children: [
                 if (kanji.readings.onyomi.isNotEmpty)
                   KanjiReadings(kanji.readings.onyomi),

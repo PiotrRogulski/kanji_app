@@ -34,8 +34,8 @@ class KanjiSummary extends StatelessWidget {
     return SizedBox(
       width: 300,
       child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: .min,
+        crossAxisAlignment: .start,
         spacing: AppUnit.small,
         children: [
           Wrap(
@@ -44,9 +44,9 @@ class KanjiSummary extends StatelessWidget {
             children: [
               KanjiTile(entry),
               Column(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisSize: .min,
                 spacing: AppUnit.small,
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: .start,
                 children: [
                   GroupedKanjiRow(
                     label: s.kanji_radical,

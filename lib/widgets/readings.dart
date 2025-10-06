@@ -13,27 +13,24 @@ class KanjiReadings extends StatelessWidget {
     return IntrinsicWidth(
       child: Column(
         spacing: AppUnit.tiny,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        crossAxisAlignment: .stretch,
         children: [
           for (final (index, reading) in readings.indexed)
-            Container(
-              padding: const AppPadding.symmetric(
-                vertical: AppUnit.tiny,
-                horizontal: AppUnit.xsmall,
-              ),
+            DecoratedBox(
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
                 borderRadius: AppBorderRadius.vertical(
-                  top: index == 0 ? AppUnit.small : AppUnit.xsmall,
-                  bottom: index == readings.length - 1
-                      ? AppUnit.small
-                      : AppUnit.xsmall,
+                  top: index == 0 ? .small : .xsmall,
+                  bottom: index == readings.length - 1 ? .small : .xsmall,
                 ),
               ),
-              child: Text(
-                reading,
-                style: theme.textTheme.bodyLarge?.apply(
-                  color: theme.colorScheme.onSurface,
+              child: AppPadding(
+                padding: const .symmetric(vertical: .tiny, horizontal: .xsmall),
+                child: Text(
+                  reading,
+                  style: theme.textTheme.bodyLarge?.apply(
+                    color: theme.colorScheme.onSurface,
+                  ),
                 ),
               ),
             ),

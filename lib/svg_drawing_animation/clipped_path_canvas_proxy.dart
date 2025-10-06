@@ -56,24 +56,16 @@ class ClippedPathCanvasProxy implements Canvas {
   }
 
   @override
-  void transform(Float64List matrix4) {
-    return canvas.transform(matrix4);
-  }
+  void transform(Float64List matrix4) => canvas.transform(matrix4);
 
   @override
-  Float64List getTransform() {
-    return canvas.getTransform();
-  }
+  Float64List getTransform() => canvas.getTransform();
 
   @override
-  void save() {
-    return canvas.save();
-  }
+  void save() => canvas.save();
 
   @override
-  void restore() {
-    return canvas.restore();
-  }
+  void restore() => canvas.restore();
 
   @override
   dynamic noSuchMethod(Invocation invocation) {

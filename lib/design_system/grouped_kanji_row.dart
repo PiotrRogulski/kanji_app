@@ -18,20 +18,20 @@ class GroupedKanjiRow extends StatelessWidget {
     final theme = Theme.of(context);
 
     return AppCard(
-      child: Padding(
-        padding: const AppPadding.only(
-          top: AppUnit.xsmall,
-          bottom: AppUnit.xsmall,
-          start: AppUnit.small,
-          end: AppUnit.xsmall,
+      child: AppPadding(
+        padding: const .only(
+          top: .xsmall,
+          bottom: .xsmall,
+          start: .small,
+          end: .xsmall,
         ),
         child: Row(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: .min,
           spacing: AppUnit.xsmall,
           children: [
             Text(label, style: theme.textTheme.bodyLarge),
             Row(
-              mainAxisSize: MainAxisSize.min,
+              mainAxisSize: .min,
               spacing: AppUnit.tiny,
               children: [
                 for (final (index, item) in items.indexed)
@@ -72,10 +72,10 @@ class _Item extends StatelessWidget {
       child: Material(
         color: theme.colorScheme.surface,
         borderRadius: AppBorderRadius.horizontal(
-          start: isFirst ? AppUnit.small : AppUnit.xsmall,
-          end: isLast ? AppUnit.small : AppUnit.xsmall,
+          start: isFirst ? .small : .xsmall,
+          end: isLast ? .small : .xsmall,
         ),
-        clipBehavior: Clip.antiAlias,
+        clipBehavior: .antiAlias,
         child: InkWell(
           onTap: onTap,
           child: Center(

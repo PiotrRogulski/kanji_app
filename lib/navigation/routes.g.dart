@@ -16,17 +16,14 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
     StatefulShellBranchData.$branch(
       navigatorKey: KanjiListBranch.$navigatorKey,
       restorationScopeId: KanjiListBranch.$restorationScopeId,
-
       routes: [
         GoRouteData.$route(
           path: '/list',
-
-          factory: _$KanjiListRoute._fromState,
+          factory: $KanjiListRoute._fromState,
           routes: [
             GoRouteData.$route(
               path: ':id',
-
-              factory: _$KanjiDetailsRoute._fromState,
+              factory: $KanjiDetailsRoute._fromState,
             ),
           ],
         ),
@@ -35,20 +32,17 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
     StatefulShellBranchData.$branch(
       navigatorKey: KanjiSetsBranch.$navigatorKey,
       restorationScopeId: KanjiSetsBranch.$restorationScopeId,
-
       routes: [
-        GoRouteData.$route(path: '/sets', factory: _$KanjiSetsRoute._fromState),
+        GoRouteData.$route(path: '/sets', factory: $KanjiSetsRoute._fromState),
       ],
     ),
     StatefulShellBranchData.$branch(
       navigatorKey: RadicalsBranch.$navigatorKey,
       restorationScopeId: RadicalsBranch.$restorationScopeId,
-
       routes: [
         GoRouteData.$route(
           path: '/radicals',
-
-          factory: _$RadicalsRoute._fromState,
+          factory: $RadicalsRoute._fromState,
         ),
       ],
     ),
@@ -59,7 +53,7 @@ extension $RootRouteExtension on RootRoute {
   static RootRoute _fromState(GoRouterState state) => RootRoute();
 }
 
-mixin _$KanjiListRoute on GoRouteData {
+mixin $KanjiListRoute on GoRouteData {
   static KanjiListRoute _fromState(GoRouterState state) =>
       const KanjiListRoute();
 
@@ -80,9 +74,9 @@ mixin _$KanjiListRoute on GoRouteData {
   void replace(BuildContext context) => context.replace(location);
 }
 
-mixin _$KanjiDetailsRoute on GoRouteData {
+mixin $KanjiDetailsRoute on GoRouteData {
   static KanjiDetailsRoute _fromState(GoRouterState state) =>
-      KanjiDetailsRoute(int.parse(state.pathParameters['id']!)!);
+      KanjiDetailsRoute(int.parse(state.pathParameters['id']!));
 
   KanjiDetailsRoute get _self => this as KanjiDetailsRoute;
 
@@ -105,7 +99,7 @@ mixin _$KanjiDetailsRoute on GoRouteData {
   void replace(BuildContext context) => context.replace(location);
 }
 
-mixin _$KanjiSetsRoute on GoRouteData {
+mixin $KanjiSetsRoute on GoRouteData {
   static KanjiSetsRoute _fromState(GoRouterState state) => KanjiSetsRoute();
 
   @override
@@ -125,7 +119,7 @@ mixin _$KanjiSetsRoute on GoRouteData {
   void replace(BuildContext context) => context.replace(location);
 }
 
-mixin _$RadicalsRoute on GoRouteData {
+mixin $RadicalsRoute on GoRouteData {
   static RadicalsRoute _fromState(GoRouterState state) => RadicalsRoute();
 
   @override

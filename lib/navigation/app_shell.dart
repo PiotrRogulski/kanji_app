@@ -37,11 +37,11 @@ class ScaffoldWithNavBar extends StatelessWidget {
         },
         decoration: BoxDecoration(
           borderRadius: switch (isSmall) {
-            false => AppBorderRadius.circular(AppUnit.large),
-            true => AppBorderRadius.zero,
+            false => AppBorderRadius.circular(.large),
+            true => .zero,
           },
         ),
-        clipBehavior: Clip.antiAlias,
+        clipBehavior: .antiAlias,
         child: Theme(
           data: theme,
           child: MediaQuery.removeViewPadding(
@@ -71,17 +71,17 @@ class ScaffoldWithNavBar extends StatelessWidget {
       child: AdaptiveScaffold(
         destinations: [
           AppNavigationDestination(
-            icon: AppIconData.listAlt,
+            icon: .listAlt,
             label: s.kanjiList_title,
             selected: currentIndex == 0,
           ),
           AppNavigationDestination(
-            icon: AppIconData.bookmark,
+            icon: .bookmark,
             label: s.kanjiSets_title,
             selected: currentIndex == 1,
           ),
           AppNavigationDestination(
-            icon: AppIconData.workspaces,
+            icon: .workspaces,
             label: s.radicals_title,
             selected: currentIndex == 2,
           ),
@@ -153,9 +153,9 @@ class AppNavigationDestination extends NavigationDestination {
   }) : super(
          icon: AppIcon(
            icon,
-           size: 24,
+           size: .large,
            fill: selected ? 1 : 0,
-           weight: selected ? AppDynamicWeight.bold : AppDynamicWeight.regular,
+           weight: selected ? .bold : .regular,
          ),
        );
 }

@@ -11,7 +11,7 @@ class KanjiSetsBranch extends StatefulShellBranchData {
   static const $restorationScopeId = 'kanjiSetsBranch';
 }
 
-class KanjiSetsRoute extends GoRouteData with _$KanjiSetsRoute {
+class KanjiSetsRoute extends GoRouteData with $KanjiSetsRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const KanjiSetsScreen();

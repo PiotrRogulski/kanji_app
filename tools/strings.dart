@@ -11,7 +11,7 @@ Future<int> main() async {
     final sorted = sortARB(content);
     arb.writeAsStringSync(sorted);
     if (!sorted.endsWith('\n')) {
-      arb.writeAsStringSync('\n', mode: FileMode.append);
+      arb.writeAsStringSync('\n', mode: .append);
     }
   }
 

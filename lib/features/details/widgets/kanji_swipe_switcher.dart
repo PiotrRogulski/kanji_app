@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
@@ -88,7 +87,7 @@ class _PositionedKanjiPreview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned.directional(
-      textDirection: offset > 0 ? TextDirection.ltr : TextDirection.rtl,
+      textDirection: offset > 0 ? .ltr : .rtl,
       top: 0,
       bottom: 0,
       start: min(offset.abs(), _triggerThreshold) - _bubbleSize,
@@ -141,15 +140,15 @@ class _KanjiPreviewBubble extends HookWidget {
             shadows: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.5 * percentArmed),
-                blurStyle: BlurStyle.outer,
+                blurStyle: .outer,
                 blurRadius: 24 * percentArmed,
               ),
             ],
           ),
-          clipBehavior: Clip.antiAlias,
+          clipBehavior: .antiAlias,
           child: BackdropFilter(
-            filter: ImageFilter.compose(
-              outer: ImageFilter.blur(sigmaX: 4, sigmaY: 4),
+            filter: .compose(
+              outer: .blur(sigmaX: 4, sigmaY: 4),
               inner: ColorFilter.matrix(_saturationMatrix(1.5)),
             ),
             child: Center(

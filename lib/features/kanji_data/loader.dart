@@ -26,7 +26,7 @@ Future<KanjiData> loadKanji() async {
   final time = stopwatch.elapsed;
   _logger.fine('Loaded ${data.length}/${jsons.length} kanji entries in $time');
 
-  return KanjiData(data);
+  return .new(data);
 }
 
 KanjiEntry? _parseKanji(String jsonString) {
@@ -39,7 +39,7 @@ KanjiEntry? _parseKanji(String jsonString) {
   }
 
   try {
-    return KanjiEntry.fromJson(json);
+    return .fromJson(json);
   } catch (err, st) {
     final prettyJson = const JsonEncoder.withIndent('  ').convert(json);
     _logger.severe('KanjiEntry.fromJson failed\n$prettyJson', err, st);

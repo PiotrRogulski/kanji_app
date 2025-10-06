@@ -35,18 +35,18 @@ void main() {
           )
           ..values.addAll([
             for (final (:name, :codepoint) in lines.map(parseLine))
-              EnumValue((ev) {
+              .new((ev) {
                 ev
                   ..name = name
                   ..arguments.add(CodeExpression(Code('0x$codepoint')));
               }),
           ])
           ..constructors.add(
-            Constructor((c) {
+            .new((c) {
               c
                 ..constant = true
                 ..requiredParameters.add(
-                  Parameter((p) {
+                  .new((p) {
                     p
                       ..toThis = true
                       ..name = 'codePoint';
@@ -55,40 +55,40 @@ void main() {
             }),
           )
           ..fields.addAll([
-            Field((f) {
+            .new((f) {
               f
                 ..name = 'codePoint'
                 ..type = refer('int')
-                ..modifier = FieldModifier.final$
+                ..modifier = .final$
                 ..annotations.add(refer('override'));
             }),
-            Field((f) {
+            .new((f) {
               f
                 ..name = 'fontFamily'
-                ..modifier = FieldModifier.final$
+                ..modifier = .final$
                 ..annotations.add(refer('override'))
                 ..assignment = literalString('Material Symbols Rounded').code;
             }),
-            Field((f) {
+            .new((f) {
               f
                 ..name = 'fontPackage'
                 ..type = refer('String?')
-                ..modifier = FieldModifier.final$
+                ..modifier = .final$
                 ..annotations.add(refer('override'))
                 ..assignment = literalNull.code;
             }),
-            Field((f) {
+            .new((f) {
               f
                 ..name = 'fontFamilyFallback'
                 ..type = refer('List<String>?')
-                ..modifier = FieldModifier.final$
+                ..modifier = .final$
                 ..annotations.add(refer('override'))
                 ..assignment = literalNull.code;
             }),
-            Field((f) {
+            .new((f) {
               f
                 ..name = 'matchTextDirection'
-                ..modifier = FieldModifier.final$
+                ..modifier = .final$
                 ..annotations.add(refer('override'))
                 ..assignment = literalFalse.code;
             }),
@@ -98,9 +98,9 @@ void main() {
   });
 
   output.writeAsStringSync(
-    DartFormatter(languageVersion: DartFormatter.latestLanguageVersion).format(
-      iconDataLibrary.accept(DartEmitter(allocator: Allocator())).toString(),
-    ),
+    DartFormatter(
+      languageVersion: DartFormatter.latestLanguageVersion,
+    ).format(iconDataLibrary.accept(DartEmitter(allocator: .new())).toString()),
   );
 }
 

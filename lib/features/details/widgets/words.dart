@@ -15,8 +15,8 @@ class SliverKanjiWords extends StatelessWidget {
     return SliverMainAxisGroup(
       slivers: [
         SliverToBoxAdapter(
-          child: Padding(
-            padding: const AppPadding.symmetric(horizontal: AppUnit.small),
+          child: AppPadding(
+            padding: const .symmetric(horizontal: .small),
             child: Text('Słowa', style: theme.textTheme.headlineSmall),
           ),
         ),
@@ -46,16 +46,16 @@ class _WordTile extends StatelessWidget {
     final maxWordLength = entry.words.map((w) => w.word.length).max;
 
     return AppCard(
-      child: Padding(
-        padding: AppPadding.only(
-          start: AppUnit.small,
-          end: AppUnit.small,
-          top: AppUnit.small,
-          bottom: word.related.isNotEmpty ? AppUnit.small : AppUnit.xsmall,
+      child: AppPadding(
+        padding: .only(
+          start: .small,
+          end: .small,
+          top: .small,
+          bottom: word.related.isNotEmpty ? .small : .xsmall,
         ),
         child: Column(
           spacing: AppUnit.xsmall,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: .start,
           children: [
             Row(
               spacing: AppUnit.xlarge,
@@ -87,36 +87,36 @@ class _RelatedWords extends StatelessWidget {
 
     return Column(
       spacing: AppUnit.tiny,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+      crossAxisAlignment: .stretch,
       children: [
         for (final (index, word) in baseWord.related.indexed)
-          Container(
+          DecoratedBox(
             decoration: BoxDecoration(
               borderRadius: AppBorderRadius.vertical(
-                top: index == 0 ? AppUnit.xsmall : null,
-                bottom: index == baseWord.related.length - 1
-                    ? AppUnit.xsmall
-                    : null,
+                top: index == 0 ? .xsmall : null,
+                bottom: index == baseWord.related.length - 1 ? .xsmall : null,
               ),
               color: theme.colorScheme.surface,
             ),
-            padding: const AppPadding.symmetric(
-              horizontal: AppUnit.small,
-              vertical: AppUnit.xsmall,
-            ),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.baseline,
-              textBaseline: TextBaseline.alphabetic,
-              spacing: AppUnit.medium,
-              children: [
-                Text.rich(
-                  _buildRelatedWordSpan(baseWord, word, theme),
-                  style: theme.textTheme.bodyMedium,
-                ),
-                Expanded(
-                  child: Text(word.meaning, style: theme.textTheme.bodyMedium),
-                ),
-              ],
+            child: AppPadding(
+              padding: const .symmetric(horizontal: .small, vertical: .xsmall),
+              child: Row(
+                crossAxisAlignment: .baseline,
+                textBaseline: .alphabetic,
+                spacing: AppUnit.medium,
+                children: [
+                  Text.rich(
+                    _buildRelatedWordSpan(baseWord, word, theme),
+                    style: theme.textTheme.bodyMedium,
+                  ),
+                  Expanded(
+                    child: Text(
+                      word.meaning,
+                      style: theme.textTheme.bodyMedium,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
       ],
@@ -137,7 +137,7 @@ InlineSpan _buildRelatedWordSpan(
     children: [
       TextSpan(
         text: baseWord.word,
-        style: TextStyle(color: theme.colorScheme.outlineVariant),
+        style: .new(color: theme.colorScheme.outlineVariant),
       ),
       TextSpan(text: suffix.padRight(maxSuffixLength, '　')),
     ],

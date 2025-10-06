@@ -16,7 +16,7 @@ class KanjiListBranch extends StatefulShellBranchData {
   static const $restorationScopeId = 'kanjiListBranch';
 }
 
-class KanjiListRoute extends GoRouteData with _$KanjiListRoute {
+class KanjiListRoute extends GoRouteData with $KanjiListRoute {
   const KanjiListRoute();
 
   @override
@@ -25,7 +25,7 @@ class KanjiListRoute extends GoRouteData with _$KanjiListRoute {
   }
 }
 
-class KanjiDetailsRoute extends GoRouteData with _$KanjiDetailsRoute {
+class KanjiDetailsRoute extends GoRouteData with $KanjiDetailsRoute {
   const KanjiDetailsRoute(this.id);
 
   final int id;
