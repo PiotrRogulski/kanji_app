@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "例",
-      "reading": "レイ"
+      "reading": "レイ",
+      "meaning": "przykład"
     },
     {
       "kanji": "例える",
-      "reading": "たとえる"
+      "reading": "たとえる",
+      "meaning": "porównywać; przyrównywać"
     },
     {
       "kanji": "例えば",
-      "reading": "たとえば"
+      "reading": "たとえば",
+      "meaning": "na przykład"
     },
     {
       "kanji": "例外",
-      "reading": "レイガイ"
+      "reading": "レイガイ",
+      "meaning": "wyjątek"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "機械",
-      "reading": "キカイ"
+      "reading": "キカイ",
+      "meaning": "maszyna"
     },
     {
       "kanji": "器械",
-      "reading": "キカイ"
+      "reading": "キカイ",
+      "meaning": "przyrząd; aparat"
     }
   ],
   "wordsRequiredLater": [],

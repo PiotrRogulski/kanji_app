@@ -13,126 +13,82 @@ class KanjiEntry with EquatableMixin {
   const KanjiEntry({
     required this.id,
     required this.kanji,
-    required this.strokes,
-    required this.radical,
-    required this.antonyms,
-    required this.synonyms,
     required this.readings,
-    required this.words,
-    required this.sentences,
+    required this.wordsRequiredNow,
+    required this.wordsRequiredLater,
+    required this.additionalWords,
   });
 
   KanjiEntry.fromJson(Map<String, dynamic> json)
     : id = json['id'] as int,
       kanji = json['kanji'] as String,
-      strokes = json['strokes'] as int,
-      radical = json['radical'] as String,
-      antonyms = (json['antonyms'] as List?)?.cast() ?? [],
-      synonyms = (json['synonyms'] as List?)?.cast() ?? [],
-      readings = Readings.fromJson(json['readings'] as Map<String, dynamic>),
-      words = (json['words'] as List)
-          .map((e) => Word.fromJson(e as Map<String, dynamic>))
+      readings = ((json['readings'] as List?) ?? []).cast(),
+      wordsRequiredNow = ((json['wordsRequiredNow'] as List?) ?? [])
+          .cast<Map<String, dynamic>>()
+          .map(KanjiWord.fromJson)
           .toList(),
-      sentences = (json['sentences'] as List?)?.cast() ?? [];
+      wordsRequiredLater = ((json['wordsRequiredLater'] as List?) ?? [])
+          .cast<Map<String, dynamic>>()
+          .map(KanjiWord.fromJson)
+          .toList(),
+      additionalWords = ((json['additionalWords'] as List?) ?? [])
+          .cast<Map<String, dynamic>>()
+          .map(KanjiWord.fromJson)
+          .toList();
 
   final int id;
   final String kanji;
-  final int strokes;
-  final String radical;
-  final List<String> antonyms;
-  final List<String> synonyms;
-  final Readings readings;
-  final List<Word> words;
-  final List<String> sentences;
+  final List<String> readings;
+  final List<KanjiWord> wordsRequiredNow;
+  final List<KanjiWord> wordsRequiredLater;
+  final List<KanjiWord> additionalWords;
 
   @override
   List<Object?> get props => [
     id,
     kanji,
-    strokes,
-    radical,
-    antonyms,
-    synonyms,
     readings,
-    words,
-    sentences,
+    wordsRequiredNow,
+    wordsRequiredLater,
+    additionalWords,
   ];
 
   Map<String, dynamic> toJson() => {
     'id': id,
     'kanji': kanji,
-    'strokes': strokes,
-    'radical': radical,
-    'antonyms': antonyms,
-    'synonyms': synonyms,
-    'readings': readings.toJson(),
-    'words': words.map((e) => e.toJson()).toList(),
-    'sentences': sentences,
+    'readings': readings,
+    'wordsRequiredNow': wordsRequiredNow.map((e) => e.toJson()).toList(),
+    'wordsRequiredLater': wordsRequiredLater.map((e) => e.toJson()).toList(),
+    'additionalWords': additionalWords.map((e) => e.toJson()).toList(),
   };
 }
 
-class Readings with EquatableMixin {
-  const Readings({required this.onyomi, required this.kunyomi});
-
-  Readings.fromJson(Map<String, dynamic> json)
-    : onyomi = (json['onyomi'] as List?)?.cast() ?? [],
-      kunyomi = (json['kunyomi'] as List?)?.cast() ?? [];
-
-  final List<String> onyomi;
-  final List<String> kunyomi;
-
-  @override
-  List<Object?> get props => [onyomi, kunyomi];
-
-  Map<String, dynamic> toJson() => {'onyomi': onyomi, 'kunyomi': kunyomi};
-}
-
-class Word with EquatableMixin {
-  const Word({
-    required this.word,
+class KanjiWord with EquatableMixin {
+  const KanjiWord({
+    required this.kanji,
     required this.reading,
     required this.meaning,
-    required this.related,
+    this.reference,
   });
 
-  Word.fromJson(Map<String, dynamic> json)
-    : word = json['word'] as String,
-      reading = json['reading'] as String,
-      meaning = json['meaning'] as String,
-      related =
-          (json['related'] as List?)
-              ?.map((e) => RelatedWord.fromJson(e as Map<String, dynamic>))
-              .toList() ??
-          [];
+  KanjiWord.fromJson(Map<String, dynamic> json)
+    : kanji = (json['kanji'] ?? '').toString(),
+      reading = (json['reading'] ?? '').toString(),
+      meaning = (json['meaning'] ?? '').toString(),
+      reference = (json['reference'] is int) ? json['reference'] as int : null;
 
-  final String word;
+  final String kanji;
   final String reading;
   final String meaning;
-  final List<RelatedWord> related;
+  final int? reference;
 
   @override
-  List<Object?> get props => [word, reading, meaning, related];
+  List<Object?> get props => [kanji, reading, meaning, reference];
 
   Map<String, dynamic> toJson() => {
-    'word': word,
+    'kanji': kanji,
     'reading': reading,
     'meaning': meaning,
-    if (related.isNotEmpty) 'related': related.map((e) => e.toJson()).toList(),
+    'reference': ?reference,
   };
-}
-
-class RelatedWord with EquatableMixin {
-  const RelatedWord({required this.word, required this.meaning});
-
-  RelatedWord.fromJson(Map<String, dynamic> json)
-    : word = json['word'] as String,
-      meaning = json['meaning'] as String;
-
-  final String word;
-  final String meaning;
-
-  @override
-  List<Object?> get props => [word, meaning];
-
-  Map<String, dynamic> toJson() => {'word': word, 'meaning': meaning};
 }

@@ -21,32 +21,30 @@ class AppIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DynamicWeight(
-      child: Material(
-        type: .transparency,
-        shape: const CircleBorder(),
-        clipBehavior: .antiAlias,
-        child: AppInkWell(
-          onTap: onPressed,
-          child: AppPadding(
-            padding: iconPadding ?? const .all(.small),
-            child: AnimatedSwitcher(
-              duration: Durations.medium1,
-              switchInCurve: Curves.easeInOutCubicEmphasized,
-              switchOutCurve: Curves.easeInOutCubicEmphasized.flipped,
-              transitionBuilder: (child, animation) {
-                return FadeTransition(
-                  opacity: animation,
-                  child: ScaleTransition(scale: animation, child: child),
-                );
-              },
-              child: AppIcon(
-                key: ValueKey(icon),
-                icon,
-                size: iconSize,
-                color: color,
-                fill: fill,
-              ),
+    return Material(
+      type: .transparency,
+      shape: const CircleBorder(),
+      clipBehavior: .antiAlias,
+      child: AppInkWell(
+        onTap: onPressed,
+        child: AppPadding(
+          padding: iconPadding ?? const .all(.small),
+          child: AnimatedSwitcher(
+            duration: Durations.medium1,
+            switchInCurve: Curves.easeInOutCubicEmphasized,
+            switchOutCurve: Curves.easeInOutCubicEmphasized.flipped,
+            transitionBuilder: (child, animation) {
+              return FadeTransition(
+                opacity: animation,
+                child: ScaleTransition(scale: animation, child: child),
+              );
+            },
+            child: AppIcon(
+              key: ValueKey(icon),
+              icon,
+              size: iconSize,
+              color: color,
+              fill: fill,
             ),
           ),
         ),

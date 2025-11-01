@@ -9,29 +9,35 @@
   "wordsRequiredNow": [
     {
       "kanji": "質",
-      "reading": "シチ"
+      "reading": "シチ",
+      "meaning": "zastaw (zastawienie)"
     },
     {
       "kanji": "質問",
-      "reading": "シツモン"
+      "reading": "シツモン",
+      "meaning": "pytanie"
     },
     {
       "kanji": "物質",
-      "reading": "ブッシツ"
+      "reading": "ブッシツ",
+      "meaning": "substancja; materia"
     },
     {
       "kanji": "品質",
-      "reading": "ヒンシツ"
+      "reading": "ヒンシツ",
+      "meaning": "jakość"
     },
     {
       "kanji": "人質",
-      "reading": "ひとジチ"
+      "reading": "ひとジチ",
+      "meaning": "zakładnik"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "性質",
       "reading": "セイシツ",
+      "meaning": "charakter; właściwość",
       "reference": 553
     }
   ],

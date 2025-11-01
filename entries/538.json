@@ -11,15 +11,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "静かな",
-      "reading": "しずかな"
+      "reading": "しずかな",
+      "meaning": "cichy; spokojny"
     },
     {
       "kanji": "静まる",
-      "reading": "しずまる"
+      "reading": "しずまる",
+      "meaning": "uspokajać się; ucichnąć"
     },
     {
       "kanji": "冷静な",
-      "reading": "レイセイ"
+      "reading": "レイセイ",
+      "meaning": "opanowany; spokojny"
     }
   ],
   "wordsRequiredLater": [],

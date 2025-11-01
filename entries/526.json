@@ -9,28 +9,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "除く",
-      "reading": "のぞく"
+      "reading": "のぞく",
+      "meaning": "wykluczać; usuwać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "掃除",
       "reading": "ソウジ",
+      "meaning": "sprzątanie",
       "reference": 527
     },
     {
       "kanji": "削除",
       "reading": "サクジョ",
+      "meaning": "usunięcie (skasowanie)",
       "reference": 764
     },
     {
       "kanji": "排除",
       "reading": "ハイジョ",
+      "meaning": "eliminacja; wykluczenie",
       "reference": 1115
     },
     {
       "kanji": "免除",
       "reading": "メンジョ",
+      "meaning": "zwolnienie (z obowiązku/opłaty)",
       "reference": 1125
     }
   ],

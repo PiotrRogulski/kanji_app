@@ -8,17 +8,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "掃く",
-      "reading": "はく"
+      "reading": "はく",
+      "meaning": "zamiatać"
     },
     {
       "kanji": "掃除",
-      "reading": "ソウジ"
+      "reading": "ソウジ",
+      "meaning": "sprzątanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "清掃",
       "reading": "セイソウ",
+      "meaning": "sprzątanie; czyszczenie",
       "reference": 788
     }
   ],

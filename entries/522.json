@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "畑",
-      "reading": "はたけ"
+      "reading": "はたけ",
+      "meaning": "pole uprawne (suche)"
     },
     {
       "kanji": "花畑",
-      "reading": "はなばたけ"
+      "reading": "はなばたけ",
+      "meaning": "pole kwiatów; kwietna rabata"
     }
   ],
   "wordsRequiredLater": [],

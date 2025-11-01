@@ -10,29 +10,35 @@
   "wordsRequiredNow": [
     {
       "kanji": "増す",
-      "reading": "ます"
+      "reading": "ます",
+      "meaning": "wzrastać; zwiększać się"
     },
     {
       "kanji": "増える",
-      "reading": "ふえる"
+      "reading": "ふえる",
+      "meaning": "przybywać; zwiększać się"
     },
     {
       "kanji": "増やす",
-      "reading": "ふやす"
+      "reading": "ふやす",
+      "meaning": "zwiększać"
     },
     {
       "kanji": "増大",
-      "reading": "ゾウダイ"
+      "reading": "ゾウダイ",
+      "meaning": "wzrost; powiększenie"
     },
     {
       "kanji": "増減",
-      "reading": "ゾウゲン"
+      "reading": "ゾウゲン",
+      "meaning": "wzrost i spadek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "増加",
       "reading": "ゾウカ",
+      "meaning": "wzrost",
       "reference": 846
     }
   ],

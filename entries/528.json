@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "積む",
-      "reading": "つむ"
+      "reading": "つむ",
+      "meaning": "układać (w stos); gromadzić"
     },
     {
       "kanji": "積もる",
-      "reading": "つもる"
+      "reading": "つもる",
+      "meaning": "nagromadzić się; zalegać"
     },
     {
       "kanji": "面積",
-      "reading": "メンセキ"
+      "reading": "メンセキ",
+      "meaning": "powierzchnia"
     },
     {
       "kanji": "体積",
-      "reading": "タイセキ"
+      "reading": "タイセキ",
+      "meaning": "objętość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "積極的",
       "reading": "セッキョクテキ",
+      "meaning": "proaktywny; aktywny",
       "reference": 755
     },
     {
       "kanji": "蓄積",
       "reading": "チクセキ",
+      "meaning": "akumulacja; nagromadzenie",
       "reference": 1423
     }
   ],

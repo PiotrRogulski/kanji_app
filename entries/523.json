@@ -8,31 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "最も",
-      "reading": "もっとも"
+      "reading": "もっとも",
+      "meaning": "najbardziej"
     },
     {
       "kanji": "最近",
-      "reading": "サイキン"
+      "reading": "サイキン",
+      "meaning": "ostatnio; niedawno"
     },
     {
       "kanji": "最高",
-      "reading": "サイコウ"
+      "reading": "サイコウ",
+      "meaning": "najwyższy; najlepszy"
     },
     {
       "kanji": "最初",
-      "reading": "サイショ"
+      "reading": "サイショ",
+      "meaning": "na początku; pierwszy"
     },
     {
       "kanji": "最終",
-      "reading": "サイシュウ"
+      "reading": "サイシュウ",
+      "meaning": "ostatni; końcowy"
     },
     {
       "kanji": "最後",
-      "reading": "サイゴ"
+      "reading": "サイゴ",
+      "meaning": "na końcu; ostatni"
     },
     {
       "kanji": "最低",
-      "reading": "サイテイ"
+      "reading": "サイテイ",
+      "meaning": "najniższy; okropny"
     }
   ],
   "wordsRequiredLater": [],

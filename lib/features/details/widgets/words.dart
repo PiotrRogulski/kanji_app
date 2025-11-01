@@ -2,11 +2,45 @@ import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/routes.dart';
+
+typedef _SliverWordsSectionData = ({
+  String title,
+  List<KanjiWord> words,
+  bool showRef,
+});
 
 class SliverKanjiWords extends StatelessWidget {
   const SliverKanjiWords({super.key, required this.entry});
 
   final KanjiEntry entry;
+
+  @override
+  Widget build(BuildContext context) {
+    final sections = [
+      if (entry.wordsRequiredNow.isNotEmpty)
+        (title: 'Słowa', words: entry.wordsRequiredNow, showRef: false),
+      if (entry.wordsRequiredLater.isNotEmpty)
+        (title: 'Na później', words: entry.wordsRequiredLater, showRef: true),
+      if (entry.additionalWords.isNotEmpty)
+        (title: 'Dodatkowe', words: entry.additionalWords, showRef: false),
+    ];
+
+    return SliverMainAxisGroup(
+      slivers: [
+        for (final (i, section) in sections.indexed) ...[
+          if (i > 0) AppUnit.small.sliverGap,
+          _SliverWordsSection(section),
+        ],
+      ],
+    );
+  }
+}
+
+class _SliverWordsSection extends StatelessWidget {
+  const _SliverWordsSection(this.section);
+
+  final _SliverWordsSectionData section;
 
   @override
   Widget build(BuildContext context) {
@@ -17,13 +51,17 @@ class SliverKanjiWords extends StatelessWidget {
         SliverToBoxAdapter(
           child: AppPadding(
             padding: const .symmetric(horizontal: .small),
-            child: Text('Słowa', style: theme.textTheme.headlineSmall),
+            child: Text(section.title, style: theme.textTheme.headlineSmall),
           ),
         ),
         AppUnit.tiny.sliverGap,
         SliverList.separated(
-          itemCount: entry.words.length,
-          itemBuilder: (context, index) => _WordTile(entry, index),
+          itemCount: section.words.length,
+          itemBuilder: (context, i) => _WordTile(
+            section.words[i],
+            section.words,
+            showReference: section.showRef,
+          ),
           separatorBuilder: (context, _) => AppUnit.small.gap,
         ),
       ],
@@ -32,115 +70,53 @@ class SliverKanjiWords extends StatelessWidget {
 }
 
 class _WordTile extends StatelessWidget {
-  const _WordTile(this.entry, this.index);
+  const _WordTile(this.word, this.allWords, {this.showReference = false});
 
-  final KanjiEntry entry;
-  final int index;
+  final KanjiWord word;
+  final List<KanjiWord> allWords;
+  final bool showReference;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    final word = entry.words[index];
-
-    final maxWordLength = entry.words.map((w) => w.word.length).max;
+    final maxWordLength = allWords.map((w) => w.kanji.length).max;
 
     return AppCard(
       child: AppPadding(
-        padding: .only(
+        padding: const .only(
           start: .small,
           end: .small,
           top: .small,
-          bottom: word.related.isNotEmpty ? .small : .xsmall,
+          bottom: .xsmall,
         ),
         child: Column(
           spacing: AppUnit.xsmall,
           crossAxisAlignment: .start,
           children: [
             Row(
-              spacing: AppUnit.xlarge,
               children: [
                 Text(
-                  word.word.padRight(maxWordLength, '　'),
+                  word.kanji.padRight(maxWordLength, '　'),
                   style: theme.textTheme.headlineSmall,
                 ),
+                AppUnit.xlarge.gap,
                 Text(word.reading, style: theme.textTheme.bodyLarge),
+                if (word.reference case final reference?) ...[
+                  AppUnit.medium.gap,
+                  TextButton(
+                    onPressed: () =>
+                        KanjiDetailsRoute(reference).push<void>(context),
+                    child: Text('→ #$reference'),
+                  ),
+                ],
               ],
             ),
-            Text(word.meaning, style: theme.textTheme.bodyLarge),
-            if (word.related.isNotEmpty) _RelatedWords(word),
+            if (word.meaning.isNotEmpty)
+              Text(word.meaning, style: theme.textTheme.bodyLarge),
           ],
         ),
       ),
     );
   }
-}
-
-class _RelatedWords extends StatelessWidget {
-  const _RelatedWords(this.baseWord);
-
-  final Word baseWord;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return Column(
-      spacing: AppUnit.tiny,
-      crossAxisAlignment: .stretch,
-      children: [
-        for (final (index, word) in baseWord.related.indexed)
-          DecoratedBox(
-            decoration: BoxDecoration(
-              borderRadius: AppBorderRadius.vertical(
-                top: index == 0 ? .xsmall : null,
-                bottom: index == baseWord.related.length - 1 ? .xsmall : null,
-              ),
-              color: theme.colorScheme.surface,
-            ),
-            child: AppPadding(
-              padding: const .symmetric(horizontal: .small, vertical: .xsmall),
-              child: Row(
-                crossAxisAlignment: .baseline,
-                textBaseline: .alphabetic,
-                spacing: AppUnit.medium,
-                children: [
-                  Text.rich(
-                    _buildRelatedWordSpan(baseWord, word, theme),
-                    style: theme.textTheme.bodyMedium,
-                  ),
-                  Expanded(
-                    child: Text(
-                      word.meaning,
-                      style: theme.textTheme.bodyMedium,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-      ],
-    );
-  }
-}
-
-InlineSpan _buildRelatedWordSpan(
-  Word baseWord,
-  RelatedWord related,
-  ThemeData theme,
-) {
-  final [_, suffix] = related.word.split('＿');
-
-  final maxSuffixLength = baseWord.related.map((r) => r.word.length).max - 1;
-
-  return TextSpan(
-    children: [
-      TextSpan(
-        text: baseWord.word,
-        style: .new(color: theme.colorScheme.outlineVariant),
-      ),
-      TextSpan(text: suffix.padRight(maxSuffixLength, '　')),
-    ],
-    style: theme.textTheme.bodyLarge,
-  );
 }

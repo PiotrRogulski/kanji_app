@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "機会",
-      "reading": "キカイ"
+      "reading": "キカイ",
+      "meaning": "okazja; sposobność"
     },
     {
       "kanji": "危機",
-      "reading": "キキ"
+      "reading": "キキ",
+      "meaning": "kryzys; zagrożenie"
     },
     {
       "kanji": "ジェット機",
-      "reading": "ジェットキ"
+      "reading": "ジェットキ",
+      "meaning": "samolot odrzutowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "機械",
       "reading": "キカイ",
+      "meaning": "maszyna",
       "reference": 525
     },
     {
       "kanji": "飛行機",
       "reading": "ヒコウキ",
+      "meaning": "samolot",
       "reference": 864
     },
     {
       "kanji": "機嫌",
       "reading": "キゲン",
+      "meaning": "nastrój; humor",
       "reference": 954
     },
     {
       "kanji": "機能",
       "reading": "キノウ",
+      "meaning": "funkcja; funkcjonalność",
       "reference": 976
     }
   ],

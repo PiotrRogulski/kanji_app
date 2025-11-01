@@ -22,13 +22,11 @@ SearchMatch matchEntry(KanjiEntry entry, String query) {
     return .kanji;
   }
 
-  if (entry.readings.onyomi.contains(query) ||
-      entry.readings.kunyomi.contains(query)) {
+  if (entry.readings.contains(query)) {
     return .fullReading;
   }
 
-  if (entry.readings.onyomi.any((r) => r.contains(query)) ||
-      entry.readings.kunyomi.any((r) => r.contains(query))) {
+  if (entry.readings.any((r) => r.contains(query))) {
     return .partialReading;
   }
 

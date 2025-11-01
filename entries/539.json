@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "動脈",
-      "reading": "ドウミャク"
+      "reading": "ドウミャク",
+      "meaning": "tętnica"
     },
     {
       "kanji": "山脈",
-      "reading": "サンミャク"
+      "reading": "サンミャク",
+      "meaning": "łańcuch górski; pasmo górskie"
     }
   ],
   "wordsRequiredLater": [],

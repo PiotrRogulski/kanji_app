@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "遊ぶ",
-      "reading": "あそぶ"
+      "reading": "あそぶ",
+      "meaning": "bawić się"
     },
     {
       "kanji": "遊び",
-      "reading": "あそび"
+      "reading": "あそび",
+      "meaning": "zabawa"
     },
     {
       "kanji": "遊園地",
-      "reading": "ユウエンチ"
+      "reading": "ユウエンチ",
+      "meaning": "wesołe miasteczko"
     }
   ],
   "wordsRequiredLater": [],

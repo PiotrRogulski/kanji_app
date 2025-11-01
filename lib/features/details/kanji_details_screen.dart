@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
-import 'package:kanji_app/features/details/widgets/sentences.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -55,10 +54,12 @@ class KanjiDetailsScreen extends StatelessWidget {
                             ),
                             AppUnit.small.sliverGap,
                             SliverKanjiWords(entry: entry),
-                            AppUnit.small.sliverGap,
-                            SliverKanjiSentences(entry: entry),
+                            // AppUnit.small.sliverGap,
+                            // SliverKanjiSentences(entry: entry),
                           ],
                         ),
+                        // Sentences hidden for now
+                        // ignore: leancode_lint/avoid_single_child_in_multi_child_widgets
                         _ => SliverMainAxisGroup(
                           slivers: [
                             SliverCrossAxisGroup(
@@ -73,8 +74,8 @@ class KanjiDetailsScreen extends StatelessWidget {
                                 SliverKanjiWords(entry: entry),
                               ],
                             ),
-                            AppUnit.small.sliverGap,
-                            SliverKanjiSentences(entry: entry),
+                            // AppUnit.small.sliverGap,
+                            // SliverKanjiSentences(entry: entry),
                           ],
                         ),
                       };

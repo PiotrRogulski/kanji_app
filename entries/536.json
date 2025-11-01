@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "考える",
-      "reading": "かんがえる"
+      "reading": "かんがえる",
+      "meaning": "myśleć; rozważać"
     },
     {
       "kanji": "考え",
-      "reading": "かんがえ"
+      "reading": "かんがえ",
+      "meaning": "myśl; pomysł"
     },
     {
       "kanji": "考古学",
-      "reading": "コウコガク"
+      "reading": "コウコガク",
+      "meaning": "archeologia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "参考",
       "reading": "サンコウ",
+      "meaning": "odniesienie; referencja",
       "reference": 618
     },
     {
       "kanji": "考察",
       "reading": "コウサツ",
+      "meaning": "rozważania; analiza",
       "reference": 656
     },
     {
       "kanji": "考慮",
       "reading": "コウリョ",
+      "meaning": "rozważenie; uwzględnienie",
       "reference": 1296
     }
   ],

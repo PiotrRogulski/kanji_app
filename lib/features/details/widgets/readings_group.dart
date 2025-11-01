@@ -17,26 +17,18 @@ class KanjiReadingsGroup extends StatelessWidget {
     return AppCard(
       child: AppPadding(
         padding: const .all(.xsmall),
-        child: Column(
-          spacing: AppUnit.tiny,
-          crossAxisAlignment: .start,
-          children: [
-            AppPadding(
-              padding: const .symmetric(horizontal: .xsmall),
-              child: Text(s.kanji_readings, style: theme.textTheme.bodyLarge),
-            ),
-            Row(
-              mainAxisSize: .min,
-              spacing: AppUnit.small,
-              crossAxisAlignment: .start,
-              children: [
-                if (kanji.readings.onyomi.isNotEmpty)
-                  KanjiReadings(kanji.readings.onyomi),
-                if (kanji.readings.kunyomi.isNotEmpty)
-                  KanjiReadings(kanji.readings.kunyomi),
-              ],
-            ),
-          ],
+        child: IntrinsicWidth(
+          child: Column(
+            spacing: AppUnit.tiny,
+            crossAxisAlignment: .stretch,
+            children: [
+              AppPadding(
+                padding: const .symmetric(horizontal: .xsmall),
+                child: Text(s.kanji_readings, style: theme.textTheme.bodyLarge),
+              ),
+              KanjiReadings(kanji.readings),
+            ],
+          ),
         ),
       ),
     );

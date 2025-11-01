@@ -8,23 +8,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "技術",
-      "reading": "ギジュツ"
+      "reading": "ギジュツ",
+      "meaning": "technologia; technika"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "技師",
       "reading": "ギシ",
+      "meaning": "inżynier; technik",
       "reference": 605
     },
     {
       "kanji": "演技",
       "reading": "エンギ",
+      "meaning": "aktorstwo; występ",
       "reference": 1035
     },
     {
       "kanji": "競技",
       "reading": "キョウギ",
+      "meaning": "zawody; konkurencja sportowa",
       "reference": 1133
     }
   ],

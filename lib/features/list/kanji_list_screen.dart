@@ -143,10 +143,7 @@ class _Entry extends StatelessWidget {
                       ?.apply(color: theme.colorScheme.onSurfaceVariant)
                       .copyWith(height: 1),
                 ),
-                if (entry.readings.onyomi.isNotEmpty)
-                  KanjiReadings(entry.readings.onyomi),
-                if (entry.readings.kunyomi.isNotEmpty)
-                  KanjiReadings(entry.readings.kunyomi),
+                if (entry.readings.isNotEmpty) KanjiReadings(entry.readings),
               ],
             ),
           ),

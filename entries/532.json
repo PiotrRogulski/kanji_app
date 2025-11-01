@@ -9,35 +9,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "減る",
-      "reading": "へる"
+      "reading": "へる",
+      "meaning": "zmniejszać się; ubywać"
     },
     {
       "kanji": "減らす",
-      "reading": "へらす"
+      "reading": "へらす",
+      "meaning": "zmniejszać; redukować"
     },
     {
       "kanji": "減少",
-      "reading": "ゲンショウ"
+      "reading": "ゲンショウ",
+      "meaning": "spadek; zmniejszenie"
     },
     {
       "kanji": "人口減",
-      "reading": "ジンコウゲン"
+      "reading": "ジンコウゲン",
+      "meaning": "spadek liczby ludności"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "増減",
       "reading": "ゾウゲン",
+      "meaning": "wzrost i spadek; fluktuacje",
       "reference": 533
     },
     {
       "kanji": "削減",
       "reading": "サクゲン",
+      "meaning": "redukcja; cięcia",
       "reference": 764
     },
     {
       "kanji": "いい加減な",
-      "reading": "カゲン",
+      "reading": "いいカゲンな",
+      "meaning": "niedbały; byle jaki",
       "reference": 846
     }
   ],

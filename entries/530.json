@@ -9,21 +9,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "欲しい",
-      "reading": "ほしい"
+      "reading": "ほしい",
+      "meaning": "chcieć (mieć)"
     },
     {
       "kanji": "意欲",
-      "reading": "イヨク"
+      "reading": "イヨク",
+      "meaning": "zapał; motywacja"
     },
     {
       "kanji": "食欲",
-      "reading": "ショクヨク"
+      "reading": "ショクヨク",
+      "meaning": "apetyt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "欲望",
       "reading": "ヨクボウ",
+      "meaning": "pożądanie; pragnienie",
       "reference": 850
     }
   ],

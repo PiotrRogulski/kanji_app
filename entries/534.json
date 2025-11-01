@@ -8,45 +8,55 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿屋",
-      "reading": "や"
+      "reading": "や",
+      "meaning": "…-sklep; …-rz/…-nik (sufiks)"
     },
     {
       "kanji": "屋上",
-      "reading": "オクジョウ"
+      "reading": "オクジョウ",
+      "meaning": "dach (taras na dachu)"
     },
     {
       "kanji": "家屋",
-      "reading": "カオク"
+      "reading": "カオク",
+      "meaning": "budynek mieszkalny"
     },
     {
       "kanji": "八百屋",
-      "reading": "やおや"
+      "reading": "やおや",
+      "meaning": "warzywniak"
     },
     {
       "kanji": "本屋",
-      "reading": "ホンや"
+      "reading": "ホンや",
+      "meaning": "księgarnia"
     },
     {
       "kanji": "屋根",
-      "reading": "やね"
+      "reading": "やね",
+      "meaning": "dach"
     },
     {
       "kanji": "部屋",
-      "reading": "へや"
+      "reading": "へや",
+      "meaning": "pokój"
     },
     {
       "kanji": "薬屋",
-      "reading": "くすりや"
+      "reading": "くすりや",
+      "meaning": "apteka"
     },
     {
       "kanji": "酒屋",
-      "reading": "さかや"
+      "reading": "さかや",
+      "meaning": "sklep z alkoholem"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "屋敷",
       "reading": "やしき",
+      "meaning": "posiadłość; dwór",
       "reference": 1344
     }
   ],

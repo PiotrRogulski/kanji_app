@@ -8,17 +8,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "田",
-      "reading": "た"
+      "reading": "た",
+      "meaning": "pole (ryżowe)"
     },
     {
       "kanji": "田んぼ",
-      "reading": "たんぼ"
+      "reading": "たんぼ",
+      "meaning": "pole ryżowe"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "田舎",
       "reading": "いなか",
+      "meaning": "wieś; prowincja",
       "reference": 1367
     }
   ],

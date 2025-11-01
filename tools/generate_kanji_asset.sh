@@ -7,7 +7,7 @@ trap 'rm -f "$TMP"' EXIT
 
 OUTPUT_ASSET=assets/kanji.jsonl.xz
 
-for f in kanji_data/*/*.json; do
+for f in entries/*.json; do
   jq -c '.' "$f" >> "$TMP"
 done
 
