@@ -1,0 +1,23 @@
+{
+  "id": 927,
+  "kanji": "欧",
+  "readings": [
+    "オウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "欧州",
+      "reading": "オウシュウ"
+    },
+    {
+      "kanji": "欧州連合 オウシュウレンゴウ",
+      "reading": null
+    },
+    {
+      "kanji": "欧米",
+      "reading": "オウベイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

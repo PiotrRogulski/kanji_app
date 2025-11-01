@@ -1,0 +1,24 @@
+{
+  "id": 1339,
+  "kanji": "獲",
+  "readings": [
+    "カク",
+    "え・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "獲る",
+      "reading": "える"
+    },
+    {
+      "kanji": "獲得",
+      "reading": "カクトク"
+    },
+    {
+      "kanji": "獲物",
+      "reading": "えもの"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

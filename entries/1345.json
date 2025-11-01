@@ -1,0 +1,23 @@
+{
+  "id": 1345,
+  "kanji": "籍",
+  "readings": [
+    "セキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "書籍",
+      "reading": "ショセキ"
+    },
+    {
+      "kanji": "戸籍",
+      "reading": "コセキ"
+    },
+    {
+      "kanji": "国籍",
+      "reading": "コクセキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

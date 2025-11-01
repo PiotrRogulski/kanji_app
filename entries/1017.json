@@ -1,0 +1,40 @@
+{
+  "id": 1017,
+  "kanji": "児",
+  "readings": [
+    "ジ",
+    "ニ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "小児",
+      "reading": "ショウニ"
+    },
+    {
+      "kanji": "小児科",
+      "reading": "ショウニカ"
+    },
+    {
+      "kanji": "育児",
+      "reading": "イクジ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "幼児",
+      "reading": "ヨウジ",
+      "reference": 1038
+    },
+    {
+      "kanji": "児童",
+      "reading": "ジドウ",
+      "reference": 1366
+    },
+    {
+      "kanji": "孤児",
+      "reading": "コジ",
+      "reference": 1464
+    }
+  ],
+  "additionalWords": []
+}

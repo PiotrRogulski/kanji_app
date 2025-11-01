@@ -1,0 +1,31 @@
+{
+  "id": 1376,
+  "kanji": "焦",
+  "readings": [
+    "ショウ",
+    "こ・げる",
+    "こ・がす",
+    "こ・がれる",
+    "あせ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "焦げる",
+      "reading": "こげる"
+    },
+    {
+      "kanji": "焦がす",
+      "reading": "こがす"
+    },
+    {
+      "kanji": "焦る",
+      "reading": "あせる"
+    },
+    {
+      "kanji": "焦点",
+      "reading": "ショウテン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

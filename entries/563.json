@@ -1,0 +1,31 @@
+{
+  "id": 563,
+  "kanji": "深",
+  "readings": [
+    "シン",
+    "ふか・い",
+    "ふか・まる・ふか・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "深い",
+      "reading": "ふかい"
+    },
+    {
+      "kanji": "深まる",
+      "reading": "ふかまる"
+    },
+    {
+      "kanji": "深夜",
+      "reading": "シンヤ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "深刻",
+      "reading": "シンコク",
+      "reference": 672
+    }
+  ],
+  "additionalWords": []
+}

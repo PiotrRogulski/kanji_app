@@ -1,0 +1,24 @@
+{
+  "id": 1275,
+  "kanji": "秘",
+  "readings": [
+    "ヒ",
+    "ひ・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "秘める",
+      "reading": "ひめる"
+    },
+    {
+      "kanji": "秘密",
+      "reading": "ヒミツ"
+    },
+    {
+      "kanji": "秘書",
+      "reading": "ヒショ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

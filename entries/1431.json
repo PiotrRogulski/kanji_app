@@ -1,0 +1,25 @@
+{
+  "id": 1431,
+  "kanji": "岳",
+  "readings": [
+    "ガク",
+    "たけ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "岳",
+      "reading": "たけ"
+    },
+    {
+      "kanji": "山岳",
+      "reading": "サンガク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "北岳",
+      "reading": "きただけ"
+    }
+  ]
+}

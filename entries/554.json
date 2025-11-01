@@ -1,0 +1,31 @@
+{
+  "id": 554,
+  "kanji": "迎",
+  "readings": [
+    "ゲイ",
+    "むか・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "迎える",
+      "reading": "むかえる"
+    },
+    {
+      "kanji": "出迎える",
+      "reading": "でむかえる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "歓迎",
+      "reading": "カンゲイ",
+      "reference": 1375
+    },
+    {
+      "kanji": "歓迎会",
+      "reading": "カンゲイカイ",
+      "reference": 1375
+    }
+  ],
+  "additionalWords": []
+}

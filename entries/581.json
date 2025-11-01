@@ -1,0 +1,26 @@
+{
+  "id": 581,
+  "kanji": "姉",
+  "readings": [
+    "シ",
+    "あね"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "姉",
+      "reading": "あね"
+    },
+    {
+      "kanji": "お姉さん",
+      "reading": "おねえさん"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "姉妹",
+      "reading": "シマイ",
+      "reference": 582
+    }
+  ],
+  "additionalWords": []
+}

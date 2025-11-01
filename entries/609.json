@@ -1,0 +1,21 @@
+{
+  "id": 609,
+  "kanji": "訪",
+  "readings": [
+    "ホウ",
+    "たず・ねる",
+    "おとず・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "訪ねる",
+      "reading": "たずねる"
+    },
+    {
+      "kanji": "訪問",
+      "reading": "ホウモン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

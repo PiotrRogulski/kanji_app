@@ -1,0 +1,25 @@
+{
+  "id": 786,
+  "kanji": "震",
+  "readings": [
+    "シン",
+    "ふる・う",
+    "ふる・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "震える",
+      "reading": "ふるえる"
+    },
+    {
+      "kanji": "震度",
+      "reading": "シンド"
+    },
+    {
+      "kanji": "地震",
+      "reading": "ジシン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

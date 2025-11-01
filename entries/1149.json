@@ -1,0 +1,24 @@
+{
+  "id": 1149,
+  "kanji": "疑",
+  "readings": [
+    "ギ",
+    "うたが・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "疑う",
+      "reading": "うたがう"
+    },
+    {
+      "kanji": "疑わしい",
+      "reading": "うたがわしい"
+    },
+    {
+      "kanji": "疑問",
+      "reading": "ギモン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

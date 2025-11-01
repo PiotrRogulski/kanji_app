@@ -1,0 +1,24 @@
+{
+  "id": 1289,
+  "kanji": "誘",
+  "readings": [
+    "ユウ",
+    "さそ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "誘う",
+      "reading": "さそう"
+    },
+    {
+      "kanji": "誘惑",
+      "reading": "ユウワク"
+    },
+    {
+      "kanji": "誘導",
+      "reading": "ユウドウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

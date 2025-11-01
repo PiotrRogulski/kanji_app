@@ -1,0 +1,46 @@
+{
+  "id": 493,
+  "kanji": "収",
+  "readings": [
+    "シュウ",
+    "おさ・める",
+    "おさ・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "収める",
+      "reading": "おさめる"
+    },
+    {
+      "kanji": "収入",
+      "reading": "シュウニュウ"
+    },
+    {
+      "kanji": "収集",
+      "reading": "シュウシュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "吸収",
+      "reading": "キュウシュウ",
+      "reference": 498
+    },
+    {
+      "kanji": "収納",
+      "reading": "シュウノウ",
+      "reference": 956
+    },
+    {
+      "kanji": "領収書",
+      "reading": "リョウシュウショ",
+      "reference": 1168
+    },
+    {
+      "kanji": "没収",
+      "reading": "ボッシュウ",
+      "reference": 1465
+    }
+  ],
+  "additionalWords": []
+}

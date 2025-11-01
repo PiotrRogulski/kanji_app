@@ -1,0 +1,24 @@
+{
+  "id": 913,
+  "kanji": "貧",
+  "readings": [
+    "ヒン",
+    "ビン",
+    "まず・しい",
+    "まず・しさ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "貧しい",
+      "reading": "まずしい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "貧乏な",
+      "reading": "ビンボウ",
+      "reference": 914
+    }
+  ],
+  "additionalWords": []
+}

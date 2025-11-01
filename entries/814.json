@@ -1,0 +1,33 @@
+{
+  "id": 814,
+  "kanji": "移",
+  "readings": [
+    "イ",
+    "うつ・る",
+    "うつ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "移る",
+      "reading": "うつる"
+    },
+    {
+      "kanji": "移す",
+      "reading": "うつす"
+    },
+    {
+      "kanji": "移転",
+      "reading": "イテン"
+    },
+    {
+      "kanji": "移動",
+      "reading": "イドウ"
+    },
+    {
+      "kanji": "移民",
+      "reading": "イミン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

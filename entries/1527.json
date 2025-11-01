@@ -1,0 +1,31 @@
+{
+  "id": 1527,
+  "kanji": "悔",
+  "readings": [
+    "カイ",
+    "く・いる",
+    "く・い",
+    "く・やむ",
+    "くや・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "悔やむ",
+      "reading": "くやむ"
+    },
+    {
+      "kanji": "悔しい",
+      "reading": "くやしい"
+    },
+    {
+      "kanji": "悔み",
+      "reading": "くやみ"
+    },
+    {
+      "kanji": "後悔",
+      "reading": "コウカイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

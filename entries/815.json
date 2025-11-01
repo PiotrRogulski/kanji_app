@@ -1,0 +1,27 @@
+{
+  "id": 815,
+  "kanji": "隠",
+  "readings": [
+    "イン",
+    "かく・す",
+    "かく・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "隠す",
+      "reading": "かくす"
+    },
+    {
+      "kanji": "隠れる",
+      "reading": "かくれる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "隠居",
+      "reading": "インキョ",
+      "reference": 816
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": 1184,
+  "kanji": "兵",
+  "readings": [
+    "ヘイ",
+    "ヒョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "兵士",
+      "reading": "ヘイシ"
+    },
+    {
+      "kanji": "兵隊",
+      "reading": "ヘイタイ"
+    },
+    {
+      "kanji": "兵器",
+      "reading": "ヘイキ"
+    },
+    {
+      "kanji": "核兵器",
+      "reading": "カクヘイキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

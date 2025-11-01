@@ -1,0 +1,35 @@
+{
+  "id": 796,
+  "kanji": "倒",
+  "readings": [
+    "トウ",
+    "たお・れる",
+    "たお・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "倒れる",
+      "reading": "たおれる"
+    },
+    {
+      "kanji": "倒す",
+      "reading": "たおす"
+    },
+    {
+      "kanji": "倒産",
+      "reading": "トウサン"
+    },
+    {
+      "kanji": "面倒",
+      "reading": "メンドウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "圧倒的",
+      "reading": "アットウテキ",
+      "reference": 812
+    }
+  ],
+  "additionalWords": []
+}

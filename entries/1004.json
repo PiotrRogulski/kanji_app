@@ -1,0 +1,38 @@
+{
+  "id": 1004,
+  "kanji": "仲",
+  "readings": [
+    "チュウ",
+    "なか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "仲",
+      "reading": "なか"
+    },
+    {
+      "kanji": "仲介",
+      "reading": "チュウカイ"
+    },
+    {
+      "kanji": "仲間",
+      "reading": "なかま"
+    },
+    {
+      "kanji": "仲良し",
+      "reading": "なかよし"
+    },
+    {
+      "kanji": "仲直り",
+      "reading": "なかなおり"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "犬猿の仲",
+      "reading": "ケンエンのなか",
+      "reference": 1005
+    }
+  ],
+  "additionalWords": []
+}

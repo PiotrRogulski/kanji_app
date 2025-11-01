@@ -1,0 +1,28 @@
+{
+  "id": 638,
+  "kanji": "供",
+  "readings": [
+    "キョウ",
+    "ク",
+    "そな・える",
+    "とも"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "子供",
+      "reading": "こども"
+    },
+    {
+      "kanji": "供給",
+      "reading": "キョウキュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "提供",
+      "reading": "テイキョウ",
+      "reference": 1069
+    }
+  ],
+  "additionalWords": []
+}

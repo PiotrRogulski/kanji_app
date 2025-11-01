@@ -1,0 +1,26 @@
+{
+  "id": 517,
+  "kanji": "非",
+  "readings": [
+    "ヒ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "非＿",
+      "reading": "ヒ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "非常に",
+      "reading": "ヒジョウ",
+      "reference": 518
+    },
+    {
+      "kanji": "是非",
+      "reading": "ゼヒ",
+      "reference": 1394
+    }
+  ],
+  "additionalWords": []
+}

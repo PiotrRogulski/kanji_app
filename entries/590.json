@@ -1,0 +1,57 @@
+{
+  "id": 590,
+  "kanji": "温",
+  "readings": [
+    "オン",
+    "あたた・かい",
+    "あたた・まる",
+    "あたた・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "温かい",
+      "reading": "あたたかい"
+    },
+    {
+      "kanji": "温まる",
+      "reading": "あたたまる"
+    },
+    {
+      "kanji": "温める",
+      "reading": "あたためる"
+    },
+    {
+      "kanji": "温度",
+      "reading": "オンド"
+    },
+    {
+      "kanji": "温室",
+      "reading": "オンシツ"
+    },
+    {
+      "kanji": "気温",
+      "reading": "キオン"
+    },
+    {
+      "kanji": "体温",
+      "reading": "タイオン"
+    },
+    {
+      "kanji": "体温計",
+      "reading": "タイオンケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "温暖",
+      "reading": "オンダン",
+      "reference": 691
+    },
+    {
+      "kanji": "温泉",
+      "reading": "オンセン",
+      "reference": 1298
+    }
+  ],
+  "additionalWords": []
+}

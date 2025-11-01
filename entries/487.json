@@ -1,0 +1,56 @@
+{
+  "id": 487,
+  "kanji": "期",
+  "readings": [
+    "キ",
+    "ゴ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "期間",
+      "reading": "キカン"
+    },
+    {
+      "kanji": "時期",
+      "reading": "ジキ"
+    },
+    {
+      "kanji": "学期",
+      "reading": "ガッキ"
+    },
+    {
+      "kanji": "期待",
+      "reading": "キタイ"
+    },
+    {
+      "kanji": "長期",
+      "reading": "チョウキ"
+    },
+    {
+      "kanji": "定期",
+      "reading": "テイキ"
+    },
+    {
+      "kanji": "初期",
+      "reading": "ショキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "短期",
+      "reading": "タンキ",
+      "reference": 501
+    },
+    {
+      "kanji": "期限",
+      "reading": "キゲン",
+      "reference": 949
+    },
+    {
+      "kanji": "延期",
+      "reading": "エンキ",
+      "reference": 1086
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 530,
+  "kanji": "欲",
+  "readings": [
+    "ヨク",
+    "ほっ・する",
+    "ほ・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "欲しい",
+      "reading": "ほしい"
+    },
+    {
+      "kanji": "意欲",
+      "reading": "イヨク"
+    },
+    {
+      "kanji": "食欲",
+      "reading": "ショクヨク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "欲望",
+      "reading": "ヨクボウ",
+      "reference": 850
+    }
+  ],
+  "additionalWords": []
+}

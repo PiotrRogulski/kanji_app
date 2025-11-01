@@ -1,0 +1,36 @@
+{
+  "id": 585,
+  "kanji": "頼",
+  "readings": [
+    "ライ",
+    "たの・もしい",
+    "たの・む",
+    "たよ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "頼む",
+      "reading": "たのむ"
+    },
+    {
+      "kanji": "頼る",
+      "reading": "たよる"
+    },
+    {
+      "kanji": "頼み",
+      "reading": "たのみ"
+    },
+    {
+      "kanji": "信頼",
+      "reading": "シンライ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "依頼",
+      "reading": "イライ",
+      "reference": 1147
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": 961,
+  "kanji": "可",
+  "readings": [
+    "カ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "可",
+      "reading": "カ"
+    },
+    {
+      "kanji": "不可",
+      "reading": "フカ"
+    },
+    {
+      "kanji": "不可欠な",
+      "reading": "フカケツ"
+    },
+    {
+      "kanji": "許可",
+      "reading": "キョカ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "可能",
+      "reading": "カノウ",
+      "reference": 976
+    },
+    {
+      "kanji": "可能性",
+      "reading": "カノウセイ",
+      "reference": 976
+    },
+    {
+      "kanji": "不可能",
+      "reading": "フカノウ",
+      "reference": 976
+    }
+  ],
+  "additionalWords": []
+}

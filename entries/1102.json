@@ -1,0 +1,30 @@
+{
+  "id": 1102,
+  "kanji": "症",
+  "readings": [
+    "ショウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "症状",
+      "reading": "ショウジョウ"
+    },
+    {
+      "kanji": "感染症",
+      "reading": "カンセンショウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "炎症",
+      "reading": "エンショウ",
+      "reference": 1400
+    },
+    {
+      "kanji": "花粉症",
+      "reading": "カフンショウ",
+      "reference": 1476
+    }
+  ],
+  "additionalWords": []
+}

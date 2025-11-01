@@ -1,0 +1,36 @@
+{
+  "id": 547,
+  "kanji": "祝",
+  "readings": [
+    "シュク",
+    "シュウ",
+    "いわ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "祝う",
+      "reading": "いわう"
+    },
+    {
+      "kanji": "お祝い",
+      "reading": "おいわい"
+    },
+    {
+      "kanji": "祝日",
+      "reading": "シュクジツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "祝福",
+      "reading": "シュクフク",
+      "reference": 917
+    },
+    {
+      "kanji": "祝杯",
+      "reading": "シュクハイ",
+      "reference": 1384
+    }
+  ],
+  "additionalWords": []
+}

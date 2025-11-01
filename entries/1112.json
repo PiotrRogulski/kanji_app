@@ -1,0 +1,26 @@
+{
+  "id": 1112,
+  "kanji": "敵",
+  "readings": [
+    "テキ",
+    "かたき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "敵",
+      "reading": "テキ／かたき"
+    },
+    {
+      "kanji": "敵対",
+      "reading": "テキタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "匹敵する",
+      "reading": "ヒッテキ",
+      "reference": 1490
+    }
+  ],
+  "additionalWords": []
+}

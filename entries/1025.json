@@ -1,0 +1,19 @@
+{
+  "id": 1025,
+  "kanji": "析",
+  "readings": [
+    "セキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "分析",
+      "reading": "ブンセキ"
+    },
+    {
+      "kanji": "解析",
+      "reading": "カイセキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

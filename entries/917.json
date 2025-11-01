@@ -1,0 +1,30 @@
+{
+  "id": 917,
+  "kanji": "福",
+  "readings": [
+    "フク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "祝福",
+      "reading": "シュクフク"
+    },
+    {
+      "kanji": "幸福",
+      "reading": "コウフク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "裕福な",
+      "reading": "ユウフク",
+      "reference": 1292
+    },
+    {
+      "kanji": "福祉",
+      "reading": "フクシ",
+      "reference": 1311
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": 763,
+  "kanji": "態",
+  "readings": [
+    "タイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "態度",
+      "reading": "タイド"
+    },
+    {
+      "kanji": "事態",
+      "reading": "ジタイ"
+    },
+    {
+      "kanji": "重態",
+      "reading": "ジュウタイ"
+    },
+    {
+      "kanji": "形態",
+      "reading": "ケイタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "状態",
+      "reading": "ジョウタイ",
+      "reference": 939
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": 1503,
+  "kanji": "髪",
+  "readings": [
+    "ハツ",
+    "かみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "髪",
+      "reading": "かみ"
+    },
+    {
+      "kanji": "髪の毛",
+      "reading": "かみのけ"
+    },
+    {
+      "kanji": "金髪",
+      "reading": "キンパツ"
+    },
+    {
+      "kanji": "黒髪",
+      "reading": "くろかみ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

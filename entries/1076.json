@@ -1,0 +1,39 @@
+{
+  "id": 1076,
+  "kanji": "路",
+  "readings": [
+    "ロ",
+    "じ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "路上",
+      "reading": "ロジョウ"
+    },
+    {
+      "kanji": "道路",
+      "reading": "ドウロ"
+    },
+    {
+      "kanji": "線路",
+      "reading": "センロ"
+    },
+    {
+      "kanji": "通路",
+      "reading": "ツウロ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "岐路",
+      "reading": "キロ",
+      "reference": 1261
+    },
+    {
+      "kanji": "迷路",
+      "reading": "メイロ",
+      "reference": 1265
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1000,
+  "kanji": "労",
+  "readings": [
+    "ロウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "労働",
+      "reading": "ロウドウ"
+    },
+    {
+      "kanji": "労働者",
+      "reading": "ロウドウシャ"
+    },
+    {
+      "kanji": "苦労",
+      "reading": "クロウ"
+    },
+    {
+      "kanji": "疲労",
+      "reading": "ヒロウ"
+    },
+    {
+      "kanji": "過労死",
+      "reading": "カロウシ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

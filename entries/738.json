@@ -1,0 +1,34 @@
+{
+  "id": 738,
+  "kanji": "属",
+  "readings": [
+    "ゾク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "属する",
+      "reading": "ゾクする"
+    },
+    {
+      "kanji": "所属",
+      "reading": "ショゾク"
+    },
+    {
+      "kanji": "金属",
+      "reading": "キンゾク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "付属",
+      "reading": "フゾク",
+      "reference": 1140
+    },
+    {
+      "kanji": "従属",
+      "reading": "ジュウゾク",
+      "reference": 1153
+    }
+  ],
+  "additionalWords": []
+}

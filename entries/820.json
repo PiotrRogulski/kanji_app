@@ -1,0 +1,36 @@
+{
+  "id": 820,
+  "kanji": "込",
+  "readings": [
+    "こ・む",
+    "こ・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "込む",
+      "reading": "こむ"
+    },
+    {
+      "kanji": "込める",
+      "reading": "こめる"
+    },
+    {
+      "kanji": "見込み",
+      "reading": "みこみ"
+    },
+    {
+      "kanji": "人込み",
+      "reading": "ひとごみ"
+    },
+    {
+      "kanji": "申し込む",
+      "reading": "もうしこむ"
+    },
+    {
+      "kanji": "潜り込む",
+      "reading": "もぐりこむ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

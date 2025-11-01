@@ -1,0 +1,21 @@
+{
+  "id": 1016,
+  "kanji": "砕",
+  "readings": [
+    "サイ",
+    "くだ・く",
+    "くだ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "砕く",
+      "reading": "くだく"
+    },
+    {
+      "kanji": "砕ける",
+      "reading": "くだける"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": 980,
+  "kanji": "判",
+  "readings": [
+    "ハン",
+    "バン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "判断",
+      "reading": "ハンダン"
+    },
+    {
+      "kanji": "判事",
+      "reading": "ハンジ"
+    },
+    {
+      "kanji": "判子",
+      "reading": "ハンこ"
+    },
+    {
+      "kanji": "評判",
+      "reading": "ヒョウバン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "裁判",
+      "reading": "サイバン",
+      "reference": 1170
+    },
+    {
+      "kanji": "審判",
+      "reading": "シンパン",
+      "reference": 1187
+    },
+    {
+      "kanji": "批判",
+      "reading": "ヒハン",
+      "reference": 1214
+    }
+  ],
+  "additionalWords": []
+}

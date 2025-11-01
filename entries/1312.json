@@ -1,0 +1,23 @@
+{
+  "id": 1312,
+  "kanji": "銃",
+  "readings": [
+    "ジュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "銃",
+      "reading": "ジュウ"
+    },
+    {
+      "kanji": "銃弾",
+      "reading": "ジュウダン"
+    },
+    {
+      "kanji": "小銃",
+      "reading": "ショウジュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

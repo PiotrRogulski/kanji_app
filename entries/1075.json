@@ -1,0 +1,39 @@
+{
+  "id": 1075,
+  "kanji": "乱",
+  "readings": [
+    "ラン",
+    "みだ・れる",
+    "みだ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "乱",
+      "reading": "ラン"
+    },
+    {
+      "kanji": "乱れる",
+      "reading": "みだれる"
+    },
+    {
+      "kanji": "乱す",
+      "reading": "みだす"
+    },
+    {
+      "kanji": "混乱",
+      "reading": "コンラン"
+    },
+    {
+      "kanji": "反乱",
+      "reading": "ハンラン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "乱暴",
+      "reading": "ランボウ",
+      "reference": 1124
+    }
+  ],
+  "additionalWords": []
+}

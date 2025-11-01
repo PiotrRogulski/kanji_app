@@ -1,0 +1,31 @@
+{
+  "id": 798,
+  "kanji": "焼",
+  "readings": [
+    "ショウ",
+    "や・く",
+    "や・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "焼く",
+      "reading": "やく"
+    },
+    {
+      "kanji": "焼ける",
+      "reading": "やける"
+    },
+    {
+      "kanji": "お好み焼き",
+      "reading": "おこのみやき"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "燃焼",
+      "reading": "ネンショウ",
+      "reference": 799
+    }
+  ],
+  "additionalWords": []
+}

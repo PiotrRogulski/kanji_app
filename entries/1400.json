@@ -1,0 +1,28 @@
+{
+  "id": 1400,
+  "kanji": "炎",
+  "readings": [
+    "エン",
+    "ほのお"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "炎",
+      "reading": "ほのお"
+    },
+    {
+      "kanji": "＿炎",
+      "reading": "エン"
+    },
+    {
+      "kanji": "肺炎",
+      "reading": "ハイエン"
+    },
+    {
+      "kanji": "炎症",
+      "reading": "エンショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

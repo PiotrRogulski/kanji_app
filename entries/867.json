@@ -1,0 +1,21 @@
+{
+  "id": 867,
+  "kanji": "密",
+  "readings": [
+    "ミツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "密接な",
+      "reading": "ミッセツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "秘密",
+      "reading": "ヒミツ",
+      "reference": 1275
+    }
+  ],
+  "additionalWords": []
+}

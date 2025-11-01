@@ -1,0 +1,39 @@
+{
+  "id": 789,
+  "kanji": "造",
+  "readings": [
+    "ゾウ",
+    "つく・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "造る",
+      "reading": "つくる"
+    },
+    {
+      "kanji": "造船",
+      "reading": "ゾウセン"
+    },
+    {
+      "kanji": "製造",
+      "reading": "セイゾウ"
+    },
+    {
+      "kanji": "木造",
+      "reading": "モクゾウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "構造",
+      "reading": "コウゾウ",
+      "reference": 969
+    },
+    {
+      "kanji": "創造",
+      "reading": "ソウゾウ",
+      "reference": 1027
+    }
+  ],
+  "additionalWords": []
+}

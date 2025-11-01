@@ -1,0 +1,52 @@
+{
+  "id": 486,
+  "kanji": "様",
+  "readings": [
+    "ヨウ",
+    "さま"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "様",
+      "reading": "ヨウ"
+    },
+    {
+      "kanji": "＿様",
+      "reading": "さま"
+    },
+    {
+      "kanji": "様々な",
+      "reading": "さまざまな"
+    },
+    {
+      "kanji": "同様",
+      "reading": "ドウヨウ"
+    },
+    {
+      "kanji": "様子",
+      "reading": "ヨウス"
+    },
+    {
+      "kanji": "神様",
+      "reading": "かみさま"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "模様",
+      "reading": "モヨウ",
+      "reference": 839
+    },
+    {
+      "kanji": "お疲れ様",
+      "reading": "おつかれさま",
+      "reference": 911
+    },
+    {
+      "kanji": "殿様",
+      "reading": "とのさま",
+      "reference": 1334
+    }
+  ],
+  "additionalWords": []
+}

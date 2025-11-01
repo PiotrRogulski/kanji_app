@@ -1,0 +1,75 @@
+{
+  "id": 470,
+  "kanji": "点",
+  "readings": [
+    "テン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "点",
+      "reading": "テン"
+    },
+    {
+      "kanji": "点数",
+      "reading": "テンスウ"
+    },
+    {
+      "kanji": "重点",
+      "reading": "ジュウテン"
+    },
+    {
+      "kanji": "地点",
+      "reading": "チテン"
+    },
+    {
+      "kanji": "弱点",
+      "reading": "ジャクテン"
+    },
+    {
+      "kanji": "終点",
+      "reading": "シュウテン"
+    },
+    {
+      "kanji": "要点",
+      "reading": "ヨウテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "起点",
+      "reading": "キテン",
+      "reference": 541
+    },
+    {
+      "kanji": "欠点",
+      "reading": "ケッテン",
+      "reference": 568
+    },
+    {
+      "kanji": "交差点",
+      "reading": "コウサテン",
+      "reference": 684
+    },
+    {
+      "kanji": "満点",
+      "reading": "マンテン",
+      "reference": 692
+    },
+    {
+      "kanji": "採点",
+      "reading": "サイテン",
+      "reference": 780
+    },
+    {
+      "kanji": "零点",
+      "reading": "レイテン",
+      "reference": 810
+    },
+    {
+      "kanji": "焦点",
+      "reading": "ショウテン",
+      "reference": 1376
+    }
+  ],
+  "additionalWords": []
+}

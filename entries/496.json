@@ -1,0 +1,47 @@
+{
+  "id": 496,
+  "kanji": "建",
+  "readings": [
+    "ケン",
+    "コン",
+    "た・てる",
+    "た・つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "建てる",
+      "reading": "たてる"
+    },
+    {
+      "kanji": "建つ",
+      "reading": "たつ"
+    },
+    {
+      "kanji": "建物",
+      "reading": "たてもの"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "建築",
+      "reading": "ケンチク",
+      "reference": 791
+    },
+    {
+      "kanji": "建築家",
+      "reading": "ケンチクカ",
+      "reference": 791
+    },
+    {
+      "kanji": "建設",
+      "reading": "ケンセツ",
+      "reference": 989
+    },
+    {
+      "kanji": "封建",
+      "reading": "ホウケン",
+      "reference": 1395
+    }
+  ],
+  "additionalWords": []
+}

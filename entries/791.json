@@ -1,0 +1,24 @@
+{
+  "id": 791,
+  "kanji": "築",
+  "readings": [
+    "チク",
+    "きず・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "築く",
+      "reading": "きずく"
+    },
+    {
+      "kanji": "建築",
+      "reading": "ケンチク"
+    },
+    {
+      "kanji": "建築家",
+      "reading": "ケンチクカ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

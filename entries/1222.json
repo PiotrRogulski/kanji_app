@@ -1,0 +1,26 @@
+{
+  "id": 1222,
+  "kanji": "皇",
+  "readings": [
+    "コウ",
+    "オウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "皇室",
+      "reading": "コウシツ"
+    },
+    {
+      "kanji": "天皇",
+      "reading": "テンノウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "皇帝",
+      "reading": "コウテイ",
+      "reference": 1452
+    }
+  ],
+  "additionalWords": []
+}

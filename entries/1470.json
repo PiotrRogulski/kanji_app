@@ -1,0 +1,25 @@
+{
+  "id": 1470,
+  "kanji": "彩",
+  "readings": [
+    "サイ",
+    "いろど・る",
+    "いろど・り"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "彩る",
+      "reading": "いろどる"
+    },
+    {
+      "kanji": "彩り",
+      "reading": "いろどり"
+    },
+    {
+      "kanji": "色彩",
+      "reading": "シキサイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1072,
+  "kanji": "罰",
+  "readings": [
+    "バツ",
+    "バチ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "罰",
+      "reading": "バツ"
+    },
+    {
+      "kanji": "罰金",
+      "reading": "バッキン"
+    },
+    {
+      "kanji": "処罰",
+      "reading": "ショバツ"
+    },
+    {
+      "kanji": "罰する",
+      "reading": "バッする"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "刑罰",
+      "reading": "ケイバツ",
+      "reference": 1229
+    },
+    {
+      "kanji": "懲罰",
+      "reading": "チョウバツ",
+      "reference": 1434
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1028,
+  "kanji": "怠",
+  "readings": [
+    "タイ",
+    "おこた・る",
+    "なま・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "怠る",
+      "reading": "おこたる"
+    },
+    {
+      "kanji": "怠ける",
+      "reading": "なまける"
+    },
+    {
+      "kanji": "怠け者",
+      "reading": "なまけもの"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

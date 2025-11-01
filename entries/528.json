@@ -1,0 +1,40 @@
+{
+  "id": 528,
+  "kanji": "積",
+  "readings": [
+    "セキ",
+    "つ・む",
+    "つ・もる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "積む",
+      "reading": "つむ"
+    },
+    {
+      "kanji": "積もる",
+      "reading": "つもる"
+    },
+    {
+      "kanji": "面積",
+      "reading": "メンセキ"
+    },
+    {
+      "kanji": "体積",
+      "reading": "タイセキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "積極的",
+      "reading": "セッキョクテキ",
+      "reference": 755
+    },
+    {
+      "kanji": "蓄積",
+      "reading": "チクセキ",
+      "reference": 1423
+    }
+  ],
+  "additionalWords": []
+}

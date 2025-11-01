@@ -1,0 +1,24 @@
+{
+  "id": 1060,
+  "kanji": "障",
+  "readings": [
+    "ショウ",
+    "さわ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "障害",
+      "reading": "ショウガイ"
+    },
+    {
+      "kanji": "障子",
+      "reading": "ショウジ"
+    },
+    {
+      "kanji": "故障",
+      "reading": "コショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

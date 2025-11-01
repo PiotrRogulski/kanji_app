@@ -1,0 +1,23 @@
+{
+  "id": 866,
+  "kanji": "棒",
+  "readings": [
+    "ボウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "棒",
+      "reading": "ボウ"
+    },
+    {
+      "kanji": "泥棒",
+      "reading": "どろボウ"
+    },
+    {
+      "kanji": "用心棒",
+      "reading": "ヨウジンボウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

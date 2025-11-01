@@ -1,0 +1,25 @@
+{
+  "id": 1513,
+  "kanji": "浸",
+  "readings": [
+    "シン",
+    "ひた・る",
+    "ひ・たす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "浸る",
+      "reading": "ひたる"
+    },
+    {
+      "kanji": "浸す",
+      "reading": "ひたす"
+    },
+    {
+      "kanji": "浸水",
+      "reading": "シンスイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

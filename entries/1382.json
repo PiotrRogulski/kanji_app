@@ -1,0 +1,31 @@
+{
+  "id": 1382,
+  "kanji": "偽",
+  "readings": [
+    "ギ",
+    "にせ",
+    "いつわ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "偽る",
+      "reading": "いつわる"
+    },
+    {
+      "kanji": "真偽",
+      "reading": "シンギ"
+    },
+    {
+      "kanji": "偽物",
+      "reading": "にせもの"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "虚偽",
+      "reading": "キョギ",
+      "reference": 1519
+    }
+  ],
+  "additionalWords": []
+}

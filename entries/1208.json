@@ -1,0 +1,31 @@
+{
+  "id": 1208,
+  "kanji": "講",
+  "readings": [
+    "コウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "講演",
+      "reading": "コウエン"
+    },
+    {
+      "kanji": "講師",
+      "reading": "コウシ"
+    },
+    {
+      "kanji": "講堂",
+      "reading": "コウドウ"
+    },
+    {
+      "kanji": "講義",
+      "reading": "コウギ"
+    },
+    {
+      "kanji": "休講",
+      "reading": "キュウコウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

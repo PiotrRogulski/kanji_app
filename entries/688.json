@@ -1,0 +1,35 @@
+{
+  "id": 688,
+  "kanji": "候",
+  "readings": [
+    "コウ",
+    "そうろう"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "天候",
+      "reading": "テンコウ"
+    },
+    {
+      "kanji": "気候",
+      "reading": "キコウ"
+    },
+    {
+      "kanji": "候文",
+      "reading": "そうろうブン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "候補",
+      "reading": "コウホ",
+      "reference": 918
+    },
+    {
+      "kanji": "候補者",
+      "reading": "コウホシャ",
+      "reference": 918
+    }
+  ],
+  "additionalWords": []
+}

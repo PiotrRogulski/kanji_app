@@ -1,0 +1,40 @@
+{
+  "id": 533,
+  "kanji": "増",
+  "readings": [
+    "ゾウ",
+    "ま・す",
+    "ふ・える",
+    "ふ・やす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "増す",
+      "reading": "ます"
+    },
+    {
+      "kanji": "増える",
+      "reading": "ふえる"
+    },
+    {
+      "kanji": "増やす",
+      "reading": "ふやす"
+    },
+    {
+      "kanji": "増大",
+      "reading": "ゾウダイ"
+    },
+    {
+      "kanji": "増減",
+      "reading": "ゾウゲン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "増加",
+      "reading": "ゾウカ",
+      "reference": 846
+    }
+  ],
+  "additionalWords": []
+}

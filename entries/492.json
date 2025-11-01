@@ -1,0 +1,32 @@
+{
+  "id": 492,
+  "kanji": "追",
+  "readings": [
+    "ツイ",
+    "お・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "追う",
+      "reading": "おう"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "追い越す",
+      "reading": "おいこす 731",
+      "reference": 0
+    },
+    {
+      "kanji": "追加",
+      "reading": "ツイカ",
+      "reference": 846
+    },
+    {
+      "kanji": "追求",
+      "reading": "ツイキュウ",
+      "reference": 963
+    }
+  ],
+  "additionalWords": []
+}

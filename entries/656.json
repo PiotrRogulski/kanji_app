@@ -1,0 +1,30 @@
+{
+  "id": 656,
+  "kanji": "察",
+  "readings": [
+    "サツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "考察",
+      "reading": "コウサツ"
+    },
+    {
+      "kanji": "警察",
+      "reading": "ケイサツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "観察",
+      "reading": "カンサツ",
+      "reference": 752
+    },
+    {
+      "kanji": "警察署",
+      "reading": "ケイサツショ",
+      "reference": 1191
+    }
+  ],
+  "additionalWords": []
+}

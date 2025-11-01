@@ -1,0 +1,26 @@
+{
+  "id": 863,
+  "kanji": "透",
+  "readings": [
+    "トウ",
+    "す・く",
+    "す・かす",
+    "す・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "透ける",
+      "reading": "すける"
+    },
+    {
+      "kanji": "透き間",
+      "reading": "すきま"
+    },
+    {
+      "kanji": "透明な",
+      "reading": "トウメイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

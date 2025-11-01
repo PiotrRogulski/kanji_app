@@ -1,0 +1,25 @@
+{
+  "id": 999,
+  "kanji": "裂",
+  "readings": [
+    "レツ",
+    "さ・く",
+    "さ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "裂く",
+      "reading": "さく"
+    },
+    {
+      "kanji": "裂ける",
+      "reading": "さける"
+    },
+    {
+      "kanji": "分裂",
+      "reading": "ブンレツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

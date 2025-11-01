@@ -1,0 +1,35 @@
+{
+  "id": 944,
+  "kanji": "置",
+  "readings": [
+    "チ",
+    "お・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "置く",
+      "reading": "おく"
+    },
+    {
+      "kanji": "配置",
+      "reading": "ハイチ"
+    },
+    {
+      "kanji": "位置",
+      "reading": "イチ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "装置",
+      "reading": "ソウチ",
+      "reference": 992
+    },
+    {
+      "kanji": "措置",
+      "reading": "ソチ",
+      "reference": 1267
+    }
+  ],
+  "additionalWords": []
+}

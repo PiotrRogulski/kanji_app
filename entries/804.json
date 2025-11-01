@@ -1,0 +1,23 @@
+{
+  "id": 804,
+  "kanji": "覆",
+  "readings": [
+    "フク",
+    "おお・う",
+    "おお・い",
+    "くつがえ・す",
+    "くつが・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "覆う",
+      "reading": "おおう"
+    },
+    {
+      "kanji": "転覆",
+      "reading": "テンプク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

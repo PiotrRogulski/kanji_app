@@ -1,0 +1,22 @@
+{
+  "id": 1460,
+  "kanji": "絞",
+  "readings": [
+    "コウ",
+    "しぼ・る",
+    "し・める",
+    "し・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "絞る",
+      "reading": "しぼる"
+    },
+    {
+      "kanji": "絞殺",
+      "reading": "コウサツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1123,
+  "kanji": "露",
+  "readings": [
+    "ロ",
+    "ロウ",
+    "つゆ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "露",
+      "reading": "つゆ"
+    },
+    {
+      "kanji": "露天",
+      "reading": "ロテン"
+    },
+    {
+      "kanji": "日露戦争",
+      "reading": "ニチロセンソウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "披露",
+      "reading": "ヒロウ",
+      "reference": 1523
+    }
+  ],
+  "additionalWords": []
+}

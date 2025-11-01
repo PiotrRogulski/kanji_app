@@ -1,0 +1,24 @@
+{
+  "id": 1385,
+  "kanji": "浅",
+  "readings": [
+    "セン",
+    "あさ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "浅い",
+      "reading": "あさい"
+    },
+    {
+      "kanji": "浅薄な",
+      "reading": "センパク"
+    },
+    {
+      "kanji": "浅瀬",
+      "reading": "あさせ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

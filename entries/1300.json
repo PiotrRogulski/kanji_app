@@ -1,0 +1,19 @@
+{
+  "id": 1300,
+  "kanji": "曜",
+  "readings": [
+    "ヨウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "曜日",
+      "reading": "ヨウび"
+    },
+    {
+      "kanji": "月火水木金土日・曜日",
+      "reading": null
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

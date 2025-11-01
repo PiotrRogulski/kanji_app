@@ -1,0 +1,28 @@
+{
+  "id": 702,
+  "kanji": "異",
+  "readings": [
+    "イ",
+    "こと"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "異なる",
+      "reading": "ことなる"
+    },
+    {
+      "kanji": "異論",
+      "reading": "イロン"
+    },
+    {
+      "kanji": "異議",
+      "reading": "イギ"
+    },
+    {
+      "kanji": "異常",
+      "reading": "イジョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

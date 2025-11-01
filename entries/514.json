@@ -1,0 +1,29 @@
+{
+  "id": 514,
+  "kanji": "寝",
+  "readings": [
+    "シン",
+    "ね・る",
+    "ね・かす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "寝る",
+      "reading": "ねる"
+    },
+    {
+      "kanji": "昼寝",
+      "reading": "ひるね"
+    },
+    {
+      "kanji": "寝台",
+      "reading": "シンダイ"
+    },
+    {
+      "kanji": "寝室",
+      "reading": "シンシツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

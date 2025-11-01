@@ -1,0 +1,25 @@
+{
+  "id": 555,
+  "kanji": "完",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "完全な",
+      "reading": "カンゼン"
+    },
+    {
+      "kanji": "完成",
+      "reading": "カンセイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "完了",
+      "reading": "カンリョウ",
+      "reference": 925
+    }
+  ],
+  "additionalWords": []
+}

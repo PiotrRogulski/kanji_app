@@ -1,0 +1,22 @@
+{
+  "id": 681,
+  "kanji": "沖",
+  "readings": [
+    "チュウ",
+    "おき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "沖",
+      "reading": "おき"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "沖縄",
+      "reading": "おきなわ",
+      "reference": 689
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": 753,
+  "kanji": "歳",
+  "readings": [
+    "サイ",
+    "セイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿歳",
+      "reading": "サイ"
+    },
+    {
+      "kanji": "二十歳",
+      "reading": "はたち"
+    },
+    {
+      "kanji": "万歳",
+      "reading": "バンザイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "歳暮",
+      "reading": "セイボ",
+      "reference": 865
+    }
+  ],
+  "additionalWords": []
+}

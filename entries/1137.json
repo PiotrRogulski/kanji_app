@@ -1,0 +1,21 @@
+{
+  "id": 1137,
+  "kanji": "遣",
+  "readings": [
+    "ケン",
+    "つか・う",
+    "つか・わす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "遣わす",
+      "reading": "つかわす"
+    },
+    {
+      "kanji": "派遣",
+      "reading": "ハケン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

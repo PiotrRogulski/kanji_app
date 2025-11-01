@@ -1,0 +1,31 @@
+{
+  "id": 1364,
+  "kanji": "紛",
+  "readings": [
+    "フン",
+    "まぎ・れる",
+    "まぎ・らす",
+    "まぎ・らわす",
+    "まぎ・らわしい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "紛らわしい",
+      "reading": "まぎらわしい"
+    },
+    {
+      "kanji": "紛れ",
+      "reading": "まぎれ"
+    },
+    {
+      "kanji": "紛れもない",
+      "reading": "まぎれもない"
+    },
+    {
+      "kanji": "紛争",
+      "reading": "フンソウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

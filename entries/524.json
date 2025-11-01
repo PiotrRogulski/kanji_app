@@ -1,0 +1,45 @@
+{
+  "id": 524,
+  "kanji": "機",
+  "readings": [
+    "キ",
+    "はた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "機会",
+      "reading": "キカイ"
+    },
+    {
+      "kanji": "危機",
+      "reading": "キキ"
+    },
+    {
+      "kanji": "ジェット機",
+      "reading": "ジェットキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "機械",
+      "reading": "キカイ",
+      "reference": 525
+    },
+    {
+      "kanji": "飛行機",
+      "reading": "ヒコウキ",
+      "reference": 864
+    },
+    {
+      "kanji": "機嫌",
+      "reading": "キゲン",
+      "reference": 954
+    },
+    {
+      "kanji": "機能",
+      "reading": "キノウ",
+      "reference": 976
+    }
+  ],
+  "additionalWords": []
+}

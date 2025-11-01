@@ -1,0 +1,32 @@
+{
+  "id": 1077,
+  "kanji": "干",
+  "readings": [
+    "カン",
+    "ほ・す",
+    "ひ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "干す",
+      "reading": "ほす"
+    },
+    {
+      "kanji": "若干",
+      "reading": "ジャッカン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "干渉",
+      "reading": "カンショウ",
+      "reference": 1201
+    },
+    {
+      "kanji": "梅干し",
+      "reading": "うめぼし",
+      "reference": 1350
+    }
+  ],
+  "additionalWords": []
+}

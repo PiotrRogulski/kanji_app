@@ -1,0 +1,29 @@
+{
+  "id": 1398,
+  "kanji": "浴",
+  "readings": [
+    "ヨク",
+    "あ・びる",
+    "あ・びせる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "浴びる",
+      "reading": "あびる"
+    },
+    {
+      "kanji": "浴室",
+      "reading": "ヨクシツ"
+    },
+    {
+      "kanji": "入浴",
+      "reading": "ニュウヨク"
+    },
+    {
+      "kanji": "浴衣",
+      "reading": "ゆかた"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

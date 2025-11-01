@@ -1,0 +1,24 @@
+{
+  "id": 1507,
+  "kanji": "耕",
+  "readings": [
+    "コウ",
+    "たがや・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "耕す",
+      "reading": "たがやす"
+    },
+    {
+      "kanji": "耕作",
+      "reading": "コウサク"
+    },
+    {
+      "kanji": "耕地",
+      "reading": "コウチ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

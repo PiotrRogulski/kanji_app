@@ -1,0 +1,31 @@
+{
+  "id": 572,
+  "kanji": "周",
+  "readings": [
+    "シュウ",
+    "まわ・り"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "周り",
+      "reading": "まわり"
+    },
+    {
+      "kanji": "円周",
+      "reading": "エンシュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "周辺",
+      "reading": "シュウヘン",
+      "reference": 584
+    },
+    {
+      "kanji": "周囲",
+      "reading": "シュウイ",
+      "reference": 813
+    }
+  ],
+  "additionalWords": []
+}

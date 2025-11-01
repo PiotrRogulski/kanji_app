@@ -1,0 +1,25 @@
+{
+  "id": 479,
+  "kanji": "昔",
+  "readings": [
+    "セキ",
+    "シャク",
+    "むかし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "昔",
+      "reading": "むかし"
+    },
+    {
+      "kanji": "昔話",
+      "reading": "むかしばなし"
+    },
+    {
+      "kanji": "大昔",
+      "reading": "おおむかし"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

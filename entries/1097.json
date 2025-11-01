@@ -1,0 +1,24 @@
+{
+  "id": 1097,
+  "kanji": "飼",
+  "readings": [
+    "シ",
+    "か・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "飼う",
+      "reading": "かう"
+    },
+    {
+      "kanji": "飼育",
+      "reading": "シイク"
+    },
+    {
+      "kanji": "飼料",
+      "reading": "シリョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": 652,
+  "kanji": "量",
+  "readings": [
+    "リョウ",
+    "はか・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "量",
+      "reading": "リョウ"
+    },
+    {
+      "kanji": "量る",
+      "reading": "はかる"
+    },
+    {
+      "kanji": "重量",
+      "reading": "ジュウリョウ"
+    },
+    {
+      "kanji": "分量",
+      "reading": "ブンリョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

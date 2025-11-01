@@ -1,0 +1,25 @@
+{
+  "id": 1293,
+  "kanji": "預",
+  "readings": [
+    "ヨ",
+    "あず・ける",
+    "あず・かる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "預ける",
+      "reading": "あずける"
+    },
+    {
+      "kanji": "預かる",
+      "reading": "あずかる"
+    },
+    {
+      "kanji": "預金",
+      "reading": "ヨキン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

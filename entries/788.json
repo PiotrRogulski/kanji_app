@@ -1,0 +1,36 @@
+{
+  "id": 788,
+  "kanji": "清",
+  "readings": [
+    "セイ",
+    "ショウ",
+    "きよ・い",
+    "きよ・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "清い",
+      "reading": "きよい"
+    },
+    {
+      "kanji": "清算",
+      "reading": "セイサン"
+    },
+    {
+      "kanji": "清掃",
+      "reading": "セイソウ"
+    },
+    {
+      "kanji": "清潔な",
+      "reading": "セイケツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "清浄",
+      "reading": "セイジョウ",
+      "reference": 1061
+    }
+  ],
+  "additionalWords": []
+}

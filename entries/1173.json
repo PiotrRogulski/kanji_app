@@ -1,0 +1,26 @@
+{
+  "id": 1173,
+  "kanji": "訴",
+  "readings": [
+    "ソ",
+    "うった・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "提訴",
+      "reading": "テイソ"
+    },
+    {
+      "kanji": "訴え",
+      "reading": "うったえ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "訴訟",
+      "reading": "ソショウ",
+      "reference": 1283
+    }
+  ],
+  "additionalWords": []
+}

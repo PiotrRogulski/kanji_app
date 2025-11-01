@@ -1,0 +1,31 @@
+{
+  "id": 579,
+  "kanji": "係",
+  "readings": [
+    "ケイ",
+    "かか・る",
+    "かかり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "係",
+      "reading": "かかり"
+    },
+    {
+      "kanji": "係員",
+      "reading": "かかりイン"
+    },
+    {
+      "kanji": "関係",
+      "reading": "カンケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "無関係",
+      "reading": "ムカンケイ",
+      "reference": 606
+    }
+  ],
+  "additionalWords": []
+}

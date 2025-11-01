@@ -1,0 +1,34 @@
+{
+  "id": 843,
+  "kanji": "報",
+  "readings": [
+    "ホウ",
+    "むく・いる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "予報",
+      "reading": "ヨホウ"
+    },
+    {
+      "kanji": "天気予報",
+      "reading": "テンキヨホウ"
+    },
+    {
+      "kanji": "通報",
+      "reading": "ツウホウ"
+    },
+    {
+      "kanji": "情報",
+      "reading": "ジョウホウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "報告",
+      "reading": "ホウコク",
+      "reference": 880
+    }
+  ],
+  "additionalWords": []
+}

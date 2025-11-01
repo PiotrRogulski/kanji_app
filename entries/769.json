@@ -1,0 +1,22 @@
+{
+  "id": 769,
+  "kanji": "抱",
+  "readings": [
+    "ホウ",
+    "だ・く",
+    "いだ・く",
+    "かか・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "抱く",
+      "reading": "だく"
+    },
+    {
+      "kanji": "抱く",
+      "reading": "いだく"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

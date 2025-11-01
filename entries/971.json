@@ -1,0 +1,23 @@
+{
+  "id": 971,
+  "kanji": "昨",
+  "readings": [
+    "サク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "昨日",
+      "reading": "サクジツ／きのう"
+    },
+    {
+      "kanji": "一昨日",
+      "reading": "おととい"
+    },
+    {
+      "kanji": "一昨年",
+      "reading": "おととし"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

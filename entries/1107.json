@@ -1,0 +1,39 @@
+{
+  "id": 1107,
+  "kanji": "占",
+  "readings": [
+    "セン",
+    "し・める",
+    "うらな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "占める",
+      "reading": "しめる"
+    },
+    {
+      "kanji": "占う",
+      "reading": "うらなう"
+    },
+    {
+      "kanji": "占い",
+      "reading": "うらない"
+    },
+    {
+      "kanji": "独占",
+      "reading": "ドクセン"
+    },
+    {
+      "kanji": "占拠",
+      "reading": "センキョ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "占領",
+      "reading": "センリョウ",
+      "reference": 1168
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 667,
+  "kanji": "州",
+  "readings": [
+    "シュウ",
+    "す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "本州",
+      "reading": "ホンシュウ"
+    },
+    {
+      "kanji": "九州",
+      "reading": "キュウシュウ"
+    },
+    {
+      "kanji": "アジア州",
+      "reading": "アジアシュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "欧州",
+      "reading": "オウシュウ",
+      "reference": 927
+    },
+    {
+      "kanji": "欧州連合",
+      "reading": "オウシュウレンゴウ",
+      "reference": 927
+    }
+  ],
+  "additionalWords": []
+}

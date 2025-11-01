@@ -1,0 +1,20 @@
+{
+  "id": 1160,
+  "kanji": "冒",
+  "readings": [
+    "ボウ",
+    "おか・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "冒険",
+      "reading": "ボウケン"
+    },
+    {
+      "kanji": "冒頭",
+      "reading": "ボウトウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

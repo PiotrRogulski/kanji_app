@@ -1,0 +1,24 @@
+{
+  "id": 1141,
+  "kanji": "永",
+  "readings": [
+    "エイ",
+    "なが・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "永い",
+      "reading": "ながい"
+    },
+    {
+      "kanji": "永遠",
+      "reading": "エイエン"
+    },
+    {
+      "kanji": "永久",
+      "reading": "エイキュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

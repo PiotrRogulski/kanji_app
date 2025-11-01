@@ -1,0 +1,39 @@
+{
+  "id": 700,
+  "kanji": "費",
+  "readings": [
+    "ヒ",
+    "つい・やす",
+    "つい・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "費用",
+      "reading": "ヒヨウ"
+    },
+    {
+      "kanji": "消費",
+      "reading": "ショウヒ"
+    },
+    {
+      "kanji": "消費者",
+      "reading": "ショウヒシャ"
+    },
+    {
+      "kanji": "自費",
+      "reading": "ジヒ"
+    },
+    {
+      "kanji": "国費",
+      "reading": "コクヒ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "浪費",
+      "reading": "ロウヒ",
+      "reference": 1444
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1220,
+  "kanji": "尾",
+  "readings": [
+    "ビ",
+    "お"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "尾行する",
+      "reading": "ビコウ"
+    },
+    {
+      "kanji": "首尾",
+      "reading": "シュビ"
+    },
+    {
+      "kanji": "尻尾",
+      "reading": "しっぽ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

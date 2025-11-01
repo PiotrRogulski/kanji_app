@@ -1,0 +1,25 @@
+{
+  "id": 951,
+  "kanji": "抗",
+  "readings": [
+    "コウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "抗議",
+      "reading": "コウギ"
+    },
+    {
+      "kanji": "対抗",
+      "reading": "タイコウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "抵抗",
+      "reading": "テイコウ",
+      "reference": 1378
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1264,
+  "kanji": "雇",
+  "readings": [
+    "コ",
+    "やと・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "雇う",
+      "reading": "やとう"
+    },
+    {
+      "kanji": "雇用",
+      "reading": "コヨウ"
+    },
+    {
+      "kanji": "雇用者",
+      "reading": "コヨウシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": 475,
+  "kanji": "細",
+  "readings": [
+    "サイ",
+    "ほそ・い",
+    "ほそ・る",
+    "こま・か",
+    "こま・かい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "細い",
+      "reading": "ほそい"
+    },
+    {
+      "kanji": "細かい",
+      "reading": "こまかい"
+    },
+    {
+      "kanji": "細長い",
+      "reading": "ほそながい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "詳細",
+      "reading": "ショウサイ",
+      "reference": 828
+    },
+    {
+      "kanji": "繊細な",
+      "reading": "センサイ",
+      "reference": 859
+    },
+    {
+      "kanji": "細菌",
+      "reading": "サイキン",
+      "reference": 883
+    },
+    {
+      "kanji": "微細な",
+      "reading": "ビサイ",
+      "reference": 1034
+    },
+    {
+      "kanji": "細胞",
+      "reading": "サイボウ",
+      "reference": 1126
+    }
+  ],
+  "additionalWords": []
+}

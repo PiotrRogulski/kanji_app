@@ -1,0 +1,33 @@
+{
+  "id": 969,
+  "kanji": "構",
+  "readings": [
+    "コウ",
+    "かま・える",
+    "かま・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "構える",
+      "reading": "かまえる"
+    },
+    {
+      "kanji": "構う",
+      "reading": "かまう"
+    },
+    {
+      "kanji": "構成",
+      "reading": "コウセイ"
+    },
+    {
+      "kanji": "構造",
+      "reading": "コウゾウ"
+    },
+    {
+      "kanji": "結構な",
+      "reading": "ケッコウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

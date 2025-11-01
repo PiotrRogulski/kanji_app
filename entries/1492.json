@@ -1,0 +1,23 @@
+{
+  "id": 1492,
+  "kanji": "輩",
+  "readings": [
+    "ハイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "先輩",
+      "reading": "センパイ"
+    },
+    {
+      "kanji": "後輩",
+      "reading": "コウハイ"
+    },
+    {
+      "kanji": "同輩",
+      "reading": "ドウハイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

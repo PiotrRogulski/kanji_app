@@ -1,0 +1,49 @@
+{
+  "id": 708,
+  "kanji": "基",
+  "readings": [
+    "キ",
+    "もと",
+    "もとい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "基",
+      "reading": "もと"
+    },
+    {
+      "kanji": "基本",
+      "reading": "キホン"
+    },
+    {
+      "kanji": "基金",
+      "reading": "キキン"
+    },
+    {
+      "kanji": "基地",
+      "reading": "キチ"
+    },
+    {
+      "kanji": "基づく",
+      "reading": "もとづく"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "基準",
+      "reading": "キジュン",
+      "reference": 800
+    },
+    {
+      "kanji": "基盤",
+      "reading": "キバン",
+      "reference": 1281
+    },
+    {
+      "kanji": "基礎",
+      "reading": "キソ",
+      "reference": 1459
+    }
+  ],
+  "additionalWords": []
+}

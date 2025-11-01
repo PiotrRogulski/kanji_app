@@ -1,0 +1,34 @@
+{
+  "id": 636,
+  "kanji": "格",
+  "readings": [
+    "カク",
+    "コウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "格好",
+      "reading": "カッコウ"
+    },
+    {
+      "kanji": "合格",
+      "reading": "ゴウカク"
+    },
+    {
+      "kanji": "本格的",
+      "reading": "ホンカクテキ"
+    },
+    {
+      "kanji": "性格",
+      "reading": "セイカク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "格差",
+      "reading": "カクサ",
+      "reference": 684
+    }
+  ],
+  "additionalWords": []
+}

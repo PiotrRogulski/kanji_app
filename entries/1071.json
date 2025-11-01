@@ -1,0 +1,48 @@
+{
+  "id": 1071,
+  "kanji": "保",
+  "readings": [
+    "ホ",
+    "たも・つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "保つ",
+      "reading": "たもつ"
+    },
+    {
+      "kanji": "保証",
+      "reading": "ホショウ"
+    },
+    {
+      "kanji": "保存",
+      "reading": "ホゾン"
+    },
+    {
+      "kanji": "保存料",
+      "reading": "ホゾンリョウ"
+    },
+    {
+      "kanji": "保険",
+      "reading": "ホケン"
+    },
+    {
+      "kanji": "確保",
+      "reading": "カクホ"
+    },
+    {
+      "kanji": "保健",
+      "reading": "ホケン"
+    },
+    {
+      "kanji": "保健所",
+      "reading": "ホケンショ"
+    },
+    {
+      "kanji": "保護",
+      "reading": "ホゴ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

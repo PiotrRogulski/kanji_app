@@ -1,0 +1,46 @@
+{
+  "id": 562,
+  "kanji": "治",
+  "readings": [
+    "チ",
+    "ジ",
+    "なお・す",
+    "なお・る",
+    "おさ・まる",
+    "おさ・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "治す",
+      "reading": "なおす"
+    },
+    {
+      "kanji": "治る",
+      "reading": "なおる"
+    },
+    {
+      "kanji": "治める",
+      "reading": "おさめる"
+    },
+    {
+      "kanji": "治安",
+      "reading": "チアン"
+    },
+    {
+      "kanji": "自治",
+      "reading": "ジチ"
+    },
+    {
+      "kanji": "政治",
+      "reading": "セイジ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "治療",
+      "reading": "チリョウ",
+      "reference": 923
+    }
+  ],
+  "additionalWords": []
+}

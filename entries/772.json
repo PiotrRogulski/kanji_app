@@ -1,0 +1,25 @@
+{
+  "id": 772,
+  "kanji": "域",
+  "readings": [
+    "イキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "地域",
+      "reading": "チイキ"
+    },
+    {
+      "kanji": "区域",
+      "reading": "クイキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "領域",
+      "reading": "リョウイキ",
+      "reference": 1168
+    }
+  ],
+  "additionalWords": []
+}

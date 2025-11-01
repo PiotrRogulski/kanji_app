@@ -1,0 +1,22 @@
+{
+  "id": 973,
+  "kanji": "荒",
+  "readings": [
+    "コウ",
+    "あら・い",
+    "あ・れる",
+    "あ・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "荒い",
+      "reading": "あらい"
+    },
+    {
+      "kanji": "荒れる",
+      "reading": "あれる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

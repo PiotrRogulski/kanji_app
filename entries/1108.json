@@ -1,0 +1,24 @@
+{
+  "id": 1108,
+  "kanji": "善",
+  "readings": [
+    "ゼン",
+    "よ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "改善",
+      "reading": "カイゼン"
+    },
+    {
+      "kanji": "善悪",
+      "reading": "ゼンアク"
+    },
+    {
+      "kanji": "善良",
+      "reading": "ゼンリョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

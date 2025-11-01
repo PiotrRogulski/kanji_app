@@ -1,0 +1,36 @@
+{
+  "id": 625,
+  "kanji": "客",
+  "readings": [
+    "キャク",
+    "カク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "客",
+      "reading": "キャク"
+    },
+    {
+      "kanji": "乗客",
+      "reading": "ジョウキャク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "観客",
+      "reading": "カンキャク",
+      "reference": 752
+    },
+    {
+      "kanji": "客観的",
+      "reading": "キャッカンテキ",
+      "reference": 752
+    },
+    {
+      "kanji": "顧客",
+      "reading": "コキャク",
+      "reference": 1319
+    }
+  ],
+  "additionalWords": []
+}

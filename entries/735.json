@@ -1,0 +1,24 @@
+{
+  "id": 735,
+  "kanji": "豚",
+  "readings": [
+    "トン",
+    "ぶた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "豚",
+      "reading": "ぶた"
+    },
+    {
+      "kanji": "豚カツ",
+      "reading": "トンカツ"
+    },
+    {
+      "kanji": "豚肉",
+      "reading": "ぶたニク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

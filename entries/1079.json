@@ -1,0 +1,21 @@
+{
+  "id": 1079,
+  "kanji": "腸",
+  "readings": [
+    "チョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "大腸",
+      "reading": "ダイチョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "胃腸",
+      "reading": "イチョウ",
+      "reference": 1080
+    }
+  ],
+  "additionalWords": []
+}

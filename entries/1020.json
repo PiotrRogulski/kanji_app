@@ -1,0 +1,25 @@
+{
+  "id": 1020,
+  "kanji": "畳",
+  "readings": [
+    "ジョウ",
+    "たたみ",
+    "たた・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿畳",
+      "reading": "ジョウ"
+    },
+    {
+      "kanji": "畳",
+      "reading": "たたみ"
+    },
+    {
+      "kanji": "畳む",
+      "reading": "たたむ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

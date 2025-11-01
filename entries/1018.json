@@ -1,0 +1,32 @@
+{
+  "id": 1018,
+  "kanji": "射",
+  "readings": [
+    "シャ",
+    "い・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "射る",
+      "reading": "いる"
+    },
+    {
+      "kanji": "発射",
+      "reading": "ハッシャ"
+    },
+    {
+      "kanji": "放射",
+      "reading": "ホウシャ"
+    },
+    {
+      "kanji": "放射線",
+      "reading": "ホウシャセン"
+    },
+    {
+      "kanji": "注射",
+      "reading": "チュウシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

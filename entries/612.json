@@ -1,0 +1,30 @@
+{
+  "id": 612,
+  "kanji": "次",
+  "readings": [
+    "シ",
+    "ジ",
+    "つ・ぐ",
+    "つぎ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "次ぐ",
+      "reading": "つぐ"
+    },
+    {
+      "kanji": "次",
+      "reading": "つぎ"
+    },
+    {
+      "kanji": "目次",
+      "reading": "モクジ"
+    },
+    {
+      "kanji": "次第に",
+      "reading": "シダイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

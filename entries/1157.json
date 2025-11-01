@@ -1,0 +1,22 @@
+{
+  "id": 1157,
+  "kanji": "否",
+  "readings": [
+    "ヒ",
+    "いな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "否定",
+      "reading": "ヒテイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "拒否",
+      "reading": "キョヒ",
+      "reference": 1306
+    }
+  ],
+  "additionalWords": []
+}

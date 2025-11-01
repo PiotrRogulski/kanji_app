@@ -1,0 +1,27 @@
+{
+  "id": 931,
+  "kanji": "隔",
+  "readings": [
+    "カク",
+    "へだ・てる",
+    "へだ・て",
+    "へだ・たる",
+    "へだ・たり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "隔てる",
+      "reading": "へだてる"
+    },
+    {
+      "kanji": "隔離",
+      "reading": "カクリ"
+    },
+    {
+      "kanji": "間隔",
+      "reading": "カンカク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

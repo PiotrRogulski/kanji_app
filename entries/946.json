@@ -1,0 +1,42 @@
+{
+  "id": 946,
+  "kanji": "義",
+  "readings": [
+    "ギ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "義務",
+      "reading": "ギム"
+    },
+    {
+      "kanji": "義理",
+      "reading": "ギリ"
+    },
+    {
+      "kanji": "正義",
+      "reading": "セイギ"
+    },
+    {
+      "kanji": "定義",
+      "reading": "テイギ"
+    },
+    {
+      "kanji": "民主主義",
+      "reading": "ミンシュシュギ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "講義",
+      "reading": "コウギ",
+      "reference": 1208
+    },
+    {
+      "kanji": "仁義",
+      "reading": "ジンギ",
+      "reference": 1373
+    }
+  ],
+  "additionalWords": []
+}

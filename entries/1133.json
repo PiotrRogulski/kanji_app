@@ -1,0 +1,34 @@
+{
+  "id": 1133,
+  "kanji": "競",
+  "readings": [
+    "キョウ",
+    "ケイ",
+    "きそ・う",
+    "せ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "競う",
+      "reading": "きそう"
+    },
+    {
+      "kanji": "競争",
+      "reading": "キョウソウ"
+    },
+    {
+      "kanji": "競技",
+      "reading": "キョウギ"
+    },
+    {
+      "kanji": "競馬",
+      "reading": "ケイバ"
+    },
+    {
+      "kanji": "競り売り",
+      "reading": "せりうり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

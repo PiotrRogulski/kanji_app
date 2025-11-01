@@ -1,0 +1,28 @@
+{
+  "id": 1528,
+  "kanji": "釣",
+  "readings": [
+    "チョウ",
+    "つ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "釣る",
+      "reading": "つる"
+    },
+    {
+      "kanji": "釣り",
+      "reading": "つり"
+    },
+    {
+      "kanji": "（お）釣り",
+      "reading": "おつり"
+    },
+    {
+      "kanji": "釣り合い",
+      "reading": "つりあい"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

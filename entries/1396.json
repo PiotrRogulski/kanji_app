@@ -1,0 +1,25 @@
+{
+  "id": 1396,
+  "kanji": "旗",
+  "readings": [
+    "キ",
+    "はた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "旗",
+      "reading": "はた"
+    },
+    {
+      "kanji": "国旗",
+      "reading": "コッキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "旗本",
+      "reading": "はたもと"
+    }
+  ]
+}

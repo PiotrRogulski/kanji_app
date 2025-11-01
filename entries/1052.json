@@ -1,0 +1,40 @@
+{
+  "id": 1052,
+  "kanji": "混",
+  "readings": [
+    "コン",
+    "ま・じる",
+    "ま・ざる",
+    "ま・ぜる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "混じる",
+      "reading": "まじる"
+    },
+    {
+      "kanji": "混ざる",
+      "reading": "まざる"
+    },
+    {
+      "kanji": "混ぜる",
+      "reading": "まぜる"
+    },
+    {
+      "kanji": "混合",
+      "reading": "コンゴウ"
+    },
+    {
+      "kanji": "混雑な",
+      "reading": "コンザツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "混乱",
+      "reading": "コンラン",
+      "reference": 1075
+    }
+  ],
+  "additionalWords": []
+}

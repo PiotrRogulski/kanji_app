@@ -1,0 +1,26 @@
+{
+  "id": 1223,
+  "kanji": "妻",
+  "readings": [
+    "サイ",
+    "つま"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "妻",
+      "reading": "つま"
+    },
+    {
+      "kanji": "夫妻",
+      "reading": "フサイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "稲妻",
+      "reading": "いなずま",
+      "reference": 1321
+    }
+  ],
+  "additionalWords": []
+}

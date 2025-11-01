@@ -1,0 +1,31 @@
+{
+  "id": 972,
+  "kanji": "像",
+  "readings": [
+    "ゾウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "像",
+      "reading": "ゾウ"
+    },
+    {
+      "kanji": "映像",
+      "reading": "エイゾウ"
+    },
+    {
+      "kanji": "画像",
+      "reading": "ガゾウ"
+    },
+    {
+      "kanji": "仏像",
+      "reading": "ブツゾウ"
+    },
+    {
+      "kanji": "想像",
+      "reading": "ソウゾウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

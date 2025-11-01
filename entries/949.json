@@ -1,0 +1,40 @@
+{
+  "id": 949,
+  "kanji": "限",
+  "readings": [
+    "ゲン",
+    "かぎ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "限る",
+      "reading": "かぎる"
+    },
+    {
+      "kanji": "限り",
+      "reading": "かぎり"
+    },
+    {
+      "kanji": "限度",
+      "reading": "ゲンド"
+    },
+    {
+      "kanji": "限界",
+      "reading": "ゲンカイ"
+    },
+    {
+      "kanji": "制限",
+      "reading": "セイゲン"
+    },
+    {
+      "kanji": "無限",
+      "reading": "ムゲン"
+    },
+    {
+      "kanji": "期限",
+      "reading": "キゲン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

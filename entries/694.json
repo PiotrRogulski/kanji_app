@@ -1,0 +1,26 @@
+{
+  "id": 694,
+  "kanji": "拠",
+  "readings": [
+    "キョ",
+    "コ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "証拠",
+      "reading": "ショウコ"
+    },
+    {
+      "kanji": "根拠",
+      "reading": "コンキョ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "占拠",
+      "reading": "センキョ",
+      "reference": 1107
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 910,
+  "kanji": "彼",
+  "readings": [
+    "ヒ",
+    "かれ",
+    "かの"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "彼",
+      "reading": "かれ"
+    },
+    {
+      "kanji": "彼等",
+      "reading": "かれら"
+    },
+    {
+      "kanji": "彼女",
+      "reading": "かのジョ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

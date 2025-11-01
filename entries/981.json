@@ -1,0 +1,24 @@
+{
+  "id": 981,
+  "kanji": "躍",
+  "readings": [
+    "ヤク",
+    "おど・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "踊る",
+      "reading": "おどる"
+    },
+    {
+      "kanji": "活躍",
+      "reading": "カツヤク"
+    },
+    {
+      "kanji": "飛躍",
+      "reading": "ヒヤク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

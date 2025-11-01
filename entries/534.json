@@ -1,0 +1,54 @@
+{
+  "id": 534,
+  "kanji": "屋",
+  "readings": [
+    "オク",
+    "や"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿屋",
+      "reading": "や"
+    },
+    {
+      "kanji": "屋上",
+      "reading": "オクジョウ"
+    },
+    {
+      "kanji": "家屋",
+      "reading": "カオク"
+    },
+    {
+      "kanji": "八百屋",
+      "reading": "やおや"
+    },
+    {
+      "kanji": "本屋",
+      "reading": "ホンや"
+    },
+    {
+      "kanji": "屋根",
+      "reading": "やね"
+    },
+    {
+      "kanji": "部屋",
+      "reading": "へや"
+    },
+    {
+      "kanji": "薬屋",
+      "reading": "くすりや"
+    },
+    {
+      "kanji": "酒屋",
+      "reading": "さかや"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "屋敷",
+      "reading": "やしき",
+      "reference": 1344
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1083,
+  "kanji": "疫",
+  "readings": [
+    "エキ",
+    "ヤク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "疫病",
+      "reading": "エキビョウ／ヤクビョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "検疫",
+      "reading": "ケンエキ",
+      "reference": 1094
+    }
+  ],
+  "additionalWords": []
+}

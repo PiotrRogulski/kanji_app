@@ -1,0 +1,28 @@
+{
+  "id": 535,
+  "kanji": "例",
+  "readings": [
+    "レイ",
+    "たと・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "例",
+      "reading": "レイ"
+    },
+    {
+      "kanji": "例える",
+      "reading": "たとえる"
+    },
+    {
+      "kanji": "例えば",
+      "reading": "たとえば"
+    },
+    {
+      "kanji": "例外",
+      "reading": "レイガイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

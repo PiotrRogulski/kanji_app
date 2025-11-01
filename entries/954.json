@@ -1,0 +1,34 @@
+{
+  "id": 954,
+  "kanji": "嫌",
+  "readings": [
+    "ケン",
+    "ゲン",
+    "いや",
+    "きら・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "嫌",
+      "reading": "いや"
+    },
+    {
+      "kanji": "嫌う",
+      "reading": "きらう"
+    },
+    {
+      "kanji": "嫌い",
+      "reading": "きらい"
+    },
+    {
+      "kanji": "機嫌",
+      "reading": "キゲン"
+    },
+    {
+      "kanji": "嫌がる",
+      "reading": "いやがる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": 716,
+  "kanji": "沸",
+  "readings": [
+    "フツ",
+    "わ・く",
+    "わ・かす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "沸く",
+      "reading": "わく"
+    },
+    {
+      "kanji": "沸かす",
+      "reading": "わかす"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "沸騰",
+      "reading": "フットウ",
+      "reference": 1532
+    }
+  ],
+  "additionalWords": []
+}

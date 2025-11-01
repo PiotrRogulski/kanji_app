@@ -1,0 +1,23 @@
+{
+  "id": 1217,
+  "kanji": "劇",
+  "readings": [
+    "ゲキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "劇場",
+      "reading": "ゲキジョウ"
+    },
+    {
+      "kanji": "演劇",
+      "reading": "エンゲキ"
+    },
+    {
+      "kanji": "悲劇",
+      "reading": "ヒゲキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

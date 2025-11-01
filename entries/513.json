@@ -1,0 +1,41 @@
+{
+  "id": 513,
+  "kanji": "争",
+  "readings": [
+    "ソウ",
+    "あらそ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "争う",
+      "reading": "あらそう"
+    },
+    {
+      "kanji": "戦争",
+      "reading": "センソウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "日露戦争 ニチロセンソウ",
+      "reading": "1123",
+      "reference": 0
+    },
+    {
+      "kanji": "競争",
+      "reading": "キョウソウ",
+      "reference": 1133
+    },
+    {
+      "kanji": "争奪",
+      "reading": "ソウダツ",
+      "reference": 1304
+    },
+    {
+      "kanji": "紛争",
+      "reading": "フンソウ",
+      "reference": 1364
+    }
+  ],
+  "additionalWords": []
+}

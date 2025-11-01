@@ -1,0 +1,30 @@
+{
+  "id": 637,
+  "kanji": "詰",
+  "readings": [
+    "キツ",
+    "つ・める",
+    "つ・まる",
+    "つ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "詰める",
+      "reading": "つめる"
+    },
+    {
+      "kanji": "詰まる",
+      "reading": "つまる"
+    },
+    {
+      "kanji": "見詰める",
+      "reading": "みつめる"
+    },
+    {
+      "kanji": "缶詰",
+      "reading": "カンづめ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

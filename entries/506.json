@@ -1,0 +1,38 @@
+{
+  "id": 506,
+  "kanji": "歌",
+  "readings": [
+    "カ",
+    "うた",
+    "うた・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "歌",
+      "reading": "うた"
+    },
+    {
+      "kanji": "歌う",
+      "reading": "うたう"
+    },
+    {
+      "kanji": "歌手",
+      "reading": "カシュ"
+    },
+    {
+      "kanji": "歌人",
+      "reading": "カジン"
+    },
+    {
+      "kanji": "国歌",
+      "reading": "コッカ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "歌舞伎",
+      "reading": "カブキ 915"
+    }
+  ]
+}

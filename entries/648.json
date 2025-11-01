@@ -1,0 +1,44 @@
+{
+  "id": 648,
+  "kanji": "包",
+  "readings": [
+    "ホウ",
+    "つつ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "包む",
+      "reading": "つつむ"
+    },
+    {
+      "kanji": "包み",
+      "reading": "つつみ"
+    },
+    {
+      "kanji": "小包み",
+      "reading": "こづつみ"
+    },
+    {
+      "kanji": "包丁",
+      "reading": "ホウチョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "包装",
+      "reading": "ホウソウ",
+      "reference": 992
+    },
+    {
+      "kanji": "包帯",
+      "reading": "ホウタイ",
+      "reference": 1231
+    },
+    {
+      "kanji": "包括的",
+      "reading": "ホウカツテキ",
+      "reference": 1379
+    }
+  ],
+  "additionalWords": []
+}

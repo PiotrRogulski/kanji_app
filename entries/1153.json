@@ -1,0 +1,35 @@
+{
+  "id": 1153,
+  "kanji": "従",
+  "readings": [
+    "ジュウ",
+    "ショウ",
+    "ジュ",
+    "したが・う",
+    "したが・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "従う",
+      "reading": "したがう"
+    },
+    {
+      "kanji": "従って",
+      "reading": "したがって"
+    },
+    {
+      "kanji": "従事する",
+      "reading": "ジュウジ"
+    },
+    {
+      "kanji": "従来",
+      "reading": "ジュウライ"
+    },
+    {
+      "kanji": "従属",
+      "reading": "ジュウゾク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

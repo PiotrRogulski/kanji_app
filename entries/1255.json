@@ -1,0 +1,23 @@
+{
+  "id": 1255,
+  "kanji": "郵",
+  "readings": [
+    "ユウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "郵便",
+      "reading": "ユウビン"
+    },
+    {
+      "kanji": "郵便局",
+      "reading": "ユウビンキョク"
+    },
+    {
+      "kanji": "郵送",
+      "reading": "ユウソウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

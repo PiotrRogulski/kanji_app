@@ -1,0 +1,31 @@
+{
+  "id": 1370,
+  "kanji": "柄",
+  "readings": [
+    "ヘイ",
+    "がら",
+    "え"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "間柄",
+      "reading": "あいだがら"
+    },
+    {
+      "kanji": "人柄",
+      "reading": "ひとがら"
+    },
+    {
+      "kanji": "事柄",
+      "reading": "ことがら"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "銘柄",
+      "reading": "メイがら",
+      "reference": 1506
+    }
+  ],
+  "additionalWords": []
+}

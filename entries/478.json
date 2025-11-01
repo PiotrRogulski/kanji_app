@@ -1,0 +1,49 @@
+{
+  "id": 478,
+  "kanji": "部",
+  "readings": [
+    "ブ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿部",
+      "reading": "ブ"
+    },
+    {
+      "kanji": "部長",
+      "reading": "ブチョウ"
+    },
+    {
+      "kanji": "部下",
+      "reading": "ブカ"
+    },
+    {
+      "kanji": "部分",
+      "reading": "ブブン"
+    },
+    {
+      "kanji": "部品",
+      "reading": "ブヒン"
+    },
+    {
+      "kanji": "学部",
+      "reading": "ガクブ"
+    },
+    {
+      "kanji": "本部",
+      "reading": "ホンブ"
+    },
+    {
+      "kanji": "部族",
+      "reading": "ブゾク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "部屋",
+      "reading": "へや",
+      "reference": 534
+    }
+  ],
+  "additionalWords": []
+}

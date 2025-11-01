@@ -1,0 +1,36 @@
+{
+  "id": 940,
+  "kanji": "示",
+  "readings": [
+    "ジ",
+    "シ",
+    "しめ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "示す",
+      "reading": "しめす"
+    },
+    {
+      "kanji": "展示",
+      "reading": "テンジ"
+    },
+    {
+      "kanji": "指示",
+      "reading": "シジ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "誇示",
+      "reading": "コジ",
+      "reference": 1049
+    },
+    {
+      "kanji": "掲示",
+      "reading": "ケイジ",
+      "reference": 1256
+    }
+  ],
+  "additionalWords": []
+}

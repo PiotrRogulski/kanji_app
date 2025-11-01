@@ -1,0 +1,38 @@
+{
+  "id": 526,
+  "kanji": "除",
+  "readings": [
+    "ジョ",
+    "ジ",
+    "のぞ・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "除く",
+      "reading": "のぞく"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "掃除",
+      "reading": "ソウジ",
+      "reference": 527
+    },
+    {
+      "kanji": "削除",
+      "reading": "サクジョ",
+      "reference": 764
+    },
+    {
+      "kanji": "排除",
+      "reading": "ハイジョ",
+      "reference": 1115
+    },
+    {
+      "kanji": "免除",
+      "reading": "メンジョ",
+      "reference": 1125
+    }
+  ],
+  "additionalWords": []
+}

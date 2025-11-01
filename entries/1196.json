@@ -1,0 +1,27 @@
+{
+  "id": 1196,
+  "kanji": "閣",
+  "readings": [
+    "カク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "天守閣",
+      "reading": "テンシュカク"
+    },
+    {
+      "kanji": "内閣",
+      "reading": "ナイカク"
+    },
+    {
+      "kanji": "金閣寺",
+      "reading": "キンカクジ"
+    },
+    {
+      "kanji": "銀閣寺",
+      "reading": "ギンカクジ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

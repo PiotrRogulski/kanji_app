@@ -1,0 +1,30 @@
+{
+  "id": 490,
+  "kanji": "灯",
+  "readings": [
+    "トウ",
+    "ひ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "灯",
+      "reading": "ひ"
+    },
+    {
+      "kanji": "灯台",
+      "reading": "トウダイ"
+    },
+    {
+      "kanji": "電灯",
+      "reading": "デントウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "蛍光灯",
+      "reading": "ケイコウトウ",
+      "reference": 849
+    }
+  ],
+  "additionalWords": []
+}

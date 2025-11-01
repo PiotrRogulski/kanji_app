@@ -1,0 +1,30 @@
+{
+  "id": 739,
+  "kanji": "湯",
+  "readings": [
+    "トウ",
+    "ゆ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "湯",
+      "reading": "ゆ"
+    },
+    {
+      "kanji": "茶の湯",
+      "reading": "ちゃのゆ"
+    },
+    {
+      "kanji": "熱湯",
+      "reading": "ネットウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "銭湯",
+      "reading": "セントウ",
+      "reference": 1318
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1166,
+  "kanji": "税",
+  "readings": [
+    "ゼイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "税",
+      "reading": "ゼイ"
+    },
+    {
+      "kanji": "税金",
+      "reading": "ゼイキン"
+    },
+    {
+      "kanji": "税関",
+      "reading": "ゼイカン"
+    },
+    {
+      "kanji": "課税",
+      "reading": "カゼイ"
+    },
+    {
+      "kanji": "免税",
+      "reading": "メンゼイ"
+    },
+    {
+      "kanji": "納税",
+      "reading": "ノウゼイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

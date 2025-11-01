@@ -1,0 +1,30 @@
+{
+  "id": 1331,
+  "kanji": "渋",
+  "readings": [
+    "ジュウ",
+    "しぶ",
+    "しぶ・い",
+    "しぶ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "渋い",
+      "reading": "しぶい"
+    },
+    {
+      "kanji": "渋滞",
+      "reading": "ジュウタイ"
+    },
+    {
+      "kanji": "渋味",
+      "reading": "しぶみ"
+    },
+    {
+      "kanji": "渋谷",
+      "reading": "しぶや"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

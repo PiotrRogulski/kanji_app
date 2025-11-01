@@ -1,0 +1,49 @@
+{
+  "id": 773,
+  "kanji": "確",
+  "readings": [
+    "カク",
+    "たし・か",
+    "たし・かめる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "確か（に）",
+      "reading": "たしか"
+    },
+    {
+      "kanji": "確かめる",
+      "reading": "たしかめる"
+    },
+    {
+      "kanji": "確実な",
+      "reading": "カクジツ"
+    },
+    {
+      "kanji": "正確な",
+      "reading": "セイカク"
+    },
+    {
+      "kanji": "明確な",
+      "reading": "メイカク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "確認",
+      "reading": "カクニン",
+      "reference": 906
+    },
+    {
+      "kanji": "確保",
+      "reading": "カクホ",
+      "reference": 1071
+    },
+    {
+      "kanji": "確率",
+      "reading": "カクリツ",
+      "reference": 1128
+    }
+  ],
+  "additionalWords": []
+}

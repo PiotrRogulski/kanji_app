@@ -1,0 +1,20 @@
+{
+  "id": 1114,
+  "kanji": "猫",
+  "readings": [
+    "ビョウ",
+    "ねこ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "猫",
+      "reading": "ねこ"
+    },
+    {
+      "kanji": "愛猫",
+      "reading": "アイビョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

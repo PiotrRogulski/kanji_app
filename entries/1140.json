@@ -1,0 +1,65 @@
+{
+  "id": 1140,
+  "kanji": "付",
+  "readings": [
+    "フ",
+    "つ・く",
+    "つ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "付く",
+      "reading": "つく"
+    },
+    {
+      "kanji": "付ける",
+      "reading": "つける"
+    },
+    {
+      "kanji": "付近",
+      "reading": "フキン"
+    },
+    {
+      "kanji": "受付",
+      "reading": "うけつけ"
+    },
+    {
+      "kanji": "近付く",
+      "reading": "ちかづく"
+    },
+    {
+      "kanji": "気付く",
+      "reading": "きづく"
+    },
+    {
+      "kanji": "日付",
+      "reading": "ひづけ"
+    },
+    {
+      "kanji": "付き合う",
+      "reading": "つきあう"
+    },
+    {
+      "kanji": "寄付",
+      "reading": "キフ"
+    },
+    {
+      "kanji": "片付ける",
+      "reading": "かたづける"
+    },
+    {
+      "kanji": "片付く",
+      "reading": "かたづく"
+    },
+    {
+      "kanji": "付属",
+      "reading": "フゾク"
+    },
+    {
+      "kanji": "添付",
+      "reading": "テンプ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

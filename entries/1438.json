@@ -1,0 +1,29 @@
+{
+  "id": 1438,
+  "kanji": "陥",
+  "readings": [
+    "カン",
+    "おちい・る",
+    "おとしい・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "陥る",
+      "reading": "おちいる"
+    },
+    {
+      "kanji": "陥れる",
+      "reading": "おとしいれる"
+    },
+    {
+      "kanji": "陥落",
+      "reading": "カンラク"
+    },
+    {
+      "kanji": "欠陥",
+      "reading": "ケッカン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

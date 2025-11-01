@@ -1,0 +1,41 @@
+{
+  "id": 846,
+  "kanji": "加",
+  "readings": [
+    "カ",
+    "くわ・える",
+    "くわ・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "加える",
+      "reading": "くわえる"
+    },
+    {
+      "kanji": "加わる",
+      "reading": "くわわる"
+    },
+    {
+      "kanji": "参加",
+      "reading": "サンカ"
+    },
+    {
+      "kanji": "追加",
+      "reading": "ツイカ"
+    },
+    {
+      "kanji": "加速",
+      "reading": "カソク"
+    },
+    {
+      "kanji": "増加",
+      "reading": "ゾウカ"
+    },
+    {
+      "kanji": "いい加減な",
+      "reading": "カゲン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

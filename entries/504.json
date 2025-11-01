@@ -1,0 +1,36 @@
+{
+  "id": 504,
+  "kanji": "階",
+  "readings": [
+    "カイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿階",
+      "reading": "カイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "階段",
+      "reading": "カイダン",
+      "reference": 645
+    },
+    {
+      "kanji": "段階",
+      "reading": "ダンカイ",
+      "reference": 645
+    },
+    {
+      "kanji": "階層",
+      "reading": "カイソウ",
+      "reference": 835
+    },
+    {
+      "kanji": "階級",
+      "reading": "カイキュウ",
+      "reference": 1219
+    }
+  ],
+  "additionalWords": []
+}

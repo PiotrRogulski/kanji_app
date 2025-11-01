@@ -1,0 +1,43 @@
+{
+  "id": 1092,
+  "kanji": "捕",
+  "readings": [
+    "ホ",
+    "と・らえる",
+    "と・らわれる",
+    "と・る",
+    "つか・まる",
+    "つか・まえる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "捕らえる",
+      "reading": "とらえる"
+    },
+    {
+      "kanji": "捕る",
+      "reading": "とる"
+    },
+    {
+      "kanji": "捕まる",
+      "reading": "つかまる"
+    },
+    {
+      "kanji": "捕まえる",
+      "reading": "つかまえる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "捕鯨",
+      "reading": "ホゲイ",
+      "reference": 1093
+    },
+    {
+      "kanji": "逮捕",
+      "reading": "タイホ",
+      "reference": 1218
+    }
+  ],
+  "additionalWords": []
+}

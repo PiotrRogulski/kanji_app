@@ -1,0 +1,32 @@
+{
+  "id": 623,
+  "kanji": "負",
+  "readings": [
+    "フ",
+    "ま・ける",
+    "ま・かす",
+    "お・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "負ける",
+      "reading": "まける"
+    },
+    {
+      "kanji": "負け",
+      "reading": "まけ"
+    },
+    {
+      "kanji": "勝負",
+      "reading": "ショウブ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "負担",
+      "reading": "フタン",
+      "reference": 901
+    }
+  ],
+  "additionalWords": []
+}

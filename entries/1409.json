@@ -1,0 +1,29 @@
+{
+  "id": 1409,
+  "kanji": "腹",
+  "readings": [
+    "フク",
+    "はら"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "腹",
+      "reading": "はら"
+    },
+    {
+      "kanji": "空腹",
+      "reading": "クウフク"
+    },
+    {
+      "kanji": "切腹",
+      "reading": "セップク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "腹切",
+      "reading": "はらきり"
+    }
+  ]
+}

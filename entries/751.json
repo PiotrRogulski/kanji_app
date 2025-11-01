@@ -1,0 +1,24 @@
+{
+  "id": 751,
+  "kanji": "握",
+  "readings": [
+    "アク",
+    "にぎ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "握る",
+      "reading": "にぎる"
+    },
+    {
+      "kanji": "お握り",
+      "reading": "おにぎり"
+    },
+    {
+      "kanji": "握手",
+      "reading": "アクシュ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

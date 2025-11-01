@@ -1,0 +1,33 @@
+{
+  "id": 1290,
+  "kanji": "弾",
+  "readings": [
+    "ダン",
+    "たま",
+    "ひ・く",
+    "はず・む",
+    "はず・み"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "弾く",
+      "reading": "ひく"
+    },
+    {
+      "kanji": "弾圧",
+      "reading": "ダンアツ"
+    },
+    {
+      "kanji": "爆弾",
+      "reading": "バクダン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "銃弾",
+      "reading": "ジュウダン",
+      "reference": 1312
+    }
+  ],
+  "additionalWords": []
+}

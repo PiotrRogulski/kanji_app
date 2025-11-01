@@ -1,0 +1,31 @@
+{
+  "id": 655,
+  "kanji": "査",
+  "readings": [
+    "サ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "調査",
+      "reading": "チョウサ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "検査",
+      "reading": "ケンサ",
+      "reference": 1094
+    },
+    {
+      "kanji": "審査",
+      "reading": "シンサ",
+      "reference": 1187
+    },
+    {
+      "kanji": "捜査",
+      "reading": "ソウサ",
+      "reference": 1358
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": 1165,
+  "kanji": "省",
+  "readings": [
+    "セイ",
+    "ショウ",
+    "かえり・みる",
+    "はぶ・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "省く",
+      "reading": "はぶく"
+    },
+    {
+      "kanji": "反省",
+      "reading": "ハンセイ"
+    },
+    {
+      "kanji": "省略",
+      "reading": "ショウリャク"
+    },
+    {
+      "kanji": "内務省",
+      "reading": "ナイムショウ"
+    },
+    {
+      "kanji": "外務省",
+      "reading": "ガイムショウ"
+    },
+    {
+      "kanji": "財務省",
+      "reading": "ザイムショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

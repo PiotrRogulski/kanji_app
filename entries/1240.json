@@ -1,0 +1,25 @@
+{
+  "id": 1240,
+  "kanji": "執",
+  "readings": [
+    "シツ",
+    "シュウ",
+    "と・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "執る",
+      "reading": "とる"
+    },
+    {
+      "kanji": "執筆",
+      "reading": "シッピツ"
+    },
+    {
+      "kanji": "執行",
+      "reading": "シッコウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

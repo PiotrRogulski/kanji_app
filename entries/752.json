@@ -1,0 +1,41 @@
+{
+  "id": 752,
+  "kanji": "観",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "観光",
+      "reading": "カンコウ"
+    },
+    {
+      "kanji": "観客",
+      "reading": "カンキャク"
+    },
+    {
+      "kanji": "客観的",
+      "reading": "キャッカンテキ"
+    },
+    {
+      "kanji": "観察",
+      "reading": "カンサツ"
+    },
+    {
+      "kanji": "観念",
+      "reading": "カンネン"
+    },
+    {
+      "kanji": "主観的",
+      "reading": "シュカンテキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "観測",
+      "reading": "カンソク",
+      "reference": 836
+    }
+  ],
+  "additionalWords": []
+}

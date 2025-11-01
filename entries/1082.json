@@ -1,0 +1,41 @@
+{
+  "id": 1082,
+  "kanji": "栄",
+  "readings": [
+    "エイ",
+    "さか・える",
+    "は・え",
+    "は・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "栄える",
+      "reading": "さかえる"
+    },
+    {
+      "kanji": "栄養",
+      "reading": "エイヨウ"
+    },
+    {
+      "kanji": "光栄",
+      "reading": "コウエイ"
+    },
+    {
+      "kanji": "繁栄",
+      "reading": "ハンエイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "栄冠",
+      "reading": "エイカン",
+      "reference": 1143
+    },
+    {
+      "kanji": "栄誉",
+      "reading": "エイヨ",
+      "reference": 1323
+    }
+  ],
+  "additionalWords": []
+}

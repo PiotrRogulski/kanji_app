@@ -1,0 +1,34 @@
+{
+  "id": 902,
+  "kanji": "投",
+  "readings": [
+    "トウ",
+    "な・げる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "投げる",
+      "reading": "なげる"
+    },
+    {
+      "kanji": "投下",
+      "reading": "トウカ"
+    },
+    {
+      "kanji": "投資",
+      "reading": "トウシ"
+    },
+    {
+      "kanji": "投影",
+      "reading": "トウエイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "投票",
+      "reading": "トウヒョウ",
+      "reference": 1183
+    }
+  ],
+  "additionalWords": []
+}

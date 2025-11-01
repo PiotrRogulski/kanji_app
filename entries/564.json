@@ -1,0 +1,45 @@
+{
+  "id": 564,
+  "kanji": "痛",
+  "readings": [
+    "ツウ",
+    "いた・い",
+    "いた・む",
+    "いた・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "痛い",
+      "reading": "いたい"
+    },
+    {
+      "kanji": "痛む",
+      "reading": "いたむ"
+    },
+    {
+      "kanji": "痛み",
+      "reading": "いたみ"
+    },
+    {
+      "kanji": "苦痛",
+      "reading": "クツウ"
+    },
+    {
+      "kanji": "頭痛",
+      "reading": "ズツウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "痛惜",
+      "reading": "ツウセキ",
+      "reference": 895
+    },
+    {
+      "kanji": "痛恨",
+      "reading": "ツウコン",
+      "reference": 1269
+    }
+  ],
+  "additionalWords": []
+}

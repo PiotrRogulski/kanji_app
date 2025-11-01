@@ -1,0 +1,29 @@
+{
+  "id": 626,
+  "kanji": "貨",
+  "readings": [
+    "カ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "貨物",
+      "reading": "カモツ"
+    },
+    {
+      "kanji": "通貨",
+      "reading": "ツウカ"
+    },
+    {
+      "kanji": "百貨店",
+      "reading": "ヒャッカテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "硬貨",
+      "reading": "コウカ",
+      "reference": 697
+    }
+  ],
+  "additionalWords": []
+}

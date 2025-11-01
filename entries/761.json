@@ -1,0 +1,31 @@
+{
+  "id": 761,
+  "kanji": "振",
+  "readings": [
+    "シン",
+    "ふ・る",
+    "ふ・るう"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "振るう",
+      "reading": "ふるう"
+    },
+    {
+      "kanji": "振動",
+      "reading": "シンドウ"
+    },
+    {
+      "kanji": "不振",
+      "reading": "フシン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "振り仮名",
+      "reading": "ふりがな",
+      "reference": 928
+    }
+  ],
+  "additionalWords": []
+}

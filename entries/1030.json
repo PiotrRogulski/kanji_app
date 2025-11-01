@@ -1,0 +1,29 @@
+{
+  "id": 1030,
+  "kanji": "探",
+  "readings": [
+    "タン",
+    "さぐ・る",
+    "さが・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "探る",
+      "reading": "さぐる"
+    },
+    {
+      "kanji": "探す",
+      "reading": "さがす"
+    },
+    {
+      "kanji": "探究",
+      "reading": "タンキュウ"
+    },
+    {
+      "kanji": "探求",
+      "reading": "タンキュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

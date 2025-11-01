@@ -1,0 +1,31 @@
+{
+  "id": 771,
+  "kanji": "黙",
+  "readings": [
+    "モク",
+    "だま・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "黙る",
+      "reading": "だまる"
+    },
+    {
+      "kanji": "黙礼",
+      "reading": "モクレイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "沈黙",
+      "reading": "チンモク",
+      "reference": 837
+    },
+    {
+      "kanji": "黙認",
+      "reading": "モクニン",
+      "reference": 906
+    }
+  ],
+  "additionalWords": []
+}

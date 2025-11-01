@@ -1,0 +1,47 @@
+{
+  "id": 754,
+  "kanji": "士",
+  "readings": [
+    "シ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "士官",
+      "reading": "シカン"
+    },
+    {
+      "kanji": "学士",
+      "reading": "ガクシ"
+    },
+    {
+      "kanji": "修士",
+      "reading": "シュウシ"
+    },
+    {
+      "kanji": "弁護士",
+      "reading": "ベンゴシ"
+    },
+    {
+      "kanji": "富士山",
+      "reading": "フジサン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "博士",
+      "reading": "ハクシ／はかせ",
+      "reference": 909
+    },
+    {
+      "kanji": "武士",
+      "reading": "ブシ",
+      "reference": 1177
+    },
+    {
+      "kanji": "兵士",
+      "reading": "ヘイシ",
+      "reference": 1184
+    }
+  ],
+  "additionalWords": []
+}

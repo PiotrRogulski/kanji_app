@@ -1,0 +1,37 @@
+{
+  "id": 647,
+  "kanji": "値",
+  "readings": [
+    "チ",
+    "ね",
+    "あたい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "値",
+      "reading": "ね"
+    },
+    {
+      "kanji": "値",
+      "reading": "あたい"
+    },
+    {
+      "kanji": "値段",
+      "reading": "ねダン"
+    },
+    {
+      "kanji": "価値",
+      "reading": "カチ"
+    },
+    {
+      "kanji": "値上げ",
+      "reading": "ねあげ"
+    },
+    {
+      "kanji": "値下がり",
+      "reading": "ねさがり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

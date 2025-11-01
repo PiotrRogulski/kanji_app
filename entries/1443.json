@@ -1,0 +1,28 @@
+{
+  "id": 1443,
+  "kanji": "覧",
+  "readings": [
+    "ラン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "展覧",
+      "reading": "テンラン"
+    },
+    {
+      "kanji": "展覧会",
+      "reading": "テンランカイ"
+    },
+    {
+      "kanji": "御覧",
+      "reading": "ゴラン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "閲覧室",
+      "reading": "エツランシツ"
+    }
+  ]
+}

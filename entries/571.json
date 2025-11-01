@@ -1,0 +1,36 @@
+{
+  "id": 571,
+  "kanji": "幸",
+  "readings": [
+    "コウ",
+    "さち",
+    "さいわ・い",
+    "しあわ・せ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "幸い",
+      "reading": "さいわい"
+    },
+    {
+      "kanji": "幸せ",
+      "reading": "しあわせ"
+    },
+    {
+      "kanji": "幸運",
+      "reading": "コウウン"
+    },
+    {
+      "kanji": "不幸",
+      "reading": "フコウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "幸福",
+      "reading": "コウフク",
+      "reference": 917
+    }
+  ],
+  "additionalWords": []
+}

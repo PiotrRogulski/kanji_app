@@ -1,0 +1,25 @@
+{
+  "id": 469,
+  "kanji": "雲",
+  "readings": [
+    "ウン",
+    "くも"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "雲",
+      "reading": "くも"
+    },
+    {
+      "kanji": "雨雲",
+      "reading": "あまぐも"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "曇る",
+      "reading": "くもる"
+    }
+  ]
+}

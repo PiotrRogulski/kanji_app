@@ -1,0 +1,78 @@
+{
+  "id": 870,
+  "kanji": "解",
+  "readings": [
+    "カイ",
+    "ゲ",
+    "と・く",
+    "と・かす",
+    "と・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "解く",
+      "reading": "とく"
+    },
+    {
+      "kanji": "解ける",
+      "reading": "とける"
+    },
+    {
+      "kanji": "解決",
+      "reading": "カイケツ"
+    },
+    {
+      "kanji": "解答",
+      "reading": "カイトウ"
+    },
+    {
+      "kanji": "解放",
+      "reading": "カイホウ"
+    },
+    {
+      "kanji": "分解",
+      "reading": "ブンカイ"
+    },
+    {
+      "kanji": "理解",
+      "reading": "リカイ"
+    },
+    {
+      "kanji": "解散",
+      "reading": "カイサン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "溶解",
+      "reading": "ヨウカイ",
+      "reference": 871
+    },
+    {
+      "kanji": "了解",
+      "reading": "リョウカイ",
+      "reference": 925
+    },
+    {
+      "kanji": "解析",
+      "reading": "カイセキ",
+      "reference": 1025
+    },
+    {
+      "kanji": "解剖",
+      "reading": "カイボウ",
+      "reference": 1036
+    },
+    {
+      "kanji": "誤解",
+      "reading": "ゴカイ",
+      "reference": 1138
+    },
+    {
+      "kanji": "解釈",
+      "reading": "カイシャク",
+      "reference": 1393
+    }
+  ],
+  "additionalWords": []
+}

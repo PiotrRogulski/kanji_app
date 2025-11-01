@@ -1,0 +1,25 @@
+{
+  "id": 701,
+  "kanji": "賃",
+  "readings": [
+    "チン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "家賃",
+      "reading": "やチン"
+    },
+    {
+      "kanji": "運賃",
+      "reading": "ウンチン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "賃貸",
+      "reading": "チンタイ",
+      "reference": 1288
+    }
+  ],
+  "additionalWords": []
+}

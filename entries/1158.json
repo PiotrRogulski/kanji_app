@@ -1,0 +1,22 @@
+{
+  "id": 1158,
+  "kanji": "盾",
+  "readings": [
+    "ジュン",
+    "たて"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "盾",
+      "reading": "たて"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "矛盾",
+      "reading": "ムジュン",
+      "reference": 1159
+    }
+  ],
+  "additionalWords": []
+}

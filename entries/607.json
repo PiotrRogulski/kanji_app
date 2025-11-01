@@ -1,0 +1,30 @@
+{
+  "id": 607,
+  "kanji": "算",
+  "readings": [
+    "サン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "計算",
+      "reading": "ケイサン"
+    },
+    {
+      "kanji": "予算",
+      "reading": "ヨサン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "清算",
+      "reading": "セイサン",
+      "reference": 788
+    },
+    {
+      "kanji": "掛け算",
+      "reading": "かけザン",
+      "reference": 1295
+    }
+  ],
+  "additionalWords": []
+}

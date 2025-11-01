@@ -1,0 +1,24 @@
+{
+  "id": 1103,
+  "kanji": "診",
+  "readings": [
+    "シン",
+    "み・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "診る",
+      "reading": "みる"
+    },
+    {
+      "kanji": "検診",
+      "reading": "ケンシン"
+    },
+    {
+      "kanji": "診断",
+      "reading": "シンダン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": 958,
+  "kanji": "応",
+  "readings": [
+    "オウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "応じる",
+      "reading": "オウじる"
+    },
+    {
+      "kanji": "応用",
+      "reading": "オウヨウ"
+    },
+    {
+      "kanji": "反応",
+      "reading": "ハンノウ"
+    },
+    {
+      "kanji": "一応",
+      "reading": "イチオウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "応援",
+      "reading": "オウエン",
+      "reference": 1175
+    },
+    {
+      "kanji": "応募",
+      "reading": "オウボ",
+      "reference": 1244
+    }
+  ],
+  "additionalWords": []
+}

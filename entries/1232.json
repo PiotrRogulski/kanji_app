@@ -1,0 +1,30 @@
+{
+  "id": 1232,
+  "kanji": "踏",
+  "readings": [
+    "トウ",
+    "ふ・む",
+    "ふ・まえる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "踏む",
+      "reading": "ふむ"
+    },
+    {
+      "kanji": "踏まえる",
+      "reading": "ふまえる"
+    },
+    {
+      "kanji": "踏切",
+      "reading": "ふみきり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "踏み絵",
+      "reading": "ふみえ"
+    }
+  ]
+}

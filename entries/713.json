@@ -1,0 +1,32 @@
+{
+  "id": 713,
+  "kanji": "更",
+  "readings": [
+    "コウ",
+    "さら",
+    "ふ・ける",
+    "ふ・かす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "更に",
+      "reading": "さらに"
+    },
+    {
+      "kanji": "更新",
+      "reading": "コウシン"
+    },
+    {
+      "kanji": "変更",
+      "reading": "ヘンコウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "殊更",
+      "reading": "ことさら",
+      "reference": 758
+    }
+  ],
+  "additionalWords": []
+}

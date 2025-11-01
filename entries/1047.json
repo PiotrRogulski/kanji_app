@@ -1,0 +1,26 @@
+{
+  "id": 1047,
+  "kanji": "郷",
+  "readings": [
+    "キョウ",
+    "ゴウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "近郷",
+      "reading": "キンゴウ"
+    },
+    {
+      "kanji": "故郷",
+      "reading": "コキョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "郷里",
+      "reading": "キョウリ",
+      "reference": 1272
+    }
+  ],
+  "additionalWords": []
+}

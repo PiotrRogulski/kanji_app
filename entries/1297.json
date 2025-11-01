@@ -1,0 +1,24 @@
+{
+  "id": 1297,
+  "kanji": "薦",
+  "readings": [
+    "セン",
+    "すす・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "薦める",
+      "reading": "すすめる"
+    },
+    {
+      "kanji": "推薦",
+      "reading": "スイセン"
+    },
+    {
+      "kanji": "推薦状",
+      "reading": "スイセンジョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

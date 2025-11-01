@@ -1,0 +1,20 @@
+{
+  "id": 1005,
+  "kanji": "猿",
+  "readings": [
+    "エン",
+    "さる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "猿",
+      "reading": "さる"
+    },
+    {
+      "kanji": "犬猿の仲",
+      "reading": "ケンエンのなか"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": 467,
+  "kanji": "星",
+  "readings": [
+    "セイ",
+    "ショウ",
+    "ほし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "星",
+      "reading": "ほし"
+    },
+    {
+      "kanji": "火星",
+      "reading": "カセイ"
+    },
+    {
+      "kanji": "金星",
+      "reading": "キンセイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "衛星",
+      "reading": "エイセイ",
+      "reference": 960
+    },
+    {
+      "kanji": "星座",
+      "reading": "セイザ",
+      "reference": 986
+    },
+    {
+      "kanji": "惑星",
+      "reading": "ワクセイ",
+      "reference": 1163
+    }
+  ],
+  "additionalWords": []
+}

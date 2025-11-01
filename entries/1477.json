@@ -1,0 +1,25 @@
+{
+  "id": 1477,
+  "kanji": "殖",
+  "readings": [
+    "ショク",
+    "ふ・える",
+    "ふ・やす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "殖やす",
+      "reading": "ふやす"
+    },
+    {
+      "kanji": "生殖",
+      "reading": "セイショク"
+    },
+    {
+      "kanji": "繁殖",
+      "reading": "ハンショク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

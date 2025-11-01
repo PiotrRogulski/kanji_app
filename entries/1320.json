@@ -1,0 +1,37 @@
+{
+  "id": 1320,
+  "kanji": "宝",
+  "readings": [
+    "ホウ",
+    "たから"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "宝",
+      "reading": "たから"
+    },
+    {
+      "kanji": "宝庫",
+      "reading": "ホウコ"
+    },
+    {
+      "kanji": "国宝",
+      "reading": "コクホウ"
+    },
+    {
+      "kanji": "人間国宝",
+      "reading": "ニンゲンコクホウ"
+    },
+    {
+      "kanji": "宝物",
+      "reading": "たからもの"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "宝くじ",
+      "reading": "たからくじ"
+    }
+  ]
+}

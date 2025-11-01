@@ -1,0 +1,26 @@
+{
+  "id": 1124,
+  "kanji": "暴",
+  "readings": [
+    "ボウ",
+    "バク",
+    "あば・く",
+    "あば・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "暴れる",
+      "reading": "あばれる"
+    },
+    {
+      "kanji": "暴力",
+      "reading": "ボウリョク"
+    },
+    {
+      "kanji": "乱暴",
+      "reading": "ランボウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

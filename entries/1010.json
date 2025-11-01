@@ -1,0 +1,29 @@
+{
+  "id": 1010,
+  "kanji": "協",
+  "readings": [
+    "キョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "協力",
+      "reading": "キョウリョク"
+    },
+    {
+      "kanji": "協議",
+      "reading": "キョウギ"
+    },
+    {
+      "kanji": "協会",
+      "reading": "キョウカイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "妥協",
+      "reading": "ダキョウ",
+      "reference": 1342
+    }
+  ],
+  "additionalWords": []
+}

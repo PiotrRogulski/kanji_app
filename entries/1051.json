@@ -1,0 +1,30 @@
+{
+  "id": 1051,
+  "kanji": "略",
+  "readings": [
+    "リャク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "略する",
+      "reading": "リャクする"
+    },
+    {
+      "kanji": "略す",
+      "reading": "リャクす"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "侵略",
+      "reading": "シンリャク",
+      "reference": 1062
+    },
+    {
+      "kanji": "省略",
+      "reading": "ショウリャク",
+      "reference": 1165
+    }
+  ],
+  "additionalWords": []
+}

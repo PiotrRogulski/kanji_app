@@ -1,0 +1,25 @@
+{
+  "id": 1055,
+  "kanji": "処",
+  "readings": [
+    "ショ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "処理",
+      "reading": "ショリ"
+    },
+    {
+      "kanji": "処分",
+      "reading": "ショブン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "処罰",
+      "reading": "ショバツ",
+      "reference": 1072
+    }
+  ],
+  "additionalWords": []
+}

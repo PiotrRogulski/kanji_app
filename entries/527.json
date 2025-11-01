@@ -1,0 +1,26 @@
+{
+  "id": 527,
+  "kanji": "掃",
+  "readings": [
+    "ソウ",
+    "は・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "掃く",
+      "reading": "はく"
+    },
+    {
+      "kanji": "掃除",
+      "reading": "ソウジ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "清掃",
+      "reading": "セイソウ",
+      "reference": 788
+    }
+  ],
+  "additionalWords": []
+}

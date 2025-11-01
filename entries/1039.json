@@ -1,0 +1,33 @@
+{
+  "id": 1039,
+  "kanji": "汚",
+  "readings": [
+    "オ",
+    "けが・す",
+    "けが・れる",
+    "けが・らわしい",
+    "よご・す",
+    "よご・れる",
+    "きたな・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "汚す",
+      "reading": "よごす"
+    },
+    {
+      "kanji": "汚れる",
+      "reading": "よごれる"
+    },
+    {
+      "kanji": "汚い",
+      "reading": "きたない"
+    },
+    {
+      "kanji": "汚染",
+      "reading": "オセン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": 941,
+  "kanji": "触",
+  "readings": [
+    "ショク",
+    "ふ・れる",
+    "さわ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "触れる",
+      "reading": "ふれる"
+    },
+    {
+      "kanji": "触る",
+      "reading": "さわる"
+    },
+    {
+      "kanji": "触覚",
+      "reading": "ショッカク"
+    },
+    {
+      "kanji": "接触",
+      "reading": "セッショク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

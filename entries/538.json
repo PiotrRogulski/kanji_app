@@ -1,0 +1,27 @@
+{
+  "id": 538,
+  "kanji": "静",
+  "readings": [
+    "セイ",
+    "ジョウ",
+    "しず・か",
+    "しず・まる",
+    "しず・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "静かな",
+      "reading": "しずかな"
+    },
+    {
+      "kanji": "静まる",
+      "reading": "しずまる"
+    },
+    {
+      "kanji": "冷静な",
+      "reading": "レイセイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

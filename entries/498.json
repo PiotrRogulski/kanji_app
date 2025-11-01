@@ -1,0 +1,28 @@
+{
+  "id": 498,
+  "kanji": "吸",
+  "readings": [
+    "キュウ",
+    "す・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "吸う",
+      "reading": "すう"
+    },
+    {
+      "kanji": "吸い物",
+      "reading": "すいもの"
+    },
+    {
+      "kanji": "呼吸",
+      "reading": "コキュウ"
+    },
+    {
+      "kanji": "吸収",
+      "reading": "キュウシュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

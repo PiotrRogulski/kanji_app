@@ -1,0 +1,25 @@
+{
+  "id": 760,
+  "kanji": "笑",
+  "readings": [
+    "ショウ",
+    "わら・う",
+    "え・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "笑う",
+      "reading": "わらう"
+    },
+    {
+      "kanji": "笑い",
+      "reading": "わらい"
+    },
+    {
+      "kanji": "笑顔",
+      "reading": "えがお"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

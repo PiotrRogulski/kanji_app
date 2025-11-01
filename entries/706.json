@@ -1,0 +1,27 @@
+{
+  "id": 706,
+  "kanji": "華",
+  "readings": [
+    "カ",
+    "ケ",
+    "はな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "中華",
+      "reading": "チュウカ"
+    },
+    {
+      "kanji": "華やか",
+      "reading": "はなやか"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "豪華な",
+      "reading": "ゴウカ",
+      "reference": 1325
+    }
+  ],
+  "additionalWords": []
+}

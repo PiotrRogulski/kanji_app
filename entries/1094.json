@@ -1,0 +1,39 @@
+{
+  "id": 1094,
+  "kanji": "検",
+  "readings": [
+    "ケン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "検査",
+      "reading": "ケンサ"
+    },
+    {
+      "kanji": "検事",
+      "reading": "ケンジ"
+    },
+    {
+      "kanji": "検事局",
+      "reading": "ケンジキョク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "検診",
+      "reading": "ケンシン",
+      "reference": 1103
+    },
+    {
+      "kanji": "検討",
+      "reading": "ケントウ",
+      "reference": 1192
+    },
+    {
+      "kanji": "検索",
+      "reading": "ケンサク",
+      "reference": 1357
+    }
+  ],
+  "additionalWords": []
+}

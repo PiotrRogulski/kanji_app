@@ -1,0 +1,36 @@
+{
+  "id": 770,
+  "kanji": "突",
+  "readings": [
+    "トツ",
+    "つ・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "突く",
+      "reading": "つく"
+    },
+    {
+      "kanji": "突然",
+      "reading": "トツゼン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "煙突",
+      "reading": "エントツ",
+      "reference": 822
+    },
+    {
+      "kanji": "衝突",
+      "reading": "ショウトツ",
+      "reference": 858
+    },
+    {
+      "kanji": "激突",
+      "reading": "ゲキトツ",
+      "reference": 890
+    }
+  ],
+  "additionalWords": []
+}

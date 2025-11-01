@@ -1,0 +1,29 @@
+{
+  "id": 1317,
+  "kanji": "悩",
+  "readings": [
+    "ノウ",
+    "なや・む",
+    "なや・ます"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "悩む",
+      "reading": "なやむ"
+    },
+    {
+      "kanji": "悩み",
+      "reading": "なやみ"
+    },
+    {
+      "kanji": "悩ましい",
+      "reading": "なやましい"
+    },
+    {
+      "kanji": "苦悩",
+      "reading": "クノウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

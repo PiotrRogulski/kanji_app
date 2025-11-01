@@ -1,0 +1,29 @@
+{
+  "id": 1476,
+  "kanji": "粉",
+  "readings": [
+    "フン",
+    "こ",
+    "こな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "粉",
+      "reading": "こな"
+    },
+    {
+      "kanji": "花粉",
+      "reading": "カフン"
+    },
+    {
+      "kanji": "花粉症",
+      "reading": "カフンショウ"
+    },
+    {
+      "kanji": "小麦粉",
+      "reading": "こむぎこ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

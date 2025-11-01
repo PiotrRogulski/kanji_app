@@ -1,0 +1,44 @@
+{
+  "id": 939,
+  "kanji": "状",
+  "readings": [
+    "ジョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "状態",
+      "reading": "ジョウタイ"
+    },
+    {
+      "kanji": "現状",
+      "reading": "ゲンジョウ"
+    },
+    {
+      "kanji": "賞状",
+      "reading": "ショウジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "状況",
+      "reading": "ジョウキョウ",
+      "reference": 965
+    },
+    {
+      "kanji": "症状",
+      "reading": "ショウジョウ",
+      "reference": 1102
+    },
+    {
+      "kanji": "年賀状",
+      "reading": "ネンガジョウ",
+      "reference": 1215
+    },
+    {
+      "kanji": "推薦状",
+      "reading": "スイセンジョウ",
+      "reference": 1297
+    }
+  ],
+  "additionalWords": []
+}

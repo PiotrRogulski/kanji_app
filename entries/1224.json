@@ -1,0 +1,28 @@
+{
+  "id": 1224,
+  "kanji": "辞",
+  "readings": [
+    "ジ",
+    "や・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "辞める",
+      "reading": "やめる"
+    },
+    {
+      "kanji": "辞典",
+      "reading": "ジテン"
+    },
+    {
+      "kanji": "辞書",
+      "reading": "ジショ"
+    },
+    {
+      "kanji": "辞職",
+      "reading": "ジショク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": 891,
+  "kanji": "賞",
+  "readings": [
+    "ショウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "賞",
+      "reading": "ショウ"
+    },
+    {
+      "kanji": "賞金",
+      "reading": "ショウキン"
+    },
+    {
+      "kanji": "賞品",
+      "reading": "ショウヒン"
+    },
+    {
+      "kanji": "受賞者",
+      "reading": "ジュショウシャ"
+    },
+    {
+      "kanji": "懸賞",
+      "reading": "ケンショウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "賞状",
+      "reading": "ショウジョウ",
+      "reference": 939
+    },
+    {
+      "kanji": "鑑賞",
+      "reading": "カンショウ",
+      "reference": 1497
+    }
+  ],
+  "additionalWords": []
+}

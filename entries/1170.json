@@ -1,0 +1,21 @@
+{
+  "id": 1170,
+  "kanji": "裁",
+  "readings": [
+    "サイ",
+    "た・つ",
+    "さば・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "裁き",
+      "reading": "さばき"
+    },
+    {
+      "kanji": "裁判",
+      "reading": "サイバン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

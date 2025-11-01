@@ -1,0 +1,42 @@
+{
+  "id": 726,
+  "kanji": "盛",
+  "readings": [
+    "セイ",
+    "ジョウ",
+    "も・る",
+    "さか・ん",
+    "さか・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "盛る",
+      "reading": "さかる"
+    },
+    {
+      "kanji": "盛ん",
+      "reading": "さかん"
+    },
+    {
+      "kanji": "盛大な",
+      "reading": "セイダイ"
+    },
+    {
+      "kanji": "大盛り",
+      "reading": "おおもり"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "繁盛",
+      "reading": "ハンジョウ",
+      "reference": 729
+    },
+    {
+      "kanji": "隆盛",
+      "reading": "リュウセイ",
+      "reference": 1266
+    }
+  ],
+  "additionalWords": []
+}

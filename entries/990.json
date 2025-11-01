@@ -1,0 +1,46 @@
+{
+  "id": 990,
+  "kanji": "絶",
+  "readings": [
+    "ゼツ",
+    "た・える",
+    "た・やす",
+    "た・つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "絶えず",
+      "reading": "たえず"
+    },
+    {
+      "kanji": "断絶",
+      "reading": "ダンゼツ"
+    },
+    {
+      "kanji": "絶望",
+      "reading": "ゼツボウ"
+    },
+    {
+      "kanji": "絶対に",
+      "reading": "ゼッタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "絶叫",
+      "reading": "ゼッキョウ",
+      "reference": 1041
+    },
+    {
+      "kanji": "絶滅",
+      "reading": "ゼツメツ",
+      "reference": 1412
+    },
+    {
+      "kanji": "絶頂",
+      "reading": "ゼッチョウ",
+      "reference": 1481
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1295,
+  "kanji": "掛",
+  "readings": [
+    "か・ける",
+    "か・かる",
+    "かかり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "掛ける",
+      "reading": "かける"
+    },
+    {
+      "kanji": "掛かる",
+      "reading": "かかる"
+    },
+    {
+      "kanji": "手掛かり",
+      "reading": "てがかり"
+    },
+    {
+      "kanji": "掛け算",
+      "reading": "かけザン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "掛け軸",
+      "reading": "かけジク",
+      "reference": 1449
+    }
+  ],
+  "additionalWords": []
+}

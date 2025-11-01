@@ -1,0 +1,27 @@
+{
+  "id": 1171,
+  "kanji": "輸",
+  "readings": [
+    "ユ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "輸出",
+      "reading": "ユシュツ"
+    },
+    {
+      "kanji": "輸入",
+      "reading": "ユニュウ"
+    },
+    {
+      "kanji": "輸送",
+      "reading": "ユソウ"
+    },
+    {
+      "kanji": "輸血",
+      "reading": "ユケツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

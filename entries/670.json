@@ -1,0 +1,28 @@
+{
+  "id": 670,
+  "kanji": "遅",
+  "readings": [
+    "チ",
+    "おそ・い",
+    "おく・れる",
+    "おく・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "遅い",
+      "reading": "おそい"
+    },
+    {
+      "kanji": "遅れる",
+      "reading": "おくれる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "遅刻",
+      "reading": "チコク",
+      "reference": 672
+    }
+  ],
+  "additionalWords": []
+}

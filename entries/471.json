@@ -1,0 +1,37 @@
+{
+  "id": 471,
+  "kanji": "割",
+  "readings": [
+    "カツ",
+    "わ・る",
+    "わり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "割る",
+      "reading": "わる"
+    },
+    {
+      "kanji": "割",
+      "reading": "わり"
+    },
+    {
+      "kanji": "分割",
+      "reading": "ブンカツ"
+    },
+    {
+      "kanji": "割引",
+      "reading": "わりびき"
+    },
+    {
+      "kanji": "割合",
+      "reading": "わりあい"
+    },
+    {
+      "kanji": "役割",
+      "reading": "ヤクわり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

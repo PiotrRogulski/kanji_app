@@ -1,0 +1,28 @@
+{
+  "id": 1138,
+  "kanji": "誤",
+  "readings": [
+    "ゴ",
+    "あやま・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "誤る",
+      "reading": "あやまる"
+    },
+    {
+      "kanji": "誤り",
+      "reading": "あやまり"
+    },
+    {
+      "kanji": "誤解",
+      "reading": "ゴカイ"
+    },
+    {
+      "kanji": "誤差",
+      "reading": "ゴサ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": 970,
+  "kanji": "想",
+  "readings": [
+    "ソウ",
+    "ソ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "思想",
+      "reading": "シソウ"
+    },
+    {
+      "kanji": "予想",
+      "reading": "ヨソウ"
+    },
+    {
+      "kanji": "感想",
+      "reading": "カンソウ"
+    },
+    {
+      "kanji": "連想",
+      "reading": "レンソウ"
+    },
+    {
+      "kanji": "空想",
+      "reading": "クウソウ"
+    },
+    {
+      "kanji": "理想",
+      "reading": "リソウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "想像",
+      "reading": "ソウゾウ",
+      "reference": 972
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 1211,
+  "kanji": "津",
+  "readings": [
+    "シン",
+    "つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "津",
+      "reading": "つ"
+    },
+    {
+      "kanji": "津波",
+      "reading": "つなみ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "津々浦々",
+      "reading": "つつうらうら",
+      "reference": 1241
+    }
+  ],
+  "additionalWords": []
+}

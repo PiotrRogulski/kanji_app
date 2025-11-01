@@ -1,0 +1,21 @@
+{
+  "id": 733,
+  "kanji": "卓",
+  "readings": [
+    "タク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "食卓",
+      "reading": "ショクタク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "卓球",
+      "reading": "タッキュウ",
+      "reference": 818
+    }
+  ],
+  "additionalWords": []
+}

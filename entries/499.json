@@ -1,0 +1,20 @@
+{
+  "id": 499,
+  "kanji": "借",
+  "readings": [
+    "シャク",
+    "か・りる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "借りる",
+      "reading": "かりる"
+    },
+    {
+      "kanji": "借金",
+      "reading": "シャッキン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

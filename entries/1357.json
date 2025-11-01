@@ -1,0 +1,25 @@
+{
+  "id": 1357,
+  "kanji": "索",
+  "readings": [
+    "サク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "索引",
+      "reading": "サクイン"
+    },
+    {
+      "kanji": "検索",
+      "reading": "ケンサク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "捜索",
+      "reading": "ソウサク",
+      "reference": 1358
+    }
+  ],
+  "additionalWords": []
+}

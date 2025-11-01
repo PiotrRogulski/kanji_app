@@ -1,0 +1,41 @@
+{
+  "id": 710,
+  "kanji": "砂",
+  "readings": [
+    "サ",
+    "シャ",
+    "すな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "砂",
+      "reading": "すな"
+    },
+    {
+      "kanji": "土砂",
+      "reading": "ドシャ"
+    },
+    {
+      "kanji": "砂場",
+      "reading": "すなば"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "砂糖",
+      "reading": "サトウ",
+      "reference": 740
+    },
+    {
+      "kanji": "砂漠",
+      "reading": "サバク",
+      "reference": 979
+    },
+    {
+      "kanji": "砂浜",
+      "reading": "すなはま",
+      "reference": 1188
+    }
+  ],
+  "additionalWords": []
+}

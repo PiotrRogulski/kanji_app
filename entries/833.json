@@ -1,0 +1,38 @@
+{
+  "id": 833,
+  "kanji": "染",
+  "readings": [
+    "セン",
+    "そ・める",
+    "そ・まる",
+    "し・みる",
+    "し・み"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "染める",
+      "reading": "そめる"
+    },
+    {
+      "kanji": "感染",
+      "reading": "カンセン"
+    },
+    {
+      "kanji": "伝染病",
+      "reading": "デンセンビョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "汚染",
+      "reading": "オセン",
+      "reference": 1039
+    },
+    {
+      "kanji": "感染症",
+      "reading": "カンセンショウ",
+      "reference": 1102
+    }
+  ],
+  "additionalWords": []
+}

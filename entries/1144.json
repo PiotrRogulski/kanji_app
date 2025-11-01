@@ -1,0 +1,31 @@
+{
+  "id": 1144,
+  "kanji": "紀",
+  "readings": [
+    "キ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "紀元",
+      "reading": "キゲン"
+    },
+    {
+      "kanji": "紀元前",
+      "reading": "キゲンゼン"
+    },
+    {
+      "kanji": "紀元後",
+      "reading": "キゲンゴ"
+    },
+    {
+      "kanji": "世紀",
+      "reading": "セイキ"
+    },
+    {
+      "kanji": "日本書紀",
+      "reading": "ニホンショキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": 907,
+  "kanji": "派",
+  "readings": [
+    "ハ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿派",
+      "reading": "ハ"
+    },
+    {
+      "kanji": "派手な",
+      "reading": "ハで"
+    },
+    {
+      "kanji": "立派な",
+      "reading": "リッパ"
+    },
+    {
+      "kanji": "流派",
+      "reading": "リュウハ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "派遣",
+      "reading": "ハケン",
+      "reference": 1137
+    }
+  ],
+  "additionalWords": []
+}

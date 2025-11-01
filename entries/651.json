@@ -1,0 +1,30 @@
+{
+  "id": 651,
+  "kanji": "軍",
+  "readings": [
+    "グン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "軍",
+      "reading": "グン"
+    },
+    {
+      "kanji": "軍人",
+      "reading": "グンジン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "軍隊",
+      "reading": "グンタイ",
+      "reference": 660
+    },
+    {
+      "kanji": "軍艦",
+      "reading": "グンカン",
+      "reference": 1512
+    }
+  ],
+  "additionalWords": []
+}

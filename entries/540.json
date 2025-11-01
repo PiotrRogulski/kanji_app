@@ -1,0 +1,32 @@
+{
+  "id": 540,
+  "kanji": "技",
+  "readings": [
+    "ギ",
+    "わざ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "技術",
+      "reading": "ギジュツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "技師",
+      "reading": "ギシ",
+      "reference": 605
+    },
+    {
+      "kanji": "演技",
+      "reading": "エンギ",
+      "reference": 1035
+    },
+    {
+      "kanji": "競技",
+      "reading": "キョウギ",
+      "reference": 1133
+    }
+  ],
+  "additionalWords": []
+}

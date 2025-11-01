@@ -1,0 +1,35 @@
+{
+  "id": 1294,
+  "kanji": "贈",
+  "readings": [
+    "ゾウ",
+    "ソウ",
+    "おく・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "贈る",
+      "reading": "おくる"
+    },
+    {
+      "kanji": "贈与",
+      "reading": "ゾウヨ"
+    },
+    {
+      "kanji": "贈与者",
+      "reading": "ゾウヨシャ"
+    },
+    {
+      "kanji": "贈り物",
+      "reading": "おくりもの"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "贈賄",
+      "reading": "ゾウワイ",
+      "reference": 1368
+    }
+  ],
+  "additionalWords": []
+}

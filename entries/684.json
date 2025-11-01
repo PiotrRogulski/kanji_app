@@ -1,0 +1,55 @@
+{
+  "id": 684,
+  "kanji": "差",
+  "readings": [
+    "サ",
+    "さ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "差",
+      "reading": "サ"
+    },
+    {
+      "kanji": "差別",
+      "reading": "サベツ"
+    },
+    {
+      "kanji": "時差",
+      "reading": "ジサ"
+    },
+    {
+      "kanji": "交差",
+      "reading": "コウサ"
+    },
+    {
+      "kanji": "交差点",
+      "reading": "コウサテン"
+    },
+    {
+      "kanji": "格差",
+      "reading": "カクサ"
+    },
+    {
+      "kanji": "差し上げる",
+      "reading": "さしあげる"
+    },
+    {
+      "kanji": "日差し",
+      "reading": "ひざし"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "誤差",
+      "reading": "ゴサ",
+      "reference": 1138
+    },
+    {
+      "kanji": "較差",
+      "reading": "カクサ",
+      "reference": 1142
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 474,
+  "kanji": "波",
+  "readings": [
+    "ハ",
+    "なみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "波",
+      "reading": "なみ"
+    },
+    {
+      "kanji": "電波",
+      "reading": "デンパ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "津波",
+      "reading": "つなみ",
+      "reference": 1211
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1427,
+  "kanji": "炉",
+  "readings": [
+    "ロ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "暖炉",
+      "reading": "ダンロ"
+    },
+    {
+      "kanji": "原子炉",
+      "reading": "ゲンシロ"
+    },
+    {
+      "kanji": "電気炉",
+      "reading": "デンキロ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

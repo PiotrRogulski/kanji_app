@@ -1,0 +1,48 @@
+{
+  "id": 464,
+  "kanji": "要",
+  "readings": [
+    "ヨウ",
+    "い・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "要る",
+      "reading": "いる"
+    },
+    {
+      "kanji": "要する",
+      "reading": "ヨウする"
+    },
+    {
+      "kanji": "重要な",
+      "reading": "ジュウヨウ"
+    },
+    {
+      "kanji": "主要な",
+      "reading": "シュヨウ"
+    },
+    {
+      "kanji": "必要な",
+      "reading": "ヒツヨウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "要点",
+      "reading": "ヨウテン",
+      "reference": 470
+    },
+    {
+      "kanji": "要請",
+      "reading": "ヨウセイ",
+      "reference": 613
+    },
+    {
+      "kanji": "肝要な",
+      "reading": "カンヨウ",
+      "reference": 1081
+    }
+  ],
+  "additionalWords": []
+}

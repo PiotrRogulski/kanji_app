@@ -1,0 +1,26 @@
+{
+  "id": 1210,
+  "kanji": "織",
+  "readings": [
+    "ショク",
+    "シキ",
+    "お・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "織る",
+      "reading": "おる"
+    },
+    {
+      "kanji": "組織",
+      "reading": "ソシキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "織田信長",
+      "reading": "おだのぶなが"
+    }
+  ]
+}

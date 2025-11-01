@@ -1,0 +1,22 @@
+{
+  "id": 560,
+  "kanji": "責",
+  "readings": [
+    "セキ",
+    "せ・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "責める",
+      "reading": "せめる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "責任",
+      "reading": "セキニン",
+      "reference": 561
+    }
+  ],
+  "additionalWords": []
+}

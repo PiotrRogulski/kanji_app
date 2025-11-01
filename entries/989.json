@@ -1,0 +1,47 @@
+{
+  "id": 989,
+  "kanji": "設",
+  "readings": [
+    "セツ",
+    "もう・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "設ける",
+      "reading": "もうける"
+    },
+    {
+      "kanji": "設立",
+      "reading": "セツリツ"
+    },
+    {
+      "kanji": "設定",
+      "reading": "セッテイ"
+    },
+    {
+      "kanji": "設備",
+      "reading": "セツビ"
+    },
+    {
+      "kanji": "建設",
+      "reading": "ケンセツ"
+    },
+    {
+      "kanji": "施設",
+      "reading": "シセツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "創設",
+      "reading": "ソウセツ",
+      "reference": 1027
+    },
+    {
+      "kanji": "敷設",
+      "reading": "フセツ",
+      "reference": 1344
+    }
+  ],
+  "additionalWords": []
+}

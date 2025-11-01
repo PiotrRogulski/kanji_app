@@ -1,0 +1,30 @@
+{
+  "id": 785,
+  "kanji": "蒸",
+  "readings": [
+    "ジョウ",
+    "む・す",
+    "む・れる",
+    "む・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "蒸す",
+      "reading": "むす"
+    },
+    {
+      "kanji": "蒸し暑い",
+      "reading": "むしあつい"
+    },
+    {
+      "kanji": "水蒸気",
+      "reading": "スイジョウキ"
+    },
+    {
+      "kanji": "蒸発",
+      "reading": "ジョウハツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

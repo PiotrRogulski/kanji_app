@@ -1,0 +1,21 @@
+{
+  "id": 933,
+  "kanji": "含",
+  "readings": [
+    "ガン",
+    "ふく・む",
+    "ふく・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "含む",
+      "reading": "ふくむ"
+    },
+    {
+      "kanji": "含める",
+      "reading": "ふくめる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

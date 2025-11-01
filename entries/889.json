@@ -1,0 +1,32 @@
+{
+  "id": 889,
+  "kanji": "懸",
+  "readings": [
+    "ケン",
+    "ケ",
+    "か・ける",
+    "か・かる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "懸かる",
+      "reading": "かかる"
+    },
+    {
+      "kanji": "懸命に",
+      "reading": "ケンメイ"
+    },
+    {
+      "kanji": "一生懸命に",
+      "reading": "イッショウケンメイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "懸賞",
+      "reading": "ケンショウ",
+      "reference": 891
+    }
+  ],
+  "additionalWords": []
+}

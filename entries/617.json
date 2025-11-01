@@ -1,0 +1,31 @@
+{
+  "id": 617,
+  "kanji": "宅",
+  "readings": [
+    "タク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "自宅",
+      "reading": "ジタク"
+    },
+    {
+      "kanji": "住宅",
+      "reading": "ジュウタク"
+    },
+    {
+      "kanji": "帰宅",
+      "reading": "キタク"
+    },
+    {
+      "kanji": "お宅",
+      "reading": "おタク"
+    },
+    {
+      "kanji": "宅配便",
+      "reading": "タクハイビン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

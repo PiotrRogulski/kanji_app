@@ -1,0 +1,22 @@
+{
+  "id": 1098,
+  "kanji": "寿",
+  "readings": [
+    "ジュ",
+    "ことぶき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "寿命",
+      "reading": "ジュミョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "寿司",
+      "reading": "スシ",
+      "reference": 1101
+    }
+  ],
+  "additionalWords": []
+}

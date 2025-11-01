@@ -1,0 +1,45 @@
+{
+  "id": 884,
+  "kanji": "張",
+  "readings": [
+    "チョウ",
+    "は・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "張る",
+      "reading": "はる"
+    },
+    {
+      "kanji": "出張",
+      "reading": "シュッチョウ"
+    },
+    {
+      "kanji": "主張",
+      "reading": "シュチョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "緊張",
+      "reading": "キンチョウ",
+      "reference": 885
+    },
+    {
+      "kanji": "膨張",
+      "reading": "ボウチョウ",
+      "reference": 1161
+    },
+    {
+      "kanji": "威張る",
+      "reading": "イばる",
+      "reference": 1386
+    },
+    {
+      "kanji": "頑張る",
+      "reading": "ガンばる",
+      "reference": 1462
+    }
+  ],
+  "additionalWords": []
+}

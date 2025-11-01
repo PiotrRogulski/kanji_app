@@ -1,0 +1,31 @@
+{
+  "id": 967,
+  "kanji": "景",
+  "readings": [
+    "ケイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "景気",
+      "reading": "ケイキ"
+    },
+    {
+      "kanji": "風景",
+      "reading": "フウケイ"
+    },
+    {
+      "kanji": "背景",
+      "reading": "ハイケイ"
+    },
+    {
+      "kanji": "景色",
+      "reading": "ケシキ"
+    },
+    {
+      "kanji": "光景",
+      "reading": "コウケイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

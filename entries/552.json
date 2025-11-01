@@ -1,0 +1,21 @@
+{
+  "id": 552,
+  "kanji": "途",
+  "readings": [
+    "ト"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "途中",
+      "reading": "トチュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "中途半端",
+      "reading": "チュウトハンぱ",
+      "reference": 664
+    }
+  ],
+  "additionalWords": []
+}

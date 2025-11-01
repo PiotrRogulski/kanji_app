@@ -1,0 +1,25 @@
+{
+  "id": 950,
+  "kanji": "己",
+  "readings": [
+    "コ",
+    "キ",
+    "おのれ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "自己",
+      "reading": "ジコ"
+    },
+    {
+      "kanji": "自己紹介",
+      "reading": "ジコショウカイ"
+    },
+    {
+      "kanji": "利己",
+      "reading": "リコ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

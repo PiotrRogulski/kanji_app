@@ -1,0 +1,22 @@
+{
+  "id": 1236,
+  "kanji": "償",
+  "readings": [
+    "ショウ",
+    "つぐな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "補償",
+      "reading": "ホショウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "賠償",
+      "reading": "バイショウ",
+      "reference": 1399
+    }
+  ],
+  "additionalWords": []
+}

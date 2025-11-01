@@ -1,0 +1,30 @@
+{
+  "id": 799,
+  "kanji": "燃",
+  "readings": [
+    "ネン",
+    "も・える",
+    "も・やす",
+    "も・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "燃える",
+      "reading": "もえる"
+    },
+    {
+      "kanji": "燃やす",
+      "reading": "もやす"
+    },
+    {
+      "kanji": "燃料",
+      "reading": "ネンリョウ"
+    },
+    {
+      "kanji": "燃焼",
+      "reading": "ネンショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

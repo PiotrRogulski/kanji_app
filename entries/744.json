@@ -1,0 +1,28 @@
+{
+  "id": 744,
+  "kanji": "富",
+  "readings": [
+    "フ",
+    "フウ",
+    "と・む",
+    "とみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "富",
+      "reading": "とみ"
+    },
+    {
+      "kanji": "豊富な",
+      "reading": "ホウフ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "富士山",
+      "reading": "フジサン",
+      "reference": 754
+    }
+  ],
+  "additionalWords": []
+}

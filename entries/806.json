@@ -1,0 +1,31 @@
+{
+  "id": 806,
+  "kanji": "崩",
+  "readings": [
+    "ホウ",
+    "くず・れる",
+    "くず・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "崩す",
+      "reading": "くずす"
+    },
+    {
+      "kanji": "崩れる",
+      "reading": "くずれる"
+    },
+    {
+      "kanji": "雪崩",
+      "reading": "なだれ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "崩壊",
+      "reading": "ホウカイ",
+      "reference": 1237
+    }
+  ],
+  "additionalWords": []
+}

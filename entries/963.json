@@ -1,0 +1,35 @@
+{
+  "id": 963,
+  "kanji": "求",
+  "readings": [
+    "キュウ",
+    "もと・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "求める",
+      "reading": "もとめる"
+    },
+    {
+      "kanji": "要求",
+      "reading": "ヨウキュウ"
+    },
+    {
+      "kanji": "追求",
+      "reading": "ツイキュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "求職",
+      "reading": "キュウショク",
+      "reference": 1021
+    },
+    {
+      "kanji": "探求",
+      "reading": "タンキュウ",
+      "reference": 1030
+    }
+  ],
+  "additionalWords": []
+}

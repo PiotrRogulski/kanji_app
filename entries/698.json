@@ -1,0 +1,23 @@
+{
+  "id": 698,
+  "kanji": "貯",
+  "readings": [
+    "チョ",
+    "た・める",
+    "たくわ・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "貯金",
+      "reading": "チョキン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "貯蔵",
+      "reading": "チョゾウ",
+      "reference": 861
+    }
+  ],
+  "additionalWords": []
+}

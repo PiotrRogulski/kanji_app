@@ -1,0 +1,23 @@
+{
+  "id": 1239,
+  "kanji": "版",
+  "readings": [
+    "ハン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "出版",
+      "reading": "シュッパン"
+    },
+    {
+      "kanji": "出版社",
+      "reading": "シュッパンシャ"
+    },
+    {
+      "kanji": "木版画",
+      "reading": "モクハンガ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

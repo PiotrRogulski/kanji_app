@@ -1,0 +1,21 @@
+{
+  "id": 874,
+  "kanji": "恩",
+  "readings": [
+    "オン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恩人",
+      "reading": "オンジン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "恩恵",
+      "reading": "オンケイ",
+      "reference": 1254
+    }
+  ],
+  "additionalWords": []
+}

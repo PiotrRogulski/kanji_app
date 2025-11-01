@@ -1,0 +1,29 @@
+{
+  "id": 800,
+  "kanji": "準",
+  "readings": [
+    "ジュン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "準備",
+      "reading": "ジュンビ"
+    },
+    {
+      "kanji": "基準",
+      "reading": "キジュン"
+    },
+    {
+      "kanji": "水準",
+      "reading": "スイジュン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "標準",
+      "reading": "ヒョウジュン",
+      "reference": 801
+    }
+  ],
+  "additionalWords": []
+}

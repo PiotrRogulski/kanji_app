@@ -1,0 +1,26 @@
+{
+  "id": 1369,
+  "kanji": "歯",
+  "readings": [
+    "シ",
+    "は"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "歯",
+      "reading": "は"
+    },
+    {
+      "kanji": "歯科",
+      "reading": "シカ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "歯磨き",
+      "reading": "はみがき",
+      "reference": 1495
+    }
+  ],
+  "additionalWords": []
+}

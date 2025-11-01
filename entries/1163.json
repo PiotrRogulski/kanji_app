@@ -1,0 +1,36 @@
+{
+  "id": 1163,
+  "kanji": "惑",
+  "readings": [
+    "ワク",
+    "まど・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "惑星",
+      "reading": "ワクセイ"
+    },
+    {
+      "kanji": "戸惑う",
+      "reading": "とまどう"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "迷惑",
+      "reading": "メイワク",
+      "reference": 1265
+    },
+    {
+      "kanji": "誘惑",
+      "reading": "ユウワク",
+      "reference": 1289
+    },
+    {
+      "kanji": "魅惑",
+      "reading": "ミワク",
+      "reference": 1451
+    }
+  ],
+  "additionalWords": []
+}

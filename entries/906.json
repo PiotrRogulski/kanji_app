@@ -1,0 +1,34 @@
+{
+  "id": 906,
+  "kanji": "認",
+  "readings": [
+    "ニン",
+    "みと・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "認める",
+      "reading": "みとめる"
+    },
+    {
+      "kanji": "認識",
+      "reading": "ニンシキ"
+    },
+    {
+      "kanji": "確認",
+      "reading": "カクニン"
+    },
+    {
+      "kanji": "黙認",
+      "reading": "モクニン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "承認",
+      "reading": "ショウニン",
+      "reference": 922
+    }
+  ],
+  "additionalWords": []
+}

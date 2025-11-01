@@ -1,0 +1,29 @@
+{
+  "id": 624,
+  "kanji": "泊",
+  "readings": [
+    "ハク",
+    "と・まる",
+    "と・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "泊まる",
+      "reading": "とまる"
+    },
+    {
+      "kanji": "泊める",
+      "reading": "とめる"
+    },
+    {
+      "kanji": "＿泊",
+      "reading": "ハク"
+    },
+    {
+      "kanji": "宿泊",
+      "reading": "シュクハク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

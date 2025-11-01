@@ -1,0 +1,20 @@
+{
+  "id": 640,
+  "kanji": "菜",
+  "readings": [
+    "サイ",
+    "な"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "野菜",
+      "reading": "ヤサイ"
+    },
+    {
+      "kanji": "菜の花",
+      "reading": "なのはな"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

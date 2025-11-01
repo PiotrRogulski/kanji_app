@@ -1,0 +1,45 @@
+{
+  "id": 461,
+  "kanji": "形",
+  "readings": [
+    "ケイ",
+    "ギョウ",
+    "かた",
+    "かたち"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "形",
+      "reading": "かたち"
+    },
+    {
+      "kanji": "人形",
+      "reading": "ニンギョウ"
+    },
+    {
+      "kanji": "正方形",
+      "reading": "セイホウケイ"
+    },
+    {
+      "kanji": "長方形",
+      "reading": "チョウホウケイ"
+    },
+    {
+      "kanji": "三角形",
+      "reading": "サンカクケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "形式",
+      "reading": "ケイシキ",
+      "reference": 549
+    },
+    {
+      "kanji": "形態",
+      "reading": "ケイタイ",
+      "reference": 763
+    }
+  ],
+  "additionalWords": []
+}

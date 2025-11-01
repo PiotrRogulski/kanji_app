@@ -1,0 +1,24 @@
+{
+  "id": 1003,
+  "kanji": "為",
+  "readings": [
+    "イ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "行為",
+      "reading": "コウイ"
+    },
+    {
+      "kanji": "為替",
+      "reading": "かわせ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "為",
+      "reading": "ため"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1494,
+  "kanji": "培",
+  "readings": [
+    "バイ",
+    "つちか・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "培う",
+      "reading": "つちかう"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "栽培",
+      "reading": "サイバイ",
+      "reference": 1533
+    }
+  ],
+  "additionalWords": []
+}

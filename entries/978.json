@@ -1,0 +1,24 @@
+{
+  "id": 978,
+  "kanji": "迫",
+  "readings": [
+    "ハク",
+    "せま・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "迫る",
+      "reading": "せまる"
+    },
+    {
+      "kanji": "圧迫",
+      "reading": "アッパク"
+    },
+    {
+      "kanji": "迫害",
+      "reading": "ハクガイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1246,
+  "kanji": "損",
+  "readings": [
+    "ソン",
+    "そこ・なう",
+    "そこ・ねる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "損",
+      "reading": "ソン"
+    },
+    {
+      "kanji": "損なう",
+      "reading": "そこなう"
+    },
+    {
+      "kanji": "損害",
+      "reading": "ソンガイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

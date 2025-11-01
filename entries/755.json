@@ -1,0 +1,43 @@
+{
+  "id": 755,
+  "kanji": "極",
+  "readings": [
+    "キョク",
+    "ゴク",
+    "きわ・まる",
+    "きわ・める",
+    "きわ・み"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "極めて",
+      "reading": "きわめて"
+    },
+    {
+      "kanji": "北極",
+      "reading": "ホッキョク"
+    },
+    {
+      "kanji": "南極",
+      "reading": "ナンキョク"
+    },
+    {
+      "kanji": "極楽",
+      "reading": "ゴクラク"
+    },
+    {
+      "kanji": "消極的",
+      "reading": "ショウキョクテキ"
+    },
+    {
+      "kanji": "積極的",
+      "reading": "セッキョクテキ"
+    },
+    {
+      "kanji": "極端",
+      "reading": "キョクタン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

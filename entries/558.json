@@ -1,0 +1,25 @@
+{
+  "id": 558,
+  "kanji": "委",
+  "readings": [
+    "イ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "委員",
+      "reading": "イイン"
+    },
+    {
+      "kanji": "委員会",
+      "reading": "イインカイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "委託",
+      "reading": "イタク",
+      "reference": 1280
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 936,
+  "kanji": "型",
+  "readings": [
+    "ケイ",
+    "かた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "型",
+      "reading": "かた"
+    },
+    {
+      "kanji": "大型",
+      "reading": "おおがた"
+    },
+    {
+      "kanji": "小型",
+      "reading": "こがた"
+    },
+    {
+      "kanji": "模型",
+      "reading": "モケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "血液型",
+      "reading": "ケツエキがた",
+      "reference": 1084
+    },
+    {
+      "kanji": "典型",
+      "reading": "テンケイ",
+      "reference": 1156
+    }
+  ],
+  "additionalWords": []
+}

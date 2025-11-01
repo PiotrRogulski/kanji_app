@@ -1,0 +1,31 @@
+{
+  "id": 707,
+  "kanji": "護",
+  "readings": [
+    "ゴ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "看護師",
+      "reading": "カンゴシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "弁護士",
+      "reading": "ベンゴシ",
+      "reference": 754
+    },
+    {
+      "kanji": "保護",
+      "reading": "ホゴ",
+      "reference": 1071
+    },
+    {
+      "kanji": "擁護",
+      "reading": "ヨウゴ",
+      "reference": 1483
+    }
+  ],
+  "additionalWords": []
+}

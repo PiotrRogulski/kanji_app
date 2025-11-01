@@ -1,0 +1,29 @@
+{
+  "id": 1421,
+  "kanji": "翼",
+  "readings": [
+    "ヨク",
+    "つばさ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "翼",
+      "reading": "つばさ"
+    },
+    {
+      "kanji": "右翼",
+      "reading": "ウヨク"
+    },
+    {
+      "kanji": "左翼",
+      "reading": "サヨク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "キャプテン翼",
+      "reading": "キャプテンつばさ"
+    }
+  ]
+}

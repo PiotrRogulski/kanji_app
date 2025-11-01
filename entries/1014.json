@@ -1,0 +1,32 @@
+{
+  "id": 1014,
+  "kanji": "源",
+  "readings": [
+    "ゲン",
+    "みなもと"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "源",
+      "reading": "みなもと"
+    },
+    {
+      "kanji": "資源",
+      "reading": "シゲン"
+    },
+    {
+      "kanji": "起源",
+      "reading": "キゲン"
+    },
+    {
+      "kanji": "電源",
+      "reading": "デンゲン"
+    },
+    {
+      "kanji": "源氏物語",
+      "reading": "ゲンジものがたり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

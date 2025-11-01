@@ -1,0 +1,30 @@
+{
+  "id": 1086,
+  "kanji": "延",
+  "readings": [
+    "エン",
+    "の・びる",
+    "の・べる",
+    "の・ばす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "延びる",
+      "reading": "のびる"
+    },
+    {
+      "kanji": "延ばす",
+      "reading": "のばす"
+    },
+    {
+      "kanji": "延長",
+      "reading": "エンチョウ"
+    },
+    {
+      "kanji": "延期",
+      "reading": "エンキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

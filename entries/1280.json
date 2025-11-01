@@ -1,0 +1,19 @@
+{
+  "id": 1280,
+  "kanji": "託",
+  "readings": [
+    "タク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "託する",
+      "reading": "タクする"
+    },
+    {
+      "kanji": "委託",
+      "reading": "イタク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

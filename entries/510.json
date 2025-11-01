@@ -1,0 +1,66 @@
+{
+  "id": 510,
+  "kanji": "連",
+  "readings": [
+    "レン",
+    "つ・れる",
+    "つら・なる",
+    "つら・ねる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "連れる",
+      "reading": "つれる"
+    },
+    {
+      "kanji": "連合",
+      "reading": "レンゴウ"
+    },
+    {
+      "kanji": "連続",
+      "reading": "レンゾク"
+    },
+    {
+      "kanji": "国連",
+      "reading": "コクレン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "関連",
+      "reading": "カンレン",
+      "reference": 578
+    },
+    {
+      "kanji": "欧州連合",
+      "reading": "オウシュウレンゴウ",
+      "reference": 927
+    },
+    {
+      "kanji": "連想",
+      "reading": "レンソウ",
+      "reference": 970
+    },
+    {
+      "kanji": "連帯",
+      "reading": "レンタイ",
+      "reference": 1231
+    },
+    {
+      "kanji": "連絡",
+      "reading": "レンラク",
+      "reference": 1242
+    },
+    {
+      "kanji": "連絡船",
+      "reading": "レンラクセン",
+      "reference": 1242
+    },
+    {
+      "kanji": "連邦",
+      "reading": "レンポウ",
+      "reference": 1271
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1299,
+  "kanji": "駐",
+  "readings": [
+    "チュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "駐車",
+      "reading": "チュウシャ"
+    },
+    {
+      "kanji": "駐車場",
+      "reading": "チュウシャジョウ"
+    },
+    {
+      "kanji": "駐在",
+      "reading": "チュウザイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

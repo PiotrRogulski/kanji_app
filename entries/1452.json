@@ -1,0 +1,32 @@
+{
+  "id": 1452,
+  "kanji": "帝",
+  "readings": [
+    "テイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "帝王",
+      "reading": "テイオウ"
+    },
+    {
+      "kanji": "皇帝",
+      "reading": "コウテイ"
+    },
+    {
+      "kanji": "帝国",
+      "reading": "テイコク"
+    },
+    {
+      "kanji": "女帝",
+      "reading": "ジョテイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "銀河帝国",
+      "reading": "ギンガテイコク"
+    }
+  ]
+}

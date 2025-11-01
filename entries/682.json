@@ -1,0 +1,43 @@
+{
+  "id": 682,
+  "kanji": "巻",
+  "readings": [
+    "カン",
+    "ま・く",
+    "まき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "巻",
+      "reading": "カン"
+    },
+    {
+      "kanji": "巻く",
+      "reading": "まく"
+    },
+    {
+      "kanji": "上巻",
+      "reading": "ジョウカン"
+    },
+    {
+      "kanji": "中巻",
+      "reading": "チュウカン"
+    },
+    {
+      "kanji": "下巻",
+      "reading": "ゲカン"
+    },
+    {
+      "kanji": "寝巻き",
+      "reading": "ねまき"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "竜巻",
+      "reading": "たつまき",
+      "reference": 1430
+    }
+  ],
+  "additionalWords": []
+}

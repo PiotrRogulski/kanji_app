@@ -1,0 +1,20 @@
+{
+  "id": 1366,
+  "kanji": "童",
+  "readings": [
+    "ドウ",
+    "わらべ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "童話",
+      "reading": "ドウワ"
+    },
+    {
+      "kanji": "児童",
+      "reading": "ジドウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

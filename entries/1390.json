@@ -1,0 +1,26 @@
+{
+  "id": 1390,
+  "kanji": "鎖",
+  "readings": [
+    "サ",
+    "くさり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鎖",
+      "reading": "くさり"
+    },
+    {
+      "kanji": "鎖国",
+      "reading": "サコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "封鎖",
+      "reading": "フウサ",
+      "reference": 1395
+    }
+  ],
+  "additionalWords": []
+}

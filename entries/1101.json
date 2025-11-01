@@ -1,0 +1,23 @@
+{
+  "id": 1101,
+  "kanji": "司",
+  "readings": [
+    "シ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "司会",
+      "reading": "シカイ"
+    },
+    {
+      "kanji": "上司",
+      "reading": "ジョウシ"
+    },
+    {
+      "kanji": "寿司",
+      "reading": "スシ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

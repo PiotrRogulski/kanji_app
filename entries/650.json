@@ -1,0 +1,26 @@
+{
+  "id": 650,
+  "kanji": "簡",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [],
+  "wordsRequiredLater": [
+    {
+      "kanji": "簡単な",
+      "reading": "カンタン",
+      "reference": 661
+    },
+    {
+      "kanji": "簡易",
+      "reading": "カンイ",
+      "reference": 695
+    },
+    {
+      "kanji": "簡潔な",
+      "reading": "カンケツ",
+      "reference": 776
+    }
+  ],
+  "additionalWords": []
+}

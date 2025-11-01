@@ -1,0 +1,28 @@
+{
+  "id": 1517,
+  "kanji": "壇",
+  "readings": [
+    "ダン",
+    "タン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "壇上",
+      "reading": "ダンジョウ"
+    },
+    {
+      "kanji": "文壇",
+      "reading": "ブンダン"
+    },
+    {
+      "kanji": "祭壇",
+      "reading": "サイダン"
+    },
+    {
+      "kanji": "仏壇",
+      "reading": "ブツダン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

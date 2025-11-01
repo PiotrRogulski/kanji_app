@@ -1,0 +1,35 @@
+{
+  "id": 929,
+  "kanji": "我",
+  "readings": [
+    "ガ",
+    "われ",
+    "わ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "我",
+      "reading": "われ"
+    },
+    {
+      "kanji": "我々",
+      "reading": "われわれ"
+    },
+    {
+      "kanji": "我が国",
+      "reading": "わがくに"
+    },
+    {
+      "kanji": "自我",
+      "reading": "ジガ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "我慢",
+      "reading": "ガマン",
+      "reference": 1029
+    }
+  ],
+  "additionalWords": []
+}

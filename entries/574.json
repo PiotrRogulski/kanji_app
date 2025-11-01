@@ -1,0 +1,30 @@
+{
+  "id": 574,
+  "kanji": "未",
+  "readings": [
+    "ミ",
+    "いま・だに"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "未だに",
+      "reading": "いまだに"
+    },
+    {
+      "kanji": "未来",
+      "reading": "ミライ"
+    },
+    {
+      "kanji": "未成年",
+      "reading": "ミセイネン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "未満",
+      "reading": "ミマン",
+      "reference": 692
+    }
+  ],
+  "additionalWords": []
+}

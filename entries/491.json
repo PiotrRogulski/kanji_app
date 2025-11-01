@@ -1,0 +1,36 @@
+{
+  "id": 491,
+  "kanji": "酒",
+  "readings": [
+    "シュ",
+    "さけ",
+    "さか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "酒",
+      "reading": "さけ"
+    },
+    {
+      "kanji": "日本酒",
+      "reading": "ニホンシュ"
+    },
+    {
+      "kanji": "酒場",
+      "reading": "さかば"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "酒屋",
+      "reading": "さかや",
+      "reference": 534
+    },
+    {
+      "kanji": "梅酒",
+      "reading": "うめシュ",
+      "reference": 1350
+    }
+  ],
+  "additionalWords": []
+}

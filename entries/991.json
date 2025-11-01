@@ -1,0 +1,29 @@
+{
+  "id": 991,
+  "kanji": "操",
+  "readings": [
+    "ソウ",
+    "みさお",
+    "あやつ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "操る",
+      "reading": "あやつる"
+    },
+    {
+      "kanji": "操作",
+      "reading": "ソウサ"
+    },
+    {
+      "kanji": "体操",
+      "reading": "タイソウ"
+    },
+    {
+      "kanji": "操縦",
+      "reading": "ソウジュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": 1372,
+  "kanji": "臣",
+  "readings": [
+    "シン",
+    "ジン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "臣下",
+      "reading": "シンカ"
+    },
+    {
+      "kanji": "大臣",
+      "reading": "ダイジン"
+    },
+    {
+      "kanji": "家臣",
+      "reading": "カシン"
+    },
+    {
+      "kanji": "総理大臣",
+      "reading": "ソウリダイジン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": 861,
+  "kanji": "蔵",
+  "readings": [
+    "ゾウ",
+    "くら"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "蔵",
+      "reading": "くら"
+    },
+    {
+      "kanji": "蔵書",
+      "reading": "ゾウショ"
+    },
+    {
+      "kanji": "貯蔵",
+      "reading": "チョゾウ"
+    },
+    {
+      "kanji": "冷蔵庫",
+      "reading": "レイゾウコ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

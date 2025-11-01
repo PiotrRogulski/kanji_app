@@ -1,0 +1,21 @@
+{
+  "id": 495,
+  "kanji": "押",
+  "readings": [
+    "オウ",
+    "お・す",
+    "お・さえる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "押す",
+      "reading": "おす"
+    },
+    {
+      "kanji": "押さえる",
+      "reading": "おさえる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

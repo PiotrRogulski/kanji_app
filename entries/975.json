@@ -1,0 +1,35 @@
+{
+  "id": 975,
+  "kanji": "存",
+  "readings": [
+    "ソン",
+    "ゾン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "存じる",
+      "reading": "ゾンじる"
+    },
+    {
+      "kanji": "ご存じ",
+      "reading": "ごゾンじ"
+    },
+    {
+      "kanji": "存在",
+      "reading": "ソンザイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "保存",
+      "reading": "ホゾン",
+      "reference": 1071
+    },
+    {
+      "kanji": "保存料",
+      "reading": "ホゾンリョウ",
+      "reference": 1071
+    }
+  ],
+  "additionalWords": []
+}

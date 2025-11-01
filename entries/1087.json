@@ -1,0 +1,29 @@
+{
+  "id": 1087,
+  "kanji": "貴",
+  "readings": [
+    "キ",
+    "たっと・い",
+    "とうと・い",
+    "たっと・ぶ",
+    "とうと・ぶ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "貴重な",
+      "reading": "キチョウ"
+    },
+    {
+      "kanji": "貴方",
+      "reading": "あなた"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "貴殿",
+      "reading": "キデン",
+      "reference": 1334
+    }
+  ],
+  "additionalWords": []
+}

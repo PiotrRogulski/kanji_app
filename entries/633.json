@@ -1,0 +1,38 @@
+{
+  "id": 633,
+  "kanji": "備",
+  "readings": [
+    "ビ",
+    "そな・える",
+    "そな・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "備える",
+      "reading": "そなえる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "警備",
+      "reading": "ケイビ",
+      "reference": 654
+    },
+    {
+      "kanji": "準備",
+      "reading": "ジュンビ",
+      "reference": 800
+    },
+    {
+      "kanji": "整備",
+      "reading": "セイビ",
+      "reference": 831
+    },
+    {
+      "kanji": "設備",
+      "reading": "セツビ",
+      "reference": 989
+    }
+  ],
+  "additionalWords": []
+}

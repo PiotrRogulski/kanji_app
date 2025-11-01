@@ -1,0 +1,23 @@
+{
+  "id": 1045,
+  "kanji": "禁",
+  "readings": [
+    "キン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "禁止",
+      "reading": "キンシ"
+    },
+    {
+      "kanji": "禁煙",
+      "reading": "キンエン"
+    },
+    {
+      "kanji": "禁じる",
+      "reading": "キンじる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

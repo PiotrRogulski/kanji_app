@@ -1,0 +1,23 @@
+{
+  "id": 985,
+  "kanji": "訓",
+  "readings": [
+    "クン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "訓練",
+      "reading": "クンレン"
+    },
+    {
+      "kanji": "教訓",
+      "reading": "キョウクン"
+    },
+    {
+      "kanji": "訓読み",
+      "reading": "クンよみ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

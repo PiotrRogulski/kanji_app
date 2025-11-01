@@ -1,0 +1,46 @@
+{
+  "id": 518,
+  "kanji": "常",
+  "readings": [
+    "ジョウ",
+    "つね",
+    "とこ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "常に",
+      "reading": "つねに"
+    },
+    {
+      "kanji": "日常",
+      "reading": "ニチジョウ"
+    },
+    {
+      "kanji": "非常に",
+      "reading": "ヒジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "異常",
+      "reading": "イジョウ",
+      "reference": 702
+    },
+    {
+      "kanji": "常識",
+      "reading": "ジョウシキ",
+      "reference": 825
+    },
+    {
+      "kanji": "尋常",
+      "reading": "ジンジョウ",
+      "reference": 894
+    },
+    {
+      "kanji": "恒常的",
+      "reading": "コウジョウテキ",
+      "reference": 1152
+    }
+  ],
+  "additionalWords": []
+}

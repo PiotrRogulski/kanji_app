@@ -1,0 +1,29 @@
+{
+  "id": 935,
+  "kanji": "傾",
+  "readings": [
+    "ケイ",
+    "かたむ・く",
+    "かたむ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "傾く",
+      "reading": "かたむく"
+    },
+    {
+      "kanji": "傾ける",
+      "reading": "かたむける"
+    },
+    {
+      "kanji": "傾向",
+      "reading": "ケイコウ"
+    },
+    {
+      "kanji": "傾斜",
+      "reading": "ケイシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

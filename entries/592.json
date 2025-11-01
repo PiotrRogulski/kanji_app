@@ -1,0 +1,29 @@
+{
+  "id": 592,
+  "kanji": "試",
+  "readings": [
+    "シ",
+    "こころ・みる",
+    "ため・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "試す",
+      "reading": "ためす"
+    },
+    {
+      "kanji": "試し",
+      "reading": "ためし"
+    },
+    {
+      "kanji": "試験",
+      "reading": "シケン"
+    },
+    {
+      "kanji": "試合",
+      "reading": "シあい"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

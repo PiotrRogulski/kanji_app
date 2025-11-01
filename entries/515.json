@@ -1,0 +1,83 @@
+{
+  "id": 515,
+  "kanji": "成",
+  "readings": [
+    "セイ",
+    "ジョウ",
+    "な・る",
+    "な・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "成る",
+      "reading": "なる"
+    },
+    {
+      "kanji": "成人",
+      "reading": "セイジン"
+    },
+    {
+      "kanji": "成長",
+      "reading": "セイチョウ"
+    },
+    {
+      "kanji": "成立",
+      "reading": "セイリツ"
+    },
+    {
+      "kanji": "作成",
+      "reading": "サクセイ"
+    },
+    {
+      "kanji": "成分",
+      "reading": "セイブン"
+    },
+    {
+      "kanji": "成り立つ",
+      "reading": "なりたつ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "成人式",
+      "reading": "セイジンシキ",
+      "reference": 549
+    },
+    {
+      "kanji": "完成",
+      "reading": "カンセイ",
+      "reference": 555
+    },
+    {
+      "kanji": "未成年",
+      "reading": "ミセイネン",
+      "reference": 574
+    },
+    {
+      "kanji": "達成",
+      "reading": "タッセイ",
+      "reference": 790
+    },
+    {
+      "kanji": "成功",
+      "reading": "セイコウ",
+      "reference": 856
+    },
+    {
+      "kanji": "構成",
+      "reading": "コウセイ",
+      "reference": 969
+    },
+    {
+      "kanji": "成熟",
+      "reading": "セイジュク",
+      "reference": 1099
+    },
+    {
+      "kanji": "成績",
+      "reading": "セイセキ",
+      "reference": 1225
+    }
+  ],
+  "additionalWords": []
+}

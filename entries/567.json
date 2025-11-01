@@ -1,0 +1,21 @@
+{
+  "id": 567,
+  "kanji": "授",
+  "readings": [
+    "ジュ",
+    "さず・ける",
+    "さず・かる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "授業",
+      "reading": "ジュギョウ"
+    },
+    {
+      "kanji": "教授",
+      "reading": "キョウジュ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

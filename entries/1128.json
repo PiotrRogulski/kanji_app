@@ -1,0 +1,25 @@
+{
+  "id": 1128,
+  "kanji": "率",
+  "readings": [
+    "ソツ",
+    "リツ",
+    "ひき・いる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "率",
+      "reading": "リツ"
+    },
+    {
+      "kanji": "率直な",
+      "reading": "ソッチョク"
+    },
+    {
+      "kanji": "確率",
+      "reading": "カクリツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

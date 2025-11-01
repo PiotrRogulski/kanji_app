@@ -1,0 +1,30 @@
+{
+  "id": 1125,
+  "kanji": "免",
+  "readings": [
+    "メン",
+    "まぬか・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "免れる",
+      "reading": "まぬかれる"
+    },
+    {
+      "kanji": "免許",
+      "reading": "メンキョ"
+    },
+    {
+      "kanji": "免除",
+      "reading": "メンジョ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "免税",
+      "reading": "メンゼイ",
+      "reference": 1166
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": 483,
+  "kanji": "神",
+  "readings": [
+    "シン",
+    "ジン",
+    "かみ",
+    "かん",
+    "こう"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "神",
+      "reading": "かみ"
+    },
+    {
+      "kanji": "神社",
+      "reading": "ジンジャ"
+    },
+    {
+      "kanji": "神道",
+      "reading": "シントウ"
+    },
+    {
+      "kanji": "神話",
+      "reading": "シンワ"
+    },
+    {
+      "kanji": "神父",
+      "reading": "シンプ"
+    },
+    {
+      "kanji": "神主",
+      "reading": "かんぬし"
+    },
+    {
+      "kanji": "神風",
+      "reading": "かみかぜ／シンプウ"
+    },
+    {
+      "kanji": "神宮",
+      "reading": "ジングウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "神様",
+      "reading": "かみさま",
+      "reference": 486
+    },
+    {
+      "kanji": "精神",
+      "reading": "セイシン",
+      "reference": 844
+    },
+    {
+      "kanji": "精神病",
+      "reading": "セイシンビョウ",
+      "reference": 844
+    }
+  ],
+  "additionalWords": []
+}

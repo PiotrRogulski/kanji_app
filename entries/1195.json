@@ -1,0 +1,23 @@
+{
+  "id": 1195,
+  "kanji": "券",
+  "readings": [
+    "ケン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "旅券",
+      "reading": "リョケン"
+    },
+    {
+      "kanji": "乗車券",
+      "reading": "ジョウシャケン"
+    },
+    {
+      "kanji": "食券",
+      "reading": "ショッケン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

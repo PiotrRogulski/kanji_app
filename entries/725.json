@@ -1,0 +1,22 @@
+{
+  "id": 725,
+  "kanji": "酸",
+  "readings": [
+    "サン",
+    "す・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "酸っぱい",
+      "reading": "すっぱい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "酸素",
+      "reading": "サンソ",
+      "reference": 787
+    }
+  ],
+  "additionalWords": []
+}

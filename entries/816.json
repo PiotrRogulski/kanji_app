@@ -1,0 +1,38 @@
+{
+  "id": 816,
+  "kanji": "居",
+  "readings": [
+    "キョ",
+    "い・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "居る",
+      "reading": "いる"
+    },
+    {
+      "kanji": "居間",
+      "reading": "いま"
+    },
+    {
+      "kanji": "鳥居",
+      "reading": "とりい"
+    },
+    {
+      "kanji": "居住",
+      "reading": "キョジュウ"
+    },
+    {
+      "kanji": "隠居",
+      "reading": "インキョ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "芝居",
+      "reading": "しばい",
+      "reference": 1353
+    }
+  ],
+  "additionalWords": []
+}

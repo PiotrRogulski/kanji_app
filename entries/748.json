@@ -1,0 +1,29 @@
+{
+  "id": 748,
+  "kanji": "弁",
+  "readings": [
+    "ベン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "弁論",
+      "reading": "ベンロン"
+    },
+    {
+      "kanji": "（お）弁当",
+      "reading": "ベントウ"
+    },
+    {
+      "kanji": "駅弁",
+      "reading": "エキベン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "弁護士",
+      "reading": "ベンゴシ",
+      "reference": 754
+    }
+  ],
+  "additionalWords": []
+}

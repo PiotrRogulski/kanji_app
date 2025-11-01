@@ -1,0 +1,28 @@
+{
+  "id": 982,
+  "kanji": "編",
+  "readings": [
+    "ヘン",
+    "あ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "編む",
+      "reading": "あむ"
+    },
+    {
+      "kanji": "編集",
+      "reading": "ヘンシュウ"
+    },
+    {
+      "kanji": "長編",
+      "reading": "チョウヘン"
+    },
+    {
+      "kanji": "短編",
+      "reading": "タンペン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

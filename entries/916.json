@@ -1,0 +1,25 @@
+{
+  "id": 916,
+  "kanji": "踊",
+  "readings": [
+    "ヨウ",
+    "おど・る",
+    "おど・り"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "踊る",
+      "reading": "おどる"
+    },
+    {
+      "kanji": "踊り",
+      "reading": "おどり"
+    },
+    {
+      "kanji": "舞踊",
+      "reading": "ブヨウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

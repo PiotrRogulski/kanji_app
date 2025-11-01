@@ -1,0 +1,24 @@
+{
+  "id": 1383,
+  "kanji": "飾",
+  "readings": [
+    "ショク",
+    "かざ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "飾る",
+      "reading": "かざる"
+    },
+    {
+      "kanji": "飾り",
+      "reading": "かざり"
+    },
+    {
+      "kanji": "着飾る",
+      "reading": "きかざる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

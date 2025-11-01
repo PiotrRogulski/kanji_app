@@ -1,0 +1,26 @@
+{
+  "id": 1194,
+  "kanji": "吉",
+  "readings": [
+    "キチ",
+    "キツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "大吉",
+      "reading": "ダイキチ"
+    },
+    {
+      "kanji": "不吉",
+      "reading": "フキツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "吉祥",
+      "reading": "キッショウ",
+      "reference": 1518
+    }
+  ],
+  "additionalWords": []
+}

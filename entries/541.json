@@ -1,0 +1,41 @@
+{
+  "id": 541,
+  "kanji": "起",
+  "readings": [
+    "キ",
+    "お・きる",
+    "お・こる",
+    "お・こす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "起きる",
+      "reading": "おきる"
+    },
+    {
+      "kanji": "起こる",
+      "reading": "おこる"
+    },
+    {
+      "kanji": "起こす",
+      "reading": "おこす"
+    },
+    {
+      "kanji": "起点",
+      "reading": "キテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "起源",
+      "reading": "キゲン",
+      "reference": 1014
+    },
+    {
+      "kanji": "起床する",
+      "reading": "キショウ",
+      "reference": 1351
+    }
+  ],
+  "additionalWords": []
+}

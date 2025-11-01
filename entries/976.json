@@ -1,0 +1,58 @@
+{
+  "id": 976,
+  "kanji": "能",
+  "readings": [
+    "ノウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "能",
+      "reading": "ノウ"
+    },
+    {
+      "kanji": "能力",
+      "reading": "ノウリョク"
+    },
+    {
+      "kanji": "才能",
+      "reading": "サイノウ"
+    },
+    {
+      "kanji": "知能",
+      "reading": "チノウ"
+    },
+    {
+      "kanji": "本能",
+      "reading": "ホンノウ"
+    },
+    {
+      "kanji": "可能",
+      "reading": "カノウ"
+    },
+    {
+      "kanji": "可能性",
+      "reading": "カノウセイ"
+    },
+    {
+      "kanji": "不可能",
+      "reading": "フカノウ"
+    },
+    {
+      "kanji": "機能",
+      "reading": "キノウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "芸能",
+      "reading": "ゲイノウ",
+      "reference": 1012
+    },
+    {
+      "kanji": "芸能人",
+      "reading": "ゲイノウジン",
+      "reference": 1012
+    }
+  ],
+  "additionalWords": []
+}

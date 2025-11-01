@@ -1,0 +1,30 @@
+{
+  "id": 660,
+  "kanji": "隊",
+  "readings": [
+    "タイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "デモ隊",
+      "reading": "デモタイ"
+    },
+    {
+      "kanji": "軍隊",
+      "reading": "グンタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "自衛隊",
+      "reading": "ジエイタイ",
+      "reference": 960
+    },
+    {
+      "kanji": "兵隊",
+      "reading": "ヘイタイ",
+      "reference": 1184
+    }
+  ],
+  "additionalWords": []
+}

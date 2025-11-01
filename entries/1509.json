@@ -1,0 +1,28 @@
+{
+  "id": 1509,
+  "kanji": "卸",
+  "readings": [
+    "おろ・す",
+    "おろし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "卸す",
+      "reading": "おろす"
+    },
+    {
+      "kanji": "卸",
+      "reading": "おろし"
+    },
+    {
+      "kanji": "卸売",
+      "reading": "おろしうり"
+    },
+    {
+      "kanji": "卸商",
+      "reading": "おろしショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

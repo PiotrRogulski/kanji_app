@@ -1,0 +1,34 @@
+{
+  "id": 596,
+  "kanji": "課",
+  "readings": [
+    "カ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "課",
+      "reading": "カ"
+    },
+    {
+      "kanji": "課長",
+      "reading": "カチョウ"
+    },
+    {
+      "kanji": "課題",
+      "reading": "カダイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "課程",
+      "reading": "カテイ",
+      "reference": 604
+    },
+    {
+      "kanji": "課税",
+      "reading": "カゼイ",
+      "reference": 1166
+    }
+  ],
+  "additionalWords": []
+}

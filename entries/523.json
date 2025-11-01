@@ -1,0 +1,40 @@
+{
+  "id": 523,
+  "kanji": "最",
+  "readings": [
+    "サイ",
+    "もっと・も"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "最も",
+      "reading": "もっとも"
+    },
+    {
+      "kanji": "最近",
+      "reading": "サイキン"
+    },
+    {
+      "kanji": "最高",
+      "reading": "サイコウ"
+    },
+    {
+      "kanji": "最初",
+      "reading": "サイショ"
+    },
+    {
+      "kanji": "最終",
+      "reading": "サイシュウ"
+    },
+    {
+      "kanji": "最後",
+      "reading": "サイゴ"
+    },
+    {
+      "kanji": "最低",
+      "reading": "サイテイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 782,
+  "kanji": "支",
+  "readings": [
+    "シ",
+    "ささ・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "支える",
+      "reading": "ささえる"
+    },
+    {
+      "kanji": "支払う",
+      "reading": "シはらう"
+    },
+    {
+      "kanji": "支度",
+      "reading": "シタク"
+    },
+    {
+      "kanji": "支持",
+      "reading": "シジ"
+    },
+    {
+      "kanji": "支配",
+      "reading": "シハイ"
+    },
+    {
+      "kanji": "支店",
+      "reading": "シテン"
+    },
+    {
+      "kanji": "支社",
+      "reading": "シシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

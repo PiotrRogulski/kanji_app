@@ -1,0 +1,26 @@
+{
+  "id": 1395,
+  "kanji": "封",
+  "readings": [
+    "フウ",
+    "ホウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "封鎖",
+      "reading": "フウサ"
+    },
+    {
+      "kanji": "封建",
+      "reading": "ホウケン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "封筒",
+      "reading": "フウトウ",
+      "reference": 1521
+    }
+  ],
+  "additionalWords": []
+}

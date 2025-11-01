@@ -1,0 +1,33 @@
+{
+  "id": 807,
+  "kanji": "容",
+  "readings": [
+    "ヨウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "容器",
+      "reading": "ヨウキ"
+    },
+    {
+      "kanji": "内容",
+      "reading": "ナイヨウ"
+    },
+    {
+      "kanji": "容易な",
+      "reading": "ヨウイ"
+    },
+    {
+      "kanji": "美容",
+      "reading": "ビヨウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "寛容な",
+      "reading": "カンヨウ",
+      "reference": 1485
+    }
+  ],
+  "additionalWords": []
+}

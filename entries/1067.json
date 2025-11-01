@@ -1,0 +1,27 @@
+{
+  "id": 1067,
+  "kanji": "停",
+  "readings": [
+    "テイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "停止",
+      "reading": "テイシ"
+    },
+    {
+      "kanji": "停車",
+      "reading": "テイシャ"
+    },
+    {
+      "kanji": "停電",
+      "reading": "テイデン"
+    },
+    {
+      "kanji": "停留所",
+      "reading": "テイリュウジョ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

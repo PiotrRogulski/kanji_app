@@ -1,0 +1,30 @@
+{
+  "id": 781,
+  "kanji": "災",
+  "readings": [
+    "サイ",
+    "わざわ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "災い",
+      "reading": "わざわい"
+    },
+    {
+      "kanji": "火災",
+      "reading": "カサイ"
+    },
+    {
+      "kanji": "災害",
+      "reading": "サイガイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "災難",
+      "reading": "サイナン",
+      "reference": 903
+    }
+  ],
+  "additionalWords": []
+}

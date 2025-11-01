@@ -1,0 +1,28 @@
+{
+  "id": 957,
+  "kanji": "被",
+  "readings": [
+    "ヒ",
+    "こうむ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "被る",
+      "reading": "こうむる"
+    },
+    {
+      "kanji": "被害",
+      "reading": "ヒガイ"
+    },
+    {
+      "kanji": "被害者",
+      "reading": "ヒガイシャ"
+    },
+    {
+      "kanji": "被告",
+      "reading": "ヒコク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

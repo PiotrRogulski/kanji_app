@@ -1,0 +1,33 @@
+{
+  "id": 1177,
+  "kanji": "武",
+  "readings": [
+    "ブ",
+    "ム"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "武力",
+      "reading": "ブリョク"
+    },
+    {
+      "kanji": "武士",
+      "reading": "ブシ"
+    },
+    {
+      "kanji": "武器",
+      "reading": "ブキ"
+    },
+    {
+      "kanji": "武者",
+      "reading": "ムシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "影武者",
+      "reading": "かげムシャ"
+    }
+  ]
+}

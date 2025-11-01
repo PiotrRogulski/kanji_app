@@ -1,0 +1,34 @@
+{
+  "id": 618,
+  "kanji": "参",
+  "readings": [
+    "サン",
+    "まい・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "参る",
+      "reading": "まいる"
+    },
+    {
+      "kanji": "お参り",
+      "reading": "おまいり"
+    },
+    {
+      "kanji": "持参",
+      "reading": "ジサン"
+    },
+    {
+      "kanji": "参考",
+      "reading": "サンコウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "参加",
+      "reading": "サンカ",
+      "reference": 846
+    }
+  ],
+  "additionalWords": []
+}

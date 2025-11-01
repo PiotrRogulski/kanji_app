@@ -1,0 +1,30 @@
+{
+  "id": 904,
+  "kanji": "導",
+  "readings": [
+    "ドウ",
+    "みちび・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "導く",
+      "reading": "みちびく"
+    },
+    {
+      "kanji": "指導",
+      "reading": "シドウ"
+    },
+    {
+      "kanji": "導入",
+      "reading": "ドウニュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "誘導",
+      "reading": "ユウドウ",
+      "reference": 1289
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1119,
+  "kanji": "犯",
+  "readings": [
+    "ハン",
+    "おか・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "犯す",
+      "reading": "おかす"
+    },
+    {
+      "kanji": "犯罪",
+      "reading": "ハンザイ"
+    },
+    {
+      "kanji": "犯罪者",
+      "reading": "ハンザイシャ"
+    },
+    {
+      "kanji": "犯人",
+      "reading": "ハンニン"
+    },
+    {
+      "kanji": "防犯",
+      "reading": "ボウハン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

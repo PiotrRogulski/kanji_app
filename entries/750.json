@@ -1,0 +1,21 @@
+{
+  "id": 750,
+  "kanji": "揚",
+  "readings": [
+    "ヨウ",
+    "あ・げる",
+    "あ・がる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "揚げる",
+      "reading": "あげる"
+    },
+    {
+      "kanji": "揚げ物",
+      "reading": "あげもの"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

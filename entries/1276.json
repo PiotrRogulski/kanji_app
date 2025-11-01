@@ -1,0 +1,21 @@
+{
+  "id": 1276,
+  "kanji": "伴",
+  "readings": [
+    "ハン",
+    "バン",
+    "ともな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "伴う",
+      "reading": "ともなう"
+    },
+    {
+      "kanji": "同伴する",
+      "reading": "ドウハン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

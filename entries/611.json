@@ -1,0 +1,57 @@
+{
+  "id": 611,
+  "kanji": "感",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "感じる",
+      "reading": "カンじる"
+    },
+    {
+      "kanji": "感じ",
+      "reading": "カンじ"
+    },
+    {
+      "kanji": "感心",
+      "reading": "カンシン"
+    },
+    {
+      "kanji": "感動",
+      "reading": "カンドウ"
+    },
+    {
+      "kanji": "感覚",
+      "reading": "カンカク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "感謝",
+      "reading": "カンシャ",
+      "reference": 757
+    },
+    {
+      "kanji": "感染",
+      "reading": "カンセン",
+      "reference": 833
+    },
+    {
+      "kanji": "感想",
+      "reading": "カンソウ",
+      "reference": 970
+    },
+    {
+      "kanji": "感染症",
+      "reading": "カンセンショウ",
+      "reference": 1102
+    },
+    {
+      "kanji": "敏感",
+      "reading": "ビンカン",
+      "reference": 1340
+    }
+  ],
+  "additionalWords": []
+}

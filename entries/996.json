@@ -1,0 +1,36 @@
+{
+  "id": 996,
+  "kanji": "忍",
+  "readings": [
+    "ニン",
+    "しの・ぶ",
+    "しの・ばせる",
+    "しの・びやかな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "忍ぶ",
+      "reading": "しのぶ"
+    },
+    {
+      "kanji": "忍び",
+      "reading": "しのび"
+    },
+    {
+      "kanji": "忍耐",
+      "reading": "ニンタイ"
+    },
+    {
+      "kanji": "忍者",
+      "reading": "ニンジャ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "堪忍",
+      "reading": "カンニン",
+      "reference": 1466
+    }
+  ],
+  "additionalWords": []
+}

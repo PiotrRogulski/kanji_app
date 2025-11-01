@@ -1,0 +1,30 @@
+{
+  "id": 1044,
+  "kanji": "狭",
+  "readings": [
+    "キョウ",
+    "せま・い",
+    "せば・める",
+    "せば・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "狭い",
+      "reading": "せまい"
+    },
+    {
+      "kanji": "狭める",
+      "reading": "せばめる"
+    },
+    {
+      "kanji": "狭まる",
+      "reading": "せばまる"
+    },
+    {
+      "kanji": "偏狭",
+      "reading": "ヘンキョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

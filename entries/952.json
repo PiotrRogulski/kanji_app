@@ -1,0 +1,35 @@
+{
+  "id": 952,
+  "kanji": "罪",
+  "readings": [
+    "ザイ",
+    "つみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "罪",
+      "reading": "つみ"
+    },
+    {
+      "kanji": "有罪",
+      "reading": "ユウザイ"
+    },
+    {
+      "kanji": "無罪",
+      "reading": "ムザイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "犯罪",
+      "reading": "ハンザイ",
+      "reference": 1119
+    },
+    {
+      "kanji": "犯罪者",
+      "reading": "ハンザイシャ",
+      "reference": 1119
+    }
+  ],
+  "additionalWords": []
+}

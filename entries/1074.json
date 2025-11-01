@@ -1,0 +1,40 @@
+{
+  "id": 1074,
+  "kanji": "与",
+  "readings": [
+    "ヨ",
+    "あた・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "与える",
+      "reading": "あたえる"
+    },
+    {
+      "kanji": "給与",
+      "reading": "キュウヨ"
+    },
+    {
+      "kanji": "関与",
+      "reading": "カンヨ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "与党",
+      "reading": "ヨトウ",
+      "reference": 1164
+    },
+    {
+      "kanji": "贈与",
+      "reading": "ゾウヨ",
+      "reference": 1294
+    },
+    {
+      "kanji": "贈与者",
+      "reading": "ゾウヨシャ",
+      "reference": 1294
+    }
+  ],
+  "additionalWords": []
+}

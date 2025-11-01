@@ -1,0 +1,34 @@
+{
+  "id": 1227,
+  "kanji": "勤",
+  "readings": [
+    "キン",
+    "ゴン",
+    "つと・める",
+    "つと・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "勤める",
+      "reading": "つとめる"
+    },
+    {
+      "kanji": "勤め",
+      "reading": "つとめ"
+    },
+    {
+      "kanji": "出勤",
+      "reading": "シュッキン"
+    },
+    {
+      "kanji": "通勤",
+      "reading": "ツウキン"
+    },
+    {
+      "kanji": "勤め先",
+      "reading": "つとめさき"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

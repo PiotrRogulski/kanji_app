@@ -1,0 +1,40 @@
+{
+  "id": 559,
+  "kanji": "寄",
+  "readings": [
+    "キ",
+    "よ・る",
+    "よ・せる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "寄る",
+      "reading": "よる"
+    },
+    {
+      "kanji": "寄せる",
+      "reading": "よせる"
+    },
+    {
+      "kanji": "近寄る",
+      "reading": "ちかよる"
+    },
+    {
+      "kanji": "年寄り",
+      "reading": "としより"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "片寄る",
+      "reading": "かたよる",
+      "reference": 665
+    },
+    {
+      "kanji": "寄付",
+      "reading": "キフ",
+      "reference": 1140
+    }
+  ],
+  "additionalWords": []
+}

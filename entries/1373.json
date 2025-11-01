@@ -1,0 +1,29 @@
+{
+  "id": 1373,
+  "kanji": "仁",
+  "readings": [
+    "ジン",
+    "ニ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "仁義",
+      "reading": "ジンギ"
+    },
+    {
+      "kanji": "仁王",
+      "reading": "ニオウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "明仁",
+      "reading": "あきひと"
+    },
+    {
+      "kanji": "徳仁",
+      "reading": "なるひと"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1219,
+  "kanji": "級",
+  "readings": [
+    "キュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿級",
+      "reading": "キュウ"
+    },
+    {
+      "kanji": "階級",
+      "reading": "カイキュウ"
+    },
+    {
+      "kanji": "初級",
+      "reading": "ショキュウ"
+    },
+    {
+      "kanji": "上級",
+      "reading": "ジョウキュウ"
+    },
+    {
+      "kanji": "高級",
+      "reading": "コウキュウ"
+    },
+    {
+      "kanji": "学級",
+      "reading": "ガッキュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

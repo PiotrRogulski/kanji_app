@@ -1,0 +1,31 @@
+{
+  "id": 1002,
+  "kanji": "替",
+  "readings": [
+    "タイ",
+    "か・える",
+    "か・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "替える",
+      "reading": "かえる"
+    },
+    {
+      "kanji": "両替",
+      "reading": "リョウがえ"
+    },
+    {
+      "kanji": "交替",
+      "reading": "コウタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "為替",
+      "reading": "かわせ",
+      "reference": 1003
+    }
+  ],
+  "additionalWords": []
+}

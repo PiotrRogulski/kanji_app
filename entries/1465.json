@@ -1,0 +1,27 @@
+{
+  "id": 1465,
+  "kanji": "没",
+  "readings": [
+    "ボツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "沈没",
+      "reading": "チンボツ"
+    },
+    {
+      "kanji": "没収",
+      "reading": "ボッシュウ"
+    },
+    {
+      "kanji": "没落",
+      "reading": "ボツラク"
+    },
+    {
+      "kanji": "没する",
+      "reading": "ボッする"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

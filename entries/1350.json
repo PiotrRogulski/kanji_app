@@ -1,0 +1,32 @@
+{
+  "id": 1350,
+  "kanji": "梅",
+  "readings": [
+    "バイ",
+    "うめ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "梅",
+      "reading": "うめ"
+    },
+    {
+      "kanji": "梅雨",
+      "reading": "つゆ／バイウ"
+    },
+    {
+      "kanji": "松竹梅",
+      "reading": "ショウチクバイ"
+    },
+    {
+      "kanji": "梅干し",
+      "reading": "うめぼし"
+    },
+    {
+      "kanji": "梅酒",
+      "reading": "うめシュ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

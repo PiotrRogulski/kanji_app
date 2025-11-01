@@ -1,0 +1,39 @@
+{
+  "id": 1231,
+  "kanji": "帯",
+  "readings": [
+    "タイ",
+    "おび",
+    "お・びる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "帯",
+      "reading": "おび"
+    },
+    {
+      "kanji": "地帯",
+      "reading": "チタイ"
+    },
+    {
+      "kanji": "連帯",
+      "reading": "レンタイ"
+    },
+    {
+      "kanji": "世帯",
+      "reading": "セタイ"
+    },
+    {
+      "kanji": "包帯",
+      "reading": "ホウタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "携帯（電話）",
+      "reading": "ケイタイ（デンワ）",
+      "reference": 1332
+    }
+  ],
+  "additionalWords": []
+}

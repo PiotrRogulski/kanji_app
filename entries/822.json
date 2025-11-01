@@ -1,0 +1,37 @@
+{
+  "id": 822,
+  "kanji": "煙",
+  "readings": [
+    "エン",
+    "けむ・る",
+    "けむり",
+    "けむ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "煙",
+      "reading": "けむり"
+    },
+    {
+      "kanji": "煙い",
+      "reading": "けむい"
+    },
+    {
+      "kanji": "煙突",
+      "reading": "エントツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "喫煙",
+      "reading": "キツエン",
+      "reference": 823
+    },
+    {
+      "kanji": "禁煙",
+      "reading": "キンエン",
+      "reference": 1045
+    }
+  ],
+  "additionalWords": []
+}

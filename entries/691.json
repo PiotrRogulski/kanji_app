@@ -1,0 +1,41 @@
+{
+  "id": 691,
+  "kanji": "暖",
+  "readings": [
+    "ダン",
+    "あたた・か",
+    "あたた・かい",
+    "あたた・まる",
+    "あたた・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "暖かい",
+      "reading": "あたたかい"
+    },
+    {
+      "kanji": "暖まる",
+      "reading": "あたたまる"
+    },
+    {
+      "kanji": "暖める",
+      "reading": "あたためる"
+    },
+    {
+      "kanji": "温暖",
+      "reading": "オンダン"
+    },
+    {
+      "kanji": "暖房",
+      "reading": "ダンボウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "暖炉",
+      "reading": "ダンロ",
+      "reference": 1427
+    }
+  ],
+  "additionalWords": []
+}

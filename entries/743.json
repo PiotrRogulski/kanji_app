@@ -1,0 +1,28 @@
+{
+  "id": 743,
+  "kanji": "腐",
+  "readings": [
+    "フ",
+    "くさ・る",
+    "くさ・れる",
+    "くさ・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "腐る",
+      "reading": "くさる"
+    },
+    {
+      "kanji": "豆腐",
+      "reading": "トウフ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "腐敗",
+      "reading": "フハイ",
+      "reference": 908
+    }
+  ],
+  "additionalWords": []
+}

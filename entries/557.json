@@ -1,0 +1,35 @@
+{
+  "id": 557,
+  "kanji": "仏",
+  "readings": [
+    "ブツ",
+    "ほとけ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "仏",
+      "reading": "ほとけ"
+    },
+    {
+      "kanji": "仏教",
+      "reading": "ブッキョウ"
+    },
+    {
+      "kanji": "大仏",
+      "reading": "ダイブツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "仏像",
+      "reading": "ブツゾウ",
+      "reference": 972
+    },
+    {
+      "kanji": "仏壇",
+      "reading": "ブツダン",
+      "reference": 1517
+    }
+  ],
+  "additionalWords": []
+}

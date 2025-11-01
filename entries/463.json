@@ -1,0 +1,35 @@
+{
+  "id": 463,
+  "kanji": "必",
+  "readings": [
+    "ヒツ",
+    "かなら・ず"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "必ず",
+      "reading": "かならず"
+    },
+    {
+      "kanji": "必ずしも",
+      "reading": "かならずしも"
+    },
+    {
+      "kanji": "必死",
+      "reading": "ヒッシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "必要な",
+      "reading": "ヒツヨウ",
+      "reference": 464
+    },
+    {
+      "kanji": "必勝",
+      "reading": "ヒッショウ",
+      "reference": 620
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": 778,
+  "kanji": "骨",
+  "readings": [
+    "コツ",
+    "ほね"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "骨",
+      "reading": "ほね"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "骨折",
+      "reading": "コッセツ",
+      "reference": 857
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 536,
+  "kanji": "考",
+  "readings": [
+    "コウ",
+    "かんが・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "考える",
+      "reading": "かんがえる"
+    },
+    {
+      "kanji": "考え",
+      "reading": "かんがえ"
+    },
+    {
+      "kanji": "考古学",
+      "reading": "コウコガク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "参考",
+      "reading": "サンコウ",
+      "reference": 618
+    },
+    {
+      "kanji": "考察",
+      "reading": "コウサツ",
+      "reference": 656
+    },
+    {
+      "kanji": "考慮",
+      "reading": "コウリョ",
+      "reference": 1296
+    }
+  ],
+  "additionalWords": []
+}

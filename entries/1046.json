@@ -1,0 +1,27 @@
+{
+  "id": 1046,
+  "kanji": "群",
+  "readings": [
+    "グン",
+    "む・れる",
+    "む・れ",
+    "むら",
+    "むら・がる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "群れ",
+      "reading": "むれ"
+    },
+    {
+      "kanji": "群衆",
+      "reading": "グンシュウ"
+    },
+    {
+      "kanji": "大群",
+      "reading": "タイグン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

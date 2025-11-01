@@ -1,0 +1,40 @@
+{
+  "id": 654,
+  "kanji": "警",
+  "readings": [
+    "ケイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "警官",
+      "reading": "ケイカン"
+    },
+    {
+      "kanji": "警備",
+      "reading": "ケイビ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "警察",
+      "reading": "ケイサツ",
+      "reference": 656
+    },
+    {
+      "kanji": "警告",
+      "reading": "ケイコク",
+      "reference": 880
+    },
+    {
+      "kanji": "警戒",
+      "reading": "ケイカイ",
+      "reference": 984
+    },
+    {
+      "kanji": "警察署",
+      "reading": "ケイサツショ",
+      "reference": 1191
+    }
+  ],
+  "additionalWords": []
+}

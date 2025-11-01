@@ -1,0 +1,38 @@
+{
+  "id": 686,
+  "kanji": "散",
+  "readings": [
+    "サン",
+    "ち・る",
+    "ち・らす",
+    "ち・らかす",
+    "ち・らかる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "散る",
+      "reading": "ちる"
+    },
+    {
+      "kanji": "散らす",
+      "reading": "ちらす"
+    },
+    {
+      "kanji": "散歩",
+      "reading": "サンポ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "解散",
+      "reading": "カイサン",
+      "reference": 870
+    },
+    {
+      "kanji": "散漫な",
+      "reading": "サンマン",
+      "reference": 1514
+    }
+  ],
+  "additionalWords": []
+}

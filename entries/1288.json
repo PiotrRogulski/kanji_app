@@ -1,0 +1,24 @@
+{
+  "id": 1288,
+  "kanji": "貸",
+  "readings": [
+    "タイ",
+    "か・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "貸す",
+      "reading": "かす"
+    },
+    {
+      "kanji": "賃貸",
+      "reading": "チンタイ"
+    },
+    {
+      "kanji": "貸し出し",
+      "reading": "かしだし"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

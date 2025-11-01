@@ -1,0 +1,31 @@
+{
+  "id": 844,
+  "kanji": "精",
+  "readings": [
+    "セイ",
+    "ショウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "精神",
+      "reading": "セイシン"
+    },
+    {
+      "kanji": "精神病",
+      "reading": "セイシンビョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "精励",
+      "reading": "セイレイ",
+      "reference": 930
+    },
+    {
+      "kanji": "精一杯",
+      "reading": "セイイッパイ",
+      "reference": 1384
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": 614,
+  "kanji": "申",
+  "readings": [
+    "シン",
+    "もう・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "申す",
+      "reading": "もうす"
+    },
+    {
+      "kanji": "申し上げる",
+      "reading": "もうしあげる"
+    },
+    {
+      "kanji": "申し訳",
+      "reading": "もうしわけ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "申し込む",
+      "reading": "もうしこむ",
+      "reference": 820
+    }
+  ],
+  "additionalWords": []
+}

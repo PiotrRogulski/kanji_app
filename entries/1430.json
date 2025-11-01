@@ -1,0 +1,20 @@
+{
+  "id": 1430,
+  "kanji": "竜",
+  "readings": [
+    "リュウ",
+    "たつ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恐竜",
+      "reading": "キョウリュウ"
+    },
+    {
+      "kanji": "竜巻",
+      "reading": "たつまき"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

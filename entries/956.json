@@ -1,0 +1,35 @@
+{
+  "id": 956,
+  "kanji": "納",
+  "readings": [
+    "ノウ",
+    "ナッ",
+    "ナ",
+    "ナン",
+    "トウ",
+    "おさ・める",
+    "おさ・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "収納",
+      "reading": "シュウノウ"
+    },
+    {
+      "kanji": "納豆",
+      "reading": "ナットウ"
+    },
+    {
+      "kanji": "納得",
+      "reading": "ナットク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "納税",
+      "reading": "ノウゼイ",
+      "reference": 1166
+    }
+  ],
+  "additionalWords": []
+}

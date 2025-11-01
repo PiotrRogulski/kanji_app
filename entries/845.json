@@ -1,0 +1,22 @@
+{
+  "id": 845,
+  "kanji": "鋭",
+  "readings": [
+    "エイ",
+    "するど・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鋭い",
+      "reading": "するどい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "鋭敏な",
+      "reading": "エイビン",
+      "reference": 1340
+    }
+  ],
+  "additionalWords": []
+}

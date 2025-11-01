@@ -1,0 +1,33 @@
+{
+  "id": 794,
+  "kanji": "適",
+  "readings": [
+    "テキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "適度",
+      "reading": "テキド"
+    },
+    {
+      "kanji": "適当な",
+      "reading": "テキトウ"
+    },
+    {
+      "kanji": "適切な",
+      "reading": "テキセツ"
+    },
+    {
+      "kanji": "適する",
+      "reading": "テキする"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "快適な",
+      "reading": "カイテキ",
+      "reference": 817
+    }
+  ],
+  "additionalWords": []
+}

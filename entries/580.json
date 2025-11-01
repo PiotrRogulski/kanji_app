@@ -1,0 +1,44 @@
+{
+  "id": 580,
+  "kanji": "決",
+  "readings": [
+    "ケツ",
+    "き・まる",
+    "き・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "決まる",
+      "reading": "きまる"
+    },
+    {
+      "kanji": "決める",
+      "reading": "きめる"
+    },
+    {
+      "kanji": "決して",
+      "reading": "ケッして"
+    },
+    {
+      "kanji": "決心",
+      "reading": "ケッシン"
+    },
+    {
+      "kanji": "決定",
+      "reading": "ケッテイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "決断",
+      "reading": "ケツダン",
+      "reference": 834
+    },
+    {
+      "kanji": "解決",
+      "reading": "カイケツ",
+      "reference": 870
+    }
+  ],
+  "additionalWords": []
+}

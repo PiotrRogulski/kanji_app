@@ -1,0 +1,28 @@
+{
+  "id": 908,
+  "kanji": "敗",
+  "readings": [
+    "ハイ",
+    "やぶ・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "敗れる",
+      "reading": "やぶれる"
+    },
+    {
+      "kanji": "敗北",
+      "reading": "ハイボク"
+    },
+    {
+      "kanji": "失敗",
+      "reading": "シッパイ"
+    },
+    {
+      "kanji": "腐敗",
+      "reading": "フハイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

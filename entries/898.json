@@ -1,0 +1,26 @@
+{
+  "id": 898,
+  "kanji": "葬",
+  "readings": [
+    "ソウ",
+    "ほうむ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "葬る",
+      "reading": "ほうむる"
+    },
+    {
+      "kanji": "葬式",
+      "reading": "ソウシキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "埋葬",
+      "reading": "マイソウ",
+      "reference": 900
+    }
+  ],
+  "additionalWords": []
+}

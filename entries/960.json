@@ -1,0 +1,31 @@
+{
+  "id": 960,
+  "kanji": "衛",
+  "readings": [
+    "エイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "衛生",
+      "reading": "エイセイ"
+    },
+    {
+      "kanji": "衛星",
+      "reading": "エイセイ"
+    },
+    {
+      "kanji": "自衛",
+      "reading": "ジエイ"
+    },
+    {
+      "kanji": "自衛隊",
+      "reading": "ジエイタイ"
+    },
+    {
+      "kanji": "防衛",
+      "reading": "ボウエイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": 1529,
+  "kanji": "跳",
+  "readings": [
+    "チョウ",
+    "と・ぶ",
+    "は・ねる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "跳ぶ",
+      "reading": "とぶ"
+    },
+    {
+      "kanji": "縄跳び",
+      "reading": "なわとび"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

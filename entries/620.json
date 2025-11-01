@@ -1,0 +1,44 @@
+{
+  "id": 620,
+  "kanji": "勝",
+  "readings": [
+    "ショウ",
+    "か・つ",
+    "まさ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "勝つ",
+      "reading": "かつ"
+    },
+    {
+      "kanji": "勝ち",
+      "reading": "かち"
+    },
+    {
+      "kanji": "勝手",
+      "reading": "かってに"
+    },
+    {
+      "kanji": "勝利",
+      "reading": "ショウリ"
+    },
+    {
+      "kanji": "必勝",
+      "reading": "ヒッショウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "勝負",
+      "reading": "ショウブ",
+      "reference": 623
+    },
+    {
+      "kanji": "優勝",
+      "reading": "ユウショウ",
+      "reference": 869
+    }
+  ],
+  "additionalWords": []
+}

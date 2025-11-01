@@ -1,0 +1,21 @@
+{
+  "id": 1111,
+  "kanji": "兆",
+  "readings": [
+    "チョウ",
+    "きざ・す",
+    "きざ・し"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿兆",
+      "reading": "チョウ"
+    },
+    {
+      "kanji": "兆し",
+      "reading": "きざし"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

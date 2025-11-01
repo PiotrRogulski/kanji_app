@@ -1,0 +1,28 @@
+{
+  "id": 675,
+  "kanji": "島",
+  "readings": [
+    "トウ",
+    "しま"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "島",
+      "reading": "しま"
+    },
+    {
+      "kanji": "半島",
+      "reading": "ハントウ"
+    },
+    {
+      "kanji": "島国",
+      "reading": "しまぐに"
+    },
+    {
+      "kanji": "列島",
+      "reading": "レットウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

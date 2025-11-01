@@ -1,0 +1,31 @@
+{
+  "id": 1321,
+  "kanji": "稲",
+  "readings": [
+    "トウ",
+    "いね",
+    "いな"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "稲",
+      "reading": "いね"
+    },
+    {
+      "kanji": "稲作",
+      "reading": "いなサク"
+    },
+    {
+      "kanji": "稲妻",
+      "reading": "いなずま"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "稲穂",
+      "reading": "いなほ",
+      "reference": 1450
+    }
+  ],
+  "additionalWords": []
+}

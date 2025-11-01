@@ -1,0 +1,31 @@
+{
+  "id": 1118,
+  "kanji": "抜",
+  "readings": [
+    "バツ",
+    "ぬ・く",
+    "ぬ・ける",
+    "ぬ・かす",
+    "ぬ・かる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "抜く",
+      "reading": "ぬく"
+    },
+    {
+      "kanji": "抜ける",
+      "reading": "ぬける"
+    },
+    {
+      "kanji": "選抜",
+      "reading": "センバツ"
+    },
+    {
+      "kanji": "腰抜け",
+      "reading": "こしぬけ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

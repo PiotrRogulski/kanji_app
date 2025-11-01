@@ -1,0 +1,21 @@
+{
+  "id": 1181,
+  "kanji": "監",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "監視",
+      "reading": "カンシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "監督",
+      "reading": "カントク",
+      "reference": 1182
+    }
+  ],
+  "additionalWords": []
+}

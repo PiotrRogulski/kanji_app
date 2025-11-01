@@ -1,0 +1,35 @@
+{
+  "id": 851,
+  "kanji": "撃",
+  "readings": [
+    "ゲキ",
+    "う・つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "撃つ",
+      "reading": "うつ"
+    },
+    {
+      "kanji": "打撃",
+      "reading": "ダゲキ"
+    },
+    {
+      "kanji": "攻撃",
+      "reading": "コウゲキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "衝撃",
+      "reading": "ショウゲキ",
+      "reference": 858
+    },
+    {
+      "kanji": "襲撃",
+      "reading": "シュウゲキ",
+      "reference": 1354
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": 928,
+  "kanji": "仮",
+  "readings": [
+    "カ",
+    "ケ",
+    "かり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "仮",
+      "reading": "かり"
+    },
+    {
+      "kanji": "仮定",
+      "reading": "カテイ"
+    },
+    {
+      "kanji": "仮面",
+      "reading": "カメン"
+    },
+    {
+      "kanji": "仮名",
+      "reading": "かな"
+    },
+    {
+      "kanji": "平仮名",
+      "reading": "ひらがな"
+    },
+    {
+      "kanji": "片仮名",
+      "reading": "かたかな"
+    },
+    {
+      "kanji": "送り仮名",
+      "reading": "おくりがな"
+    },
+    {
+      "kanji": "振り仮名",
+      "reading": "ふりがな"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

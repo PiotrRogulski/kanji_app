@@ -1,0 +1,26 @@
+{
+  "id": 1100,
+  "kanji": "照",
+  "readings": [
+    "ショウ",
+    "て・る",
+    "て・らす",
+    "て・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "照る",
+      "reading": "てる"
+    },
+    {
+      "kanji": "照らす",
+      "reading": "てらす"
+    },
+    {
+      "kanji": "対照",
+      "reading": "タイショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

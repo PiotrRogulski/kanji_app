@@ -1,0 +1,21 @@
+{
+  "id": 1169,
+  "kanji": "井",
+  "readings": [
+    "セイ",
+    "ジョウ",
+    "い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "天井",
+      "reading": "テンジョウ"
+    },
+    {
+      "kanji": "井戸",
+      "reading": "いど"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

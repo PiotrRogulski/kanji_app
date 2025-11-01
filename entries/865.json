@@ -1,0 +1,29 @@
+{
+  "id": 865,
+  "kanji": "暮",
+  "readings": [
+    "ボ",
+    "く・れる",
+    "く・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "暮れる",
+      "reading": "くれる"
+    },
+    {
+      "kanji": "暮らす",
+      "reading": "くらす"
+    },
+    {
+      "kanji": "暮らし",
+      "reading": "くらし"
+    },
+    {
+      "kanji": "歳暮",
+      "reading": "セイボ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

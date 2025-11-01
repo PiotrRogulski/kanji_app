@@ -1,0 +1,24 @@
+{
+  "id": 556,
+  "kanji": "宗",
+  "readings": [
+    "シュウ",
+    "ソウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "宗教",
+      "reading": "シュウキョウ"
+    },
+    {
+      "kanji": "真言宗",
+      "reading": "シンゴンシュウ"
+    },
+    {
+      "kanji": "天台宗",
+      "reading": "テンダイシュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

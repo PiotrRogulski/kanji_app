@@ -1,0 +1,25 @@
+{
+  "id": 1088,
+  "kanji": "狂",
+  "readings": [
+    "キョウ",
+    "くる・う",
+    "くる・おしい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "狂う",
+      "reading": "くるう"
+    },
+    {
+      "kanji": "狂気",
+      "reading": "キョウキ"
+    },
+    {
+      "kanji": "狂言",
+      "reading": "キョウゲン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

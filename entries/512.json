@@ -1,0 +1,62 @@
+{
+  "id": 512,
+  "kanji": "戦",
+  "readings": [
+    "セン",
+    "いくさ",
+    "たたか・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "戦う",
+      "reading": "たたかう"
+    },
+    {
+      "kanji": "戦",
+      "reading": "いくさ"
+    },
+    {
+      "kanji": "戦い",
+      "reading": "たたかい"
+    },
+    {
+      "kanji": "大戦",
+      "reading": "タイセン"
+    },
+    {
+      "kanji": "戦前",
+      "reading": "センゼン"
+    },
+    {
+      "kanji": "戦後",
+      "reading": "センゴ"
+    },
+    {
+      "kanji": "作戦",
+      "reading": "サクセン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "戦争",
+      "reading": "センソウ",
+      "reference": 513
+    },
+    {
+      "kanji": "日露戦争 ニチロセンソウ",
+      "reading": "1123",
+      "reference": 0
+    },
+    {
+      "kanji": "戦闘",
+      "reading": "セントウ",
+      "reference": 1250
+    },
+    {
+      "kanji": "挑戦",
+      "reading": "チョウセン",
+      "reference": 1359
+    }
+  ],
+  "additionalWords": []
+}

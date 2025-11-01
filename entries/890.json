@@ -1,0 +1,28 @@
+{
+  "id": 890,
+  "kanji": "激",
+  "readings": [
+    "ゲキ",
+    "はげ・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "激しい",
+      "reading": "はげしい"
+    },
+    {
+      "kanji": "激動",
+      "reading": "ゲキドウ"
+    },
+    {
+      "kanji": "激突",
+      "reading": "ゲキトツ"
+    },
+    {
+      "kanji": "刺激",
+      "reading": "シゲキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

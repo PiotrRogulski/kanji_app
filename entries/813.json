@@ -1,0 +1,32 @@
+{
+  "id": 813,
+  "kanji": "囲",
+  "readings": [
+    "イ",
+    "かこ・む",
+    "かこ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "囲む",
+      "reading": "かこむ"
+    },
+    {
+      "kanji": "周囲",
+      "reading": "シュウイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "範囲",
+      "reading": "ハンイ",
+      "reference": 842
+    },
+    {
+      "kanji": "雰囲気",
+      "reading": "フンイキ",
+      "reference": 1504
+    }
+  ],
+  "additionalWords": []
+}

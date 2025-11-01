@@ -1,0 +1,43 @@
+{
+  "id": 472,
+  "kanji": "頭",
+  "readings": [
+    "トウ",
+    "ト",
+    "ズ",
+    "あたま",
+    "かしら"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿頭",
+      "reading": "トウ"
+    },
+    {
+      "kanji": "頭",
+      "reading": "あたま"
+    },
+    {
+      "kanji": "先頭",
+      "reading": "セントウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "頭痛",
+      "reading": "ズツウ",
+      "reference": 564
+    },
+    {
+      "kanji": "頭脳",
+      "reading": "ズノウ",
+      "reference": 1031
+    },
+    {
+      "kanji": "冒頭",
+      "reading": "ボウトウ",
+      "reference": 1160
+    }
+  ],
+  "additionalWords": []
+}

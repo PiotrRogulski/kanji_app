@@ -1,0 +1,24 @@
+{
+  "id": 1256,
+  "kanji": "掲",
+  "readings": [
+    "ケイ",
+    "かか・げる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "掲げる",
+      "reading": "かかげる"
+    },
+    {
+      "kanji": "掲示",
+      "reading": "ケイジ"
+    },
+    {
+      "kanji": "掲載",
+      "reading": "ケイサイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

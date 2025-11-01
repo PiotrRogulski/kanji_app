@@ -1,0 +1,24 @@
+{
+  "id": 1252,
+  "kanji": "昇",
+  "readings": [
+    "ショウ",
+    "のぼ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "昇る",
+      "reading": "のぼる"
+    },
+    {
+      "kanji": "昇進",
+      "reading": "ショウシン"
+    },
+    {
+      "kanji": "上昇",
+      "reading": "ジョウショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": 577,
+  "kanji": "落",
+  "readings": [
+    "ラク",
+    "お・ちる",
+    "お・とす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "落ちる",
+      "reading": "おちる"
+    },
+    {
+      "kanji": "落とす",
+      "reading": "おとす"
+    },
+    {
+      "kanji": "落ち着く",
+      "reading": "おちつく"
+    },
+    {
+      "kanji": "落とし物",
+      "reading": "おとしもの"
+    },
+    {
+      "kanji": "落語",
+      "reading": "ラクゴ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "落とし穴",
+      "reading": "おとしあな",
+      "reference": 852
+    },
+    {
+      "kanji": "陥落",
+      "reading": "カンラク",
+      "reference": 1438
+    },
+    {
+      "kanji": "没落",
+      "reading": "ボツラク",
+      "reference": 1465
+    }
+  ],
+  "additionalWords": []
+}

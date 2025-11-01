@@ -1,0 +1,26 @@
+{
+  "id": 896,
+  "kanji": "跡",
+  "readings": [
+    "セキ",
+    "あと"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "跡",
+      "reading": "あと"
+    },
+    {
+      "kanji": "足跡",
+      "reading": "あしあと"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "遺跡",
+      "reading": "イセキ",
+      "reference": 897
+    }
+  ],
+  "additionalWords": []
+}

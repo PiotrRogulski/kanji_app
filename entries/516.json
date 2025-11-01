@@ -1,0 +1,60 @@
+{
+  "id": 516,
+  "kanji": "現",
+  "readings": [
+    "ゲン",
+    "あらわ・れる",
+    "あらわ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "現れる",
+      "reading": "あらわれる"
+    },
+    {
+      "kanji": "現す",
+      "reading": "あらわす"
+    },
+    {
+      "kanji": "現金",
+      "reading": "ゲンキン"
+    },
+    {
+      "kanji": "現代",
+      "reading": "ゲンダイ"
+    },
+    {
+      "kanji": "現場",
+      "reading": "ゲンば"
+    },
+    {
+      "kanji": "表現",
+      "reading": "ヒョウゲン"
+    },
+    {
+      "kanji": "出現",
+      "reading": "シュツゲン"
+    },
+    {
+      "kanji": "現実",
+      "reading": "ゲンジツ"
+    },
+    {
+      "kanji": "実現",
+      "reading": "ジツゲン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "現在",
+      "reading": "ゲンザイ",
+      "reference": 657
+    },
+    {
+      "kanji": "現状",
+      "reading": "ゲンジョウ",
+      "reference": 939
+    }
+  ],
+  "additionalWords": []
+}

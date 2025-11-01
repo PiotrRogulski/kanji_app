@@ -1,0 +1,70 @@
+{
+  "id": 507,
+  "kanji": "問",
+  "readings": [
+    "モン",
+    "と・う",
+    "と・い",
+    "とん"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "問う",
+      "reading": "とう"
+    },
+    {
+      "kanji": "問い",
+      "reading": "とい"
+    },
+    {
+      "kanji": "問い合わせ",
+      "reading": "といあわせ"
+    },
+    {
+      "kanji": "問題",
+      "reading": "モンダイ"
+    },
+    {
+      "kanji": "学問",
+      "reading": "ガクモン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "質問",
+      "reading": "シツモン",
+      "reference": 537
+    },
+    {
+      "kanji": "訪問",
+      "reading": "ホウモン",
+      "reference": 609
+    },
+    {
+      "kanji": "疑問",
+      "reading": "ギモン",
+      "reference": 1149
+    },
+    {
+      "kanji": "顧問",
+      "reading": "コモン",
+      "reference": 1319
+    },
+    {
+      "kanji": "慰問",
+      "reading": "イモン",
+      "reference": 1406
+    },
+    {
+      "kanji": "喚問",
+      "reading": "カンモン",
+      "reference": 1437
+    },
+    {
+      "kanji": "諮問",
+      "reading": "シモン",
+      "reference": 1502
+    }
+  ],
+  "additionalWords": []
+}

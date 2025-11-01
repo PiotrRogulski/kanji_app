@@ -1,0 +1,33 @@
+{
+  "id": 901,
+  "kanji": "担",
+  "readings": [
+    "タン",
+    "かつ・ぐ",
+    "にな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "担ぐ",
+      "reading": "かつぐ"
+    },
+    {
+      "kanji": "担う",
+      "reading": "になう"
+    },
+    {
+      "kanji": "担当",
+      "reading": "タントウ"
+    },
+    {
+      "kanji": "担当者",
+      "reading": "タントウシャ"
+    },
+    {
+      "kanji": "負担",
+      "reading": "フタン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

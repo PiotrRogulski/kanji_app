@@ -1,0 +1,22 @@
+{
+  "id": 1212,
+  "kanji": "就",
+  "readings": [
+    "シュウ",
+    "ジュ",
+    "つ・く",
+    "つ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "就く",
+      "reading": "つく"
+    },
+    {
+      "kanji": "就職",
+      "reading": "シュウショク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

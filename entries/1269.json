@@ -1,0 +1,25 @@
+{
+  "id": 1269,
+  "kanji": "恨",
+  "readings": [
+    "コン",
+    "うら・む",
+    "うら・めしい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恨む",
+      "reading": "うらむ"
+    },
+    {
+      "kanji": "恨み",
+      "reading": "うらみ"
+    },
+    {
+      "kanji": "痛恨",
+      "reading": "ツウコン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

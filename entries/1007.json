@@ -1,0 +1,38 @@
+{
+  "id": 1007,
+  "kanji": "筆",
+  "readings": [
+    "ヒツ",
+    "ふで"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "筆",
+      "reading": "ふで"
+    },
+    {
+      "kanji": "筆者",
+      "reading": "ヒッシャ"
+    },
+    {
+      "kanji": "筆記",
+      "reading": "ヒッキ"
+    },
+    {
+      "kanji": "鉛筆",
+      "reading": "エンピツ"
+    },
+    {
+      "kanji": "万年筆",
+      "reading": "マンネンヒツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "執筆",
+      "reading": "シッピツ",
+      "reference": 1240
+    }
+  ],
+  "additionalWords": []
+}

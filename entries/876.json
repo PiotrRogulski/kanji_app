@@ -1,0 +1,39 @@
+{
+  "id": 876,
+  "kanji": "余",
+  "readings": [
+    "ヨ",
+    "あま・る",
+    "あま・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "余る",
+      "reading": "あまる"
+    },
+    {
+      "kanji": "余り",
+      "reading": "あまり"
+    },
+    {
+      "kanji": "余地",
+      "reading": "ヨチ"
+    },
+    {
+      "kanji": "余分",
+      "reading": "ヨブン"
+    },
+    {
+      "kanji": "余計",
+      "reading": "ヨケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "余裕",
+      "reading": "ヨユウ",
+      "reference": 1292
+    }
+  ],
+  "additionalWords": []
+}

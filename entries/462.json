@@ -1,0 +1,40 @@
+{
+  "id": 462,
+  "kanji": "取",
+  "readings": [
+    "シュ",
+    "と・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "取る",
+      "reading": "とる"
+    },
+    {
+      "kanji": "取材",
+      "reading": "シュザイ"
+    },
+    {
+      "kanji": "取引き",
+      "reading": "とりひき"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "奪取",
+      "reading": "ダッシュ",
+      "reference": 1304
+    },
+    {
+      "kanji": "搾取",
+      "reading": "サクシュ",
+      "reference": 1461
+    }
+  ],
+  "additionalWords": [
+    {
+      "kanji": "鳥取県",
+      "reading": "とっとりケン"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 653,
+  "kanji": "視",
+  "readings": [
+    "シ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "視覚",
+      "reading": "シカク"
+    },
+    {
+      "kanji": "重視",
+      "reading": "ジュウシ"
+    },
+    {
+      "kanji": "軽視",
+      "reading": "ケイシ"
+    },
+    {
+      "kanji": "無視",
+      "reading": "ムシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "監視",
+      "reading": "カンシ",
+      "reference": 1181
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": 649,
+  "kanji": "房",
+  "readings": [
+    "ボウ",
+    "ふさ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "文房具",
+      "reading": "ブンボウグ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "暖房",
+      "reading": "ダンボウ",
+      "reference": 691
+    }
+  ],
+  "additionalWords": []
+}

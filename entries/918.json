@@ -1,0 +1,40 @@
+{
+  "id": 918,
+  "kanji": "補",
+  "readings": [
+    "ホ",
+    "おぎな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "補う",
+      "reading": "おぎなう"
+    },
+    {
+      "kanji": "候補",
+      "reading": "コウホ"
+    },
+    {
+      "kanji": "候補者",
+      "reading": "コウホシャ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "補佐",
+      "reading": "ホサ",
+      "reference": 1178
+    },
+    {
+      "kanji": "補佐官",
+      "reading": "ホサカン",
+      "reference": 1178
+    },
+    {
+      "kanji": "補償",
+      "reading": "ホショウ",
+      "reference": 1236
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 729,
+  "kanji": "繁",
+  "readings": [
+    "ハン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "繁盛",
+      "reading": "ハンジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "繁栄",
+      "reading": "ハンエイ",
+      "reference": 1082
+    },
+    {
+      "kanji": "繁殖",
+      "reading": "ハンショク",
+      "reference": 1477
+    }
+  ],
+  "additionalWords": []
+}

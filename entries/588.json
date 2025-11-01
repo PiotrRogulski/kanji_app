@@ -1,0 +1,21 @@
+{
+  "id": 588,
+  "kanji": "紹",
+  "readings": [
+    "ショウ"
+  ],
+  "wordsRequiredNow": [],
+  "wordsRequiredLater": [
+    {
+      "kanji": "紹介",
+      "reading": "ショウカイ",
+      "reference": 589
+    },
+    {
+      "kanji": "自己紹介",
+      "reading": "ジコショウカイ",
+      "reference": 950
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 734,
+  "kanji": "養",
+  "readings": [
+    "ヨウ",
+    "やしな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "養う",
+      "reading": "やしなう"
+    },
+    {
+      "kanji": "養育",
+      "reading": "ヨウイク"
+    },
+    {
+      "kanji": "養子",
+      "reading": "ヨウシ"
+    },
+    {
+      "kanji": "休養",
+      "reading": "キュウヨウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "栄養",
+      "reading": "エイヨウ",
+      "reference": 1082
+    },
+    {
+      "kanji": "滋養",
+      "reading": "ジヨウ",
+      "reference": 1405
+    }
+  ],
+  "additionalWords": []
+}

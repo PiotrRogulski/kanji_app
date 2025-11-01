@@ -1,0 +1,24 @@
+{
+  "id": 1001,
+  "kanji": "勇",
+  "readings": [
+    "ユウ",
+    "いさ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "勇気",
+      "reading": "ユウキ"
+    },
+    {
+      "kanji": "勇者",
+      "reading": "ユウシャ"
+    },
+    {
+      "kanji": "勇ましい",
+      "reading": "いさましい"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1429,
+  "kanji": "剣",
+  "readings": [
+    "ケン",
+    "つるぎ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "剣",
+      "reading": "つるぎ"
+    },
+    {
+      "kanji": "剣道",
+      "reading": "ケンドウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "草薙の剣",
+      "reading": "くさなぎのつるぎ"
+    }
+  ]
+}

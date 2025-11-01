@@ -1,0 +1,24 @@
+{
+  "id": 1454,
+  "kanji": "啓",
+  "readings": [
+    "ケイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "啓発",
+      "reading": "ケイハツ"
+    },
+    {
+      "kanji": "謹啓",
+      "reading": "キンケイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "拝啓",
+      "reading": "ハイケイ"
+    }
+  ]
+}

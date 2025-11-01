@@ -1,0 +1,33 @@
+{
+  "id": 831,
+  "kanji": "整",
+  "readings": [
+    "セイ",
+    "ととの・える",
+    "ととの・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "整える",
+      "reading": "ととのえる"
+    },
+    {
+      "kanji": "整う",
+      "reading": "ととのう"
+    },
+    {
+      "kanji": "整理",
+      "reading": "セイリ"
+    },
+    {
+      "kanji": "整備",
+      "reading": "セイビ"
+    },
+    {
+      "kanji": "調整",
+      "reading": "チョウセイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

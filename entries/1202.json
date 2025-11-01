@@ -1,0 +1,31 @@
+{
+  "id": 1202,
+  "kanji": "街",
+  "readings": [
+    "ガイ",
+    "カイ",
+    "まち"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "街",
+      "reading": "まち"
+    },
+    {
+      "kanji": "街道",
+      "reading": "カイドウ"
+    },
+    {
+      "kanji": "市街",
+      "reading": "シガイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "旧市街",
+      "reading": "キュウシガイ",
+      "reference": 1203
+    }
+  ],
+  "additionalWords": []
+}

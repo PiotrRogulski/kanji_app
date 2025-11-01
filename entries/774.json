@@ -1,0 +1,36 @@
+{
+  "id": 774,
+  "kanji": "恐",
+  "readings": [
+    "キョウ",
+    "おそ・れる",
+    "おそ・ろしい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恐ろしい",
+      "reading": "おそろしい"
+    },
+    {
+      "kanji": "恐れる",
+      "reading": "おそれる"
+    },
+    {
+      "kanji": "恐れ",
+      "reading": "おそれ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "恐怖",
+      "reading": "キョウフ",
+      "reference": 1120
+    },
+    {
+      "kanji": "恐竜",
+      "reading": "キョウリュウ",
+      "reference": 1430
+    }
+  ],
+  "additionalWords": []
+}

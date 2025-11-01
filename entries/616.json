@@ -1,0 +1,40 @@
+{
+  "id": 616,
+  "kanji": "御",
+  "readings": [
+    "ギョ",
+    "ゴ",
+    "おん"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "御＿",
+      "reading": "ゴ"
+    },
+    {
+      "kanji": "御中",
+      "reading": "おんチュウ"
+    },
+    {
+      "kanji": "御飯",
+      "reading": "ゴハン"
+    },
+    {
+      "kanji": "御所",
+      "reading": "ゴショ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "御覧",
+      "reading": "ゴラン",
+      "reference": 1443
+    }
+  ],
+  "additionalWords": [
+    {
+      "kanji": "御意！",
+      "reading": "ギョイ"
+    }
+  ]
+}

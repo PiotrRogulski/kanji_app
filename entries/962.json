@@ -1,0 +1,29 @@
+{
+  "id": 962,
+  "kanji": "逆",
+  "readings": [
+    "ギャク",
+    "さか",
+    "さか・らう"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "逆",
+      "reading": "ギャク"
+    },
+    {
+      "kanji": "逆さ",
+      "reading": "さかさ"
+    },
+    {
+      "kanji": "逆らう",
+      "reading": "さからう"
+    },
+    {
+      "kanji": "逆転",
+      "reading": "ギャクテン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

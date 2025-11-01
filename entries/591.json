@@ -1,0 +1,25 @@
+{
+  "id": 591,
+  "kanji": "順",
+  "readings": [
+    "ジュン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "順番",
+      "reading": "ジュンバン"
+    },
+    {
+      "kanji": "順々",
+      "reading": "ジュンジュン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "順序",
+      "reading": "ジュンジョ",
+      "reference": 1058
+    }
+  ],
+  "additionalWords": []
+}

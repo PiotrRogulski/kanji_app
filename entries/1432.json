@@ -1,0 +1,23 @@
+{
+  "id": 1432,
+  "kanji": "砲",
+  "readings": [
+    "ホウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "砲火",
+      "reading": "ホウカ"
+    },
+    {
+      "kanji": "鉄砲",
+      "reading": "テッポウ"
+    },
+    {
+      "kanji": "大砲",
+      "reading": "タイホウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

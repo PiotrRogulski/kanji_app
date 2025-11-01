@@ -1,0 +1,24 @@
+{
+  "id": 1423,
+  "kanji": "蓄",
+  "readings": [
+    "チク",
+    "たくわ・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "蓄える",
+      "reading": "たくわえる"
+    },
+    {
+      "kanji": "蓄え",
+      "reading": "たくわえ"
+    },
+    {
+      "kanji": "蓄積",
+      "reading": "チクセキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

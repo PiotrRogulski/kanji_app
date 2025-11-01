@@ -1,0 +1,71 @@
+{
+  "id": 578,
+  "kanji": "関",
+  "readings": [
+    "カン",
+    "せき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "関する",
+      "reading": "カンする"
+    },
+    {
+      "kanji": "関",
+      "reading": "せき"
+    },
+    {
+      "kanji": "関東",
+      "reading": "カントウ"
+    },
+    {
+      "kanji": "関西",
+      "reading": "カンサイ"
+    },
+    {
+      "kanji": "関連",
+      "reading": "カンレン"
+    },
+    {
+      "kanji": "関心",
+      "reading": "カンシン"
+    },
+    {
+      "kanji": "ciekawostka:関ヶ原の戦い",
+      "reading": "せきがはらのたたかい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "関係",
+      "reading": "カンケイ",
+      "reference": 579
+    },
+    {
+      "kanji": "無関係",
+      "reading": "ムカンケイ",
+      "reference": 606
+    },
+    {
+      "kanji": "関与",
+      "reading": "カンヨ",
+      "reference": 1074
+    },
+    {
+      "kanji": "税関",
+      "reading": "ゼイカン",
+      "reference": 1166
+    },
+    {
+      "kanji": "玄関",
+      "reading": "ゲンカン",
+      "reference": 1474
+    }
+  ],
+  "additionalWords": [
+    {
+      "kanji": "関口時正",
+      "reading": "せきぐちときまさ"
+    }
+  ]
+}

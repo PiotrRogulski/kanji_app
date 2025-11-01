@@ -1,0 +1,29 @@
+{
+  "id": 1242,
+  "kanji": "絡",
+  "readings": [
+    "ラク",
+    "から・む",
+    "から・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "絡む",
+      "reading": "からむ"
+    },
+    {
+      "kanji": "絡まる",
+      "reading": "からまる"
+    },
+    {
+      "kanji": "連絡",
+      "reading": "レンラク"
+    },
+    {
+      "kanji": "連絡船",
+      "reading": "レンラクセン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

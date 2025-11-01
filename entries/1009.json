@@ -1,0 +1,20 @@
+{
+  "id": 1009,
+  "kanji": "祈",
+  "readings": [
+    "キ",
+    "いの・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "祈る",
+      "reading": "いのる"
+    },
+    {
+      "kanji": "祈願",
+      "reading": "キガン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

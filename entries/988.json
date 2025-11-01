@@ -1,0 +1,40 @@
+{
+  "id": 988,
+  "kanji": "雑",
+  "readings": [
+    "ザツ",
+    "ゾウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "雑草",
+      "reading": "ザッソウ"
+    },
+    {
+      "kanji": "（お）雑煮",
+      "reading": "ゾウに"
+    },
+    {
+      "kanji": "雑音",
+      "reading": "ザツオン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "複雑な",
+      "reading": "フクザツ",
+      "reference": 997
+    },
+    {
+      "kanji": "混雑な",
+      "reading": "コンザツ",
+      "reference": 1052
+    },
+    {
+      "kanji": "雑誌",
+      "reading": "ザッシ",
+      "reference": 1268
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 501,
+  "kanji": "短",
+  "readings": [
+    "タン",
+    "みじか・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "短い",
+      "reading": "みじかい"
+    },
+    {
+      "kanji": "短所",
+      "reading": "タンショ"
+    },
+    {
+      "kanji": "短期",
+      "reading": "タンキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "短縮",
+      "reading": "タンシュク",
+      "reference": 775
+    },
+    {
+      "kanji": "短編",
+      "reading": "タンペン",
+      "reference": 982
+    }
+  ],
+  "additionalWords": []
+}

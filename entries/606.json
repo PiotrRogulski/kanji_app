@@ -1,0 +1,80 @@
+{
+  "id": 606,
+  "kanji": "無",
+  "readings": [
+    "ム",
+    "ブ",
+    "な・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "無",
+      "reading": "ム"
+    },
+    {
+      "kanji": "無い",
+      "reading": "ない"
+    },
+    {
+      "kanji": "無し",
+      "reading": "なし"
+    },
+    {
+      "kanji": "無くす",
+      "reading": "なくす"
+    },
+    {
+      "kanji": "無料",
+      "reading": "ムリョウ"
+    },
+    {
+      "kanji": "無理な",
+      "reading": "ムリ"
+    },
+    {
+      "kanji": "無事な",
+      "reading": "フジ"
+    },
+    {
+      "kanji": "無線",
+      "reading": "ムセン"
+    },
+    {
+      "kanji": "無関係",
+      "reading": "ムカンケイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "無視",
+      "reading": "ムシ",
+      "reference": 653
+    },
+    {
+      "kanji": "無恥な",
+      "reading": "ムチ",
+      "reference": 765
+    },
+    {
+      "kanji": "無限",
+      "reading": "ムゲン",
+      "reference": 949
+    },
+    {
+      "kanji": "無罪",
+      "reading": "ムザイ",
+      "reference": 952
+    },
+    {
+      "kanji": "無職",
+      "reading": "ムショク",
+      "reference": 1021
+    },
+    {
+      "kanji": "虚無",
+      "reading": "キョム",
+      "reference": 1519
+    }
+  ],
+  "additionalWords": []
+}

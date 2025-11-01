@@ -1,0 +1,27 @@
+{
+  "id": 925,
+  "kanji": "了",
+  "readings": [
+    "リョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "了解",
+      "reading": "リョウカイ"
+    },
+    {
+      "kanji": "完了",
+      "reading": "カンリョウ"
+    },
+    {
+      "kanji": "終了",
+      "reading": "シュウリョウ"
+    },
+    {
+      "kanji": "修了",
+      "reading": "シュウリョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

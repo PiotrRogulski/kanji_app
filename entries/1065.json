@@ -1,0 +1,28 @@
+{
+  "id": 1065,
+  "kanji": "団",
+  "readings": [
+    "ダン",
+    "トン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "団体",
+      "reading": "ダンタイ"
+    },
+    {
+      "kanji": "集団",
+      "reading": "シュウダン"
+    },
+    {
+      "kanji": "団地",
+      "reading": "ダンチ"
+    },
+    {
+      "kanji": "布団",
+      "reading": "フトン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

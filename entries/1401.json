@@ -1,0 +1,28 @@
+{
+  "id": 1401,
+  "kanji": "柔",
+  "readings": [
+    "ジュウ",
+    "ニュウ",
+    "やわ・らかい",
+    "やわ・らか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "柔らかい",
+      "reading": "やわらかい"
+    },
+    {
+      "kanji": "柔道",
+      "reading": "ジュウドウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "柔軟な",
+      "reading": "ジュウナン",
+      "reference": 1484
+    }
+  ],
+  "additionalWords": []
+}

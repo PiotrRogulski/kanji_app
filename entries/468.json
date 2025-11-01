@@ -1,0 +1,65 @@
+{
+  "id": 468,
+  "kanji": "冷",
+  "readings": [
+    "レイ",
+    "つめ・たい",
+    "ひ・える",
+    "ひ・やす",
+    "ひ・やかす",
+    "ひ・や",
+    "ひ・ややかな",
+    "さ・める",
+    "さ・ます"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "冷たい",
+      "reading": "つめたい"
+    },
+    {
+      "kanji": "冷える",
+      "reading": "ひえる"
+    },
+    {
+      "kanji": "冷やす",
+      "reading": "ひやす"
+    },
+    {
+      "kanji": "冷める",
+      "reading": "さめる"
+    },
+    {
+      "kanji": "冷ます",
+      "reading": "さます"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "冷静な",
+      "reading": "レイセイ",
+      "reference": 538
+    },
+    {
+      "kanji": "冷凍",
+      "reading": "レイトウ",
+      "reference": 737
+    },
+    {
+      "kanji": "冷凍庫",
+      "reading": "レイトウコ",
+      "reference": 854
+    },
+    {
+      "kanji": "冷蔵庫",
+      "reading": "レイゾウコ",
+      "reference": 861
+    },
+    {
+      "kanji": "冷淡な",
+      "reading": "レイタン",
+      "reference": 1109
+    }
+  ],
+  "additionalWords": []
+}

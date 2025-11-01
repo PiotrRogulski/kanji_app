@@ -1,0 +1,21 @@
+{
+  "id": 920,
+  "kanji": "戻",
+  "readings": [
+    "レイ",
+    "もど・す",
+    "もど・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "戻す",
+      "reading": "もどす"
+    },
+    {
+      "kanji": "戻る",
+      "reading": "もどる"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

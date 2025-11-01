@@ -1,0 +1,32 @@
+{
+  "id": 500,
+  "kanji": "去",
+  "readings": [
+    "キョ",
+    "コ",
+    "さ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "去る",
+      "reading": "さる"
+    },
+    {
+      "kanji": "去年",
+      "reading": "キョネン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "過去",
+      "reading": "カコ",
+      "reference": 503
+    },
+    {
+      "kanji": "撤去",
+      "reading": "テッキョ",
+      "reference": 1278
+    }
+  ],
+  "additionalWords": []
+}

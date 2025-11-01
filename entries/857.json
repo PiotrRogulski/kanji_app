@@ -1,0 +1,30 @@
+{
+  "id": 857,
+  "kanji": "折",
+  "readings": [
+    "セツ",
+    "お・る",
+    "おり",
+    "お・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "折る",
+      "reading": "おる"
+    },
+    {
+      "kanji": "折れる",
+      "reading": "おれる"
+    },
+    {
+      "kanji": "骨折",
+      "reading": "コッセツ"
+    },
+    {
+      "kanji": "折り紙",
+      "reading": "おりがみ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

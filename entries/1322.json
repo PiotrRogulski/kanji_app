@@ -1,0 +1,24 @@
+{
+  "id": 1322,
+  "kanji": "沿",
+  "readings": [
+    "エン",
+    "そ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "沿う",
+      "reading": "そう"
+    },
+    {
+      "kanji": "沿岸",
+      "reading": "エンガン"
+    },
+    {
+      "kanji": "川沿い",
+      "reading": "かわぞい"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

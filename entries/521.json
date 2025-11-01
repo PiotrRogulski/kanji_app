@@ -1,0 +1,26 @@
+{
+  "id": 521,
+  "kanji": "田",
+  "readings": [
+    "デン",
+    "た"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "田",
+      "reading": "た"
+    },
+    {
+      "kanji": "田んぼ",
+      "reading": "たんぼ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "田舎",
+      "reading": "いなか",
+      "reference": 1367
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 779,
+  "kanji": "鉱",
+  "readings": [
+    "コウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鉱物",
+      "reading": "コウブツ"
+    },
+    {
+      "kanji": "鉱業",
+      "reading": "コウギョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "炭鉱",
+      "reading": "タンコウ",
+      "reference": 1155
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 737,
+  "kanji": "凍",
+  "readings": [
+    "トウ",
+    "こお・る",
+    "こご・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "凍る",
+      "reading": "こおる"
+    },
+    {
+      "kanji": "凍える",
+      "reading": "こごえる"
+    },
+    {
+      "kanji": "冷凍",
+      "reading": "レイトウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "冷凍庫",
+      "reading": "レイトウコ",
+      "reference": 854
+    }
+  ],
+  "additionalWords": []
+}

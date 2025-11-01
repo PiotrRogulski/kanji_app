@@ -1,0 +1,26 @@
+{
+  "id": 1043,
+  "kanji": "偏",
+  "readings": [
+    "ヘン",
+    "かたよ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "偏る",
+      "reading": "かたよる"
+    },
+    {
+      "kanji": "偏見",
+      "reading": "ヘンケン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "偏狭",
+      "reading": "ヘンキョウ",
+      "reference": 1044
+    }
+  ],
+  "additionalWords": []
+}

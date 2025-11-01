@@ -1,0 +1,25 @@
+{
+  "id": 1249,
+  "kanji": "爆",
+  "readings": [
+    "バク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "爆発",
+      "reading": "バクハツ"
+    },
+    {
+      "kanji": "原爆",
+      "reading": "ゲンバク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "爆弾",
+      "reading": "バクダン",
+      "reference": 1290
+    }
+  ],
+  "additionalWords": []
+}

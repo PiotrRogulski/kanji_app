@@ -1,0 +1,25 @@
+{
+  "id": 1037,
+  "kanji": "妙",
+  "readings": [
+    "ミョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "妙な",
+      "reading": "ミョウ"
+    },
+    {
+      "kanji": "微妙な",
+      "reading": "ビミョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "奇妙な",
+      "reading": "キミョウ",
+      "reference": 1525
+    }
+  ],
+  "additionalWords": []
+}

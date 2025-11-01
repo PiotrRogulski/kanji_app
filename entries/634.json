@@ -1,0 +1,43 @@
+{
+  "id": 634,
+  "kanji": "防",
+  "readings": [
+    "ボウ",
+    "ふせ・ぐ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "防ぐ",
+      "reading": "ふせぐ"
+    },
+    {
+      "kanji": "予防",
+      "reading": "ヨボウ"
+    },
+    {
+      "kanji": "防止",
+      "reading": "ボウシ"
+    },
+    {
+      "kanji": "消防",
+      "reading": "ショウボウ"
+    },
+    {
+      "kanji": "消防署",
+      "reading": "ショウボウショ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "防衛",
+      "reading": "ボウエイ",
+      "reference": 960
+    },
+    {
+      "kanji": "防犯",
+      "reading": "ボウハン",
+      "reference": 1119
+    }
+  ],
+  "additionalWords": []
+}

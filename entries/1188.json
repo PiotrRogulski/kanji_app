@@ -1,0 +1,25 @@
+{
+  "id": 1188,
+  "kanji": "浜",
+  "readings": [
+    "ヒン",
+    "はま"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "浜",
+      "reading": "はま"
+    },
+    {
+      "kanji": "砂浜",
+      "reading": "すなはま"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "浜松市",
+      "reading": "はままつシ"
+    }
+  ]
+}

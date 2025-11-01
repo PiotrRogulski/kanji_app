@@ -1,0 +1,33 @@
+{
+  "id": 765,
+  "kanji": "恥",
+  "readings": [
+    "チ",
+    "は・じる",
+    "はじ",
+    "は・じらう",
+    "は・ずかしい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恥",
+      "reading": "はじ"
+    },
+    {
+      "kanji": "恥ずかしい",
+      "reading": "はずかしい"
+    },
+    {
+      "kanji": "無恥な",
+      "reading": "ムチ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "恥辱",
+      "reading": "チジョク",
+      "reference": 1022
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": 508,
+  "kanji": "願",
+  "readings": [
+    "ガン",
+    "ねが・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "願う",
+      "reading": "ねがう"
+    },
+    {
+      "kanji": "願い",
+      "reading": "ねがい"
+    },
+    {
+      "kanji": "願書",
+      "reading": "ガンショ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "祈願",
+      "reading": "キガン",
+      "reference": 1009
+    }
+  ],
+  "additionalWords": []
+}

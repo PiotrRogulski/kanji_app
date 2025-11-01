@@ -1,0 +1,19 @@
+{
+  "id": 1512,
+  "kanji": "艦",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "軍艦",
+      "reading": "グンカン"
+    },
+    {
+      "kanji": "航空母艦",
+      "reading": "コウクウボカン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

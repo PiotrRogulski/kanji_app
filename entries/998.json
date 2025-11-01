@@ -1,0 +1,19 @@
+{
+  "id": 998,
+  "kanji": "帽",
+  "readings": [
+    "ボウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "帽子",
+      "reading": "ボウシ"
+    },
+    {
+      "kanji": "脱帽",
+      "reading": "ダツボウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

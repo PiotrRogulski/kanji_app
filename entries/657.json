@@ -1,0 +1,44 @@
+{
+  "id": 657,
+  "kanji": "在",
+  "readings": [
+    "ザイ",
+    "あ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "在る",
+      "reading": "ある"
+    },
+    {
+      "kanji": "現在",
+      "reading": "ゲンザイ"
+    },
+    {
+      "kanji": "在学",
+      "reading": "ザイガク"
+    },
+    {
+      "kanji": "在日",
+      "reading": "ザイニチ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "存在",
+      "reading": "ソンザイ",
+      "reference": 975
+    },
+    {
+      "kanji": "滞在",
+      "reading": "タイザイ",
+      "reference": 1066
+    },
+    {
+      "kanji": "駐在",
+      "reading": "チュウザイ",
+      "reference": 1299
+    }
+  ],
+  "additionalWords": []
+}

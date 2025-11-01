@@ -1,0 +1,47 @@
+{
+  "id": 494,
+  "kanji": "愛",
+  "readings": [
+    "アイ",
+    "いと・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "愛",
+      "reading": "アイ"
+    },
+    {
+      "kanji": "愛する",
+      "reading": "アイする"
+    },
+    {
+      "kanji": "愛情",
+      "reading": "アイジョウ"
+    },
+    {
+      "kanji": "愛人",
+      "reading": "アイジン"
+    },
+    {
+      "kanji": "愛国心",
+      "reading": "アイコクシン"
+    },
+    {
+      "kanji": "愛犬",
+      "reading": "アイケン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "愛猫",
+      "reading": "アイビョウ",
+      "reference": 1114
+    },
+    {
+      "kanji": "恋愛",
+      "reading": "レンアイ",
+      "reference": 1493
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 537,
+  "kanji": "質",
+  "readings": [
+    "シツ",
+    "チ",
+    "シチ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "質",
+      "reading": "シチ"
+    },
+    {
+      "kanji": "質問",
+      "reading": "シツモン"
+    },
+    {
+      "kanji": "物質",
+      "reading": "ブッシツ"
+    },
+    {
+      "kanji": "品質",
+      "reading": "ヒンシツ"
+    },
+    {
+      "kanji": "人質",
+      "reading": "ひとジチ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "性質",
+      "reading": "セイシツ",
+      "reference": 553
+    }
+  ],
+  "additionalWords": []
+}

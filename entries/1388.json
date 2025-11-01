@@ -1,0 +1,32 @@
+{
+  "id": 1388,
+  "kanji": "潮",
+  "readings": [
+    "チョウ",
+    "しお"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "潮流",
+      "reading": "チョウリュウ"
+    },
+    {
+      "kanji": "上げ潮",
+      "reading": "あげしお"
+    },
+    {
+      "kanji": "下げ潮",
+      "reading": "さげしお"
+    },
+    {
+      "kanji": "親潮",
+      "reading": "おやしお"
+    },
+    {
+      "kanji": "黒潮",
+      "reading": "くろしお"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

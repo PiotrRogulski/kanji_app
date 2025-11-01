@@ -1,0 +1,25 @@
+{
+  "id": 1134,
+  "kanji": "尊",
+  "readings": [
+    "ソン",
+    "たっと・い",
+    "とうと・い",
+    "たっと・ぶ",
+    "とうと・ぶ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "尊重",
+      "reading": "ソンチョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "尊敬",
+      "reading": "ソンケイ",
+      "reference": 1135
+    }
+  ],
+  "additionalWords": []
+}

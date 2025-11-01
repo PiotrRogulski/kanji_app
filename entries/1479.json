@@ -1,0 +1,24 @@
+{
+  "id": 1479,
+  "kanji": "噴",
+  "readings": [
+    "フン",
+    "ふ・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "噴く",
+      "reading": "ふく"
+    },
+    {
+      "kanji": "噴火",
+      "reading": "フンカ"
+    },
+    {
+      "kanji": "噴き出す",
+      "reading": "ふきだす"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

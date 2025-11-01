@@ -1,0 +1,21 @@
+{
+  "id": 730,
+  "kanji": "即",
+  "readings": [
+    "ソク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "即位",
+      "reading": "ソクイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "即座に",
+      "reading": "ソクザ",
+      "reference": 986
+    }
+  ],
+  "additionalWords": []
+}

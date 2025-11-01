@@ -1,0 +1,25 @@
+{
+  "id": 1116,
+  "kanji": "肺",
+  "readings": [
+    "ハイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "肺",
+      "reading": "ハイ"
+    },
+    {
+      "kanji": "肺臓",
+      "reading": "ハイゾウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "肺炎",
+      "reading": "ハイエン",
+      "reference": 1400
+    }
+  ],
+  "additionalWords": []
+}

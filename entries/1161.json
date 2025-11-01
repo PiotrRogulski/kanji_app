@@ -1,0 +1,25 @@
+{
+  "id": 1161,
+  "kanji": "膨",
+  "readings": [
+    "ボウ",
+    "ふく・らむ",
+    "ふく・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "膨らむ",
+      "reading": "ふくらむ"
+    },
+    {
+      "kanji": "膨張",
+      "reading": "ボウチョウ"
+    },
+    {
+      "kanji": "膨大な",
+      "reading": "ボウダイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

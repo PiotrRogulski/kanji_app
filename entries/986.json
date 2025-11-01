@@ -1,0 +1,32 @@
+{
+  "id": 986,
+  "kanji": "座",
+  "readings": [
+    "ザ",
+    "すわ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "座る",
+      "reading": "すわる"
+    },
+    {
+      "kanji": "座席",
+      "reading": "ザセキ"
+    },
+    {
+      "kanji": "正座",
+      "reading": "セイザ"
+    },
+    {
+      "kanji": "星座",
+      "reading": "セイザ"
+    },
+    {
+      "kanji": "即座に",
+      "reading": "ソクザ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

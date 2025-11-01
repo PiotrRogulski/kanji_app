@@ -1,0 +1,22 @@
+{
+  "id": 1463,
+  "kanji": "漏",
+  "readings": [
+    "ロウ",
+    "も・る",
+    "も・れる",
+    "も・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "漏れる",
+      "reading": "もれる"
+    },
+    {
+      "kanji": "漏らす",
+      "reading": "もらす"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": 817,
+  "kanji": "快",
+  "readings": [
+    "カイ",
+    "こころよ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "快い",
+      "reading": "こころよい"
+    },
+    {
+      "kanji": "快適な",
+      "reading": "カイテキ"
+    },
+    {
+      "kanji": "明快な",
+      "reading": "メイカイ"
+    },
+    {
+      "kanji": "快速列車",
+      "reading": "カイソクレッシャ"
+    },
+    {
+      "kanji": "快復",
+      "reading": "カイフク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": 594,
+  "kanji": "果",
+  "readings": [
+    "カ",
+    "は・たす",
+    "は・てる",
+    "は・て"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "果たす",
+      "reading": "はたす"
+    },
+    {
+      "kanji": "結果",
+      "reading": "ケッカ"
+    },
+    {
+      "kanji": "果実",
+      "reading": "カジツ"
+    },
+    {
+      "kanji": "果物",
+      "reading": "くだもの"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "効果",
+      "reading": "コウカ",
+      "reference": 1015
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 1204,
+  "kanji": "献",
+  "readings": [
+    "ケン",
+    "コン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "文献",
+      "reading": "ブンケン"
+    },
+    {
+      "kanji": "献上",
+      "reading": "ケンジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "貢献",
+      "reading": "コウケン",
+      "reference": 1365
+    }
+  ],
+  "additionalWords": []
+}

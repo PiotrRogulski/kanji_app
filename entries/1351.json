@@ -1,0 +1,25 @@
+{
+  "id": 1351,
+  "kanji": "床",
+  "readings": [
+    "ショウ",
+    "とこ",
+    "ゆか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "床",
+      "reading": "ゆか"
+    },
+    {
+      "kanji": "起床する",
+      "reading": "キショウ"
+    },
+    {
+      "kanji": "床の間",
+      "reading": "とこのま"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

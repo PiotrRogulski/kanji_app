@@ -1,0 +1,27 @@
+{
+  "id": 776,
+  "kanji": "潔",
+  "readings": [
+    "ケツ",
+    "いさぎよ・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "簡潔な",
+      "reading": "カンケツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "清潔な",
+      "reading": "セイケツ",
+      "reference": 788
+    },
+    {
+      "kanji": "潔斎",
+      "reading": "ケッサイ",
+      "reference": 1381
+    }
+  ],
+  "additionalWords": []
+}

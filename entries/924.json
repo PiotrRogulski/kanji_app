@@ -1,0 +1,25 @@
+{
+  "id": 924,
+  "kanji": "隣",
+  "readings": [
+    "リン",
+    "とな・る",
+    "となり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "隣",
+      "reading": "となり"
+    },
+    {
+      "kanji": "隣国",
+      "reading": "リンゴク"
+    },
+    {
+      "kanji": "近隣",
+      "reading": "キンリン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

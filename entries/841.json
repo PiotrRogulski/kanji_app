@@ -1,0 +1,27 @@
+{
+  "id": 841,
+  "kanji": "翌",
+  "readings": [
+    "ヨク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "翌年",
+      "reading": "ヨクネン"
+    },
+    {
+      "kanji": "翌月",
+      "reading": "ヨクゲツ"
+    },
+    {
+      "kanji": "翌日",
+      "reading": "ヨクジツ"
+    },
+    {
+      "kanji": "翌々日",
+      "reading": "ヨクヨクジツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

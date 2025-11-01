@@ -1,0 +1,38 @@
+{
+  "id": 812,
+  "kanji": "圧",
+  "readings": [
+    "アツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "圧力",
+      "reading": "アツリョク"
+    },
+    {
+      "kanji": "気圧",
+      "reading": "キアツ"
+    },
+    {
+      "kanji": "圧倒的",
+      "reading": "アットウテキ"
+    },
+    {
+      "kanji": "血圧",
+      "reading": "ケツアツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "圧迫",
+      "reading": "アッパク",
+      "reference": 978
+    },
+    {
+      "kanji": "弾圧",
+      "reading": "ダンアツ",
+      "reference": 1290
+    }
+  ],
+  "additionalWords": []
+}

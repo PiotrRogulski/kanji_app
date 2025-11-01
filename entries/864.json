@@ -1,0 +1,39 @@
+{
+  "id": 864,
+  "kanji": "飛",
+  "readings": [
+    "ヒ",
+    "と・ぶ",
+    "と・ばす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "飛ぶ",
+      "reading": "とぶ"
+    },
+    {
+      "kanji": "飛ばす",
+      "reading": "とばす"
+    },
+    {
+      "kanji": "飛行",
+      "reading": "ヒコウ"
+    },
+    {
+      "kanji": "飛行機",
+      "reading": "ヒコウキ"
+    },
+    {
+      "kanji": "飛行場",
+      "reading": "ヒコウジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "飛躍",
+      "reading": "ヒヤク",
+      "reference": 981
+    }
+  ],
+  "additionalWords": []
+}

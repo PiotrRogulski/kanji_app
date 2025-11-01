@@ -1,0 +1,36 @@
+{
+  "id": 568,
+  "kanji": "欠",
+  "readings": [
+    "ケツ",
+    "か・ける",
+    "か・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "欠ける",
+      "reading": "かける"
+    },
+    {
+      "kanji": "欠席",
+      "reading": "ケッセキ"
+    },
+    {
+      "kanji": "欠点",
+      "reading": "ケッテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "不可欠な",
+      "reading": "フカケツ",
+      "reference": 961
+    },
+    {
+      "kanji": "欠陥",
+      "reading": "ケッカン",
+      "reference": 1438
+    }
+  ],
+  "additionalWords": []
+}

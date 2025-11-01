@@ -1,0 +1,29 @@
+{
+  "id": 825,
+  "kanji": "識",
+  "readings": [
+    "シキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "意識",
+      "reading": "イシキ"
+    },
+    {
+      "kanji": "知識",
+      "reading": "チシキ"
+    },
+    {
+      "kanji": "常識",
+      "reading": "ジョウシキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "認識",
+      "reading": "ニンシキ",
+      "reference": 906
+    }
+  ],
+  "additionalWords": []
+}

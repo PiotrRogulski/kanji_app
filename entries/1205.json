@@ -1,0 +1,25 @@
+{
+  "id": 1205,
+  "kanji": "航",
+  "readings": [
+    "コウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "航空",
+      "reading": "コウクウ"
+    },
+    {
+      "kanji": "航空便",
+      "reading": "コウクウビン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "航空母艦",
+      "reading": "コウクウボカン",
+      "reference": 1512
+    }
+  ],
+  "additionalWords": []
+}

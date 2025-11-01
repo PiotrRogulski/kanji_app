@@ -1,0 +1,24 @@
+{
+  "id": 1467,
+  "kanji": "瞬",
+  "readings": [
+    "シュン",
+    "またた・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "瞬く",
+      "reading": "またたく"
+    },
+    {
+      "kanji": "瞬間",
+      "reading": "シュンカン"
+    },
+    {
+      "kanji": "一瞬",
+      "reading": "イッシュン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

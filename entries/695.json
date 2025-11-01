@@ -1,0 +1,36 @@
+{
+  "id": 695,
+  "kanji": "易",
+  "readings": [
+    "エキ",
+    "イ",
+    "やさ・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "易しい",
+      "reading": "やさしい"
+    },
+    {
+      "kanji": "安易",
+      "reading": "アンイ"
+    },
+    {
+      "kanji": "簡易",
+      "reading": "カンイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "貿易",
+      "reading": "ボウエキ",
+      "reference": 696
+    },
+    {
+      "kanji": "容易な",
+      "reading": "ヨウイ",
+      "reference": 807
+    }
+  ],
+  "additionalWords": []
+}

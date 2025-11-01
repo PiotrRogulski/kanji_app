@@ -1,0 +1,27 @@
+{
+  "id": 575,
+  "kanji": "許",
+  "readings": [
+    "キョ",
+    "ゆる・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "許す",
+      "reading": "ゆるす"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "許可",
+      "reading": "キョカ",
+      "reference": 961
+    },
+    {
+      "kanji": "免許",
+      "reading": "メンキョ",
+      "reference": 1125
+    }
+  ],
+  "additionalWords": []
+}

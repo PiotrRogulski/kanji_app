@@ -1,0 +1,53 @@
+{
+  "id": 767,
+  "kanji": "伝",
+  "readings": [
+    "デン",
+    "つた・う",
+    "つた・える",
+    "つた・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "伝える",
+      "reading": "つたえる"
+    },
+    {
+      "kanji": "伝わる",
+      "reading": "つたわる"
+    },
+    {
+      "kanji": "手伝う",
+      "reading": "てつだう"
+    },
+    {
+      "kanji": "手伝い",
+      "reading": "てつだい"
+    },
+    {
+      "kanji": "伝記",
+      "reading": "デンキ"
+    },
+    {
+      "kanji": "伝統",
+      "reading": "デントウ"
+    },
+    {
+      "kanji": "伝説",
+      "reading": "デンセツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "伝染病",
+      "reading": "デンセンビョウ",
+      "reference": 833
+    },
+    {
+      "kanji": "宣伝",
+      "reading": "センデン",
+      "reference": 1063
+    }
+  ],
+  "additionalWords": []
+}

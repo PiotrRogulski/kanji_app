@@ -1,0 +1,26 @@
+{
+  "id": 1457,
+  "kanji": "尽",
+  "readings": [
+    "ジン",
+    "つ・くす",
+    "つ・きる",
+    "つ・かす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "尽くす",
+      "reading": "つくす"
+    },
+    {
+      "kanji": "尽きる",
+      "reading": "つきる"
+    },
+    {
+      "kanji": "尽力",
+      "reading": "ジンリョク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

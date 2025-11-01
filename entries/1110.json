@@ -1,0 +1,19 @@
+{
+  "id": 1110,
+  "kanji": "誕",
+  "readings": [
+    "タン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "誕生",
+      "reading": "タンジョウ"
+    },
+    {
+      "kanji": "誕生日",
+      "reading": "タンジョウび"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

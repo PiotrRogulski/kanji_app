@@ -1,0 +1,26 @@
+{
+  "id": 586,
+  "kanji": "攻",
+  "readings": [
+    "コウ",
+    "せ・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "攻める",
+      "reading": "せめる"
+    },
+    {
+      "kanji": "専攻",
+      "reading": "センコウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "攻撃",
+      "reading": "コウゲキ",
+      "reference": 851
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1011,
+  "kanji": "健",
+  "readings": [
+    "ケン",
+    "すこ・やか"
+  ],
+  "wordsRequiredNow": [],
+  "wordsRequiredLater": [
+    {
+      "kanji": "健康",
+      "reading": "ケンコウ",
+      "reference": 1050
+    },
+    {
+      "kanji": "保健",
+      "reading": "ホケン",
+      "reference": 1071
+    },
+    {
+      "kanji": "保健所",
+      "reading": "ホケンショ",
+      "reference": 1071
+    },
+    {
+      "kanji": "剛健な",
+      "reading": "ゴウケン",
+      "reference": 1505
+    }
+  ],
+  "additionalWords": []
+}

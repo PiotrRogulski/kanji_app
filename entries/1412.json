@@ -1,0 +1,29 @@
+{
+  "id": 1412,
+  "kanji": "滅",
+  "readings": [
+    "メツ",
+    "ほろ・びる",
+    "ほろ・ぼす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "滅びる",
+      "reading": "ほろびる"
+    },
+    {
+      "kanji": "滅ぼす",
+      "reading": "ほろぼす"
+    },
+    {
+      "kanji": "壊滅",
+      "reading": "カイメツ"
+    },
+    {
+      "kanji": "絶滅",
+      "reading": "ゼツメツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

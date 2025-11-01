@@ -1,0 +1,23 @@
+{
+  "id": 1191,
+  "kanji": "署",
+  "readings": [
+    "ショ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "署名",
+      "reading": "ショメイ"
+    },
+    {
+      "kanji": "警察署",
+      "reading": "ケイサツショ"
+    },
+    {
+      "kanji": "消防署",
+      "reading": "ショウボウショ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 1172,
+  "kanji": "松",
+  "readings": [
+    "ショウ",
+    "まつ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "松",
+      "reading": "まつ"
+    },
+    {
+      "kanji": "門松",
+      "reading": "かどまつ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "松竹梅",
+      "reading": "ショウチクバイ",
+      "reference": 1350
+    }
+  ],
+  "additionalWords": []
+}

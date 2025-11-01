@@ -1,0 +1,56 @@
+{
+  "id": 503,
+  "kanji": "過",
+  "readings": [
+    "カ",
+    "す・ぎる",
+    "す・ごす",
+    "あやま・つ",
+    "あやま・ち"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "過ぎる",
+      "reading": "すぎる"
+    },
+    {
+      "kanji": "＿過ぎ",
+      "reading": "すぎ"
+    },
+    {
+      "kanji": "過ごす",
+      "reading": "すごす"
+    },
+    {
+      "kanji": "通過",
+      "reading": "ツウカ"
+    },
+    {
+      "kanji": "過去",
+      "reading": "カコ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "過程",
+      "reading": "カテイ",
+      "reference": 604
+    },
+    {
+      "kanji": "過労死",
+      "reading": "カロウシ",
+      "reference": 1000
+    },
+    {
+      "kanji": "超過",
+      "reading": "チョウカ",
+      "reference": 1206
+    },
+    {
+      "kanji": "過剰",
+      "reading": "カジョウ",
+      "reference": 1496
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1310,
+  "kanji": "充",
+  "readings": [
+    "ジュウ",
+    "あ・てる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "充電",
+      "reading": "ジュウデン"
+    },
+    {
+      "kanji": "充実",
+      "reading": "ジュウジツ"
+    },
+    {
+      "kanji": "充分",
+      "reading": "ジュウブン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

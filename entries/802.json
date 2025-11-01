@@ -1,0 +1,27 @@
+{
+  "id": 802,
+  "kanji": "潜",
+  "readings": [
+    "セン",
+    "ひそ・む",
+    "もぐ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "潜る",
+      "reading": "もぐる"
+    },
+    {
+      "kanji": "潜水",
+      "reading": "センスイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "潜り込む",
+      "reading": "もぐりこむ",
+      "reference": 820
+    }
+  ],
+  "additionalWords": []
+}

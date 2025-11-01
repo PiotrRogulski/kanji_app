@@ -1,0 +1,39 @@
+{
+  "id": 992,
+  "kanji": "装",
+  "readings": [
+    "ソウ",
+    "ショウ",
+    "よそお・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "装う",
+      "reading": "よそおう"
+    },
+    {
+      "kanji": "装置",
+      "reading": "ソウチ"
+    },
+    {
+      "kanji": "服装",
+      "reading": "フクソウ"
+    },
+    {
+      "kanji": "衣装",
+      "reading": "イショウ"
+    },
+    {
+      "kanji": "包装",
+      "reading": "ホウソウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "塗装",
+      "reading": "トソウ",
+      "reference": 1535
+    }
+  ],
+  "additionalWords": []
+}

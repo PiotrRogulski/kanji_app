@@ -1,0 +1,32 @@
+{
+  "id": 1197,
+  "kanji": "城",
+  "readings": [
+    "ジョウ",
+    "しろ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "城",
+      "reading": "しろ"
+    },
+    {
+      "kanji": "＿城",
+      "reading": "ジョウ"
+    },
+    {
+      "kanji": "城下町",
+      "reading": "ジョウカまち"
+    },
+    {
+      "kanji": "大阪城",
+      "reading": "おおさかジョウ"
+    },
+    {
+      "kanji": "王城",
+      "reading": "オウジョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

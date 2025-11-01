@@ -1,0 +1,26 @@
+{
+  "id": 565,
+  "kanji": "規",
+  "readings": [
+    "キ"
+  ],
+  "wordsRequiredNow": [],
+  "wordsRequiredLater": [
+    {
+      "kanji": "規則",
+      "reading": "キソク",
+      "reference": 566
+    },
+    {
+      "kanji": "不規則",
+      "reading": "フキソク",
+      "reference": 566
+    },
+    {
+      "kanji": "規模",
+      "reading": "キボ",
+      "reference": 839
+    }
+  ],
+  "additionalWords": []
+}

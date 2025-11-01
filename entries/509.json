@@ -1,0 +1,57 @@
+{
+  "id": 509,
+  "kanji": "親",
+  "readings": [
+    "シン",
+    "おや",
+    "した・しい",
+    "した・しむ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "親",
+      "reading": "おや"
+    },
+    {
+      "kanji": "親しい",
+      "reading": "したしい"
+    },
+    {
+      "kanji": "親子",
+      "reading": "おやこ"
+    },
+    {
+      "kanji": "父親",
+      "reading": "ちちおや"
+    },
+    {
+      "kanji": "母親",
+      "reading": "ははおや"
+    },
+    {
+      "kanji": "親友",
+      "reading": "シンユウ"
+    },
+    {
+      "kanji": "親切な",
+      "reading": "シンセツ"
+    },
+    {
+      "kanji": "親類",
+      "reading": "シンルイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "親潮",
+      "reading": "おやしお",
+      "reference": 1388
+    },
+    {
+      "kanji": "懇親会",
+      "reading": "コンシンカイ",
+      "reference": 1417
+    }
+  ],
+  "additionalWords": []
+}

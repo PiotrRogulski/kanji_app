@@ -1,0 +1,47 @@
+{
+  "id": 644,
+  "kanji": "接",
+  "readings": [
+    "セツ",
+    "つ・ぐ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "接する",
+      "reading": "セッする"
+    },
+    {
+      "kanji": "直接",
+      "reading": "チョクセツ"
+    },
+    {
+      "kanji": "間接",
+      "reading": "カンセツ"
+    },
+    {
+      "kanji": "接近",
+      "reading": "セッキン"
+    },
+    {
+      "kanji": "接続",
+      "reading": "セツゾク"
+    },
+    {
+      "kanji": "面接",
+      "reading": "メンセツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "密接な",
+      "reading": "ミッセツ",
+      "reference": 867
+    },
+    {
+      "kanji": "接触",
+      "reading": "セッショク",
+      "reference": 941
+    }
+  ],
+  "additionalWords": []
+}

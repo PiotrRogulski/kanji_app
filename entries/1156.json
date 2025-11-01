@@ -1,0 +1,29 @@
+{
+  "id": 1156,
+  "kanji": "典",
+  "readings": [
+    "テン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "典型",
+      "reading": "テンケイ"
+    },
+    {
+      "kanji": "事典",
+      "reading": "ジテン"
+    },
+    {
+      "kanji": "古典",
+      "reading": "コテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "辞典",
+      "reading": "ジテン",
+      "reference": 1224
+    }
+  ],
+  "additionalWords": []
+}

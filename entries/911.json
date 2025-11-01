@@ -1,0 +1,27 @@
+{
+  "id": 911,
+  "kanji": "疲",
+  "readings": [
+    "ヒ",
+    "つか・れる",
+    "つか・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "疲れる",
+      "reading": "つかれる"
+    },
+    {
+      "kanji": "お疲れ様",
+      "reading": "おつかれさま"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "疲労",
+      "reading": "ヒロウ",
+      "reference": 1000
+    }
+  ],
+  "additionalWords": []
+}

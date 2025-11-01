@@ -1,0 +1,27 @@
+{
+  "id": 1008,
+  "kanji": "乾",
+  "readings": [
+    "カン",
+    "かわ・く",
+    "かわ・かす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "乾く",
+      "reading": "かわく"
+    },
+    {
+      "kanji": "乾かす",
+      "reading": "かわかす"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "乾杯",
+      "reading": "カンパイ",
+      "reference": 1384
+    }
+  ],
+  "additionalWords": []
+}

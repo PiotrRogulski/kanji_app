@@ -1,0 +1,23 @@
+{
+  "id": 687,
+  "kanji": "旬",
+  "readings": [
+    "ジュン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "上旬",
+      "reading": "ジョウジュン"
+    },
+    {
+      "kanji": "中旬",
+      "reading": "チュウジュン"
+    },
+    {
+      "kanji": "下旬",
+      "reading": "ゲジュン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

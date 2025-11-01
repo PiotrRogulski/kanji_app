@@ -1,0 +1,54 @@
+{
+  "id": 1021,
+  "kanji": "職",
+  "readings": [
+    "ショク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "職",
+      "reading": "ショク"
+    },
+    {
+      "kanji": "職業",
+      "reading": "ショクギョウ"
+    },
+    {
+      "kanji": "職場",
+      "reading": "ショクば"
+    },
+    {
+      "kanji": "職員",
+      "reading": "ショクイン"
+    },
+    {
+      "kanji": "職人",
+      "reading": "ショクニン"
+    },
+    {
+      "kanji": "退職",
+      "reading": "タイショク"
+    },
+    {
+      "kanji": "無職",
+      "reading": "ムショク"
+    },
+    {
+      "kanji": "求職",
+      "reading": "キュウショク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "就職",
+      "reading": "シュウショク",
+      "reference": 1212
+    },
+    {
+      "kanji": "辞職",
+      "reading": "ジショク",
+      "reference": 1224
+    }
+  ],
+  "additionalWords": []
+}

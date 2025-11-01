@@ -1,0 +1,24 @@
+{
+  "id": 1323,
+  "kanji": "誉",
+  "readings": [
+    "ヨ",
+    "ほま・れ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "誉れ",
+      "reading": "ほまれ"
+    },
+    {
+      "kanji": "名誉",
+      "reading": "メイヨ"
+    },
+    {
+      "kanji": "栄誉",
+      "reading": "エイヨ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

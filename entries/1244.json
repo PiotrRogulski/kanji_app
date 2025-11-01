@@ -1,0 +1,28 @@
+{
+  "id": 1244,
+  "kanji": "募",
+  "readings": [
+    "ボ",
+    "つの・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "募る",
+      "reading": "つのる"
+    },
+    {
+      "kanji": "募集",
+      "reading": "ボシュウ"
+    },
+    {
+      "kanji": "募集中",
+      "reading": "ボシュウチュウ"
+    },
+    {
+      "kanji": "応募",
+      "reading": "オウボ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

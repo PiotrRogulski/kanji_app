@@ -1,0 +1,30 @@
+{
+  "id": 871,
+  "kanji": "溶",
+  "readings": [
+    "ヨウ",
+    "と・ける",
+    "と・かす",
+    "と・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "溶ける",
+      "reading": "とける"
+    },
+    {
+      "kanji": "溶かす",
+      "reading": "とかす"
+    },
+    {
+      "kanji": "溶解",
+      "reading": "ヨウカイ"
+    },
+    {
+      "kanji": "溶岩",
+      "reading": "ヨウガン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

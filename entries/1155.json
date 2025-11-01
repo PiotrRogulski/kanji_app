@@ -1,0 +1,28 @@
+{
+  "id": 1155,
+  "kanji": "炭",
+  "readings": [
+    "タン",
+    "すみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "炭",
+      "reading": "すみ"
+    },
+    {
+      "kanji": "炭鉱",
+      "reading": "タンコウ"
+    },
+    {
+      "kanji": "石炭",
+      "reading": "セキタン"
+    },
+    {
+      "kanji": "木炭",
+      "reading": "モクタン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

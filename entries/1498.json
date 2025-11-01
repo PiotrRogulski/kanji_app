@@ -1,0 +1,30 @@
+{
+  "id": 1498,
+  "kanji": "紅",
+  "readings": [
+    "コウ",
+    "ク",
+    "べに",
+    "くれない"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "紅",
+      "reading": "べに／くれない"
+    },
+    {
+      "kanji": "紅葉",
+      "reading": "コウヨウ／もみじ"
+    },
+    {
+      "kanji": "紅茶",
+      "reading": "コウチャ"
+    },
+    {
+      "kanji": "口紅",
+      "reading": "くちべに"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

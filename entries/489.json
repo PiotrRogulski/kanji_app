@@ -1,0 +1,35 @@
+{
+  "id": 489,
+  "kanji": "故",
+  "readings": [
+    "コ",
+    "ゆえ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "故",
+      "reading": "ゆえ"
+    },
+    {
+      "kanji": "故＿",
+      "reading": "コ"
+    },
+    {
+      "kanji": "事故",
+      "reading": "ジコ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "故郷",
+      "reading": "コキョウ",
+      "reference": 1047
+    },
+    {
+      "kanji": "故障",
+      "reading": "コショウ",
+      "reference": 1060
+    }
+  ],
+  "additionalWords": []
+}

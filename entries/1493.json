@@ -1,0 +1,30 @@
+{
+  "id": 1493,
+  "kanji": "恋",
+  "readings": [
+    "レン",
+    "こ・う",
+    "こい",
+    "こい・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "恋",
+      "reading": "こい"
+    },
+    {
+      "kanji": "恋愛",
+      "reading": "レンアイ"
+    },
+    {
+      "kanji": "失恋",
+      "reading": "シツレン"
+    },
+    {
+      "kanji": "恋人",
+      "reading": "こいびと"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": 532,
+  "kanji": "減",
+  "readings": [
+    "ゲン",
+    "へ・る",
+    "へ・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "減る",
+      "reading": "へる"
+    },
+    {
+      "kanji": "減らす",
+      "reading": "へらす"
+    },
+    {
+      "kanji": "減少",
+      "reading": "ゲンショウ"
+    },
+    {
+      "kanji": "人口減",
+      "reading": "ジンコウゲン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "増減",
+      "reading": "ゾウゲン",
+      "reference": 533
+    },
+    {
+      "kanji": "削減",
+      "reading": "サクゲン",
+      "reference": 764
+    },
+    {
+      "kanji": "いい加減な",
+      "reading": "カゲン",
+      "reference": 846
+    }
+  ],
+  "additionalWords": []
+}

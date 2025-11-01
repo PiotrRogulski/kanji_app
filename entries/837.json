@@ -1,0 +1,31 @@
+{
+  "id": 837,
+  "kanji": "沈",
+  "readings": [
+    "チン",
+    "しず・む",
+    "しず・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "沈む",
+      "reading": "しずむ"
+    },
+    {
+      "kanji": "沈める",
+      "reading": "しずめる"
+    },
+    {
+      "kanji": "沈黙",
+      "reading": "チンモク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "沈没",
+      "reading": "チンボツ",
+      "reference": 1465
+    }
+  ],
+  "additionalWords": []
+}

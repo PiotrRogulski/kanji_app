@@ -1,0 +1,32 @@
+{
+  "id": 1384,
+  "kanji": "杯",
+  "readings": [
+    "ハイ",
+    "さかずき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "杯",
+      "reading": "さかずき"
+    },
+    {
+      "kanji": "一杯",
+      "reading": "イッパイ"
+    },
+    {
+      "kanji": "精一杯",
+      "reading": "セイイッパイ"
+    },
+    {
+      "kanji": "祝杯",
+      "reading": "シュクハイ"
+    },
+    {
+      "kanji": "乾杯",
+      "reading": "カンパイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

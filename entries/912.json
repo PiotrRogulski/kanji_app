@@ -1,0 +1,38 @@
+{
+  "id": 912,
+  "kanji": "評",
+  "readings": [
+    "ヒョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "評価",
+      "reading": "ヒョウカ"
+    },
+    {
+      "kanji": "好評",
+      "reading": "コウヒョウ"
+    },
+    {
+      "kanji": "不評",
+      "reading": "フヒョウ"
+    },
+    {
+      "kanji": "評論",
+      "reading": "ヒョウロン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "評判",
+      "reading": "ヒョウバン",
+      "reference": 980
+    },
+    {
+      "kanji": "批評",
+      "reading": "ヒヒョウ",
+      "reference": 1214
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": 569,
+  "kanji": "命",
+  "readings": [
+    "メイ",
+    "ミョウ",
+    "いのち"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    },
+    {
+      "kanji": "命じる",
+      "reading": "メイじる"
+    },
+    {
+      "kanji": "生命",
+      "reading": "セイメイ"
+    },
+    {
+      "kanji": "人命",
+      "reading": "ジンメイ"
+    },
+    {
+      "kanji": "運命",
+      "reading": "ウンメイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "命令",
+      "reading": "メイレイ",
+      "reference": 570
+    },
+    {
+      "kanji": "革命",
+      "reading": "カクメイ",
+      "reference": 878
+    },
+    {
+      "kanji": "懸命に",
+      "reading": "ケンメイ",
+      "reference": 889
+    },
+    {
+      "kanji": "一生懸命に",
+      "reading": "イッショウケンメイ",
+      "reference": 889
+    },
+    {
+      "kanji": "寿命",
+      "reading": "ジュミョウ",
+      "reference": 1098
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 947,
+  "kanji": "及",
+  "readings": [
+    "キュウ",
+    "およ・ぶ",
+    "およ・び",
+    "およ・ぼす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "及ぶ",
+      "reading": "およぶ"
+    },
+    {
+      "kanji": "及ぼす",
+      "reading": "およぼす"
+    },
+    {
+      "kanji": "普及",
+      "reading": "フキュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

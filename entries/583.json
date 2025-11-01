@@ -1,0 +1,24 @@
+{
+  "id": 583,
+  "kanji": "飲",
+  "readings": [
+    "イン",
+    "の・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "飲む",
+      "reading": "のむ"
+    },
+    {
+      "kanji": "飲み物",
+      "reading": "のみもの"
+    },
+    {
+      "kanji": "飲食",
+      "reading": "インショク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

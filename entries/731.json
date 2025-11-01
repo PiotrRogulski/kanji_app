@@ -1,0 +1,37 @@
+{
+  "id": 731,
+  "kanji": "越",
+  "readings": [
+    "エツ",
+    "こ・す",
+    "こ・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "越す",
+      "reading": "こす"
+    },
+    {
+      "kanji": "越える",
+      "reading": "こえる"
+    },
+    {
+      "kanji": "乗り越し",
+      "reading": "のりこし"
+    },
+    {
+      "kanji": "引っ越す",
+      "reading": "ひっこす"
+    },
+    {
+      "kanji": "引っ越し",
+      "reading": "ひっこし"
+    },
+    {
+      "kanji": "追い越す",
+      "reading": "おいこす"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

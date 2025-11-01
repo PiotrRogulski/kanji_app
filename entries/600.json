@@ -1,0 +1,35 @@
+{
+  "id": 600,
+  "kanji": "給",
+  "readings": [
+    "キュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "給料",
+      "reading": "キュウリョウ"
+    },
+    {
+      "kanji": "月給",
+      "reading": "ゲッキュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "供給",
+      "reading": "キョウキュウ",
+      "reference": 638
+    },
+    {
+      "kanji": "給与",
+      "reading": "キュウヨ",
+      "reference": 1074
+    },
+    {
+      "kanji": "需給",
+      "reading": "ジュキュウ",
+      "reference": 1260
+    }
+  ],
+  "additionalWords": []
+}

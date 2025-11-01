@@ -1,0 +1,52 @@
+{
+  "id": 553,
+  "kanji": "性",
+  "readings": [
+    "セイ",
+    "ショウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "性",
+      "reading": "セイ"
+    },
+    {
+      "kanji": "女性",
+      "reading": "ジョセイ"
+    },
+    {
+      "kanji": "男性",
+      "reading": "ダンセイ"
+    },
+    {
+      "kanji": "性別",
+      "reading": "セイベツ"
+    },
+    {
+      "kanji": "性交",
+      "reading": "セイコウ"
+    },
+    {
+      "kanji": "性質",
+      "reading": "セイシツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "性格",
+      "reading": "セイカク",
+      "reference": 636
+    },
+    {
+      "kanji": "可能性",
+      "reading": "カノウセイ",
+      "reference": 961
+    },
+    {
+      "kanji": "個性",
+      "reading": "コセイ",
+      "reference": 1048
+    }
+  ],
+  "additionalWords": []
+}

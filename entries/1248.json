@@ -1,0 +1,31 @@
+{
+  "id": 1248,
+  "kanji": "載",
+  "readings": [
+    "サイ",
+    "の・せる",
+    "の・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "載る",
+      "reading": "のる"
+    },
+    {
+      "kanji": "載せる",
+      "reading": "のせる"
+    },
+    {
+      "kanji": "記載",
+      "reading": "キサイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "掲載",
+      "reading": "ケイサイ",
+      "reference": 1256
+    }
+  ],
+  "additionalWords": []
+}

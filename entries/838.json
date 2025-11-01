@@ -1,0 +1,24 @@
+{
+  "id": 838,
+  "kanji": "届",
+  "readings": [
+    "とど・ける",
+    "とど・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "届ける",
+      "reading": "とどける"
+    },
+    {
+      "kanji": "届く",
+      "reading": "とどく"
+    },
+    {
+      "kanji": "届け先",
+      "reading": "とどけさき"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

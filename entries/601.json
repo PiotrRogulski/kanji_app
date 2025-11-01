@@ -1,0 +1,43 @@
+{
+  "id": 601,
+  "kanji": "共",
+  "readings": [
+    "キョウ",
+    "とも"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "共に",
+      "reading": "ともに"
+    },
+    {
+      "kanji": "共同",
+      "reading": "キョウドウ"
+    },
+    {
+      "kanji": "共通",
+      "reading": "キョウツウ"
+    },
+    {
+      "kanji": "公共",
+      "reading": "コウキョウ"
+    },
+    {
+      "kanji": "共和国",
+      "reading": "キョウワコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "共産党",
+      "reading": "キョウサントウ",
+      "reference": 1164
+    }
+  ],
+  "additionalWords": [
+    {
+      "kanji": "銀河共和国",
+      "reading": "ギンガキョウワコク"
+    }
+  ]
+}

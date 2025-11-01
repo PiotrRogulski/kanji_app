@@ -1,0 +1,29 @@
+{
+  "id": 1344,
+  "kanji": "敷",
+  "readings": [
+    "フ",
+    "し・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "敷く",
+      "reading": "しく"
+    },
+    {
+      "kanji": "敷設",
+      "reading": "フセツ"
+    },
+    {
+      "kanji": "屋敷",
+      "reading": "やしき"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "風呂敷",
+      "reading": "フロしき"
+    }
+  ]
+}

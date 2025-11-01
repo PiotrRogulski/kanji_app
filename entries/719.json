@@ -1,0 +1,28 @@
+{
+  "id": 719,
+  "kanji": "煮",
+  "readings": [
+    "シャ",
+    "に・る",
+    "に・える",
+    "に・やす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "煮る",
+      "reading": "にる"
+    },
+    {
+      "kanji": "煮立つ",
+      "reading": "にたつ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "（お）雑煮",
+      "reading": "ゾウに",
+      "reference": 988
+    }
+  ],
+  "additionalWords": []
+}

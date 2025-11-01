@@ -1,0 +1,20 @@
+{
+  "id": 1230,
+  "kanji": "聴",
+  "readings": [
+    "チョウ",
+    "き・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "聴く",
+      "reading": "きく"
+    },
+    {
+      "kanji": "聴衆",
+      "reading": "チョウシュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

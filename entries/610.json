@@ -1,0 +1,30 @@
+{
+  "id": 610,
+  "kanji": "束",
+  "readings": [
+    "ソク",
+    "たば"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "束",
+      "reading": "たば"
+    },
+    {
+      "kanji": "花束",
+      "reading": "はなたば"
+    },
+    {
+      "kanji": "約束",
+      "reading": "ヤクソク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "拘束",
+      "reading": "コウソク",
+      "reference": 1478
+    }
+  ],
+  "additionalWords": []
+}

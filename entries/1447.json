@@ -1,0 +1,27 @@
+{
+  "id": 1447,
+  "kanji": "肥",
+  "readings": [
+    "ヒ",
+    "こ・える",
+    "こ・え",
+    "こ・やす",
+    "こ・やし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "肥やす",
+      "reading": "こやす"
+    },
+    {
+      "kanji": "肥やし",
+      "reading": "こやし"
+    },
+    {
+      "kanji": "肥料",
+      "reading": "ヒリョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

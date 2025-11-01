@@ -1,0 +1,32 @@
+{
+  "id": 1265,
+  "kanji": "迷",
+  "readings": [
+    "メイ",
+    "まよ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "迷う",
+      "reading": "まよう"
+    },
+    {
+      "kanji": "迷路",
+      "reading": "メイロ"
+    },
+    {
+      "kanji": "迷信",
+      "reading": "メイシン"
+    },
+    {
+      "kanji": "迷惑",
+      "reading": "メイワク"
+    },
+    {
+      "kanji": "迷子",
+      "reading": "まいご"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": 836,
+  "kanji": "測",
+  "readings": [
+    "ソク",
+    "はか・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "測る",
+      "reading": "はかる"
+    },
+    {
+      "kanji": "予測",
+      "reading": "ヨソク"
+    },
+    {
+      "kanji": "測定",
+      "reading": "ソクテイ"
+    },
+    {
+      "kanji": "観測",
+      "reading": "カンソク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "推測",
+      "reading": "スイソク",
+      "reference": 1023
+    }
+  ],
+  "additionalWords": []
+}

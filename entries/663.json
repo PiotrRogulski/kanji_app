@@ -1,0 +1,25 @@
+{
+  "id": 663,
+  "kanji": "慣",
+  "readings": [
+    "カン",
+    "な・れる",
+    "な・らす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "慣れる",
+      "reading": "なれる"
+    },
+    {
+      "kanji": "見慣れる",
+      "reading": "みなれる"
+    },
+    {
+      "kanji": "習慣",
+      "reading": "シュウカン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

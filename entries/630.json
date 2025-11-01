@@ -1,0 +1,21 @@
+{
+  "id": 630,
+  "kanji": "箱",
+  "readings": [
+    "はこ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "箱",
+      "reading": "はこ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "巣箱",
+      "reading": "すばこ",
+      "reference": 1530
+    }
+  ],
+  "additionalWords": []
+}

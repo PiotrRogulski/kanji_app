@@ -1,0 +1,52 @@
+{
+  "id": 502,
+  "kanji": "夜",
+  "readings": [
+    "ヤ",
+    "よる",
+    "よ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "夜",
+      "reading": "よる"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "夜明け",
+      "reading": "よあけ"
+    },
+    {
+      "kanji": "真夜中",
+      "reading": "まよなか"
+    },
+    {
+      "kanji": "夜行",
+      "reading": "ヤコウ"
+    },
+    {
+      "kanji": "夜間",
+      "reading": "ヤカン"
+    },
+    {
+      "kanji": "今夜",
+      "reading": "コンヤ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "深夜",
+      "reading": "シンヤ",
+      "reference": 563
+    },
+    {
+      "kanji": "徹夜",
+      "reading": "テツヤ",
+      "reference": 1337
+    }
+  ],
+  "additionalWords": []
+}

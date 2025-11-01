@@ -1,0 +1,22 @@
+{
+  "id": 893,
+  "kanji": "姿",
+  "readings": [
+    "シ",
+    "すがた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "姿",
+      "reading": "すがた"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "姿勢",
+      "reading": "シセイ",
+      "reference": 1106
+    }
+  ],
+  "additionalWords": []
+}

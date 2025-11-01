@@ -1,0 +1,27 @@
+{
+  "id": 1180,
+  "kanji": "株",
+  "readings": [
+    "かぶ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "株",
+      "reading": "かぶ"
+    },
+    {
+      "kanji": "オミクロン株",
+      "reading": null
+    },
+    {
+      "kanji": "株式",
+      "reading": "かぶシキ"
+    },
+    {
+      "kanji": "株式会社",
+      "reading": "かぶシキガイシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 995,
+  "kanji": "浮",
+  "readings": [
+    "フ",
+    "う・く",
+    "う・かれる",
+    "う・かぶ",
+    "う・かべる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "浮く",
+      "reading": "うく"
+    },
+    {
+      "kanji": "浮かぶ",
+      "reading": "うかぶ"
+    },
+    {
+      "kanji": "浮かべる",
+      "reading": "うかべる"
+    },
+    {
+      "kanji": "浮世絵",
+      "reading": "うきよえ"
+    },
+    {
+      "kanji": "浮気",
+      "reading": "うわき"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": 850,
+  "kanji": "望",
+  "readings": [
+    "ボウ",
+    "モウ",
+    "のぞ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "望む",
+      "reading": "のぞむ"
+    },
+    {
+      "kanji": "望み",
+      "reading": "のぞみ"
+    },
+    {
+      "kanji": "欲望",
+      "reading": "ヨクボウ"
+    },
+    {
+      "kanji": "望遠鏡",
+      "reading": "ボウエンキョウ"
+    },
+    {
+      "kanji": "失望",
+      "reading": "シツボウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "絶望",
+      "reading": "ゼツボウ",
+      "reference": 990
+    },
+    {
+      "kanji": "希望",
+      "reading": "キボウ",
+      "reference": 1148
+    }
+  ],
+  "additionalWords": []
+}

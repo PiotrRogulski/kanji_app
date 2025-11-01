@@ -1,0 +1,22 @@
+{
+  "id": 777,
+  "kanji": "厳",
+  "readings": [
+    "ゲン",
+    "ゴン",
+    "おごそ・か",
+    "きび・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "厳しい",
+      "reading": "きびしい"
+    },
+    {
+      "kanji": "厳重な",
+      "reading": "ゲンジュウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

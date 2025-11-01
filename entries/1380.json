@@ -1,0 +1,22 @@
+{
+  "id": 1380,
+  "kanji": "趣",
+  "readings": [
+    "シュ",
+    "おもむき"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "趣味",
+      "reading": "シュミ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "趣旨",
+      "reading": "シュシ",
+      "reference": 1413
+    }
+  ],
+  "additionalWords": []
+}

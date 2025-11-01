@@ -1,0 +1,29 @@
+{
+  "id": 1506,
+  "kanji": "銘",
+  "readings": [
+    "メイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "銘",
+      "reading": "めい"
+    },
+    {
+      "kanji": "銘柄",
+      "reading": "メイがら"
+    },
+    {
+      "kanji": "銘々",
+      "reading": "メイメイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "碑銘",
+      "reading": "ヒメイ",
+      "reference": 1632
+    }
+  ],
+  "additionalWords": []
+}

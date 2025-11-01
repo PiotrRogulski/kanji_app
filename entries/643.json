@@ -1,0 +1,29 @@
+{
+  "id": 643,
+  "kanji": "製",
+  "readings": [
+    "セイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "製品",
+      "reading": "セイヒン"
+    },
+    {
+      "kanji": "日本製",
+      "reading": "ニホンセイ"
+    },
+    {
+      "kanji": "製作",
+      "reading": "セイサク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "製造",
+      "reading": "セイゾウ",
+      "reference": 789
+    }
+  ],
+  "additionalWords": []
+}

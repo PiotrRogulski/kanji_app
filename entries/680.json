@@ -1,0 +1,45 @@
+{
+  "id": 680,
+  "kanji": "違",
+  "readings": [
+    "イ",
+    "ちが・う",
+    "ちが・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "違う",
+      "reading": "ちがう"
+    },
+    {
+      "kanji": "違い",
+      "reading": "ちがい"
+    },
+    {
+      "kanji": "間違う",
+      "reading": "まちがう"
+    },
+    {
+      "kanji": "間違い",
+      "reading": "まちがい"
+    },
+    {
+      "kanji": "に違いない",
+      "reading": "にちがいない"
+    },
+    {
+      "kanji": "間違える",
+      "reading": "まちがえる"
+    },
+    {
+      "kanji": "違反",
+      "reading": "イハン"
+    },
+    {
+      "kanji": "相違",
+      "reading": "ソウイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

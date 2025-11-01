@@ -1,0 +1,22 @@
+{
+  "id": 934,
+  "kanji": "腰",
+  "readings": [
+    "ヨウ",
+    "こし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "腰",
+      "reading": "こし"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "腰抜け",
+      "reading": "こしぬけ",
+      "reference": 1118
+    }
+  ],
+  "additionalWords": []
+}

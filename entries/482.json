@@ -1,0 +1,45 @@
+{
+  "id": 482,
+  "kanji": "類",
+  "readings": [
+    "ルイ",
+    "たぐい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "人類",
+      "reading": "ジンルイ"
+    },
+    {
+      "kanji": "分類",
+      "reading": "ブンルイ"
+    },
+    {
+      "kanji": "書類",
+      "reading": "ショルイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "親類",
+      "reading": "シンルイ",
+      "reference": 509
+    },
+    {
+      "kanji": "種類",
+      "reading": "シュルイ",
+      "reference": 628
+    },
+    {
+      "kanji": "衣類",
+      "reading": "イルイ",
+      "reference": 631
+    },
+    {
+      "kanji": "類似",
+      "reading": "ルイジ",
+      "reference": 714
+    }
+  ],
+  "additionalWords": []
+}

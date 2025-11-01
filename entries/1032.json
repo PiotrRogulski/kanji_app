@@ -1,0 +1,33 @@
+{
+  "id": 1032,
+  "kanji": "総",
+  "readings": [
+    "ソウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "総じて",
+      "reading": "ソウじて"
+    },
+    {
+      "kanji": "総合する",
+      "reading": "ソウゴウ"
+    },
+    {
+      "kanji": "総合的な",
+      "reading": "ソウゴウテキ"
+    },
+    {
+      "kanji": "総務",
+      "reading": "ソウム"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "総理大臣",
+      "reading": "ソウリダイジン",
+      "reference": 1372
+    }
+  ],
+  "additionalWords": []
+}

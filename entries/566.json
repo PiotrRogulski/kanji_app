@@ -1,0 +1,23 @@
+{
+  "id": 566,
+  "kanji": "則",
+  "readings": [
+    "ソク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "規則",
+      "reading": "キソク"
+    },
+    {
+      "kanji": "不規則",
+      "reading": "フキソク"
+    },
+    {
+      "kanji": "法則",
+      "reading": "ホウソク"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

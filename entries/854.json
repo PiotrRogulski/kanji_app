@@ -1,0 +1,43 @@
+{
+  "id": 854,
+  "kanji": "庫",
+  "readings": [
+    "コ",
+    "ク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "車庫",
+      "reading": "シャコ"
+    },
+    {
+      "kanji": "文庫本",
+      "reading": "ブンコボン"
+    },
+    {
+      "kanji": "金庫",
+      "reading": "キンコ"
+    },
+    {
+      "kanji": "倉庫",
+      "reading": "ソウコ"
+    },
+    {
+      "kanji": "冷凍庫",
+      "reading": "レイトウコ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "冷蔵庫",
+      "reading": "レイゾウコ",
+      "reference": 861
+    },
+    {
+      "kanji": "宝庫",
+      "reading": "ホウコ",
+      "reference": 1320
+    }
+  ],
+  "additionalWords": []
+}

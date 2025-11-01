@@ -1,0 +1,30 @@
+{
+  "id": 689,
+  "kanji": "縄",
+  "readings": [
+    "ジョウ",
+    "なわ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "縄",
+      "reading": "なわ"
+    },
+    {
+      "kanji": "縄文",
+      "reading": "ジョウモン"
+    },
+    {
+      "kanji": "沖縄",
+      "reading": "おきなわ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "縄跳び",
+      "reading": "なわとび",
+      "reference": 1529
+    }
+  ],
+  "additionalWords": []
+}

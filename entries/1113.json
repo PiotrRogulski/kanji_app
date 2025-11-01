@@ -1,0 +1,26 @@
+{
+  "id": 1113,
+  "kanji": "促",
+  "readings": [
+    "ソク",
+    "うなが・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "促す",
+      "reading": "うながす"
+    },
+    {
+      "kanji": "促進",
+      "reading": "ソクシン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "催促",
+      "reading": "サイソク",
+      "reference": 1199
+    }
+  ],
+  "additionalWords": []
+}

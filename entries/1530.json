@@ -1,0 +1,25 @@
+{
+  "id": 1530,
+  "kanji": "巣",
+  "readings": [
+    "ソウ",
+    "す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "巣",
+      "reading": "す"
+    },
+    {
+      "kanji": "巣箱",
+      "reading": "すばこ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "蜘蛛の巣",
+      "reading": "くものす"
+    }
+  ]
+}

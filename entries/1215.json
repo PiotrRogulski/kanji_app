@@ -1,0 +1,26 @@
+{
+  "id": 1215,
+  "kanji": "賀",
+  "readings": [
+    "ガ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "年賀状",
+      "reading": "ネンガジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "謹賀新年",
+      "reading": "キンガシンネン",
+      "reference": 1301
+    },
+    {
+      "kanji": "慶賀",
+      "reading": "ケイガ",
+      "reference": 1397
+    }
+  ],
+  "additionalWords": []
+}

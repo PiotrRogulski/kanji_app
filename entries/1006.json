@@ -1,0 +1,22 @@
+{
+  "id": 1006,
+  "kanji": "鉛",
+  "readings": [
+    "エン",
+    "なまり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鉛",
+      "reading": "なまり"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "鉛筆",
+      "reading": "エンピツ",
+      "reference": 1007
+    }
+  ],
+  "additionalWords": []
+}

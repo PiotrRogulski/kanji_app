@@ -1,0 +1,45 @@
+{
+  "id": 665,
+  "kanji": "片",
+  "readings": [
+    "ヘン",
+    "かた"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "片道",
+      "reading": "かたみち"
+    },
+    {
+      "kanji": "片手",
+      "reading": "かたて"
+    },
+    {
+      "kanji": "片寄る",
+      "reading": "かたよる"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "片仮名",
+      "reading": "かたかな",
+      "reference": 928
+    },
+    {
+      "kanji": "片隅",
+      "reading": "かたすみ",
+      "reference": 966
+    },
+    {
+      "kanji": "片付ける",
+      "reading": "かたづける",
+      "reference": 1140
+    },
+    {
+      "kanji": "片付く",
+      "reading": "かたづく",
+      "reference": 1140
+    }
+  ],
+  "additionalWords": []
+}

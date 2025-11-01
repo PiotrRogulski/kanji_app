@@ -1,0 +1,40 @@
+{
+  "id": 473,
+  "kanji": "薬",
+  "readings": [
+    "ヤク",
+    "くすり"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "薬",
+      "reading": "くすり"
+    },
+    {
+      "kanji": "薬品",
+      "reading": "ヤクヒン"
+    },
+    {
+      "kanji": "薬局",
+      "reading": "ヤッキョク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "薬屋",
+      "reading": "くすりや",
+      "reference": 534
+    },
+    {
+      "kanji": "薬剤",
+      "reading": "ヤクザイ",
+      "reference": 641
+    },
+    {
+      "kanji": "麻薬",
+      "reading": "マヤク",
+      "reference": 1404
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 545,
+  "kanji": "働",
+  "readings": [
+    "ドウ",
+    "はたら・く"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "働く",
+      "reading": "はたらく"
+    },
+    {
+      "kanji": "働き",
+      "reading": "はたらき"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "労働",
+      "reading": "ロウドウ",
+      "reference": 1000
+    },
+    {
+      "kanji": "労働者",
+      "reading": "ロウドウシャ",
+      "reference": 1000
+    }
+  ],
+  "additionalWords": []
+}

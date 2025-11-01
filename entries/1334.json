@@ -1,0 +1,35 @@
+{
+  "id": 1334,
+  "kanji": "殿",
+  "readings": [
+    "デン",
+    "テン",
+    "との",
+    "どの"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "殿",
+      "reading": "どの"
+    },
+    {
+      "kanji": "宮殿",
+      "reading": "キュウデン"
+    },
+    {
+      "kanji": "貴殿",
+      "reading": "キデン"
+    },
+    {
+      "kanji": "殿様",
+      "reading": "とのさま"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "文化科学宮殿",
+      "reading": "ブンカカガクキュウデン"
+    }
+  ]
+}

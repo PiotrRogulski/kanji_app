@@ -1,0 +1,30 @@
+{
+  "id": 476,
+  "kanji": "族",
+  "readings": [
+    "ゾク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "家族",
+      "reading": "カゾク"
+    },
+    {
+      "kanji": "民族",
+      "reading": "ミンゾク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "部族",
+      "reading": "ブゾク",
+      "reference": 478
+    },
+    {
+      "kanji": "豪族",
+      "reading": "ゴウゾク",
+      "reference": 1325
+    }
+  ],
+  "additionalWords": []
+}

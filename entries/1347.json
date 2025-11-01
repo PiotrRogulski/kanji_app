@@ -1,0 +1,42 @@
+{
+  "id": 1347,
+  "kanji": "揺",
+  "readings": [
+    "ヨウ",
+    "ゆ・れる",
+    "ゆ・る",
+    "ゆ・らぐ",
+    "ゆ・るぐ",
+    "ゆ・する",
+    "ゆ・さぶる",
+    "ゆ・すぶる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "揺れる",
+      "reading": "ゆれる"
+    },
+    {
+      "kanji": "揺らぐ",
+      "reading": "ゆらぐ"
+    },
+    {
+      "kanji": "揺さぶる",
+      "reading": "ゆさぶる"
+    },
+    {
+      "kanji": "動揺",
+      "reading": "ドウヨウ"
+    },
+    {
+      "kanji": "揺り返し",
+      "reading": "ゆりかえし"
+    },
+    {
+      "kanji": "揺りかご",
+      "reading": "ゆりかご"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

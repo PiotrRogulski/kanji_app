@@ -1,0 +1,37 @@
+{
+  "id": 661,
+  "kanji": "単",
+  "readings": [
+    "タン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "単に",
+      "reading": null
+    },
+    {
+      "kanji": "単数",
+      "reading": "タンスウ"
+    },
+    {
+      "kanji": "単語",
+      "reading": "タンゴ"
+    },
+    {
+      "kanji": "単位",
+      "reading": "タンイ"
+    },
+    {
+      "kanji": "簡単な",
+      "reading": "カンタン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "単純な",
+      "reading": "タンジュン",
+      "reference": 783
+    }
+  ],
+  "additionalWords": []
+}

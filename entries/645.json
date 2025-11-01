@@ -1,0 +1,37 @@
+{
+  "id": 645,
+  "kanji": "段",
+  "readings": [
+    "ダン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "段",
+      "reading": "ダン"
+    },
+    {
+      "kanji": "手段",
+      "reading": "シュダン"
+    },
+    {
+      "kanji": "階段",
+      "reading": "カイダン"
+    },
+    {
+      "kanji": "段階",
+      "reading": "ダンカイ"
+    },
+    {
+      "kanji": "普段",
+      "reading": "フダン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "値段",
+      "reading": "ねダン",
+      "reference": 647
+    }
+  ],
+  "additionalWords": []
+}

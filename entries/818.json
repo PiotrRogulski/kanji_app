@@ -1,0 +1,38 @@
+{
+  "id": 818,
+  "kanji": "球",
+  "readings": [
+    "キュウ",
+    "たま"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "球",
+      "reading": "たま"
+    },
+    {
+      "kanji": "地球",
+      "reading": "チキュウ"
+    },
+    {
+      "kanji": "野球",
+      "reading": "ヤキュウ"
+    },
+    {
+      "kanji": "電球",
+      "reading": "デンキュウ"
+    },
+    {
+      "kanji": "卓球 タッキュウ",
+      "reading": null
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "眼球",
+      "reading": "ガンキュウ",
+      "reference": 1499
+    }
+  ],
+  "additionalWords": []
+}

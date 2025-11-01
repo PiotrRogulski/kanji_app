@@ -1,0 +1,36 @@
+{
+  "id": 622,
+  "kanji": "位",
+  "readings": [
+    "イ",
+    "くらい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "位",
+      "reading": "くらい"
+    },
+    {
+      "kanji": "地位",
+      "reading": "チイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "単位",
+      "reading": "タンイ",
+      "reference": 661
+    },
+    {
+      "kanji": "即位",
+      "reading": "ソクイ 730",
+      "reference": 0
+    },
+    {
+      "kanji": "位置",
+      "reading": "イチ",
+      "reference": 944
+    }
+  ],
+  "additionalWords": []
+}

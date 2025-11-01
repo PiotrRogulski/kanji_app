@@ -1,0 +1,46 @@
+{
+  "id": 1035,
+  "kanji": "演",
+  "readings": [
+    "エン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "演じる",
+      "reading": "エンじる"
+    },
+    {
+      "kanji": "演出",
+      "reading": "エンシュツ"
+    },
+    {
+      "kanji": "演技",
+      "reading": "エンギ"
+    },
+    {
+      "kanji": "演奏",
+      "reading": "エンソウ"
+    },
+    {
+      "kanji": "演習",
+      "reading": "エンシュウ"
+    },
+    {
+      "kanji": "出演",
+      "reading": "シュツエン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "講演",
+      "reading": "コウエン",
+      "reference": 1208
+    },
+    {
+      "kanji": "演劇",
+      "reading": "エンゲキ",
+      "reference": 1217
+    }
+  ],
+  "additionalWords": []
+}

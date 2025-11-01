@@ -1,0 +1,24 @@
+{
+  "id": 1192,
+  "kanji": "討",
+  "readings": [
+    "トウ",
+    "う・つ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "討つ",
+      "reading": "うつ"
+    },
+    {
+      "kanji": "討論",
+      "reading": "トウロン"
+    },
+    {
+      "kanji": "検討",
+      "reading": "ケントウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": 955,
+  "kanji": "権",
+  "readings": [
+    "ケン",
+    "ゴン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "権利",
+      "reading": "ケンリ"
+    },
+    {
+      "kanji": "権力",
+      "reading": "ケンリョク"
+    },
+    {
+      "kanji": "人権",
+      "reading": "ジンケン"
+    },
+    {
+      "kanji": "政権",
+      "reading": "セイケン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "権威",
+      "reading": "ケンイ",
+      "reference": 1386
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": 549,
+  "kanji": "式",
+  "readings": [
+    "シキ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "式",
+      "reading": "シキ"
+    },
+    {
+      "kanji": "成人式",
+      "reading": "セイジンシキ"
+    },
+    {
+      "kanji": "公式な",
+      "reading": "コウシキ"
+    },
+    {
+      "kanji": "正式な",
+      "reading": "セイシキ"
+    },
+    {
+      "kanji": "形式",
+      "reading": "ケイシキ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "葬式",
+      "reading": "ソウシキ",
+      "reference": 898
+    },
+    {
+      "kanji": "儀式",
+      "reading": "ギシキ",
+      "reference": 899
+    },
+    {
+      "kanji": "株式",
+      "reading": "かぶシキ",
+      "reference": 1180
+    },
+    {
+      "kanji": "株式会社",
+      "reading": "かぶシキガイシャ",
+      "reference": 1180
+    }
+  ],
+  "additionalWords": []
+}

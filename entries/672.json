@@ -1,0 +1,34 @@
+{
+  "id": 672,
+  "kanji": "刻",
+  "readings": [
+    "コク",
+    "きざ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "刻む",
+      "reading": "きざむ"
+    },
+    {
+      "kanji": "時刻",
+      "reading": "ジコク"
+    },
+    {
+      "kanji": "深刻",
+      "reading": "シンコク"
+    },
+    {
+      "kanji": "遅刻",
+      "reading": "チコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "彫刻する",
+      "reading": "チョウコク",
+      "reference": 1491
+    }
+  ],
+  "additionalWords": []
+}

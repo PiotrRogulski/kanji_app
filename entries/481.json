@@ -1,0 +1,34 @@
+{
+  "id": 481,
+  "kanji": "宮",
+  "readings": [
+    "キュウ",
+    "グウ",
+    "グ",
+    "みや"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "王宮",
+      "reading": "オウキュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "神宮",
+      "reading": "ジングウ",
+      "reference": 483
+    },
+    {
+      "kanji": "宮殿",
+      "reading": "キュウデン",
+      "reference": 1334
+    },
+    {
+      "kanji": "宮廷",
+      "reading": "キュウテイ",
+      "reference": 1475
+    }
+  ],
+  "additionalWords": []
+}

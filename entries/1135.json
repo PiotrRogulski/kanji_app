@@ -1,0 +1,32 @@
+{
+  "id": 1135,
+  "kanji": "敬",
+  "readings": [
+    "ケイ",
+    "うやま・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "敬う",
+      "reading": "うやまう"
+    },
+    {
+      "kanji": "敬意",
+      "reading": "ケイイ"
+    },
+    {
+      "kanji": "敬語",
+      "reading": "ケイゴ"
+    },
+    {
+      "kanji": "尊敬",
+      "reading": "ソンケイ"
+    },
+    {
+      "kanji": "敬具",
+      "reading": "ケイグ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": 659,
+  "kanji": "脱",
+  "readings": [
+    "ダツ",
+    "ぬ・ぐ",
+    "ぬ・げる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "脱退",
+      "reading": "ダッタイ"
+    },
+    {
+      "kanji": "脱出",
+      "reading": "ダッシュツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "脱帽",
+      "reading": "ダツボウ",
+      "reference": 998
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": 480,
+  "kanji": "残",
+  "readings": [
+    "ザン",
+    "のこ・る",
+    "のこ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "残る",
+      "reading": "のこる"
+    },
+    {
+      "kanji": "残す",
+      "reading": "のこす"
+    },
+    {
+      "kanji": "残り",
+      "reading": "のこり"
+    },
+    {
+      "kanji": "残らず",
+      "reading": "のこらず"
+    },
+    {
+      "kanji": "残念",
+      "reading": "ザンネン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

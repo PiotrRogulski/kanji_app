@@ -1,0 +1,24 @@
+{
+  "id": 1358,
+  "kanji": "捜",
+  "readings": [
+    "ソウ",
+    "さが・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "捜す",
+      "reading": "さがす"
+    },
+    {
+      "kanji": "捜索",
+      "reading": "ソウサク"
+    },
+    {
+      "kanji": "捜査",
+      "reading": "ソウサ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

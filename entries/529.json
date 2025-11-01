@@ -1,0 +1,25 @@
+{
+  "id": 529,
+  "kanji": "遊",
+  "readings": [
+    "ユウ",
+    "ユ",
+    "あそ・ぶ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "遊ぶ",
+      "reading": "あそぶ"
+    },
+    {
+      "kanji": "遊び",
+      "reading": "あそび"
+    },
+    {
+      "kanji": "遊園地",
+      "reading": "ユウエンチ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

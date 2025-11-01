@@ -1,0 +1,23 @@
+{
+  "id": 942,
+  "kanji": "伸",
+  "readings": [
+    "シン",
+    "の・びる",
+    "の・ばす",
+    "の・べる",
+    "の・びやか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "伸びる",
+      "reading": "のびる"
+    },
+    {
+      "kanji": "伸ばす",
+      "reading": "のばす"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

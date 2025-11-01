@@ -1,0 +1,39 @@
+{
+  "id": 1168,
+  "kanji": "領",
+  "readings": [
+    "リョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "要領",
+      "reading": "ヨウリョウ"
+    },
+    {
+      "kanji": "領土",
+      "reading": "リョウド"
+    },
+    {
+      "kanji": "大統領",
+      "reading": "ダイトウリョウ"
+    },
+    {
+      "kanji": "領収書",
+      "reading": "リョウシュウショ"
+    },
+    {
+      "kanji": "占領",
+      "reading": "センリョウ"
+    },
+    {
+      "kanji": "領域",
+      "reading": "リョウイキ"
+    },
+    {
+      "kanji": "領事",
+      "reading": "リョウジ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

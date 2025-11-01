@@ -1,0 +1,21 @@
+{
+  "id": 1034,
+  "kanji": "微",
+  "readings": [
+    "ビ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "微細な",
+      "reading": "ビサイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "微妙な",
+      "reading": "ビミョウ",
+      "reference": 1037
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": 1332,
+  "kanji": "携",
+  "readings": [
+    "ケイ",
+    "たずさ・える",
+    "たずさ・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "携わる",
+      "reading": "たずさわる"
+    },
+    {
+      "kanji": "携帯（電話）",
+      "reading": "ケイタイ（デンワ）"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

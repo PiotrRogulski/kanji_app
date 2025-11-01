@@ -1,0 +1,27 @@
+{
+  "id": 1279,
+  "kanji": "緩",
+  "readings": [
+    "カン",
+    "ゆる・い",
+    "ゆる・やか",
+    "ゆる・む",
+    "ゆる・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "緩い",
+      "reading": "ゆるい"
+    },
+    {
+      "kanji": "緩める",
+      "reading": "ゆるめる"
+    },
+    {
+      "kanji": "緩和",
+      "reading": "カンワ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

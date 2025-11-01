@@ -1,0 +1,59 @@
+{
+  "id": 877,
+  "kanji": "改",
+  "readings": [
+    "カイ",
+    "あらた・める",
+    "あらた・まる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "改める",
+      "reading": "あらためる"
+    },
+    {
+      "kanji": "改まる",
+      "reading": "あらたまる"
+    },
+    {
+      "kanji": "改めて",
+      "reading": "あらためて"
+    },
+    {
+      "kanji": "改新",
+      "reading": "カイシン"
+    },
+    {
+      "kanji": "改正",
+      "reading": "カイセイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "改革",
+      "reading": "カイカク",
+      "reference": 878
+    },
+    {
+      "kanji": "改善",
+      "reading": "カイゼン",
+      "reference": 1108
+    },
+    {
+      "kanji": "改札",
+      "reading": "カイサツ",
+      "reference": 1207
+    },
+    {
+      "kanji": "改札口",
+      "reading": "カイサツぐち",
+      "reference": 1207
+    },
+    {
+      "kanji": "改訂",
+      "reading": "カイテイ",
+      "reference": 1516
+    }
+  ],
+  "additionalWords": []
+}

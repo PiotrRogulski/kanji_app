@@ -1,0 +1,38 @@
+{
+  "id": 705,
+  "kanji": "香",
+  "readings": [
+    "コウ",
+    "キョウ",
+    "か",
+    "かお・り",
+    "かお・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "香る",
+      "reading": "かおる"
+    },
+    {
+      "kanji": "香り",
+      "reading": "かおり"
+    },
+    {
+      "kanji": "香水",
+      "reading": "コウスイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "香辛料",
+      "reading": "コウシンリョウ",
+      "reference": 720
+    },
+    {
+      "kanji": "芳香",
+      "reading": "ホウコウ",
+      "reference": 1488
+    }
+  ],
+  "additionalWords": []
+}

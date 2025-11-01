@@ -1,0 +1,30 @@
+{
+  "id": 862,
+  "kanji": "耐",
+  "readings": [
+    "タイ",
+    "た・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "耐える",
+      "reading": "たえる"
+    },
+    {
+      "kanji": "耐久",
+      "reading": "タイキュウ"
+    },
+    {
+      "kanji": "耐水",
+      "reading": "タイスイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "忍耐",
+      "reading": "ニンタイ",
+      "reference": 996
+    }
+  ],
+  "additionalWords": []
+}

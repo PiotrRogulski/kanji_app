@@ -1,0 +1,22 @@
+{
+  "id": 1066,
+  "kanji": "滞",
+  "readings": [
+    "タイ",
+    "とどこお・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "滞在",
+      "reading": "タイザイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "渋滞",
+      "reading": "ジュウタイ",
+      "reference": 1331
+    }
+  ],
+  "additionalWords": []
+}

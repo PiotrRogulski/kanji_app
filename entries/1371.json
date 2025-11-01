@@ -1,0 +1,25 @@
+{
+  "id": 1371,
+  "kanji": "滑",
+  "readings": [
+    "カツ",
+    "すべ・る",
+    "なめ・らか"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "滑る",
+      "reading": "すべる"
+    },
+    {
+      "kanji": "滑らかな",
+      "reading": "なめらかな"
+    },
+    {
+      "kanji": "円滑な",
+      "reading": "エンカツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

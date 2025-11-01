@@ -1,0 +1,39 @@
+{
+  "id": 605,
+  "kanji": "師",
+  "readings": [
+    "シ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "医師",
+      "reading": "イシ"
+    },
+    {
+      "kanji": "教師",
+      "reading": "キョウシ"
+    },
+    {
+      "kanji": "技師",
+      "reading": "ギシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "看護師",
+      "reading": "カンゴシ",
+      "reference": 707
+    },
+    {
+      "kanji": "講師",
+      "reading": "コウシ",
+      "reference": 1208
+    },
+    {
+      "kanji": "牧師",
+      "reading": "ボクシ",
+      "reference": 1402
+    }
+  ],
+  "additionalWords": []
+}

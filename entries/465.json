@@ -1,0 +1,22 @@
+{
+  "id": 465,
+  "kanji": "顔",
+  "readings": [
+    "ガン",
+    "かお"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "顔",
+      "reading": "かお"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "笑顔",
+      "reading": "えがお",
+      "reference": 760
+    }
+  ],
+  "additionalWords": []
+}

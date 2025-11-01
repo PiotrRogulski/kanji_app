@@ -1,0 +1,31 @@
+{
+  "id": 544,
+  "kanji": "普",
+  "readings": [
+    "フ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "普通",
+      "reading": "フツウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "普請",
+      "reading": "フシン",
+      "reference": 613
+    },
+    {
+      "kanji": "普段",
+      "reading": "フダン",
+      "reference": 645
+    },
+    {
+      "kanji": "普及",
+      "reading": "フキュウ",
+      "reference": 947
+    }
+  ],
+  "additionalWords": []
+}

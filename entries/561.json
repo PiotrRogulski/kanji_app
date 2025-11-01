@@ -1,0 +1,21 @@
+{
+  "id": 561,
+  "kanji": "任",
+  "readings": [
+    "ニン",
+    "まか・せる",
+    "まか・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "任せる",
+      "reading": "まかせる"
+    },
+    {
+      "kanji": "責任",
+      "reading": "セキニン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

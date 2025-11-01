@@ -1,0 +1,53 @@
+{
+  "id": 834,
+  "kanji": "断",
+  "readings": [
+    "ダン",
+    "た・つ",
+    "ことわ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "断る",
+      "reading": "ことわる"
+    },
+    {
+      "kanji": "断定",
+      "reading": "ダンテイ"
+    },
+    {
+      "kanji": "決断",
+      "reading": "ケツダン"
+    },
+    {
+      "kanji": "油断",
+      "reading": "ユダン"
+    },
+    {
+      "kanji": "横断",
+      "reading": "オウダン"
+    },
+    {
+      "kanji": "横断歩道",
+      "reading": "オウダンホドウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "判断",
+      "reading": "ハンダン",
+      "reference": 980
+    },
+    {
+      "kanji": "断絶",
+      "reading": "ダンゼツ",
+      "reference": 990
+    },
+    {
+      "kanji": "診断",
+      "reading": "シンダン",
+      "reference": 1103
+    }
+  ],
+  "additionalWords": []
+}

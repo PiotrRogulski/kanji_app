@@ -1,0 +1,41 @@
+{
+  "id": 576,
+  "kanji": "週",
+  "readings": [
+    "シュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "週間",
+      "reading": "シュウカン"
+    },
+    {
+      "kanji": "今週",
+      "reading": "コンシュウ"
+    },
+    {
+      "kanji": "来週",
+      "reading": "ライシュウ"
+    },
+    {
+      "kanji": "先週",
+      "reading": "センシュウ"
+    },
+    {
+      "kanji": "週末",
+      "reading": "シュウマツ"
+    },
+    {
+      "kanji": "毎週",
+      "reading": "マイシュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "再来週",
+      "reading": "サライシュウ",
+      "reference": 717
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 809,
+  "kanji": "離",
+  "readings": [
+    "リ",
+    "はな・れる",
+    "はな・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "離れる",
+      "reading": "はなれる"
+    },
+    {
+      "kanji": "離す",
+      "reading": "はなす"
+    },
+    {
+      "kanji": "分離",
+      "reading": "ブンリ"
+    },
+    {
+      "kanji": "離婚",
+      "reading": "リコン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "距離",
+      "reading": "キョリ",
+      "reference": 821
+    },
+    {
+      "kanji": "隔離",
+      "reading": "カクリ",
+      "reference": 931
+    }
+  ],
+  "additionalWords": []
+}

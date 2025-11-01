@@ -1,0 +1,29 @@
+{
+  "id": 1262,
+  "kanji": "著",
+  "readings": [
+    "チョ",
+    "あらわ・す",
+    "いちじる・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "著しい",
+      "reading": "いちじるしい"
+    },
+    {
+      "kanji": "著者",
+      "reading": "チョシャ"
+    },
+    {
+      "kanji": "著名な",
+      "reading": "チョメイ"
+    },
+    {
+      "kanji": "著書",
+      "reading": "チョショ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

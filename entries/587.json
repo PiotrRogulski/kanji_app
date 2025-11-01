@@ -1,0 +1,45 @@
+{
+  "id": 587,
+  "kanji": "有",
+  "readings": [
+    "ユウ",
+    "あ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "有る",
+      "reading": "ある"
+    },
+    {
+      "kanji": "有名な",
+      "reading": "ユウメイ"
+    },
+    {
+      "kanji": "有料",
+      "reading": "ユウリョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "有（り）難い",
+      "reading": "ありがたい",
+      "reference": 903
+    },
+    {
+      "kanji": "有罪",
+      "reading": "ユウザイ",
+      "reference": 952
+    },
+    {
+      "kanji": "有効な",
+      "reading": "ユウコウ",
+      "reference": 1015
+    },
+    {
+      "kanji": "有益な",
+      "reading": "ユウエキ",
+      "reference": 1085
+    }
+  ],
+  "additionalWords": []
+}

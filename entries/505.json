@@ -1,0 +1,20 @@
+{
+  "id": 505,
+  "kanji": "忘",
+  "readings": [
+    "ボウ",
+    "わす・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "忘れる",
+      "reading": "わすれる"
+    },
+    {
+      "kanji": "忘れ物",
+      "reading": "わすれもの"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

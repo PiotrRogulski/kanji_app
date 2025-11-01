@@ -1,0 +1,23 @@
+{
+  "id": 1263,
+  "kanji": "刊",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "刊行",
+      "reading": "カンコウ"
+    },
+    {
+      "kanji": "朝刊",
+      "reading": "チョウカン"
+    },
+    {
+      "kanji": "夕刊",
+      "reading": "ユウカン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

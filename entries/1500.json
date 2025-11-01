@@ -1,0 +1,30 @@
+{
+  "id": 1500,
+  "kanji": "陰",
+  "readings": [
+    "イン",
+    "かげ",
+    "かげ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "蔭",
+      "reading": "かげ"
+    },
+    {
+      "kanji": "陰気な",
+      "reading": "インキ"
+    },
+    {
+      "kanji": "日陰",
+      "reading": "ひかげ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "陰陽",
+      "reading": "インヨウ／オンミョウ"
+    }
+  ]
+}

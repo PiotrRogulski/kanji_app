@@ -1,0 +1,24 @@
+{
+  "id": 1285,
+  "kanji": "盗",
+  "readings": [
+    "トウ",
+    "ぬす・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "盗む",
+      "reading": "ぬすむ"
+    },
+    {
+      "kanji": "盗難",
+      "reading": "トウナン"
+    },
+    {
+      "kanji": "強盗",
+      "reading": "ゴウトウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1023,
+  "kanji": "推",
+  "readings": [
+    "スイ",
+    "お・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "推定",
+      "reading": "スイテイ"
+    },
+    {
+      "kanji": "推測",
+      "reading": "スイソク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "推薦",
+      "reading": "スイセン",
+      "reference": 1297
+    },
+    {
+      "kanji": "推薦状",
+      "reading": "スイセンジョウ",
+      "reference": 1297
+    }
+  ],
+  "additionalWords": []
+}

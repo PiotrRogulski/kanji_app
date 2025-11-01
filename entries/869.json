@@ -1,0 +1,53 @@
+{
+  "id": 869,
+  "kanji": "優",
+  "readings": [
+    "ユウ",
+    "やさ・しい",
+    "すぐ・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "優しい",
+      "reading": "やさしい"
+    },
+    {
+      "kanji": "優れる",
+      "reading": "すぐれる"
+    },
+    {
+      "kanji": "優れた",
+      "reading": "すぐれた"
+    },
+    {
+      "kanji": "優先",
+      "reading": "ユウセン"
+    },
+    {
+      "kanji": "優勝",
+      "reading": "ユウショウ"
+    },
+    {
+      "kanji": "女優",
+      "reading": "ジョユウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "優秀な",
+      "reading": "ユウシュウ",
+      "reference": 1139
+    },
+    {
+      "kanji": "優雅な",
+      "reading": "ユウガ",
+      "reference": 1329
+    },
+    {
+      "kanji": "俳優",
+      "reading": "ハイユウ",
+      "reference": 1441
+    }
+  ],
+  "additionalWords": []
+}

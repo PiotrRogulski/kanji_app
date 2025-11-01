@@ -1,0 +1,21 @@
+{
+  "id": 1070,
+  "kanji": "怒",
+  "readings": [
+    "ド",
+    "いか・る",
+    "おこ・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "怒る",
+      "reading": "おこる"
+    },
+    {
+      "kanji": "怒り",
+      "reading": "いかり"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": 1069,
+  "kanji": "提",
+  "readings": [
+    "テイ",
+    "さ・げる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "提供",
+      "reading": "テイキョウ"
+    },
+    {
+      "kanji": "提出",
+      "reading": "テイシュツ"
+    },
+    {
+      "kanji": "提案",
+      "reading": "テイアン"
+    },
+    {
+      "kanji": "前提",
+      "reading": "ゼンテイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "提訴",
+      "reading": "テイソ",
+      "reference": 1173
+    }
+  ],
+  "additionalWords": []
+}

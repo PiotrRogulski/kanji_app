@@ -1,0 +1,33 @@
+{
+  "id": 690,
+  "kanji": "換",
+  "readings": [
+    "カン",
+    "か・える",
+    "か・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "換える",
+      "reading": "かえる"
+    },
+    {
+      "kanji": "交換",
+      "reading": "コウカン"
+    },
+    {
+      "kanji": "換気",
+      "reading": "カンキ"
+    },
+    {
+      "kanji": "乗り換える",
+      "reading": "のりかえる"
+    },
+    {
+      "kanji": "乗り換え",
+      "reading": "のりかえ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

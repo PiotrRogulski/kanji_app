@@ -1,0 +1,31 @@
+{
+  "id": 953,
+  "kanji": "衆",
+  "readings": [
+    "シュウ",
+    "シュ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "民衆",
+      "reading": "ミンシュウ"
+    },
+    {
+      "kanji": "公衆",
+      "reading": "コウシュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "群衆",
+      "reading": "グンシュウ",
+      "reference": 1046
+    },
+    {
+      "kanji": "聴衆",
+      "reading": "チョウシュウ",
+      "reference": 1230
+    }
+  ],
+  "additionalWords": []
+}

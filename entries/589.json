@@ -1,0 +1,30 @@
+{
+  "id": 589,
+  "kanji": "介",
+  "readings": [
+    "カイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "紹介",
+      "reading": "ショウカイ"
+    },
+    {
+      "kanji": "介入",
+      "reading": "カイニュウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "自己紹介",
+      "reading": "ジコショウカイ",
+      "reference": 950
+    },
+    {
+      "kanji": "仲介",
+      "reading": "チュウカイ",
+      "reference": 1004
+    }
+  ],
+  "additionalWords": []
+}

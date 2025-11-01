@@ -1,0 +1,32 @@
+{
+  "id": 703,
+  "kanji": "影",
+  "readings": [
+    "エイ",
+    "かげ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "人影",
+      "reading": "ひとかげ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "影響",
+      "reading": "エイキョウ",
+      "reference": 709
+    },
+    {
+      "kanji": "投影",
+      "reading": "トウエイ",
+      "reference": 902
+    },
+    {
+      "kanji": "撮影",
+      "reading": "サツエイ",
+      "reference": 974
+    }
+  ],
+  "additionalWords": []
+}

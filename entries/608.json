@@ -1,0 +1,45 @@
+{
+  "id": 608,
+  "kanji": "調",
+  "readings": [
+    "チョウ",
+    "しら・べる",
+    "ととの・う",
+    "ととの・える"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "調べる",
+      "reading": "しらべる"
+    },
+    {
+      "kanji": "調子",
+      "reading": "チョウシ"
+    },
+    {
+      "kanji": "調味料",
+      "reading": "チョウミリョウ"
+    },
+    {
+      "kanji": "調和",
+      "reading": "チョウワ"
+    },
+    {
+      "kanji": "強調",
+      "reading": "キョウチョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "調査",
+      "reading": "チョウサ",
+      "reference": 655
+    },
+    {
+      "kanji": "調整",
+      "reading": "チョウセイ",
+      "reference": 831
+    }
+  ],
+  "additionalWords": []
+}

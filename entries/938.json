@@ -1,0 +1,26 @@
+{
+  "id": 938,
+  "kanji": "縦",
+  "readings": [
+    "ジュウ",
+    "たて"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "縦",
+      "reading": "たて"
+    },
+    {
+      "kanji": "縱橫",
+      "reading": "ジュウオウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "操縦",
+      "reading": "ソウジュウ",
+      "reference": 991
+    }
+  ],
+  "additionalWords": []
+}

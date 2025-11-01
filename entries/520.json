@@ -1,0 +1,39 @@
+{
+  "id": 520,
+  "kanji": "列",
+  "readings": [
+    "レツ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "列",
+      "reading": "レツ"
+    },
+    {
+      "kanji": "列車",
+      "reading": "レッシャ"
+    },
+    {
+      "kanji": "行列",
+      "reading": "ギョウレツ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "列島",
+      "reading": "レットウ",
+      "reference": 675
+    },
+    {
+      "kanji": "快速列車",
+      "reading": "カイソクレッシャ",
+      "reference": 817
+    },
+    {
+      "kanji": "陳列窓",
+      "reading": "チンレツまど",
+      "reference": 1440
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 797,
+  "kanji": "展",
+  "readings": [
+    "テン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "展開",
+      "reading": "テンカイ"
+    },
+    {
+      "kanji": "発展",
+      "reading": "ハッテン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "展示",
+      "reading": "テンジ",
+      "reference": 940
+    },
+    {
+      "kanji": "展覧",
+      "reading": "テンラン",
+      "reference": 1443
+    },
+    {
+      "kanji": "展覧会",
+      "reading": "テンランカイ",
+      "reference": 1443
+    }
+  ],
+  "additionalWords": []
+}

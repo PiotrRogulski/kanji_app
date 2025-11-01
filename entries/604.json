@@ -1,0 +1,32 @@
+{
+  "id": 604,
+  "kanji": "程",
+  "readings": [
+    "テイ",
+    "ほど"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "程",
+      "reading": "ほど"
+    },
+    {
+      "kanji": "程度",
+      "reading": "テイド"
+    },
+    {
+      "kanji": "日程",
+      "reading": "ニッテイ"
+    },
+    {
+      "kanji": "過程",
+      "reading": "カテイ"
+    },
+    {
+      "kanji": "課程",
+      "reading": "カテイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": 1368,
+  "kanji": "賄",
+  "readings": [
+    "ワイ",
+    "まかな・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "贈賄",
+      "reading": "ゾウワイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "賄賂",
+      "reading": "ワイロ"
+    }
+  ]
+}

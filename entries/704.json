@@ -1,0 +1,25 @@
+{
+  "id": 704,
+  "kanji": "看",
+  "readings": [
+    "カン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "看病",
+      "reading": "カンビョウ"
+    },
+    {
+      "kanji": "看板",
+      "reading": "カンバン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "看護師",
+      "reading": "カンゴシ",
+      "reference": 707
+    }
+  ],
+  "additionalWords": []
+}

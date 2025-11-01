@@ -1,0 +1,47 @@
+{
+  "id": 880,
+  "kanji": "告",
+  "readings": [
+    "コク",
+    "つ・げる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "告げる",
+      "reading": "つげる"
+    },
+    {
+      "kanji": "告白",
+      "reading": "コクハク"
+    },
+    {
+      "kanji": "通告",
+      "reading": "ツウコク"
+    },
+    {
+      "kanji": "報告",
+      "reading": "ホウコク"
+    },
+    {
+      "kanji": "広告",
+      "reading": "コウコク"
+    },
+    {
+      "kanji": "警告",
+      "reading": "ケイコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "被告",
+      "reading": "ヒコク",
+      "reference": 957
+    },
+    {
+      "kanji": "忠告",
+      "reading": "チュウコク",
+      "reference": 1333
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1206,
+  "kanji": "超",
+  "readings": [
+    "チョウ",
+    "こ・える",
+    "こ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "超＿",
+      "reading": "チョウ"
+    },
+    {
+      "kanji": "超える",
+      "reading": "こえる"
+    },
+    {
+      "kanji": "超す",
+      "reading": "こす"
+    },
+    {
+      "kanji": "超過",
+      "reading": "チョウカ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

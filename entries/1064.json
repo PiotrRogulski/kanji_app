@@ -1,0 +1,24 @@
+{
+  "id": 1064,
+  "kanji": "騒",
+  "readings": [
+    "ソウ",
+    "さわ・ぐ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "騒ぐ",
+      "reading": "さわぐ"
+    },
+    {
+      "kanji": "騒がしい",
+      "reading": "さわがしい"
+    },
+    {
+      "kanji": "騒音",
+      "reading": "ソウオン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

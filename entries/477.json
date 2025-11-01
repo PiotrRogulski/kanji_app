@@ -1,0 +1,29 @@
+{
+  "id": 477,
+  "kanji": "植",
+  "readings": [
+    "ショク",
+    "う・える",
+    "う・わる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "植える",
+      "reading": "うえる"
+    },
+    {
+      "kanji": "植物",
+      "reading": "ショクブツ"
+    },
+    {
+      "kanji": "植物園",
+      "reading": "ショクブツエン"
+    },
+    {
+      "kanji": "植民地",
+      "reading": "ショクミンチ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

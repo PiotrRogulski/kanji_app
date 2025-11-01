@@ -1,0 +1,44 @@
+{
+  "id": 945,
+  "kanji": "得",
+  "readings": [
+    "トク",
+    "え・る",
+    "う・る"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "得",
+      "reading": "トク"
+    },
+    {
+      "kanji": "得る",
+      "reading": "える"
+    },
+    {
+      "kanji": "得る",
+      "reading": "うる"
+    },
+    {
+      "kanji": "得意",
+      "reading": "トクイ"
+    },
+    {
+      "kanji": "説得",
+      "reading": "セットク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "納得",
+      "reading": "ナットク",
+      "reference": 956
+    },
+    {
+      "kanji": "獲得",
+      "reading": "カクトク",
+      "reference": 1339
+    }
+  ],
+  "additionalWords": []
+}

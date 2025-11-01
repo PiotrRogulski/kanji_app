@@ -1,0 +1,36 @@
+{
+  "id": 646,
+  "kanji": "選",
+  "readings": [
+    "セン",
+    "えら・ぶ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "選ぶ",
+      "reading": "えらぶ"
+    },
+    {
+      "kanji": "選手",
+      "reading": "センシュ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "選挙",
+      "reading": "センキョ",
+      "reference": 847
+    },
+    {
+      "kanji": "選抜",
+      "reading": "センバツ",
+      "reference": 1118
+    },
+    {
+      "kanji": "選択",
+      "reading": "センタク",
+      "reference": 1277
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 795,
+  "kanji": "逃",
+  "readings": [
+    "トウ",
+    "に・げる",
+    "に・がす",
+    "のが・す",
+    "のが・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "逃げる",
+      "reading": "にげる"
+    },
+    {
+      "kanji": "逃がす",
+      "reading": "にがす"
+    },
+    {
+      "kanji": "見逃す",
+      "reading": "みのがす"
+    },
+    {
+      "kanji": "逃亡",
+      "reading": "トウボウ"
+    },
+    {
+      "kanji": "逃避",
+      "reading": "トウヒ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

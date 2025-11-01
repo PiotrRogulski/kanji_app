@@ -1,0 +1,22 @@
+{
+  "id": 1301,
+  "kanji": "謹",
+  "readings": [
+    "キン",
+    "つつし・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "謹賀新年",
+      "reading": "キンガシンネン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "謹啓",
+      "reading": "キンケイ",
+      "reference": 1454
+    }
+  ],
+  "additionalWords": []
+}

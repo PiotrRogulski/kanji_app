@@ -1,0 +1,34 @@
+{
+  "id": 959,
+  "kanji": "印",
+  "readings": [
+    "イン",
+    "しるし"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "印",
+      "reading": "しるし"
+    },
+    {
+      "kanji": "印象",
+      "reading": "インショウ"
+    },
+    {
+      "kanji": "目印",
+      "reading": "めじるし"
+    },
+    {
+      "kanji": "矢印",
+      "reading": "やじるし"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "印刷",
+      "reading": "インサツ",
+      "reference": 1424
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1164,
+  "kanji": "党",
+  "readings": [
+    "トウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "党",
+      "reading": "トウ"
+    },
+    {
+      "kanji": "政党",
+      "reading": "セイトウ"
+    },
+    {
+      "kanji": "野党",
+      "reading": "ヤトウ"
+    },
+    {
+      "kanji": "与党",
+      "reading": "ヨトウ"
+    },
+    {
+      "kanji": "自民党",
+      "reading": "ジミントウ"
+    },
+    {
+      "kanji": "社会党",
+      "reading": "シャカイトウ"
+    },
+    {
+      "kanji": "共産党",
+      "reading": "キョウサントウ"
+    },
+    {
+      "kanji": "民主党",
+      "reading": "ミンシュトウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 903,
+  "kanji": "難",
+  "readings": [
+    "ナン",
+    "かた・い",
+    "むずか・しい"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "難しい",
+      "reading": "むずかしい"
+    },
+    {
+      "kanji": "困難",
+      "reading": "コンナン"
+    },
+    {
+      "kanji": "災難",
+      "reading": "サイナン"
+    },
+    {
+      "kanji": "避難",
+      "reading": "ヒナン"
+    },
+    {
+      "kanji": "有（り）難い",
+      "reading": "ありがたい"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "盗難",
+      "reading": "トウナン",
+      "reference": 1285
+    }
+  ],
+  "additionalWords": []
+}

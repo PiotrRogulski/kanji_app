@@ -1,0 +1,34 @@
+{
+  "id": 1026,
+  "kanji": "臓",
+  "readings": [
+    "ゾウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "臓器",
+      "reading": "ゾウキ"
+    },
+    {
+      "kanji": "内臓",
+      "reading": "ナイゾウ"
+    },
+    {
+      "kanji": "心臓",
+      "reading": "シンゾウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "肝臓",
+      "reading": "カンゾウ",
+      "reference": 1081
+    },
+    {
+      "kanji": "肺臓",
+      "reading": "ハイゾウ",
+      "reference": 1116
+    }
+  ],
+  "additionalWords": []
+}

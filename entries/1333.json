@@ -1,0 +1,21 @@
+{
+  "id": 1333,
+  "kanji": "忠",
+  "readings": [
+    "チュウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "忠告",
+      "reading": "チュウコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "忠誠",
+      "reading": "チュウセイ",
+      "reference": 1343
+    }
+  ],
+  "additionalWords": []
+}

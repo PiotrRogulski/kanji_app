@@ -1,0 +1,35 @@
+{
+  "id": 860,
+  "kanji": "窓",
+  "readings": [
+    "ソウ",
+    "まど"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "窓",
+      "reading": "まど"
+    },
+    {
+      "kanji": "窓口",
+      "reading": "まどぐち"
+    },
+    {
+      "kanji": "同窓",
+      "reading": "ドウソウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "窓枠",
+      "reading": "まどわく",
+      "reference": 983
+    },
+    {
+      "kanji": "陳列窓",
+      "reading": "チンレツまど",
+      "reference": 1440
+    }
+  ],
+  "additionalWords": []
+}

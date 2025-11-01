@@ -1,0 +1,35 @@
+{
+  "id": 631,
+  "kanji": "衣",
+  "readings": [
+    "イ",
+    "ころも"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "衣服",
+      "reading": "イフク"
+    },
+    {
+      "kanji": "衣食住",
+      "reading": "イショクジュウ"
+    },
+    {
+      "kanji": "衣類",
+      "reading": "イルイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "衣装",
+      "reading": "イショウ",
+      "reference": 992
+    },
+    {
+      "kanji": "浴衣",
+      "reading": "ゆかた",
+      "reference": 1398
+    }
+  ],
+  "additionalWords": []
+}

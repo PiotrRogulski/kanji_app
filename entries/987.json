@@ -1,0 +1,27 @@
+{
+  "id": 987,
+  "kanji": "施",
+  "readings": [
+    "シ",
+    "セ",
+    "ほどこ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "施す",
+      "reading": "ほどこす"
+    },
+    {
+      "kanji": "実施",
+      "reading": "ジッシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "施設",
+      "reading": "シセツ",
+      "reference": 989
+    }
+  ],
+  "additionalWords": []
+}

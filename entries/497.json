@@ -1,0 +1,31 @@
+{
+  "id": 497,
+  "kanji": "亡",
+  "readings": [
+    "ボウ",
+    "モウ",
+    "な・い"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "亡くなる",
+      "reading": "なくなる"
+    },
+    {
+      "kanji": "亡くす",
+      "reading": "なくす"
+    },
+    {
+      "kanji": "死亡",
+      "reading": "シボウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "逃亡",
+      "reading": "トウボウ",
+      "reference": 795
+    }
+  ],
+  "additionalWords": []
+}

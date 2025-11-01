@@ -1,0 +1,24 @@
+{
+  "id": 1259,
+  "kanji": "救",
+  "readings": [
+    "キュウ",
+    "すく・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "救う",
+      "reading": "すくう"
+    },
+    {
+      "kanji": "救助",
+      "reading": "キュウジョ"
+    },
+    {
+      "kanji": "救急車",
+      "reading": "キュウキュウシャ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

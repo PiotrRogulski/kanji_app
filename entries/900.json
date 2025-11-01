@@ -1,0 +1,22 @@
+{
+  "id": 900,
+  "kanji": "埋",
+  "readings": [
+    "マイ",
+    "う・める",
+    "う・まる",
+    "う・もれる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "埋める",
+      "reading": "うめる"
+    },
+    {
+      "kanji": "埋葬",
+      "reading": "マイソウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

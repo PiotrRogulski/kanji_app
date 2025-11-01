@@ -39,6 +39,9 @@ dev_dependencies:
   build_runner: ^2.10.1
   code_builder: ^4.11.0
   dart_style: ^3.1.2
+  excel:
+    git: https://github.com/justkawal/excel
+  file: ^7.0.1
   go_router_builder: ^4.1.1
   leancode_lint: ^20.0.0-dev.5
 

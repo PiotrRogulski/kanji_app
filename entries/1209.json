@@ -1,0 +1,20 @@
+{
+  "id": 1209,
+  "kanji": "摘",
+  "readings": [
+    "テキ",
+    "つ・む"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "摘む",
+      "reading": "つむ"
+    },
+    {
+      "kanji": "指摘",
+      "reading": "シテキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

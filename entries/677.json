@@ -1,0 +1,34 @@
+{
+  "id": 677,
+  "kanji": "薄",
+  "readings": [
+    "ハク",
+    "うす・い",
+    "うす・める",
+    "うす・まる",
+    "うす・らぐ",
+    "うす・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "薄い",
+      "reading": "うすい"
+    },
+    {
+      "kanji": "薄める",
+      "reading": "うすめる"
+    },
+    {
+      "kanji": "軽薄な",
+      "reading": "ケイハク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "浅薄な",
+      "reading": "センパク",
+      "reference": 1385
+    }
+  ],
+  "additionalWords": []
+}

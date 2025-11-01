@@ -1,0 +1,20 @@
+{
+  "id": 1354,
+  "kanji": "襲",
+  "readings": [
+    "シュウ",
+    "おそ・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "襲う",
+      "reading": "おそう"
+    },
+    {
+      "kanji": "襲撃",
+      "reading": "シュウゲキ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1304,
+  "kanji": "奪",
+  "readings": [
+    "ダツ",
+    "うば・う"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "奪う",
+      "reading": "うばう"
+    },
+    {
+      "kanji": "奪取",
+      "reading": "ダッシュ"
+    },
+    {
+      "kanji": "争奪",
+      "reading": "ソウダツ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

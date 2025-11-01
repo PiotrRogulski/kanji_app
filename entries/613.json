@@ -1,0 +1,22 @@
+{
+  "id": 613,
+  "kanji": "請",
+  "readings": [
+    "セイ",
+    "シン",
+    "こ・う",
+    "う・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "要請",
+      "reading": "ヨウセイ"
+    },
+    {
+      "kanji": "普請",
+      "reading": "フシン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

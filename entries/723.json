@@ -1,0 +1,21 @@
+{
+  "id": 723,
+  "kanji": "諸",
+  "readings": [
+    "ショ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "諸国",
+      "reading": "ショコク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "諸君",
+      "reading": "ショクン",
+      "reference": 887
+    }
+  ],
+  "additionalWords": []
+}

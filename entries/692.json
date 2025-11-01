@@ -1,0 +1,45 @@
+{
+  "id": 692,
+  "kanji": "満",
+  "readings": [
+    "マン",
+    "み・ちる",
+    "み・たす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "満ちる",
+      "reading": "みちる"
+    },
+    {
+      "kanji": "満たす",
+      "reading": "みたす"
+    },
+    {
+      "kanji": "満足",
+      "reading": "マンゾク"
+    },
+    {
+      "kanji": "不満",
+      "reading": "フマン"
+    },
+    {
+      "kanji": "満員",
+      "reading": "マンイン"
+    },
+    {
+      "kanji": "満月",
+      "reading": "マンゲツ"
+    },
+    {
+      "kanji": "満点",
+      "reading": "マンテン"
+    },
+    {
+      "kanji": "未満",
+      "reading": "ミマン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

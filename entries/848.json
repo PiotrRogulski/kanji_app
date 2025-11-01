@@ -1,0 +1,27 @@
+{
+  "id": 848,
+  "kanji": "鏡",
+  "readings": [
+    "キョウ",
+    "かがみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鏡",
+      "reading": "かがみ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "望遠鏡",
+      "reading": "ボウエンキョウ",
+      "reference": 850
+    },
+    {
+      "kanji": "眼鏡",
+      "reading": "めがね",
+      "reference": 1499
+    }
+  ],
+  "additionalWords": []
+}

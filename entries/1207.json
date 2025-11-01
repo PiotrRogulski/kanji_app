@@ -1,0 +1,41 @@
+{
+  "id": 1207,
+  "kanji": "札",
+  "readings": [
+    "サツ",
+    "ふだ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿札",
+      "reading": "サツ"
+    },
+    {
+      "kanji": "札",
+      "reading": "ふだ"
+    },
+    {
+      "kanji": "名札",
+      "reading": "なふだ"
+    },
+    {
+      "kanji": "札入れ",
+      "reading": "サツいれ"
+    },
+    {
+      "kanji": "改札",
+      "reading": "カイサツ"
+    },
+    {
+      "kanji": "改札口",
+      "reading": "カイサツぐち"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "札幌市",
+      "reading": "さっぽろシ"
+    }
+  ]
+}

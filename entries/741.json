@@ -1,0 +1,27 @@
+{
+  "id": 741,
+  "kanji": "避",
+  "readings": [
+    "ヒ",
+    "さ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "避ける",
+      "reading": "さける"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "逃避",
+      "reading": "トウヒ",
+      "reference": 795
+    },
+    {
+      "kanji": "避難",
+      "reading": "ヒナン",
+      "reference": 903
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 888,
+  "kanji": "刺",
+  "readings": [
+    "シ",
+    "さ・す",
+    "さ・さる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "刺す",
+      "reading": "さす"
+    },
+    {
+      "kanji": "刺さる",
+      "reading": "ささる"
+    },
+    {
+      "kanji": "刺し身",
+      "reading": "さしみ"
+    },
+    {
+      "kanji": "名刺",
+      "reading": "メイシ"
+    },
+    {
+      "kanji": "風刺",
+      "reading": "フウシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "刺激",
+      "reading": "シゲキ",
+      "reference": 890
+    }
+  ],
+  "additionalWords": []
+}

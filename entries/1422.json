@@ -1,0 +1,26 @@
+{
+  "id": 1422,
+  "kanji": "脅",
+  "readings": [
+    "キョウ",
+    "おびや・かす",
+    "おど・かす",
+    "おど・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "脅かす",
+      "reading": "おびやかす"
+    },
+    {
+      "kanji": "脅かす",
+      "reading": "おどかす"
+    },
+    {
+      "kanji": "脅威",
+      "reading": "キョウイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

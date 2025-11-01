@@ -1,0 +1,43 @@
+{
+  "id": 466,
+  "kanji": "紙",
+  "readings": [
+    "シ",
+    "かみ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "紙",
+      "reading": "かみ"
+    },
+    {
+      "kanji": "手紙",
+      "reading": "てがみ"
+    },
+    {
+      "kanji": "和紙",
+      "reading": "ワシ"
+    },
+    {
+      "kanji": "用紙",
+      "reading": "ヨウシ"
+    },
+    {
+      "kanji": "表紙",
+      "reading": "ヒョウシ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "折り紙",
+      "reading": "おりがみ",
+      "reference": 857
+    },
+    {
+      "kanji": "原稿用紙",
+      "reading": "ゲンコウヨウシ",
+      "reference": 1453
+    }
+  ],
+  "additionalWords": []
+}

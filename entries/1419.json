@@ -1,0 +1,34 @@
+{
+  "id": 1419,
+  "kanji": "甘",
+  "readings": [
+    "カン",
+    "あま・い",
+    "あま・える",
+    "あま・やかす"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "甘い",
+      "reading": "あまい"
+    },
+    {
+      "kanji": "甘える",
+      "reading": "あまえる"
+    },
+    {
+      "kanji": "甘やかす",
+      "reading": "あまやかす"
+    },
+    {
+      "kanji": "甘言",
+      "reading": "カンゲン"
+    },
+    {
+      "kanji": "甘口",
+      "reading": "あまくち"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

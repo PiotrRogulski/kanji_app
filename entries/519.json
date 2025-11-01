@@ -1,0 +1,39 @@
+{
+  "id": 519,
+  "kanji": "根",
+  "readings": [
+    "コン",
+    "ね"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "根",
+      "reading": "ね"
+    },
+    {
+      "kanji": "根本的",
+      "reading": "コンポンテキ"
+    },
+    {
+      "kanji": "大根",
+      "reading": "ダイコン"
+    },
+    {
+      "kanji": "羽根",
+      "reading": "はね"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "屋根",
+      "reading": "やね",
+      "reference": 534
+    },
+    {
+      "kanji": "根拠",
+      "reading": "コンキョ",
+      "reference": 694
+    }
+  ],
+  "additionalWords": []
+}

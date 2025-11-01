@@ -1,0 +1,21 @@
+{
+  "id": 1346,
+  "kanji": "句",
+  "readings": [
+    "ク"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "文句",
+      "reading": "モンク"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "俳句",
+      "reading": "ハイク",
+      "reference": 1441
+    }
+  ],
+  "additionalWords": []
+}

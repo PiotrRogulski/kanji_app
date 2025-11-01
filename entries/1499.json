@@ -1,0 +1,25 @@
+{
+  "id": 1499,
+  "kanji": "眼",
+  "readings": [
+    "ガン",
+    "ゲン",
+    "まなこ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "眼球",
+      "reading": "ガンキュウ"
+    },
+    {
+      "kanji": "眼科",
+      "reading": "ガンカ"
+    },
+    {
+      "kanji": "眼鏡",
+      "reading": "めがね"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

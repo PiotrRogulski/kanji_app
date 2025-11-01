@@ -1,0 +1,35 @@
+{
+  "id": 1012,
+  "kanji": "芸",
+  "readings": [
+    "ゲイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "芸術",
+      "reading": "ゲイジュツ"
+    },
+    {
+      "kanji": "芸能",
+      "reading": "ゲイノウ"
+    },
+    {
+      "kanji": "芸能人",
+      "reading": "ゲイノウジン"
+    },
+    {
+      "kanji": "芸者",
+      "reading": "ゲイシャ"
+    },
+    {
+      "kanji": "工芸",
+      "reading": "コウゲイ"
+    },
+    {
+      "kanji": "文芸",
+      "reading": "ブンゲイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

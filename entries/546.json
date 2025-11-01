@@ -1,0 +1,52 @@
+{
+  "id": 546,
+  "kanji": "市",
+  "readings": [
+    "シ",
+    "いち"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "＿市",
+      "reading": "シ"
+    },
+    {
+      "kanji": "都市",
+      "reading": "トシ"
+    },
+    {
+      "kanji": "市民",
+      "reading": "シミン"
+    },
+    {
+      "kanji": "市役所",
+      "reading": "シヤクショ"
+    },
+    {
+      "kanji": "市場",
+      "reading": "いちば"
+    },
+    {
+      "kanji": "市場",
+      "reading": "シジョウ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "市街",
+      "reading": "シガイ",
+      "reference": 1202
+    },
+    {
+      "kanji": "旧市街",
+      "reading": "キュウシガイ",
+      "reference": 1203
+    },
+    {
+      "kanji": "新潟市",
+      "reading": "にいがたシ",
+      "reference": 1352
+    }
+  ],
+  "additionalWords": []
+}

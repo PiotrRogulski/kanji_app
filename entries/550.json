@@ -1,0 +1,34 @@
+{
+  "id": 550,
+  "kanji": "験",
+  "readings": [
+    "ケン",
+    "ゲン"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "受験",
+      "reading": "ジュケン"
+    },
+    {
+      "kanji": "経験",
+      "reading": "ケイケン"
+    },
+    {
+      "kanji": "体験",
+      "reading": "タイケン"
+    },
+    {
+      "kanji": "実験",
+      "reading": "ジッケン"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "試験",
+      "reading": "シケン",
+      "reference": 592
+    }
+  ],
+  "additionalWords": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1237,
+  "kanji": "壊",
+  "readings": [
+    "カイ",
+    "こわ・す",
+    "こわ・れる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "壊す",
+      "reading": "こわす"
+    },
+    {
+      "kanji": "壊れる",
+      "reading": "こわれる"
+    },
+    {
+      "kanji": "破壊",
+      "reading": "ハカイ"
+    },
+    {
+      "kanji": "崩壊",
+      "reading": "ホウカイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "壊滅",
+      "reading": "カイメツ",
+      "reference": 1412
+    }
+  ],
+  "additionalWords": []
+}

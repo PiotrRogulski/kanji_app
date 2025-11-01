@@ -1,0 +1,25 @@
+{
+  "id": 1273,
+  "kanji": "瀬",
+  "readings": [
+    "せ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "瀬戸",
+      "reading": "せと"
+    },
+    {
+      "kanji": "瀬戸内海",
+      "reading": "せとナイカイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "浅瀬",
+      "reading": "あさせ",
+      "reference": 1385
+    }
+  ],
+  "additionalWords": []
+}

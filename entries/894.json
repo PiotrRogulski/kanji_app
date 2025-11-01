@@ -1,0 +1,28 @@
+{
+  "id": 894,
+  "kanji": "尋",
+  "readings": [
+    "ジン",
+    "たず・ねる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "尋ねる",
+      "reading": "たずねる"
+    },
+    {
+      "kanji": "尋ね人",
+      "reading": "たずねびと"
+    },
+    {
+      "kanji": "尋ね物",
+      "reading": "たずねもの"
+    },
+    {
+      "kanji": "尋常",
+      "reading": "ジンジョウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": 658,
+  "kanji": "退",
+  "readings": [
+    "タイ",
+    "しりぞ・く",
+    "しりぞ・ける"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "退く",
+      "reading": "しりぞく"
+    },
+    {
+      "kanji": "退院",
+      "reading": "タイイン"
+    },
+    {
+      "kanji": "引退",
+      "reading": "インタイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "脱退",
+      "reading": "ダッタイ",
+      "reference": 659
+    },
+    {
+      "kanji": "退屈",
+      "reading": "タイクツ",
+      "reference": 819
+    },
+    {
+      "kanji": "退職",
+      "reading": "タイショク",
+      "reference": 1021
+    }
+  ],
+  "additionalWords": []
+}

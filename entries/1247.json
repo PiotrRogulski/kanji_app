@@ -1,0 +1,22 @@
+{
+  "id": 1247,
+  "kanji": "傷",
+  "readings": [
+    "ショウ",
+    "きず",
+    "いた・む",
+    "いた・める"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "傷",
+      "reading": "きず"
+    },
+    {
+      "kanji": "重傷",
+      "reading": "ジュウショウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1093,
+  "kanji": "鯨",
+  "readings": [
+    "ゲイ",
+    "くじら"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "鯨",
+      "reading": "くじら"
+    },
+    {
+      "kanji": "捕鯨",
+      "reading": "ホゲイ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": [
+    {
+      "kanji": "ゴリラ＋クジラ＝ゴジラ",
+      "reading": null
+    }
+  ]
+}

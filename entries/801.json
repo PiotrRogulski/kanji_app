@@ -1,0 +1,27 @@
+{
+  "id": 801,
+  "kanji": "標",
+  "readings": [
+    "ヒョウ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "目標",
+      "reading": "モクヒョウ"
+    },
+    {
+      "kanji": "標準",
+      "reading": "ヒョウジュン"
+    },
+    {
+      "kanji": "標本",
+      "reading": "ヒョウホン"
+    },
+    {
+      "kanji": "標高",
+      "reading": "ヒョウコウ"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

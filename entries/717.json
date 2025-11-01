@@ -1,0 +1,33 @@
+{
+  "id": 717,
+  "kanji": "再",
+  "readings": [
+    "サイ",
+    "サ",
+    "ふたた・び"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "再び",
+      "reading": "ふたたび"
+    },
+    {
+      "kanji": "再会",
+      "reading": "サイカイ"
+    },
+    {
+      "kanji": "再来週",
+      "reading": "サライシュウ"
+    },
+    {
+      "kanji": "再来月",
+      "reading": "サライゲツ"
+    },
+    {
+      "kanji": "再来年",
+      "reading": "サライネン"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}

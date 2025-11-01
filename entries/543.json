@@ -1,0 +1,47 @@
+{
+  "id": 543,
+  "kanji": "強",
+  "readings": [
+    "キョウ",
+    "ゴウ",
+    "つよ・い",
+    "つよ・まる",
+    "つよ・める",
+    "し・いる"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "強い",
+      "reading": "つよい"
+    },
+    {
+      "kanji": "勉強",
+      "reading": "ベンキョウ"
+    },
+    {
+      "kanji": "強化",
+      "reading": "キョウカ"
+    },
+    {
+      "kanji": "強引に",
+      "reading": "ゴウイン"
+    },
+    {
+      "kanji": "強大な",
+      "reading": "キョウダイ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "強調",
+      "reading": "キョウチョウ",
+      "reference": 608
+    },
+    {
+      "kanji": "強盗",
+      "reading": "ゴウトウ",
+      "reference": 1285
+    }
+  ],
+  "additionalWords": []
+}

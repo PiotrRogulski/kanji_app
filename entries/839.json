@@ -1,0 +1,26 @@
+{
+  "id": 839,
+  "kanji": "模",
+  "readings": [
+    "モ",
+    "ボ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "模様",
+      "reading": "モヨウ"
+    },
+    {
+      "kanji": "規模",
+      "reading": "キボ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "模型",
+      "reading": "モケイ",
+      "reference": 936
+    }
+  ],
+  "additionalWords": []
+}

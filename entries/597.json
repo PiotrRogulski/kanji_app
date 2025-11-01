@@ -1,0 +1,25 @@
+{
+  "id": 597,
+  "kanji": "第",
+  "readings": [
+    "ダイ"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "第一",
+      "reading": "ダイイチ"
+    },
+    {
+      "kanji": "第二",
+      "reading": "ダイニ"
+    }
+  ],
+  "wordsRequiredLater": [
+    {
+      "kanji": "次第に",
+      "reading": "シダイ",
+      "reference": 612
+    }
+  ],
+  "additionalWords": []
+}

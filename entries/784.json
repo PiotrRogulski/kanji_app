@@ -1,0 +1,25 @@
+{
+  "id": 784,
+  "kanji": "湿",
+  "readings": [
+    "シツ",
+    "しめ・る",
+    "しめ・す"
+  ],
+  "wordsRequiredNow": [
+    {
+      "kanji": "湿る",
+      "reading": "しめる"
+    },
+    {
+      "kanji": "湿気",
+      "reading": "シッケ／シッキ"
+    },
+    {
+      "kanji": "湿度",
+      "reading": "シツド"
+    }
+  ],
+  "wordsRequiredLater": [],
+  "additionalWords": []
+}
