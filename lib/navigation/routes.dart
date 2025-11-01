@@ -4,7 +4,6 @@ import 'package:kanji_app/features/details/kanji_details_screen.dart';
 import 'package:kanji_app/features/list/kanji_list_screen.dart';
 import 'package:kanji_app/features/radicals/radicals_screen.dart';
 import 'package:kanji_app/features/sets/kanji_sets_screen.dart';
-import 'package:kanji_app/navigation/app_shell.dart';
 
 part 'routes.g.dart';
 part 'list_branch.dart';
@@ -31,9 +30,12 @@ class RootRoute extends StatefulShellRouteData {
     StatefulNavigationShell navigationShell,
     List<Widget> children,
   ) {
-    return ScaffoldWithNavBar(
-      navigationShell: navigationShell,
-      children: children,
-    );
+    return children[navigationShell.currentIndex];
+
+    // TODO: bring back other branches when they're implemented
+    // return ScaffoldWithNavBar(
+    //   navigationShell: navigationShell,
+    //   children: children,
+    // );
   }
 }
