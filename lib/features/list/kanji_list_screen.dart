@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/design_system/search_bar.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/features/list/kanji_search.dart';
@@ -88,25 +89,9 @@ class KanjiListScreen extends HookWidget {
                 ),
                 AppUnit.xsmall.sliverGap,
                 SliverToBoxAdapter(
-                  child: SearchBar(
+                  child: JDSearchBar(
                     controller: searchController,
-                    elevation: const WidgetStatePropertyAll(0),
                     hintText: s.kanjiList_search,
-                    leading: AppPadding(
-                      padding: const .all(.medium),
-                      child: AppIcon(
-                        .search,
-                        size: .large,
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                    trailing: [
-                      if (searchController.text.isNotEmpty)
-                        IconButton(
-                          onPressed: searchController.clear,
-                          icon: const AppIcon(.close, size: .large),
-                        ),
-                    ],
                   ),
                 ),
                 AppUnit.medium.sliverGap,

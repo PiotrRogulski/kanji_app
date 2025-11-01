@@ -16,6 +16,10 @@ ThemeData appTheme() {
       clipBehavior: Clip.antiAlias,
       margin: EdgeInsets.zero,
     ),
+    searchBarTheme: .new(
+      elevation: .all(0),
+      textStyle: .all(const TextStyle().body),
+    ),
     pageTransitionsTheme: const PageTransitionsTheme(
       builders: {
         TargetPlatform.android: PredictiveBackPageTransitionsBuilder(),

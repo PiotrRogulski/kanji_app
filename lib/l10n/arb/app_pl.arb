@@ -1,5 +1,6 @@
 {
   "@@locale": "pl",
+  "common_search": "Szukaj",
   "kanjiDetails_strokeOrderNotAvailable": "Kolejność pisania niedostępna",
   "kanjiList_scrollToTop": "Przewiń do góry",
   "kanjiList_search": "Szukaj znaków",

@@ -9,6 +9,9 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
+  String get common_search => 'Szukaj';
+
+  @override
   String get kanjiDetails_strokeOrderNotAvailable =>
       'Kolejność pisania niedostępna';
 

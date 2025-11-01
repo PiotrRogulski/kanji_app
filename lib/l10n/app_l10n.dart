@@ -94,6 +94,12 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[Locale('pl')];
 
+  /// No description provided for @common_search.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szukaj'**
+  String get common_search;
+
   /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
   ///
   /// In pl, this message translates to:
