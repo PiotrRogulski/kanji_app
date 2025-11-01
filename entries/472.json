@@ -11,31 +11,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿頭",
-      "reading": "トウ"
+      "reading": "トウ",
+      "meaning": "klasyfikator dużych zwierząt"
     },
     {
       "kanji": "頭",
-      "reading": "あたま"
+      "reading": "あたま",
+      "meaning": "głowa"
     },
     {
       "kanji": "先頭",
-      "reading": "セントウ"
+      "reading": "セントウ",
+      "meaning": "czoło"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "頭痛",
       "reading": "ズツウ",
+      "meaning": "ból głowy",
       "reference": 564
     },
     {
       "kanji": "頭脳",
       "reading": "ズノウ",
+      "meaning": "umysł",
       "reference": 1031
     },
     {
       "kanji": "冒頭",
       "reading": "ボウトウ",
+      "meaning": "początek",
       "reference": 1160
     }
   ],

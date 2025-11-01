@@ -8,17 +8,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "波",
-      "reading": "なみ"
+      "reading": "なみ",
+      "meaning": "fala"
     },
     {
       "kanji": "電波",
-      "reading": "デンパ"
+      "reading": "デンパ",
+      "meaning": "fala radiowa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "津波",
       "reading": "つなみ",
+      "meaning": "tsunami",
       "reference": 1211
     }
   ],

@@ -10,46 +10,56 @@
   "wordsRequiredNow": [
     {
       "kanji": "親",
-      "reading": "おや"
+      "reading": "おや",
+      "meaning": "rodzic"
     },
     {
       "kanji": "親しい",
-      "reading": "したしい"
+      "reading": "したしい",
+      "meaning": "bliski; zażyły"
     },
     {
       "kanji": "親子",
-      "reading": "おやこ"
+      "reading": "おやこ",
+      "meaning": "rodzic i dziecko"
     },
     {
       "kanji": "父親",
-      "reading": "ちちおや"
+      "reading": "ちちおや",
+      "meaning": "ojciec"
     },
     {
       "kanji": "母親",
-      "reading": "ははおや"
+      "reading": "ははおや",
+      "meaning": "matka"
     },
     {
       "kanji": "親友",
-      "reading": "シンユウ"
+      "reading": "シンユウ",
+      "meaning": "bliski przyjaciel"
     },
     {
       "kanji": "親切な",
-      "reading": "シンセツ"
+      "reading": "シンセツ",
+      "meaning": "uprzejmy; życzliwy"
     },
     {
       "kanji": "親類",
-      "reading": "シンルイ"
+      "reading": "シンルイ",
+      "meaning": "krewni"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "親潮",
       "reading": "おやしお",
+      "meaning": "Prąd Oyashio",
       "reference": 1388
     },
     {
       "kanji": "懇親会",
       "reading": "コンシンカイ",
+      "meaning": "spotkanie integracyjne",
       "reference": 1417
     }
   ],

@@ -10,55 +10,66 @@
   "wordsRequiredNow": [
     {
       "kanji": "連れる",
-      "reading": "つれる"
+      "reading": "つれる",
+      "meaning": "zabierać (kogoś); prowadzić"
     },
     {
       "kanji": "連合",
-      "reading": "レンゴウ"
+      "reading": "レンゴウ",
+      "meaning": "związek; unia; federacja"
     },
     {
       "kanji": "連続",
-      "reading": "レンゾク"
+      "reading": "レンゾク",
+      "meaning": "ciągłość; seria"
     },
     {
       "kanji": "国連",
-      "reading": "コクレン"
+      "reading": "コクレン",
+      "meaning": "ONZ"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "関連",
       "reading": "カンレン",
+      "meaning": "powiązanie; związek",
       "reference": 578
     },
     {
       "kanji": "欧州連合",
       "reading": "オウシュウレンゴウ",
+      "meaning": "Unia Europejska",
       "reference": 927
     },
     {
       "kanji": "連想",
       "reading": "レンソウ",
+      "meaning": "skojarzenie",
       "reference": 970
     },
     {
       "kanji": "連帯",
       "reading": "レンタイ",
+      "meaning": "solidarność",
       "reference": 1231
     },
     {
       "kanji": "連絡",
       "reading": "レンラク",
+      "meaning": "kontakt",
       "reference": 1242
     },
     {
       "kanji": "連絡船",
       "reading": "レンラクセン",
+      "meaning": "statek połączeniowy; prom",
       "reference": 1242
     },
     {
       "kanji": "連邦",
       "reading": "レンポウ",
+      "meaning": "federacja",
       "reference": 1271
     }
   ],

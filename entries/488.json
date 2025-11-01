@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "皆",
-      "reading": "みな"
+      "reading": "みな",
+      "meaning": "wszyscy"
     },
     {
       "kanji": "皆さん",
-      "reading": "みなさん"
+      "reading": "みなさん",
+      "meaning": "wszyscy (uprzejmie)"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,50 +9,61 @@
   "wordsRequiredNow": [
     {
       "kanji": "現れる",
-      "reading": "あらわれる"
+      "reading": "あらわれる",
+      "meaning": "pojawiać się"
     },
     {
       "kanji": "現す",
-      "reading": "あらわす"
+      "reading": "あらわす",
+      "meaning": "ukazywać; wyrażać"
     },
     {
       "kanji": "現金",
-      "reading": "ゲンキン"
+      "reading": "ゲンキン",
+      "meaning": "gotówka"
     },
     {
       "kanji": "現代",
-      "reading": "ゲンダイ"
+      "reading": "ゲンダイ",
+      "meaning": "współczesność; czasy współczesne"
     },
     {
       "kanji": "現場",
-      "reading": "ゲンば"
+      "reading": "ゲンば",
+      "meaning": "miejsce zdarzenia; teren"
     },
     {
       "kanji": "表現",
-      "reading": "ヒョウゲン"
+      "reading": "ヒョウゲン",
+      "meaning": "wyrażenie; ekspresja"
     },
     {
       "kanji": "出現",
-      "reading": "シュツゲン"
+      "reading": "シュツゲン",
+      "meaning": "pojawienie się"
     },
     {
       "kanji": "現実",
-      "reading": "ゲンジツ"
+      "reading": "ゲンジツ",
+      "meaning": "rzeczywistość"
     },
     {
       "kanji": "実現",
-      "reading": "ジツゲン"
+      "reading": "ジツゲン",
+      "meaning": "realizacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "現在",
       "reading": "ゲンザイ",
+      "meaning": "obecnie; teraźniejszość",
       "reference": 657
     },
     {
       "kanji": "現状",
       "reading": "ゲンジョウ",
+      "meaning": "stan obecny",
       "reference": 939
     }
   ],

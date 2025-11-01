@@ -8,32 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "争う",
-      "reading": "あらそう"
+      "reading": "あらそう",
+      "meaning": "spierać się; rywalizować; walczyć"
     },
     {
       "kanji": "戦争",
-      "reading": "センソウ"
+      "reading": "センソウ",
+      "meaning": "wojna"
     }
   ],
   "wordsRequiredLater": [
     {
-      "kanji": "日露戦争 ニチロセンソウ",
-      "reading": "1123",
-      "reference": 0
+      "kanji": "日露戦争",
+      "reading": "ニチロセンソウ",
+      "meaning": "wojna rosyjsko-japońska",
+      "reference": 1123
     },
     {
       "kanji": "競争",
       "reading": "キョウソウ",
+      "meaning": "konkurencja; rywalizacja",
       "reference": 1133
     },
     {
       "kanji": "争奪",
       "reading": "ソウダツ",
+      "meaning": "walka o (zdobycie)",
       "reference": 1304
     },
     {
       "kanji": "紛争",
       "reading": "フンソウ",
+      "meaning": "konflikt",
       "reference": 1364
     }
   ],

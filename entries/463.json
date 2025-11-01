@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "必ず",
-      "reading": "かならず"
+      "reading": "かならず",
+      "meaning": "zawsze; na pewno; koniecznie"
     },
     {
       "kanji": "必ずしも",
-      "reading": "かならずしも"
+      "reading": "かならずしも",
+      "meaning": "niekoniecznie; nie zawsze"
     },
     {
       "kanji": "必死",
-      "reading": "ヒッシ"
+      "reading": "ヒッシ",
+      "meaning": "desperacki; na śmierć i życie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "必要な",
       "reading": "ヒツヨウ",
+      "meaning": "konieczny; niezbędny",
       "reference": 464
     },
     {
       "kanji": "必勝",
       "reading": "ヒッショウ",
+      "meaning": "pewne zwycięstwo",
       "reference": 620
     }
   ],

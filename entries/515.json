@@ -10,72 +10,87 @@
   "wordsRequiredNow": [
     {
       "kanji": "成る",
-      "reading": "なる"
+      "reading": "なる",
+      "meaning": "stać się"
     },
     {
       "kanji": "成人",
-      "reading": "セイジン"
+      "reading": "セイジン",
+      "meaning": "dorosły"
     },
     {
       "kanji": "成長",
-      "reading": "セイチョウ"
+      "reading": "セイチョウ",
+      "meaning": "wzrost; rozwój"
     },
     {
       "kanji": "成立",
-      "reading": "セイリツ"
+      "reading": "セイリツ",
+      "meaning": "ustanowienie; powstanie"
     },
     {
       "kanji": "作成",
-      "reading": "サクセイ"
+      "reading": "サクセイ",
+      "meaning": "sporządzenie; utworzenie"
     },
     {
       "kanji": "成分",
-      "reading": "セイブン"
+      "reading": "セイブン",
+      "meaning": "składnik; komponent"
     },
     {
       "kanji": "成り立つ",
-      "reading": "なりたつ"
+      "reading": "なりたつ",
+      "meaning": "powstać; być możliwym"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "成人式",
       "reading": "セイジンシキ",
+      "meaning": "ceremonia pełnoletności",
       "reference": 549
     },
     {
       "kanji": "完成",
       "reading": "カンセイ",
+      "meaning": "ukończenie",
       "reference": 555
     },
     {
       "kanji": "未成年",
       "reading": "ミセイネン",
+      "meaning": "niepełnoletni",
       "reference": 574
     },
     {
       "kanji": "達成",
       "reading": "タッセイ",
+      "meaning": "osiągnięcie",
       "reference": 790
     },
     {
       "kanji": "成功",
       "reading": "セイコウ",
+      "meaning": "sukces",
       "reference": 856
     },
     {
       "kanji": "構成",
       "reading": "コウセイ",
+      "meaning": "struktura; kompozycja",
       "reference": 969
     },
     {
       "kanji": "成熟",
       "reading": "セイジュク",
+      "meaning": "dojrzałość",
       "reference": 1099
     },
     {
       "kanji": "成績",
       "reading": "セイセキ",
+      "meaning": "wyniki; oceny",
       "reference": 1225
     }
   ],

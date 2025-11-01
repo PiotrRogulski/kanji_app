@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "昔",
-      "reading": "むかし"
+      "reading": "むかし",
+      "meaning": "dawne czasy; kiedyś"
     },
     {
       "kanji": "昔話",
-      "reading": "むかしばなし"
+      "reading": "むかしばなし",
+      "meaning": "opowieść z dawnych lat"
     },
     {
       "kanji": "大昔",
-      "reading": "おおむかし"
+      "reading": "おおむかし",
+      "meaning": "bardzo dawne czasy"
     }
   ],
   "wordsRequiredLater": [],

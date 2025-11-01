@@ -8,34 +8,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "紙",
-      "reading": "かみ"
+      "reading": "かみ",
+      "meaning": "papier"
     },
     {
       "kanji": "手紙",
-      "reading": "てがみ"
+      "reading": "てがみ",
+      "meaning": "list"
     },
     {
       "kanji": "和紙",
-      "reading": "ワシ"
+      "reading": "ワシ",
+      "meaning": "japoński papier washi"
     },
     {
       "kanji": "用紙",
-      "reading": "ヨウシ"
+      "reading": "ヨウシ",
+      "meaning": "arkusz papieru; formularz"
     },
     {
       "kanji": "表紙",
-      "reading": "ヒョウシ"
+      "reading": "ヒョウシ",
+      "meaning": "okładka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "折り紙",
       "reading": "おりがみ",
+      "meaning": "origami",
       "reference": 857
     },
     {
       "kanji": "原稿用紙",
       "reading": "ゲンコウヨウシ",
+      "meaning": "papier manuskryptowy (genkō yōshi)",
       "reference": 1453
     }
   ],

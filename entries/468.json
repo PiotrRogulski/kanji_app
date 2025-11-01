@@ -15,49 +15,59 @@
   "wordsRequiredNow": [
     {
       "kanji": "冷たい",
-      "reading": "つめたい"
+      "reading": "つめたい",
+      "meaning": "zimny (w dotyku)"
     },
     {
       "kanji": "冷える",
-      "reading": "ひえる"
+      "reading": "ひえる",
+      "meaning": "stygnąć"
     },
     {
       "kanji": "冷やす",
-      "reading": "ひやす"
+      "reading": "ひやす",
+      "meaning": "schładzać"
     },
     {
       "kanji": "冷める",
-      "reading": "さめる"
+      "reading": "さめる",
+      "meaning": "ostygać"
     },
     {
       "kanji": "冷ます",
-      "reading": "さます"
+      "reading": "さます",
+      "meaning": "ostudzić"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "冷静な",
       "reading": "レイセイ",
+      "meaning": "opanowany",
       "reference": 538
     },
     {
       "kanji": "冷凍",
       "reading": "レイトウ",
+      "meaning": "mrożenie",
       "reference": 737
     },
     {
       "kanji": "冷凍庫",
       "reading": "レイトウコ",
+      "meaning": "zamrażarka",
       "reference": 854
     },
     {
       "kanji": "冷蔵庫",
       "reading": "レイゾウコ",
+      "meaning": "lodówka",
       "reference": 861
     },
     {
       "kanji": "冷淡な",
       "reading": "レイタン",
+      "meaning": "oziębły",
       "reference": 1109
     }
   ],

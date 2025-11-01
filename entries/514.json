@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "寝る",
-      "reading": "ねる"
+      "reading": "ねる",
+      "meaning": "spać; kłaść się spać"
     },
     {
       "kanji": "昼寝",
-      "reading": "ひるね"
+      "reading": "ひるね",
+      "meaning": "drzemka w dzień"
     },
     {
       "kanji": "寝台",
-      "reading": "シンダイ"
+      "reading": "シンダイ",
+      "meaning": "łóżko; kuszetka"
     },
     {
       "kanji": "寝室",
-      "reading": "シンシツ"
+      "reading": "シンシツ",
+      "meaning": "sypialnia"
     }
   ],
   "wordsRequiredLater": [],

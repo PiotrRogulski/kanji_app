@@ -8,33 +8,39 @@
   "wordsRequiredNow": [
     {
       "kanji": "取る",
-      "reading": "とる"
+      "reading": "とる",
+      "meaning": "brać; wziąć; zabierać; zdobywać; robić (zdjęcie)"
     },
     {
       "kanji": "取材",
-      "reading": "シュザイ"
+      "reading": "シュザイ",
+      "meaning": "zbieranie materiałów (dziennikarskich); wywiad; relacja"
     },
     {
       "kanji": "取引き",
-      "reading": "とりひき"
+      "reading": "とりひき",
+      "meaning": "transakcja; interesy; handel; układ"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "奪取",
       "reading": "ダッシュ",
-      "reference": 1304
+      "reference": 1304,
+      "meaning": "zdobycie; przejęcie siłą; zajęcie"
     },
     {
       "kanji": "搾取",
       "reading": "サクシュ",
-      "reference": 1461
+      "reference": 1461,
+      "meaning": "wyzysk; eksploatacja"
     }
   ],
   "additionalWords": [
     {
       "kanji": "鳥取県",
-      "reading": "とっとりケン"
+      "reading": "とっとりケン",
+      "meaning": "prefektura Tottori"
     }
   ]
 }

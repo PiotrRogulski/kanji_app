@@ -11,44 +11,53 @@
   "wordsRequiredNow": [
     {
       "kanji": "過ぎる",
-      "reading": "すぎる"
+      "reading": "すぎる",
+      "meaning": "mijać; przekraczać; zbytnio"
     },
     {
       "kanji": "＿過ぎ",
-      "reading": "すぎ"
+      "reading": "すぎ",
+      "meaning": "po (np. godzinie)"
     },
     {
       "kanji": "過ごす",
-      "reading": "すごす"
+      "reading": "すごす",
+      "meaning": "spędzać (czas)"
     },
     {
       "kanji": "通過",
-      "reading": "ツウカ"
+      "reading": "ツウカ",
+      "meaning": "przejazd; przejście przez"
     },
     {
       "kanji": "過去",
-      "reading": "カコ"
+      "reading": "カコ",
+      "meaning": "przeszłość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "過程",
       "reading": "カテイ",
+      "meaning": "proces",
       "reference": 604
     },
     {
       "kanji": "過労死",
       "reading": "カロウシ",
+      "meaning": "śmierć z przepracowania",
       "reference": 1000
     },
     {
       "kanji": "超過",
       "reading": "チョウカ",
+      "meaning": "przekroczenie; nadwyżka",
       "reference": 1206
     },
     {
       "kanji": "過剰",
       "reading": "カジョウ",
+      "meaning": "nadmiar; nadmierny",
       "reference": 1496
     }
   ],

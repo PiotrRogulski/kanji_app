@@ -8,13 +8,15 @@
   "wordsRequiredNow": [
     {
       "kanji": "顔",
-      "reading": "かお"
+      "reading": "かお",
+      "meaning": "twarz"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "笑顔",
       "reading": "えがお",
+      "meaning": "uśmiechnięta twarz",
       "reference": 760
     }
   ],

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "吸う",
-      "reading": "すう"
+      "reading": "すう",
+      "meaning": "wciągać; wdychać; palić (papierosy); ssać"
     },
     {
       "kanji": "吸い物",
-      "reading": "すいもの"
+      "reading": "すいもの",
+      "meaning": "zupa klarowna (suimono)"
     },
     {
       "kanji": "呼吸",
-      "reading": "コキュウ"
+      "reading": "コキュウ",
+      "meaning": "oddychanie; oddech"
     },
     {
       "kanji": "吸収",
-      "reading": "キュウシュウ"
+      "reading": "キュウシュウ",
+      "meaning": "wchłanianie; absorpcja; asymilacja"
     }
   ],
   "wordsRequiredLater": [],

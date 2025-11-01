@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "各＿",
-      "reading": "カク"
+      "reading": "カク",
+      "meaning": "każdy; poszczególny"
     },
     {
       "kanji": "各（々）",
-      "reading": "おのおの"
+      "reading": "おのおの",
+      "meaning": "każdy z osobna; poszczególny"
     },
     {
       "kanji": "各自",
-      "reading": "カクジ"
+      "reading": "カクジ",
+      "meaning": "każdy z osobna"
     },
     {
       "kanji": "各地",
-      "reading": "カクチ"
+      "reading": "カクチ",
+      "meaning": "różne miejsca; w wielu miejscach"
     }
   ],
   "wordsRequiredLater": [],

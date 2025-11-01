@@ -10,34 +10,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "形",
-      "reading": "かたち"
+      "reading": "かたち",
+      "meaning": "kształt; forma"
     },
     {
       "kanji": "人形",
-      "reading": "ニンギョウ"
+      "reading": "ニンギョウ",
+      "meaning": "lalka"
     },
     {
       "kanji": "正方形",
-      "reading": "セイホウケイ"
+      "reading": "セイホウケイ",
+      "meaning": "kwadrat"
     },
     {
       "kanji": "長方形",
-      "reading": "チョウホウケイ"
+      "reading": "チョウホウケイ",
+      "meaning": "prostokąt"
     },
     {
       "kanji": "三角形",
-      "reading": "サンカクケイ"
+      "reading": "サンカクケイ",
+      "meaning": "trójkąt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "形式",
       "reading": "ケイシキ",
+      "meaning": "forma; format",
       "reference": 549
     },
     {
       "kanji": "形態",
       "reading": "ケイタイ",
+      "meaning": "forma; kształt; postać",
       "reference": 763
     }
   ],

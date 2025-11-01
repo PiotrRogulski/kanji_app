@@ -8,48 +8,58 @@
   "wordsRequiredNow": [
     {
       "kanji": "期間",
-      "reading": "キカン"
+      "reading": "キカン",
+      "meaning": "okres; czas trwania"
     },
     {
       "kanji": "時期",
-      "reading": "ジキ"
+      "reading": "ジキ",
+      "meaning": "okres; pora; czas"
     },
     {
       "kanji": "学期",
-      "reading": "ガッキ"
+      "reading": "ガッキ",
+      "meaning": "semestr"
     },
     {
       "kanji": "期待",
-      "reading": "キタイ"
+      "reading": "キタイ",
+      "meaning": "oczekiwanie; nadzieja"
     },
     {
       "kanji": "長期",
-      "reading": "チョウキ"
+      "reading": "チョウキ",
+      "meaning": "długi okres; długoterminowy"
     },
     {
       "kanji": "定期",
-      "reading": "テイキ"
+      "reading": "テイキ",
+      "meaning": "regularny; okresowy"
     },
     {
       "kanji": "初期",
-      "reading": "ショキ"
+      "reading": "ショキ",
+      "meaning": "początkowy etap; wczesna faza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "短期",
       "reading": "タンキ",
-      "reference": 501
+      "reference": 501,
+      "meaning": "krótki okres; krótkoterminowy"
     },
     {
       "kanji": "期限",
       "reading": "キゲン",
-      "reference": 949
+      "reference": 949,
+      "meaning": "termin; ostateczny termin; data ważności"
     },
     {
       "kanji": "延期",
       "reading": "エンキ",
-      "reference": 1086
+      "reference": 1086,
+      "meaning": "przełożenie; odroczenie"
     }
   ],
   "additionalWords": []

@@ -8,44 +8,53 @@
   "wordsRequiredNow": [
     {
       "kanji": "様",
-      "reading": "ヨウ"
+      "reading": "ヨウ",
+      "meaning": "wygląd; sposób; forma (znaczenie znaku)"
     },
     {
       "kanji": "＿様",
-      "reading": "さま"
+      "reading": "さま",
+      "meaning": "honoryficzny sufiks: Pan/Pani; Szanowny/Szanowna"
     },
     {
       "kanji": "様々な",
-      "reading": "さまざまな"
+      "reading": "さまざまな",
+      "meaning": "różnorodny; rozmaity"
     },
     {
       "kanji": "同様",
-      "reading": "ドウヨウ"
+      "reading": "ドウヨウ",
+      "meaning": "taki sam; podobny; w ten sam sposób"
     },
     {
       "kanji": "様子",
-      "reading": "ヨウス"
+      "reading": "ヨウス",
+      "meaning": "sytuacja; stan; wygląd; zachowanie"
     },
     {
       "kanji": "神様",
-      "reading": "かみさま"
+      "reading": "かみさま",
+      "meaning": "Bóg; bóstwo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "模様",
       "reading": "モヨウ",
-      "reference": 839
+      "reference": 839,
+      "meaning": "wzór; deseń; sytuacja"
     },
     {
       "kanji": "お疲れ様",
       "reading": "おつかれさま",
-      "reference": 911
+      "reference": 911,
+      "meaning": "dziękuję za pracę; dobra robota"
     },
     {
       "kanji": "殿様",
       "reading": "とのさま",
-      "reference": 1334
+      "reference": 1334,
+      "meaning": "pan feudalny; władca"
     }
   ],
   "additionalWords": []

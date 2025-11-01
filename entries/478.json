@@ -7,41 +7,50 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿部",
-      "reading": "ブ"
+      "reading": "ブ",
+      "meaning": "sufiks: klub; dział; sekcja"
     },
     {
       "kanji": "部長",
-      "reading": "ブチョウ"
+      "reading": "ブチョウ",
+      "meaning": "kierownik działu"
     },
     {
       "kanji": "部下",
-      "reading": "ブカ"
+      "reading": "ブカ",
+      "meaning": "podwładny"
     },
     {
       "kanji": "部分",
-      "reading": "ブブン"
+      "reading": "ブブン",
+      "meaning": "część"
     },
     {
       "kanji": "部品",
-      "reading": "ブヒン"
+      "reading": "ブヒン",
+      "meaning": "część; komponent"
     },
     {
       "kanji": "学部",
-      "reading": "ガクブ"
+      "reading": "ガクブ",
+      "meaning": "wydział (na uniwersytecie)"
     },
     {
       "kanji": "本部",
-      "reading": "ホンブ"
+      "reading": "ホンブ",
+      "meaning": "siedziba główna"
     },
     {
       "kanji": "部族",
-      "reading": "ブゾク"
+      "reading": "ブゾク",
+      "meaning": "plemię"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "部屋",
       "reading": "へや",
+      "meaning": "pokój",
       "reference": 534
     }
   ],

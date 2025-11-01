@@ -9,36 +9,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "常に",
-      "reading": "つねに"
+      "reading": "つねに",
+      "meaning": "stale; zawsze"
     },
     {
       "kanji": "日常",
-      "reading": "ニチジョウ"
+      "reading": "ニチジョウ",
+      "meaning": "codzienność; na co dzień"
     },
     {
       "kanji": "非常に",
-      "reading": "ヒジョウ"
+      "reading": "ヒジョウ",
+      "meaning": "bardzo; niezwykle"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "異常",
       "reading": "イジョウ",
+      "meaning": "nienormalny; anomalia",
       "reference": 702
     },
     {
       "kanji": "常識",
       "reading": "ジョウシキ",
+      "meaning": "zdrowy rozsądek",
       "reference": 825
     },
     {
       "kanji": "尋常",
       "reading": "ジンジョウ",
+      "meaning": "zwyczajny; normalny",
       "reference": 894
     },
     {
       "kanji": "恒常的",
       "reading": "コウジョウテキ",
+      "meaning": "stały; trwały",
       "reference": 1152
     }
   ],

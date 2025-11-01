@@ -10,59 +10,71 @@
   "wordsRequiredNow": [
     {
       "kanji": "問う",
-      "reading": "とう"
+      "reading": "とう",
+      "meaning": "pytać"
     },
     {
       "kanji": "問い",
-      "reading": "とい"
+      "reading": "とい",
+      "meaning": "pytanie"
     },
     {
       "kanji": "問い合わせ",
-      "reading": "といあわせ"
+      "reading": "といあわせ",
+      "meaning": "zapytanie (kontakt)"
     },
     {
       "kanji": "問題",
-      "reading": "モンダイ"
+      "reading": "モンダイ",
+      "meaning": "problem; zagadnienie"
     },
     {
       "kanji": "学問",
-      "reading": "ガクモン"
+      "reading": "ガクモン",
+      "meaning": "nauka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "質問",
       "reading": "シツモン",
+      "meaning": "pytanie",
       "reference": 537
     },
     {
       "kanji": "訪問",
       "reading": "ホウモン",
+      "meaning": "wizyta",
       "reference": 609
     },
     {
       "kanji": "疑問",
       "reading": "ギモン",
+      "meaning": "wątpliwość",
       "reference": 1149
     },
     {
       "kanji": "顧問",
       "reading": "コモン",
+      "meaning": "doradca; konsultant",
       "reference": 1319
     },
     {
       "kanji": "慰問",
       "reading": "イモン",
+      "meaning": "odwiedziny dla wsparcia",
       "reference": 1406
     },
     {
       "kanji": "喚問",
       "reading": "カンモン",
+      "meaning": "wezwanie na przesłuchanie",
       "reference": 1437
     },
     {
       "kanji": "諮問",
       "reading": "シモン",
+      "meaning": "zapytanie konsultacyjne",
       "reference": 1502
     }
   ],

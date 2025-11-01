@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "非＿",
-      "reading": "ヒ"
+      "reading": "ヒ",
+      "meaning": "nie-; anty- (prefiks)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "非常に",
       "reading": "ヒジョウ",
+      "meaning": "bardzo; niezwykle",
       "reference": 518
     },
     {
       "kanji": "是非",
       "reading": "ゼヒ",
+      "meaning": "koniecznie; zdecydowanie",
       "reference": 1394
     }
   ],

@@ -7,31 +7,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "列",
-      "reading": "レツ"
+      "reading": "レツ",
+      "meaning": "rząd; kolejka"
     },
     {
       "kanji": "列車",
-      "reading": "レッシャ"
+      "reading": "レッシャ",
+      "meaning": "pociąg"
     },
     {
       "kanji": "行列",
-      "reading": "ギョウレツ"
+      "reading": "ギョウレツ",
+      "meaning": "kolejka; rząd"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "列島",
       "reading": "レットウ",
+      "meaning": "archipelag",
       "reference": 675
     },
     {
       "kanji": "快速列車",
       "reading": "カイソクレッシャ",
+      "meaning": "pociąg przyspieszony",
       "reference": 817
     },
     {
       "kanji": "陳列窓",
       "reading": "チンレツまど",
+      "meaning": "witryna sklepowa",
       "reference": 1440
     }
   ],

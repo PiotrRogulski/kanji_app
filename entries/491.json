@@ -9,27 +9,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "酒",
-      "reading": "さけ"
+      "reading": "さけ",
+      "meaning": "sake (wino ryżowe), alkohol"
     },
     {
       "kanji": "日本酒",
-      "reading": "ニホンシュ"
+      "reading": "ニホンシュ",
+      "meaning": "japońskie sake (wino ryżowe)"
     },
     {
       "kanji": "酒場",
-      "reading": "さかば"
+      "reading": "さかば",
+      "meaning": "bar, knajpa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "酒屋",
       "reading": "さかや",
-      "reference": 534
+      "reference": 534,
+      "meaning": "sklep z alkoholem (monopolowy)"
     },
     {
       "kanji": "梅酒",
       "reading": "うめシュ",
-      "reference": 1350
+      "reference": 1350,
+      "meaning": "likier śliwkowy (umeshu)"
     }
   ],
   "additionalWords": []

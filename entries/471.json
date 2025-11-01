@@ -9,27 +9,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "割る",
-      "reading": "わる"
+      "reading": "わる",
+      "meaning": "dzielić; rozbijać; rozcieńczać"
     },
     {
       "kanji": "割",
-      "reading": "わり"
+      "reading": "わり",
+      "meaning": "proporcja; odsetek (10%)"
     },
     {
       "kanji": "分割",
-      "reading": "ブンカツ"
+      "reading": "ブンカツ",
+      "meaning": "podział; rozdzielenie"
     },
     {
       "kanji": "割引",
-      "reading": "わりびき"
+      "reading": "わりびき",
+      "meaning": "zniżka; rabat"
     },
     {
       "kanji": "割合",
-      "reading": "わりあい"
+      "reading": "わりあい",
+      "meaning": "proporcja; odsetek; stosunek"
     },
     {
       "kanji": "役割",
-      "reading": "ヤクわり"
+      "reading": "ヤクわり",
+      "meaning": "rola; funkcja"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,21 +8,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "願う",
-      "reading": "ねがう"
+      "reading": "ねがう",
+      "meaning": "prosić; życzyć"
     },
     {
       "kanji": "願い",
-      "reading": "ねがい"
+      "reading": "ねがい",
+      "meaning": "prośba; życzenie"
     },
     {
       "kanji": "願書",
-      "reading": "ガンショ"
+      "reading": "ガンショ",
+      "meaning": "podanie; formularz"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "祈願",
       "reading": "キガン",
+      "meaning": "modlitwa błagalna",
       "reference": 1009
     }
   ],

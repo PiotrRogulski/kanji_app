@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "残る",
-      "reading": "のこる"
+      "reading": "のこる",
+      "meaning": "pozostawać"
     },
     {
       "kanji": "残す",
-      "reading": "のこす"
+      "reading": "のこす",
+      "meaning": "zostawiać; zachowywać"
     },
     {
       "kanji": "残り",
-      "reading": "のこり"
+      "reading": "のこり",
+      "meaning": "reszta; pozostałość"
     },
     {
       "kanji": "残らず",
-      "reading": "のこらず"
+      "reading": "のこらず",
+      "meaning": "bez wyjątku; w całości"
     },
     {
       "kanji": "残念",
-      "reading": "ザンネン"
+      "reading": "ザンネン",
+      "meaning": "szkoda; niefortunny"
     }
   ],
   "wordsRequiredLater": [],

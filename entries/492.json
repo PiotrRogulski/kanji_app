@@ -8,24 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "追う",
-      "reading": "おう"
+      "reading": "おう",
+      "meaning": "gonić; ścigać; podążać za"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "追い越す",
-      "reading": "おいこす 731",
-      "reference": 0
+      "reading": "おいこす",
+      "reference": 731,
+      "meaning": "wyprzedzać; mijać"
     },
     {
       "kanji": "追加",
       "reading": "ツイカ",
-      "reference": 846
+      "reference": 846,
+      "meaning": "dodanie; dołożenie; uzupełnienie"
     },
     {
       "kanji": "追求",
       "reading": "ツイキュウ",
-      "reference": 963
+      "reference": 963,
+      "meaning": "dążenie; pogoń za; dociekanie"
     }
   ],
   "additionalWords": []

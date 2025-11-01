@@ -8,21 +8,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "灯",
-      "reading": "ひ"
+      "reading": "ひ",
+      "meaning": "światło; lampa"
     },
     {
       "kanji": "灯台",
-      "reading": "トウダイ"
+      "reading": "トウダイ",
+      "meaning": "latarnia morska"
     },
     {
       "kanji": "電灯",
-      "reading": "デントウ"
+      "reading": "デントウ",
+      "meaning": "lampa elektryczna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "蛍光灯",
       "reading": "ケイコウトウ",
+      "meaning": "świetlówka",
       "reference": 849
     }
   ],

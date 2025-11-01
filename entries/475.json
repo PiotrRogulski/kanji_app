@@ -11,41 +11,49 @@
   "wordsRequiredNow": [
     {
       "kanji": "細い",
-      "reading": "ほそい"
+      "reading": "ほそい",
+      "meaning": "cienki; szczupły; drobny"
     },
     {
       "kanji": "細かい",
-      "reading": "こまかい"
+      "reading": "こまかい",
+      "meaning": "drobny; szczegółowy"
     },
     {
       "kanji": "細長い",
-      "reading": "ほそながい"
+      "reading": "ほそながい",
+      "meaning": "długi i cienki; podłużny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "詳細",
       "reading": "ショウサイ",
+      "meaning": "szczegóły; szczegółowy",
       "reference": 828
     },
     {
       "kanji": "繊細な",
       "reading": "センサイ",
+      "meaning": "delikatny; subtelny",
       "reference": 859
     },
     {
       "kanji": "細菌",
       "reading": "サイキン",
+      "meaning": "bakterie",
       "reference": 883
     },
     {
       "kanji": "微細な",
       "reading": "ビサイ",
+      "meaning": "bardzo drobny; mikroskopijny",
       "reference": 1034
     },
     {
       "kanji": "細胞",
       "reading": "サイボウ",
+      "meaning": "komórka (biologiczna)",
       "reference": 1126
     }
   ],

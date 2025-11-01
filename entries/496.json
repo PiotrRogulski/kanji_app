@@ -10,37 +10,44 @@
   "wordsRequiredNow": [
     {
       "kanji": "建てる",
-      "reading": "たてる"
+      "reading": "たてる",
+      "meaning": "budować; wznosić"
     },
     {
       "kanji": "建つ",
-      "reading": "たつ"
+      "reading": "たつ",
+      "meaning": "stać; być zbudowanym"
     },
     {
       "kanji": "建物",
-      "reading": "たてもの"
+      "reading": "たてもの",
+      "meaning": "budynek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "建築",
       "reading": "ケンチク",
-      "reference": 791
+      "reference": 791,
+      "meaning": "architektura; budownictwo"
     },
     {
       "kanji": "建築家",
       "reading": "ケンチクカ",
-      "reference": 791
+      "reference": 791,
+      "meaning": "architekt"
     },
     {
       "kanji": "建設",
       "reading": "ケンセツ",
-      "reference": 989
+      "reference": 989,
+      "meaning": "budowa; wznoszenie; zakładanie"
     },
     {
       "kanji": "封建",
       "reading": "ホウケン",
-      "reference": 1395
+      "reference": 1395,
+      "meaning": "feudalizm; feudalny"
     }
   ],
   "additionalWords": []

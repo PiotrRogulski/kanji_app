@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "雲",
-      "reading": "くも"
+      "reading": "くも",
+      "meaning": "chmura"
     },
     {
       "kanji": "雨雲",
-      "reading": "あまぐも"
+      "reading": "あまぐも",
+      "meaning": "chmura deszczowa"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "曇る",
-      "reading": "くもる"
+      "reading": "くもる",
+      "meaning": "zachmurzyć się"
     }
   ]
 }

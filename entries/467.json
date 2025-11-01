@@ -9,32 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "星",
-      "reading": "ほし"
+      "reading": "ほし",
+      "meaning": "gwiazda"
     },
     {
       "kanji": "火星",
-      "reading": "カセイ"
+      "reading": "カセイ",
+      "meaning": "Mars"
     },
     {
       "kanji": "金星",
-      "reading": "キンセイ"
+      "reading": "キンセイ",
+      "meaning": "Wenus"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "衛星",
       "reading": "エイセイ",
-      "reference": 960
+      "reference": 960,
+      "meaning": "satelita"
     },
     {
       "kanji": "星座",
       "reading": "セイザ",
-      "reference": 986
+      "reference": 986,
+      "meaning": "gwiazdozbiór"
     },
     {
       "kanji": "惑星",
       "reading": "ワクセイ",
-      "reference": 1163
+      "reference": 1163,
+      "meaning": "planeta"
     }
   ],
   "additionalWords": []

@@ -8,39 +8,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "要る",
-      "reading": "いる"
+      "reading": "いる",
+      "meaning": "potrzebować"
     },
     {
       "kanji": "要する",
-      "reading": "ヨウする"
+      "reading": "ヨウする",
+      "meaning": "wymagać"
     },
     {
       "kanji": "重要な",
-      "reading": "ジュウヨウ"
+      "reading": "ジュウヨウ",
+      "meaning": "ważny"
     },
     {
       "kanji": "主要な",
-      "reading": "シュヨウ"
+      "reading": "シュヨウ",
+      "meaning": "główny"
     },
     {
       "kanji": "必要な",
-      "reading": "ヒツヨウ"
+      "reading": "ヒツヨウ",
+      "meaning": "niezbędny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "要点",
       "reading": "ヨウテン",
+      "meaning": "sedno",
       "reference": 470
     },
     {
       "kanji": "要請",
       "reading": "ヨウセイ",
+      "meaning": "wezwanie",
       "reference": 613
     },
     {
       "kanji": "肝要な",
       "reading": "カンヨウ",
+      "meaning": "kluczowy",
       "reference": 1081
     }
   ],

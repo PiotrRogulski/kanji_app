@@ -7,28 +7,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿階",
-      "reading": "カイ"
+      "reading": "カイ",
+      "meaning": "… piętro"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "階段",
       "reading": "カイダン",
+      "meaning": "schody",
       "reference": 645
     },
     {
       "kanji": "段階",
       "reading": "ダンカイ",
+      "meaning": "etap; faza",
       "reference": 645
     },
     {
       "kanji": "階層",
       "reading": "カイソウ",
+      "meaning": "warstwa; klasa",
       "reference": 835
     },
     {
       "kanji": "階級",
       "reading": "カイキュウ",
+      "meaning": "klasa; stopień",
       "reference": 1219
     }
   ],

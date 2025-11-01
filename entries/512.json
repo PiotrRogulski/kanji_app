@@ -9,52 +9,63 @@
   "wordsRequiredNow": [
     {
       "kanji": "戦う",
-      "reading": "たたかう"
+      "reading": "たたかう",
+      "meaning": "walczyć"
     },
     {
       "kanji": "戦",
-      "reading": "いくさ"
+      "reading": "いくさ",
+      "meaning": "wojna; bitwa"
     },
     {
       "kanji": "戦い",
-      "reading": "たたかい"
+      "reading": "たたかい",
+      "meaning": "walka; bitwa"
     },
     {
       "kanji": "大戦",
-      "reading": "タイセン"
+      "reading": "タイセン",
+      "meaning": "wielka wojna"
     },
     {
       "kanji": "戦前",
-      "reading": "センゼン"
+      "reading": "センゼン",
+      "meaning": "przedwojenny"
     },
     {
       "kanji": "戦後",
-      "reading": "センゴ"
+      "reading": "センゴ",
+      "meaning": "powojenny"
     },
     {
       "kanji": "作戦",
-      "reading": "サクセン"
+      "reading": "サクセン",
+      "meaning": "operacja; strategia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "戦争",
       "reading": "センソウ",
+      "meaning": "wojna",
       "reference": 513
     },
     {
-      "kanji": "日露戦争 ニチロセンソウ",
-      "reading": "1123",
-      "reference": 0
+      "kanji": "日露戦争",
+      "reading": "ニチロセンソウ",
+      "meaning": "wojna rosyjsko-japońska",
+      "reference": 1123
     },
     {
       "kanji": "戦闘",
       "reading": "セントウ",
+      "meaning": "walka bojowa; bitwa",
       "reference": 1250
     },
     {
       "kanji": "挑戦",
       "reading": "チョウセン",
+      "meaning": "wyzwanie",
       "reference": 1359
     }
   ],

@@ -7,67 +7,81 @@
   "wordsRequiredNow": [
     {
       "kanji": "点",
-      "reading": "テン"
+      "reading": "テン",
+      "meaning": "punkt; kropka; wynik"
     },
     {
       "kanji": "点数",
-      "reading": "テンスウ"
+      "reading": "テンスウ",
+      "meaning": "liczba punktów; wynik"
     },
     {
       "kanji": "重点",
-      "reading": "ジュウテン"
+      "reading": "ジュウテン",
+      "meaning": "nacisk; priorytet"
     },
     {
       "kanji": "地点",
-      "reading": "チテン"
+      "reading": "チテン",
+      "meaning": "miejsce; lokalizacja"
     },
     {
       "kanji": "弱点",
-      "reading": "ジャクテン"
+      "reading": "ジャクテン",
+      "meaning": "słaby punkt; wada"
     },
     {
       "kanji": "終点",
-      "reading": "シュウテン"
+      "reading": "シュウテン",
+      "meaning": "stacja końcowa; punkt końcowy"
     },
     {
       "kanji": "要点",
-      "reading": "ヨウテン"
+      "reading": "ヨウテン",
+      "meaning": "sedno; kluczowy punkt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "起点",
       "reading": "キテン",
+      "meaning": "punkt wyjścia; początek",
       "reference": 541
     },
     {
       "kanji": "欠点",
       "reading": "ケッテン",
+      "meaning": "wada; słaby punkt",
       "reference": 568
     },
     {
       "kanji": "交差点",
       "reading": "コウサテン",
+      "meaning": "skrzyżowanie",
       "reference": 684
     },
     {
       "kanji": "満点",
       "reading": "マンテン",
+      "meaning": "maksymalna liczba punktów",
       "reference": 692
     },
     {
       "kanji": "採点",
       "reading": "サイテン",
+      "meaning": "ocenianie; przyznawanie punktów",
       "reference": 780
     },
     {
       "kanji": "零点",
       "reading": "レイテン",
+      "meaning": "zero punktów",
       "reference": 810
     },
     {
       "kanji": "焦点",
       "reading": "ショウテン",
+      "meaning": "punkt ogniskowy; punkt skupienia",
       "reference": 1376
     }
   ],

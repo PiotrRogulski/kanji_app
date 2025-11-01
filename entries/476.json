@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "家族",
-      "reading": "カゾク"
+      "reading": "カゾク",
+      "meaning": "rodzina"
     },
     {
       "kanji": "民族",
-      "reading": "ミンゾク"
+      "reading": "ミンゾク",
+      "meaning": "naród; grupa etniczna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "部族",
       "reading": "ブゾク",
+      "meaning": "plemię",
       "reference": 478
     },
     {
       "kanji": "豪族",
       "reading": "ゴウゾク",
+      "meaning": "wpływowy ród",
       "reference": 1325
     }
   ],

@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "人類",
-      "reading": "ジンルイ"
+      "reading": "ジンルイ",
+      "meaning": "ludzkość"
     },
     {
       "kanji": "分類",
-      "reading": "ブンルイ"
+      "reading": "ブンルイ",
+      "meaning": "klasyfikacja"
     },
     {
       "kanji": "書類",
-      "reading": "ショルイ"
+      "reading": "ショルイ",
+      "meaning": "dokumenty"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "親類",
       "reading": "シンルイ",
+      "meaning": "krewni",
       "reference": 509
     },
     {
       "kanji": "種類",
       "reading": "シュルイ",
+      "meaning": "rodzaj",
       "reference": 628
     },
     {
       "kanji": "衣類",
       "reading": "イルイ",
+      "meaning": "odzież",
       "reference": 631
     },
     {
       "kanji": "類似",
       "reading": "ルイジ",
+      "meaning": "podobieństwo",
       "reference": 714
     }
   ],

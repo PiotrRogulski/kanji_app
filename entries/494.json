@@ -8,38 +8,46 @@
   "wordsRequiredNow": [
     {
       "kanji": "愛",
-      "reading": "アイ"
+      "reading": "アイ",
+      "meaning": "miłość"
     },
     {
       "kanji": "愛する",
-      "reading": "アイする"
+      "reading": "アイする",
+      "meaning": "kochać"
     },
     {
       "kanji": "愛情",
-      "reading": "アイジョウ"
+      "reading": "アイジョウ",
+      "meaning": "uczucie, miłość"
     },
     {
       "kanji": "愛人",
-      "reading": "アイジン"
+      "reading": "アイジン",
+      "meaning": "kochanek/kochanka"
     },
     {
       "kanji": "愛国心",
-      "reading": "アイコクシン"
+      "reading": "アイコクシン",
+      "meaning": "patriotyzm"
     },
     {
       "kanji": "愛犬",
-      "reading": "アイケン"
+      "reading": "アイケン",
+      "meaning": "ukochany pies"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "愛猫",
       "reading": "アイビョウ",
+      "meaning": "ukochany kot",
       "reference": 1114
     },
     {
       "kanji": "恋愛",
       "reading": "レンアイ",
+      "meaning": "miłość romantyczna",
       "reference": 1493
     }
   ],

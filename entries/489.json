@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "故",
-      "reading": "ゆえ"
+      "reading": "ゆえ",
+      "meaning": "powód; przyczyna; z tego powodu"
     },
     {
       "kanji": "故＿",
-      "reading": "コ"
+      "reading": "コ",
+      "meaning": "ś.p.; 'zmarły' – prefiks przed nazwiskiem"
     },
     {
       "kanji": "事故",
-      "reading": "ジコ"
+      "reading": "ジコ",
+      "meaning": "wypadek; incydent"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "故郷",
       "reading": "コキョウ",
+      "meaning": "rodzinne strony; ojczyzna",
       "reference": 1047
     },
     {
       "kanji": "故障",
       "reading": "コショウ",
+      "meaning": "awaria; usterka; uszkodzenie",
       "reference": 1060
     }
   ],

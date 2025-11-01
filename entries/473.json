@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "薬",
-      "reading": "くすり"
+      "reading": "くすり",
+      "meaning": "lek; lekarstwo"
     },
     {
       "kanji": "薬品",
-      "reading": "ヤクヒン"
+      "reading": "ヤクヒン",
+      "meaning": "preparat chemiczny; lek"
     },
     {
       "kanji": "薬局",
-      "reading": "ヤッキョク"
+      "reading": "ヤッキョク",
+      "meaning": "apteka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "薬屋",
       "reading": "くすりや",
+      "meaning": "sklep z lekami; apteka",
       "reference": 534
     },
     {
       "kanji": "薬剤",
       "reading": "ヤクザイ",
+      "meaning": "środek leczniczy; lek",
       "reference": 641
     },
     {
       "kanji": "麻薬",
       "reading": "マヤク",
+      "meaning": "narkotyk",
       "reference": 1404
     }
   ],

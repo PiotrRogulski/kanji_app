@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "借りる",
-      "reading": "かりる"
+      "reading": "かりる",
+      "meaning": "pożyczać; wypożyczać; wynajmować (od kogoś)"
     },
     {
       "kanji": "借金",
-      "reading": "シャッキン"
+      "reading": "シャッキン",
+      "meaning": "dług; zadłużenie"
     }
   ],
   "wordsRequiredLater": [],

@@ -10,23 +10,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "王宮",
-      "reading": "オウキュウ"
+      "reading": "オウキュウ",
+      "meaning": "pałac królewski"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "神宮",
       "reading": "ジングウ",
+      "meaning": "wielka świątynia shintō",
       "reference": 483
     },
     {
       "kanji": "宮殿",
       "reading": "キュウデン",
+      "meaning": "pałac",
       "reference": 1334
     },
     {
       "kanji": "宮廷",
       "reading": "キュウテイ",
+      "meaning": "dwór królewski",
       "reference": 1475
     }
   ],

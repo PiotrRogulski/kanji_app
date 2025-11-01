@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "去る",
-      "reading": "さる"
+      "reading": "さる",
+      "meaning": "odchodzić; odjeżdżać; mijać (o czasie)"
     },
     {
       "kanji": "去年",
-      "reading": "キョネン"
+      "reading": "キョネン",
+      "meaning": "zeszły rok; ubiegły rok"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "過去",
       "reading": "カコ",
+      "meaning": "przeszłość",
       "reference": 503
     },
     {
       "kanji": "撤去",
       "reading": "テッキョ",
+      "meaning": "usunięcie; demontaż; likwidacja",
       "reference": 1278
     }
   ],

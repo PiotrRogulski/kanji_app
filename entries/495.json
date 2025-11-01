@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "押す",
-      "reading": "おす"
+      "reading": "おす",
+      "meaning": "pchać, naciskać"
     },
     {
       "kanji": "押さえる",
-      "reading": "おさえる"
+      "reading": "おさえる",
+      "meaning": "przytrzymać, powstrzymać, tłumić"
     }
   ],
   "wordsRequiredLater": [],

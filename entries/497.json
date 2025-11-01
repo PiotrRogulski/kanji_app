@@ -9,21 +9,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "亡くなる",
-      "reading": "なくなる"
+      "reading": "なくなる",
+      "meaning": "umrzeć; odejść (euf.)"
     },
     {
       "kanji": "亡くす",
-      "reading": "なくす"
+      "reading": "なくす",
+      "meaning": "stracić (kogoś, przez śmierć)"
     },
     {
       "kanji": "死亡",
-      "reading": "シボウ"
+      "reading": "シボウ",
+      "meaning": "śmierć; zgon"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "逃亡",
       "reading": "トウボウ",
+      "meaning": "ucieczka; zbiegostwo",
       "reference": 795
     }
   ],

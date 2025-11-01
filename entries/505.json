@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "忘れる",
-      "reading": "わすれる"
+      "reading": "わすれる",
+      "meaning": "zapominać"
     },
     {
       "kanji": "忘れ物",
-      "reading": "わすれもの"
+      "reading": "わすれもの",
+      "meaning": "zguba; zapomniana rzecz"
     }
   ],
   "wordsRequiredLater": [],

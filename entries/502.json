@@ -9,42 +9,51 @@
   "wordsRequiredNow": [
     {
       "kanji": "夜",
-      "reading": "よる"
+      "reading": "よる",
+      "meaning": "noc"
     },
     {
       "kanji": "夜",
-      "reading": "よ"
+      "reading": "よ",
+      "meaning": "noc"
     },
     {
       "kanji": "夜明け",
-      "reading": "よあけ"
+      "reading": "よあけ",
+      "meaning": "świt"
     },
     {
       "kanji": "真夜中",
-      "reading": "まよなか"
+      "reading": "まよなか",
+      "meaning": "środek nocy"
     },
     {
       "kanji": "夜行",
-      "reading": "ヤコウ"
+      "reading": "ヤコウ",
+      "meaning": "nocny (np. pociąg)"
     },
     {
       "kanji": "夜間",
-      "reading": "ヤカン"
+      "reading": "ヤカン",
+      "meaning": "nocą; nocny"
     },
     {
       "kanji": "今夜",
-      "reading": "コンヤ"
+      "reading": "コンヤ",
+      "meaning": "dziś w nocy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "深夜",
       "reading": "シンヤ",
+      "meaning": "późna noc",
       "reference": 563
     },
     {
       "kanji": "徹夜",
       "reading": "テツヤ",
+      "meaning": "zarwana noc",
       "reference": 1337
     }
   ],

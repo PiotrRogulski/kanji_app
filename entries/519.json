@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "根",
-      "reading": "ね"
+      "reading": "ね",
+      "meaning": "korzeń"
     },
     {
       "kanji": "根本的",
-      "reading": "コンポンテキ"
+      "reading": "コンポンテキ",
+      "meaning": "fundamentalny; zasadniczy"
     },
     {
       "kanji": "大根",
-      "reading": "ダイコン"
+      "reading": "ダイコン",
+      "meaning": "rzodkiew japońska"
     },
     {
       "kanji": "羽根",
-      "reading": "はね"
+      "reading": "はね",
+      "meaning": "pióro; skrzydełko"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "屋根",
       "reading": "やね",
+      "meaning": "dach",
       "reference": 534
     },
     {
       "kanji": "根拠",
       "reading": "コンキョ",
+      "meaning": "podstawa; uzasadnienie",
       "reference": 694
     }
   ],

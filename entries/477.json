@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "植える",
-      "reading": "うえる"
+      "reading": "うえる",
+      "meaning": "sadzić"
     },
     {
       "kanji": "植物",
-      "reading": "ショクブツ"
+      "reading": "ショクブツ",
+      "meaning": "roślina"
     },
     {
       "kanji": "植物園",
-      "reading": "ショクブツエン"
+      "reading": "ショクブツエン",
+      "meaning": "ogród botaniczny"
     },
     {
       "kanji": "植民地",
-      "reading": "ショクミンチ"
+      "reading": "ショクミンチ",
+      "meaning": "kolonia"
     }
   ],
   "wordsRequiredLater": [],

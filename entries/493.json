@@ -9,36 +9,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "収める",
-      "reading": "おさめる"
+      "reading": "おさめる",
+      "meaning": "osiągnąć (np. sukces); zakończyć; schować"
     },
     {
       "kanji": "収入",
-      "reading": "シュウニュウ"
+      "reading": "シュウニュウ",
+      "meaning": "dochód; przychód"
     },
     {
       "kanji": "収集",
-      "reading": "シュウシュウ"
+      "reading": "シュウシュウ",
+      "meaning": "zbieranie; kolekcjonowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "吸収",
       "reading": "キュウシュウ",
+      "meaning": "absorpcja; wchłanianie",
       "reference": 498
     },
     {
       "kanji": "収納",
       "reading": "シュウノウ",
+      "meaning": "przechowywanie; przestrzeń do przechowywania",
       "reference": 956
     },
     {
       "kanji": "領収書",
       "reading": "リョウシュウショ",
+      "meaning": "paragon; pokwitowanie",
       "reference": 1168
     },
     {
       "kanji": "没収",
       "reading": "ボッシュウ",
+      "meaning": "konfiskata; przepadek",
       "reference": 1465
     }
   ],

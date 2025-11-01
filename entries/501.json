@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "短い",
-      "reading": "みじかい"
+      "reading": "みじかい",
+      "meaning": "krótki"
     },
     {
       "kanji": "短所",
-      "reading": "タンショ"
+      "reading": "タンショ",
+      "meaning": "wada; słaba strona"
     },
     {
       "kanji": "短期",
-      "reading": "タンキ"
+      "reading": "タンキ",
+      "meaning": "krótki okres"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "短縮",
       "reading": "タンシュク",
+      "meaning": "skrócenie; redukcja",
       "reference": 775
     },
     {
       "kanji": "短編",
       "reading": "タンペン",
+      "meaning": "krótkometrażowy; opowiadanie",
       "reference": 982
     }
   ],

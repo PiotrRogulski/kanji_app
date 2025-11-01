@@ -9,30 +9,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "歌",
-      "reading": "うた"
+      "reading": "うた",
+      "meaning": "piosenka"
     },
     {
       "kanji": "歌う",
-      "reading": "うたう"
+      "reading": "うたう",
+      "meaning": "śpiewać"
     },
     {
       "kanji": "歌手",
-      "reading": "カシュ"
+      "reading": "カシュ",
+      "meaning": "wokalista/wokalistka"
     },
     {
       "kanji": "歌人",
-      "reading": "カジン"
+      "reading": "カジン",
+      "meaning": "poeta"
     },
     {
       "kanji": "国歌",
-      "reading": "コッカ"
+      "reading": "コッカ",
+      "meaning": "hymn państwowy"
     }
   ],
-  "wordsRequiredLater": [],
-  "additionalWords": [
+  "wordsRequiredLater": [
     {
       "kanji": "歌舞伎",
-      "reading": "カブキ 915"
+      "reading": "カブキ",
+      "meaning": "kabuki (teatr japoński)",
+      "reference": 915
     }
-  ]
+  ],
+  "additionalWords": []
 }
