@@ -8,7 +8,7 @@ class AppRadius extends Radius {
   static const zero = AppRadius._circular(0);
 }
 
-class AppBorderRadius extends BorderRadiusDirectional {
+class AppBorderRadius extends BorderRadius {
   AppBorderRadius.circular(AppUnit super.radius) : super.circular();
 
   AppBorderRadius.vertical({AppUnit? top, AppUnit? bottom})
@@ -17,10 +17,10 @@ class AppBorderRadius extends BorderRadiusDirectional {
         bottom: bottom != null ? AppRadius.circular(bottom) : AppRadius.zero,
       );
 
-  AppBorderRadius.horizontal({AppUnit? start, AppUnit? end})
+  AppBorderRadius.horizontal({AppUnit? left, AppUnit? right})
     : super.horizontal(
-        start: start != null ? AppRadius.circular(start) : AppRadius.zero,
-        end: end != null ? AppRadius.circular(end) : AppRadius.zero,
+        left: left != null ? AppRadius.circular(left) : AppRadius.zero,
+        right: right != null ? AppRadius.circular(right) : AppRadius.zero,
       );
 
   const AppBorderRadius._zero() : super.all(AppRadius.zero);

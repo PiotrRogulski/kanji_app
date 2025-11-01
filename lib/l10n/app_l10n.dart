@@ -94,18 +94,6 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[Locale('pl')];
 
-  /// No description provided for @kanjiDetails_next.
-  ///
-  /// In pl, this message translates to:
-  /// **'Następne kanji'**
-  String get kanjiDetails_next;
-
-  /// No description provided for @kanjiDetails_previous.
-  ///
-  /// In pl, this message translates to:
-  /// **'Poprzednie kanji'**
-  String get kanjiDetails_previous;
-
   /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
   ///
   /// In pl, this message translates to:
@@ -141,12 +129,6 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Antonimy'**
   String get kanji_antonyms;
-
-  /// No description provided for @kanji_openInJisho.
-  ///
-  /// In pl, this message translates to:
-  /// **'Otwórz w Jisho'**
-  String get kanji_openInJisho;
 
   /// No description provided for @kanji_radical.
   ///

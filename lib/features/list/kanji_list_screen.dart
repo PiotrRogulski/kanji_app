@@ -72,12 +72,12 @@ class KanjiListScreen extends HookWidget {
         cacheExtent: 10_000,
         slivers: [
           SliverPadding(
-            padding: viewPadding.add(const AppEdgeInsets.all(.large)),
+            padding: viewPadding.add(const AppEdgeInsets.all(.medium)),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
                   child: AppPadding(
-                    padding: const .symmetric(horizontal: .large),
+                    padding: const .symmetric(horizontal: .medium),
                     child: Text(
                       s.kanjiList_title,
                       style: theme.textTheme.displayLarge?.apply(
@@ -109,7 +109,7 @@ class KanjiListScreen extends HookWidget {
                     ],
                   ),
                 ),
-                AppUnit.large.sliverGap,
+                AppUnit.medium.sliverGap,
                 SliverLayoutBuilder(
                   builder: (context, constraints) {
                     return SliverMasonryGrid.count(
@@ -117,8 +117,8 @@ class KanjiListScreen extends HookWidget {
                       childCount: filteredKanji.value.length,
                       itemBuilder: (context, index) =>
                           _Entry(filteredKanji.value[index]),
-                      crossAxisSpacing: AppUnit.large,
-                      mainAxisSpacing: AppUnit.large,
+                      crossAxisSpacing: AppUnit.medium,
+                      mainAxisSpacing: AppUnit.medium,
                     );
                   },
                 ),
@@ -146,7 +146,7 @@ class _Entry extends StatelessWidget {
       child: Stack(
         children: [
           AppPadding(
-            padding: const .all(.large),
+            padding: const .all(.medium),
             child: Row(
               key: ValueKey(entry.id),
               crossAxisAlignment: .start,

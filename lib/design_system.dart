@@ -3,6 +3,8 @@ export 'design_system/card.dart';
 export 'design_system/dynamic_weight.dart';
 export 'design_system/grouped_kanji_row.dart';
 export 'design_system/icon.dart';
+export 'design_system/icon_button.dart';
 export 'design_system/icons.dart';
+export 'design_system/ink_well.dart';
 export 'design_system/padding.dart';
 export 'design_system/sizes.dart';

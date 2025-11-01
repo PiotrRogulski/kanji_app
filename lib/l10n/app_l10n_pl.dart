@@ -9,12 +9,6 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
-  String get kanjiDetails_next => 'Następne kanji';
-
-  @override
-  String get kanjiDetails_previous => 'Poprzednie kanji';
-
-  @override
   String get kanjiDetails_strokeOrderNotAvailable =>
       'Kolejność pisania niedostępna';
 
@@ -32,9 +26,6 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get kanji_antonyms => 'Antonimy';
-
-  @override
-  String get kanji_openInJisho => 'Otwórz w Jisho';
 
   @override
   String get kanji_radical => 'Pierwiastek';

@@ -6,7 +6,6 @@ import 'package:kanji_app/features/details/widgets/sentences.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
-import 'package:kanji_app/navigation/routes.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -17,8 +16,6 @@ class KanjiDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final s = context.l10n;
-
     // TODO: Add not found screen
     final entry = context.read<KanjiData>().get(id)!;
 
@@ -34,8 +31,9 @@ class KanjiDetailsScreen extends StatelessWidget {
                   floating: true,
                   snap: true,
                   actions: [
-                    IconButton(
-                      icon: const AppIcon(.openInNew, size: .large),
+                    AppIconButton(
+                      icon: .openInNew,
+                      iconSize: .large,
                       onPressed: () => launchUrl(
                         Uri(
                           scheme: 'https',
@@ -43,7 +41,6 @@ class KanjiDetailsScreen extends StatelessWidget {
                           pathSegments: ['search', '${entry.kanji} #kanji'],
                         ),
                       ),
-                      tooltip: s.kanji_openInJisho,
                     ),
                   ],
                 ),
@@ -88,19 +85,19 @@ class KanjiDetailsScreen extends StatelessWidget {
                 (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
               ],
             ),
-            Positioned(
-              bottom: AppUnit.large,
-              left: 0,
-              right: 0,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  _NavButton(type: _NavButtonType.previous, id: id),
-                  AppUnit.tiny.gap,
-                  _NavButton(type: _NavButtonType.next, id: id),
-                ],
-              ),
-            ),
+            // Positioned(
+            //   bottom: AppUnit.large,
+            //   left: 0,
+            //   right: 0,
+            //   child: Row(
+            //     mainAxisAlignment: MainAxisAlignment.center,
+            //     children: [
+            //       _NavButton(type: _NavButtonType.previous, id: id),
+            //       AppUnit.tiny.gap,
+            //       _NavButton(type: _NavButtonType.next, id: id),
+            //     ],
+            //   ),
+            // ),
           ],
         ),
       ),
@@ -108,61 +105,55 @@ class KanjiDetailsScreen extends StatelessWidget {
   }
 }
 
-enum _NavButtonType {
-  previous,
-  next;
+// enum _NavButtonType {
+//   previous,
+//   next;
+//
+//   int getTargetID(int id) => switch (this) {
+//     previous => id - 1,
+//     next => id + 1,
+//   };
+//
+//   AppBorderRadius get borderRadius => switch (this) {
+//     previous => .horizontal(left: .xlarge, right: .xsmall),
+//     next => .horizontal(left: .xsmall, right: .xlarge),
+//   };
+//
+//   AppIconData get icon => switch (this) {
+//     previous => .chevronBackward,
+//     next => .chevronForward,
+//   };
+//
+//   bool enabled(BuildContext context, int id) => switch (this) {
+//     previous => id > 1,
+//     next => id < context.read<KanjiData>().entries.last.id,
+//   };
+// }
 
-  int getTargetID(int id) => switch (this) {
-    previous => id - 1,
-    next => id + 1,
-  };
-
-  AppBorderRadius get borderRadius => switch (this) {
-    previous => .horizontal(start: .xlarge, end: .xsmall),
-    next => .horizontal(start: .xsmall, end: .xlarge),
-  };
-
-  AppIconData get icon => switch (this) {
-    previous => .chevronBackward,
-    next => .chevronForward,
-  };
-
-  String tooltip(BuildContext context) => switch (this) {
-    previous => context.l10n.kanjiDetails_previous,
-    next => context.l10n.kanjiDetails_next,
-  };
-
-  bool enabled(BuildContext context, int id) => switch (this) {
-    previous => id > 1,
-    next => id < context.read<KanjiData>().entries.last.id,
-  };
-}
-
-class _NavButton extends StatelessWidget {
-  const _NavButton({required this.type, required this.id});
-
-  final _NavButtonType type;
-  final int id;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    final enabled = type.enabled(context, id);
-
-    return IconButton(
-      icon: AppIcon(type.icon, size: .xlarge),
-      onPressed: enabled
-          ? () => KanjiDetailsRoute(type.getTargetID(id)).go(context)
-          : null,
-      tooltip: type.tooltip(context),
-      style: IconButton.styleFrom(
-        backgroundColor: theme.colorScheme.primaryContainer,
-        disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
-        padding: .zero,
-        shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
-      ),
-      constraints: BoxConstraints.tight(Size.square(AppUnit.xlarge * 2)),
-    );
-  }
-}
+// class _NavButton extends StatelessWidget {
+//   const _NavButton({required this.type, required this.id});
+//
+//   final _NavButtonType type;
+//   final int id;
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     final theme = Theme.of(context);
+//
+//     final enabled = type.enabled(context, id);
+//
+//     return IconButton(
+//       icon: AppIcon(type.icon, size: .xlarge),
+//       onPressed: enabled
+//           ? () => KanjiDetailsRoute(type.getTargetID(id)).go(context)
+//           : null,
+//       style: IconButton.styleFrom(
+//         backgroundColor: theme.colorScheme.primaryContainer,
+//         disabledBackgroundColor: theme.colorScheme.surfaceContainerLow,
+//         padding: .zero,
+//         shape: RoundedRectangleBorder(borderRadius: type.borderRadius),
+//       ),
+//       constraints: BoxConstraints.tight(Size.square(AppUnit.xlarge * 2)),
+//     );
+//   }
+// }
