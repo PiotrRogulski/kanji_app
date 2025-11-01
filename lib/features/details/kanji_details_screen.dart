@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
-import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
 import 'package:kanji_app/features/details/widgets/sentences.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
@@ -45,7 +44,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                   ],
                 ),
                 SliverPadding(
-                  padding: const AppEdgeInsets.all(.large),
+                  padding: const AppEdgeInsets.all(.medium),
                   sliver: SliverLayoutBuilder(
                     builder: (context, constraints) {
                       return switch (constraints.crossAxisExtent) {
@@ -82,7 +81,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                     },
                   ),
                 ),
-                (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
+                // (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
               ],
             ),
             // Positioned(
