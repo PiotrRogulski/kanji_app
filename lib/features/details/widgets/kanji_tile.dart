@@ -64,7 +64,12 @@ class KanjiTile extends StatelessWidget {
         child: Stack(
           children: [
             AppPadding(
-              padding: const .all(.xsmall),
+              padding: const .only(
+                top: .medium,
+                start: .xsmall,
+                end: .xsmall,
+                bottom: .xsmall,
+              ),
               child: Column(
                 mainAxisSize: .min,
                 spacing: AppUnit.medium,

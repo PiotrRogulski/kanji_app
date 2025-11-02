@@ -51,7 +51,7 @@ extension on TextTheme {
 extension on TextStyle {
   TextStyle get display => copyWith(
     fontFamily: 'EB Garamond',
-    fontFamilyFallback: ['KleeOne'],
+    fontFamilyFallback: ['Yu Kyokasho', 'KleeOne'],
   ).applyAxes;
 
   TextStyle get body => copyWith(
