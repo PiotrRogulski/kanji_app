@@ -1,7 +1,9 @@
 #!/usr/bin/env -S fvm dart
 
 import 'dart:convert';
+import 'dart:io' as io;
 
+import 'package:characters/characters.dart';
 import 'package:excel/excel.dart';
 import 'package:file/local.dart';
 
@@ -12,11 +14,35 @@ const fs = LocalFileSystem();
 String serializeEntry(Map<String, dynamic> entry) =>
     '${const JsonEncoder.withIndent('  ').convert(entry)}\n';
 
+Never printHelp() {
+  io.stderr.write('''
+Usage:
+  extract_excel.dart [words|radicals] <path_to_excel_file>
+''');
+  io.exit(1);
+}
+
 Future<void> main(List<String> args) async {
-  final filePath =
-      args.elementAtOrNull(0) ?? (throw Exception('Provide a file path'));
+  if (args.length != 2) {
+    printHelp();
+  }
+
+  final [command, filePath] = args;
+
   final file = fs.file(filePath);
   final excel = Excel.decodeBytes(file.readAsBytesSync());
+
+  switch (command) {
+    case 'words':
+      await extractWords(excel);
+    case 'radicals':
+      await extractRadicals(excel);
+    default:
+      printHelp();
+  }
+}
+
+Future<void> extractWords(Excel excel) async {
   final sheet = excel['znaki 461-1535'];
 
   final outputDir = fs.directory('entries')..createSync(recursive: true);
@@ -79,4 +105,58 @@ Future<void> main(List<String> args) async {
           }),
         );
   }
+}
+
+Future<void> extractRadicals(Excel excel) async {
+  final sheet = excel['Elementy znaków'];
+
+  final outputDir = fs.directory('radicals')..createSync(recursive: true);
+
+  final startID = int.parse(sheet.cell(.indexByString('A12')).value.toString());
+
+  for (final (i, row) in sheet.rows.skip(11).indexed) {
+    if (row.first?.value == null) {
+      continue;
+    }
+
+    final id = startID + i;
+    final [_, strokeCount, radicals, names, examples, meaning] = row;
+
+    outputDir
+        .childFile('$id.json')
+        .writeAsStringSync(
+          serializeEntry({
+            'id': id,
+            'strokeCount': parseStrokeCount(strokeCount!.value!.toString()),
+            'radicals': radicals!.value!.toString().split('／'),
+            // TODO: split & parse names
+            'names': names!.value!.toString(),
+            'examples': examples!.value!.toString().split('、'),
+            'meaning': meaning!.value!.toString(),
+          }),
+        );
+  }
+}
+
+int parseStrokeCount(String value) {
+  final trimmed = value.replaceFirst('画', '');
+  final normalized = trimmed.characters
+      .map(
+        (c) => switch (c) {
+          '０' => '0',
+          '１' => '1',
+          '２' => '2',
+          '３' => '3',
+          '４' => '4',
+          '５' => '5',
+          '６' => '6',
+          '７' => '7',
+          '８' => '8',
+          '９' => '9',
+          _ => c,
+        },
+      )
+      .join();
+
+  return .parse(normalized);
 }

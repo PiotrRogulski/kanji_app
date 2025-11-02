@@ -154,7 +154,7 @@ packages:
     source: hosted
     version: "3.0.3"
   characters:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: characters
       sha256: f71061c654a3380576a52b451dd5532377954cf9dbd272a78fc8479606670803
