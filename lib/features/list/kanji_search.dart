@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:kana_kit/kana_kit.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 
 final _queryByID = RegExp(r'^#?(?<id>\d+)$');
@@ -6,6 +7,8 @@ final _japaneseOnly = RegExp(
   r'^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]+$',
   unicode: true,
 );
+
+const _kanaKit = KanaKit();
 
 // TODO: search more fuzzily
 SearchMatch matchEntry(KanjiEntry entry, String query) {
@@ -22,11 +25,18 @@ SearchMatch matchEntry(KanjiEntry entry, String query) {
     return .kanji;
   }
 
-  if (entry.readings.contains(query)) {
+  final hira = _kanaKit.toHiragana(query);
+  final kata = _kanaKit.toKatakana(query);
+
+  if (entry.readings.contains(query) ||
+      entry.readings.contains(hira) ||
+      entry.readings.contains(kata)) {
     return .fullReading;
   }
 
-  if (entry.readings.any((r) => r.contains(query))) {
+  if (entry.readings.any((r) => r.contains(query)) ||
+      entry.readings.any((r) => r.contains(hira)) ||
+      entry.readings.any((r) => r.contains(kata))) {
     return .partialReading;
   }
 

@@ -25,11 +25,12 @@ class KanjiListScreen extends HookWidget {
     final filteredKanji = useState(kanjiData.entries);
 
     final searchController = useSyncedTextEditingController((value) {
-      if (value.text.isEmpty) {
+      final query = value.text.trim();
+      if (query.isEmpty) {
         filteredKanji.value = kanjiData.entries;
       } else {
         final matches = {
-          for (final e in kanjiData.entries) e: matchEntry(e, value.text),
+          for (final e in kanjiData.entries) e: matchEntry(e, query),
         };
         filteredKanji.value = kanjiData.entries
             .where((e) => matches[e] != .none)
