@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 
-set -xeou pipefail
+set -eou pipefail
+
+if [[ $# -ne 2 ]]; then
+  echo "Usage: $0 <source_dir> <output_path>"
+  exit 1
+fi
 
 TMP=$(mktemp)
 trap 'rm -f "$TMP"' EXIT
 
-OUTPUT_ASSET=assets/kanji.jsonl.xz
+SOURCE_DIR=$1
+OUTPUT_PATH=$2
 
-for f in entries/*.json; do
+for f in "$SOURCE_DIR"/*.json; do
   jq -c '.' "$f" >> "$TMP"
 done
 
-xz -c "$TMP" > "$OUTPUT_ASSET"
+xz -c "$TMP" > "$OUTPUT_PATH"
