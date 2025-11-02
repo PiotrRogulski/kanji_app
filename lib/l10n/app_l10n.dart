@@ -100,17 +100,17 @@ abstract class AppLocalizations {
   /// **'Szukaj'**
   String get common_search;
 
+  /// No description provided for @common_scrollToTop.
+  ///
+  /// In pl, this message translates to:
+  /// **'Przewiń do góry'**
+  String get common_scrollToTop;
+
   /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
   ///
   /// In pl, this message translates to:
   /// **'Kolejność pisania niedostępna'**
   String get kanjiDetails_strokeOrderNotAvailable;
-
-  /// No description provided for @kanjiList_scrollToTop.
-  ///
-  /// In pl, this message translates to:
-  /// **'Przewiń do góry'**
-  String get kanjiList_scrollToTop;
 
   /// No description provided for @kanjiList_search.
   ///

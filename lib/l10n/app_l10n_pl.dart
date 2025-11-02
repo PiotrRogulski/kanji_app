@@ -12,11 +12,11 @@ class AppLocalizationsPl extends AppLocalizations {
   String get common_search => 'Szukaj';
 
   @override
-  String get kanjiDetails_strokeOrderNotAvailable =>
-      'Kolejność pisania niedostępna';
+  String get common_scrollToTop => 'Przewiń do góry';
 
   @override
-  String get kanjiList_scrollToTop => 'Przewiń do góry';
+  String get kanjiDetails_strokeOrderNotAvailable =>
+      'Kolejność pisania niedostępna';
 
   @override
   String get kanjiList_search => 'Szukaj znaków';

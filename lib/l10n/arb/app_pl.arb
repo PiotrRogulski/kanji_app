@@ -1,8 +1,8 @@
 {
   "@@locale": "pl",
   "common_search": "Szukaj",
+  "common_scrollToTop": "Przewiń do góry",
   "kanjiDetails_strokeOrderNotAvailable": "Kolejność pisania niedostępna",
-  "kanjiList_scrollToTop": "Przewiń do góry",
   "kanjiList_search": "Szukaj znaków",
   "kanjiList_title": "Znaki",
   "kanjiSets_title": "Zestawy",

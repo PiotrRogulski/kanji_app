@@ -37,12 +37,13 @@ void main() async {
     observers: [const QueryLoggingObserver()],
   );
 
-  final kanjiData = await loadKanji();
+  final (kanjiData, radicalsData) = await (loadKanji(), loadRadicals()).wait;
 
   runApp(
     MultiProvider(
       providers: [
         Provider.value(value: kanjiData),
+        Provider.value(value: radicalsData),
         Provider(
           create: (context) => KanjiApi(
             Dio()

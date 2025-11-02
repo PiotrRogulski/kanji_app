@@ -65,7 +65,7 @@ class KanjiListScreen extends HookWidget {
               hoverElevation: 0,
               focusElevation: 0,
               highlightElevation: 0,
-              tooltip: s.kanjiList_scrollToTop,
+              tooltip: s.common_scrollToTop,
               child: const AppIcon(.arrowUpward, size: .large),
             )
           : null,

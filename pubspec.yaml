@@ -57,6 +57,7 @@ flutter:
 
   assets:
     - assets/kanji.jsonl.xz
+    - assets/radicals.jsonl.xz
 
   fonts:
     - family: Material Symbols Rounded
