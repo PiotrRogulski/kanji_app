@@ -128,7 +128,7 @@ Future<void> extractRadicals(Excel excel) async {
           serializeEntry({
             'id': id,
             'strokeCount': parseStrokeCount(strokeCount!.value!.toString()),
-            'radicals': radicals!.value!.toString().split('／'),
+            'radicals': radicals!.value!.toString().split(RegExp('／|・')),
             // TODO: split & parse names
             'names': names!.value!.toString().trim(),
             'examples': examples!.value!.toString().split('、'),
