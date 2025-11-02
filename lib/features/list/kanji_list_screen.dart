@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -99,7 +101,10 @@ class KanjiListScreen extends HookWidget {
                 SliverLayoutBuilder(
                   builder: (context, constraints) {
                     return SliverMasonryGrid.count(
-                      crossAxisCount: constraints.crossAxisExtent ~/ 320,
+                      crossAxisCount: max(
+                        constraints.crossAxisExtent ~/ 320,
+                        1,
+                      ),
                       childCount: filteredKanji.value.length,
                       itemBuilder: (context, index) =>
                           _Entry(filteredKanji.value[index]),
