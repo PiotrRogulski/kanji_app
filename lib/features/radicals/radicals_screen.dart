@@ -112,33 +112,44 @@ class _Entry extends StatelessWidget {
         child: Column(
           crossAxisAlignment: .start,
           children: [
-            Row(
-              crossAxisAlignment: .start,
-              spacing: AppUnit.small,
-              mainAxisSize: .min,
+            Wrap(
+              spacing: AppUnit.medium,
+              runSpacing: AppUnit.small,
+              crossAxisAlignment: .center,
               children: [
-                for (final radical in entry.radicals)
-                  Container(
-                    width: 64,
-                    height: 64,
-                    decoration: BoxDecoration(
-                      borderRadius: AppBorderRadius.circular(.small),
-                      color: theme.colorScheme.surface,
-                    ),
-                    alignment: Alignment.center,
-                    child: Text(
-                      radical,
-                      style: theme.textTheme.displayMedium
-                          ?.apply(color: theme.colorScheme.onSurfaceVariant)
-                          .copyWith(height: 1),
-                    ),
-                  ),
+                Row(
+                  crossAxisAlignment: .start,
+                  spacing: AppUnit.small,
+                  mainAxisSize: .min,
+                  children: [
+                    for (final radical in entry.radicals)
+                      Container(
+                        width: 64,
+                        height: 64,
+                        decoration: BoxDecoration(
+                          borderRadius: AppBorderRadius.circular(.small),
+                          color: theme.colorScheme.surface,
+                        ),
+                        alignment: Alignment.center,
+                        child: Text(
+                          radical,
+                          style: theme.textTheme.displayMedium
+                              ?.apply(color: theme.colorScheme.onSurfaceVariant)
+                              .copyWith(height: 1),
+                        ),
+                      ),
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    Text(entry.names, style: theme.textTheme.titleLarge),
+                    Text(entry.meaning, style: theme.textTheme.titleMedium),
+                  ],
+                ),
               ],
             ),
-            AppUnit.medium.gap,
-            Text(entry.names, style: theme.textTheme.titleLarge),
-            Text(entry.meaning, style: theme.textTheme.titleMedium),
-            AppUnit.medium.gap,
+            AppUnit.small.gap,
             Container(
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
