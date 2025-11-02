@@ -52,7 +52,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                             SliverToBoxAdapter(
                               child: KanjiSummary(entry: entry),
                             ),
-                            AppUnit.small.sliverGap,
+                            AppUnit.large.sliverGap,
                             SliverKanjiWords(entry: entry),
                             // AppUnit.small.sliverGap,
                             // SliverKanjiSentences(entry: entry),

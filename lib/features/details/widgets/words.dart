@@ -29,7 +29,7 @@ class SliverKanjiWords extends StatelessWidget {
     return SliverMainAxisGroup(
       slivers: [
         for (final (i, section) in sections.indexed) ...[
-          if (i > 0) AppUnit.small.sliverGap,
+          if (i > 0) AppUnit.large.sliverGap,
           _SliverWordsSection(section),
         ],
       ],
@@ -84,11 +84,11 @@ class _WordTile extends StatelessWidget {
 
     return AppCard(
       child: AppPadding(
-        padding: const .only(
+        padding: .only(
           start: .small,
           end: .small,
           top: .small,
-          bottom: .xsmall,
+          bottom: word.reference == null ? .xsmall : .small,
         ),
         child: Column(
           spacing: AppUnit.xsmall,
@@ -102,18 +102,20 @@ class _WordTile extends StatelessWidget {
                 ),
                 AppUnit.xlarge.gap,
                 Text(word.reading, style: theme.textTheme.bodyLarge),
-                if (word.reference case final reference?) ...[
-                  AppUnit.medium.gap,
-                  TextButton(
-                    onPressed: () =>
-                        KanjiDetailsRoute(reference).push<void>(context),
-                    child: Text('→ #$reference'),
-                  ),
-                ],
               ],
             ),
             if (word.meaning.isNotEmpty)
               Text(word.meaning, style: theme.textTheme.bodyLarge),
+            if (word.reference case final reference?) ...[
+              FilledButton(
+                onPressed: () =>
+                    KanjiDetailsRoute(reference).push<void>(context),
+                style: FilledButton.styleFrom(
+                  padding: const AppEdgeInsets.symmetric(horizontal: .medium),
+                ),
+                child: Text('#$reference'),
+              ),
+            ],
           ],
         ),
       ),
