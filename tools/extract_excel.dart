@@ -130,9 +130,9 @@ Future<void> extractRadicals(Excel excel) async {
             'strokeCount': parseStrokeCount(strokeCount!.value!.toString()),
             'radicals': radicals!.value!.toString().split('／'),
             // TODO: split & parse names
-            'names': names!.value!.toString(),
+            'names': names!.value!.toString().trim(),
             'examples': examples!.value!.toString().split('、'),
-            'meaning': meaning!.value!.toString(),
+            'meaning': meaning!.value!.toString().trim(),
           }),
         );
   }
