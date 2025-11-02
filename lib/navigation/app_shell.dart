@@ -75,17 +75,17 @@ class ScaffoldWithNavBar extends StatelessWidget {
             label: s.kanjiList_title,
             selected: currentIndex == 0,
           ),
+          AppNavigationDestination(
+            icon: .category,
+            label: s.radicals_title,
+            selected: currentIndex == 1,
+          ),
           // TODO: define & bring back sets
           // AppNavigationDestination(
           //   icon: .bookmark,
           //   label: s.kanjiSets_title,
-          //   selected: currentIndex == 1,
+          //   selected: currentIndex == ???,
           // ),
-          AppNavigationDestination(
-            icon: .workspaces,
-            label: s.radicals_title,
-            selected: currentIndex == 2,
-          ),
         ],
         selectedIndex: currentIndex,
         onSelectedIndexChange: (index) {
@@ -156,7 +156,7 @@ class AppNavigationDestination extends NavigationDestination {
            icon,
            size: .large,
            fill: selected ? 1 : 0,
-           weight: selected ? .bold : .regular,
+           weight: selected ? .bold : .light,
          ),
        );
 }
