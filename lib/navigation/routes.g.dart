@@ -30,13 +30,6 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
       ],
     ),
     StatefulShellBranchData.$branch(
-      navigatorKey: KanjiSetsBranch.$navigatorKey,
-      restorationScopeId: KanjiSetsBranch.$restorationScopeId,
-      routes: [
-        GoRouteData.$route(path: '/sets', factory: $KanjiSetsRoute._fromState),
-      ],
-    ),
-    StatefulShellBranchData.$branch(
       navigatorKey: RadicalsBranch.$navigatorKey,
       restorationScopeId: RadicalsBranch.$restorationScopeId,
       routes: [
@@ -84,26 +77,6 @@ mixin $KanjiDetailsRoute on GoRouteData {
   String get location => GoRouteData.$location(
     '/list/${Uri.encodeComponent(_self.id.toString())}',
   );
-
-  @override
-  void go(BuildContext context) => context.go(location);
-
-  @override
-  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
-
-  @override
-  void pushReplacement(BuildContext context) =>
-      context.pushReplacement(location);
-
-  @override
-  void replace(BuildContext context) => context.replace(location);
-}
-
-mixin $KanjiSetsRoute on GoRouteData {
-  static KanjiSetsRoute _fromState(GoRouterState state) => KanjiSetsRoute();
-
-  @override
-  String get location => GoRouteData.$location('/sets');
 
   @override
   void go(BuildContext context) => context.go(location);

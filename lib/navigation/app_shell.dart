@@ -75,11 +75,12 @@ class ScaffoldWithNavBar extends StatelessWidget {
             label: s.kanjiList_title,
             selected: currentIndex == 0,
           ),
-          AppNavigationDestination(
-            icon: .bookmark,
-            label: s.kanjiSets_title,
-            selected: currentIndex == 1,
-          ),
+          // TODO: define & bring back sets
+          // AppNavigationDestination(
+          //   icon: .bookmark,
+          //   label: s.kanjiSets_title,
+          //   selected: currentIndex == 1,
+          // ),
           AppNavigationDestination(
             icon: .workspaces,
             label: s.radicals_title,
