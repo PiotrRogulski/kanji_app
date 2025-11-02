@@ -165,6 +165,12 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Pierwiastki'**
   String get radicals_title;
+
+  /// No description provided for @radicals_strokeCount.
+  ///
+  /// In pl, this message translates to:
+  /// **'{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}'**
+  String radicals_strokeCount(num count);
 }
 
 class _AppLocalizationsDelegate

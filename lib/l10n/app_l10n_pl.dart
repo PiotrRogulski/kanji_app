@@ -44,4 +44,16 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get radicals_title => 'Pierwiastki';
+
+  @override
+  String radicals_strokeCount(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count kresek',
+      few: '$count kreski',
+      one: '1 kreska',
+    );
+    return '$_temp0';
+  }
 }

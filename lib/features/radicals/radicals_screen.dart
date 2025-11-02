@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
@@ -15,6 +16,10 @@ class RadicalsScreen extends HookWidget {
     final theme = Theme.of(context);
 
     final radicalsData = context.read<RadicalsData>();
+    final groups = radicalsData.entries
+        .groupListsBy((e) => e.strokeCount)
+        .entries
+        .sortedBy((e) => e.key);
 
     final scrollController = useScrollController();
     final position = useListenableSelector(
@@ -61,12 +66,26 @@ class RadicalsScreen extends HookWidget {
                   ),
                 ),
                 AppUnit.medium.sliverGap,
-                SliverList.separated(
-                  itemCount: radicalsData.entries.length,
-                  itemBuilder: (context, index) =>
-                      _Entry(radicalsData.entries[index]),
-                  separatorBuilder: (context, _) => AppUnit.medium.gap,
-                ),
+                for (final (index, group) in groups.indexed) ...[
+                  if (index > 0) AppUnit.large.sliverGap,
+                  SliverToBoxAdapter(
+                    child: Container(
+                      color: theme.colorScheme.surface,
+                      padding: const AppEdgeInsets.symmetric(
+                        horizontal: .medium,
+                      ),
+                      child: Text(
+                        s.radicals_strokeCount(group.key),
+                        style: theme.textTheme.headlineLarge,
+                      ),
+                    ),
+                  ),
+                  SliverList.separated(
+                    itemCount: group.value.length,
+                    itemBuilder: (context, index) => _Entry(group.value[index]),
+                    separatorBuilder: (context, _) => AppUnit.medium.gap,
+                  ),
+                ],
                 const SliverGap(48),
               ],
             ),
