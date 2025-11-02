@@ -11,6 +11,7 @@
   "kanji_readings": "Czytania",
   "kanji_strokeOrder": "Kolejność pisania",
   "kanji_synonyms": "Synonimy",
+  "radicals_exampleKanji": "Na przykład w",
   "radicals_title": "Pierwiastki",
   "radicals_strokeCount": "{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}"
 }

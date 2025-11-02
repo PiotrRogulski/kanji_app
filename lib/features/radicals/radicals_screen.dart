@@ -103,18 +103,19 @@ class _Entry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
     final theme = Theme.of(context);
 
     return AppCard(
       child: AppPadding(
         padding: const .all(.medium),
         child: Column(
-          crossAxisAlignment: .stretch,
+          crossAxisAlignment: .start,
           children: [
             Row(
-              key: ValueKey(entry.id),
               crossAxisAlignment: .start,
               spacing: AppUnit.small,
+              mainAxisSize: .min,
               children: [
                 for (final radical in entry.radicals)
                   Container(
@@ -137,6 +138,56 @@ class _Entry extends StatelessWidget {
             AppUnit.medium.gap,
             Text(entry.names, style: theme.textTheme.titleLarge),
             Text(entry.meaning, style: theme.textTheme.titleMedium),
+            AppUnit.medium.gap,
+            Container(
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surface,
+                borderRadius: AppBorderRadius.circular(
+                  AppUnit.small + AppUnit.xsmall,
+                ),
+              ),
+              padding: const AppEdgeInsets.only(
+                start: .small,
+                end: .xsmall,
+                top: .xsmall,
+                bottom: .xsmall,
+              ),
+              child: Row(
+                mainAxisSize: .min,
+                children: [
+                  Text(
+                    s.radicals_exampleKanji,
+                    style: theme.textTheme.bodyLarge,
+                  ),
+                  AppUnit.small.gap,
+                  Row(
+                    spacing: AppUnit.tiny,
+                    mainAxisSize: .min,
+                    children: [
+                      for (final (index, kanji) in entry.examples.indexed)
+                        Container(
+                          width: 42,
+                          height: 42,
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.surfaceContainerHighest,
+                            borderRadius: AppBorderRadius.horizontal(
+                              left: index == 0 ? .small : .xsmall,
+                              right: index == entry.examples.length - 1
+                                  ? .small
+                                  : .xsmall,
+                            ),
+                          ),
+                          alignment: .center,
+                          child: Text(
+                            kanji,
+                            style: theme.textTheme.headlineLarge,
+                          ),
+                        ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

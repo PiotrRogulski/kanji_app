@@ -160,6 +160,12 @@ abstract class AppLocalizations {
   /// **'Synonimy'**
   String get kanji_synonyms;
 
+  /// No description provided for @radicals_exampleKanji.
+  ///
+  /// In pl, this message translates to:
+  /// **'Na przykład w'**
+  String get radicals_exampleKanji;
+
   /// No description provided for @radicals_title.
   ///
   /// In pl, this message translates to:

@@ -43,6 +43,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get kanji_synonyms => 'Synonimy';
 
   @override
+  String get radicals_exampleKanji => 'Na przykład w';
+
+  @override
   String get radicals_title => 'Pierwiastki';
 
   @override
