@@ -1,16 +1,9 @@
-import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
 
 class RadicalsData {
   const RadicalsData(this.entries);
 
   final List<RadicalEntry> entries;
-
-  RadicalEntry? get(int id) => entries.firstWhereOrNull((e) => e.id == id);
-
-  Map<String, dynamic> toJson() => {
-    'entries': entries.map((e) => e.toJson()).toList(),
-  };
 }
 
 class RadicalEntry with EquatableMixin {
@@ -47,13 +40,4 @@ class RadicalEntry with EquatableMixin {
     examples,
     meaning,
   ];
-
-  Map<String, dynamic> toJson() => {
-    'id': id,
-    'strokeCount': strokeCount,
-    'radicals': radicals,
-    'names': names,
-    'examples': examples,
-    'meaning': meaning,
-  };
 }
