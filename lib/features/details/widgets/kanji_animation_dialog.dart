@@ -101,21 +101,18 @@ class _KanjiDetailsLoaded extends HookWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         return SizedBox.expand(
-          child: Padding(
-            padding: .all(constraints.biggest.shortestSide * 0),
-            child: _KanjiGrid(
-              child: SvgDrawingAnimation(
-                controller: controller,
-                strokePaint: Paint()
-                  ..style = PaintingStyle.stroke
-                  ..color = colorScheme.onSurfaceVariant
-                  ..strokeWidth = 2
-                  ..strokeCap = StrokeCap.round,
-                pen: Pen(
-                  radius: 4,
-                  paint: Paint()
-                    ..color = colorScheme.primary.withValues(alpha: 0.5),
-                ),
+          child: _KanjiGrid(
+            child: SvgDrawingAnimation(
+              controller: controller,
+              strokePaint: Paint()
+                ..style = PaintingStyle.stroke
+                ..color = colorScheme.onSurfaceVariant
+                ..strokeWidth = 2
+                ..strokeCap = StrokeCap.round,
+              pen: Pen(
+                radius: 4,
+                paint: Paint()
+                  ..color = colorScheme.primary.withValues(alpha: 0.5),
               ),
             ),
           ),
@@ -148,13 +145,7 @@ class _KanjiGridPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final side = size.shortestSide;
-    final actualSize = Size.square(side);
-    final actualRect = Rect.fromCenter(
-      center: size.center(.zero),
-      width: actualSize.width,
-      height: actualSize.height,
-    );
+    final side = size.longestSide;
 
     final unit = side / 100;
     final color = colorScheme.outlineVariant;
@@ -189,18 +180,15 @@ class _KanjiGridPainter extends CustomPainter {
       }
     }
 
+    const radius = Radius.circular(AppUnit.xlarge);
+    final rect = Offset.zero & size;
+    final rrect = RRect.fromRectAndRadius(rect, radius);
     canvas
-      ..drawRRect(
-        .fromRectAndRadius(actualRect, .circular(unit * 8)),
-        Paint()..color = colorScheme.surfaceContainerLowest,
-      )
-      ..drawRRect(
-        .fromRectAndRadius(actualRect, .circular(unit * 8)),
-        borderPaint,
-      );
+      ..drawRRect(rrect, Paint()..color = colorScheme.surfaceContainerLowest)
+      ..drawRRect(rrect, borderPaint);
 
-    drawDashedLine(actualRect.centerLeft, actualRect.centerRight);
-    drawDashedLine(actualRect.topCenter, actualRect.bottomCenter);
+    drawDashedLine(rect.centerLeft, rect.centerRight);
+    drawDashedLine(rect.topCenter, rect.bottomCenter);
   }
 
   @override

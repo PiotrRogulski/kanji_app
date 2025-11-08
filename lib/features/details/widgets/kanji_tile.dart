@@ -12,6 +12,9 @@ class KanjiTile extends StatelessWidget {
 
   final KanjiEntry kanji;
 
+  static Tween<Rect?> _createRectTween(Rect? begin, Rect? end) =>
+      RectTween(begin: begin, end: end);
+
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -21,6 +24,7 @@ class KanjiTile extends StatelessWidget {
 
     return Hero(
       tag: 'kanji-${kanji.kanji}',
+      createRectTween: _createRectTween,
       child: AppCard(
         onTap: () {
           Navigator.of(context, rootNavigator: true).push(
@@ -43,6 +47,7 @@ class KanjiTile extends StatelessWidget {
                 return Center(
                   child: Hero(
                     tag: 'kanji-${kanji.kanji}',
+                    createRectTween: _createRectTween,
                     child: LayoutBuilder(
                       builder: (context, constraints) {
                         final biggest = constraints.biggest;
