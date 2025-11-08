@@ -8,17 +8,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "攻める",
-      "reading": "せめる"
+      "reading": "せめる",
+      "meaning": "atakować"
     },
     {
       "kanji": "専攻",
-      "reading": "センコウ"
+      "reading": "センコウ",
+      "meaning": "specjalizacja (kierunek studiów)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "攻撃",
       "reading": "コウゲキ",
+      "meaning": "atak",
       "reference": 851
     }
   ],

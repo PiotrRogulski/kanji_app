@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "生徒",
-      "reading": "セイト"
+      "reading": "セイト",
+      "meaning": "uczeń (szkoły)"
     },
     {
       "kanji": "門徒",
-      "reading": "モント"
+      "reading": "モント",
+      "meaning": "wyznawca; członek sekty"
     }
   ],
   "wordsRequiredLater": [],

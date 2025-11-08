@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "紹介",
-      "reading": "ショウカイ"
+      "reading": "ショウカイ",
+      "meaning": "przedstawienie; wprowadzenie"
     },
     {
       "kanji": "介入",
-      "reading": "カイニュウ"
+      "reading": "カイニュウ",
+      "meaning": "interwencja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "自己紹介",
       "reading": "ジコショウカイ",
+      "meaning": "autoprezentacja",
       "reference": 950
     },
     {
       "kanji": "仲介",
       "reading": "チュウカイ",
+      "meaning": "pośrednictwo",
       "reference": 1004
     }
   ],

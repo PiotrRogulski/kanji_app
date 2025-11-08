@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "試す",
-      "reading": "ためす"
+      "reading": "ためす",
+      "meaning": "próbować; testować"
     },
     {
       "kanji": "試し",
-      "reading": "ためし"
+      "reading": "ためし",
+      "meaning": "próba"
     },
     {
       "kanji": "試験",
-      "reading": "シケン"
+      "reading": "シケン",
+      "meaning": "egzamin; test"
     },
     {
       "kanji": "試合",
-      "reading": "シあい"
+      "reading": "シあい",
+      "meaning": "mecz; zawody"
     }
   ],
   "wordsRequiredLater": [],

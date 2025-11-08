@@ -2,16 +2,19 @@
   "id": 599,
   "kanji": "他",
   "readings": [
-    "タ"
+    "タ",
+    "ほか"
   ],
   "wordsRequiredNow": [
     {
       "kanji": "他",
-      "reading": "タ"
+      "reading": "ほか",
+      "meaning": "inny; pozostały"
     },
     {
       "kanji": "他人",
-      "reading": "タニン"
+      "reading": "タニン",
+      "meaning": "obca osoba; ktoś inny"
     }
   ],
   "wordsRequiredLater": [],

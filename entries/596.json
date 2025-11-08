@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "課",
-      "reading": "カ"
+      "reading": "カ",
+      "meaning": "dział (w firmie); lekcja"
     },
     {
       "kanji": "課長",
-      "reading": "カチョウ"
+      "reading": "カチョウ",
+      "meaning": "kierownik działu"
     },
     {
       "kanji": "課題",
-      "reading": "カダイ"
+      "reading": "カダイ",
+      "meaning": "zadanie; zagadnienie; problem"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "課程",
       "reading": "カテイ",
+      "meaning": "program nauczania; tok studiów",
       "reference": 604
     },
     {
       "kanji": "課税",
       "reading": "カゼイ",
+      "meaning": "opodatkowanie",
       "reference": 1166
     }
   ],

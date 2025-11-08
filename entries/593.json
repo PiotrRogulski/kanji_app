@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "管",
-      "reading": "くだ"
+      "reading": "くだ",
+      "meaning": "rura; tuba"
     },
     {
       "kanji": "管理",
-      "reading": "カンリ"
+      "reading": "カンリ",
+      "meaning": "zarządzanie; administracja"
     },
     {
       "kanji": "血管",
-      "reading": "ケッカン"
+      "reading": "ケッカン",
+      "meaning": "naczynie krwionośne"
     }
   ],
   "wordsRequiredLater": [],

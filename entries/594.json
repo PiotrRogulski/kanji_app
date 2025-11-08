@@ -10,25 +10,30 @@
   "wordsRequiredNow": [
     {
       "kanji": "果たす",
-      "reading": "はたす"
+      "reading": "はたす",
+      "meaning": "spełnić; wypełnić"
     },
     {
       "kanji": "結果",
-      "reading": "ケッカ"
+      "reading": "ケッカ",
+      "meaning": "rezultat; wynik"
     },
     {
       "kanji": "果実",
-      "reading": "カジツ"
+      "reading": "カジツ",
+      "meaning": "owoc (bot.)"
     },
     {
       "kanji": "果物",
-      "reading": "くだもの"
+      "reading": "くだもの",
+      "meaning": "owoce"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "効果",
       "reading": "コウカ",
+      "meaning": "efekt; skuteczność",
       "reference": 1015
     }
   ],

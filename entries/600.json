@@ -7,27 +7,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "給料",
-      "reading": "キュウリョウ"
+      "reading": "キュウリョウ",
+      "meaning": "pensja; wynagrodzenie"
     },
     {
       "kanji": "月給",
-      "reading": "ゲッキュウ"
+      "reading": "ゲッキュウ",
+      "meaning": "miesięczna pensja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "供給",
       "reading": "キョウキュウ",
+      "meaning": "podaż; dostarczanie",
       "reference": 638
     },
     {
       "kanji": "給与",
       "reading": "キュウヨ",
+      "meaning": "wynagrodzenie; świadczenia",
       "reference": 1074
     },
     {
       "kanji": "需給",
       "reading": "ジュキュウ",
+      "meaning": "popyt i podaż",
       "reference": 1260
     }
   ],

@@ -7,17 +7,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "順番",
-      "reading": "ジュンバン"
+      "reading": "ジュンバン",
+      "meaning": "kolejność; kolej"
     },
     {
       "kanji": "順々",
-      "reading": "ジュンジュン"
+      "reading": "ジュンジュン",
+      "meaning": "po kolei; kolejno"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "順序",
       "reading": "ジュンジョ",
+      "meaning": "porządek; kolejność",
       "reference": 1058
     }
   ],

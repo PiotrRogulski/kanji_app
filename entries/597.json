@@ -7,17 +7,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "第一",
-      "reading": "ダイイチ"
+      "reading": "ダイイチ",
+      "meaning": "pierwszy"
     },
     {
       "kanji": "第二",
-      "reading": "ダイニ"
+      "reading": "ダイニ",
+      "meaning": "drugi"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "次第に",
       "reading": "シダイ",
+      "meaning": "stopniowo",
       "reference": 612
     }
   ],

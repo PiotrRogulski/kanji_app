@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "飲む",
-      "reading": "のむ"
+      "reading": "のむ",
+      "meaning": "pić"
     },
     {
       "kanji": "飲み物",
-      "reading": "のみもの"
+      "reading": "のみもの",
+      "meaning": "napój"
     },
     {
       "kanji": "飲食",
-      "reading": "インショク"
+      "reading": "インショク",
+      "meaning": "jedzenie i picie; gastronomia"
     }
   ],
   "wordsRequiredLater": [],

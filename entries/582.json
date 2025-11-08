@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "妹",
-      "reading": "いもうと"
+      "reading": "いもうと",
+      "meaning": "młodsza siostra"
     },
     {
       "kanji": "姉妹",
-      "reading": "シマイ"
+      "reading": "シマイ",
+      "meaning": "siostry"
     }
   ],
   "wordsRequiredLater": [],

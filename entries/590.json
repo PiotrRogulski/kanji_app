@@ -10,46 +10,56 @@
   "wordsRequiredNow": [
     {
       "kanji": "温かい",
-      "reading": "あたたかい"
+      "reading": "あたたかい",
+      "meaning": "ciepły"
     },
     {
       "kanji": "温まる",
-      "reading": "あたたまる"
+      "reading": "あたたまる",
+      "meaning": "ogrzać się; ocieplać się"
     },
     {
       "kanji": "温める",
-      "reading": "あたためる"
+      "reading": "あたためる",
+      "meaning": "ogrzewać; podgrzewać"
     },
     {
       "kanji": "温度",
-      "reading": "オンド"
+      "reading": "オンド",
+      "meaning": "temperatura"
     },
     {
       "kanji": "温室",
-      "reading": "オンシツ"
+      "reading": "オンシツ",
+      "meaning": "szklarnia"
     },
     {
       "kanji": "気温",
-      "reading": "キオン"
+      "reading": "キオン",
+      "meaning": "temperatura powietrza"
     },
     {
       "kanji": "体温",
-      "reading": "タイオン"
+      "reading": "タイオン",
+      "meaning": "temperatura ciała"
     },
     {
       "kanji": "体温計",
-      "reading": "タイオンケイ"
+      "reading": "タイオンケイ",
+      "meaning": "termometr"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "温暖",
       "reading": "オンダン",
+      "meaning": "łagodny; ciepły (klimat)",
       "reference": 691
     },
     {
       "kanji": "温泉",
       "reading": "オンセン",
+      "meaning": "gorące źródła",
       "reference": 1298
     }
   ],

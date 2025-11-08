@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "有る",
-      "reading": "ある"
+      "reading": "ある",
+      "meaning": "być; istnieć; mieć"
     },
     {
       "kanji": "有名な",
-      "reading": "ユウメイ"
+      "reading": "ユウメイ",
+      "meaning": "sławny; znany"
     },
     {
       "kanji": "有料",
-      "reading": "ユウリョウ"
+      "reading": "ユウリョウ",
+      "meaning": "płatny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "有（り）難い",
       "reading": "ありがたい",
+      "meaning": "być wdzięcznym; cenny",
       "reference": 903
     },
     {
       "kanji": "有罪",
       "reading": "ユウザイ",
+      "meaning": "winny (prawnie)",
       "reference": 952
     },
     {
       "kanji": "有効な",
       "reading": "ユウコウ",
+      "meaning": "ważny; skuteczny",
       "reference": 1015
     },
     {
       "kanji": "有益な",
       "reading": "ユウエキ",
+      "meaning": "pożyteczny; korzystny",
       "reference": 1085
     }
   ],

@@ -10,25 +10,30 @@
   "wordsRequiredNow": [
     {
       "kanji": "頼む",
-      "reading": "たのむ"
+      "reading": "たのむ",
+      "meaning": "prosić; prosić o przysługę"
     },
     {
       "kanji": "頼る",
-      "reading": "たよる"
+      "reading": "たよる",
+      "meaning": "polegać (na kimś/czymś)"
     },
     {
       "kanji": "頼み",
-      "reading": "たのみ"
+      "reading": "たのみ",
+      "meaning": "prośba; przysługa"
     },
     {
       "kanji": "信頼",
-      "reading": "シンライ"
+      "reading": "シンライ",
+      "meaning": "zaufanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "依頼",
       "reading": "イライ",
+      "meaning": "prośba; zlecenie",
       "reference": 1147
     }
   ],

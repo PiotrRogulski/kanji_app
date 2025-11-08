@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "辺",
-      "reading": "ヘン"
+      "reading": "ヘン",
+      "meaning": "okolica; strona"
     },
     {
       "kanji": "辺り",
-      "reading": "あたり"
+      "reading": "あたり",
+      "meaning": "okolica; w pobliżu"
     },
     {
       "kanji": "周辺",
-      "reading": "シュウヘン"
+      "reading": "シュウヘン",
+      "meaning": "okolice; obrzeża"
     }
   ],
   "wordsRequiredLater": [],

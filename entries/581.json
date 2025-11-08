@@ -8,17 +8,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "姉",
-      "reading": "あね"
+      "reading": "あね",
+      "meaning": "starsza siostra"
     },
     {
       "kanji": "お姉さん",
-      "reading": "おねえさん"
+      "reading": "おねえさん",
+      "meaning": "starsza siostra (grzecznie)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "姉妹",
       "reading": "シマイ",
+      "meaning": "siostry",
       "reference": 582
     }
   ],

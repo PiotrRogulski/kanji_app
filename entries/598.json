@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "一倍",
-      "reading": "イチバイ"
+      "reading": "イチバイ",
+      "meaning": "razy jeden (×1)"
     },
     {
       "kanji": "二倍",
-      "reading": "ニバイ"
+      "reading": "ニバイ",
+      "meaning": "razy dwa (×2)"
     }
   ],
   "wordsRequiredLater": [],
