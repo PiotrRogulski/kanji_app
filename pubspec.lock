@@ -37,10 +37,10 @@ packages:
     dependency: "direct dev"
     description:
       name: arb_utils
-      sha256: af575530379e47b8b63f3df3f582aadfb645202a8b32c7faddbafb58fcd591fe
+      sha256: a4cddb4ca871b747a0cafe0a83e53e2887b6847dba34a5b090f401578e88b67a
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.3"
+    version: "0.9.0"
   archive:
     dependency: "direct main"
     description:
@@ -245,10 +245,10 @@ packages:
     dependency: transitive
     description:
       name: crypto
-      sha256: "1e445881f28f22d6140f181e07737b22f1e099a5e1ff94b0af2f9e4a463f4855"
+      sha256: c8ea0233063ba03258fbcf2ca4d6dadfefe14f02fab57702265467a19f27fadf
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.6"
+    version: "3.0.7"
   csv:
     dependency: transitive
     description:
@@ -317,10 +317,10 @@ packages:
     dependency: transitive
     description:
       name: dev_build
-      sha256: fda8a54458b2a873a84e0cd1513f4323a1fb0599ed5455245359bc0398bad9ee
+      sha256: "1d9aa167c05cbe4be9fbaf863c76dcee9bec302fb861270672beb6d6be0bc8f4"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.2+11"
+    version: "1.1.3+1"
   dio:
     dependency: "direct main"
     description:
@@ -453,10 +453,10 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: d8f590a69729f719177ea68eb1e598295e8dbc41bbc247fed78b2c8a25660d7c
+      sha256: c92d18e1fe994cb06d48aa786c46b142a5633067e8297cff6b5a3ac742620104
       url: "https://pub.dev"
     source: hosted
-    version: "16.3.0"
+    version: "17.0.0"
   go_router_builder:
     dependency: "direct dev"
     description:
@@ -506,7 +506,7 @@ packages:
     source: hosted
     version: "2.1.0"
   intl:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: intl
       sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
@@ -911,14 +911,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.1"
-  sprintf:
-    dependency: transitive
-    description:
-      name: sprintf
-      sha256: "1fc9ffe69d4df602376b52949af107d8f5703b77cda567c4d7d86a0693120f23"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.0"
   sqflite:
     dependency: transitive
     description:
@@ -1155,10 +1147,10 @@ packages:
     dependency: transitive
     description:
       name: uuid
-      sha256: a5be9ef6618a7ac1e964353ef476418026db906c4facdedaa299b7a2e71690ff
+      sha256: a11b666489b1954e01d992f3d601b1804a33937b5a8fe677bd26b8a9f96f96e8
       url: "https://pub.dev"
     source: hosted
-    version: "4.5.1"
+    version: "4.5.2"
   validators2:
     dependency: transitive
     description:
@@ -1248,5 +1240,5 @@ packages:
     source: hosted
     version: "2.2.2"
 sdks:
-  dart: ">=3.11.0-87.0.dev <4.0.0"
-  flutter: ">=3.38.0-1.0.pre-350 <4.0.0"
+  dart: "3.11.0-113.0.dev"
+  flutter: "3.38.0-1.0.pre-474"
