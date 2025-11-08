@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "命令",
-      "reading": "メイレイ"
+      "reading": "メイレイ",
+      "meaning": "rozkaz; polecenie"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "律令制",
-      "reading": "リツリョウセイ"
+      "reading": "リツリョウセイ",
+      "meaning": "system ritsuryō (starożytny system prawno‑administracyjny)"
     }
   ]
 }

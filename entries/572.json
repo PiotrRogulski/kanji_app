@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "周り",
-      "reading": "まわり"
+      "reading": "まわり",
+      "meaning": "okolica; otoczenie"
     },
     {
       "kanji": "円周",
-      "reading": "エンシュウ"
+      "reading": "エンシュウ",
+      "meaning": "obwód (okręgu)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "周辺",
       "reading": "シュウヘン",
+      "meaning": "okolice; obrzeża",
       "reference": 584
     },
     {
       "kanji": "周囲",
       "reading": "シュウイ",
+      "meaning": "otoczenie",
       "reference": 813
     }
   ],

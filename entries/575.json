@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "許す",
-      "reading": "ゆるす"
+      "reading": "ゆるす",
+      "meaning": "wybaczyć; pozwolić"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "許可",
       "reading": "キョカ",
+      "meaning": "pozwolenie",
       "reference": 961
     },
     {
       "kanji": "免許",
       "reading": "メンキョ",
+      "meaning": "licencja; prawo (np. jazdy)",
       "reference": 1125
     }
   ],

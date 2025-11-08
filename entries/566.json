@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "規則",
-      "reading": "キソク"
+      "reading": "キソク",
+      "meaning": "reguła; przepis"
     },
     {
       "kanji": "不規則",
-      "reading": "フキソク"
+      "reading": "フキソク",
+      "meaning": "nieregularny"
     },
     {
       "kanji": "法則",
-      "reading": "ホウソク"
+      "reading": "ホウソク",
+      "meaning": "prawo; zasada"
     }
   ],
   "wordsRequiredLater": [],

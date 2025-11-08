@@ -9,49 +9,59 @@
   "wordsRequiredNow": [
     {
       "kanji": "命",
-      "reading": "いのち"
+      "reading": "いのち",
+      "meaning": "życie"
     },
     {
       "kanji": "命じる",
-      "reading": "メイじる"
+      "reading": "メイじる",
+      "meaning": "rozkazać; nakazać"
     },
     {
       "kanji": "生命",
-      "reading": "セイメイ"
+      "reading": "セイメイ",
+      "meaning": "życie (biologiczne)"
     },
     {
       "kanji": "人命",
-      "reading": "ジンメイ"
+      "reading": "ジンメイ",
+      "meaning": "życie ludzkie"
     },
     {
       "kanji": "運命",
-      "reading": "ウンメイ"
+      "reading": "ウンメイ",
+      "meaning": "los; przeznaczenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "命令",
       "reading": "メイレイ",
+      "meaning": "rozkaz; polecenie",
       "reference": 570
     },
     {
       "kanji": "革命",
       "reading": "カクメイ",
+      "meaning": "rewolucja",
       "reference": 878
     },
     {
       "kanji": "懸命に",
       "reading": "ケンメイ",
+      "meaning": "z całych sił; usilnie",
       "reference": 889
     },
     {
       "kanji": "一生懸命に",
       "reading": "イッショウケンメイ",
+      "meaning": "z całych sił",
       "reference": 889
     },
     {
       "kanji": "寿命",
       "reading": "ジュミョウ",
+      "meaning": "długość życia; żywotność",
       "reference": 1098
     }
   ],

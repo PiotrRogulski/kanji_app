@@ -10,25 +10,30 @@
   "wordsRequiredNow": [
     {
       "kanji": "幸い",
-      "reading": "さいわい"
+      "reading": "さいわい",
+      "meaning": "na szczęście; pomyślność"
     },
     {
       "kanji": "幸せ",
-      "reading": "しあわせ"
+      "reading": "しあわせ",
+      "meaning": "szczęście"
     },
     {
       "kanji": "幸運",
-      "reading": "コウウン"
+      "reading": "コウウン",
+      "meaning": "pomyślność; szczęście"
     },
     {
       "kanji": "不幸",
-      "reading": "フコウ"
+      "reading": "フコウ",
+      "meaning": "nieszczęście"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "幸福",
       "reading": "コウフク",
+      "meaning": "szczęście; dobrobyt",
       "reference": 917
     }
   ],

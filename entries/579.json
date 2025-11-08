@@ -9,21 +9,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "係",
-      "reading": "かかり"
+      "reading": "かかり",
+      "meaning": "osoba odpowiedzialna; referent"
     },
     {
       "kanji": "係員",
-      "reading": "かかりイン"
+      "reading": "かかりイン",
+      "meaning": "pracownik obsługi"
     },
     {
       "kanji": "関係",
-      "reading": "カンケイ"
+      "reading": "カンケイ",
+      "meaning": "związek; relacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "無関係",
       "reading": "ムカンケイ",
+      "meaning": "niezwiązany; bez związku",
       "reference": 606
     }
   ],

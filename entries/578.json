@@ -8,64 +8,77 @@
   "wordsRequiredNow": [
     {
       "kanji": "関する",
-      "reading": "カンする"
+      "reading": "カンする",
+      "meaning": "dotyczyć"
     },
     {
       "kanji": "関",
-      "reading": "せき"
+      "reading": "せき",
+      "meaning": "przełęcz; posterunek graniczny"
     },
     {
       "kanji": "関東",
-      "reading": "カントウ"
+      "reading": "カントウ",
+      "meaning": "region Kantō"
     },
     {
       "kanji": "関西",
-      "reading": "カンサイ"
+      "reading": "カンサイ",
+      "meaning": "region Kansai"
     },
     {
       "kanji": "関連",
-      "reading": "カンレン"
+      "reading": "カンレン",
+      "meaning": "powiązanie; związany"
     },
     {
       "kanji": "関心",
-      "reading": "カンシン"
-    },
-    {
-      "kanji": "ciekawostka:関ヶ原の戦い",
-      "reading": "せきがはらのたたかい"
+      "reading": "カンシン",
+      "meaning": "zainteresowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "関係",
       "reading": "カンケイ",
+      "meaning": "związek; relacja",
       "reference": 579
     },
     {
       "kanji": "無関係",
       "reading": "ムカンケイ",
+      "meaning": "niezwiązany; bez związku",
       "reference": 606
     },
     {
       "kanji": "関与",
       "reading": "カンヨ",
+      "meaning": "udział; zaangażowanie",
       "reference": 1074
     },
     {
       "kanji": "税関",
       "reading": "ゼイカン",
+      "meaning": "urząd celny",
       "reference": 1166
     },
     {
       "kanji": "玄関",
       "reading": "ゲンカン",
+      "meaning": "wejście; przedpokój",
       "reference": 1474
     }
   ],
   "additionalWords": [
     {
       "kanji": "関口時正",
-      "reading": "せきぐちときまさ"
+      "reading": "せきぐちときまさ",
+      "meaning": "Sekiguchi Tokimasa (nazwisko i imię)"
+    },
+    {
+      "kanji": "関ヶ原の戦い",
+      "reading": "せきがはらのたたかい",
+      "meaning": "Bitwa pod Sekigaharą"
     }
   ]
 }

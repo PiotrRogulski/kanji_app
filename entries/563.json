@@ -9,21 +9,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "深い",
-      "reading": "ふかい"
+      "reading": "ふかい",
+      "meaning": "głęboki"
     },
     {
       "kanji": "深まる",
-      "reading": "ふかまる"
+      "reading": "ふかまる",
+      "meaning": "pogłębiać się"
     },
     {
       "kanji": "深夜",
-      "reading": "シンヤ"
+      "reading": "シンヤ",
+      "meaning": "późna noc"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "深刻",
       "reading": "シンコク",
+      "meaning": "poważny; dotkliwy",
       "reference": 672
     }
   ],

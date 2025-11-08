@@ -9,39 +9,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "落ちる",
-      "reading": "おちる"
+      "reading": "おちる",
+      "meaning": "spadać; upadać"
     },
     {
       "kanji": "落とす",
-      "reading": "おとす"
+      "reading": "おとす",
+      "meaning": "upuścić; zgubić"
     },
     {
       "kanji": "落ち着く",
-      "reading": "おちつく"
+      "reading": "おちつく",
+      "meaning": "uspokoić się; ochłonąć"
     },
     {
       "kanji": "落とし物",
-      "reading": "おとしもの"
+      "reading": "おとしもの",
+      "meaning": "zguba; rzecz zgubiona"
     },
     {
       "kanji": "落語",
-      "reading": "ラクゴ"
+      "reading": "ラクゴ",
+      "meaning": "rakugo (sztuka opowiadania)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "落とし穴",
       "reading": "おとしあな",
+      "meaning": "pułapka; dół‑pułapka",
       "reference": 852
     },
     {
       "kanji": "陥落",
       "reading": "カンラク",
+      "meaning": "upadek; kapitulacja",
       "reference": 1438
     },
     {
       "kanji": "没落",
       "reading": "ボツラク",
+      "meaning": "upadek; ruina",
       "reference": 1465
     }
   ],

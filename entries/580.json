@@ -9,34 +9,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "決まる",
-      "reading": "きまる"
+      "reading": "きまる",
+      "meaning": "zostać ustalone"
     },
     {
       "kanji": "決める",
-      "reading": "きめる"
+      "reading": "きめる",
+      "meaning": "zdecydować; ustalić"
     },
     {
       "kanji": "決して",
-      "reading": "ケッして"
+      "reading": "ケッして",
+      "meaning": "wcale (nie); nigdy (z negacją)"
     },
     {
       "kanji": "決心",
-      "reading": "ケッシン"
+      "reading": "ケッシン",
+      "meaning": "postanowienie; determinacja"
     },
     {
       "kanji": "決定",
-      "reading": "ケッテイ"
+      "reading": "ケッテイ",
+      "meaning": "decyzja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "決断",
       "reading": "ケツダン",
+      "meaning": "decyzja; zdecydowanie",
       "reference": 834
     },
     {
       "kanji": "解決",
       "reading": "カイケツ",
+      "meaning": "rozwiązanie (problemu)",
       "reference": 870
     }
   ],

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "任せる",
-      "reading": "まかせる"
+      "reading": "まかせる",
+      "meaning": "powierzać; zostawiać w czyichś rękach"
     },
     {
       "kanji": "責任",
-      "reading": "セキニン"
+      "reading": "セキニン",
+      "meaning": "odpowiedzialność"
     }
   ],
   "wordsRequiredLater": [],

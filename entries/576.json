@@ -7,33 +7,40 @@
   "wordsRequiredNow": [
     {
       "kanji": "週間",
-      "reading": "シュウカン"
+      "reading": "シュウカン",
+      "meaning": "tydzień (okres)"
     },
     {
       "kanji": "今週",
-      "reading": "コンシュウ"
+      "reading": "コンシュウ",
+      "meaning": "ten tydzień"
     },
     {
       "kanji": "来週",
-      "reading": "ライシュウ"
+      "reading": "ライシュウ",
+      "meaning": "przyszły tydzień"
     },
     {
       "kanji": "先週",
-      "reading": "センシュウ"
+      "reading": "センシュウ",
+      "meaning": "zeszły tydzień"
     },
     {
       "kanji": "週末",
-      "reading": "シュウマツ"
+      "reading": "シュウマツ",
+      "meaning": "weekend"
     },
     {
       "kanji": "毎週",
-      "reading": "マイシュウ"
+      "reading": "マイシュウ",
+      "meaning": "co tydzień"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "再来週",
       "reading": "サライシュウ",
+      "meaning": "za dwa tygodnie",
       "reference": 717
     }
   ],

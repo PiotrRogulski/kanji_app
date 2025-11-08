@@ -10,34 +10,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "痛い",
-      "reading": "いたい"
+      "reading": "いたい",
+      "meaning": "bolesny; boli"
     },
     {
       "kanji": "痛む",
-      "reading": "いたむ"
+      "reading": "いたむ",
+      "meaning": "boleć"
     },
     {
       "kanji": "痛み",
-      "reading": "いたみ"
+      "reading": "いたみ",
+      "meaning": "ból"
     },
     {
       "kanji": "苦痛",
-      "reading": "クツウ"
+      "reading": "クツウ",
+      "meaning": "cierpienie; ból"
     },
     {
       "kanji": "頭痛",
-      "reading": "ズツウ"
+      "reading": "ズツウ",
+      "meaning": "ból głowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "痛惜",
       "reading": "ツウセキ",
+      "meaning": "głęboki żal",
       "reference": 895
     },
     {
       "kanji": "痛恨",
       "reading": "ツウコン",
+      "meaning": "bolesny żal; gorzki żal",
       "reference": 1269
     }
   ],

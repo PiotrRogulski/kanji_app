@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "欠ける",
-      "reading": "かける"
+      "reading": "かける",
+      "meaning": "brakować; ubywać; być wyszczerbionym"
     },
     {
       "kanji": "欠席",
-      "reading": "ケッセキ"
+      "reading": "ケッセキ",
+      "meaning": "nieobecność"
     },
     {
       "kanji": "欠点",
-      "reading": "ケッテン"
+      "reading": "ケッテン",
+      "meaning": "wada; słabość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "不可欠な",
       "reading": "フカケツ",
+      "meaning": "niezbędny",
       "reference": 961
     },
     {
       "kanji": "欠陥",
       "reading": "ケッカン",
+      "meaning": "wada; defekt",
       "reference": 1438
     }
   ],

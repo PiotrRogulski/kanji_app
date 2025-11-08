@@ -8,21 +8,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "未だに",
-      "reading": "いまだに"
+      "reading": "いまだに",
+      "meaning": "wciąż; nadal"
     },
     {
       "kanji": "未来",
-      "reading": "ミライ"
+      "reading": "ミライ",
+      "meaning": "przyszłość"
     },
     {
       "kanji": "未成年",
-      "reading": "ミセイネン"
+      "reading": "ミセイネン",
+      "meaning": "nieletni; niepełnoletniość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "未満",
       "reading": "ミマン",
+      "meaning": "mniej niż",
       "reference": 692
     }
   ],

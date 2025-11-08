@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "授業",
-      "reading": "ジュギョウ"
+      "reading": "ジュギョウ",
+      "meaning": "zajęcia; lekcje"
     },
     {
       "kanji": "教授",
-      "reading": "キョウジュ"
+      "reading": "キョウジュ",
+      "meaning": "profesor; wykładowca"
     }
   ],
   "wordsRequiredLater": [],

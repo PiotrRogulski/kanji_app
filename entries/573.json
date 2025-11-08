@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "港",
-      "reading": "みなと"
+      "reading": "みなと",
+      "meaning": "port"
     },
     {
       "kanji": "空港",
-      "reading": "クウコウ"
+      "reading": "クウコウ",
+      "meaning": "lotnisko"
     }
   ],
   "wordsRequiredLater": [],

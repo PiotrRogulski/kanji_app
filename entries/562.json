@@ -12,33 +12,40 @@
   "wordsRequiredNow": [
     {
       "kanji": "治す",
-      "reading": "なおす"
+      "reading": "なおす",
+      "meaning": "leczyć; naprawiać"
     },
     {
       "kanji": "治る",
-      "reading": "なおる"
+      "reading": "なおる",
+      "meaning": "wyzdrowieć; naprawić się"
     },
     {
       "kanji": "治める",
-      "reading": "おさめる"
+      "reading": "おさめる",
+      "meaning": "rządzić; zaprowadzić porządek"
     },
     {
       "kanji": "治安",
-      "reading": "チアン"
+      "reading": "チアン",
+      "meaning": "porządek publiczny; bezpieczeństwo"
     },
     {
       "kanji": "自治",
-      "reading": "ジチ"
+      "reading": "ジチ",
+      "meaning": "samorząd; autonomia"
     },
     {
       "kanji": "政治",
-      "reading": "セイジ"
+      "reading": "セイジ",
+      "meaning": "polityka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "治療",
       "reading": "チリョウ",
+      "meaning": "leczenie; terapia",
       "reference": 923
     }
   ],
