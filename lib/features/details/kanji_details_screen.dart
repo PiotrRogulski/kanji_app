@@ -47,7 +47,7 @@ class KanjiDetailsScreen extends StatelessWidget {
                   sliver: SliverLayoutBuilder(
                     builder: (context, constraints) {
                       return switch (constraints.crossAxisExtent) {
-                        < 700 => SliverMainAxisGroup(
+                        < 800 => SliverMainAxisGroup(
                           slivers: [
                             SliverToBoxAdapter(
                               child: KanjiSummary(entry: entry),
