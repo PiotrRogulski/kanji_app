@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "仏",
-      "reading": "ほとけ"
+      "reading": "ほとけ",
+      "meaning": "Budda; zmarły"
     },
     {
       "kanji": "仏教",
-      "reading": "ブッキョウ"
+      "reading": "ブッキョウ",
+      "meaning": "buddyzm"
     },
     {
       "kanji": "大仏",
-      "reading": "ダイブツ"
+      "reading": "ダイブツ",
+      "meaning": "Wielki Budda"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "仏像",
       "reading": "ブツゾウ",
+      "meaning": "posąg Buddy",
       "reference": 972
     },
     {
       "kanji": "仏壇",
       "reading": "ブツダン",
+      "meaning": "domowy ołtarz buddyjski",
       "reference": 1517
     }
   ],

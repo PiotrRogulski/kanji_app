@@ -8,43 +8,52 @@
   "wordsRequiredNow": [
     {
       "kanji": "性",
-      "reading": "セイ"
+      "reading": "セイ",
+      "meaning": "natura; płeć"
     },
     {
       "kanji": "女性",
-      "reading": "ジョセイ"
+      "reading": "ジョセイ",
+      "meaning": "kobieta"
     },
     {
       "kanji": "男性",
-      "reading": "ダンセイ"
+      "reading": "ダンセイ",
+      "meaning": "mężczyzna"
     },
     {
       "kanji": "性別",
-      "reading": "セイベツ"
+      "reading": "セイベツ",
+      "meaning": "płeć (podział)"
     },
     {
       "kanji": "性交",
-      "reading": "セイコウ"
+      "reading": "セイコウ",
+      "meaning": "stosunek seksualny"
     },
     {
       "kanji": "性質",
-      "reading": "セイシツ"
+      "reading": "セイシツ",
+      "meaning": "charakter; właściwości"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "性格",
       "reading": "セイカク",
+      "meaning": "charakter",
       "reference": 636
     },
     {
       "kanji": "可能性",
       "reading": "カノウセイ",
+      "meaning": "możliwość",
       "reference": 961
     },
     {
       "kanji": "個性",
       "reading": "コセイ",
+      "meaning": "indywidualność",
       "reference": 1048
     }
   ],

@@ -7,17 +7,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "完全な",
-      "reading": "カンゼン"
+      "reading": "カンゼン",
+      "meaning": "całkowity; kompletny"
     },
     {
       "kanji": "完成",
-      "reading": "カンセイ"
+      "reading": "カンセイ",
+      "meaning": "ukończenie; wykończenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "完了",
       "reading": "カンリョウ",
+      "meaning": "zakończenie; finalizacja",
       "reference": 925
     }
   ],

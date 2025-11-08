@@ -8,25 +8,30 @@
   "wordsRequiredNow": [
     {
       "kanji": "受験",
-      "reading": "ジュケン"
+      "reading": "ジュケン",
+      "meaning": "zdawanie egzaminu"
     },
     {
       "kanji": "経験",
-      "reading": "ケイケン"
+      "reading": "ケイケン",
+      "meaning": "doświadczenie"
     },
     {
       "kanji": "体験",
-      "reading": "タイケン"
+      "reading": "タイケン",
+      "meaning": "doświadczenie (osobiste)"
     },
     {
       "kanji": "実験",
-      "reading": "ジッケン"
+      "reading": "ジッケン",
+      "meaning": "eksperyment"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "試験",
       "reading": "シケン",
+      "meaning": "egzamin",
       "reference": 592
     }
   ],

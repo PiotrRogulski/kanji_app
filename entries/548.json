@@ -9,68 +9,82 @@
   "wordsRequiredNow": [
     {
       "kanji": "務める",
-      "reading": "つとめる"
+      "reading": "つとめる",
+      "meaning": "pełnić funkcję; pracować (na stanowisku)"
     },
     {
       "kanji": "務め",
-      "reading": "つとめ"
+      "reading": "つとめ",
+      "meaning": "obowiązek; funkcja"
     },
     {
       "kanji": "事務",
-      "reading": "ジム"
+      "reading": "ジム",
+      "meaning": "sprawy biurowe; administracja"
     },
     {
       "kanji": "事務所",
-      "reading": "ジムショ"
+      "reading": "ジムショ",
+      "meaning": "biuro"
     },
     {
       "kanji": "公務",
-      "reading": "コウム"
+      "reading": "コウム",
+      "meaning": "służba publiczna"
     },
     {
       "kanji": "公務員",
-      "reading": "コウムイン"
+      "reading": "コウムイン",
+      "meaning": "urzędnik państwowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "義務",
       "reading": "ギム",
+      "meaning": "obowiązek",
       "reference": 946
     },
     {
       "kanji": "総務",
       "reading": "ソウム",
+      "meaning": "zarządzanie ogólne; administracja",
       "reference": 1032
     },
     {
       "kanji": "内務省",
       "reading": "ナイムショウ",
+      "meaning": "Ministerstwo Spraw Wewnętrznych",
       "reference": 1165
     },
     {
       "kanji": "外務省",
       "reading": "ガイムショウ",
+      "meaning": "Ministerstwo Spraw Zagranicznych",
       "reference": 1165
     },
     {
       "kanji": "財務省",
       "reading": "ザイムショウ",
+      "meaning": "Ministerstwo Finansów",
       "reference": 1165
     },
     {
       "kanji": "債務",
       "reading": "サイム",
+      "meaning": "zobowiązanie (dług)",
       "reference": 1216
     },
     {
       "kanji": "債務者",
       "reading": "サイムシャ",
+      "meaning": "dłużnik",
       "reference": 1216
     },
     {
       "kanji": "刑務所",
       "reading": "ケイムショ",
+      "meaning": "więzienie",
       "reference": 1229
     }
   ],

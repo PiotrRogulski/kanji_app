@@ -7,13 +7,15 @@
   "wordsRequiredNow": [
     {
       "kanji": "途中",
-      "reading": "トチュウ"
+      "reading": "トチュウ",
+      "meaning": "w trakcie; po drodze"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "中途半端",
       "reading": "チュウトハンぱ",
+      "meaning": "połowiczny; nie do końca",
       "reference": 664
     }
   ],

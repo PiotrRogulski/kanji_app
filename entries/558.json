@@ -7,17 +7,20 @@
   "wordsRequiredNow": [
     {
       "kanji": "委員",
-      "reading": "イイン"
+      "reading": "イイン",
+      "meaning": "członek komisji"
     },
     {
       "kanji": "委員会",
-      "reading": "イインカイ"
+      "reading": "イインカイ",
+      "meaning": "komisja; komitet"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "委託",
       "reading": "イタク",
+      "meaning": "zlecenie; powierzenie",
       "reference": 1280
     }
   ],

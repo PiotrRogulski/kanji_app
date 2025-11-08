@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "迎える",
-      "reading": "むかえる"
+      "reading": "むかえる",
+      "meaning": "witać; podejmować; napotykać"
     },
     {
       "kanji": "出迎える",
-      "reading": "でむかえる"
+      "reading": "でむかえる",
+      "meaning": "wychodzić powitać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "歓迎",
       "reading": "カンゲイ",
+      "meaning": "powitanie; serdeczne przyjęcie",
       "reference": 1375
     },
     {
       "kanji": "歓迎会",
       "reading": "カンゲイカイ",
+      "meaning": "przyjęcie powitalne",
       "reference": 1375
     }
   ],

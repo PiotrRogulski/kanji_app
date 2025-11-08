@@ -8,27 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿市",
-      "reading": "シ"
+      "reading": "シ",
+      "meaning": "… miasto (sufiks)"
     },
     {
       "kanji": "都市",
-      "reading": "トシ"
+      "reading": "トシ",
+      "meaning": "miasto; metropolia"
     },
     {
       "kanji": "市民",
-      "reading": "シミン"
+      "reading": "シミン",
+      "meaning": "obywatel; mieszkaniec miasta"
     },
     {
       "kanji": "市役所",
-      "reading": "シヤクショ"
+      "reading": "シヤクショ",
+      "meaning": "ratusz; urząd miejski"
     },
     {
       "kanji": "市場",
-      "reading": "いちば"
+      "reading": "いちば",
+      "meaning": "targ; bazar"
     },
     {
       "kanji": "市場",
-      "reading": "シジョウ"
+      "reading": "シジョウ",
+      "meaning": "rynek (ekonomiczny)"
     }
   ],
   "wordsRequiredLater": [
@@ -45,6 +51,7 @@
     {
       "kanji": "新潟市",
       "reading": "にいがたシ",
+      "meaning": "miasto Niigata",
       "reference": 1352
     }
   ],

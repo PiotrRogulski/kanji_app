@@ -12,34 +12,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "強い",
-      "reading": "つよい"
+      "reading": "つよい",
+      "meaning": "silny"
     },
     {
       "kanji": "勉強",
-      "reading": "ベンキョウ"
+      "reading": "ベンキョウ",
+      "meaning": "nauka; uczenie się"
     },
     {
       "kanji": "強化",
-      "reading": "キョウカ"
+      "reading": "キョウカ",
+      "meaning": "wzmocnienie"
     },
     {
       "kanji": "強引に",
-      "reading": "ゴウイン"
+      "reading": "ゴウイン",
+      "meaning": "na siłę; przymusowo"
     },
     {
       "kanji": "強大な",
-      "reading": "キョウダイ"
+      "reading": "キョウダイ",
+      "meaning": "potężny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "強調",
       "reading": "キョウチョウ",
+      "meaning": "podkreślenie; emfaza",
       "reference": 608
     },
     {
       "kanji": "強盗",
       "reading": "ゴウトウ",
+      "meaning": "rozbój; napad",
       "reference": 1285
     }
   ],

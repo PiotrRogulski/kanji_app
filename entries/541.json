@@ -10,30 +10,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "起きる",
-      "reading": "おきる"
+      "reading": "おきる",
+      "meaning": "wstawać; budzić się"
     },
     {
       "kanji": "起こる",
-      "reading": "おこる"
+      "reading": "おこる",
+      "meaning": "zdarzać się; mieć miejsce"
     },
     {
       "kanji": "起こす",
-      "reading": "おこす"
+      "reading": "おこす",
+      "meaning": "budzić; wywoływać"
     },
     {
       "kanji": "起点",
-      "reading": "キテン"
+      "reading": "キテン",
+      "meaning": "punkt wyjścia; punkt początkowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "起源",
       "reading": "キゲン",
+      "meaning": "pochodzenie; geneza",
       "reference": 1014
     },
     {
       "kanji": "起床する",
       "reading": "キショウ",
+      "meaning": "wstawać z łóżka",
       "reference": 1351
     }
   ],

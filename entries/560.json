@@ -8,13 +8,15 @@
   "wordsRequiredNow": [
     {
       "kanji": "責める",
-      "reading": "せめる"
+      "reading": "せめる",
+      "meaning": "winić; naciskać; obarczać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "責任",
       "reading": "セキニン",
+      "meaning": "odpowiedzialność",
       "reference": 561
     }
   ],

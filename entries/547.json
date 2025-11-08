@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "祝う",
-      "reading": "いわう"
+      "reading": "いわう",
+      "meaning": "świętować; gratulować"
     },
     {
       "kanji": "お祝い",
-      "reading": "おいわい"
+      "reading": "おいわい",
+      "meaning": "świętowanie; prezent z okazji"
     },
     {
       "kanji": "祝日",
-      "reading": "シュクジツ"
+      "reading": "シュクジツ",
+      "meaning": "święto państwowe"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "祝福",
       "reading": "シュクフク",
+      "meaning": "błogosławieństwo; gratulacje",
       "reference": 917
     },
     {
       "kanji": "祝杯",
       "reading": "シュクハイ",
+      "meaning": "toast (z okazji)",
       "reference": 1384
     }
   ],

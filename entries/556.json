@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "宗教",
-      "reading": "シュウキョウ"
+      "reading": "シュウキョウ",
+      "meaning": "religia"
     },
     {
       "kanji": "真言宗",
-      "reading": "シンゴンシュウ"
+      "reading": "シンゴンシュウ",
+      "meaning": "szkoła Shingon"
     },
     {
       "kanji": "天台宗",
-      "reading": "テンダイシュウ"
+      "reading": "テンダイシュウ",
+      "meaning": "szkoła Tendai"
     }
   ],
   "wordsRequiredLater": [],

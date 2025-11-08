@@ -7,44 +7,53 @@
   "wordsRequiredNow": [
     {
       "kanji": "式",
-      "reading": "シキ"
+      "reading": "シキ",
+      "meaning": "ceremonia; wzór (mat.)"
     },
     {
       "kanji": "成人式",
-      "reading": "セイジンシキ"
+      "reading": "セイジンシキ",
+      "meaning": "ceremonia pełnoletności"
     },
     {
       "kanji": "公式な",
-      "reading": "コウシキ"
+      "reading": "コウシキ",
+      "meaning": "oficjalny"
     },
     {
       "kanji": "正式な",
-      "reading": "セイシキ"
+      "reading": "セイシキ",
+      "meaning": "formalny; oficjalny"
     },
     {
       "kanji": "形式",
-      "reading": "ケイシキ"
+      "reading": "ケイシキ",
+      "meaning": "forma; format"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "葬式",
       "reading": "ソウシキ",
+      "meaning": "pogrzeb",
       "reference": 898
     },
     {
       "kanji": "儀式",
       "reading": "ギシキ",
+      "meaning": "ceremonia",
       "reference": 899
     },
     {
       "kanji": "株式",
       "reading": "かぶシキ",
+      "meaning": "akcje (udziały)",
       "reference": 1180
     },
     {
       "kanji": "株式会社",
       "reading": "かぶシキガイシャ",
+      "meaning": "spółka akcyjna",
       "reference": 1180
     }
   ],

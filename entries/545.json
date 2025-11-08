@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "働く",
-      "reading": "はたらく"
+      "reading": "はたらく",
+      "meaning": "pracować"
     },
     {
       "kanji": "働き",
-      "reading": "はたらき"
+      "reading": "はたらき",
+      "meaning": "praca; działanie; funkcja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "労働",
       "reading": "ロウドウ",
+      "meaning": "praca (fizyczna); robocizna",
       "reference": 1000
     },
     {
       "kanji": "労働者",
       "reading": "ロウドウシャ",
+      "meaning": "pracownik; robotnik",
       "reference": 1000
     }
   ],

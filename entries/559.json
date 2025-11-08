@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "寄る",
-      "reading": "よる"
+      "reading": "よる",
+      "meaning": "zbliżać się; wstępować"
     },
     {
       "kanji": "寄せる",
-      "reading": "よせる"
+      "reading": "よせる",
+      "meaning": "zbliżać; przysuwać; gromadzić"
     },
     {
       "kanji": "近寄る",
-      "reading": "ちかよる"
+      "reading": "ちかよる",
+      "meaning": "zbliżać się"
     },
     {
       "kanji": "年寄り",
-      "reading": "としより"
+      "reading": "としより",
+      "meaning": "osoba starsza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "片寄る",
       "reading": "かたよる",
+      "meaning": "być jednostronnym; przechylać się",
       "reference": 665
     },
     {
       "kanji": "寄付",
       "reading": "キフ",
+      "meaning": "darowizna; datek",
       "reference": 1140
     }
   ],
