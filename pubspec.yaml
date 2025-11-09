@@ -79,4 +79,4 @@ flutter:
         - asset: assets/fonts/NotoSansJP.ttf
     - family: Yu Kyokasho
       fonts:
-        - asset: assets/fonts/Kyokasho.ttc
+        - asset: assets/fonts/Kyokasho.ttf
