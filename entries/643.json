@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "製品",
-      "reading": "セイヒン"
+      "reading": "セイヒン",
+      "meaning": "produkt; wyrób"
     },
     {
       "kanji": "日本製",
-      "reading": "ニホンセイ"
+      "reading": "ニホンセイ",
+      "meaning": "wyprodukowany w Japonii"
     },
     {
       "kanji": "製作",
-      "reading": "セイサク"
+      "reading": "セイサク",
+      "meaning": "produkcja; wykonanie; wytwarzanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "製造",
       "reading": "セイゾウ",
-      "reference": 789
+      "reference": 789,
+      "meaning": "produkcja; wytwarzanie"
     }
   ],
   "additionalWords": []

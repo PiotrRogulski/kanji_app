@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "量",
-      "reading": "リョウ"
+      "reading": "リョウ",
+      "meaning": "ilość; objętość"
     },
     {
       "kanji": "量る",
-      "reading": "はかる"
+      "reading": "はかる",
+      "meaning": "mierzyć (wagę/ilość)"
     },
     {
       "kanji": "重量",
-      "reading": "ジュウリョウ"
+      "reading": "ジュウリョウ",
+      "meaning": "masa; ciężar"
     },
     {
       "kanji": "分量",
-      "reading": "ブンリョウ"
+      "reading": "ブンリョウ",
+      "meaning": "ilość; porcja"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "デモ隊",
-      "reading": "デモタイ"
+      "reading": "デモタイ",
+      "meaning": "demonstranci; pochód demonstrantów"
     },
     {
       "kanji": "軍隊",
-      "reading": "グンタイ"
+      "reading": "グンタイ",
+      "meaning": "armia; siły zbrojne"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "自衛隊",
       "reading": "ジエイタイ",
-      "reference": 960
+      "reference": 960,
+      "meaning": "Siły Samoobrony Japonii"
     },
     {
       "kanji": "兵隊",
       "reading": "ヘイタイ",
-      "reference": 1184
+      "reference": 1184,
+      "meaning": "żołnierz; wojak"
     }
   ],
   "additionalWords": []

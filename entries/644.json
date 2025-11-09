@@ -8,39 +8,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "接する",
-      "reading": "セッする"
+      "reading": "セッする",
+      "meaning": "stykać się; graniczyć; mieć kontakt; obsługiwać (klientów)"
     },
     {
       "kanji": "直接",
-      "reading": "チョクセツ"
+      "reading": "チョクセツ",
+      "meaning": "bezpośredni; bezpośrednio"
     },
     {
       "kanji": "間接",
-      "reading": "カンセツ"
+      "reading": "カンセツ",
+      "meaning": "pośredni; pośrednio"
     },
     {
       "kanji": "接近",
-      "reading": "セッキン"
+      "reading": "セッキン",
+      "meaning": "zbliżenie; zbliżać się"
     },
     {
       "kanji": "接続",
-      "reading": "セツゾク"
+      "reading": "セツゾク",
+      "meaning": "połączenie; łączenie (np. sieci)"
     },
     {
       "kanji": "面接",
-      "reading": "メンセツ"
+      "reading": "メンセツ",
+      "meaning": "rozmowa kwalifikacyjna; wywiad"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "密接な",
       "reading": "ミッセツ",
-      "reference": 867
+      "reference": 867,
+      "meaning": "ścisły; bliski"
     },
     {
       "kanji": "接触",
       "reading": "セッショク",
-      "reference": 941
+      "reference": 941,
+      "meaning": "kontakt; zetknięcie"
     }
   ],
   "additionalWords": []

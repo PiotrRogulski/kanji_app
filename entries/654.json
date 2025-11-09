@@ -7,33 +7,39 @@
   "wordsRequiredNow": [
     {
       "kanji": "警官",
-      "reading": "ケイカン"
+      "reading": "ケイカン",
+      "meaning": "policjant"
     },
     {
       "kanji": "警備",
-      "reading": "ケイビ"
+      "reading": "ケイビ",
+      "meaning": "ochrona; zabezpieczenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "警察",
       "reading": "ケイサツ",
-      "reference": 656
+      "reference": 656,
+      "meaning": "policja"
     },
     {
       "kanji": "警告",
       "reading": "ケイコク",
-      "reference": 880
+      "reference": 880,
+      "meaning": "ostrzeżenie; upomnienie"
     },
     {
       "kanji": "警戒",
       "reading": "ケイカイ",
-      "reference": 984
+      "reference": 984,
+      "meaning": "czujność; stan gotowości; ostrzeganie"
     },
     {
       "kanji": "警察署",
       "reading": "ケイサツショ",
-      "reference": 1191
+      "reference": 1191,
+      "meaning": "komisariat policji"
     }
   ],
   "additionalWords": []

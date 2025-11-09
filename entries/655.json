@@ -7,24 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "調査",
-      "reading": "チョウサ"
+      "reading": "チョウサ",
+      "meaning": "badanie; dochodzenie; ankieta"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "検査",
       "reading": "ケンサ",
-      "reference": 1094
+      "reference": 1094,
+      "meaning": "badanie; kontrola; test"
     },
     {
       "kanji": "審査",
       "reading": "シンサ",
-      "reference": 1187
+      "reference": 1187,
+      "meaning": "ocena; weryfikacja; kwalifikacja"
     },
     {
       "kanji": "捜査",
       "reading": "ソウサ",
-      "reference": 1358
+      "reference": 1358,
+      "meaning": "śledztwo; dochodzenie (policyjne)"
     }
   ],
   "additionalWords": []

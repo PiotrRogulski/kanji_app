@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "化粧",
-      "reading": "ケショウ"
+      "reading": "ケショウ",
+      "meaning": "makijaż"
     },
     {
       "kanji": "化粧品",
-      "reading": "ケショウヒン"
+      "reading": "ケショウヒン",
+      "meaning": "kosmetyki"
     }
   ],
   "wordsRequiredLater": [],

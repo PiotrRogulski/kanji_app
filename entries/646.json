@@ -8,28 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "選ぶ",
-      "reading": "えらぶ"
+      "reading": "えらぶ",
+      "meaning": "wybierać"
     },
     {
       "kanji": "選手",
-      "reading": "センシュ"
+      "reading": "センシュ",
+      "meaning": "zawodnik; sportowiec"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "選挙",
       "reading": "センキョ",
-      "reference": 847
+      "reference": 847,
+      "meaning": "wybory"
     },
     {
       "kanji": "選抜",
       "reading": "センバツ",
-      "reference": 1118
+      "reference": 1118,
+      "meaning": "selekcja; nabór"
     },
     {
       "kanji": "選択",
       "reading": "センタク",
-      "reference": 1277
+      "reference": 1277,
+      "meaning": "wybór; selekcja"
     }
   ],
   "additionalWords": []

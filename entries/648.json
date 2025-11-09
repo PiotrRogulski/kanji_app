@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "包む",
-      "reading": "つつむ"
+      "reading": "つつむ",
+      "meaning": "zawijać; pakować; owijać"
     },
     {
       "kanji": "包み",
-      "reading": "つつみ"
+      "reading": "つつみ",
+      "meaning": "pakunek; zawiniątko"
     },
     {
       "kanji": "小包み",
-      "reading": "こづつみ"
+      "reading": "こづつみ",
+      "meaning": "paczka pocztowa"
     },
     {
       "kanji": "包丁",
-      "reading": "ホウチョウ"
+      "reading": "ホウチョウ",
+      "meaning": "nóż kuchenny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "包装",
       "reading": "ホウソウ",
-      "reference": 992
+      "reference": 992,
+      "meaning": "opakowanie; pakowanie"
     },
     {
       "kanji": "包帯",
       "reading": "ホウタイ",
-      "reference": 1231
+      "reference": 1231,
+      "meaning": "bandaż"
     },
     {
       "kanji": "包括的",
       "reading": "ホウカツテキ",
-      "reference": 1379
+      "reference": 1379,
+      "meaning": "kompleksowy; całościowy"
     }
   ],
   "additionalWords": []

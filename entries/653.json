@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "視覚",
-      "reading": "シカク"
+      "reading": "シカク",
+      "meaning": "wzrok (zmysł); percepcja wzrokowa"
     },
     {
       "kanji": "重視",
-      "reading": "ジュウシ"
+      "reading": "ジュウシ",
+      "meaning": "przykładać wagę; traktować poważnie"
     },
     {
       "kanji": "軽視",
-      "reading": "ケイシ"
+      "reading": "ケイシ",
+      "meaning": "lekceważenie; bagatelizowanie"
     },
     {
       "kanji": "無視",
-      "reading": "ムシ"
+      "reading": "ムシ",
+      "meaning": "ignorowanie; lekceważenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "監視",
       "reading": "カンシ",
-      "reference": 1181
+      "reference": 1181,
+      "meaning": "nadzór; monitoring; obserwacja"
     }
   ],
   "additionalWords": []

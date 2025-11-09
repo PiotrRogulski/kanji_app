@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "考察",
-      "reading": "コウサツ"
+      "reading": "コウサツ",
+      "meaning": "rozważania; analiza; studium"
     },
     {
       "kanji": "警察",
-      "reading": "ケイサツ"
+      "reading": "ケイサツ",
+      "meaning": "policja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "観察",
       "reading": "カンサツ",
-      "reference": 752
+      "reference": 752,
+      "meaning": "obserwacja"
     },
     {
       "kanji": "警察署",
       "reading": "ケイサツショ",
-      "reference": 1191
+      "reference": 1191,
+      "meaning": "komisariat policji"
     }
   ],
   "additionalWords": []

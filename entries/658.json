@@ -9,32 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "退く",
-      "reading": "しりぞく"
+      "reading": "しりぞく",
+      "meaning": "wycofać się; ustąpić; odejść"
     },
     {
       "kanji": "退院",
-      "reading": "タイイン"
+      "reading": "タイイン",
+      "meaning": "wypis ze szpitala; wyjść ze szpitala"
     },
     {
       "kanji": "引退",
-      "reading": "インタイ"
+      "reading": "インタイ",
+      "meaning": "zakończenie kariery; przejście na emeryturę"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "脱退",
       "reading": "ダッタイ",
-      "reference": 659
+      "reference": 659,
+      "meaning": "wystąpienie (z organizacji); wycofanie się"
     },
     {
       "kanji": "退屈",
       "reading": "タイクツ",
-      "reference": 819
+      "reference": 819,
+      "meaning": "nuda; znudzony"
     },
     {
       "kanji": "退職",
       "reading": "タイショク",
-      "reference": 1021
+      "reference": 1021,
+      "meaning": "odejście z pracy; przejście na emeryturę"
     }
   ],
   "additionalWords": []

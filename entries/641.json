@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "洗剤",
-      "reading": "センザイ"
+      "reading": "センザイ",
+      "meaning": "detergent; środek czyszczący"
     },
     {
       "kanji": "薬剤",
-      "reading": "ヤクザイ"
+      "reading": "ヤクザイ",
+      "meaning": "środek leczniczy; preparat; reagent"
     }
   ],
   "wordsRequiredLater": [],

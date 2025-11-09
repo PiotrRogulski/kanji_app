@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "脱退",
-      "reading": "ダッタイ"
+      "reading": "ダッタイ",
+      "meaning": "wystąpienie (z organizacji); rezygnacja z członkostwa"
     },
     {
       "kanji": "脱出",
-      "reading": "ダッシュツ"
+      "reading": "ダッシュツ",
+      "meaning": "ucieczka; wydostanie się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "脱帽",
       "reading": "ダツボウ",
-      "reference": 998
+      "reference": 998,
+      "meaning": "czapki z głów; zdjęcie kapelusza (dosł. i przen.)"
     }
   ],
   "additionalWords": []

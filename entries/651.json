@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "軍",
-      "reading": "グン"
+      "reading": "グン",
+      "meaning": "wojsko; armia"
     },
     {
       "kanji": "軍人",
-      "reading": "グンジン"
+      "reading": "グンジン",
+      "meaning": "żołnierz; wojskowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "軍隊",
       "reading": "グンタイ",
-      "reference": 660
+      "reference": 660,
+      "meaning": "armia; siły zbrojne"
     },
     {
       "kanji": "軍艦",
       "reading": "グンカン",
-      "reference": 1512
+      "reference": 1512,
+      "meaning": "okręt wojenny"
     }
   ],
   "additionalWords": []

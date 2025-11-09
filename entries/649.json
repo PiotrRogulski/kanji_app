@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "文房具",
-      "reading": "ブンボウグ"
+      "reading": "ブンボウグ",
+      "meaning": "przybory piśmiennicze; artykuły papiernicze"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "暖房",
       "reading": "ダンボウ",
-      "reference": 691
+      "reference": 691,
+      "meaning": "ogrzewanie"
     }
   ],
   "additionalWords": []

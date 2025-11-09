@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "在る",
-      "reading": "ある"
+      "reading": "ある",
+      "meaning": "być; istnieć; znajdować się"
     },
     {
       "kanji": "現在",
-      "reading": "ゲンザイ"
+      "reading": "ゲンザイ",
+      "meaning": "obecnie; teraźniejszość"
     },
     {
       "kanji": "在学",
-      "reading": "ザイガク"
+      "reading": "ザイガク",
+      "meaning": "być zapisanym do szkoły; uczęszczać"
     },
     {
       "kanji": "在日",
-      "reading": "ザイニチ"
+      "reading": "ザイニチ",
+      "meaning": "przebywający w Japonii; mieszkający w Japonii"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "存在",
       "reading": "ソンザイ",
-      "reference": 975
+      "reference": 975,
+      "meaning": "istnienie; byt"
     },
     {
       "kanji": "滞在",
       "reading": "タイザイ",
-      "reference": 1066
+      "reference": 1066,
+      "meaning": "pobyt"
     },
     {
       "kanji": "駐在",
       "reading": "チュウザイ",
-      "reference": 1299
+      "reference": 1299,
+      "meaning": "stały pobyt; rezydowanie; stacjonowanie"
     }
   ],
   "additionalWords": []

@@ -7,30 +7,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "段",
-      "reading": "ダン"
+      "reading": "ダン",
+      "meaning": "stopień; poziom; etap"
     },
     {
       "kanji": "手段",
-      "reading": "シュダン"
+      "reading": "シュダン",
+      "meaning": "środek; metoda"
     },
     {
       "kanji": "階段",
-      "reading": "カイダン"
+      "reading": "カイダン",
+      "meaning": "schody"
     },
     {
       "kanji": "段階",
-      "reading": "ダンカイ"
+      "reading": "ダンカイ",
+      "meaning": "etap; faza"
     },
     {
       "kanji": "普段",
-      "reading": "フダン"
+      "reading": "フダン",
+      "meaning": "zwykle; na co dzień"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "値段",
       "reading": "ねダン",
-      "reference": 647
+      "reference": 647,
+      "meaning": "cena"
     }
   ],
   "additionalWords": []

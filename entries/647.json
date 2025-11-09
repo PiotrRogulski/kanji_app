@@ -9,27 +9,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "値",
-      "reading": "ね"
+      "reading": "ね",
+      "meaning": "cena"
     },
     {
       "kanji": "値",
-      "reading": "あたい"
+      "reading": "あたい",
+      "meaning": "wartość"
     },
     {
       "kanji": "値段",
-      "reading": "ねダン"
+      "reading": "ねダン",
+      "meaning": "cena"
     },
     {
       "kanji": "価値",
-      "reading": "カチ"
+      "reading": "カチ",
+      "meaning": "wartość"
     },
     {
       "kanji": "値上げ",
-      "reading": "ねあげ"
+      "reading": "ねあげ",
+      "meaning": "podwyżka cen"
     },
     {
       "kanji": "値下がり",
-      "reading": "ねさがり"
+      "reading": "ねさがり",
+      "meaning": "spadek cen"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,17 +9,20 @@
     {
       "kanji": "簡単な",
       "reading": "カンタン",
-      "reference": 661
+      "reference": 661,
+      "meaning": "prosty; łatwy"
     },
     {
       "kanji": "簡易",
       "reading": "カンイ",
-      "reference": 695
+      "reference": 695,
+      "meaning": "prosty; uproszczony"
     },
     {
       "kanji": "簡潔な",
       "reading": "カンケツ",
-      "reference": 776
+      "reference": 776,
+      "meaning": "zwięzły; treściwy"
     }
   ],
   "additionalWords": []
