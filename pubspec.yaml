@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   archive: ^4.0.7
-  cached_query_flutter: ^3.0.3
+  cached_query_flutter: ^3.0.4
   cached_storage: ^3.0.3
   collection: ^1.19.1
   dio: ^5.9.0
@@ -51,6 +51,9 @@ dependency_overrides:
   archive: ^4.0.7
 
 flutter:
+  config:
+    enable-swift-package-manager: true
+
   uses-material-design: true
   generate: true
 
