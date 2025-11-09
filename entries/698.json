@@ -9,14 +9,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "貯金",
-      "reading": "チョキン"
+      "reading": "チョキン",
+      "meaning": "oszczędności; oszczędzanie pieniędzy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "貯蔵",
       "reading": "チョゾウ",
-      "reference": 861
+      "reference": 861,
+      "meaning": "magazynowanie; składowanie"
     }
   ],
   "additionalWords": []

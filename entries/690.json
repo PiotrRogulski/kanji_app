@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "換える",
-      "reading": "かえる"
+      "reading": "かえる",
+      "meaning": "zamieniać; wymieniać; podmieniać"
     },
     {
       "kanji": "交換",
-      "reading": "コウカン"
+      "reading": "コウカン",
+      "meaning": "wymiana; zamiana"
     },
     {
       "kanji": "換気",
-      "reading": "カンキ"
+      "reading": "カンキ",
+      "meaning": "wentylacja; przewietrzanie"
     },
     {
       "kanji": "乗り換える",
-      "reading": "のりかえる"
+      "reading": "のりかえる",
+      "meaning": "przesiadać się; przesiąść się"
     },
     {
       "kanji": "乗り換え",
-      "reading": "のりかえ"
+      "reading": "のりかえ",
+      "meaning": "przesiadka"
     }
   ],
   "wordsRequiredLater": [],

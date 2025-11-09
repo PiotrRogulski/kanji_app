@@ -8,47 +8,57 @@
   "wordsRequiredNow": [
     {
       "kanji": "差",
-      "reading": "サ"
+      "reading": "サ",
+      "meaning": "różnica; rozbieżność"
     },
     {
       "kanji": "差別",
-      "reading": "サベツ"
+      "reading": "サベツ",
+      "meaning": "dyskryminacja"
     },
     {
       "kanji": "時差",
-      "reading": "ジサ"
+      "reading": "ジサ",
+      "meaning": "różnica czasu"
     },
     {
       "kanji": "交差",
-      "reading": "コウサ"
+      "reading": "コウサ",
+      "meaning": "skrzyżowanie; krzyżowanie się"
     },
     {
       "kanji": "交差点",
-      "reading": "コウサテン"
+      "reading": "コウサテン",
+      "meaning": "skrzyżowanie (ulic)"
     },
     {
       "kanji": "格差",
-      "reading": "カクサ"
+      "reading": "カクサ",
+      "meaning": "nierówność; dysproporcja"
     },
     {
       "kanji": "差し上げる",
-      "reading": "さしあげる"
+      "reading": "さしあげる",
+      "meaning": "dawać (grzecznie); podnosić"
     },
     {
       "kanji": "日差し",
-      "reading": "ひざし"
+      "reading": "ひざし",
+      "meaning": "promienie słońca; nasłonecznienie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "誤差",
       "reading": "ゴサ",
-      "reference": 1138
+      "reference": 1138,
+      "meaning": "błąd (pomiaru); odchyłka"
     },
     {
       "kanji": "較差",
       "reading": "カクサ",
-      "reference": 1142
+      "reference": 1142,
+      "meaning": "różnica (między wartościami); rozstęp"
     }
   ],
   "additionalWords": []

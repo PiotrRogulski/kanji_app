@@ -9,35 +9,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "満ちる",
-      "reading": "みちる"
+      "reading": "みちる",
+      "meaning": "być pełnym; napełniać się; (o księżycu) być w pełni"
     },
     {
       "kanji": "満たす",
-      "reading": "みたす"
+      "reading": "みたす",
+      "meaning": "napełniać; zaspokajać (warunki/potrzeby)"
     },
     {
       "kanji": "満足",
-      "reading": "マンゾク"
+      "reading": "マンゾク",
+      "meaning": "satysfakcja; zadowolenie"
     },
     {
       "kanji": "不満",
-      "reading": "フマン"
+      "reading": "フマン",
+      "meaning": "niezadowolenie; frustracja"
     },
     {
       "kanji": "満員",
-      "reading": "マンイン"
+      "reading": "マンイン",
+      "meaning": "pełny; brak miejsc"
     },
     {
       "kanji": "満月",
-      "reading": "マンゲツ"
+      "reading": "マンゲツ",
+      "meaning": "pełnia księżyca"
     },
     {
       "kanji": "満点",
-      "reading": "マンテン"
+      "reading": "マンテン",
+      "meaning": "maksymalna liczba punktów; ocena celująca"
     },
     {
       "kanji": "未満",
-      "reading": "ミマン"
+      "reading": "ミマン",
+      "meaning": "mniej niż; poniżej (progu)"
     }
   ],
   "wordsRequiredLater": [],

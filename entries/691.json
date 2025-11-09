@@ -11,30 +11,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "暖かい",
-      "reading": "あたたかい"
+      "reading": "あたたかい",
+      "meaning": "ciepły"
     },
     {
       "kanji": "暖まる",
-      "reading": "あたたまる"
+      "reading": "あたたまる",
+      "meaning": "nagrzać się; ogrzać się; zrobić się ciepło"
     },
     {
       "kanji": "暖める",
-      "reading": "あたためる"
+      "reading": "あたためる",
+      "meaning": "ogrzewać; podgrzewać"
     },
     {
       "kanji": "温暖",
-      "reading": "オンダン"
+      "reading": "オンダン",
+      "meaning": "ciepły; łagodny (klimat)"
     },
     {
       "kanji": "暖房",
-      "reading": "ダンボウ"
+      "reading": "ダンボウ",
+      "meaning": "ogrzewanie; system grzewczy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "暖炉",
       "reading": "ダンロ",
-      "reference": 1427
+      "reference": 1427,
+      "meaning": "kominek"
     }
   ],
   "additionalWords": []

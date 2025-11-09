@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "縄",
-      "reading": "なわ"
+      "reading": "なわ",
+      "meaning": "lina; sznur"
     },
     {
       "kanji": "縄文",
-      "reading": "ジョウモン"
+      "reading": "ジョウモン",
+      "meaning": "Jōmon (okres Jōmon; kultura ceramiki sznurowej)"
     },
     {
       "kanji": "沖縄",
-      "reading": "おきなわ"
+      "reading": "おきなわ",
+      "meaning": "Okinawa (prefektura/wyspy)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "縄跳び",
       "reading": "なわとび",
-      "reference": 1529
+      "reference": 1529,
+      "meaning": "skakanie na skakance; skakanka"
     }
   ],
   "additionalWords": []

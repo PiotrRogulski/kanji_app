@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "硬い",
-      "reading": "かたい"
+      "reading": "かたい",
+      "meaning": "twardy; sztywny"
     },
     {
       "kanji": "硬化",
-      "reading": "コウカ"
+      "reading": "コウカ",
+      "meaning": "utwardzenie; twardnienie"
     },
     {
       "kanji": "硬貨",
-      "reading": "コウカ"
+      "reading": "コウカ",
+      "meaning": "moneta (bilon)"
     }
   ],
   "wordsRequiredLater": [],

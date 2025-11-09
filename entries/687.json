@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "上旬",
-      "reading": "ジョウジュン"
+      "reading": "ジョウジュン",
+      "meaning": "pierwsza dekada miesiąca (1–10 dzień)"
     },
     {
       "kanji": "中旬",
-      "reading": "チュウジュン"
+      "reading": "チュウジュン",
+      "meaning": "druga dekada miesiąca (11–20 dzień)"
     },
     {
       "kanji": "下旬",
-      "reading": "ゲジュン"
+      "reading": "ゲジュン",
+      "meaning": "trzecia dekada miesiąca (21–31 dzień)"
     }
   ],
   "wordsRequiredLater": [],

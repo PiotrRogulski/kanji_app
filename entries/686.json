@@ -11,27 +11,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "散る",
-      "reading": "ちる"
+      "reading": "ちる",
+      "meaning": "opadać; rozsypywać się; rozpraszać się (np. płatki)"
     },
     {
       "kanji": "散らす",
-      "reading": "ちらす"
+      "reading": "ちらす",
+      "meaning": "rozpraszać; rozsypywać; rozrzucać"
     },
     {
       "kanji": "散歩",
-      "reading": "サンポ"
+      "reading": "サンポ",
+      "meaning": "spacer"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "解散",
       "reading": "カイサン",
-      "reference": 870
+      "reference": 870,
+      "meaning": "rozwiązanie (zgromadzenia/organizacji); rozejście się"
     },
     {
       "kanji": "散漫な",
       "reading": "サンマン",
-      "reference": 1514
+      "reference": 1514,
+      "meaning": "rozwlekły; chaotyczny; rozproszony"
     }
   ],
   "additionalWords": []

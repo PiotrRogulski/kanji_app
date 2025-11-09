@@ -9,34 +9,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "巻",
-      "reading": "カン"
+      "reading": "カン",
+      "meaning": "tom (księgi); zwój; rolka"
     },
     {
       "kanji": "巻く",
-      "reading": "まく"
+      "reading": "まく",
+      "meaning": "owijać; nawijać; zawijać"
     },
     {
       "kanji": "上巻",
-      "reading": "ジョウカン"
+      "reading": "ジョウカン",
+      "meaning": "tom pierwszy (górny)"
     },
     {
       "kanji": "中巻",
-      "reading": "チュウカン"
+      "reading": "チュウカン",
+      "meaning": "tom środkowy"
     },
     {
       "kanji": "下巻",
-      "reading": "ゲカン"
+      "reading": "ゲカン",
+      "meaning": "tom drugi (dolny); ostatni tom (w dwutomie)"
     },
     {
       "kanji": "寝巻き",
-      "reading": "ねまき"
+      "reading": "ねまき",
+      "meaning": "piżama; koszula nocna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "竜巻",
       "reading": "たつまき",
-      "reference": 1430
+      "reference": 1430,
+      "meaning": "trąba powietrzna"
     }
   ],
   "additionalWords": []

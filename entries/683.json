@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "桜",
-      "reading": "さくら"
+      "reading": "さくら",
+      "meaning": "wiśnia (drzewo/kwiat wiśni)"
     },
     {
       "kanji": "桜花",
-      "reading": "オウカ"
+      "reading": "オウカ",
+      "meaning": "kwiat wiśni"
     }
   ],
   "wordsRequiredLater": [],

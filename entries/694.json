@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "証拠",
-      "reading": "ショウコ"
+      "reading": "ショウコ",
+      "meaning": "dowód; świadectwo"
     },
     {
       "kanji": "根拠",
-      "reading": "コンキョ"
+      "reading": "コンキョ",
+      "meaning": "podstawa; uzasadnienie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "占拠",
       "reading": "センキョ",
-      "reference": 1107
+      "reference": 1107,
+      "meaning": "zajęcie; okupacja (np. budynku)"
     }
   ],
   "additionalWords": []

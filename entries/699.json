@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "珍しい",
-      "reading": "めずらしい"
+      "reading": "めずらしい",
+      "meaning": "rzadki; niezwykły"
     },
     {
       "kanji": "珍重",
-      "reading": "チンチョウ"
+      "reading": "チンチョウ",
+      "meaning": "cenić wysoko; poważać"
     },
     {
       "kanji": "珍品",
-      "reading": "チンピン"
+      "reading": "チンピン",
+      "meaning": "rarytas; osobliwość (rzadki przedmiot)"
     }
   ],
   "wordsRequiredLater": [],

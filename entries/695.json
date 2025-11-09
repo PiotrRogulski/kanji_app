@@ -9,27 +9,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "易しい",
-      "reading": "やさしい"
+      "reading": "やさしい",
+      "meaning": "łatwy; prosty"
     },
     {
       "kanji": "安易",
-      "reading": "アンイ"
+      "reading": "アンイ",
+      "meaning": "łatwy; beztroski; powierzchowny"
     },
     {
       "kanji": "簡易",
-      "reading": "カンイ"
+      "reading": "カンイ",
+      "meaning": "prosty; uproszczony"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "貿易",
       "reading": "ボウエキ",
-      "reference": 696
+      "reference": 696,
+      "meaning": "handel zagraniczny; handel międzynarodowy"
     },
     {
       "kanji": "容易な",
       "reading": "ヨウイ",
-      "reference": 807
+      "reference": 807,
+      "meaning": "łatwy; prosty"
     }
   ],
   "additionalWords": []

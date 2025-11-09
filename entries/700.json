@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "費用",
-      "reading": "ヒヨウ"
+      "reading": "ヒヨウ",
+      "meaning": "koszt(y); wydatki"
     },
     {
       "kanji": "消費",
-      "reading": "ショウヒ"
+      "reading": "ショウヒ",
+      "meaning": "konsumpcja; zużycie"
     },
     {
       "kanji": "消費者",
-      "reading": "ショウヒシャ"
+      "reading": "ショウヒシャ",
+      "meaning": "konsument"
     },
     {
       "kanji": "自費",
-      "reading": "ジヒ"
+      "reading": "ジヒ",
+      "meaning": "na własny koszt"
     },
     {
       "kanji": "国費",
-      "reading": "コクヒ"
+      "reading": "コクヒ",
+      "meaning": "koszty państwowe; na koszt państwa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "浪費",
       "reading": "ロウヒ",
-      "reference": 1444
+      "reference": 1444,
+      "meaning": "marnotrawstwo; trwonienie"
     }
   ],
   "additionalWords": []

@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "天候",
-      "reading": "テンコウ"
+      "reading": "テンコウ",
+      "meaning": "pogoda; warunki pogodowe"
     },
     {
       "kanji": "気候",
-      "reading": "キコウ"
+      "reading": "キコウ",
+      "meaning": "klimat"
     },
     {
       "kanji": "候文",
-      "reading": "そうろうブン"
+      "reading": "そうろうブン",
+      "meaning": "styl sądory (dawny styl urzędowy z そうろう)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "候補",
       "reading": "コウホ",
-      "reference": 918
+      "reference": 918,
+      "meaning": "kandydatura; kandydat (propozycja)"
     },
     {
       "kanji": "候補者",
       "reading": "コウホシャ",
-      "reference": 918
+      "reference": 918,
+      "meaning": "kandydat"
     }
   ],
   "additionalWords": []

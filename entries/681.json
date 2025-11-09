@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "沖",
-      "reading": "おき"
+      "reading": "おき",
+      "meaning": "otwarte morze; pełne morze"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "沖縄",
       "reading": "おきなわ",
-      "reference": 689
+      "reference": 689,
+      "meaning": "Okinawa (prefektura)"
     }
   ],
   "additionalWords": []
