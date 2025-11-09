@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "共に",
-      "reading": "ともに"
+      "reading": "ともに",
+      "meaning": "razem; wspólnie"
     },
     {
       "kanji": "共同",
-      "reading": "キョウドウ"
+      "reading": "キョウドウ",
+      "meaning": "współpraca; wspólny"
     },
     {
       "kanji": "共通",
-      "reading": "キョウツウ"
+      "reading": "キョウツウ",
+      "meaning": "wspólny; powszechny"
     },
     {
       "kanji": "公共",
-      "reading": "コウキョウ"
+      "reading": "コウキョウ",
+      "meaning": "publiczny"
     },
     {
       "kanji": "共和国",
-      "reading": "キョウワコク"
+      "reading": "キョウワコク",
+      "meaning": "republika"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "共産党",
       "reading": "キョウサントウ",
+      "meaning": "partia komunistyczna",
       "reference": 1164
     }
   ],
   "additionalWords": [
     {
       "kanji": "銀河共和国",
-      "reading": "ギンガキョウワコク"
+      "reading": "ギンガキョウワコク",
+      "meaning": "Republika Galaktyczna"
     }
   ]
 }

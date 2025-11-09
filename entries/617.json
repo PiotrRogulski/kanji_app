@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "自宅",
-      "reading": "ジタク"
+      "reading": "ジタク",
+      "meaning": "własny dom"
     },
     {
       "kanji": "住宅",
-      "reading": "ジュウタク"
+      "reading": "ジュウタク",
+      "meaning": "mieszkalnictwo; budynek mieszkalny"
     },
     {
       "kanji": "帰宅",
-      "reading": "キタク"
+      "reading": "キタク",
+      "meaning": "powrót do domu"
     },
     {
       "kanji": "お宅",
-      "reading": "おタク"
+      "reading": "おタク",
+      "meaning": "Pański dom; Państwo (hon.)"
     },
     {
       "kanji": "宅配便",
-      "reading": "タクハイビン"
+      "reading": "タクハイビン",
+      "meaning": "kurier; przesyłka kurierska"
     }
   ],
   "wordsRequiredLater": [],

@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "次ぐ",
-      "reading": "つぐ"
+      "reading": "つぐ",
+      "meaning": "następować po; być kolejnym"
     },
     {
       "kanji": "次",
-      "reading": "つぎ"
+      "reading": "つぎ",
+      "meaning": "następny; kolejny"
     },
     {
       "kanji": "目次",
-      "reading": "モクジ"
+      "reading": "モクジ",
+      "meaning": "spis treści"
     },
     {
       "kanji": "次第に",
-      "reading": "シダイ"
+      "reading": "シダイ",
+      "meaning": "stopniowo"
     }
   ],
   "wordsRequiredLater": [],

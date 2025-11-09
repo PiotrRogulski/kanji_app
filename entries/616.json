@@ -9,32 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "御＿",
-      "reading": "ゴ"
+      "reading": "ゴ",
+      "meaning": "honoryfikatywny prefiks 'go-'"
     },
     {
       "kanji": "御中",
-      "reading": "おんチュウ"
+      "reading": "おんチュウ",
+      "meaning": "w tytule listu do instytucji"
     },
     {
       "kanji": "御飯",
-      "reading": "ゴハン"
+      "reading": "ゴハン",
+      "meaning": "ryż; posiłek"
     },
     {
       "kanji": "御所",
-      "reading": "ゴショ"
+      "reading": "ゴショ",
+      "meaning": "Gosho (cesarska rezydencja)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "御覧",
       "reading": "ゴラン",
+      "meaning": "proszę spojrzeć (hon.)",
       "reference": 1443
     }
   ],
   "additionalWords": [
     {
       "kanji": "御意！",
-      "reading": "ギョイ"
+      "reading": "ギョイ",
+      "meaning": "Z rozkazu!/Jak sobie życzysz!"
     }
   ]
 }

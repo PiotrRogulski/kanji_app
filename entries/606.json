@@ -9,70 +9,85 @@
   "wordsRequiredNow": [
     {
       "kanji": "無",
-      "reading": "ム"
+      "reading": "ム",
+      "meaning": "brak; 'bez-' (prefiks negujący)"
     },
     {
       "kanji": "無い",
-      "reading": "ない"
+      "reading": "ない",
+      "meaning": "nie ma; nie istnieje"
     },
     {
       "kanji": "無し",
-      "reading": "なし"
+      "reading": "なし",
+      "meaning": "bez; brak"
     },
     {
       "kanji": "無くす",
-      "reading": "なくす"
+      "reading": "なくす",
+      "meaning": "zgubić; stracić"
     },
     {
       "kanji": "無料",
-      "reading": "ムリョウ"
+      "reading": "ムリョウ",
+      "meaning": "bezpłatny"
     },
     {
       "kanji": "無理な",
-      "reading": "ムリ"
+      "reading": "ムリ",
+      "meaning": "nierealny; bez sensu"
     },
     {
       "kanji": "無事な",
-      "reading": "フジ"
+      "reading": "ブジ",
+      "meaning": "bezpieczny; cały i zdrowy"
     },
     {
       "kanji": "無線",
-      "reading": "ムセン"
+      "reading": "ムセン",
+      "meaning": "bezprzewodowy; radio"
     },
     {
       "kanji": "無関係",
-      "reading": "ムカンケイ"
+      "reading": "ムカンケイ",
+      "meaning": "niezwiązany; bez związku"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "無視",
       "reading": "ムシ",
+      "meaning": "ignorowanie",
       "reference": 653
     },
     {
       "kanji": "無恥な",
       "reading": "ムチ",
+      "meaning": "bez wstydu; bezwstydny",
       "reference": 765
     },
     {
       "kanji": "無限",
       "reading": "ムゲン",
+      "meaning": "nieskończoność; bezgraniczny",
       "reference": 949
     },
     {
       "kanji": "無罪",
       "reading": "ムザイ",
+      "meaning": "niewinny (prawnie)",
       "reference": 952
     },
     {
       "kanji": "無職",
       "reading": "ムショク",
+      "meaning": "bezrobotny",
       "reference": 1021
     },
     {
       "kanji": "虚無",
       "reading": "キョム",
+      "meaning": "nicość; pustka",
       "reference": 1519
     }
   ],

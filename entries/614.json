@@ -8,21 +8,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "申す",
-      "reading": "もうす"
+      "reading": "もうす",
+      "meaning": "mówić (skromnie)"
     },
     {
       "kanji": "申し上げる",
-      "reading": "もうしあげる"
+      "reading": "もうしあげる",
+      "meaning": "powiedzieć/przekazać (uprzejmie)"
     },
     {
       "kanji": "申し訳",
-      "reading": "もうしわけ"
+      "reading": "もうしわけ",
+      "meaning": "przeprosiny; usprawiedliwienie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "申し込む",
       "reading": "もうしこむ",
+      "meaning": "aplikować; zgłaszać się",
       "reference": 820
     }
   ],

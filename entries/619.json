@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "具体的",
-      "reading": "グタイテキ"
+      "reading": "グタイテキ",
+      "meaning": "konkretny"
     },
     {
       "kanji": "家具",
-      "reading": "カグ"
+      "reading": "カグ",
+      "meaning": "meble"
     },
     {
       "kanji": "器具",
-      "reading": "キグ"
+      "reading": "キグ",
+      "meaning": "sprzęt; przyrząd"
     },
     {
       "kanji": "具合",
-      "reading": "グあい"
+      "reading": "グあい",
+      "meaning": "stan; samopoczucie"
     },
     {
       "kanji": "道具",
-      "reading": "ドウグ"
+      "reading": "ドウグ",
+      "meaning": "narzędzie; przybór"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "訪ねる",
-      "reading": "たずねる"
+      "reading": "たずねる",
+      "meaning": "odwiedzać"
     },
     {
       "kanji": "訪問",
-      "reading": "ホウモン"
+      "reading": "ホウモン",
+      "meaning": "wizyta"
     }
   ],
   "wordsRequiredLater": [],

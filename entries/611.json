@@ -7,49 +7,59 @@
   "wordsRequiredNow": [
     {
       "kanji": "感じる",
-      "reading": "カンじる"
+      "reading": "カンじる",
+      "meaning": "czuć; odczuwać"
     },
     {
       "kanji": "感じ",
-      "reading": "カンじ"
+      "reading": "カンじ",
+      "meaning": "wrażenie; odczucie"
     },
     {
       "kanji": "感心",
-      "reading": "カンシン"
+      "reading": "カンシン",
+      "meaning": "podziw; uznanie"
     },
     {
       "kanji": "感動",
-      "reading": "カンドウ"
+      "reading": "カンドウ",
+      "meaning": "wzruszenie; poruszenie"
     },
     {
       "kanji": "感覚",
-      "reading": "カンカク"
+      "reading": "カンカク",
+      "meaning": "zmysł; odczucie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "感謝",
       "reading": "カンシャ",
+      "meaning": "wdzięczność",
       "reference": 757
     },
     {
       "kanji": "感染",
       "reading": "カンセン",
+      "meaning": "zakażenie; infekcja",
       "reference": 833
     },
     {
       "kanji": "感想",
       "reading": "カンソウ",
+      "meaning": "wrażenia; opinie",
       "reference": 970
     },
     {
       "kanji": "感染症",
       "reading": "カンセンショウ",
+      "meaning": "choroba zakaźna",
       "reference": 1102
     },
     {
       "kanji": "敏感",
       "reading": "ビンカン",
+      "meaning": "wrażliwy; czuły",
       "reference": 1340
     }
   ],

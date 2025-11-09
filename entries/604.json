@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "程",
-      "reading": "ほど"
+      "reading": "ほど",
+      "meaning": "stopień; zakres"
     },
     {
       "kanji": "程度",
-      "reading": "テイド"
+      "reading": "テイド",
+      "meaning": "poziom; stopień"
     },
     {
       "kanji": "日程",
-      "reading": "ニッテイ"
+      "reading": "ニッテイ",
+      "meaning": "harmonogram; rozkład dnia"
     },
     {
       "kanji": "過程",
-      "reading": "カテイ"
+      "reading": "カテイ",
+      "meaning": "proces"
     },
     {
       "kanji": "課程",
-      "reading": "カテイ"
+      "reading": "カテイ",
+      "meaning": "program nauczania; tok studiów"
     }
   ],
   "wordsRequiredLater": [],

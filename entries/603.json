@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "塩",
-      "reading": "しお"
+      "reading": "しお",
+      "meaning": "sól"
     },
     {
       "kanji": "塩山",
-      "reading": "エンザン"
+      "reading": "エンザン",
+      "meaning": "Enzan (miasto w prefekturze Yamanashi)"
     }
   ],
   "wordsRequiredLater": [],

@@ -10,34 +10,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "調べる",
-      "reading": "しらべる"
+      "reading": "しらべる",
+      "meaning": "sprawdzać; badać"
     },
     {
       "kanji": "調子",
-      "reading": "チョウシ"
+      "reading": "チョウシ",
+      "meaning": "kondycja; nastrój; ton"
     },
     {
       "kanji": "調味料",
-      "reading": "チョウミリョウ"
+      "reading": "チョウミリョウ",
+      "meaning": "przyprawy"
     },
     {
       "kanji": "調和",
-      "reading": "チョウワ"
+      "reading": "チョウワ",
+      "meaning": "harmonia"
     },
     {
       "kanji": "強調",
-      "reading": "キョウチョウ"
+      "reading": "キョウチョウ",
+      "meaning": "nacisk; podkreślenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "調査",
       "reading": "チョウサ",
+      "meaning": "badanie; dochodzenie",
       "reference": 655
     },
     {
       "kanji": "調整",
       "reading": "チョウセイ",
+      "meaning": "dostosowanie; regulacja",
       "reference": 831
     }
   ],

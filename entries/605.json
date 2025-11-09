@@ -7,31 +7,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "医師",
-      "reading": "イシ"
+      "reading": "イシ",
+      "meaning": "lekarz"
     },
     {
       "kanji": "教師",
-      "reading": "キョウシ"
+      "reading": "キョウシ",
+      "meaning": "nauczyciel"
     },
     {
       "kanji": "技師",
-      "reading": "ギシ"
+      "reading": "ギシ",
+      "meaning": "inżynier; technik"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "看護師",
       "reading": "カンゴシ",
+      "meaning": "pielęgniarka/pielęgniarz",
       "reference": 707
     },
     {
       "kanji": "講師",
       "reading": "コウシ",
+      "meaning": "wykładowca; prowadzący",
       "reference": 1208
     },
     {
       "kanji": "牧師",
       "reading": "ボクシ",
+      "meaning": "pastor; duchowny",
       "reference": 1402
     }
   ],

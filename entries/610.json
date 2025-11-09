@@ -8,21 +8,25 @@
   "wordsRequiredNow": [
     {
       "kanji": "束",
-      "reading": "たば"
+      "reading": "たば",
+      "meaning": "wiązka; pęk"
     },
     {
       "kanji": "花束",
-      "reading": "はなたば"
+      "reading": "はなたば",
+      "meaning": "bukiet"
     },
     {
       "kanji": "約束",
-      "reading": "ヤクソク"
+      "reading": "ヤクソク",
+      "meaning": "obietnica; umowa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "拘束",
       "reading": "コウソク",
+      "meaning": "skrępowanie; ograniczenie",
       "reference": 1478
     }
   ],

@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "要請",
-      "reading": "ヨウセイ"
+      "reading": "ヨウセイ",
+      "meaning": "wezwanie; prośba (oficjalna)"
     },
     {
       "kanji": "普請",
-      "reading": "フシン"
+      "reading": "フシン",
+      "meaning": "budowa; naprawa (dawne)"
     }
   ],
   "wordsRequiredLater": [],

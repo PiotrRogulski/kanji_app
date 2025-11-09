@@ -9,34 +9,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "勝つ",
-      "reading": "かつ"
+      "reading": "かつ",
+      "meaning": "wygrywać"
     },
     {
       "kanji": "勝ち",
-      "reading": "かち"
+      "reading": "かち",
+      "meaning": "zwycięstwo; wygrana"
     },
     {
-      "kanji": "勝手",
-      "reading": "かってに"
+      "kanji": "勝手に",
+      "reading": "かってに",
+      "meaning": "samowolnie; bez pozwolenia"
     },
     {
       "kanji": "勝利",
-      "reading": "ショウリ"
+      "reading": "ショウリ",
+      "meaning": "zwycięstwo"
     },
     {
       "kanji": "必勝",
-      "reading": "ヒッショウ"
+      "reading": "ヒッショウ",
+      "meaning": "pewne zwycięstwo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "勝負",
       "reading": "ショウブ",
+      "meaning": "pojedynek; mecz",
       "reference": 623
     },
     {
       "kanji": "優勝",
       "reading": "ユウショウ",
+      "meaning": "zwycięstwo (w turnieju)",
       "reference": 869
     }
   ],

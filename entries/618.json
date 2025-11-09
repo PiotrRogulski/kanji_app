@@ -8,25 +8,30 @@
   "wordsRequiredNow": [
     {
       "kanji": "参る",
-      "reading": "まいる"
+      "reading": "まいる",
+      "meaning": "iść/przybywać (skromnie); odwiedzać świątynię"
     },
     {
       "kanji": "お参り",
-      "reading": "おまいり"
+      "reading": "おまいり",
+      "meaning": "wizyta w świątyni"
     },
     {
       "kanji": "持参",
-      "reading": "ジサン"
+      "reading": "ジサン",
+      "meaning": "przyniesienie (ze sobą)"
     },
     {
       "kanji": "参考",
-      "reading": "サンコウ"
+      "reading": "サンコウ",
+      "meaning": "odniesienie; referencja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "参加",
       "reading": "サンカ",
+      "meaning": "udział; uczestnictwo",
       "reference": 846
     }
   ],

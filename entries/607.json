@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "計算",
-      "reading": "ケイサン"
+      "reading": "ケイサン",
+      "meaning": "obliczenia"
     },
     {
       "kanji": "予算",
-      "reading": "ヨサン"
+      "reading": "ヨサン",
+      "meaning": "budżet"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "清算",
       "reading": "セイサン",
+      "meaning": "rozliczenie",
       "reference": 788
     },
     {
       "kanji": "掛け算",
       "reading": "かけザン",
+      "meaning": "mnożenie",
       "reference": 1295
     }
   ],
