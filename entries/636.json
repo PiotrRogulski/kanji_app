@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "格好",
-      "reading": "カッコウ"
+      "reading": "カッコウ",
+      "meaning": "wygląd; postura; styl"
     },
     {
       "kanji": "合格",
-      "reading": "ゴウカク"
+      "reading": "ゴウカク",
+      "meaning": "zdanie (egzaminu); kwalifikacja"
     },
     {
       "kanji": "本格的",
-      "reading": "ホンカクテキ"
+      "reading": "ホンカクテキ",
+      "meaning": "na pełną skalę; autentyczny; porządny"
     },
     {
       "kanji": "性格",
-      "reading": "セイカク"
+      "reading": "セイカク",
+      "meaning": "charakter; osobowość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "格差",
       "reading": "カクサ",
-      "reference": 684
+      "reference": 684,
+      "meaning": "różnica; dysproporcja; nierówność"
     }
   ],
   "additionalWords": []

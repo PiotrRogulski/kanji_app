@@ -10,22 +10,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "負ける",
-      "reading": "まける"
+      "reading": "まける",
+      "meaning": "przegrać"
     },
     {
       "kanji": "負け",
-      "reading": "まけ"
+      "reading": "まけ",
+      "meaning": "przegrana; porażka"
     },
     {
       "kanji": "勝負",
-      "reading": "ショウブ"
+      "reading": "ショウブ",
+      "meaning": "pojedynek; mecz"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "負担",
       "reading": "フタン",
-      "reference": 901
+      "reference": 901,
+      "meaning": "obciążenie; ciężar; koszt"
     }
   ],
   "additionalWords": []

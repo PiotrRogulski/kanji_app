@@ -9,29 +9,34 @@
   "wordsRequiredNow": [
     {
       "kanji": "備える",
-      "reading": "そなえる"
+      "reading": "そなえる",
+      "meaning": "wyposażyć; przygotować; wyposażać się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "警備",
       "reading": "ケイビ",
-      "reference": 654
+      "reference": 654,
+      "meaning": "ochrona; zabezpieczenie"
     },
     {
       "kanji": "準備",
       "reading": "ジュンビ",
-      "reference": 800
+      "reference": 800,
+      "meaning": "przygotowanie"
     },
     {
       "kanji": "整備",
       "reading": "セイビ",
-      "reference": 831
+      "reference": 831,
+      "meaning": "konserwacja; utrzymanie; wyposażenie"
     },
     {
       "kanji": "設備",
       "reading": "セツビ",
-      "reference": 989
+      "reference": 989,
+      "meaning": "wyposażenie; instalacje; urządzenia"
     }
   ],
   "additionalWords": []

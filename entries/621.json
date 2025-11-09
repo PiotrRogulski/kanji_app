@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "息",
-      "reading": "いき"
+      "reading": "いき",
+      "meaning": "oddech"
     },
     {
       "kanji": "休息",
-      "reading": "キュウソク"
+      "reading": "キュウソク",
+      "meaning": "odpoczynek"
     },
     {
       "kanji": "息子",
-      "reading": "むすこ"
+      "reading": "むすこ",
+      "meaning": "syn"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "貨物",
-      "reading": "カモツ"
+      "reading": "カモツ",
+      "meaning": "ładunek; towar"
     },
     {
       "kanji": "通貨",
-      "reading": "ツウカ"
+      "reading": "ツウカ",
+      "meaning": "waluta"
     },
     {
       "kanji": "百貨店",
-      "reading": "ヒャッカテン"
+      "reading": "ヒャッカテン",
+      "meaning": "dom towarowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "硬貨",
       "reading": "コウカ",
-      "reference": 697
+      "reference": 697,
+      "meaning": "moneta"
     }
   ],
   "additionalWords": []

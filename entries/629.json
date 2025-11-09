@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "袋",
-      "reading": "ふくろ"
+      "reading": "ふくろ",
+      "meaning": "worek; torba"
     },
     {
       "kanji": "手袋",
-      "reading": "てぶくろ"
+      "reading": "てぶくろ",
+      "meaning": "rękawiczki"
     }
   ],
   "wordsRequiredLater": [],

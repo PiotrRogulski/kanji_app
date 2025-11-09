@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "子供",
-      "reading": "こども"
+      "reading": "こども",
+      "meaning": "dziecko"
     },
     {
       "kanji": "供給",
-      "reading": "キョウキュウ"
+      "reading": "キョウキュウ",
+      "meaning": "dostawa; zaopatrzenie; podaż"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "提供",
       "reading": "テイキョウ",
-      "reference": 1069
+      "reference": 1069,
+      "meaning": "świadczenie; dostarczanie; udostępnianie"
     }
   ],
   "additionalWords": []

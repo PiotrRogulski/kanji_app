@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "詰める",
-      "reading": "つめる"
+      "reading": "つめる",
+      "meaning": "pakować; upychać; napełniać"
     },
     {
       "kanji": "詰まる",
-      "reading": "つまる"
+      "reading": "つまる",
+      "meaning": "zatykać się; być zapchanym; utknąć"
     },
     {
       "kanji": "見詰める",
-      "reading": "みつめる"
+      "reading": "みつめる",
+      "meaning": "wpatrywać się; wodzić wzrokiem"
     },
     {
       "kanji": "缶詰",
-      "reading": "カンづめ"
+      "reading": "カンづめ",
+      "meaning": "konserwa; żywność w puszce"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "衣服",
-      "reading": "イフク"
+      "reading": "イフク",
+      "meaning": "ubranie; odzież"
     },
     {
       "kanji": "衣食住",
-      "reading": "イショクジュウ"
+      "reading": "イショクジュウ",
+      "meaning": "ubiór, jedzenie i mieszkanie (podstawowe potrzeby)"
     },
     {
       "kanji": "衣類",
-      "reading": "イルイ"
+      "reading": "イルイ",
+      "meaning": "odzież; ubrania"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "衣装",
       "reading": "イショウ",
-      "reference": 992
+      "reference": 992,
+      "meaning": "strój; kostium"
     },
     {
       "kanji": "浴衣",
       "reading": "ゆかた",
-      "reference": 1398
+      "reference": 1398,
+      "meaning": "yukata (letnie kimono)"
     }
   ],
   "additionalWords": []

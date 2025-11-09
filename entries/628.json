@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "種",
-      "reading": "たね"
+      "reading": "たね",
+      "meaning": "nasiono; ziarno; rodzaj; powód"
     },
     {
       "kanji": "人種",
-      "reading": "ジンシュ"
+      "reading": "ジンシュ",
+      "meaning": "rasa (ludzka)"
     },
     {
       "kanji": "種類",
-      "reading": "シュルイ"
+      "reading": "シュルイ",
+      "meaning": "rodzaj; typ"
     }
   ],
   "wordsRequiredLater": [],

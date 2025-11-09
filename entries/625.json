@@ -8,28 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "客",
-      "reading": "キャク"
+      "reading": "キャク",
+      "meaning": "gość; klient; pasażer"
     },
     {
       "kanji": "乗客",
-      "reading": "ジョウキャク"
+      "reading": "ジョウキャク",
+      "meaning": "pasażer"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "観客",
       "reading": "カンキャク",
-      "reference": 752
+      "reference": 752,
+      "meaning": "widownia; publiczność"
     },
     {
       "kanji": "客観的",
       "reading": "キャッカンテキ",
-      "reference": 752
+      "reference": 752,
+      "meaning": "obiektywny"
     },
     {
       "kanji": "顧客",
       "reading": "コキャク",
-      "reference": 1319
+      "reference": 1319,
+      "meaning": "klient; kontrahent"
     }
   ],
   "additionalWords": []

@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "泊まる",
-      "reading": "とまる"
+      "reading": "とまる",
+      "meaning": "zatrzymać się na noc"
     },
     {
       "kanji": "泊める",
-      "reading": "とめる"
+      "reading": "とめる",
+      "meaning": "przenocować (kogoś)"
     },
     {
       "kanji": "＿泊",
-      "reading": "ハク"
+      "reading": "ハク",
+      "meaning": "— noc(e) (licznik noclegów)"
     },
     {
       "kanji": "宿泊",
-      "reading": "シュクハク"
+      "reading": "シュクハク",
+      "meaning": "nocleg; zakwaterowanie"
     }
   ],
   "wordsRequiredLater": [],

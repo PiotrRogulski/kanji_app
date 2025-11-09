@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "野菜",
-      "reading": "ヤサイ"
+      "reading": "ヤサイ",
+      "meaning": "warzywa"
     },
     {
       "kanji": "菜の花",
-      "reading": "なのはな"
+      "reading": "なのはな",
+      "meaning": "kwiaty rzepaku"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,28 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "位",
-      "reading": "くらい"
+      "reading": "くらい",
+      "meaning": "ranga; pozycja"
     },
     {
       "kanji": "地位",
-      "reading": "チイ"
+      "reading": "チイ",
+      "meaning": "pozycja; status"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "単位",
       "reading": "タンイ",
-      "reference": 661
+      "reference": 661,
+      "meaning": "jednostka (np. miary, punkty ECTS)"
     },
     {
       "kanji": "即位",
-      "reading": "ソクイ 730",
-      "reference": 0
+      "reading": "ソクイ",
+      "reference": 730,
+      "meaning": "wstąpienie na tron"
     },
     {
       "kanji": "位置",
       "reading": "イチ",
-      "reference": 944
+      "reference": 944,
+      "meaning": "położenie; lokalizacja"
     }
   ],
   "additionalWords": []

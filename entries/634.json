@@ -8,35 +8,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "防ぐ",
-      "reading": "ふせぐ"
+      "reading": "ふせぐ",
+      "meaning": "zapobiegać; chronić; odpierać"
     },
     {
       "kanji": "予防",
-      "reading": "ヨボウ"
+      "reading": "ヨボウ",
+      "meaning": "profilaktyka; zapobieganie"
     },
     {
       "kanji": "防止",
-      "reading": "ボウシ"
+      "reading": "ボウシ",
+      "meaning": "zapobieganie; prewencja"
     },
     {
       "kanji": "消防",
-      "reading": "ショウボウ"
+      "reading": "ショウボウ",
+      "meaning": "straż pożarna"
     },
     {
       "kanji": "消防署",
-      "reading": "ショウボウショ"
+      "reading": "ショウボウショ",
+      "meaning": "remiza strażacka; jednostka straży pożarnej"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "防衛",
       "reading": "ボウエイ",
-      "reference": 960
+      "reference": 960,
+      "meaning": "obrona"
     },
     {
       "kanji": "防犯",
       "reading": "ボウハン",
-      "reference": 1119
+      "reference": 1119,
+      "meaning": "zapobieganie przestępczości; prewencja antywłamaniowa"
     }
   ],
   "additionalWords": []

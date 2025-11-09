@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "済む",
-      "reading": "すむ"
+      "reading": "すむ",
+      "meaning": "zakończyć się; wystarczyć; obyć się"
     },
     {
       "kanji": "経済",
-      "reading": "ケイザイ"
+      "reading": "ケイザイ",
+      "meaning": "gospodarka; ekonomia"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "箱",
-      "reading": "はこ"
+      "reading": "はこ",
+      "meaning": "pudełko; skrzynka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "巣箱",
       "reading": "すばこ",
-      "reference": 1530
+      "reference": 1530,
+      "meaning": "budka lęgowa (dla ptaków)"
     }
   ],
   "additionalWords": []
