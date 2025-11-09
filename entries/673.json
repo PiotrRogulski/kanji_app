@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "特徴",
-      "reading": "トクチョウ"
+      "reading": "トクチョウ",
+      "meaning": "cecha charakterystyczna; wyróżnik"
     },
     {
       "kanji": "象徴",
-      "reading": "ショウチョウ"
+      "reading": "ショウチョウ",
+      "meaning": "symbol; uosobienie"
     }
   ],
   "wordsRequiredLater": [],

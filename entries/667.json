@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "本州",
-      "reading": "ホンシュウ"
+      "reading": "ホンシュウ",
+      "meaning": "Honsiu (główna wyspa Japonii)"
     },
     {
       "kanji": "九州",
-      "reading": "キュウシュウ"
+      "reading": "キュウシュウ",
+      "meaning": "Kiusiu (wyspa Japonii)"
     },
     {
       "kanji": "アジア州",
-      "reading": "アジアシュウ"
+      "reading": "アジアシュウ",
+      "meaning": "Azja (kontynent)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "欧州",
       "reading": "オウシュウ",
-      "reference": 927
+      "reference": 927,
+      "meaning": "Europa"
     },
     {
       "kanji": "欧州連合",
       "reading": "オウシュウレンゴウ",
-      "reference": 927
+      "reference": 927,
+      "meaning": "Unia Europejska"
     }
   ],
   "additionalWords": []

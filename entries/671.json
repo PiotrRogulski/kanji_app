@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "滝",
-      "reading": "たき"
+      "reading": "たき",
+      "meaning": "wodospad"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "ナイアガラの滝",
-      "reading": null
+      "reading": "ナイアガラのたき",
+      "meaning": "Wodospad Niagara"
     }
   ]
 }

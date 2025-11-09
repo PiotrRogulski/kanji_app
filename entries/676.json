@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "厚い",
-      "reading": "あつい"
+      "reading": "あつい",
+      "meaning": "gruby (o przedmiotach); serdeczny (np. gościnność)"
     },
     {
       "kanji": "厚生",
-      "reading": "コウセイ"
+      "reading": "コウセイ",
+      "meaning": "opieka społeczna; dobrobyt publiczny"
     },
     {
       "kanji": "手厚い",
-      "reading": "てあつい"
+      "reading": "てあつい",
+      "meaning": "serdeczny; życzliwy; hojny (np. wsparcie)"
     }
   ],
   "wordsRequiredLater": [],

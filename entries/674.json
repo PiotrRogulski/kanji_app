@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "努める",
-      "reading": "つとめる"
+      "reading": "つとめる",
+      "meaning": "starać się; dążyć; wysilać się"
     },
     {
       "kanji": "努力",
-      "reading": "ドリョク"
+      "reading": "ドリョク",
+      "meaning": "wysiłek; staranie; trud"
     }
   ],
   "wordsRequiredLater": [],

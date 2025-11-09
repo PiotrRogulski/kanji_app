@@ -9,35 +9,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "違う",
-      "reading": "ちがう"
+      "reading": "ちがう",
+      "meaning": "różnić się; być innym; nie zgadzać się"
     },
     {
       "kanji": "違い",
-      "reading": "ちがい"
+      "reading": "ちがい",
+      "meaning": "różnica"
     },
     {
       "kanji": "間違う",
-      "reading": "まちがう"
+      "reading": "まちがう",
+      "meaning": "pomylić się; popełnić błąd"
     },
     {
       "kanji": "間違い",
-      "reading": "まちがい"
+      "reading": "まちがい",
+      "meaning": "błąd; pomyłka"
     },
     {
       "kanji": "に違いない",
-      "reading": "にちがいない"
+      "reading": "にちがいない",
+      "meaning": "z pewnością; na pewno"
     },
     {
       "kanji": "間違える",
-      "reading": "まちがえる"
+      "reading": "まちがえる",
+      "meaning": "pomylić; pomylić się; popełnić błąd"
     },
     {
       "kanji": "違反",
-      "reading": "イハン"
+      "reading": "イハン",
+      "meaning": "naruszenie; wykroczenie; złamanie (przepisów)"
     },
     {
       "kanji": "相違",
-      "reading": "ソウイ"
+      "reading": "ソウイ",
+      "meaning": "różnica; rozbieżność"
     }
   ],
   "wordsRequiredLater": [],

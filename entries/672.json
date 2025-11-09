@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "刻む",
-      "reading": "きざむ"
+      "reading": "きざむ",
+      "meaning": "ryć; rzeźbić; siekać; odmierzać (czas)"
     },
     {
       "kanji": "時刻",
-      "reading": "ジコク"
+      "reading": "ジコク",
+      "meaning": "czas; godzina (konkretna)"
     },
     {
       "kanji": "深刻",
-      "reading": "シンコク"
+      "reading": "シンコク",
+      "meaning": "poważny; dotkliwy"
     },
     {
       "kanji": "遅刻",
-      "reading": "チコク"
+      "reading": "チコク",
+      "meaning": "spóźnienie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "彫刻する",
       "reading": "チョウコク",
-      "reference": 1491
+      "reference": 1491,
+      "meaning": "rzeźbić; rzeźba"
     }
   ],
   "additionalWords": []

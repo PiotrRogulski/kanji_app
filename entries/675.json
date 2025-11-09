@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "島",
-      "reading": "しま"
+      "reading": "しま",
+      "meaning": "wyspa"
     },
     {
       "kanji": "半島",
-      "reading": "ハントウ"
+      "reading": "ハントウ",
+      "meaning": "półwysep"
     },
     {
       "kanji": "島国",
-      "reading": "しまぐに"
+      "reading": "しまぐに",
+      "meaning": "kraj wyspiarski"
     },
     {
       "kanji": "列島",
-      "reading": "レットウ"
+      "reading": "レットウ",
+      "meaning": "archipelag"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "濃い",
-      "reading": "こい"
+      "reading": "こい",
+      "meaning": "gęsty; intensywny (smak/kolor); ciemny"
     },
     {
       "kanji": "濃度",
-      "reading": "ノウド"
+      "reading": "ノウド",
+      "meaning": "stężenie; gęstość (np. mgły)"
     }
   ],
   "wordsRequiredLater": [],

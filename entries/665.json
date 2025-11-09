@@ -8,37 +8,44 @@
   "wordsRequiredNow": [
     {
       "kanji": "片道",
-      "reading": "かたみち"
+      "reading": "かたみち",
+      "meaning": "w jedną stronę (bilet/przejazd)"
     },
     {
       "kanji": "片手",
-      "reading": "かたて"
+      "reading": "かたて",
+      "meaning": "jedna ręka"
     },
     {
       "kanji": "片寄る",
-      "reading": "かたよる"
+      "reading": "かたよる",
+      "meaning": "być stronniczym; przechylać się; skłaniać się ku"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "片仮名",
       "reading": "かたかな",
-      "reference": 928
+      "reference": 928,
+      "meaning": "katakana"
     },
     {
       "kanji": "片隅",
       "reading": "かたすみ",
-      "reference": 966
+      "reference": 966,
+      "meaning": "kącik; róg"
     },
     {
       "kanji": "片付ける",
       "reading": "かたづける",
-      "reference": 1140
+      "reference": 1140,
+      "meaning": "sprzątać; porządkować; dokończyć; uporządkować"
     },
     {
       "kanji": "片付く",
       "reading": "かたづく",
-      "reference": 1140
+      "reference": 1140,
+      "meaning": "zostać uporządkowanym; zostać załatwionym; dobiec końca"
     }
   ],
   "additionalWords": []

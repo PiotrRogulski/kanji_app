@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "驚く",
-      "reading": "おどろく"
+      "reading": "おどろく",
+      "meaning": "dziwić się; być zaskoczonym; być zdumionym"
     },
     {
       "kanji": "驚かす",
-      "reading": "おどろかす"
+      "reading": "おどろかす",
+      "meaning": "zaskakiwać; przestraszyć"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "陸",
-      "reading": "リク"
+      "reading": "リク",
+      "meaning": "ląd (w odróżnieniu od morza); na lądzie"
     },
     {
       "kanji": "大陸",
-      "reading": "タイリク"
+      "reading": "タイリク",
+      "meaning": "kontynent"
     },
     {
       "kanji": "着陸",
-      "reading": "チャクリク"
+      "reading": "チャクリク",
+      "meaning": "lądowanie"
     }
   ],
   "wordsRequiredLater": [],

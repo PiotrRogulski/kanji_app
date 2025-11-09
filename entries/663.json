@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "慣れる",
-      "reading": "なれる"
+      "reading": "なれる",
+      "meaning": "przyzwyczajać się; nabierać wprawy"
     },
     {
       "kanji": "見慣れる",
-      "reading": "みなれる"
+      "reading": "みなれる",
+      "meaning": "być przyzwyczajonym do widoku; być obeznanym z"
     },
     {
       "kanji": "習慣",
-      "reading": "シュウカン"
+      "reading": "シュウカン",
+      "meaning": "zwyczaj; nawyk"
     }
   ],
   "wordsRequiredLater": [],

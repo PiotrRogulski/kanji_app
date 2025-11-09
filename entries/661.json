@@ -7,30 +7,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "単に",
-      "reading": null
+      "reading": "タンに",
+      "meaning": "po prostu; jedynie"
     },
     {
       "kanji": "単数",
-      "reading": "タンスウ"
+      "reading": "タンスウ",
+      "meaning": "liczba pojedyncza"
     },
     {
       "kanji": "単語",
-      "reading": "タンゴ"
+      "reading": "タンゴ",
+      "meaning": "słowo; wyraz"
     },
     {
       "kanji": "単位",
-      "reading": "タンイ"
+      "reading": "タンイ",
+      "meaning": "jednostka (np. miary, punkty ECTS)"
     },
     {
       "kanji": "簡単な",
-      "reading": "カンタン"
+      "reading": "カンタン",
+      "meaning": "prosty; łatwy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "単純な",
       "reading": "タンジュン",
-      "reference": 783
+      "reference": 783,
+      "meaning": "prosty; nieskomplikowany"
     }
   ],
   "additionalWords": []

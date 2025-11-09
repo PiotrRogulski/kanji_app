@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "矢",
-      "reading": "や"
+      "reading": "や",
+      "meaning": "strzała"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "矢印",
       "reading": "やじるし",
-      "reference": 959
+      "reference": 959,
+      "meaning": "strzałka (symbol)"
     }
   ],
   "additionalWords": []

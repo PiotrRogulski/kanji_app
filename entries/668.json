@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "弓",
-      "reading": "ゆみ"
+      "reading": "ゆみ",
+      "meaning": "łuk"
     },
     {
       "kanji": "弓道",
-      "reading": "キュウドウ"
+      "reading": "キュウドウ",
+      "meaning": "kyūdō (japońskie łucznictwo)"
     }
   ],
   "wordsRequiredLater": [],

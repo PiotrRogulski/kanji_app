@@ -12,22 +12,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "薄い",
-      "reading": "うすい"
+      "reading": "うすい",
+      "meaning": "cienki; słaby (smak/kolor); rzadki (płyn)"
     },
     {
       "kanji": "薄める",
-      "reading": "うすめる"
+      "reading": "うすめる",
+      "meaning": "rozcieńczać; osłabiać (smak/kolor)"
     },
     {
       "kanji": "軽薄な",
-      "reading": "ケイハク"
+      "reading": "ケイハク",
+      "meaning": "płytki; lekkomyślny; powierzchowny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "浅薄な",
       "reading": "センパク",
-      "reference": 1385
+      "reference": 1385,
+      "meaning": "płytki; powierzchowny"
     }
   ],
   "additionalWords": []

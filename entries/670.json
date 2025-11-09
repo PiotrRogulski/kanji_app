@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "遅い",
-      "reading": "おそい"
+      "reading": "おそい",
+      "meaning": "późny; wolny (o prędkości); spóźniony"
     },
     {
       "kanji": "遅れる",
-      "reading": "おくれる"
+      "reading": "おくれる",
+      "meaning": "spóźnić się; opóźnić się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "遅刻",
       "reading": "チコク",
-      "reference": 672
+      "reference": 672,
+      "meaning": "spóźnienie (do szkoły/pracy)"
     }
   ],
   "additionalWords": []
