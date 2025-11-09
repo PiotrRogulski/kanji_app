@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
@@ -32,14 +31,10 @@ class KanjiTile extends StatelessWidget {
               opaque: false,
               barrierDismissible: true,
               transitionsBuilder: (context, animation, _, child) {
-                final blurSigma = 8 * animation.value;
+                final sigma = 8 * animation.value;
 
                 return BackdropFilter(
-                  filter: ImageFilter.blur(
-                    sigmaX: blurSigma,
-                    sigmaY: blurSigma,
-                    tileMode: .clamp,
-                  ),
+                  filter: .blur(sigmaX: sigma, sigmaY: sigma, tileMode: .clamp),
                   child: child,
                 );
               },
@@ -98,7 +93,7 @@ class KanjiTile extends StatelessWidget {
                         ),
                       ),
                       AppIcon(
-                        AppIconData.chevronForward,
+                        .chevronForward,
                         size: .large,
                         color: contentColor,
                       ),

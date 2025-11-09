@@ -1,32 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 
-class AppPadding extends StatelessWidget {
-  const AppPadding({super.key, required this.padding, required this.child});
-
-  final AppEdgeInsets padding;
-  final Widget child;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(padding: padding, child: child);
-  }
+class AppPadding extends Padding {
+  const AppPadding({
+    super.key,
+    required AppEdgeInsets super.padding,
+    super.child,
+  });
 }
 
-class AppSliverPadding extends StatelessWidget {
+class AppSliverPadding extends SliverPadding {
   const AppSliverPadding({
     super.key,
-    required this.padding,
-    required this.sliver,
+    required AppEdgeInsets super.padding,
+    super.sliver,
   });
-
-  final AppEdgeInsets padding;
-  final Widget sliver;
-
-  @override
-  Widget build(BuildContext context) {
-    return SliverPadding(padding: padding, sliver: sliver);
-  }
 }
 
 class AppEdgeInsets extends EdgeInsetsDirectional {

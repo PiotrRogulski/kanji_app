@@ -9,10 +9,10 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
-  String get common_search => 'Szukaj';
+  String get common_scrollToTop => 'Przewiń do góry';
 
   @override
-  String get common_scrollToTop => 'Przewiń do góry';
+  String get common_search => 'Szukaj';
 
   @override
   String get kanjiDetails_strokeOrderNotAvailable =>
@@ -26,6 +26,9 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get kanjiSets_title => 'Zestawy';
+
+  @override
+  String get kanji_additionalWords => 'Dodatkowe';
 
   @override
   String get kanji_antonyms => 'Antonimy';
@@ -43,10 +46,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get kanji_synonyms => 'Synonimy';
 
   @override
-  String get radicals_exampleKanji => 'Na przykład w';
+  String get kanji_wordsRequiredLater => 'Na później';
 
   @override
-  String get radicals_title => 'Pierwiastki';
+  String get kanji_wordsRequiredNow => 'Słowa';
+
+  @override
+  String get radicals_exampleKanji => 'Na przykład w';
 
   @override
   String radicals_strokeCount(num count) {
@@ -59,4 +65,7 @@ class AppLocalizationsPl extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get radicals_title => 'Pierwiastki';
 }

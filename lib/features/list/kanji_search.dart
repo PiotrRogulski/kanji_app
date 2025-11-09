@@ -34,9 +34,9 @@ SearchMatch matchEntry(KanjiEntry entry, String query) {
     return .fullReading;
   }
 
-  if (entry.readings.any((r) => r.contains(query)) ||
-      entry.readings.any((r) => r.contains(hira)) ||
-      entry.readings.any((r) => r.contains(kata))) {
+  if (entry.readings.any(
+    (r) => r.contains(query) || r.contains(hira) || r.contains(kata),
+  )) {
     return .partialReading;
   }
 

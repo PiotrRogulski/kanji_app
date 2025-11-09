@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 ThemeData appTheme() {
-  final colorScheme = ColorScheme.fromSeed(seedColor: const Color(0xFFC8AE7E));
+  final colorScheme = ColorScheme.fromSeed(seedColor: const .new(0xFFC8AE7E));
 
   final baseTheme = ThemeData.from(colorScheme: colorScheme);
 
@@ -13,17 +13,15 @@ ThemeData appTheme() {
     focusColor: colorScheme.primary.withValues(alpha: 0.2),
     textTheme: baseTheme.textTheme.applyFontFamilies(),
     cardTheme: baseTheme.cardTheme.copyWith(
-      clipBehavior: Clip.antiAlias,
-      margin: EdgeInsets.zero,
+      clipBehavior: .antiAlias,
+      margin: .zero,
     ),
     searchBarTheme: .new(
       elevation: .all(0),
       textStyle: .all(const TextStyle().body),
     ),
     pageTransitionsTheme: const PageTransitionsTheme(
-      builders: {
-        TargetPlatform.android: PredictiveBackPageTransitionsBuilder(),
-      },
+      builders: {.android: PredictiveBackPageTransitionsBuilder()},
     ),
   );
 }
@@ -61,8 +59,8 @@ extension on TextStyle {
 
   TextStyle get applyAxes => copyWith(
     fontVariations: [
-      FontVariation.weight((fontWeight ?? FontWeight.normal).value.toDouble()),
-      if (fontSize case final size?) FontVariation.opticalSize(size),
+      .weight((fontWeight ?? .normal).value.toDouble()),
+      if (fontSize case final size?) .opticalSize(size),
     ],
   );
 }

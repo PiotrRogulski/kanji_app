@@ -7,7 +7,6 @@ import 'package:flutter/foundation.dart';
 import 'package:kanji_app/svg_drawing_animation/path_info.dart';
 
 class SvgController {
-  @internal
   SvgController({
     required this.pathInfo,
     required this.startDelay,

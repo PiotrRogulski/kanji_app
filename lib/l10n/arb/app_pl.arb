@@ -1,17 +1,20 @@
 {
   "@@locale": "pl",
-  "common_search": "Szukaj",
   "common_scrollToTop": "Przewiń do góry",
+  "common_search": "Szukaj",
   "kanjiDetails_strokeOrderNotAvailable": "Kolejność pisania niedostępna",
   "kanjiList_search": "Szukaj znaków",
   "kanjiList_title": "Znaki",
   "kanjiSets_title": "Zestawy",
+  "kanji_additionalWords": "Dodatkowe",
   "kanji_antonyms": "Antonimy",
   "kanji_radical": "Pierwiastek",
   "kanji_readings": "Czytania",
   "kanji_strokeOrder": "Kolejność pisania",
   "kanji_synonyms": "Synonimy",
+  "kanji_wordsRequiredLater": "Na później",
+  "kanji_wordsRequiredNow": "Słowa",
   "radicals_exampleKanji": "Na przykład w",
-  "radicals_title": "Pierwiastki",
-  "radicals_strokeCount": "{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}"
+  "radicals_strokeCount": "{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}",
+  "radicals_title": "Pierwiastki"
 }

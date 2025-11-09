@@ -28,10 +28,9 @@ class ClippedPathPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(ClippedPathPainter oldDelegate) {
-    return paths != oldDelegate.paths ||
-        pathLengthLimit != oldDelegate.pathLengthLimit ||
-        strokePaint != oldDelegate.strokePaint ||
-        pen != oldDelegate.pen;
-  }
+  bool shouldRepaint(ClippedPathPainter oldDelegate) =>
+      paths != oldDelegate.paths ||
+      pathLengthLimit != oldDelegate.pathLengthLimit ||
+      strokePaint != oldDelegate.strokePaint ||
+      pen != oldDelegate.pen;
 }

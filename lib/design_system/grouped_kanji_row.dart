@@ -68,7 +68,7 @@ class _Item extends StatelessWidget {
     final theme = Theme.of(context);
 
     return SizedBox.square(
-      dimension: 32,
+      dimension: AppUnit.xlarge,
       child: Material(
         color: theme.colorScheme.surface,
         borderRadius: AppBorderRadius.horizontal(

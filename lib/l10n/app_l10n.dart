@@ -94,17 +94,17 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[Locale('pl')];
 
-  /// No description provided for @common_search.
-  ///
-  /// In pl, this message translates to:
-  /// **'Szukaj'**
-  String get common_search;
-
   /// No description provided for @common_scrollToTop.
   ///
   /// In pl, this message translates to:
   /// **'Przewiń do góry'**
   String get common_scrollToTop;
+
+  /// No description provided for @common_search.
+  ///
+  /// In pl, this message translates to:
+  /// **'Szukaj'**
+  String get common_search;
 
   /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
   ///
@@ -129,6 +129,12 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Zestawy'**
   String get kanjiSets_title;
+
+  /// No description provided for @kanji_additionalWords.
+  ///
+  /// In pl, this message translates to:
+  /// **'Dodatkowe'**
+  String get kanji_additionalWords;
 
   /// No description provided for @kanji_antonyms.
   ///
@@ -160,23 +166,35 @@ abstract class AppLocalizations {
   /// **'Synonimy'**
   String get kanji_synonyms;
 
+  /// No description provided for @kanji_wordsRequiredLater.
+  ///
+  /// In pl, this message translates to:
+  /// **'Na później'**
+  String get kanji_wordsRequiredLater;
+
+  /// No description provided for @kanji_wordsRequiredNow.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słowa'**
+  String get kanji_wordsRequiredNow;
+
   /// No description provided for @radicals_exampleKanji.
   ///
   /// In pl, this message translates to:
   /// **'Na przykład w'**
   String get radicals_exampleKanji;
 
-  /// No description provided for @radicals_title.
-  ///
-  /// In pl, this message translates to:
-  /// **'Pierwiastki'**
-  String get radicals_title;
-
   /// No description provided for @radicals_strokeCount.
   ///
   /// In pl, this message translates to:
   /// **'{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}'**
   String radicals_strokeCount(num count);
+
+  /// No description provided for @radicals_title.
+  ///
+  /// In pl, this message translates to:
+  /// **'Pierwiastki'**
+  String get radicals_title;
 }
 
 class _AppLocalizationsDelegate

@@ -1,6 +1,7 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 
@@ -17,13 +18,27 @@ class SliverKanjiWords extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final s = context.l10n;
+
     final sections = [
       if (entry.wordsRequiredNow.isNotEmpty)
-        (title: 'Słowa', words: entry.wordsRequiredNow, showRef: false),
+        (
+          title: s.kanji_wordsRequiredNow,
+          words: entry.wordsRequiredNow,
+          showRef: false,
+        ),
       if (entry.wordsRequiredLater.isNotEmpty)
-        (title: 'Na później', words: entry.wordsRequiredLater, showRef: true),
+        (
+          title: s.kanji_wordsRequiredLater,
+          words: entry.wordsRequiredLater,
+          showRef: true,
+        ),
       if (entry.additionalWords.isNotEmpty)
-        (title: 'Dodatkowe', words: entry.additionalWords, showRef: false),
+        (
+          title: s.kanji_additionalWords,
+          words: entry.additionalWords,
+          showRef: false,
+        ),
     ];
 
     return SliverMainAxisGroup(

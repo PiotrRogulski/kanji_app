@@ -18,7 +18,7 @@ class KanjiAnimationDialog extends StatelessWidget {
     final colorScheme = ColorScheme.of(context);
 
     return Container(
-      clipBehavior: Clip.antiAlias,
+      clipBehavior: .antiAlias,
       decoration: ShapeDecoration(
         shape: RoundedRectangleBorder(
           borderRadius: AppBorderRadius.circular(.xlarge) * 1.5,
@@ -41,7 +41,7 @@ class _KanjiDetailsBody extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
-    final ThemeData(:colorScheme, :textTheme) = Theme.of(context);
+    final theme = Theme.of(context);
 
     final kanjiApi = context.read<KanjiApi>();
 
@@ -62,11 +62,11 @@ class _KanjiDetailsBody extends HookWidget {
                 .indeterminateQuestionBox,
                 size: AppUnit.xlarge * 6,
                 weight: .light,
-                color: colorScheme.onSurface,
+                color: theme.colorScheme.onSurface,
               ),
               Text(
                 s.kanjiDetails_strokeOrderNotAvailable,
-                style: textTheme.titleLarge,
+                style: theme.textTheme.titleLarge,
               ),
             ],
           ),
@@ -105,10 +105,10 @@ class _KanjiDetailsLoaded extends HookWidget {
             child: SvgDrawingAnimation(
               controller: controller,
               strokePaint: Paint()
-                ..style = PaintingStyle.stroke
+                ..style = .stroke
                 ..color = colorScheme.onSurfaceVariant
                 ..strokeWidth = 2
-                ..strokeCap = StrokeCap.round,
+                ..strokeCap = .round,
               pen: Pen(
                 radius: 4,
                 paint: Paint()

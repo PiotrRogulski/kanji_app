@@ -88,12 +88,10 @@ class ScaffoldWithNavBar extends StatelessWidget {
           // ),
         ],
         selectedIndex: currentIndex,
-        onSelectedIndexChange: (index) {
-          navigationShell.goBranch(
-            index,
-            initialLocation: index == currentIndex,
-          );
-        },
+        onSelectedIndexChange: (index) => navigationShell.goBranch(
+          index,
+          initialLocation: index == currentIndex,
+        ),
         useDrawer: false,
         internalAnimations: false,
         extendedNavigationRailWidth: 210,
