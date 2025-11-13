@@ -28,8 +28,8 @@ int? _idFromQuery(String query) => _queryByID
     .apply(int.tryParse);
 
 SearchMatch matchEntry(KanjiEntry entry, String rawQuery) {
-  final query = _stripMiddleDots(rawQuery);
-  if (_idFromQuery(query) case final id?) {
+  final query = _Query(rawQuery);
+  if (query.id case final id?) {
     if (entry.id == id) {
       return .id;
     } else {
@@ -37,19 +37,42 @@ SearchMatch matchEntry(KanjiEntry entry, String rawQuery) {
     }
   }
 
-  if (_japaneseOnly.hasMatch(query) && query.characters.contains(entry.kanji)) {
+  if (query.matchesKanji(entry.kanji)) {
     return .kanji;
   }
 
-  final hira = _stripMiddleDots(_kanaKit.toHiragana(query));
-  final kata = _stripMiddleDots(_kanaKit.toKatakana(query));
-
   for (final r in entry.readings.map(_stripMiddleDots)) {
-    if (r == query || r == hira || r == kata) {
+    if (query.matchesFully(r)) {
       return .fullReading;
     }
-    if (r.contains(query) || r.contains(hira) || r.contains(kata)) {
+    if (query.matchesPartially(r)) {
       return .partialReading;
+    }
+  }
+  final allWords = [
+    ...entry.wordsRequiredNow,
+    ...entry.wordsRequiredLater,
+    ...entry.additionalWords,
+  ];
+
+  for (final word in allWords) {
+    final kanji = _stripMiddleDots(word.kanji);
+    if (query.matchesKanji(kanji)) {
+      return .wordKanji;
+    }
+
+    final reading = _stripMiddleDots(word.reading);
+    if (reading.isNotEmpty) {
+      if (query.matchesFully(reading)) {
+        return .wordFullReading;
+      }
+      if (query.matchesPartially(reading)) {
+        return .wordPartialReading;
+      }
+    }
+
+    if (query.matchesLatinText(word.meaning)) {
+      return .wordMeaning;
     }
   }
 
@@ -61,8 +84,31 @@ enum SearchMatch implements Comparable<SearchMatch> {
   kanji,
   fullReading,
   partialReading,
+  wordKanji,
+  wordFullReading,
+  wordPartialReading,
+  wordMeaning,
   none;
 
   @override
   int compareTo(SearchMatch other) => index.compareTo(other.index);
+}
+
+class _Query {
+  _Query(this._rawQuery);
+
+  final String _rawQuery;
+  late final query = _stripMiddleDots(_rawQuery);
+  late final id = _idFromQuery(_rawQuery);
+  late final hira = _stripMiddleDots(_kanaKit.toHiragana(_rawQuery));
+  late final kata = _stripMiddleDots(_kanaKit.toKatakana(_rawQuery));
+  late final lower = query.toLowerCase();
+
+  bool matchesKanji(String text) =>
+      _japaneseOnly.hasMatch(query) && query.characters.contains(text);
+  bool matchesFully(String text) =>
+      text == query || text == hira || text == kata;
+  bool matchesPartially(String text) =>
+      text.contains(query) || text.contains(hira) || text.contains(kata);
+  bool matchesLatinText(String text) => text.toLowerCase().contains(lower);
 }
