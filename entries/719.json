@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "煮る",
-      "reading": "にる"
+      "reading": "にる",
+      "meaning": "gotować"
     },
     {
       "kanji": "煮立つ",
-      "reading": "にたつ"
+      "reading": "にたつ",
+      "meaning": "zagotować się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "（お）雑煮",
       "reading": "ゾウに",
-      "reference": 988
+      "reference": 988,
+      "meaning": "zoni"
     }
   ],
   "additionalWords": []

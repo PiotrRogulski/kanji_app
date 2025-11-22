@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "家賃",
-      "reading": "やチン"
+      "reading": "やチン",
+      "meaning": "czynsz"
     },
     {
       "kanji": "運賃",
-      "reading": "ウンチン"
+      "reading": "ウンチン",
+      "meaning": "opłata przewozowa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "賃貸",
       "reading": "チンタイ",
-      "reference": 1288
+      "reference": 1288,
+      "meaning": "wynajem"
     }
   ],
   "additionalWords": []

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "既に",
-      "reading": "すでに"
+      "reading": "すでに",
+      "meaning": "już"
     },
     {
       "kanji": "既婚",
-      "reading": "キコン"
+      "reading": "キコン",
+      "meaning": "żonaty"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "中華",
-      "reading": "チュウカ"
+      "reading": "チュウカ",
+      "meaning": "kuchnia chińska"
     },
     {
       "kanji": "華やか",
-      "reading": "はなやか"
+      "reading": "はなやか",
+      "meaning": "okazały"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "豪華な",
       "reading": "ゴウカ",
-      "reference": 1325
+      "reference": 1325,
+      "meaning": "luksusowy"
     }
   ],
   "additionalWords": []

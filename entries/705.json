@@ -11,27 +11,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "香る",
-      "reading": "かおる"
+      "reading": "かおる",
+      "meaning": "pachnieć"
     },
     {
       "kanji": "香り",
-      "reading": "かおり"
+      "reading": "かおり",
+      "meaning": "zapach"
     },
     {
       "kanji": "香水",
-      "reading": "コウスイ"
+      "reading": "コウスイ",
+      "meaning": "perfumy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "香辛料",
       "reading": "コウシンリョウ",
-      "reference": 720
+      "reference": 720,
+      "meaning": "przyprawy"
     },
     {
       "kanji": "芳香",
       "reading": "ホウコウ",
-      "reference": 1488
+      "reference": 1488,
+      "meaning": "aromat"
     }
   ],
   "additionalWords": []

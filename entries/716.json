@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "沸く",
-      "reading": "わく"
+      "reading": "わく",
+      "meaning": "gotować się"
     },
     {
       "kanji": "沸かす",
-      "reading": "わかす"
+      "reading": "わかす",
+      "meaning": "zagotować"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "沸騰",
       "reading": "フットウ",
-      "reference": 1532
+      "reference": 1532,
+      "meaning": "wrzenie"
     }
   ],
   "additionalWords": []

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "似る",
-      "reading": "にる"
+      "reading": "にる",
+      "meaning": "być podobnym"
     },
     {
       "kanji": "似合う",
-      "reading": "にあう"
+      "reading": "にあう",
+      "meaning": "pasować"
     },
     {
       "kanji": "類似",
-      "reading": "ルイジ"
+      "reading": "ルイジ",
+      "meaning": "podobieństwo"
     }
   ],
   "wordsRequiredLater": [],

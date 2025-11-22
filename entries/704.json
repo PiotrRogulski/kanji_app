@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "看病",
-      "reading": "カンビョウ"
+      "reading": "カンビョウ",
+      "meaning": "pielęgnowanie"
     },
     {
       "kanji": "看板",
-      "reading": "カンバン"
+      "reading": "カンバン",
+      "meaning": "szyld"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "看護師",
       "reading": "カンゴシ",
-      "reference": 707
+      "reference": 707,
+      "meaning": "pielęgniarka"
     }
   ],
   "additionalWords": []

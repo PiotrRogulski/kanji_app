@@ -10,22 +10,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "更に",
-      "reading": "さらに"
+      "reading": "さらに",
+      "meaning": "ponadto"
     },
     {
       "kanji": "更新",
-      "reading": "コウシン"
+      "reading": "コウシン",
+      "meaning": "aktualizacja"
     },
     {
       "kanji": "変更",
-      "reading": "ヘンコウ"
+      "reading": "ヘンコウ",
+      "meaning": "zmiana"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "殊更",
       "reading": "ことさら",
-      "reference": 758
+      "reference": 758,
+      "meaning": "celowo"
     }
   ],
   "additionalWords": []

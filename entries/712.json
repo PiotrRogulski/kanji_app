@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "圏内",
-      "reading": "ケンナイ"
+      "reading": "ケンナイ",
+      "meaning": "w zasięgu"
     },
     {
       "kanji": "圏外",
-      "reading": "ケンガイ"
+      "reading": "ケンガイ",
+      "meaning": "poza zasięgiem"
     }
   ],
   "wordsRequiredLater": [],

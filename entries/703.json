@@ -8,24 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "人影",
-      "reading": "ひとかげ"
+      "reading": "ひとかげ",
+      "meaning": "sylwetka człowieka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "影響",
       "reading": "エイキョウ",
-      "reference": 709
+      "reference": 709,
+      "meaning": "wpływ"
     },
     {
       "kanji": "投影",
       "reading": "トウエイ",
-      "reference": 902
+      "reference": 902,
+      "meaning": "projekcja"
     },
     {
       "kanji": "撮影",
       "reading": "サツエイ",
-      "reference": 974
+      "reference": 974,
+      "meaning": "fotografowanie"
     }
   ],
   "additionalWords": []

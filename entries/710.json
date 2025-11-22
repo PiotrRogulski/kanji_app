@@ -9,32 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "砂",
-      "reading": "すな"
+      "reading": "すな",
+      "meaning": "piasek"
     },
     {
       "kanji": "土砂",
-      "reading": "ドシャ"
+      "reading": "ドシャ",
+      "meaning": "ziemia i piasek"
     },
     {
       "kanji": "砂場",
-      "reading": "すなば"
+      "reading": "すなば",
+      "meaning": "piaskownica"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "砂糖",
       "reading": "サトウ",
-      "reference": 740
+      "reference": 740,
+      "meaning": "cukier"
     },
     {
       "kanji": "砂漠",
       "reading": "サバク",
-      "reference": 979
+      "reference": 979,
+      "meaning": "pustynia"
     },
     {
       "kanji": "砂浜",
       "reading": "すなはま",
-      "reference": 1188
+      "reference": 1188,
+      "meaning": "piaszczysta plaża"
     }
   ],
   "additionalWords": []

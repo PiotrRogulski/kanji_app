@@ -9,40 +9,48 @@
   "wordsRequiredNow": [
     {
       "kanji": "基",
-      "reading": "もと"
+      "reading": "もと",
+      "meaning": "podstawa"
     },
     {
       "kanji": "基本",
-      "reading": "キホン"
+      "reading": "キホン",
+      "meaning": "fundament"
     },
     {
       "kanji": "基金",
-      "reading": "キキン"
+      "reading": "キキン",
+      "meaning": "fundusz"
     },
     {
       "kanji": "基地",
-      "reading": "キチ"
+      "reading": "キチ",
+      "meaning": "baza"
     },
     {
       "kanji": "基づく",
-      "reading": "もとづく"
+      "reading": "もとづく",
+      "meaning": "opierać się na"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "基準",
       "reading": "キジュン",
-      "reference": 800
+      "reference": 800,
+      "meaning": "standard"
     },
     {
       "kanji": "基盤",
       "reading": "キバン",
-      "reference": 1281
+      "reference": 1281,
+      "meaning": "baza"
     },
     {
       "kanji": "基礎",
       "reading": "キソ",
-      "reference": 1459
+      "reference": 1459,
+      "meaning": "fundament"
     }
   ],
   "additionalWords": []

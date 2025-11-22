@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "異なる",
-      "reading": "ことなる"
+      "reading": "ことなる",
+      "meaning": "różnić się"
     },
     {
       "kanji": "異論",
-      "reading": "イロン"
+      "reading": "イロン",
+      "meaning": "odmienna opinia"
     },
     {
       "kanji": "異議",
-      "reading": "イギ"
+      "reading": "イギ",
+      "meaning": "sprzeciw"
     },
     {
       "kanji": "異常",
-      "reading": "イジョウ"
+      "reading": "イジョウ",
+      "meaning": "nienormalność"
     }
   ],
   "wordsRequiredLater": [],

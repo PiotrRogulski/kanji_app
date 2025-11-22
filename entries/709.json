@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "影響",
-      "reading": "エイキョウ"
+      "reading": "エイキョウ",
+      "meaning": "wpływ"
     },
     {
       "kanji": "反響",
-      "reading": "ハンキョウ"
+      "reading": "ハンキョウ",
+      "meaning": "echo"
     }
   ],
   "wordsRequiredLater": [],

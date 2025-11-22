@@ -7,24 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "看護師",
-      "reading": "カンゴシ"
+      "reading": "カンゴシ",
+      "meaning": "pielęgniarka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "弁護士",
       "reading": "ベンゴシ",
-      "reference": 754
+      "reference": 754,
+      "meaning": "adwokat"
     },
     {
       "kanji": "保護",
       "reading": "ホゴ",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "ochrona"
     },
     {
       "kanji": "擁護",
       "reading": "ヨウゴ",
-      "reference": 1483
+      "reference": 1483,
+      "meaning": "obrona"
     }
   ],
   "additionalWords": []

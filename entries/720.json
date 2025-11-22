@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "辛い",
-      "reading": "からい"
+      "reading": "からい",
+      "meaning": "ostry"
     },
     {
       "kanji": "香辛料",
-      "reading": "コウシンリョウ"
+      "reading": "コウシンリョウ",
+      "meaning": "przyprawy"
     }
   ],
   "wordsRequiredLater": [],

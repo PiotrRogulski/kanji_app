@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "再び",
-      "reading": "ふたたび"
+      "reading": "ふたたび",
+      "meaning": "ponownie"
     },
     {
       "kanji": "再会",
-      "reading": "サイカイ"
+      "reading": "サイカイ",
+      "meaning": "ponowne spotkanie"
     },
     {
       "kanji": "再来週",
-      "reading": "サライシュウ"
+      "reading": "サライシュウ",
+      "meaning": "za dwa tygodnie"
     },
     {
       "kanji": "再来月",
-      "reading": "サライゲツ"
+      "reading": "サライゲツ",
+      "meaning": "za dwa miesiące"
     },
     {
       "kanji": "再来年",
-      "reading": "サライネン"
+      "reading": "サライネン",
+      "meaning": "za dwa lata"
     }
   ],
   "wordsRequiredLater": [],
