@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "握る",
-      "reading": "にぎる"
+      "reading": "にぎる",
+      "meaning": "ściskać"
     },
     {
       "kanji": "お握り",
-      "reading": "おにぎり"
+      "reading": "おにぎり",
+      "meaning": "onigiri"
     },
     {
       "kanji": "握手",
-      "reading": "アクシュ"
+      "reading": "アクシュ",
+      "meaning": "uścisk dłoni"
     }
   ],
   "wordsRequiredLater": [],

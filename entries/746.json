@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "（お）墓",
-      "reading": "はか"
+      "reading": "はか",
+      "meaning": "grób"
     },
     {
       "kanji": "墓地",
-      "reading": "ボチ"
+      "reading": "ボチ",
+      "meaning": "cmentarz"
     }
   ],
   "wordsRequiredLater": [],

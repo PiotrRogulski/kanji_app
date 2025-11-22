@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "弁論",
-      "reading": "ベンロン"
+      "reading": "ベンロン",
+      "meaning": "debata"
     },
     {
       "kanji": "（お）弁当",
-      "reading": "ベントウ"
+      "reading": "ベントウ",
+      "meaning": "bento"
     },
     {
       "kanji": "駅弁",
-      "reading": "エキベン"
+      "reading": "エキベン",
+      "meaning": "ekiben"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "弁護士",
       "reading": "ベンゴシ",
-      "reference": 754
+      "reference": 754,
+      "meaning": "adwokat"
     }
   ],
   "additionalWords": []

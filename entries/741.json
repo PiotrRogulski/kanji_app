@@ -8,19 +8,22 @@
   "wordsRequiredNow": [
     {
       "kanji": "避ける",
-      "reading": "さける"
+      "reading": "さける",
+      "meaning": "unikać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "逃避",
       "reading": "トウヒ",
-      "reference": 795
+      "reference": 795,
+      "meaning": "ucieczka"
     },
     {
       "kanji": "避難",
       "reading": "ヒナン",
-      "reference": 903
+      "reference": 903,
+      "meaning": "ewakuacja"
     }
   ],
   "additionalWords": []

@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "豊かな",
-      "reading": "ゆたかな"
+      "reading": "ゆたかな",
+      "meaning": "bogaty"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "豊富な",
       "reading": "ホウフ",
-      "reference": 744
+      "reference": 744,
+      "meaning": "obfity"
     }
   ],
   "additionalWords": []

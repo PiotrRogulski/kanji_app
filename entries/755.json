@@ -11,31 +11,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "極めて",
-      "reading": "きわめて"
+      "reading": "きわめて",
+      "meaning": "niezwykle"
     },
     {
       "kanji": "北極",
-      "reading": "ホッキョク"
+      "reading": "ホッキョク",
+      "meaning": "Biegun Północny"
     },
     {
       "kanji": "南極",
-      "reading": "ナンキョク"
+      "reading": "ナンキョク",
+      "meaning": "Biegun Południowy"
     },
     {
       "kanji": "極楽",
-      "reading": "ゴクラク"
+      "reading": "ゴクラク",
+      "meaning": "raj"
     },
     {
       "kanji": "消極的",
-      "reading": "ショウキョクテキ"
+      "reading": "ショウキョクテキ",
+      "meaning": "pasywny"
     },
     {
       "kanji": "積極的",
-      "reading": "セッキョクテキ"
+      "reading": "セッキョクテキ",
+      "meaning": "aktywny"
     },
     {
       "kanji": "極端",
-      "reading": "キョクタン"
+      "reading": "キョクタン",
+      "meaning": "ekstremalny"
     }
   ],
   "wordsRequiredLater": [],

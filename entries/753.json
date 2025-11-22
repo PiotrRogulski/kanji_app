@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿歳",
-      "reading": "サイ"
+      "reading": "サイ",
+      "meaning": "... lat"
     },
     {
       "kanji": "二十歳",
-      "reading": "はたち"
+      "reading": "はたち",
+      "meaning": "20 lat"
     },
     {
       "kanji": "万歳",
-      "reading": "バンザイ"
+      "reading": "バンザイ",
+      "meaning": "niech żyje"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "歳暮",
       "reading": "セイボ",
-      "reference": 865
+      "reference": 865,
+      "meaning": "prezent na koniec roku"
     }
   ],
   "additionalWords": []

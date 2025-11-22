@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "笑う",
-      "reading": "わらう"
+      "reading": "わらう",
+      "meaning": "śmiać się"
     },
     {
       "kanji": "笑い",
-      "reading": "わらい"
+      "reading": "わらい",
+      "meaning": "śmiech"
     },
     {
       "kanji": "笑顔",
-      "reading": "えがお"
+      "reading": "えがお",
+      "meaning": "uśmiech"
     }
   ],
   "wordsRequiredLater": [],

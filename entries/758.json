@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "殊に",
-      "reading": "ことに"
+      "reading": "ことに",
+      "meaning": "szczególnie"
     },
     {
       "kanji": "殊の外",
-      "reading": "ことのほか"
+      "reading": "ことのほか",
+      "meaning": "niezwykle"
     },
     {
       "kanji": "殊更",
-      "reading": "ことさら"
+      "reading": "ことさら",
+      "meaning": "celowo"
     },
     {
       "kanji": "特殊",
-      "reading": "トクシュ"
+      "reading": "トクシュ",
+      "meaning": "specjalny"
     }
   ],
   "wordsRequiredLater": [],

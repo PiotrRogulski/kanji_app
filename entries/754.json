@@ -7,40 +7,48 @@
   "wordsRequiredNow": [
     {
       "kanji": "士官",
-      "reading": "シカン"
+      "reading": "シカン",
+      "meaning": "oficer"
     },
     {
       "kanji": "学士",
-      "reading": "ガクシ"
+      "reading": "ガクシ",
+      "meaning": "licencjat"
     },
     {
       "kanji": "修士",
-      "reading": "シュウシ"
+      "reading": "シュウシ",
+      "meaning": "magister"
     },
     {
       "kanji": "弁護士",
-      "reading": "ベンゴシ"
+      "reading": "ベンゴシ",
+      "meaning": "adwokat"
     },
     {
       "kanji": "富士山",
-      "reading": "フジサン"
+      "reading": "フジサン",
+      "meaning": "Góra Fuji"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "博士",
       "reading": "ハクシ／はかせ",
-      "reference": 909
+      "reference": 909,
+      "meaning": "doktor"
     },
     {
       "kanji": "武士",
       "reading": "ブシ",
-      "reference": 1177
+      "reference": 1177,
+      "meaning": "samuraj"
     },
     {
       "kanji": "兵士",
       "reading": "ヘイシ",
-      "reference": 1184
+      "reference": 1184,
+      "meaning": "żołnierz"
     }
   ],
   "additionalWords": []

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "謝る",
-      "reading": "あやまる"
+      "reading": "あやまる",
+      "meaning": "przepraszać"
     },
     {
       "kanji": "感謝",
-      "reading": "カンシャ"
+      "reading": "カンシャ",
+      "meaning": "wdzięczność"
     }
   ],
   "wordsRequiredLater": [],

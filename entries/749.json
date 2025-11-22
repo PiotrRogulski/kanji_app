@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "歴史",
-      "reading": "レキシ"
+      "reading": "レキシ",
+      "meaning": "historia"
     },
     {
       "kanji": "学歴",
-      "reading": "ガクレキ"
+      "reading": "ガクレキ",
+      "meaning": "wykształcenie"
     }
   ],
   "wordsRequiredLater": [],

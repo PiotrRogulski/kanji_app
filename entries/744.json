@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "富",
-      "reading": "とみ"
+      "reading": "とみ",
+      "meaning": "bogactwo"
     },
     {
       "kanji": "豊富な",
-      "reading": "ホウフ"
+      "reading": "ホウフ",
+      "meaning": "obfity"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "富士山",
       "reading": "フジサン",
-      "reference": 754
+      "reference": 754,
+      "meaning": "Góra Fuji"
     }
   ],
   "additionalWords": []

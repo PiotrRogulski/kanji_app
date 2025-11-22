@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "興味",
-      "reading": "キョウミ"
+      "reading": "キョウミ",
+      "meaning": "zainteresowanie"
     },
     {
       "kanji": "復興",
-      "reading": "フッコウ"
+      "reading": "フッコウ",
+      "meaning": "odbudowa"
     }
   ],
   "wordsRequiredLater": [],

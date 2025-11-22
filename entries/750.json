@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "揚げる",
-      "reading": "あげる"
+      "reading": "あげる",
+      "meaning": "smażyć w głębokim tłuszczu"
     },
     {
       "kanji": "揚げ物",
-      "reading": "あげもの"
+      "reading": "あげもの",
+      "meaning": "potrawa smażona"
     }
   ],
   "wordsRequiredLater": [],

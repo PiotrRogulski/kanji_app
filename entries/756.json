@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "（お）互いに",
-      "reading": "たがいに"
+      "reading": "たがいに",
+      "meaning": "wzajemnie"
     },
     {
       "kanji": "相互",
-      "reading": "ソウゴ"
+      "reading": "ソウゴ",
+      "meaning": "wzajemny"
     }
   ],
   "wordsRequiredLater": [],

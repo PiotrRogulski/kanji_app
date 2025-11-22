@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "腐る",
-      "reading": "くさる"
+      "reading": "くさる",
+      "meaning": "psuć się"
     },
     {
       "kanji": "豆腐",
-      "reading": "トウフ"
+      "reading": "トウフ",
+      "meaning": "tofu"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "腐敗",
       "reading": "フハイ",
-      "reference": 908
+      "reference": 908,
+      "meaning": "rozkład"
     }
   ],
   "additionalWords": []

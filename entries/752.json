@@ -7,34 +7,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "観光",
-      "reading": "カンコウ"
+      "reading": "カンコウ",
+      "meaning": "zwiedzanie"
     },
     {
       "kanji": "観客",
-      "reading": "カンキャク"
+      "reading": "カンキャク",
+      "meaning": "widownia"
     },
     {
       "kanji": "客観的",
-      "reading": "キャッカンテキ"
+      "reading": "キャッカンテキ",
+      "meaning": "obiektywny"
     },
     {
       "kanji": "観察",
-      "reading": "カンサツ"
+      "reading": "カンサツ",
+      "meaning": "obserwacja"
     },
     {
       "kanji": "観念",
-      "reading": "カンネン"
+      "reading": "カンネン",
+      "meaning": "idea"
     },
     {
       "kanji": "主観的",
-      "reading": "シュカンテキ"
+      "reading": "シュカンテキ",
+      "meaning": "subiektywny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "観測",
       "reading": "カンソク",
-      "reference": 836
+      "reference": 836,
+      "meaning": "pomiar"
     }
   ],
   "additionalWords": []
