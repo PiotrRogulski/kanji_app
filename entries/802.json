@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "潜る",
-      "reading": "もぐる"
+      "reading": "もぐる",
+      "meaning": "nurkować"
     },
     {
       "kanji": "潜水",
-      "reading": "センスイ"
+      "reading": "センスイ",
+      "meaning": "nurkowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "潜り込む",
       "reading": "もぐりこむ",
-      "reference": 820
+      "reference": 820,
+      "meaning": "wkraść się"
     }
   ],
   "additionalWords": []

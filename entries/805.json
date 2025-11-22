@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "壁",
-      "reading": "かべ"
+      "reading": "かべ",
+      "meaning": "ściana"
     },
     {
       "kanji": "壁画",
-      "reading": "ヘキガ"
+      "reading": "ヘキガ",
+      "meaning": "fresk"
     }
   ],
   "wordsRequiredLater": [],

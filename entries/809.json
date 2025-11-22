@@ -9,31 +9,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "離れる",
-      "reading": "はなれる"
+      "reading": "はなれる",
+      "meaning": "oddalać się"
     },
     {
       "kanji": "離す",
-      "reading": "はなす"
+      "reading": "はなす",
+      "meaning": "oddzielać"
     },
     {
       "kanji": "分離",
-      "reading": "ブンリ"
+      "reading": "ブンリ",
+      "meaning": "separacja"
     },
     {
       "kanji": "離婚",
-      "reading": "リコン"
+      "reading": "リコン",
+      "meaning": "rozwód"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "距離",
       "reading": "キョリ",
-      "reference": 821
+      "reference": 821,
+      "meaning": "dystans"
     },
     {
       "kanji": "隔離",
       "reading": "カクリ",
-      "reference": 931
+      "reference": 931,
+      "meaning": "izolacja"
     }
   ],
   "additionalWords": []

@@ -9,23 +9,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "囲む",
-      "reading": "かこむ"
+      "reading": "かこむ",
+      "meaning": "otaczać"
     },
     {
       "kanji": "周囲",
-      "reading": "シュウイ"
+      "reading": "シュウイ",
+      "meaning": "otoczenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "範囲",
       "reading": "ハンイ",
-      "reference": 842
+      "reference": 842,
+      "meaning": "zakres"
     },
     {
       "kanji": "雰囲気",
       "reading": "フンイキ",
-      "reference": 1504
+      "reference": 1504,
+      "meaning": "atmosfera"
     }
   ],
   "additionalWords": []

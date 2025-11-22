@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "球",
-      "reading": "たま"
+      "reading": "たま",
+      "meaning": "kula"
     },
     {
       "kanji": "地球",
-      "reading": "チキュウ"
+      "reading": "チキュウ",
+      "meaning": "Ziemia"
     },
     {
       "kanji": "野球",
-      "reading": "ヤキュウ"
+      "reading": "ヤキュウ",
+      "meaning": "baseball"
     },
     {
       "kanji": "電球",
-      "reading": "デンキュウ"
+      "reading": "デンキュウ",
+      "meaning": "żarówka"
     },
     {
-      "kanji": "卓球 タッキュウ",
-      "reading": null
+      "kanji": "卓球",
+      "reading": "タッキュウ",
+      "meaning": "tenis stołowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "眼球",
       "reading": "ガンキュウ",
-      "reference": 1499
+      "reference": 1499,
+      "meaning": "gałka oczna"
     }
   ],
   "additionalWords": []

@@ -8,27 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "込む",
-      "reading": "こむ"
+      "reading": "こむ",
+      "meaning": "być zatłoczonym"
     },
     {
       "kanji": "込める",
-      "reading": "こめる"
+      "reading": "こめる",
+      "meaning": "wkładać (uczucie)"
     },
     {
       "kanji": "見込み",
-      "reading": "みこみ"
+      "reading": "みこみ",
+      "meaning": "perspektywa"
     },
     {
       "kanji": "人込み",
-      "reading": "ひとごみ"
+      "reading": "ひとごみ",
+      "meaning": "tłum"
     },
     {
       "kanji": "申し込む",
-      "reading": "もうしこむ"
+      "reading": "もうしこむ",
+      "meaning": "zgłaszać się"
     },
     {
       "kanji": "潜り込む",
-      "reading": "もぐりこむ"
+      "reading": "もぐりこむ",
+      "meaning": "wkraść się"
     }
   ],
   "wordsRequiredLater": [],

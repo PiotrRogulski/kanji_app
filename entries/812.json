@@ -7,31 +7,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "圧力",
-      "reading": "アツリョク"
+      "reading": "アツリョク",
+      "meaning": "presja"
     },
     {
       "kanji": "気圧",
-      "reading": "キアツ"
+      "reading": "キアツ",
+      "meaning": "ciśnienie atmosferyczne"
     },
     {
       "kanji": "圧倒的",
-      "reading": "アットウテキ"
+      "reading": "アットウテキ",
+      "meaning": "przytłaczający"
     },
     {
       "kanji": "血圧",
-      "reading": "ケツアツ"
+      "reading": "ケツアツ",
+      "meaning": "ciśnienie krwi"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "圧迫",
       "reading": "アッパク",
-      "reference": 978
+      "reference": 978,
+      "meaning": "ucisk"
     },
     {
       "kanji": "弾圧",
       "reading": "ダンアツ",
-      "reference": 1290
+      "reference": 1290,
+      "meaning": "represje"
     }
   ],
   "additionalWords": []

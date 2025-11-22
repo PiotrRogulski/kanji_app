@@ -11,11 +11,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "覆う",
-      "reading": "おおう"
+      "reading": "おおう",
+      "meaning": "przykrywać"
     },
     {
       "kanji": "転覆",
-      "reading": "テンプク"
+      "reading": "テンプク",
+      "meaning": "przewrócić się"
     }
   ],
   "wordsRequiredLater": [],

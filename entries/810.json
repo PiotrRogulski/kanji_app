@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "零下",
-      "reading": "レイカ"
+      "reading": "レイカ",
+      "meaning": "poniżej zera"
     },
     {
       "kanji": "零点",
-      "reading": "レイテン"
+      "reading": "レイテン",
+      "meaning": "zero punktów"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "快い",
-      "reading": "こころよい"
+      "reading": "こころよい",
+      "meaning": "przyjemny"
     },
     {
       "kanji": "快適な",
-      "reading": "カイテキ"
+      "reading": "カイテキ",
+      "meaning": "wygodny"
     },
     {
       "kanji": "明快な",
-      "reading": "メイカイ"
+      "reading": "メイカイ",
+      "meaning": "jasny"
     },
     {
       "kanji": "快速列車",
-      "reading": "カイソクレッシャ"
+      "reading": "カイソクレッシャ",
+      "meaning": "szybki pociąg"
     },
     {
       "kanji": "快復",
-      "reading": "カイフク"
+      "reading": "カイフク",
+      "meaning": "powrót do zdrowia"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "容器",
-      "reading": "ヨウキ"
+      "reading": "ヨウキ",
+      "meaning": "pojemnik"
     },
     {
       "kanji": "内容",
-      "reading": "ナイヨウ"
+      "reading": "ナイヨウ",
+      "meaning": "treść"
     },
     {
       "kanji": "容易な",
-      "reading": "ヨウイ"
+      "reading": "ヨウイ",
+      "meaning": "łatwy"
     },
     {
       "kanji": "美容",
-      "reading": "ビヨウ"
+      "reading": "ビヨウ",
+      "meaning": "kosmetyka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "寛容な",
       "reading": "カンヨウ",
-      "reference": 1485
+      "reference": 1485,
+      "meaning": "tolerancyjny"
     }
   ],
   "additionalWords": []

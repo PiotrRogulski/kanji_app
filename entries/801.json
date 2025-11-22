@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "目標",
-      "reading": "モクヒョウ"
+      "reading": "モクヒョウ",
+      "meaning": "cel"
     },
     {
       "kanji": "標準",
-      "reading": "ヒョウジュン"
+      "reading": "ヒョウジュン",
+      "meaning": "standard"
     },
     {
       "kanji": "標本",
-      "reading": "ヒョウホン"
+      "reading": "ヒョウホン",
+      "meaning": "okaz"
     },
     {
       "kanji": "標高",
-      "reading": "ヒョウコウ"
+      "reading": "ヒョウコウ",
+      "meaning": "wysokość nad poziomem morza"
     }
   ],
   "wordsRequiredLater": [],

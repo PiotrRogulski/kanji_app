@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "居る",
-      "reading": "いる"
+      "reading": "いる",
+      "meaning": "być"
     },
     {
       "kanji": "居間",
-      "reading": "いま"
+      "reading": "いま",
+      "meaning": "pokój dzienny"
     },
     {
       "kanji": "鳥居",
-      "reading": "とりい"
+      "reading": "とりい",
+      "meaning": "brama torii"
     },
     {
       "kanji": "居住",
-      "reading": "キョジュウ"
+      "reading": "キョジュウ",
+      "meaning": "zamieszkanie"
     },
     {
       "kanji": "隠居",
-      "reading": "インキョ"
+      "reading": "インキョ",
+      "meaning": "emerytura"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "芝居",
       "reading": "しばい",
-      "reference": 1353
+      "reference": 1353,
+      "meaning": "sztuka teatralna"
     }
   ],
   "additionalWords": []

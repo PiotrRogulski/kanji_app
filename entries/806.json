@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "崩す",
-      "reading": "くずす"
+      "reading": "くずす",
+      "meaning": "burzyć"
     },
     {
       "kanji": "崩れる",
-      "reading": "くずれる"
+      "reading": "くずれる",
+      "meaning": "zawalić się"
     },
     {
       "kanji": "雪崩",
-      "reading": "なだれ"
+      "reading": "なだれ",
+      "meaning": "lawina"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "崩壊",
       "reading": "ホウカイ",
-      "reference": 1237
+      "reference": 1237,
+      "meaning": "rozpad"
     }
   ],
   "additionalWords": []

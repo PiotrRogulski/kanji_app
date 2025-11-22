@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "移る",
-      "reading": "うつる"
+      "reading": "うつる",
+      "meaning": "przenosić się"
     },
     {
       "kanji": "移す",
-      "reading": "うつす"
+      "reading": "うつす",
+      "meaning": "przenosić"
     },
     {
       "kanji": "移転",
-      "reading": "イテン"
+      "reading": "イテン",
+      "meaning": "przeprowadzka"
     },
     {
       "kanji": "移動",
-      "reading": "イドウ"
+      "reading": "イドウ",
+      "meaning": "ruch"
     },
     {
       "kanji": "移民",
-      "reading": "イミン"
+      "reading": "イミン",
+      "meaning": "imigrant"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "太陽",
-      "reading": "タイヨウ"
+      "reading": "タイヨウ",
+      "meaning": "słońce"
     },
     {
       "kanji": "陽気",
-      "reading": "ヨウキ"
+      "reading": "ヨウキ",
+      "meaning": "wesoły"
     }
   ],
   "wordsRequiredLater": [],

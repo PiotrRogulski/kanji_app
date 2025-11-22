@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "隠す",
-      "reading": "かくす"
+      "reading": "かくす",
+      "meaning": "ukrywać (coś)"
     },
     {
       "kanji": "隠れる",
-      "reading": "かくれる"
+      "reading": "かくれる",
+      "meaning": "ukrywać się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "隠居",
       "reading": "インキョ",
-      "reference": 816
+      "reference": 816,
+      "meaning": "emerytura"
     }
   ],
   "additionalWords": []
