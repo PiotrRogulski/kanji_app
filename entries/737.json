@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "凍る",
-      "reading": "こおる"
+      "reading": "こおる",
+      "meaning": "zamarzać"
     },
     {
       "kanji": "凍える",
-      "reading": "こごえる"
+      "reading": "こごえる",
+      "meaning": "być przemarzniętym"
     },
     {
       "kanji": "冷凍",
-      "reading": "レイトウ"
+      "reading": "レイトウ",
+      "meaning": "mrożenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "冷凍庫",
       "reading": "レイトウコ",
-      "reference": 854
+      "reference": 854,
+      "meaning": "zamrażarka"
     }
   ],
   "additionalWords": []

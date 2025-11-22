@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "豚",
-      "reading": "ぶた"
+      "reading": "ぶた",
+      "meaning": "świnia"
     },
     {
       "kanji": "豚カツ",
-      "reading": "トンカツ"
+      "reading": "トンカツ",
+      "meaning": "kotlet schabowy"
     },
     {
       "kanji": "豚肉",
-      "reading": "ぶたニク"
+      "reading": "ぶたニク",
+      "meaning": "wieprzowina"
     }
   ],
   "wordsRequiredLater": [],

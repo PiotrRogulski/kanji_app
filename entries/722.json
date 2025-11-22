@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "汁",
-      "reading": "しる"
+      "reading": "しる",
+      "meaning": "zupa"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "味噌汁",
-      "reading": "みそしる"
+      "reading": "みそしる",
+      "meaning": "zupa miso"
     }
   ]
 }

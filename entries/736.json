@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "一般",
-      "reading": "イッパン"
+      "reading": "イッパン",
+      "meaning": "ogólny"
     },
     {
       "kanji": "全般",
-      "reading": "ゼンパン"
+      "reading": "ゼンパン",
+      "meaning": "całość"
     }
   ],
   "wordsRequiredLater": [],

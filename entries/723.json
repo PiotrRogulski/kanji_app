@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "諸国",
-      "reading": "ショコク"
+      "reading": "ショコク",
+      "meaning": "różne kraje"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "諸君",
       "reading": "ショクン",
-      "reference": 887
+      "reference": 887,
+      "meaning": "panowie"
     }
   ],
   "additionalWords": []

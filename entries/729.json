@@ -7,19 +7,22 @@
   "wordsRequiredNow": [
     {
       "kanji": "繁盛",
-      "reading": "ハンジョウ"
+      "reading": "ハンジョウ",
+      "meaning": "prosperowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "繁栄",
       "reading": "ハンエイ",
-      "reference": 1082
+      "reference": 1082,
+      "meaning": "dobrobyt"
     },
     {
       "kanji": "繁殖",
       "reading": "ハンショク",
-      "reference": 1477
+      "reference": 1477,
+      "meaning": "rozmnażanie"
     }
   ],
   "additionalWords": []

@@ -11,31 +11,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "盛る",
-      "reading": "さかる"
+      "reading": "さかる",
+      "meaning": "kwitnąć"
     },
     {
       "kanji": "盛ん",
-      "reading": "さかん"
+      "reading": "さかん",
+      "meaning": "prosperujący"
     },
     {
       "kanji": "盛大な",
-      "reading": "セイダイ"
+      "reading": "セイダイ",
+      "meaning": "wspaniały"
     },
     {
       "kanji": "大盛り",
-      "reading": "おおもり"
+      "reading": "おおもり",
+      "meaning": "duża porcja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "繁盛",
       "reading": "ハンジョウ",
-      "reference": 729
+      "reference": 729,
+      "meaning": "prosperowanie"
     },
     {
       "kanji": "隆盛",
       "reading": "リュウセイ",
-      "reference": 1266
+      "reference": 1266,
+      "meaning": "rozkwit"
     }
   ],
   "additionalWords": []

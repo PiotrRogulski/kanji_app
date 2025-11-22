@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "際",
-      "reading": "サイ"
+      "reading": "サイ",
+      "meaning": "w czasie (gdy)"
     },
     {
       "kanji": "国際",
-      "reading": "コクサイ"
+      "reading": "コクサイ",
+      "meaning": "międzynarodowy"
     },
     {
       "kanji": "交際",
-      "reading": "コウサイ"
+      "reading": "コウサイ",
+      "meaning": "znajomość"
     },
     {
       "kanji": "実際",
-      "reading": "ジッサイ"
+      "reading": "ジッサイ",
+      "meaning": "rzeczywistość"
     }
   ],
   "wordsRequiredLater": [],

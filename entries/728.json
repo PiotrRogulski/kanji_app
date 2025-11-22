@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "鮮やかな",
-      "reading": "あざやかな"
+      "reading": "あざやかな",
+      "meaning": "żywy (kolor)"
     },
     {
       "kanji": "朝鮮",
-      "reading": "チョウセン"
+      "reading": "チョウセン",
+      "meaning": "Korea"
     },
     {
       "kanji": "新鮮な",
-      "reading": "シンセン"
+      "reading": "シンセン",
+      "meaning": "świeży"
     }
   ],
   "wordsRequiredLater": [],

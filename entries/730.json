@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "即位",
-      "reading": "ソクイ"
+      "reading": "ソクイ",
+      "meaning": "intronizacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "即座に",
       "reading": "ソクザ",
-      "reference": 986
+      "reference": 986,
+      "meaning": "natychmiast"
     }
   ],
   "additionalWords": []

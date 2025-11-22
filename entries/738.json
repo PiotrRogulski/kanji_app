@@ -7,27 +7,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "属する",
-      "reading": "ゾクする"
+      "reading": "ゾクする",
+      "meaning": "należeć do"
     },
     {
       "kanji": "所属",
-      "reading": "ショゾク"
+      "reading": "ショゾク",
+      "meaning": "przynależność"
     },
     {
       "kanji": "金属",
-      "reading": "キンゾク"
+      "reading": "キンゾク",
+      "meaning": "metal"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "付属",
       "reading": "フゾク",
-      "reference": 1140
+      "reference": 1140,
+      "meaning": "załączony"
     },
     {
       "kanji": "従属",
       "reading": "ジュウゾク",
-      "reference": 1153
+      "reference": 1153,
+      "meaning": "podporządkowanie"
     }
   ],
   "additionalWords": []

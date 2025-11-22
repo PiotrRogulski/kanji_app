@@ -8,20 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "倉",
-      "reading": "くら"
+      "reading": "くら",
+      "meaning": "magazyn"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "倉庫",
       "reading": "ソウコ",
-      "reference": 854
+      "reference": 854,
+      "meaning": "magazyn"
     }
   ],
   "additionalWords": [
     {
       "kanji": "鎌倉時代",
-      "reading": "かまくらジダイ"
+      "reading": "かまくらジダイ",
+      "meaning": "okres Kamakura"
     }
   ]
 }

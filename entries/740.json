@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "糖分",
-      "reading": "トウブン"
+      "reading": "トウブン",
+      "meaning": "zawartość cukru"
     },
     {
       "kanji": "砂糖",
-      "reading": "サトウ"
+      "reading": "サトウ",
+      "meaning": "cukier"
     }
   ],
   "wordsRequiredLater": [],

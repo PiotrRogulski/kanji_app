@@ -9,27 +9,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "越す",
-      "reading": "こす"
+      "reading": "こす",
+      "meaning": "przeprowadzać się"
     },
     {
       "kanji": "越える",
-      "reading": "こえる"
+      "reading": "こえる",
+      "meaning": "przekraczać (góry, granicę)"
     },
     {
       "kanji": "乗り越し",
-      "reading": "のりこし"
+      "reading": "のりこし",
+      "meaning": "przejechanie stacji"
     },
     {
       "kanji": "引っ越す",
-      "reading": "ひっこす"
+      "reading": "ひっこす",
+      "meaning": "przeprowadzać się"
     },
     {
       "kanji": "引っ越し",
-      "reading": "ひっこし"
+      "reading": "ひっこし",
+      "meaning": "przeprowadzka"
     },
     {
       "kanji": "追い越す",
-      "reading": "おいこす"
+      "reading": "おいこす",
+      "meaning": "wyprzedzać"
     }
   ],
   "wordsRequiredLater": [],

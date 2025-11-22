@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "食卓",
-      "reading": "ショクタク"
+      "reading": "ショクタク",
+      "meaning": "stół jadalny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "卓球",
       "reading": "タッキュウ",
-      "reference": 818
+      "reference": 818,
+      "meaning": "tenis stołowy"
     }
   ],
   "additionalWords": []

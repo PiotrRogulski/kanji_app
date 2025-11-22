@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "酸っぱい",
-      "reading": "すっぱい"
+      "reading": "すっぱい",
+      "meaning": "kwaśny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "酸素",
       "reading": "サンソ",
-      "reference": 787
+      "reference": 787,
+      "meaning": "tlen"
     }
   ],
   "additionalWords": []

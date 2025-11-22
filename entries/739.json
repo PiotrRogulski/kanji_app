@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "湯",
-      "reading": "ゆ"
+      "reading": "ゆ",
+      "meaning": "gorąca woda"
     },
     {
       "kanji": "茶の湯",
-      "reading": "ちゃのゆ"
+      "reading": "ちゃのゆ",
+      "meaning": "ceremonia herbaciana"
     },
     {
       "kanji": "熱湯",
-      "reading": "ネットウ"
+      "reading": "ネットウ",
+      "meaning": "wrzątek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "銭湯",
       "reading": "セントウ",
-      "reference": 1318
+      "reference": 1318,
+      "meaning": "łaźnia publiczna"
     }
   ],
   "additionalWords": []

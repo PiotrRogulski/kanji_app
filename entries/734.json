@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "養う",
-      "reading": "やしなう"
+      "reading": "やしなう",
+      "meaning": "utrzymywać (rodzinę)"
     },
     {
       "kanji": "養育",
-      "reading": "ヨウイク"
+      "reading": "ヨウイク",
+      "meaning": "wychowanie"
     },
     {
       "kanji": "養子",
-      "reading": "ヨウシ"
+      "reading": "ヨウシ",
+      "meaning": "adoptowane dziecko"
     },
     {
       "kanji": "休養",
-      "reading": "キュウヨウ"
+      "reading": "キュウヨウ",
+      "meaning": "odpoczynek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "栄養",
       "reading": "エイヨウ",
-      "reference": 1082
+      "reference": 1082,
+      "meaning": "odżywianie"
     },
     {
       "kanji": "滋養",
       "reading": "ジヨウ",
-      "reference": 1405
+      "reference": 1405,
+      "meaning": "pożywność"
     }
   ],
   "additionalWords": []
