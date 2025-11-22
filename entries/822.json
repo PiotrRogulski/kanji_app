@@ -10,27 +10,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "煙",
-      "reading": "けむり"
+      "reading": "けむり",
+      "meaning": "dym"
     },
     {
       "kanji": "煙い",
-      "reading": "けむい"
+      "reading": "けむい",
+      "meaning": "zadymiony"
     },
     {
       "kanji": "煙突",
-      "reading": "エントツ"
+      "reading": "エントツ",
+      "meaning": "komin"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "喫煙",
       "reading": "キツエン",
-      "reference": 823
+      "reference": 823,
+      "meaning": "palenie (tytoniu)"
     },
     {
       "kanji": "禁煙",
       "reading": "キンエン",
-      "reference": 1045
+      "reference": 1045,
+      "meaning": "zakaz palenia"
     }
   ],
   "additionalWords": []

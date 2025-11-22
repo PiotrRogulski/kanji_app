@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "届ける",
-      "reading": "とどける"
+      "reading": "とどける",
+      "meaning": "dostarczać"
     },
     {
       "kanji": "届く",
-      "reading": "とどく"
+      "reading": "とどく",
+      "meaning": "docierać"
     },
     {
       "kanji": "届け先",
-      "reading": "とどけさき"
+      "reading": "とどけさき",
+      "meaning": "adresat"
     }
   ],
   "wordsRequiredLater": [],

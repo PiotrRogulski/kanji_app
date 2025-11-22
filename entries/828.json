@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "詳しい",
-      "reading": "くわしい"
+      "reading": "くわしい",
+      "meaning": "szczegółowy"
     },
     {
       "kanji": "詳細",
-      "reading": "ショウサイ"
+      "reading": "ショウサイ",
+      "meaning": "szczegóły"
     }
   ],
   "wordsRequiredLater": [],

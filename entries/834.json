@@ -9,44 +9,53 @@
   "wordsRequiredNow": [
     {
       "kanji": "断る",
-      "reading": "ことわる"
+      "reading": "ことわる",
+      "meaning": "odmówić"
     },
     {
       "kanji": "断定",
-      "reading": "ダンテイ"
+      "reading": "ダンテイ",
+      "meaning": "wniosek"
     },
     {
       "kanji": "決断",
-      "reading": "ケツダン"
+      "reading": "ケツダン",
+      "meaning": "decyzja"
     },
     {
       "kanji": "油断",
-      "reading": "ユダン"
+      "reading": "ユダン",
+      "meaning": "nieuwaga"
     },
     {
       "kanji": "横断",
-      "reading": "オウダン"
+      "reading": "オウダン",
+      "meaning": "przekraczanie (np. ulicy)"
     },
     {
       "kanji": "横断歩道",
-      "reading": "オウダンホドウ"
+      "reading": "オウダンホドウ",
+      "meaning": "przejście dla pieszych"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "判断",
       "reading": "ハンダン",
-      "reference": 980
+      "reference": 980,
+      "meaning": "osąd"
     },
     {
       "kanji": "断絶",
       "reading": "ダンゼツ",
-      "reference": 990
+      "reference": 990,
+      "meaning": "zerwanie"
     },
     {
       "kanji": "診断",
       "reading": "シンダン",
-      "reference": 1103
+      "reference": 1103,
+      "meaning": "diagnoza"
     }
   ],
   "additionalWords": []

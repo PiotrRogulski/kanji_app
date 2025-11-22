@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "測る",
-      "reading": "はかる"
+      "reading": "はかる",
+      "meaning": "mierzyć"
     },
     {
       "kanji": "予測",
-      "reading": "ヨソク"
+      "reading": "ヨソク",
+      "meaning": "przewidywanie"
     },
     {
       "kanji": "測定",
-      "reading": "ソクテイ"
+      "reading": "ソクテイ",
+      "meaning": "pomiar"
     },
     {
       "kanji": "観測",
-      "reading": "カンソク"
+      "reading": "カンソク",
+      "meaning": "obserwacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "推測",
       "reading": "スイソク",
-      "reference": 1023
+      "reference": 1023,
+      "meaning": "przypuszczenie"
     }
   ],
   "additionalWords": []

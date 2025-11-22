@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "沈む",
-      "reading": "しずむ"
+      "reading": "しずむ",
+      "meaning": "tonąć"
     },
     {
       "kanji": "沈める",
-      "reading": "しずめる"
+      "reading": "しずめる",
+      "meaning": "zatapiać"
     },
     {
       "kanji": "沈黙",
-      "reading": "チンモク"
+      "reading": "チンモク",
+      "meaning": "cisza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "沈没",
       "reading": "チンボツ",
-      "reference": 1465
+      "reference": 1465,
+      "meaning": "zatonięcie"
     }
   ],
   "additionalWords": []

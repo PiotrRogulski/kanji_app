@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "斜め",
-      "reading": "ななめ"
+      "reading": "ななめ",
+      "meaning": "ukośny"
     },
     {
       "kanji": "斜面",
-      "reading": "シャメン"
+      "reading": "シャメン",
+      "meaning": "zbocze"
     },
     {
       "kanji": "斜線",
-      "reading": "シャセン"
+      "reading": "シャセン",
+      "meaning": "ukośna linia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "傾斜",
       "reading": "ケイシャ",
-      "reference": 935
+      "reference": 935,
+      "meaning": "nachylenie"
     }
   ],
   "additionalWords": []

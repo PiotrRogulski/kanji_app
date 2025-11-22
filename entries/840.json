@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "維新",
-      "reading": "イシン"
+      "reading": "イシン",
+      "meaning": "restauracja (np. Meiji)"
     },
     {
       "kanji": "維持",
-      "reading": "イジ"
+      "reading": "イジ",
+      "meaning": "utrzymanie"
     }
   ],
   "wordsRequiredLater": [],

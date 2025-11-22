@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "吹く",
-      "reading": "ふく"
+      "reading": "ふく",
+      "meaning": "wiać"
     },
     {
       "kanji": "吹雪",
-      "reading": "ふぶき"
+      "reading": "ふぶき",
+      "meaning": "zamieć"
     }
   ],
   "wordsRequiredLater": [],

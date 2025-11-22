@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "模様",
-      "reading": "モヨウ"
+      "reading": "モヨウ",
+      "meaning": "wzór"
     },
     {
       "kanji": "規模",
-      "reading": "キボ"
+      "reading": "キボ",
+      "meaning": "skala"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "模型",
       "reading": "モケイ",
-      "reference": 936
+      "reference": 936,
+      "meaning": "model"
     }
   ],
   "additionalWords": []

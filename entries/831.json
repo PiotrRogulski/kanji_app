@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "整える",
-      "reading": "ととのえる"
+      "reading": "ととのえる",
+      "meaning": "uporządkować"
     },
     {
       "kanji": "整う",
-      "reading": "ととのう"
+      "reading": "ととのう",
+      "meaning": "być uporządkowanym"
     },
     {
       "kanji": "整理",
-      "reading": "セイリ"
+      "reading": "セイリ",
+      "meaning": "porządkowanie"
     },
     {
       "kanji": "整備",
-      "reading": "セイビ"
+      "reading": "セイビ",
+      "meaning": "konserwacja"
     },
     {
       "kanji": "調整",
-      "reading": "チョウセイ"
+      "reading": "チョウセイ",
+      "meaning": "regulacja"
     }
   ],
   "wordsRequiredLater": [],

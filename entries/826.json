@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "鼓",
-      "reading": "つづみ"
+      "reading": "つづみ",
+      "meaning": "bęben ręczny"
     },
     {
       "kanji": "太鼓",
-      "reading": "タイコ"
+      "reading": "タイコ",
+      "meaning": "bęben"
     }
   ],
   "wordsRequiredLater": [],

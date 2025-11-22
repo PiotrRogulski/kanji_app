@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "意識",
-      "reading": "イシキ"
+      "reading": "イシキ",
+      "meaning": "świadomość"
     },
     {
       "kanji": "知識",
-      "reading": "チシキ"
+      "reading": "チシキ",
+      "meaning": "wiedza"
     },
     {
       "kanji": "常識",
-      "reading": "ジョウシキ"
+      "reading": "ジョウシキ",
+      "meaning": "zdrowy rozsądek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "認識",
       "reading": "ニンシキ",
-      "reference": 906
+      "reference": 906,
+      "meaning": "rozpoznanie"
     }
   ],
   "additionalWords": []

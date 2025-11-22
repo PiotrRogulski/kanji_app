@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "奏でる",
-      "reading": "かなでる"
+      "reading": "かなでる",
+      "meaning": "grać (na instrumencie)"
     },
     {
       "kanji": "合奏",
-      "reading": "ガッソウ"
+      "reading": "ガッソウ",
+      "meaning": "koncert zespołowy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "演奏",
       "reading": "エンソウ",
-      "reference": 1035
+      "reference": 1035,
+      "meaning": "występ muzyczny"
     }
   ],
   "additionalWords": []

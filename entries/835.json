@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "高層ビル",
-      "reading": "コウソウ"
+      "reading": "コウソウ",
+      "meaning": "wieżowiec"
     },
     {
       "kanji": "一層",
-      "reading": "イッソウ"
+      "reading": "イッソウ",
+      "meaning": "jeszcze bardziej"
     },
     {
       "kanji": "階層",
-      "reading": "カイソウ"
+      "reading": "カイソウ",
+      "meaning": "hierarchia"
     }
   ],
   "wordsRequiredLater": [],

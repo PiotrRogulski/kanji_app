@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "喫茶店",
-      "reading": "キッサテン"
+      "reading": "キッサテン",
+      "meaning": "kawiarnia"
     },
     {
       "kanji": "喫煙",
-      "reading": "キツエン"
+      "reading": "キツエン",
+      "meaning": "palenie (tytoniu)"
     }
   ],
   "wordsRequiredLater": [],
