@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "翌年",
-      "reading": "ヨクネン"
+      "reading": "ヨクネン",
+      "meaning": "następny rok"
     },
     {
       "kanji": "翌月",
-      "reading": "ヨクゲツ"
+      "reading": "ヨクゲツ",
+      "meaning": "następny miesiąc"
     },
     {
       "kanji": "翌日",
-      "reading": "ヨクジツ"
+      "reading": "ヨクジツ",
+      "meaning": "następny dzień"
     },
     {
       "kanji": "翌々日",
-      "reading": "ヨクヨクジツ"
+      "reading": "ヨクヨクジツ",
+      "meaning": "dwa dni później"
     }
   ],
   "wordsRequiredLater": [],

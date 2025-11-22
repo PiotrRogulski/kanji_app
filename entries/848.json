@@ -8,19 +8,22 @@
   "wordsRequiredNow": [
     {
       "kanji": "鏡",
-      "reading": "かがみ"
+      "reading": "かがみ",
+      "meaning": "lustro"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "望遠鏡",
       "reading": "ボウエンキョウ",
-      "reference": 850
+      "reference": 850,
+      "meaning": "teleskop"
     },
     {
       "kanji": "眼鏡",
       "reading": "めがね",
-      "reference": 1499
+      "reference": 1499,
+      "meaning": "okulary"
     }
   ],
   "additionalWords": []

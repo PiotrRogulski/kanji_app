@@ -8,23 +8,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "精神",
-      "reading": "セイシン"
+      "reading": "セイシン",
+      "meaning": "duch"
     },
     {
       "kanji": "精神病",
-      "reading": "セイシンビョウ"
+      "reading": "セイシンビョウ",
+      "meaning": "choroba psychiczna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "精励",
       "reading": "セイレイ",
-      "reference": 930
+      "reference": 930,
+      "meaning": "pilność"
     },
     {
       "kanji": "精一杯",
       "reading": "セイイッパイ",
-      "reference": 1384
+      "reference": 1384,
+      "meaning": "ze wszystkich sił"
     }
   ],
   "additionalWords": []

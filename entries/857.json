@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "折る",
-      "reading": "おる"
+      "reading": "おる",
+      "meaning": "łamać"
     },
     {
       "kanji": "折れる",
-      "reading": "おれる"
+      "reading": "おれる",
+      "meaning": "złamać się"
     },
     {
       "kanji": "骨折",
-      "reading": "コッセツ"
+      "reading": "コッセツ",
+      "meaning": "złamanie kości"
     },
     {
       "kanji": "折り紙",
-      "reading": "おりがみ"
+      "reading": "おりがみ",
+      "meaning": "origami"
     }
   ],
   "wordsRequiredLater": [],

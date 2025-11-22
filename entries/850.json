@@ -9,35 +9,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "望む",
-      "reading": "のぞむ"
+      "reading": "のぞむ",
+      "meaning": "życzyć sobie"
     },
     {
       "kanji": "望み",
-      "reading": "のぞみ"
+      "reading": "のぞみ",
+      "meaning": "życzenie"
     },
     {
       "kanji": "欲望",
-      "reading": "ヨクボウ"
+      "reading": "ヨクボウ",
+      "meaning": "pożądanie"
     },
     {
       "kanji": "望遠鏡",
-      "reading": "ボウエンキョウ"
+      "reading": "ボウエンキョウ",
+      "meaning": "teleskop"
     },
     {
       "kanji": "失望",
-      "reading": "シツボウ"
+      "reading": "シツボウ",
+      "meaning": "rozczarowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "絶望",
       "reading": "ゼツボウ",
-      "reference": 990
+      "reference": 990,
+      "meaning": "rozpacz"
     },
     {
       "kanji": "希望",
       "reading": "キボウ",
-      "reference": 1148
+      "reference": 1148,
+      "meaning": "nadzieja"
     }
   ],
   "additionalWords": []

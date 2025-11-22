@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "挙げる",
-      "reading": "あげる"
+      "reading": "あげる",
+      "meaning": "podnieść (rękę)"
     },
     {
       "kanji": "選挙",
-      "reading": "センキョ"
+      "reading": "センキョ",
+      "meaning": "wybory"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "窓",
-      "reading": "まど"
+      "reading": "まど",
+      "meaning": "okno"
     },
     {
       "kanji": "窓口",
-      "reading": "まどぐち"
+      "reading": "まどぐち",
+      "meaning": "okienko (w urzędzie)"
     },
     {
       "kanji": "同窓",
-      "reading": "ドウソウ"
+      "reading": "ドウソウ",
+      "meaning": "absolwent"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "窓枠",
       "reading": "まどわく",
-      "reference": 983
+      "reference": 983,
+      "meaning": "rama okienna"
     },
     {
       "kanji": "陳列窓",
       "reading": "チンレツまど",
-      "reference": 1440
+      "reference": 1440,
+      "meaning": "witryna sklepowa"
     }
   ],
   "additionalWords": []

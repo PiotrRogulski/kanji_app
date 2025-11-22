@@ -8,35 +8,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "車庫",
-      "reading": "シャコ"
+      "reading": "シャコ",
+      "meaning": "garaż"
     },
     {
       "kanji": "文庫本",
-      "reading": "ブンコボン"
+      "reading": "ブンコボン",
+      "meaning": "wydanie kieszonkowe"
     },
     {
       "kanji": "金庫",
-      "reading": "キンコ"
+      "reading": "キンコ",
+      "meaning": "sejf"
     },
     {
       "kanji": "倉庫",
-      "reading": "ソウコ"
+      "reading": "ソウコ",
+      "meaning": "magazyn"
     },
     {
       "kanji": "冷凍庫",
-      "reading": "レイトウコ"
+      "reading": "レイトウコ",
+      "meaning": "zamrażarka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "冷蔵庫",
       "reading": "レイゾウコ",
-      "reference": 861
+      "reference": 861,
+      "meaning": "lodówka"
     },
     {
       "kanji": "宝庫",
       "reading": "ホウコ",
-      "reference": 1320
+      "reference": 1320,
+      "meaning": "skarbiec"
     }
   ],
   "additionalWords": []

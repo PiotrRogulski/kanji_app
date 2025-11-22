@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "予報",
-      "reading": "ヨホウ"
+      "reading": "ヨホウ",
+      "meaning": "prognoza"
     },
     {
       "kanji": "天気予報",
-      "reading": "テンキヨホウ"
+      "reading": "テンキヨホウ",
+      "meaning": "prognoza pogody"
     },
     {
       "kanji": "通報",
-      "reading": "ツウホウ"
+      "reading": "ツウホウ",
+      "meaning": "zawiadomienie"
     },
     {
       "kanji": "情報",
-      "reading": "ジョウホウ"
+      "reading": "ジョウホウ",
+      "meaning": "informacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "報告",
       "reading": "ホウコク",
-      "reference": 880
+      "reference": 880,
+      "meaning": "raport"
     }
   ],
   "additionalWords": []

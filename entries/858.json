@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "衝突",
-      "reading": "ショウトツ"
+      "reading": "ショウトツ",
+      "meaning": "kolizja"
     },
     {
       "kanji": "衝撃",
-      "reading": "ショウゲキ"
+      "reading": "ショウゲキ",
+      "meaning": "wstrząs"
     }
   ],
   "wordsRequiredLater": [],

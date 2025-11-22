@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "蛍",
-      "reading": "ほたる"
+      "reading": "ほたる",
+      "meaning": "świetlik"
     },
     {
       "kanji": "蛍光灯",
-      "reading": "ケイコウトウ"
+      "reading": "ケイコウトウ",
+      "meaning": "lampa fluorescencyjna"
     }
   ],
   "wordsRequiredLater": [],

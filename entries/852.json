@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "穴",
-      "reading": "あな"
+      "reading": "あな",
+      "meaning": "dziura"
     },
     {
       "kanji": "落とし穴",
-      "reading": "おとしあな"
+      "reading": "おとしあな",
+      "meaning": "pułapka"
     }
   ],
   "wordsRequiredLater": [],

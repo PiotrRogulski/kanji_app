@@ -9,31 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "加える",
-      "reading": "くわえる"
+      "reading": "くわえる",
+      "meaning": "dodawać"
     },
     {
       "kanji": "加わる",
-      "reading": "くわわる"
+      "reading": "くわわる",
+      "meaning": "dołączyć"
     },
     {
       "kanji": "参加",
-      "reading": "サンカ"
+      "reading": "サンカ",
+      "meaning": "uczestnictwo"
     },
     {
       "kanji": "追加",
-      "reading": "ツイカ"
+      "reading": "ツイカ",
+      "meaning": "dodatek"
     },
     {
       "kanji": "加速",
-      "reading": "カソク"
+      "reading": "カソク",
+      "meaning": "przyspieszenie"
     },
     {
       "kanji": "増加",
-      "reading": "ゾウカ"
+      "reading": "ゾウカ",
+      "meaning": "wzrost"
     },
     {
       "kanji": "いい加減な",
-      "reading": "カゲン"
+      "reading": "カゲン",
+      "meaning": "nieodpowiedzialny"
     }
   ],
   "wordsRequiredLater": [],

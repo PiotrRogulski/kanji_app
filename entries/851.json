@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "撃つ",
-      "reading": "うつ"
+      "reading": "うつ",
+      "meaning": "strzelać"
     },
     {
       "kanji": "打撃",
-      "reading": "ダゲキ"
+      "reading": "ダゲキ",
+      "meaning": "cios"
     },
     {
       "kanji": "攻撃",
-      "reading": "コウゲキ"
+      "reading": "コウゲキ",
+      "meaning": "atak"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "衝撃",
       "reading": "ショウゲキ",
-      "reference": 858
+      "reference": 858,
+      "meaning": "wstrząs"
     },
     {
       "kanji": "襲撃",
       "reading": "シュウゲキ",
-      "reference": 1354
+      "reference": 1354,
+      "meaning": "atak (nagły)"
     }
   ],
   "additionalWords": []
