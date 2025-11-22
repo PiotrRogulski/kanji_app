@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "震える",
-      "reading": "ふるえる"
+      "reading": "ふるえる",
+      "meaning": "drżeć"
     },
     {
       "kanji": "震度",
-      "reading": "シンド"
+      "reading": "シンド",
+      "meaning": "stopień wstrząsu"
     },
     {
       "kanji": "地震",
-      "reading": "ジシン"
+      "reading": "ジシン",
+      "meaning": "trzęsienie ziemi"
     }
   ],
   "wordsRequiredLater": [],

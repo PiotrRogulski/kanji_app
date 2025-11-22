@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "倒れる",
-      "reading": "たおれる"
+      "reading": "たおれる",
+      "meaning": "upaść"
     },
     {
       "kanji": "倒す",
-      "reading": "たおす"
+      "reading": "たおす",
+      "meaning": "przewrócić"
     },
     {
       "kanji": "倒産",
-      "reading": "トウサン"
+      "reading": "トウサン",
+      "meaning": "bankructwo"
     },
     {
       "kanji": "面倒",
-      "reading": "メンドウ"
+      "reading": "メンドウ",
+      "meaning": "kłopot"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "圧倒的",
       "reading": "アットウテキ",
-      "reference": 812
+      "reference": 812,
+      "meaning": "przytłaczający"
     }
   ],
   "additionalWords": []

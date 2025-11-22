@@ -11,23 +11,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "逃げる",
-      "reading": "にげる"
+      "reading": "にげる",
+      "meaning": "uciekać"
     },
     {
       "kanji": "逃がす",
-      "reading": "にがす"
+      "reading": "にがす",
+      "meaning": "wypuścić"
     },
     {
       "kanji": "見逃す",
-      "reading": "みのがす"
+      "reading": "みのがす",
+      "meaning": "przeoczyć"
     },
     {
       "kanji": "逃亡",
-      "reading": "トウボウ"
+      "reading": "トウボウ",
+      "meaning": "ucieczka"
     },
     {
       "kanji": "逃避",
-      "reading": "トウヒ"
+      "reading": "トウヒ",
+      "meaning": "ucieczka"
     }
   ],
   "wordsRequiredLater": [],

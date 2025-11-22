@@ -7,31 +7,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "達する",
-      "reading": "タッする"
+      "reading": "タッする",
+      "meaning": "osiągnąć"
     },
     {
       "kanji": "達人",
-      "reading": "タツジン"
+      "reading": "タツジン",
+      "meaning": "mistrz"
     },
     {
       "kanji": "発達",
-      "reading": "ハッタツ"
+      "reading": "ハッタツ",
+      "meaning": "rozwój"
     },
     {
       "kanji": "友達",
-      "reading": "ともだち"
+      "reading": "ともだち",
+      "meaning": "przyjaciel"
     },
     {
       "kanji": "配達",
-      "reading": "ハイタツ"
+      "reading": "ハイタツ",
+      "meaning": "dostawa"
     },
     {
       "kanji": "達成",
-      "reading": "タッセイ"
+      "reading": "タッセイ",
+      "meaning": "osiągnięcie"
     },
     {
       "kanji": "上達",
-      "reading": "ジョウタツ"
+      "reading": "ジョウタツ",
+      "meaning": "postęp"
     }
   ],
   "wordsRequiredLater": [],

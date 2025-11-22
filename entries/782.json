@@ -8,31 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "支える",
-      "reading": "ささえる"
+      "reading": "ささえる",
+      "meaning": "wspierać"
     },
     {
       "kanji": "支払う",
-      "reading": "シはらう"
+      "reading": "シはらう",
+      "meaning": "płacić"
     },
     {
       "kanji": "支度",
-      "reading": "シタク"
+      "reading": "シタク",
+      "meaning": "przygotowania"
     },
     {
       "kanji": "支持",
-      "reading": "シジ"
+      "reading": "シジ",
+      "meaning": "poparcie"
     },
     {
       "kanji": "支配",
-      "reading": "シハイ"
+      "reading": "シハイ",
+      "meaning": "kontrola"
     },
     {
       "kanji": "支店",
-      "reading": "シテン"
+      "reading": "シテン",
+      "meaning": "oddział"
     },
     {
       "kanji": "支社",
-      "reading": "シシャ"
+      "reading": "シシャ",
+      "meaning": "oddział firmy"
     }
   ],
   "wordsRequiredLater": [],

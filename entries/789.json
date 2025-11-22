@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "造る",
-      "reading": "つくる"
+      "reading": "つくる",
+      "meaning": "tworzyć"
     },
     {
       "kanji": "造船",
-      "reading": "ゾウセン"
+      "reading": "ゾウセン",
+      "meaning": "budownictwo okrętowe"
     },
     {
       "kanji": "製造",
-      "reading": "セイゾウ"
+      "reading": "セイゾウ",
+      "meaning": "produkcja"
     },
     {
       "kanji": "木造",
-      "reading": "モクゾウ"
+      "reading": "モクゾウ",
+      "meaning": "drewniany"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "構造",
       "reading": "コウゾウ",
-      "reference": 969
+      "reference": 969,
+      "meaning": "struktura"
     },
     {
       "kanji": "創造",
       "reading": "ソウゾウ",
-      "reference": 1027
+      "reference": 1027,
+      "meaning": "tworzenie"
     }
   ],
   "additionalWords": []

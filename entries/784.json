@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "湿る",
-      "reading": "しめる"
+      "reading": "しめる",
+      "meaning": "być wilgotnym"
     },
     {
       "kanji": "湿気",
-      "reading": "シッケ／シッキ"
+      "reading": "シッケ／シッキ",
+      "meaning": "wilgoć"
     },
     {
       "kanji": "湿度",
-      "reading": "シツド"
+      "reading": "シツド",
+      "meaning": "wilgotność"
     }
   ],
   "wordsRequiredLater": [],

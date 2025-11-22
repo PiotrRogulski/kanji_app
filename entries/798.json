@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "焼く",
-      "reading": "やく"
+      "reading": "やく",
+      "meaning": "piec"
     },
     {
       "kanji": "焼ける",
-      "reading": "やける"
+      "reading": "やける",
+      "meaning": "piec się"
     },
     {
       "kanji": "お好み焼き",
-      "reading": "おこのみやき"
+      "reading": "おこのみやき",
+      "meaning": "okonomiyaki"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "燃焼",
       "reading": "ネンショウ",
-      "reference": 799
+      "reference": 799,
+      "meaning": "spalanie"
     }
   ],
   "additionalWords": []

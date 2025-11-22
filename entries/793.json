@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "泥",
-      "reading": "どろ"
+      "reading": "どろ",
+      "meaning": "błoto"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "泥棒",
       "reading": "どろボウ",
-      "reference": 866
+      "reference": 866,
+      "meaning": "złodziej"
     }
   ],
   "additionalWords": []

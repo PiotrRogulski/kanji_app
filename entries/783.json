@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "単純な",
-      "reading": "タンジュン"
+      "reading": "タンジュン",
+      "meaning": "prosty"
     },
     {
       "kanji": "純情な",
-      "reading": "ジュンジョウ"
+      "reading": "ジュンジョウ",
+      "meaning": "niewinny"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "柱",
-      "reading": "はしら"
+      "reading": "はしら",
+      "meaning": "filar"
     },
     {
       "kanji": "電柱",
-      "reading": "デンチュウ"
+      "reading": "デンチュウ",
+      "meaning": "słup elektryczny"
     }
   ],
   "wordsRequiredLater": [],

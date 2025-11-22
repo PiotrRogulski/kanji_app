@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "準備",
-      "reading": "ジュンビ"
+      "reading": "ジュンビ",
+      "meaning": "przygotowanie"
     },
     {
       "kanji": "基準",
-      "reading": "キジュン"
+      "reading": "キジュン",
+      "meaning": "standard"
     },
     {
       "kanji": "水準",
-      "reading": "スイジュン"
+      "reading": "スイジュン",
+      "meaning": "poziom"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "標準",
       "reading": "ヒョウジュン",
-      "reference": 801
+      "reference": 801,
+      "meaning": "standard"
     }
   ],
   "additionalWords": []

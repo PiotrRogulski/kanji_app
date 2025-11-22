@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "燃える",
-      "reading": "もえる"
+      "reading": "もえる",
+      "meaning": "płonąć"
     },
     {
       "kanji": "燃やす",
-      "reading": "もやす"
+      "reading": "もやす",
+      "meaning": "spalać"
     },
     {
       "kanji": "燃料",
-      "reading": "ネンリョウ"
+      "reading": "ネンリョウ",
+      "meaning": "paliwo"
     },
     {
       "kanji": "燃焼",
-      "reading": "ネンショウ"
+      "reading": "ネンショウ",
+      "meaning": "spalanie"
     }
   ],
   "wordsRequiredLater": [],

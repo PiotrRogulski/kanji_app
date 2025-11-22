@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "災い",
-      "reading": "わざわい"
+      "reading": "わざわい",
+      "meaning": "nieszczęście"
     },
     {
       "kanji": "火災",
-      "reading": "カサイ"
+      "reading": "カサイ",
+      "meaning": "pożar"
     },
     {
       "kanji": "災害",
-      "reading": "サイガイ"
+      "reading": "サイガイ",
+      "meaning": "klęska żywiołowa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "災難",
       "reading": "サイナン",
-      "reference": 903
+      "reference": 903,
+      "meaning": "nieszczęście"
     }
   ],
   "additionalWords": []

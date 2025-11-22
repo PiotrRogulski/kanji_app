@@ -7,28 +7,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "展開",
-      "reading": "テンカイ"
+      "reading": "テンカイ",
+      "meaning": "rozwój"
     },
     {
       "kanji": "発展",
-      "reading": "ハッテン"
+      "reading": "ハッテン",
+      "meaning": "rozwój"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "展示",
       "reading": "テンジ",
-      "reference": 940
+      "reference": 940,
+      "meaning": "wystawa"
     },
     {
       "kanji": "展覧",
       "reading": "テンラン",
-      "reference": 1443
+      "reference": 1443,
+      "meaning": "wystawa"
     },
     {
       "kanji": "展覧会",
       "reading": "テンランカイ",
-      "reference": 1443
+      "reference": 1443,
+      "meaning": "wystawa"
     }
   ],
   "additionalWords": []

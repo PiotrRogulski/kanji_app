@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "蒸す",
-      "reading": "むす"
+      "reading": "むす",
+      "meaning": "gotować na parze"
     },
     {
       "kanji": "蒸し暑い",
-      "reading": "むしあつい"
+      "reading": "むしあつい",
+      "meaning": "parny"
     },
     {
       "kanji": "水蒸気",
-      "reading": "スイジョウキ"
+      "reading": "スイジョウキ",
+      "meaning": "para wodna"
     },
     {
       "kanji": "蒸発",
-      "reading": "ジョウハツ"
+      "reading": "ジョウハツ",
+      "meaning": "parowanie"
     }
   ],
   "wordsRequiredLater": [],

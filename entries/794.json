@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "適度",
-      "reading": "テキド"
+      "reading": "テキド",
+      "meaning": "umiarkowany"
     },
     {
       "kanji": "適当な",
-      "reading": "テキトウ"
+      "reading": "テキトウ",
+      "meaning": "odpowiedni"
     },
     {
       "kanji": "適切な",
-      "reading": "テキセツ"
+      "reading": "テキセツ",
+      "meaning": "właściwy"
     },
     {
       "kanji": "適する",
-      "reading": "テキする"
+      "reading": "テキする",
+      "meaning": "pasować"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "快適な",
       "reading": "カイテキ",
-      "reference": 817
+      "reference": 817,
+      "meaning": "wygodny"
     }
   ],
   "additionalWords": []

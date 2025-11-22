@@ -10,26 +10,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "清い",
-      "reading": "きよい"
+      "reading": "きよい",
+      "meaning": "czysty"
     },
     {
       "kanji": "清算",
-      "reading": "セイサン"
+      "reading": "セイサン",
+      "meaning": "rozliczenie"
     },
     {
       "kanji": "清掃",
-      "reading": "セイソウ"
+      "reading": "セイソウ",
+      "meaning": "sprzątanie"
     },
     {
       "kanji": "清潔な",
-      "reading": "セイケツ"
+      "reading": "セイケツ",
+      "meaning": "higieniczny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "清浄",
       "reading": "セイジョウ",
-      "reference": 1061
+      "reference": 1061,
+      "meaning": "czystość"
     }
   ],
   "additionalWords": []

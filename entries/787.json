@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "素晴らしい",
-      "reading": "スばらしい"
+      "reading": "スばらしい",
+      "meaning": "wspaniały"
     },
     {
       "kanji": "素直な",
-      "reading": "スなおな"
+      "reading": "スなおな",
+      "meaning": "szczery"
     },
     {
       "kanji": "素材",
-      "reading": "ソザイ"
+      "reading": "ソザイ",
+      "meaning": "materiał"
     },
     {
       "kanji": "酸素",
-      "reading": "サンソ"
+      "reading": "サンソ",
+      "meaning": "tlen"
     }
   ],
   "wordsRequiredLater": [],

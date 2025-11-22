@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "築く",
-      "reading": "きずく"
+      "reading": "きずく",
+      "meaning": "budować"
     },
     {
       "kanji": "建築",
-      "reading": "ケンチク"
+      "reading": "ケンチク",
+      "meaning": "architektura"
     },
     {
       "kanji": "建築家",
-      "reading": "ケンチクカ"
+      "reading": "ケンチクカ",
+      "meaning": "architekt"
     }
   ],
   "wordsRequiredLater": [],
