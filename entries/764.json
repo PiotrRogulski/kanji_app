@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "削減",
-      "reading": "サクゲン"
+      "reading": "サクゲン",
+      "meaning": "redukcja"
     },
     {
       "kanji": "削除",
-      "reading": "サクジョ"
+      "reading": "サクジョ",
+      "meaning": "usunięcie"
     }
   ],
   "wordsRequiredLater": [],

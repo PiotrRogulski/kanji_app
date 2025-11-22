@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "振るう",
-      "reading": "ふるう"
+      "reading": "ふるう",
+      "meaning": "wymachiwać"
     },
     {
       "kanji": "振動",
-      "reading": "シンドウ"
+      "reading": "シンドウ",
+      "meaning": "wibracja"
     },
     {
       "kanji": "不振",
-      "reading": "フシン"
+      "reading": "フシン",
+      "meaning": "zastój"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "振り仮名",
       "reading": "ふりがな",
-      "reference": 928
+      "reference": 928,
+      "meaning": "furigana"
     }
   ],
   "additionalWords": []

@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "態度",
-      "reading": "タイド"
+      "reading": "タイド",
+      "meaning": "postawa"
     },
     {
       "kanji": "事態",
-      "reading": "ジタイ"
+      "reading": "ジタイ",
+      "meaning": "sytuacja"
     },
     {
       "kanji": "重態",
-      "reading": "ジュウタイ"
+      "reading": "ジュウタイ",
+      "meaning": "stan krytyczny"
     },
     {
       "kanji": "形態",
-      "reading": "ケイタイ"
+      "reading": "ケイタイ",
+      "meaning": "forma"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "状態",
       "reading": "ジョウタイ",
-      "reference": 939
+      "reference": 939,
+      "meaning": "stan"
     }
   ],
   "additionalWords": []

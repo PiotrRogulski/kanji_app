@@ -9,40 +9,48 @@
   "wordsRequiredNow": [
     {
       "kanji": "確か（に）",
-      "reading": "たしか"
+      "reading": "たしか",
+      "meaning": "na pewno"
     },
     {
       "kanji": "確かめる",
-      "reading": "たしかめる"
+      "reading": "たしかめる",
+      "meaning": "upewnić się"
     },
     {
       "kanji": "確実な",
-      "reading": "カクジツ"
+      "reading": "カクジツ",
+      "meaning": "pewny"
     },
     {
       "kanji": "正確な",
-      "reading": "セイカク"
+      "reading": "セイカク",
+      "meaning": "dokładny"
     },
     {
       "kanji": "明確な",
-      "reading": "メイカク"
+      "reading": "メイカク",
+      "meaning": "jasny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "確認",
       "reading": "カクニン",
-      "reference": 906
+      "reference": 906,
+      "meaning": "potwierdzenie"
     },
     {
       "kanji": "確保",
       "reading": "カクホ",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "zapewnienie"
     },
     {
       "kanji": "確率",
       "reading": "カクリツ",
-      "reference": 1128
+      "reference": 1128,
+      "meaning": "prawdopodobieństwo"
     }
   ],
   "additionalWords": []

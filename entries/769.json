@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "抱く",
-      "reading": "だく"
+      "reading": "だく",
+      "meaning": "obejmować"
     },
     {
       "kanji": "抱く",
-      "reading": "いだく"
+      "reading": "いだく",
+      "meaning": "żywić (uczucia)"
     }
   ],
   "wordsRequiredLater": [],

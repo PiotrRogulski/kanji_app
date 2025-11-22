@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "採る",
-      "reading": "とる"
+      "reading": "とる",
+      "meaning": "zbierać"
     },
     {
       "kanji": "採点",
-      "reading": "サイテン"
+      "reading": "サイテン",
+      "meaning": "ocenianie"
     },
     {
       "kanji": "採用",
-      "reading": "サイヨウ"
+      "reading": "サイヨウ",
+      "meaning": "zatrudnienie"
     }
   ],
   "wordsRequiredLater": [],

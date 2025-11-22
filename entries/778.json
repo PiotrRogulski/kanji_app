@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "骨",
-      "reading": "ほね"
+      "reading": "ほね",
+      "meaning": "kość"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "骨折",
       "reading": "コッセツ",
-      "reference": 857
+      "reference": 857,
+      "meaning": "złamanie kości"
     }
   ],
   "additionalWords": []

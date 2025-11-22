@@ -8,28 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "突く",
-      "reading": "つく"
+      "reading": "つく",
+      "meaning": "uderzać"
     },
     {
       "kanji": "突然",
-      "reading": "トツゼン"
+      "reading": "トツゼン",
+      "meaning": "nagle"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "煙突",
       "reading": "エントツ",
-      "reference": 822
+      "reference": 822,
+      "meaning": "komin"
     },
     {
       "kanji": "衝突",
       "reading": "ショウトツ",
-      "reference": 858
+      "reference": 858,
+      "meaning": "zderzenie"
     },
     {
       "kanji": "激突",
       "reading": "ゲキトツ",
-      "reference": 890
+      "reference": 890,
+      "meaning": "gwałtowne zderzenie"
     }
   ],
   "additionalWords": []

@@ -8,23 +8,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "黙る",
-      "reading": "だまる"
+      "reading": "だまる",
+      "meaning": "milczeć"
     },
     {
       "kanji": "黙礼",
-      "reading": "モクレイ"
+      "reading": "モクレイ",
+      "meaning": "niemy ukłon"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "沈黙",
       "reading": "チンモク",
-      "reference": 837
+      "reference": 837,
+      "meaning": "cisza"
     },
     {
       "kanji": "黙認",
       "reading": "モクニン",
-      "reference": 906
+      "reference": 906,
+      "meaning": "milcząca zgoda"
     }
   ],
   "additionalWords": []

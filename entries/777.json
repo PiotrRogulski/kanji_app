@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "厳しい",
-      "reading": "きびしい"
+      "reading": "きびしい",
+      "meaning": "surowy"
     },
     {
       "kanji": "厳重な",
-      "reading": "ゲンジュウ"
+      "reading": "ゲンジュウ",
+      "meaning": "ścisły"
     }
   ],
   "wordsRequiredLater": [],

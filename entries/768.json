@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "主婦",
-      "reading": "シュフ"
+      "reading": "シュフ",
+      "meaning": "gospodyni domowa"
     },
     {
       "kanji": "夫婦",
-      "reading": "フウフ"
+      "reading": "フウフ",
+      "meaning": "małżeństwo"
     },
     {
       "kanji": "婦人",
-      "reading": "フジン"
+      "reading": "フジン",
+      "meaning": "pani"
     }
   ],
   "wordsRequiredLater": [],

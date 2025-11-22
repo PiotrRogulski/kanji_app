@@ -12,11 +12,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "縮小",
-      "reading": "シュクショウ"
+      "reading": "シュクショウ",
+      "meaning": "redukcja"
     },
     {
       "kanji": "短縮",
-      "reading": "タンシュク"
+      "reading": "タンシュク",
+      "meaning": "skrócenie"
     }
   ],
   "wordsRequiredLater": [],

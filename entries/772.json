@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "地域",
-      "reading": "チイキ"
+      "reading": "チイキ",
+      "meaning": "region"
     },
     {
       "kanji": "区域",
-      "reading": "クイキ"
+      "reading": "クイキ",
+      "meaning": "strefa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "領域",
       "reading": "リョウイキ",
-      "reference": 1168
+      "reference": 1168,
+      "meaning": "terytorium"
     }
   ],
   "additionalWords": []

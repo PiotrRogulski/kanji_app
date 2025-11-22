@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "鉱物",
-      "reading": "コウブツ"
+      "reading": "コウブツ",
+      "meaning": "minerał"
     },
     {
       "kanji": "鉱業",
-      "reading": "コウギョウ"
+      "reading": "コウギョウ",
+      "meaning": "górnictwo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "炭鉱",
       "reading": "タンコウ",
-      "reference": 1155
+      "reference": 1155,
+      "meaning": "kopalnia węgla"
     }
   ],
   "additionalWords": []

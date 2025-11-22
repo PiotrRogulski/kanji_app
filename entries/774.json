@@ -9,27 +9,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "恐ろしい",
-      "reading": "おそろしい"
+      "reading": "おそろしい",
+      "meaning": "straszny"
     },
     {
       "kanji": "恐れる",
-      "reading": "おそれる"
+      "reading": "おそれる",
+      "meaning": "bać się"
     },
     {
       "kanji": "恐れ",
-      "reading": "おそれ"
+      "reading": "おそれ",
+      "meaning": "strach"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "恐怖",
       "reading": "キョウフ",
-      "reference": 1120
+      "reference": 1120,
+      "meaning": "strach"
     },
     {
       "kanji": "恐竜",
       "reading": "キョウリュウ",
-      "reference": 1430
+      "reference": 1430,
+      "meaning": "dinozaur"
     }
   ],
   "additionalWords": []

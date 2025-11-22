@@ -11,22 +11,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "恥",
-      "reading": "はじ"
+      "reading": "はじ",
+      "meaning": "wstyd"
     },
     {
       "kanji": "恥ずかしい",
-      "reading": "はずかしい"
+      "reading": "はずかしい",
+      "meaning": "zawstydzony"
     },
     {
       "kanji": "無恥な",
-      "reading": "ムチ"
+      "reading": "ムチ",
+      "meaning": "bezwstydny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "恥辱",
       "reading": "チジョク",
-      "reference": 1022
+      "reference": 1022,
+      "meaning": "hańba"
     }
   ],
   "additionalWords": []

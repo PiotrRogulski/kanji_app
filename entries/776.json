@@ -8,19 +8,22 @@
   "wordsRequiredNow": [
     {
       "kanji": "簡潔な",
-      "reading": "カンケツ"
+      "reading": "カンケツ",
+      "meaning": "zwięzły"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "清潔な",
       "reading": "セイケツ",
-      "reference": 788
+      "reference": 788,
+      "meaning": "czysty"
     },
     {
       "kanji": "潔斎",
       "reading": "ケッサイ",
-      "reference": 1381
+      "reference": 1381,
+      "meaning": "oczyszczenie"
     }
   ],
   "additionalWords": []
