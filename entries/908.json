@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "敗れる",
-      "reading": "やぶれる"
+      "reading": "やぶれる",
+      "meaning": "zostać pokonanym; przegrać"
     },
     {
       "kanji": "敗北",
-      "reading": "ハイボク"
+      "reading": "ハイボク",
+      "meaning": "porażka"
     },
     {
       "kanji": "失敗",
-      "reading": "シッパイ"
+      "reading": "シッパイ",
+      "meaning": "porażka; błąd"
     },
     {
       "kanji": "腐敗",
-      "reading": "フハイ"
+      "reading": "フハイ",
+      "meaning": "korupcja; gnicie; rozkład"
     }
   ],
   "wordsRequiredLater": [],

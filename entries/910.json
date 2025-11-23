@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "彼",
-      "reading": "かれ"
+      "reading": "かれ",
+      "meaning": "on; chłopak (partner)"
     },
     {
       "kanji": "彼等",
-      "reading": "かれら"
+      "reading": "かれら",
+      "meaning": "oni"
     },
     {
       "kanji": "彼女",
-      "reading": "かのジョ"
+      "reading": "かのジョ",
+      "meaning": "ona; dziewczyna (partnerka)"
     }
   ],
   "wordsRequiredLater": [],

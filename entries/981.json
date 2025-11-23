@@ -7,16 +7,19 @@
   ],
   "wordsRequiredNow": [
     {
-      "kanji": "踊る",
-      "reading": "おどる"
+      "kanji": "躍る",
+      "reading": "おどる",
+      "meaning": "skakać (z radości); bić (o sercu)"
     },
     {
       "kanji": "活躍",
-      "reading": "カツヤク"
+      "reading": "カツヤク",
+      "meaning": "aktywność; wielka rola; sukces"
     },
     {
       "kanji": "飛躍",
-      "reading": "ヒヤク"
+      "reading": "ヒヤク",
+      "meaning": "skok; gwałtowny postęp"
     }
   ],
   "wordsRequiredLater": [],

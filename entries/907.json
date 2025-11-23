@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿派",
-      "reading": "ハ"
+      "reading": "ハ",
+      "meaning": "frakcja; grupa; szkoła (np. artystyczna)"
     },
     {
       "kanji": "派手な",
-      "reading": "ハで"
+      "reading": "ハで",
+      "meaning": "krzykliwy; jaskrawy; efekciarski"
     },
     {
       "kanji": "立派な",
-      "reading": "リッパ"
+      "reading": "リッパ",
+      "meaning": "wspaniały; godny podziwu"
     },
     {
       "kanji": "流派",
-      "reading": "リュウハ"
+      "reading": "リュウハ",
+      "meaning": "szkoła (np. sztuk walki, ikebany)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "派遣",
       "reading": "ハケン",
-      "reference": 1137
+      "reference": 1137,
+      "meaning": "wysłanie; delegowanie"
     }
   ],
   "additionalWords": []

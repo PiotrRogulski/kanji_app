@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "触れる",
-      "reading": "ふれる"
+      "reading": "ふれる",
+      "meaning": "dotykać; wspominać"
     },
     {
       "kanji": "触る",
-      "reading": "さわる"
+      "reading": "さわる",
+      "meaning": "dotykać (celowo)"
     },
     {
       "kanji": "触覚",
-      "reading": "ショッカク"
+      "reading": "ショッカク",
+      "meaning": "zmysł dotyku"
     },
     {
       "kanji": "接触",
-      "reading": "セッショク"
+      "reading": "セッショク",
+      "meaning": "kontakt; styczność"
     }
   ],
   "wordsRequiredLater": [],

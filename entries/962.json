@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "逆",
-      "reading": "ギャク"
+      "reading": "ギャク",
+      "meaning": "odwrotność; przeciwieństwo"
     },
     {
       "kanji": "逆さ",
-      "reading": "さかさ"
+      "reading": "さかさ",
+      "meaning": "do góry nogami; na odwrót"
     },
     {
       "kanji": "逆らう",
-      "reading": "さからう"
+      "reading": "さからう",
+      "meaning": "sprzeciwiać się; płynąć pod prąd"
     },
     {
       "kanji": "逆転",
-      "reading": "ギャクテン"
+      "reading": "ギャクテン",
+      "meaning": "odwrócenie (sytuacji); zwrot akcji"
     }
   ],
   "wordsRequiredLater": [],

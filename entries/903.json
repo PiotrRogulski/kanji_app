@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "難しい",
-      "reading": "むずかしい"
+      "reading": "むずかしい",
+      "meaning": "trudny"
     },
     {
       "kanji": "困難",
-      "reading": "コンナン"
+      "reading": "コンナン",
+      "meaning": "trudność; kłopot"
     },
     {
       "kanji": "災難",
-      "reading": "サイナン"
+      "reading": "サイナン",
+      "meaning": "nieszczęście; katastrofa"
     },
     {
       "kanji": "避難",
-      "reading": "ヒナン"
+      "reading": "ヒナン",
+      "meaning": "ewakuacja; schronienie"
     },
     {
       "kanji": "有（り）難い",
-      "reading": "ありがたい"
+      "reading": "ありがたい",
+      "meaning": "wdzięczny; mile widziany"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "盗難",
       "reading": "トウナン",
-      "reference": 1285
+      "reference": 1285,
+      "meaning": "kradzież"
     }
   ],
   "additionalWords": []

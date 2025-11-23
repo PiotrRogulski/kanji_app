@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "腰",
-      "reading": "こし"
+      "reading": "こし",
+      "meaning": "biodra; talia; lędźwie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "腰抜け",
       "reading": "こしぬけ",
-      "reference": 1118
+      "reference": 1118,
+      "meaning": "tchórz"
     }
   ],
   "additionalWords": []

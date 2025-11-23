@@ -8,32 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "補う",
-      "reading": "おぎなう"
+      "reading": "おぎなう",
+      "meaning": "uzupełniać; rekompensować"
     },
     {
       "kanji": "候補",
-      "reading": "コウホ"
+      "reading": "コウホ",
+      "meaning": "kandydatura; kandydat"
     },
     {
       "kanji": "候補者",
-      "reading": "コウホシャ"
+      "reading": "コウホシャ",
+      "meaning": "kandydat"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "補佐",
       "reading": "ホサ",
-      "reference": 1178
+      "reference": 1178,
+      "meaning": "asysta; pomoc"
     },
     {
       "kanji": "補佐官",
       "reading": "ホサカン",
-      "reference": 1178
+      "reference": 1178,
+      "meaning": "asystent; doradca"
     },
     {
       "kanji": "補償",
       "reading": "ホショウ",
-      "reference": 1236
+      "reference": 1236,
+      "meaning": "odszkodowanie; rekompensata"
     }
   ],
   "additionalWords": []

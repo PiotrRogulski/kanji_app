@@ -9,27 +9,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "示す",
-      "reading": "しめす"
+      "reading": "しめす",
+      "meaning": "pokazywać; wskazywać"
     },
     {
       "kanji": "展示",
-      "reading": "テンジ"
+      "reading": "テンジ",
+      "meaning": "wystawa; ekspozycja"
     },
     {
       "kanji": "指示",
-      "reading": "シジ"
+      "reading": "シジ",
+      "meaning": "instrukcja; polecenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "誇示",
       "reading": "コジ",
-      "reference": 1049
+      "reference": 1049,
+      "meaning": "ostentacja; afiszowanie się"
     },
     {
       "kanji": "掲示",
       "reading": "ケイジ",
-      "reference": 1256
+      "reference": 1256,
+      "meaning": "ogłoszenie; wywieszka"
     }
   ],
   "additionalWords": []

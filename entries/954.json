@@ -10,23 +10,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "嫌",
-      "reading": "いや"
+      "reading": "いや",
+      "meaning": "nieprzyjemny; wstrętny; \"nie\""
     },
     {
       "kanji": "嫌う",
-      "reading": "きらう"
+      "reading": "きらう",
+      "meaning": "nienawidzić; nie lubić"
     },
     {
       "kanji": "嫌い",
-      "reading": "きらい"
+      "reading": "きらい",
+      "meaning": "nielubiany; nienawiść"
     },
     {
       "kanji": "機嫌",
-      "reading": "キゲン"
+      "reading": "キゲン",
+      "meaning": "nastrój; humor"
     },
     {
       "kanji": "嫌がる",
-      "reading": "いやがる"
+      "reading": "いやがる",
+      "meaning": "okazywać niechęć"
     }
   ],
   "wordsRequiredLater": [],

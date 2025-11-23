@@ -8,36 +8,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "判断",
-      "reading": "ハンダン"
+      "reading": "ハンダン",
+      "meaning": "osąd; decyzja"
     },
     {
       "kanji": "判事",
-      "reading": "ハンジ"
+      "reading": "ハンジ",
+      "meaning": "sędzia"
     },
     {
       "kanji": "判子",
-      "reading": "ハンこ"
+      "reading": "ハンこ",
+      "meaning": "pieczęć (osobista)"
     },
     {
       "kanji": "評判",
-      "reading": "ヒョウバン"
+      "reading": "ヒョウバン",
+      "meaning": "reputacja; opinia publiczna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "裁判",
       "reading": "サイバン",
-      "reference": 1170
+      "reference": 1170,
+      "meaning": "proces sądowy"
     },
     {
       "kanji": "審判",
       "reading": "シンパン",
-      "reference": 1187
+      "reference": 1187,
+      "meaning": "sędzia (sportowy); wyrok"
     },
     {
       "kanji": "批判",
       "reading": "ヒハン",
-      "reference": 1214
+      "reference": 1214,
+      "meaning": "krytyka"
     }
   ],
   "additionalWords": []

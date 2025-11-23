@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "像",
-      "reading": "ゾウ"
+      "reading": "ゾウ",
+      "meaning": "posąg; wizerunek"
     },
     {
       "kanji": "映像",
-      "reading": "エイゾウ"
+      "reading": "エイゾウ",
+      "meaning": "obraz (wideo); odbicie"
     },
     {
       "kanji": "画像",
-      "reading": "ガゾウ"
+      "reading": "ガゾウ",
+      "meaning": "obraz (cyfrowy); zdjęcie"
     },
     {
       "kanji": "仏像",
-      "reading": "ブツゾウ"
+      "reading": "ブツゾウ",
+      "meaning": "posąg Buddy"
     },
     {
       "kanji": "想像",
-      "reading": "ソウゾウ"
+      "reading": "ソウゾウ",
+      "meaning": "wyobraźnia"
     }
   ],
   "wordsRequiredLater": [],

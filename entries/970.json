@@ -8,34 +8,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "思想",
-      "reading": "シソウ"
+      "reading": "シソウ",
+      "meaning": "myśl; ideologia"
     },
     {
       "kanji": "予想",
-      "reading": "ヨソウ"
+      "reading": "ヨソウ",
+      "meaning": "przewidywanie; oczekiwanie"
     },
     {
       "kanji": "感想",
-      "reading": "カンソウ"
+      "reading": "カンソウ",
+      "meaning": "wrażenia; opinia"
     },
     {
       "kanji": "連想",
-      "reading": "レンソウ"
+      "reading": "レンソウ",
+      "meaning": "skojarzenie"
     },
     {
       "kanji": "空想",
-      "reading": "クウソウ"
+      "reading": "クウソウ",
+      "meaning": "fantazja; marzenie"
     },
     {
       "kanji": "理想",
-      "reading": "リソウ"
+      "reading": "リソウ",
+      "meaning": "ideał"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "想像",
       "reading": "ソウゾウ",
-      "reference": 972
+      "reference": 972,
+      "meaning": "wyobraźnia"
     }
   ],
   "additionalWords": []

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "概念",
-      "reading": "ガイネン"
+      "reading": "ガイネン",
+      "meaning": "pojęcie; koncept"
     },
     {
       "kanji": "一概に",
-      "reading": "イチガイ"
+      "reading": "イチガイ",
+      "meaning": "jednoznacznie; bezwarunkowo (zazwyczaj w zdaniach przeczących)"
     },
     {
       "kanji": "概説",
-      "reading": "ガイセツ"
+      "reading": "ガイセツ",
+      "meaning": "zarys; ogólny opis"
     }
   ],
   "wordsRequiredLater": [],

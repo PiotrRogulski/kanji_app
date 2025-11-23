@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "被る",
-      "reading": "こうむる"
+      "reading": "こうむる",
+      "meaning": "ponieść (szkodę); doznać (cierpienia)"
     },
     {
       "kanji": "被害",
-      "reading": "ヒガイ"
+      "reading": "ヒガイ",
+      "meaning": "szkoda; obrażenia"
     },
     {
       "kanji": "被害者",
-      "reading": "ヒガイシャ"
+      "reading": "ヒガイシャ",
+      "meaning": "ofiara"
     },
     {
       "kanji": "被告",
-      "reading": "ヒコク"
+      "reading": "ヒコク",
+      "meaning": "oskarżony"
     }
   ],
   "wordsRequiredLater": [],

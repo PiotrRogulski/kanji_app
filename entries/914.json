@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "乏しい",
-      "reading": "とぼしい"
+      "reading": "とぼしい",
+      "meaning": "rzadki; skąpy; ubogi (w zasoby)"
     },
     {
       "kanji": "貧乏な",
-      "reading": "ビンボウ"
+      "reading": "ビンボウ",
+      "meaning": "biedny (finansowo)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "欧州",
-      "reading": "オウシュウ"
+      "reading": "オウシュウ",
+      "meaning": "Europa"
     },
     {
-      "kanji": "欧州連合 オウシュウレンゴウ",
-      "reading": null
+      "kanji": "欧州連合",
+      "reading": "オウシュウレンゴウ",
+      "meaning": "Unia Europejska"
     },
     {
       "kanji": "欧米",
-      "reading": "オウベイ"
+      "reading": "オウベイ",
+      "meaning": "Europa i Ameryka (Zachód)"
     }
   ],
   "wordsRequiredLater": [],

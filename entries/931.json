@@ -11,15 +11,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "隔てる",
-      "reading": "へだてる"
+      "reading": "へだてる",
+      "meaning": "oddzielać; dystansować"
     },
     {
       "kanji": "隔離",
-      "reading": "カクリ"
+      "reading": "カクリ",
+      "meaning": "izolacja"
     },
     {
       "kanji": "間隔",
-      "reading": "カンカク"
+      "reading": "カンカク",
+      "meaning": "odstęp; interwał"
     }
   ],
   "wordsRequiredLater": [],

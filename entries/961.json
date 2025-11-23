@@ -7,36 +7,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "可",
-      "reading": "カ"
+      "reading": "カ",
+      "meaning": "akceptowalny; możliwy; ocena dostateczna"
     },
     {
       "kanji": "不可",
-      "reading": "フカ"
+      "reading": "フカ",
+      "meaning": "niemożliwy; niedopuszczalny; ocena niedostateczna"
     },
     {
       "kanji": "不可欠な",
-      "reading": "フカケツ"
+      "reading": "フカケツ",
+      "meaning": "niezbędny"
     },
     {
       "kanji": "許可",
-      "reading": "キョカ"
+      "reading": "キョカ",
+      "meaning": "pozwolenie; zezwolenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "可能",
       "reading": "カノウ",
-      "reference": 976
+      "reference": 976,
+      "meaning": "możliwy"
     },
     {
       "kanji": "可能性",
       "reading": "カノウセイ",
-      "reference": 976
+      "reference": 976,
+      "meaning": "możliwość; prawdopodobieństwo"
     },
     {
       "kanji": "不可能",
       "reading": "フカノウ",
-      "reference": 976
+      "reference": 976,
+      "meaning": "niemożliwy"
     }
   ],
   "additionalWords": []

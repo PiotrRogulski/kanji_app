@@ -8,39 +8,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "設ける",
-      "reading": "もうける"
+      "reading": "もうける",
+      "meaning": "ustanawiać; zapewniać; przygotowywać"
     },
     {
       "kanji": "設立",
-      "reading": "セツリツ"
+      "reading": "セツリツ",
+      "meaning": "założenie; ustanowienie"
     },
     {
       "kanji": "設定",
-      "reading": "セッテイ"
+      "reading": "セッテイ",
+      "meaning": "ustawienie; konfiguracja"
     },
     {
       "kanji": "設備",
-      "reading": "セツビ"
+      "reading": "セツビ",
+      "meaning": "wyposażenie; udogodnienia"
     },
     {
       "kanji": "建設",
-      "reading": "ケンセツ"
+      "reading": "ケンセツ",
+      "meaning": "budowa; konstrukcja"
     },
     {
       "kanji": "施設",
-      "reading": "シセツ"
+      "reading": "シセツ",
+      "meaning": "placówka; obiekt; udogodnienie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "創設",
       "reading": "ソウセツ",
-      "reference": 1027
+      "reference": 1027,
+      "meaning": "założenie; fundacja"
     },
     {
       "kanji": "敷設",
       "reading": "フセツ",
-      "reference": 1344
+      "reference": 1344,
+      "meaning": "układanie (np. torów, kabli)"
     }
   ],
   "additionalWords": []

@@ -10,14 +10,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "貧しい",
-      "reading": "まずしい"
+      "reading": "まずしい",
+      "meaning": "biedny; ubogi"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "貧乏な",
       "reading": "ビンボウ",
-      "reference": 914
+      "reference": 914,
+      "meaning": "biedny (finansowo)"
     }
   ],
   "additionalWords": []

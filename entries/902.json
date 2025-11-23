@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "投げる",
-      "reading": "なげる"
+      "reading": "なげる",
+      "meaning": "rzucać"
     },
     {
       "kanji": "投下",
-      "reading": "トウカ"
+      "reading": "トウカ",
+      "meaning": "zrzucanie; inwestowanie"
     },
     {
       "kanji": "投資",
-      "reading": "トウシ"
+      "reading": "トウシ",
+      "meaning": "inwestycja"
     },
     {
       "kanji": "投影",
-      "reading": "トウエイ"
+      "reading": "トウエイ",
+      "meaning": "projekcja; rzutowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "投票",
       "reading": "トウヒョウ",
-      "reference": 1183
+      "reference": 1183,
+      "meaning": "głosowanie"
     }
   ],
   "additionalWords": []

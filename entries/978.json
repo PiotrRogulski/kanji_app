@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "迫る",
-      "reading": "せまる"
+      "reading": "せまる",
+      "meaning": "zbliżać się; naciskać"
     },
     {
       "kanji": "圧迫",
-      "reading": "アッパク"
+      "reading": "アッパク",
+      "meaning": "nacisk; presja; ucisk"
     },
     {
       "kanji": "迫害",
-      "reading": "ハクガイ"
+      "reading": "ハクガイ",
+      "meaning": "prześladowanie"
     }
   ],
   "wordsRequiredLater": [],

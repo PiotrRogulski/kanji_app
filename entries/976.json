@@ -7,51 +7,62 @@
   "wordsRequiredNow": [
     {
       "kanji": "能",
-      "reading": "ノウ"
+      "reading": "ノウ",
+      "meaning": "teatr Nō; talent"
     },
     {
       "kanji": "能力",
-      "reading": "ノウリョク"
+      "reading": "ノウリョク",
+      "meaning": "zdolność; umiejętność"
     },
     {
       "kanji": "才能",
-      "reading": "サイノウ"
+      "reading": "サイノウ",
+      "meaning": "talent"
     },
     {
       "kanji": "知能",
-      "reading": "チノウ"
+      "reading": "チノウ",
+      "meaning": "inteligencja"
     },
     {
       "kanji": "本能",
-      "reading": "ホンノウ"
+      "reading": "ホンノウ",
+      "meaning": "instynkt"
     },
     {
       "kanji": "可能",
-      "reading": "カノウ"
+      "reading": "カノウ",
+      "meaning": "możliwy"
     },
     {
       "kanji": "可能性",
-      "reading": "カノウセイ"
+      "reading": "カノウセイ",
+      "meaning": "możliwość; prawdopodobieństwo"
     },
     {
       "kanji": "不可能",
-      "reading": "フカノウ"
+      "reading": "フカノウ",
+      "meaning": "niemożliwy"
     },
     {
       "kanji": "機能",
-      "reading": "キノウ"
+      "reading": "キノウ",
+      "meaning": "funkcja; działanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "芸能",
       "reading": "ゲイノウ",
-      "reference": 1012
+      "reference": 1012,
+      "meaning": "rozrywka; sztuki sceniczne"
     },
     {
       "kanji": "芸能人",
       "reading": "ゲイノウジン",
-      "reference": 1012
+      "reference": 1012,
+      "meaning": "artysta; celebryta"
     }
   ],
   "additionalWords": []

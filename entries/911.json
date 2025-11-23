@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "疲れる",
-      "reading": "つかれる"
+      "reading": "つかれる",
+      "meaning": "męczyć się"
     },
     {
       "kanji": "お疲れ様",
-      "reading": "おつかれさま"
+      "reading": "おつかれさま",
+      "meaning": "dziękuję za ciężką pracę; do widzenia (do współpracownika)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "疲労",
       "reading": "ヒロウ",
-      "reference": 1000
+      "reference": 1000,
+      "meaning": "zmęczenie; wyczerpanie"
     }
   ],
   "additionalWords": []

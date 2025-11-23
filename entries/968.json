@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "継ぐ",
-      "reading": "つぐ"
+      "reading": "つぐ",
+      "meaning": "dziedziczyć; następować po"
     },
     {
       "kanji": "継続",
-      "reading": "ケイゾク"
+      "reading": "ケイゾク",
+      "meaning": "kontynuacja"
     },
     {
       "kanji": "生中継",
-      "reading": "なまチュウケイ"
+      "reading": "なまチュウケイ",
+      "meaning": "transmisja na żywo"
     },
     {
       "kanji": "後継者",
-      "reading": "コウケイシャ"
+      "reading": "コウケイシャ",
+      "meaning": "następca; spadkobierca"
     }
   ],
   "wordsRequiredLater": [],

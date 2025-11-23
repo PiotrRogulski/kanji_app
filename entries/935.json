@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "傾く",
-      "reading": "かたむく"
+      "reading": "かたむく",
+      "meaning": "pochylać się; skłaniać się"
     },
     {
       "kanji": "傾ける",
-      "reading": "かたむける"
+      "reading": "かたむける",
+      "meaning": "pochylać (coś); nakłaniać"
     },
     {
       "kanji": "傾向",
-      "reading": "ケイコウ"
+      "reading": "ケイコウ",
+      "meaning": "tendencja; skłonność"
     },
     {
       "kanji": "傾斜",
-      "reading": "ケイシャ"
+      "reading": "ケイシャ",
+      "meaning": "nachylenie; zbocze"
     }
   ],
   "wordsRequiredLater": [],

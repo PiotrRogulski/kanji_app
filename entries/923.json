@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "医療",
-      "reading": "イリョウ"
+      "reading": "イリョウ",
+      "meaning": "opieka medyczna"
     },
     {
       "kanji": "治療",
-      "reading": "チリョウ"
+      "reading": "チリョウ",
+      "meaning": "leczenie (terapia)"
     }
   ],
   "wordsRequiredLater": [],

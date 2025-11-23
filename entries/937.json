@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "意志",
-      "reading": "イシ"
+      "reading": "イシ",
+      "meaning": "wola; chęć"
     },
     {
       "kanji": "志向",
-      "reading": "シコウ"
+      "reading": "シコウ",
+      "meaning": "intencja; nastawienie; orientacja (na coś)"
     }
   ],
   "wordsRequiredLater": [],

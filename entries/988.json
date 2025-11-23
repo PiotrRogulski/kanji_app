@@ -8,32 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "雑草",
-      "reading": "ザッソウ"
+      "reading": "ザッソウ",
+      "meaning": "chwast"
     },
     {
       "kanji": "（お）雑煮",
-      "reading": "ゾウに"
+      "reading": "ゾウに",
+      "meaning": "zoni (zupa noworoczna z mochi)"
     },
     {
       "kanji": "雑音",
-      "reading": "ザツオン"
+      "reading": "ザツオン",
+      "meaning": "hałas; szum"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "複雑な",
       "reading": "フクザツ",
-      "reference": 997
+      "reference": 997,
+      "meaning": "skomplikowany"
     },
     {
       "kanji": "混雑な",
       "reading": "コンザツ",
-      "reference": 1052
+      "reference": 1052,
+      "meaning": "zatłoczony"
     },
     {
       "kanji": "雑誌",
       "reading": "ザッシ",
-      "reference": 1268
+      "reference": 1268,
+      "meaning": "magazyn; czasopismo"
     }
   ],
   "additionalWords": []

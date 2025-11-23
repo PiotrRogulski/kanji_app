@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "導く",
-      "reading": "みちびく"
+      "reading": "みちびく",
+      "meaning": "prowadzić; przewodzić"
     },
     {
       "kanji": "指導",
-      "reading": "シドウ"
+      "reading": "シドウ",
+      "meaning": "przywództwo; kierowanie; instruktaż"
     },
     {
       "kanji": "導入",
-      "reading": "ドウニュウ"
+      "reading": "ドウニュウ",
+      "meaning": "wprowadzenie; instalacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "誘導",
       "reading": "ユウドウ",
-      "reference": 1289
+      "reference": 1289,
+      "meaning": "prowadzenie; zachęta"
     }
   ],
   "additionalWords": []

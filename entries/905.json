@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "毒",
-      "reading": "ドク"
+      "reading": "ドク",
+      "meaning": "trucizna"
     },
     {
       "kanji": "中毒",
-      "reading": "チュウドク"
+      "reading": "チュウドク",
+      "meaning": "zatrucie; uzależnienie"
     },
     {
       "kanji": "食中毒",
-      "reading": "ショクチュウドク"
+      "reading": "ショクチュウドク",
+      "meaning": "zatrucie pokarmowe"
     },
     {
       "kanji": "（お）気の毒",
-      "reading": "キのドク"
+      "reading": "キのドク",
+      "meaning": "godny współczucia; szkoda (kogoś)"
     }
   ],
   "wordsRequiredLater": [],

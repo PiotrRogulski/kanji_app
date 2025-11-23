@@ -8,31 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "限る",
-      "reading": "かぎる"
+      "reading": "かぎる",
+      "meaning": "ograniczać się do; być najlepszym (w danej sytuacji)"
     },
     {
       "kanji": "限り",
-      "reading": "かぎり"
+      "reading": "かぎり",
+      "meaning": "granica; limit; tak długo jak"
     },
     {
       "kanji": "限度",
-      "reading": "ゲンド"
+      "reading": "ゲンド",
+      "meaning": "limit; granica"
     },
     {
       "kanji": "限界",
-      "reading": "ゲンカイ"
+      "reading": "ゲンカイ",
+      "meaning": "granica możliwości; limit"
     },
     {
       "kanji": "制限",
-      "reading": "セイゲン"
+      "reading": "セイゲン",
+      "meaning": "ograniczenie; restrykcja"
     },
     {
       "kanji": "無限",
-      "reading": "ムゲン"
+      "reading": "ムゲン",
+      "meaning": "nieskończoność"
     },
     {
       "kanji": "期限",
-      "reading": "キゲン"
+      "reading": "キゲン",
+      "meaning": "termin; data ważności"
     }
   ],
   "wordsRequiredLater": [],

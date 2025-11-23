@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "夢",
-      "reading": "ゆめ"
+      "reading": "ゆめ",
+      "meaning": "sen; marzenie"
     },
     {
       "kanji": "夢中",
-      "reading": "ムチュウ"
+      "reading": "ムチュウ",
+      "meaning": "być pochłoniętym czymś; szaleć za czymś"
     },
     {
       "kanji": "悪夢",
-      "reading": "アクム"
+      "reading": "アクム",
+      "meaning": "koszmar"
     }
   ],
   "wordsRequiredLater": [],

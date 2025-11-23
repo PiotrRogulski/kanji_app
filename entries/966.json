@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "隅",
-      "reading": "すみ"
+      "reading": "すみ",
+      "meaning": "róg (wewnętrzny); kąt"
     },
     {
       "kanji": "片隅",
-      "reading": "かたすみ"
+      "reading": "かたすみ",
+      "meaning": "kąt; zakątek; na uboczu"
     }
   ],
   "wordsRequiredLater": [],

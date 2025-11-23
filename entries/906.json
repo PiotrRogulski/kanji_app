@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "認める",
-      "reading": "みとめる"
+      "reading": "みとめる",
+      "meaning": "uznawać; akceptować; przyznawać"
     },
     {
       "kanji": "認識",
-      "reading": "ニンシキ"
+      "reading": "ニンシキ",
+      "meaning": "rozpoznanie; świadomość"
     },
     {
       "kanji": "確認",
-      "reading": "カクニン"
+      "reading": "カクニン",
+      "meaning": "potwierdzenie"
     },
     {
       "kanji": "黙認",
-      "reading": "モクニン"
+      "reading": "モクニン",
+      "meaning": "milcząca zgoda; przymykanie oka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "承認",
       "reading": "ショウニン",
-      "reference": 922
+      "reference": 922,
+      "meaning": "aprobata; zgoda"
     }
   ],
   "additionalWords": []

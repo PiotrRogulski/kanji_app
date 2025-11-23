@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "筋",
-      "reading": "すじ"
+      "reading": "すじ",
+      "meaning": "mięsień; ścięgno; fabuła; logika"
     },
     {
       "kanji": "筋道",
-      "reading": "すじみち"
+      "reading": "すじみち",
+      "meaning": "logika; rozumowanie; metoda"
     },
     {
       "kanji": "筋肉",
-      "reading": "キンニク"
+      "reading": "キンニク",
+      "meaning": "mięsień"
     }
   ],
   "wordsRequiredLater": [],

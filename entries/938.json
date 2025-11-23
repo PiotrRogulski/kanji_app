@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "縦",
-      "reading": "たて"
+      "reading": "たて",
+      "meaning": "pion; długość"
     },
     {
-      "kanji": "縱橫",
-      "reading": "ジュウオウ"
+      "kanji": "縦横",
+      "reading": "ジュウオウ",
+      "meaning": "wzdłuż i wszerz; we wszystkich kierunkach"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "操縦",
       "reading": "ソウジュウ",
-      "reference": 991
+      "reference": 991,
+      "meaning": "sterowanie; pilotowanie"
     }
   ],
   "additionalWords": []

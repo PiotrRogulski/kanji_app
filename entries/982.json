@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "編む",
-      "reading": "あむ"
+      "reading": "あむ",
+      "meaning": "robić na drutach; pleść"
     },
     {
       "kanji": "編集",
-      "reading": "ヘンシュウ"
+      "reading": "ヘンシュウ",
+      "meaning": "edycja; montaż"
     },
     {
       "kanji": "長編",
-      "reading": "チョウヘン"
+      "reading": "チョウヘン",
+      "meaning": "długi metraż; długa powieść"
     },
     {
       "kanji": "短編",
-      "reading": "タンペン"
+      "reading": "タンペン",
+      "meaning": "krótki metraż; opowiadanie"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "存じる",
-      "reading": "ゾンじる"
+      "reading": "ゾンじる",
+      "meaning": "wiedzieć; myśleć (honoryfikatywne)"
     },
     {
       "kanji": "ご存じ",
-      "reading": "ごゾンじ"
+      "reading": "ごゾンじ",
+      "meaning": "wiedza; znajomość (honoryfikatywne)"
     },
     {
       "kanji": "存在",
-      "reading": "ソンザイ"
+      "reading": "ソンザイ",
+      "meaning": "istnienie; byt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "保存",
       "reading": "ホゾン",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "zachowanie; konserwacja; zapisanie (pliku)"
     },
     {
       "kanji": "保存料",
       "reading": "ホゾンリョウ",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "konserwant"
     }
   ],
   "additionalWords": []

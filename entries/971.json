@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "昨日",
-      "reading": "サクジツ／きのう"
+      "reading": "サクジツ／きのう",
+      "meaning": "wczoraj"
     },
     {
       "kanji": "一昨日",
-      "reading": "おととい"
+      "reading": "おととい",
+      "meaning": "przedwczoraj"
     },
     {
       "kanji": "一昨年",
-      "reading": "おととし"
+      "reading": "おととし",
+      "meaning": "dwa lata temu"
     }
   ],
   "wordsRequiredLater": [],

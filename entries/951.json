@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "抗議",
-      "reading": "コウギ"
+      "reading": "コウギ",
+      "meaning": "protest"
     },
     {
       "kanji": "対抗",
-      "reading": "タイコウ"
+      "reading": "タイコウ",
+      "meaning": "rywalizacja; opór; przeciwstawienie się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "抵抗",
       "reading": "テイコウ",
-      "reference": 1378
+      "reference": 1378,
+      "meaning": "opór; rezystancja"
     }
   ],
   "additionalWords": []

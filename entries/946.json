@@ -7,35 +7,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "義務",
-      "reading": "ギム"
+      "reading": "ギム",
+      "meaning": "obowiązek"
     },
     {
       "kanji": "義理",
-      "reading": "ギリ"
+      "reading": "ギリ",
+      "meaning": "obowiązek społeczny; powinność"
     },
     {
       "kanji": "正義",
-      "reading": "セイギ"
+      "reading": "セイギ",
+      "meaning": "sprawiedliwość"
     },
     {
       "kanji": "定義",
-      "reading": "テイギ"
+      "reading": "テイギ",
+      "meaning": "definicja"
     },
     {
       "kanji": "民主主義",
-      "reading": "ミンシュシュギ"
+      "reading": "ミンシュシュギ",
+      "meaning": "demokracja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "講義",
       "reading": "コウギ",
-      "reference": 1208
+      "reference": 1208,
+      "meaning": "wykład"
     },
     {
       "kanji": "仁義",
       "reading": "ジンギ",
-      "reference": 1373
+      "reference": 1373,
+      "meaning": "humanitaryzm i sprawiedliwość; kodeks moralny (np. yakuzy)"
     }
   ],
   "additionalWords": []

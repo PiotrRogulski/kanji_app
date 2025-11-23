@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "権利",
-      "reading": "ケンリ"
+      "reading": "ケンリ",
+      "meaning": "prawo; przywilej"
     },
     {
       "kanji": "権力",
-      "reading": "ケンリョク"
+      "reading": "ケンリョク",
+      "meaning": "władza polityczna; autorytet"
     },
     {
       "kanji": "人権",
-      "reading": "ジンケン"
+      "reading": "ジンケン",
+      "meaning": "prawa człowieka"
     },
     {
       "kanji": "政権",
-      "reading": "セイケン"
+      "reading": "セイケン",
+      "meaning": "administracja polityczna; władza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "権威",
       "reading": "ケンイ",
-      "reference": 1386
+      "reference": 1386,
+      "meaning": "autorytet"
     }
   ],
   "additionalWords": []

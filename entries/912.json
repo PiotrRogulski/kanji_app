@@ -7,31 +7,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "評価",
-      "reading": "ヒョウカ"
+      "reading": "ヒョウカ",
+      "meaning": "ocena; szacowanie"
     },
     {
       "kanji": "好評",
-      "reading": "コウヒョウ"
+      "reading": "コウヒョウ",
+      "meaning": "dobra opinia; popularność"
     },
     {
       "kanji": "不評",
-      "reading": "フヒョウ"
+      "reading": "フヒョウ",
+      "meaning": "zła opinia; niepopularność"
     },
     {
       "kanji": "評論",
-      "reading": "ヒョウロン"
+      "reading": "ヒョウロン",
+      "meaning": "krytyka; recenzja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "評判",
       "reading": "ヒョウバン",
-      "reference": 980
+      "reference": 980,
+      "meaning": "reputacja; opinia publiczna"
     },
     {
       "kanji": "批評",
       "reading": "ヒヒョウ",
-      "reference": 1214
+      "reference": 1214,
+      "meaning": "krytyka (recenzja)"
     }
   ],
   "additionalWords": []

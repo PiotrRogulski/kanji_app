@@ -9,32 +9,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "舞う",
-      "reading": "まう"
+      "reading": "まう",
+      "meaning": "tańczyć (tradycyjnie); wirować (np. płatki)"
     },
     {
       "kanji": "舞",
-      "reading": "まい"
+      "reading": "まい",
+      "meaning": "taniec (tradycyjny japoński)"
     },
     {
       "kanji": "舞台",
-      "reading": "ブタイ"
+      "reading": "ブタイ",
+      "meaning": "scena (teatralna)"
     },
     {
       "kanji": "お見舞（い）",
-      "reading": "おみまい"
+      "reading": "おみまい",
+      "meaning": "odwiedziny chorego; kondolencje"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "舞踊",
       "reading": "ブヨウ",
-      "reference": 916
+      "reference": 916,
+      "meaning": "taniec"
     }
   ],
   "additionalWords": [
     {
       "kanji": "歌舞伎",
-      "reading": "カブキ"
+      "reading": "カブキ",
+      "meaning": "teatr Kabuki"
     }
   ]
 }

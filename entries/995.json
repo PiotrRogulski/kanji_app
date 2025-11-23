@@ -11,23 +11,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "浮く",
-      "reading": "うく"
+      "reading": "うく",
+      "meaning": "unosić się (na wodzie); odstawać (od grupy)"
     },
     {
       "kanji": "浮かぶ",
-      "reading": "うかぶ"
+      "reading": "うかぶ",
+      "meaning": "unosić się; przychodzić na myśl"
     },
     {
       "kanji": "浮かべる",
-      "reading": "うかべる"
+      "reading": "うかべる",
+      "meaning": "puszczać na wodę; okazywać (uśmiech)"
     },
     {
       "kanji": "浮世絵",
-      "reading": "うきよえ"
+      "reading": "うきよえ",
+      "meaning": "ukiyo-e (drzeworyt japoński)"
     },
     {
       "kanji": "浮気",
-      "reading": "うわき"
+      "reading": "うわき",
+      "meaning": "zdrada (małżeńska); romans"
     }
   ],
   "wordsRequiredLater": [],

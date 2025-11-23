@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "荒い",
-      "reading": "あらい"
+      "reading": "あらい",
+      "meaning": "gwałtowny; szorstki; burzliwy"
     },
     {
       "kanji": "荒れる",
-      "reading": "あれる"
+      "reading": "あれる",
+      "meaning": "być wzburzonym; być zniszczonym; szaleć"
     }
   ],
   "wordsRequiredLater": [],

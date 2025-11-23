@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "承る",
-      "reading": "うけたまわる"
+      "reading": "うけたまわる",
+      "meaning": "słuchać; przyjmować (rozkaz, zamówienie) – honoryfikatywne"
     },
     {
       "kanji": "承知",
-      "reading": "ショウチ"
+      "reading": "ショウチ",
+      "meaning": "zgoda; świadomość; wiedza"
     },
     {
       "kanji": "承認",
-      "reading": "ショウニン"
+      "reading": "ショウニン",
+      "meaning": "aprobata; zgoda"
     }
   ],
   "wordsRequiredLater": [],

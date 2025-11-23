@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "帽子",
-      "reading": "ボウシ"
+      "reading": "ボウシ",
+      "meaning": "czapka; kapelusz"
     },
     {
       "kanji": "脱帽",
-      "reading": "ダツボウ"
+      "reading": "ダツボウ",
+      "meaning": "zdjęcie kapelusza (wyraz szacunku); \"czapki z głów\""
     }
   ],
   "wordsRequiredLater": [],

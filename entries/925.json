@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "了解",
-      "reading": "リョウカイ"
+      "reading": "リョウカイ",
+      "meaning": "zrozumienie; zgoda"
     },
     {
       "kanji": "完了",
-      "reading": "カンリョウ"
+      "reading": "カンリョウ",
+      "meaning": "ukończenie; zakończenie"
     },
     {
       "kanji": "終了",
-      "reading": "シュウリョウ"
+      "reading": "シュウリョウ",
+      "meaning": "koniec; zakończenie"
     },
     {
       "kanji": "修了",
-      "reading": "シュウリョウ"
+      "reading": "シュウリョウ",
+      "meaning": "ukończenie (np. kursu, szkoły)"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "励む",
-      "reading": "はげむ"
+      "reading": "はげむ",
+      "meaning": "starać się; dokładać starań"
     },
     {
       "kanji": "精励",
-      "reading": "セイレイ"
+      "reading": "セイレイ",
+      "meaning": "pilność; gorliwość"
     }
   ],
   "wordsRequiredLater": [],

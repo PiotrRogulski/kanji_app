@@ -7,31 +7,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "応じる",
-      "reading": "オウじる"
+      "reading": "オウじる",
+      "meaning": "odpowiadać; reagować; spełniać (prośbę)"
     },
     {
       "kanji": "応用",
-      "reading": "オウヨウ"
+      "reading": "オウヨウ",
+      "meaning": "zastosowanie (praktyczne)"
     },
     {
       "kanji": "反応",
-      "reading": "ハンノウ"
+      "reading": "ハンノウ",
+      "meaning": "reakcja"
     },
     {
       "kanji": "一応",
-      "reading": "イチオウ"
+      "reading": "イチオウ",
+      "meaning": "na wszelki wypadek; mniej więcej; tymczasowo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "応援",
       "reading": "オウエン",
-      "reference": 1175
+      "reference": 1175,
+      "meaning": "doping; wsparcie"
     },
     {
       "kanji": "応募",
       "reading": "オウボ",
-      "reference": 1244
+      "reference": 1244,
+      "meaning": "zgłoszenie; aplikacja (np. o pracę)"
     }
   ],
   "additionalWords": []

@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "担ぐ",
-      "reading": "かつぐ"
+      "reading": "かつぐ",
+      "meaning": "nieść na ramieniu; wrabiać kogoś"
     },
     {
       "kanji": "担う",
-      "reading": "になう"
+      "reading": "になう",
+      "meaning": "nosić (ciężar); ponosić (odpowiedzialność)"
     },
     {
       "kanji": "担当",
-      "reading": "タントウ"
+      "reading": "タントウ",
+      "meaning": "odpowiedzialność; bycie odpowiedzialnym za"
     },
     {
       "kanji": "担当者",
-      "reading": "タントウシャ"
+      "reading": "タントウシャ",
+      "meaning": "osoba odpowiedzialna"
     },
     {
       "kanji": "負担",
-      "reading": "フタン"
+      "reading": "フタン",
+      "meaning": "obciążenie; odpowiedzialność (np. finansowa)"
     }
   ],
   "wordsRequiredLater": [],

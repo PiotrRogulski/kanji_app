@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "撮る",
-      "reading": "とる"
+      "reading": "とる",
+      "meaning": "robić (zdjęcie); kręcić (film)"
     },
     {
       "kanji": "撮影",
-      "reading": "サツエイ"
+      "reading": "サツエイ",
+      "meaning": "filmowanie; fotografowanie"
     },
     {
       "kanji": "自撮り",
-      "reading": "ジどり"
+      "reading": "ジどり",
+      "meaning": "selfie"
     }
   ],
   "wordsRequiredLater": [],

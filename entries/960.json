@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "衛生",
-      "reading": "エイセイ"
+      "reading": "エイセイ",
+      "meaning": "higiena; sanitariat"
     },
     {
       "kanji": "衛星",
-      "reading": "エイセイ"
+      "reading": "エイセイ",
+      "meaning": "satelita"
     },
     {
       "kanji": "自衛",
-      "reading": "ジエイ"
+      "reading": "ジエイ",
+      "meaning": "samoobrona"
     },
     {
       "kanji": "自衛隊",
-      "reading": "ジエイタイ"
+      "reading": "ジエイタイ",
+      "meaning": "Siły Samoobrony (japońskie siły zbrojne)"
     },
     {
       "kanji": "防衛",
-      "reading": "ボウエイ"
+      "reading": "ボウエイ",
+      "meaning": "obrona"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "枠",
-      "reading": "わく"
+      "reading": "わく",
+      "meaning": "ramka; granica; limit"
     },
     {
       "kanji": "枠内",
-      "reading": "わくナイ"
+      "reading": "わくナイ",
+      "meaning": "w granicach; w ramkach"
     },
     {
       "kanji": "窓枠",
-      "reading": "まどわく"
+      "reading": "まどわく",
+      "meaning": "rama okienna"
     }
   ],
   "wordsRequiredLater": [],

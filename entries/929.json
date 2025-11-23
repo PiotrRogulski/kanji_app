@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "我",
-      "reading": "われ"
+      "reading": "われ",
+      "meaning": "ja; my (formalnie/literacko)"
     },
     {
       "kanji": "我々",
-      "reading": "われわれ"
+      "reading": "われわれ",
+      "meaning": "my"
     },
     {
       "kanji": "我が国",
-      "reading": "わがくに"
+      "reading": "わがくに",
+      "meaning": "nasz kraj"
     },
     {
       "kanji": "自我",
-      "reading": "ジガ"
+      "reading": "ジガ",
+      "meaning": "ego; jaźń"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "我慢",
       "reading": "ガマン",
-      "reference": 1029
+      "reference": 1029,
+      "meaning": "cierpliwość; wytrzymałość"
     }
   ],
   "additionalWords": []

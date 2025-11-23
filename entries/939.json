@@ -7,37 +7,44 @@
   "wordsRequiredNow": [
     {
       "kanji": "状態",
-      "reading": "ジョウタイ"
+      "reading": "ジョウタイ",
+      "meaning": "stan; warunki"
     },
     {
       "kanji": "現状",
-      "reading": "ゲンジョウ"
+      "reading": "ゲンジョウ",
+      "meaning": "obecny stan; status quo"
     },
     {
       "kanji": "賞状",
-      "reading": "ショウジョウ"
+      "reading": "ショウジョウ",
+      "meaning": "dyplom; certyfikat"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "状況",
       "reading": "ジョウキョウ",
-      "reference": 965
+      "reference": 965,
+      "meaning": "sytuacja; okoliczności"
     },
     {
       "kanji": "症状",
       "reading": "ショウジョウ",
-      "reference": 1102
+      "reference": 1102,
+      "meaning": "objawy (choroby)"
     },
     {
       "kanji": "年賀状",
       "reading": "ネンガジョウ",
-      "reference": 1215
+      "reference": 1215,
+      "meaning": "kartka noworoczna"
     },
     {
       "kanji": "推薦状",
       "reading": "スイセンジョウ",
-      "reference": 1297
+      "reference": 1297,
+      "meaning": "list polecający"
     }
   ],
   "additionalWords": []

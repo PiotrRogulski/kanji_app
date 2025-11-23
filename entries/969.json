@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "構える",
-      "reading": "かまえる"
+      "reading": "かまえる",
+      "meaning": "ustawiać się (w pozycji); budować; zakładać (dom, biuro)"
     },
     {
       "kanji": "構う",
-      "reading": "かまう"
+      "reading": "かまう",
+      "meaning": "przejmować się; dbać o"
     },
     {
       "kanji": "構成",
-      "reading": "コウセイ"
+      "reading": "コウセイ",
+      "meaning": "struktura; skład; kompozycja"
     },
     {
       "kanji": "構造",
-      "reading": "コウゾウ"
+      "reading": "コウゾウ",
+      "meaning": "struktura; budowa"
     },
     {
       "kanji": "結構な",
-      "reading": "ケッコウ"
+      "reading": "ケッコウ",
+      "meaning": "wspaniały; wystarczający (\"nie, dziękuję\")"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "裏",
-      "reading": "うら"
+      "reading": "うら",
+      "meaning": "tył; odwrotna strona; spód"
     },
     {
       "kanji": "裏口",
-      "reading": "うらぐち"
+      "reading": "うらぐち",
+      "meaning": "tylne wejście"
     },
     {
       "kanji": "裏切る",
-      "reading": "うらぎる"
+      "reading": "うらぎる",
+      "meaning": "zdradzić"
     }
   ],
   "wordsRequiredLater": [],

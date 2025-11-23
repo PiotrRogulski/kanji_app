@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "状況",
-      "reading": "ジョウキョウ"
+      "reading": "ジョウキョウ",
+      "meaning": "sytuacja; warunki"
     },
     {
       "kanji": "不況",
-      "reading": "フキョウ"
+      "reading": "フキョウ",
+      "meaning": "recesja; kryzys gospodarczy"
     },
     {
       "kanji": "好況",
-      "reading": "コウキョウ"
+      "reading": "コウキョウ",
+      "meaning": "koniunktura; boom gospodarczy"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "漠然",
-      "reading": "バクゼン"
+      "reading": "バクゼン",
+      "meaning": "niewyraźny; mglisty; niejasny"
     },
     {
       "kanji": "砂漠",
-      "reading": "サバク"
+      "reading": "サバク",
+      "meaning": "pustynia"
     }
   ],
   "wordsRequiredLater": [],

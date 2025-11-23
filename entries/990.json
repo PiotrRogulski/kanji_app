@@ -10,36 +10,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "絶えず",
-      "reading": "たえず"
+      "reading": "たえず",
+      "meaning": "ciągle; nieustannie"
     },
     {
       "kanji": "断絶",
-      "reading": "ダンゼツ"
+      "reading": "ダンゼツ",
+      "meaning": "zerwanie; przerwanie"
     },
     {
       "kanji": "絶望",
-      "reading": "ゼツボウ"
+      "reading": "ゼツボウ",
+      "meaning": "rozpacz"
     },
     {
       "kanji": "絶対に",
-      "reading": "ゼッタイ"
+      "reading": "ゼッタイ",
+      "meaning": "absolutnie; bezwzględnie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "絶叫",
       "reading": "ゼッキョウ",
-      "reference": 1041
+      "reference": 1041,
+      "meaning": "krzyk"
     },
     {
       "kanji": "絶滅",
       "reading": "ゼツメツ",
-      "reference": 1412
+      "reference": 1412,
+      "meaning": "wyginięcie"
     },
     {
       "kanji": "絶頂",
       "reading": "ゼッチョウ",
-      "reference": 1481
+      "reference": 1481,
+      "meaning": "szczyt; apogeum"
     }
   ],
   "additionalWords": []

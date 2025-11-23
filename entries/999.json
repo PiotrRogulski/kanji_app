@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "裂く",
-      "reading": "さく"
+      "reading": "さく",
+      "meaning": "drzeć; rozdzierać; poświęcać (czas)"
     },
     {
       "kanji": "裂ける",
-      "reading": "さける"
+      "reading": "さける",
+      "meaning": "podrzeć się; pęknąć"
     },
     {
       "kanji": "分裂",
-      "reading": "ブンレツ"
+      "reading": "ブンレツ",
+      "meaning": "podział; rozłam"
     }
   ],
   "wordsRequiredLater": [],

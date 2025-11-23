@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "隣",
-      "reading": "となり"
+      "reading": "となり",
+      "meaning": "obok; sąsiad"
     },
     {
       "kanji": "隣国",
-      "reading": "リンゴク"
+      "reading": "リンゴク",
+      "meaning": "sąsiedni kraj"
     },
     {
       "kanji": "近隣",
-      "reading": "キンリン"
+      "reading": "キンリン",
+      "meaning": "sąsiedztwo"
     }
   ],
   "wordsRequiredLater": [],

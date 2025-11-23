@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "祝福",
-      "reading": "シュクフク"
+      "reading": "シュクフク",
+      "meaning": "błogosławieństwo"
     },
     {
       "kanji": "幸福",
-      "reading": "コウフク"
+      "reading": "コウフク",
+      "meaning": "szczęście; pomyślność"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "裕福な",
       "reading": "ユウフク",
-      "reference": 1292
+      "reference": 1292,
+      "meaning": "zamożny; bogaty"
     },
     {
       "kanji": "福祉",
       "reading": "フクシ",
-      "reference": 1311
+      "reference": 1311,
+      "meaning": "opieka społeczna; dobrobyt"
     }
   ],
   "additionalWords": []

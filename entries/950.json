@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "自己",
-      "reading": "ジコ"
+      "reading": "ジコ",
+      "meaning": "ja; samo- (prefix)"
     },
     {
       "kanji": "自己紹介",
-      "reading": "ジコショウカイ"
+      "reading": "ジコショウカイ",
+      "meaning": "przedstawienie się"
     },
     {
       "kanji": "利己",
-      "reading": "リコ"
+      "reading": "リコ",
+      "meaning": "egoizm"
     }
   ],
   "wordsRequiredLater": [],

@@ -11,11 +11,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "伸びる",
-      "reading": "のびる"
+      "reading": "のびる",
+      "meaning": "rozciągać się; rosnąć; wydłużać się"
     },
     {
       "kanji": "伸ばす",
-      "reading": "のばす"
+      "reading": "のばす",
+      "meaning": "rozciągać; wydłużać; odkładać (w czasie)"
     }
   ],
   "wordsRequiredLater": [],

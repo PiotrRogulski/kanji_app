@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "罪",
-      "reading": "つみ"
+      "reading": "つみ",
+      "meaning": "grzech; wina; przestępstwo"
     },
     {
       "kanji": "有罪",
-      "reading": "ユウザイ"
+      "reading": "ユウザイ",
+      "meaning": "winny"
     },
     {
       "kanji": "無罪",
-      "reading": "ムザイ"
+      "reading": "ムザイ",
+      "meaning": "niewinny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "犯罪",
       "reading": "ハンザイ",
-      "reference": 1119
+      "reference": 1119,
+      "meaning": "przestępstwo"
     },
     {
       "kanji": "犯罪者",
       "reading": "ハンザイシャ",
-      "reference": 1119
+      "reference": 1119,
+      "meaning": "przestępca"
     }
   ],
   "additionalWords": []

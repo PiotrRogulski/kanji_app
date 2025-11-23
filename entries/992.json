@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "装う",
-      "reading": "よそおう"
+      "reading": "よそおう",
+      "meaning": "udawać; ubierać się"
     },
     {
       "kanji": "装置",
-      "reading": "ソウチ"
+      "reading": "ソウチ",
+      "meaning": "urządzenie; sprzęt"
     },
     {
       "kanji": "服装",
-      "reading": "フクソウ"
+      "reading": "フクソウ",
+      "meaning": "strój; ubiór"
     },
     {
       "kanji": "衣装",
-      "reading": "イショウ"
+      "reading": "イショウ",
+      "meaning": "kostium; strój"
     },
     {
       "kanji": "包装",
-      "reading": "ホウソウ"
+      "reading": "ホウソウ",
+      "meaning": "pakowanie; opakowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "塗装",
       "reading": "トソウ",
-      "reference": 1535
+      "reference": 1535,
+      "meaning": "malowanie (powierzchni); powłoka"
     }
   ],
   "additionalWords": []

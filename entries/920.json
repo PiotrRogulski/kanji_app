@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "戻す",
-      "reading": "もどす"
+      "reading": "もどす",
+      "meaning": "zwracać; odkładać na miejsce"
     },
     {
       "kanji": "戻る",
-      "reading": "もどる"
+      "reading": "もどる",
+      "meaning": "wracać"
     }
   ],
   "wordsRequiredLater": [],

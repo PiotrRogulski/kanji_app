@@ -9,35 +9,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "仮",
-      "reading": "かり"
+      "reading": "かり",
+      "meaning": "tymczasowy; próbny"
     },
     {
       "kanji": "仮定",
-      "reading": "カテイ"
+      "reading": "カテイ",
+      "meaning": "założenie; hipoteza"
     },
     {
       "kanji": "仮面",
-      "reading": "カメン"
+      "reading": "カメン",
+      "meaning": "maska"
     },
     {
       "kanji": "仮名",
-      "reading": "かな"
+      "reading": "かな",
+      "meaning": "kana (japoński sylabariusz); pseudonim"
     },
     {
       "kanji": "平仮名",
-      "reading": "ひらがな"
+      "reading": "ひらがな",
+      "meaning": "hiragana"
     },
     {
       "kanji": "片仮名",
-      "reading": "かたかな"
+      "reading": "かたかな",
+      "meaning": "katakana"
     },
     {
       "kanji": "送り仮名",
-      "reading": "おくりがな"
+      "reading": "おくりがな",
+      "meaning": "okurigana (kana po kanji)"
     },
     {
       "kanji": "振り仮名",
-      "reading": "ふりがな"
+      "reading": "ふりがな",
+      "meaning": "furigana (wymowa nad kanji)"
     }
   ],
   "wordsRequiredLater": [],

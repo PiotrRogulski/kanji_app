@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "踊る",
-      "reading": "おどる"
+      "reading": "おどる",
+      "meaning": "tańczyć"
     },
     {
       "kanji": "踊り",
-      "reading": "おどり"
+      "reading": "おどり",
+      "meaning": "taniec"
     },
     {
       "kanji": "舞踊",
-      "reading": "ブヨウ"
+      "reading": "ブヨウ",
+      "meaning": "taniec"
     }
   ],
   "wordsRequiredLater": [],

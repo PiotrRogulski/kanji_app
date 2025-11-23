@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "博物館",
-      "reading": "ハクブツカン"
+      "reading": "ハクブツカン",
+      "meaning": "muzeum"
     },
     {
       "kanji": "博士",
-      "reading": "ハクシ／はかせ"
+      "reading": "ハクシ／はかせ",
+      "meaning": "doktor (tytuł naukowy)"
     },
     {
       "kanji": "博打",
-      "reading": "バクチ"
+      "reading": "バクチ",
+      "meaning": "hazard"
     }
   ],
   "wordsRequiredLater": [],

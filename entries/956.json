@@ -13,22 +13,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "収納",
-      "reading": "シュウノウ"
+      "reading": "シュウノウ",
+      "meaning": "przechowywanie; magazynowanie"
     },
     {
       "kanji": "納豆",
-      "reading": "ナットウ"
+      "reading": "ナットウ",
+      "meaning": "natto (sfermentowana soja)"
     },
     {
       "kanji": "納得",
-      "reading": "ナットク"
+      "reading": "ナットク",
+      "meaning": "zrozumienie; zgoda; przekonanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "納税",
       "reading": "ノウゼイ",
-      "reference": 1166
+      "reference": 1166,
+      "meaning": "płacenie podatków"
     }
   ],
   "additionalWords": []

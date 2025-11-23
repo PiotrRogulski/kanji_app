@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "訓練",
-      "reading": "クンレン"
+      "reading": "クンレン",
+      "meaning": "trening; szkolenie"
     },
     {
       "kanji": "教訓",
-      "reading": "キョウクン"
+      "reading": "キョウクン",
+      "meaning": "lekcja (moralna); nauczka"
     },
     {
       "kanji": "訓読み",
-      "reading": "クンよみ"
+      "reading": "クンよみ",
+      "meaning": "czytanie kun (japońskie)"
     }
   ],
   "wordsRequiredLater": [],

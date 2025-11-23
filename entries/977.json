@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "述べる",
-      "reading": "のべる"
+      "reading": "のべる",
+      "meaning": "stwierdzać; wyrażać; wspominać"
     },
     {
       "kanji": "述語",
-      "reading": "ジュツゴ"
+      "reading": "ジュツゴ",
+      "meaning": "orzeczenie (gramatyka)"
     }
   ],
   "wordsRequiredLater": [],

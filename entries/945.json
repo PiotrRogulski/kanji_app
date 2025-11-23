@@ -9,35 +9,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "得",
-      "reading": "トク"
+      "reading": "トク",
+      "meaning": "zysk; korzyść"
     },
     {
       "kanji": "得る",
-      "reading": "える"
+      "reading": "える",
+      "meaning": "zdobywać; uzyskiwać"
     },
     {
       "kanji": "得る",
-      "reading": "うる"
+      "reading": "うる",
+      "meaning": "zdobywać; być możliwym (np. \"ariuru\" - może się zdarzyć)"
     },
     {
       "kanji": "得意",
-      "reading": "トクイ"
+      "reading": "トクイ",
+      "meaning": "mocna strona; duma; triumf"
     },
     {
       "kanji": "説得",
-      "reading": "セットク"
+      "reading": "セットク",
+      "meaning": "perswazja; przekonywanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "納得",
       "reading": "ナットク",
-      "reference": 956
+      "reference": 956,
+      "meaning": "zgoda; zrozumienie; przekonanie się"
     },
     {
       "kanji": "獲得",
       "reading": "カクトク",
-      "reference": 1339
+      "reference": 1339,
+      "meaning": "zdobycie; nabycie"
     }
   ],
   "additionalWords": []

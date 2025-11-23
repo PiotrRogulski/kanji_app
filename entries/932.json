@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "額",
-      "reading": "ひたい"
+      "reading": "ひたい",
+      "meaning": "czoło"
     },
     {
       "kanji": "額",
-      "reading": "ガク"
+      "reading": "ガク",
+      "meaning": "ramka (na obraz); suma (pieniędzy)"
     },
     {
       "kanji": "金額",
-      "reading": "キンガク"
+      "reading": "キンガク",
+      "meaning": "kwota pieniędzy"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "求める",
-      "reading": "もとめる"
+      "reading": "もとめる",
+      "meaning": "żądać; szukać; prosić"
     },
     {
       "kanji": "要求",
-      "reading": "ヨウキュウ"
+      "reading": "ヨウキュウ",
+      "meaning": "żądanie; postulat"
     },
     {
       "kanji": "追求",
-      "reading": "ツイキュウ"
+      "reading": "ツイキュウ",
+      "meaning": "dążenie; ściganie; dochodzenie (prawdy)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "求職",
       "reading": "キュウショク",
-      "reference": 1021
+      "reference": 1021,
+      "meaning": "szukanie pracy"
     },
     {
       "kanji": "探求",
       "reading": "タンキュウ",
-      "reference": 1030
+      "reference": 1030,
+      "meaning": "poszukiwanie; badanie"
     }
   ],
   "additionalWords": []

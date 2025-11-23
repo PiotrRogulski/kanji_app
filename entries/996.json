@@ -10,26 +10,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "忍ぶ",
-      "reading": "しのぶ"
+      "reading": "しのぶ",
+      "meaning": "znosić; ukrywać się"
     },
     {
       "kanji": "忍び",
-      "reading": "しのび"
+      "reading": "しのび",
+      "meaning": "skradanie się; ninja (szpieg)"
     },
     {
       "kanji": "忍耐",
-      "reading": "ニンタイ"
+      "reading": "ニンタイ",
+      "meaning": "cierpliwość; wytrzymałość"
     },
     {
       "kanji": "忍者",
-      "reading": "ニンジャ"
+      "reading": "ニンジャ",
+      "meaning": "ninja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "堪忍",
       "reading": "カンニン",
-      "reference": 1466
+      "reference": 1466,
+      "meaning": "cierpliwość; wybaczenie"
     }
   ],
   "additionalWords": []

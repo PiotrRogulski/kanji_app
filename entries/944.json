@@ -8,27 +8,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "置く",
-      "reading": "おく"
+      "reading": "おく",
+      "meaning": "kłaść; stawiać"
     },
     {
       "kanji": "配置",
-      "reading": "ハイチ"
+      "reading": "ハイチ",
+      "meaning": "rozmieszczenie; układ"
     },
     {
       "kanji": "位置",
-      "reading": "イチ"
+      "reading": "イチ",
+      "meaning": "pozycja; lokalizacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "装置",
       "reading": "ソウチ",
-      "reference": 992
+      "reference": 992,
+      "meaning": "urządzenie; sprzęt"
     },
     {
       "kanji": "措置",
       "reading": "ソチ",
-      "reference": 1267
+      "reference": 1267,
+      "meaning": "środek; krok (działanie)"
     }
   ],
   "additionalWords": []

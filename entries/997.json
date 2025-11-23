@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "複数",
-      "reading": "フクスウ"
+      "reading": "フクスウ",
+      "meaning": "liczba mnoga; wiele"
     },
     {
       "kanji": "複雑な",
-      "reading": "フクザツ"
+      "reading": "フクザツ",
+      "meaning": "skomplikowany"
     },
     {
       "kanji": "複写",
-      "reading": "フクシャ"
+      "reading": "フクシャ",
+      "meaning": "kopia; duplikat"
     }
   ],
   "wordsRequiredLater": [],

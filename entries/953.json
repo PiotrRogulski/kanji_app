@@ -8,23 +8,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "民衆",
-      "reading": "ミンシュウ"
+      "reading": "ミンシュウ",
+      "meaning": "lud; masy"
     },
     {
       "kanji": "公衆",
-      "reading": "コウシュウ"
+      "reading": "コウシュウ",
+      "meaning": "publiczność; społeczeństwo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "群衆",
       "reading": "グンシュウ",
-      "reference": 1046
+      "reference": 1046,
+      "meaning": "tłum"
     },
     {
       "kanji": "聴衆",
       "reading": "チョウシュウ",
-      "reference": 1230
+      "reference": 1230,
+      "meaning": "publiczność (słuchacze); audytorium"
     }
   ],
   "additionalWords": []

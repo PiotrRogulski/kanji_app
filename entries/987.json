@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "施す",
-      "reading": "ほどこす"
+      "reading": "ほどこす",
+      "meaning": "dawać (jałmużnę); przeprowadzać; ozdabiać"
     },
     {
       "kanji": "実施",
-      "reading": "ジッシ"
+      "reading": "ジッシ",
+      "meaning": "wdrożenie; realizacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "施設",
       "reading": "シセツ",
-      "reference": 989
+      "reference": 989,
+      "meaning": "placówka; obiekt; udogodnienie"
     }
   ],
   "additionalWords": []

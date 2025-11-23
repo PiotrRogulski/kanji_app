@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "操る",
-      "reading": "あやつる"
+      "reading": "あやつる",
+      "meaning": "manipulować; sterować; posługiwać się (biegle)"
     },
     {
       "kanji": "操作",
-      "reading": "ソウサ"
+      "reading": "ソウサ",
+      "meaning": "obsługa; operacja (działanie)"
     },
     {
       "kanji": "体操",
-      "reading": "タイソウ"
+      "reading": "タイソウ",
+      "meaning": "gimnastyka"
     },
     {
       "kanji": "操縦",
-      "reading": "ソウジュウ"
+      "reading": "ソウジュウ",
+      "meaning": "pilotaż; sterowanie"
     }
   ],
   "wordsRequiredLater": [],

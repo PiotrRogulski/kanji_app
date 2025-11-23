@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "労働",
-      "reading": "ロウドウ"
+      "reading": "ロウドウ",
+      "meaning": "praca (fizyczna)"
     },
     {
       "kanji": "労働者",
-      "reading": "ロウドウシャ"
+      "reading": "ロウドウシャ",
+      "meaning": "robotnik; pracownik"
     },
     {
       "kanji": "苦労",
-      "reading": "クロウ"
+      "reading": "クロウ",
+      "meaning": "trud; wysiłek; kłopoty"
     },
     {
       "kanji": "疲労",
-      "reading": "ヒロウ"
+      "reading": "ヒロウ",
+      "meaning": "zmęczenie"
     },
     {
       "kanji": "過労死",
-      "reading": "カロウシ"
+      "reading": "カロウシ",
+      "meaning": "karoshi (śmierć z przepracowania)"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "含む",
-      "reading": "ふくむ"
+      "reading": "ふくむ",
+      "meaning": "zawierać; obejmować; trzymać w ustach"
     },
     {
       "kanji": "含める",
-      "reading": "ふくめる"
+      "reading": "ふくめる",
+      "meaning": "włączać; zawierać (coś w czymś)"
     }
   ],
   "wordsRequiredLater": [],

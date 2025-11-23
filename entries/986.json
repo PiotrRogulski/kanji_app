@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "座る",
-      "reading": "すわる"
+      "reading": "すわる",
+      "meaning": "siedzieć"
     },
     {
       "kanji": "座席",
-      "reading": "ザセキ"
+      "reading": "ザセキ",
+      "meaning": "siedzenie; miejsce"
     },
     {
       "kanji": "正座",
-      "reading": "セイザ"
+      "reading": "セイザ",
+      "meaning": "siedzenie w stylu japońskim (na piętach)"
     },
     {
       "kanji": "星座",
-      "reading": "セイザ"
+      "reading": "セイザ",
+      "meaning": "konstelacja; znak zodiaku"
     },
     {
       "kanji": "即座に",
-      "reading": "ソクザ"
+      "reading": "ソクザ",
+      "meaning": "natychmiast"
     }
   ],
   "wordsRequiredLater": [],

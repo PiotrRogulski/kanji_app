@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "印",
-      "reading": "しるし"
+      "reading": "しるし",
+      "meaning": "znak; symbol"
     },
     {
       "kanji": "印象",
-      "reading": "インショウ"
+      "reading": "インショウ",
+      "meaning": "wrażenie"
     },
     {
       "kanji": "目印",
-      "reading": "めじるし"
+      "reading": "めじるし",
+      "meaning": "znak rozpoznawczy; punkt orientacyjny"
     },
     {
       "kanji": "矢印",
-      "reading": "やじるし"
+      "reading": "やじるし",
+      "meaning": "strzałka (znak)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "印刷",
       "reading": "インサツ",
-      "reference": 1424
+      "reference": 1424,
+      "meaning": "drukowanie"
     }
   ],
   "additionalWords": []

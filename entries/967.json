@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "景気",
-      "reading": "ケイキ"
+      "reading": "ケイキ",
+      "meaning": "koniunktura; stan gospodarki"
     },
     {
       "kanji": "風景",
-      "reading": "フウケイ"
+      "reading": "フウケイ",
+      "meaning": "krajobraz; sceneria"
     },
     {
       "kanji": "背景",
-      "reading": "ハイケイ"
+      "reading": "ハイケイ",
+      "meaning": "tło"
     },
     {
       "kanji": "景色",
-      "reading": "ケシキ"
+      "reading": "ケシキ",
+      "meaning": "widok; krajobraz"
     },
     {
       "kanji": "光景",
-      "reading": "コウケイ"
+      "reading": "コウケイ",
+      "meaning": "widok; scena (zdarzenie)"
     }
   ],
   "wordsRequiredLater": [],
