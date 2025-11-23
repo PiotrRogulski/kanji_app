@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "灰",
-      "reading": "はい"
+      "reading": "はい",
+      "meaning": "popiół"
     },
     {
       "kanji": "灰色",
-      "reading": "はいいろ"
+      "reading": "はいいろ",
+      "meaning": "szary"
     },
     {
       "kanji": "灰皿",
-      "reading": "はいざら"
+      "reading": "はいざら",
+      "meaning": "popielniczka"
     }
   ],
   "wordsRequiredLater": [],

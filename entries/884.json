@@ -8,37 +8,44 @@
   "wordsRequiredNow": [
     {
       "kanji": "張る",
-      "reading": "はる"
+      "reading": "はる",
+      "meaning": "napinać"
     },
     {
       "kanji": "出張",
-      "reading": "シュッチョウ"
+      "reading": "シュッチョウ",
+      "meaning": "podróż służbowa"
     },
     {
       "kanji": "主張",
-      "reading": "シュチョウ"
+      "reading": "シュチョウ",
+      "meaning": "twierdzenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "緊張",
       "reading": "キンチョウ",
-      "reference": 885
+      "reference": 885,
+      "meaning": "napięcie"
     },
     {
       "kanji": "膨張",
       "reading": "ボウチョウ",
-      "reference": 1161
+      "reference": 1161,
+      "meaning": "ekspansja"
     },
     {
       "kanji": "威張る",
       "reading": "イばる",
-      "reference": 1386
+      "reference": 1386,
+      "meaning": "być aroganckim"
     },
     {
       "kanji": "頑張る",
       "reading": "ガンばる",
-      "reference": 1462
+      "reference": 1462,
+      "meaning": "starać się"
     }
   ],
   "additionalWords": []

@@ -10,22 +10,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "懸かる",
-      "reading": "かかる"
+      "reading": "かかる",
+      "meaning": "wisieć"
     },
     {
       "kanji": "懸命に",
-      "reading": "ケンメイ"
+      "reading": "ケンメイ",
+      "meaning": "gorliwie"
     },
     {
       "kanji": "一生懸命に",
-      "reading": "イッショウケンメイ"
+      "reading": "イッショウケンメイ",
+      "meaning": "z całych sił"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "懸賞",
       "reading": "ケンショウ",
-      "reference": 891
+      "reference": 891,
+      "meaning": "nagroda"
     }
   ],
   "additionalWords": []

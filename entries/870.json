@@ -11,67 +11,81 @@
   "wordsRequiredNow": [
     {
       "kanji": "解く",
-      "reading": "とく"
+      "reading": "とく",
+      "meaning": "rozwiązywać"
     },
     {
       "kanji": "解ける",
-      "reading": "とける"
+      "reading": "とける",
+      "meaning": "rozwiązać się"
     },
     {
       "kanji": "解決",
-      "reading": "カイケツ"
+      "reading": "カイケツ",
+      "meaning": "rozwiązanie"
     },
     {
       "kanji": "解答",
-      "reading": "カイトウ"
+      "reading": "カイトウ",
+      "meaning": "odpowiedź"
     },
     {
       "kanji": "解放",
-      "reading": "カイホウ"
+      "reading": "カイホウ",
+      "meaning": "wyzwolenie"
     },
     {
       "kanji": "分解",
-      "reading": "ブンカイ"
+      "reading": "ブンカイ",
+      "meaning": "rozkład"
     },
     {
       "kanji": "理解",
-      "reading": "リカイ"
+      "reading": "リカイ",
+      "meaning": "zrozumienie"
     },
     {
       "kanji": "解散",
-      "reading": "カイサン"
+      "reading": "カイサン",
+      "meaning": "rozwiązanie (np. grupy)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "溶解",
       "reading": "ヨウカイ",
-      "reference": 871
+      "reference": 871,
+      "meaning": "rozpuszczanie"
     },
     {
       "kanji": "了解",
       "reading": "リョウカイ",
-      "reference": 925
+      "reference": 925,
+      "meaning": "zrozumienie"
     },
     {
       "kanji": "解析",
       "reading": "カイセキ",
-      "reference": 1025
+      "reference": 1025,
+      "meaning": "analiza"
     },
     {
       "kanji": "解剖",
       "reading": "カイボウ",
-      "reference": 1036
+      "reference": 1036,
+      "meaning": "sekcja zwłok"
     },
     {
       "kanji": "誤解",
       "reading": "ゴカイ",
-      "reference": 1138
+      "reference": 1138,
+      "meaning": "nieporozumienie"
     },
     {
       "kanji": "解釈",
       "reading": "カイシャク",
-      "reference": 1393
+      "reference": 1393,
+      "meaning": "interpretacja"
     }
   ],
   "additionalWords": []

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿君",
-      "reading": "クン"
+      "reading": "クン",
+      "meaning": "Pan ..."
     },
     {
       "kanji": "君",
-      "reading": "きみ"
+      "reading": "きみ",
+      "meaning": "ty"
     },
     {
       "kanji": "君主",
-      "reading": "クンシュ"
+      "reading": "クンシュ",
+      "meaning": "monarcha"
     },
     {
       "kanji": "諸君",
-      "reading": "ショクン"
+      "reading": "ショクン",
+      "meaning": "panowie"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,35 +7,42 @@
   "wordsRequiredNow": [
     {
       "kanji": "賞",
-      "reading": "ショウ"
+      "reading": "ショウ",
+      "meaning": "nagroda"
     },
     {
       "kanji": "賞金",
-      "reading": "ショウキン"
+      "reading": "ショウキン",
+      "meaning": "nagroda pieniężna"
     },
     {
       "kanji": "賞品",
-      "reading": "ショウヒン"
+      "reading": "ショウヒン",
+      "meaning": "nagroda rzeczowa"
     },
     {
       "kanji": "受賞者",
-      "reading": "ジュショウシャ"
+      "reading": "ジュショウシャ",
+      "meaning": "laureat"
     },
     {
       "kanji": "懸賞",
-      "reading": "ケンショウ"
+      "reading": "ケンショウ",
+      "meaning": "nagroda w konkursie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "賞状",
       "reading": "ショウジョウ",
-      "reference": 939
+      "reference": 939,
+      "meaning": "dyplom"
     },
     {
       "kanji": "鑑賞",
       "reading": "カンショウ",
-      "reference": 1497
+      "reference": 1497,
+      "meaning": "aprecjacja"
     }
   ],
   "additionalWords": []

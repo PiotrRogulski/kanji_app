@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "綿",
-      "reading": "メン"
+      "reading": "メン",
+      "meaning": "bawełna"
     },
     {
       "kanji": "綿",
-      "reading": "わた"
+      "reading": "わた",
+      "meaning": "bawełna"
     },
     {
       "kanji": "木綿",
-      "reading": "モメン"
+      "reading": "モメン",
+      "meaning": "bawełna"
     }
   ],
   "wordsRequiredLater": [],

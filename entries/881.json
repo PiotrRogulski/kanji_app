@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "勧める",
-      "reading": "すすめる"
+      "reading": "すすめる",
+      "meaning": "polecać"
     },
     {
       "kanji": "（お）勧め",
-      "reading": "すすめ"
+      "reading": "すすめ",
+      "meaning": "rekomendacja"
     }
   ],
   "wordsRequiredLater": [],

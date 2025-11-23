@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "緊張",
-      "reading": "キンチョウ"
+      "reading": "キンチョウ",
+      "meaning": "napięcie"
     },
     {
       "kanji": "緊急",
-      "reading": "キンキュウ"
+      "reading": "キンキュウ",
+      "meaning": "nagły wypadek"
     }
   ],
   "wordsRequiredLater": [],

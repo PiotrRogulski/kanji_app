@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "埋める",
-      "reading": "うめる"
+      "reading": "うめる",
+      "meaning": "zakopywać"
     },
     {
       "kanji": "埋葬",
-      "reading": "マイソウ"
+      "reading": "マイソウ",
+      "meaning": "pochówek"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "革",
-      "reading": "かわ"
+      "reading": "かわ",
+      "meaning": "skóra"
     },
     {
       "kanji": "革新",
-      "reading": "カクシン"
+      "reading": "カクシン",
+      "meaning": "innowacja"
     },
     {
       "kanji": "革命",
-      "reading": "カクメイ"
+      "reading": "カクメイ",
+      "meaning": "rewolucja"
     },
     {
       "kanji": "改革",
-      "reading": "カイカク"
+      "reading": "カイカク",
+      "meaning": "reforma"
     }
   ],
   "wordsRequiredLater": [],

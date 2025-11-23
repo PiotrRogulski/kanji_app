@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "暇",
-      "reading": "ひま"
+      "reading": "ひま",
+      "meaning": "wolny czas"
     },
     {
       "kanji": "休暇",
-      "reading": "キュウカ"
+      "reading": "キュウカ",
+      "meaning": "wakacje"
     }
   ],
   "wordsRequiredLater": [],

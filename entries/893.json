@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "姿",
-      "reading": "すがた"
+      "reading": "すがた",
+      "meaning": "sylwetka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "姿勢",
       "reading": "シセイ",
-      "reference": 1106
+      "reference": 1106,
+      "meaning": "postawa"
     }
   ],
   "additionalWords": []

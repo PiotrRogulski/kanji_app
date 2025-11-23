@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "葬る",
-      "reading": "ほうむる"
+      "reading": "ほうむる",
+      "meaning": "grzebać"
     },
     {
       "kanji": "葬式",
-      "reading": "ソウシキ"
+      "reading": "ソウシキ",
+      "meaning": "pogrzeb"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "埋葬",
       "reading": "マイソウ",
-      "reference": 900
+      "reference": 900,
+      "meaning": "pochówek"
     }
   ],
   "additionalWords": []

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "儀式",
-      "reading": "ギシキ"
+      "reading": "ギシキ",
+      "meaning": "ceremonia"
     },
     {
       "kanji": "礼儀",
-      "reading": "レイギ"
+      "reading": "レイギ",
+      "meaning": "maniery"
     }
   ],
   "wordsRequiredLater": [],

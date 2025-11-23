@@ -9,50 +9,60 @@
   "wordsRequiredNow": [
     {
       "kanji": "改める",
-      "reading": "あらためる"
+      "reading": "あらためる",
+      "meaning": "poprawiać"
     },
     {
       "kanji": "改まる",
-      "reading": "あらたまる"
+      "reading": "あらたまる",
+      "meaning": "być poprawionym"
     },
     {
       "kanji": "改めて",
-      "reading": "あらためて"
+      "reading": "あらためて",
+      "meaning": "ponownie"
     },
     {
       "kanji": "改新",
-      "reading": "カイシン"
+      "reading": "カイシン",
+      "meaning": "reforma"
     },
     {
       "kanji": "改正",
-      "reading": "カイセイ"
+      "reading": "カイセイ",
+      "meaning": "nowelizacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "改革",
       "reading": "カイカク",
-      "reference": 878
+      "reference": 878,
+      "meaning": "reforma"
     },
     {
       "kanji": "改善",
       "reading": "カイゼン",
-      "reference": 1108
+      "reference": 1108,
+      "meaning": "ulepszenie"
     },
     {
       "kanji": "改札",
       "reading": "カイサツ",
-      "reference": 1207
+      "reference": 1207,
+      "meaning": "bramka biletowa"
     },
     {
       "kanji": "改札口",
       "reading": "カイサツぐち",
-      "reference": 1207
+      "reference": 1207,
+      "meaning": "bramka biletowa"
     },
     {
       "kanji": "改訂",
       "reading": "カイテイ",
-      "reference": 1516
+      "reference": 1516,
+      "meaning": "korekta"
     }
   ],
   "additionalWords": []

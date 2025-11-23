@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "刺す",
-      "reading": "さす"
+      "reading": "さす",
+      "meaning": "kłuć"
     },
     {
       "kanji": "刺さる",
-      "reading": "ささる"
+      "reading": "ささる",
+      "meaning": "być wbitym"
     },
     {
       "kanji": "刺し身",
-      "reading": "さしみ"
+      "reading": "さしみ",
+      "meaning": "sashimi"
     },
     {
       "kanji": "名刺",
-      "reading": "メイシ"
+      "reading": "メイシ",
+      "meaning": "wizytówka"
     },
     {
       "kanji": "風刺",
-      "reading": "フウシ"
+      "reading": "フウシ",
+      "meaning": "satyra"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "刺激",
       "reading": "シゲキ",
-      "reference": 890
+      "reference": 890,
+      "meaning": "bodziec"
     }
   ],
   "additionalWords": []

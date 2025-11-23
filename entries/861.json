@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "蔵",
-      "reading": "くら"
+      "reading": "くら",
+      "meaning": "magazyn"
     },
     {
       "kanji": "蔵書",
-      "reading": "ゾウショ"
+      "reading": "ゾウショ",
+      "meaning": "księgozbiór"
     },
     {
       "kanji": "貯蔵",
-      "reading": "チョゾウ"
+      "reading": "チョゾウ",
+      "meaning": "przechowywanie"
     },
     {
       "kanji": "冷蔵庫",
-      "reading": "レイゾウコ"
+      "reading": "レイゾウコ",
+      "meaning": "lodówka"
     }
   ],
   "wordsRequiredLater": [],

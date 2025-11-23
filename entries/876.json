@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "余る",
-      "reading": "あまる"
+      "reading": "あまる",
+      "meaning": "zostawać"
     },
     {
       "kanji": "余り",
-      "reading": "あまり"
+      "reading": "あまり",
+      "meaning": "reszta"
     },
     {
       "kanji": "余地",
-      "reading": "ヨチ"
+      "reading": "ヨチ",
+      "meaning": "miejsce"
     },
     {
       "kanji": "余分",
-      "reading": "ヨブン"
+      "reading": "ヨブン",
+      "meaning": "nadmiar"
     },
     {
       "kanji": "余計",
-      "reading": "ヨケイ"
+      "reading": "ヨケイ",
+      "meaning": "zbędny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "余裕",
       "reading": "ヨユウ",
-      "reference": 1292
+      "reference": 1292,
+      "meaning": "swoboda"
     }
   ],
   "additionalWords": []

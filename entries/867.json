@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "密接な",
-      "reading": "ミッセツ"
+      "reading": "ミッセツ",
+      "meaning": "ścisły"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "秘密",
       "reading": "ヒミツ",
-      "reference": 1275
+      "reference": 1275,
+      "meaning": "tajemnica"
     }
   ],
   "additionalWords": []

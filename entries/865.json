@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "暮れる",
-      "reading": "くれる"
+      "reading": "くれる",
+      "meaning": "ściemniać się"
     },
     {
       "kanji": "暮らす",
-      "reading": "くらす"
+      "reading": "くらす",
+      "meaning": "żyć"
     },
     {
       "kanji": "暮らし",
-      "reading": "くらし"
+      "reading": "くらし",
+      "meaning": "życie"
     },
     {
       "kanji": "歳暮",
-      "reading": "セイボ"
+      "reading": "セイボ",
+      "meaning": "prezent na koniec roku"
     }
   ],
   "wordsRequiredLater": [],

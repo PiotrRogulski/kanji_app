@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "惜しい",
-      "reading": "おしい"
+      "reading": "おしい",
+      "meaning": "szkoda"
     },
     {
       "kanji": "痛惜",
-      "reading": "ツウセキ"
+      "reading": "ツウセキ",
+      "meaning": "głęboki żal"
     }
   ],
   "wordsRequiredLater": [],

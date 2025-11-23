@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "激しい",
-      "reading": "はげしい"
+      "reading": "はげしい",
+      "meaning": "gwałtowny"
     },
     {
       "kanji": "激動",
-      "reading": "ゲキドウ"
+      "reading": "ゲキドウ",
+      "meaning": "wstrząs"
     },
     {
       "kanji": "激突",
-      "reading": "ゲキトツ"
+      "reading": "ゲキトツ",
+      "meaning": "zderzenie"
     },
     {
       "kanji": "刺激",
-      "reading": "シゲキ"
+      "reading": "シゲキ",
+      "meaning": "stymulacja"
     }
   ],
   "wordsRequiredLater": [],

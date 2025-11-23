@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "遺産",
-      "reading": "イサン"
+      "reading": "イサン",
+      "meaning": "spadek"
     },
     {
       "kanji": "遺言",
-      "reading": "イゴン／ユイゴン"
+      "reading": "イゴン／ユイゴン",
+      "meaning": "testament"
     },
     {
       "kanji": "遺跡",
-      "reading": "イセキ"
+      "reading": "イセキ",
+      "meaning": "ruiny"
     }
   ],
   "wordsRequiredLater": [],

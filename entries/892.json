@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿軒",
-      "reading": "ケン"
+      "reading": "ケン",
+      "meaning": "... domów"
     },
     {
       "kanji": "軒",
-      "reading": "のき"
+      "reading": "のき",
+      "meaning": "okap dachu"
     }
   ],
   "wordsRequiredLater": [],

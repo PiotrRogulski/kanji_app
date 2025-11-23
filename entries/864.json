@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "飛ぶ",
-      "reading": "とぶ"
+      "reading": "とぶ",
+      "meaning": "latać"
     },
     {
       "kanji": "飛ばす",
-      "reading": "とばす"
+      "reading": "とばす",
+      "meaning": "rzucać"
     },
     {
       "kanji": "飛行",
-      "reading": "ヒコウ"
+      "reading": "ヒコウ",
+      "meaning": "lot"
     },
     {
       "kanji": "飛行機",
-      "reading": "ヒコウキ"
+      "reading": "ヒコウキ",
+      "meaning": "samolot"
     },
     {
       "kanji": "飛行場",
-      "reading": "ヒコウジョウ"
+      "reading": "ヒコウジョウ",
+      "meaning": "lotnisko"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "飛躍",
       "reading": "ヒヤク",
-      "reference": 981
+      "reference": 981,
+      "meaning": "skok"
     }
   ],
   "additionalWords": []

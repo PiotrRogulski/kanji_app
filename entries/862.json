@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "耐える",
-      "reading": "たえる"
+      "reading": "たえる",
+      "meaning": "wytrzymywać"
     },
     {
       "kanji": "耐久",
-      "reading": "タイキュウ"
+      "reading": "タイキュウ",
+      "meaning": "wytrzymałość"
     },
     {
       "kanji": "耐水",
-      "reading": "タイスイ"
+      "reading": "タイスイ",
+      "meaning": "wodoodporność"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "忍耐",
       "reading": "ニンタイ",
-      "reference": 996
+      "reference": 996,
+      "meaning": "cierpliwość"
     }
   ],
   "additionalWords": []

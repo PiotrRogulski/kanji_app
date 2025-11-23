@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "溶ける",
-      "reading": "とける"
+      "reading": "とける",
+      "meaning": "rozpuszczać się"
     },
     {
       "kanji": "溶かす",
-      "reading": "とかす"
+      "reading": "とかす",
+      "meaning": "rozpuszczać"
     },
     {
       "kanji": "溶解",
-      "reading": "ヨウカイ"
+      "reading": "ヨウカイ",
+      "meaning": "rozpuszczanie"
     },
     {
       "kanji": "溶岩",
-      "reading": "ヨウガン"
+      "reading": "ヨウガン",
+      "meaning": "lawa"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "尋ねる",
-      "reading": "たずねる"
+      "reading": "たずねる",
+      "meaning": "pytać"
     },
     {
       "kanji": "尋ね人",
-      "reading": "たずねびと"
+      "reading": "たずねびと",
+      "meaning": "osoba zaginiona"
     },
     {
       "kanji": "尋ね物",
-      "reading": "たずねもの"
+      "reading": "たずねもの",
+      "meaning": "zguba"
     },
     {
       "kanji": "尋常",
-      "reading": "ジンジョウ"
+      "reading": "ジンジョウ",
+      "meaning": "zwykły"
     }
   ],
   "wordsRequiredLater": [],

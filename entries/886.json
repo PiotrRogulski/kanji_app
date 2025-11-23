@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "駆ける",
-      "reading": "かける"
+      "reading": "かける",
+      "meaning": "biec"
     },
     {
       "kanji": "駆け足で",
-      "reading": "かけあしで"
+      "reading": "かけあしで",
+      "meaning": "biegiem"
     }
   ],
   "wordsRequiredLater": [],

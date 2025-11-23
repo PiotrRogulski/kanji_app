@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "恩人",
-      "reading": "オンジン"
+      "reading": "オンジン",
+      "meaning": "dobroczyńca"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "恩恵",
       "reading": "オンケイ",
-      "reference": 1254
+      "reference": 1254,
+      "meaning": "korzyść"
     }
   ],
   "additionalWords": []

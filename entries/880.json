@@ -8,39 +8,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "告げる",
-      "reading": "つげる"
+      "reading": "つげる",
+      "meaning": "oznajmiać"
     },
     {
       "kanji": "告白",
-      "reading": "コクハク"
+      "reading": "コクハク",
+      "meaning": "wyznanie"
     },
     {
       "kanji": "通告",
-      "reading": "ツウコク"
+      "reading": "ツウコク",
+      "meaning": "zawiadomienie"
     },
     {
       "kanji": "報告",
-      "reading": "ホウコク"
+      "reading": "ホウコク",
+      "meaning": "raport"
     },
     {
       "kanji": "広告",
-      "reading": "コウコク"
+      "reading": "コウコク",
+      "meaning": "reklama"
     },
     {
       "kanji": "警告",
-      "reading": "ケイコク"
+      "reading": "ケイコク",
+      "meaning": "ostrzeżenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "被告",
       "reading": "ヒコク",
-      "reference": 957
+      "reference": 957,
+      "meaning": "oskarżony"
     },
     {
       "kanji": "忠告",
       "reading": "チュウコク",
-      "reference": 1333
+      "reference": 1333,
+      "meaning": "rada"
     }
   ],
   "additionalWords": []

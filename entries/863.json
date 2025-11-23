@@ -10,15 +10,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "透ける",
-      "reading": "すける"
+      "reading": "すける",
+      "meaning": "być przezroczystym"
     },
     {
       "kanji": "透き間",
-      "reading": "すきま"
+      "reading": "すきま",
+      "meaning": "szczelina"
     },
     {
       "kanji": "透明な",
-      "reading": "トウメイ"
+      "reading": "トウメイ",
+      "meaning": "przezroczysty"
     }
   ],
   "wordsRequiredLater": [],

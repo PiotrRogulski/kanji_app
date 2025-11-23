@@ -9,44 +9,53 @@
   "wordsRequiredNow": [
     {
       "kanji": "優しい",
-      "reading": "やさしい"
+      "reading": "やさしい",
+      "meaning": "miły"
     },
     {
       "kanji": "優れる",
-      "reading": "すぐれる"
+      "reading": "すぐれる",
+      "meaning": "przodować"
     },
     {
       "kanji": "優れた",
-      "reading": "すぐれた"
+      "reading": "すぐれた",
+      "meaning": "wybitny"
     },
     {
       "kanji": "優先",
-      "reading": "ユウセン"
+      "reading": "ユウセン",
+      "meaning": "priorytet"
     },
     {
       "kanji": "優勝",
-      "reading": "ユウショウ"
+      "reading": "ユウショウ",
+      "meaning": "zwycięstwo"
     },
     {
       "kanji": "女優",
-      "reading": "ジョユウ"
+      "reading": "ジョユウ",
+      "meaning": "aktorka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "優秀な",
       "reading": "ユウシュウ",
-      "reference": 1139
+      "reference": 1139,
+      "meaning": "doskonały"
     },
     {
       "kanji": "優雅な",
       "reading": "ユウガ",
-      "reference": 1329
+      "reference": 1329,
+      "meaning": "elegancki"
     },
     {
       "kanji": "俳優",
       "reading": "ハイユウ",
-      "reference": 1441
+      "reference": 1441,
+      "meaning": "aktor"
     }
   ],
   "additionalWords": []

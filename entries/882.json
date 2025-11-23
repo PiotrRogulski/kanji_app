@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "胸",
-      "reading": "むね"
+      "reading": "むね",
+      "meaning": "klatka piersiowa"
     },
     {
       "kanji": "胸中",
-      "reading": "キョウチュウ"
+      "reading": "キョウチュウ",
+      "meaning": "w sercu"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "偉い",
-      "reading": "えらい"
+      "reading": "えらい",
+      "meaning": "wielki"
     },
     {
       "kanji": "偉人",
-      "reading": "イジン"
+      "reading": "イジン",
+      "meaning": "wielki człowiek"
     },
     {
       "kanji": "偉大な",
-      "reading": "イダイ"
+      "reading": "イダイ",
+      "meaning": "wspaniały"
     }
   ],
   "wordsRequiredLater": [],

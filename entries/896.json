@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "跡",
-      "reading": "あと"
+      "reading": "あと",
+      "meaning": "ślad"
     },
     {
       "kanji": "足跡",
-      "reading": "あしあと"
+      "reading": "あしあと",
+      "meaning": "ślad stopy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "遺跡",
       "reading": "イセキ",
-      "reference": 897
+      "reference": 897,
+      "meaning": "ruiny"
     }
   ],
   "additionalWords": []

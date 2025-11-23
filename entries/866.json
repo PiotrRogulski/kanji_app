@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "棒",
-      "reading": "ボウ"
+      "reading": "ボウ",
+      "meaning": "kij"
     },
     {
       "kanji": "泥棒",
-      "reading": "どろボウ"
+      "reading": "どろボウ",
+      "meaning": "złodziej"
     },
     {
       "kanji": "用心棒",
-      "reading": "ヨウジンボウ"
+      "reading": "ヨウジンボウ",
+      "meaning": "ochroniarz"
     }
   ],
   "wordsRequiredLater": [],
