@@ -133,26 +133,26 @@ packages:
     dependency: transitive
     description:
       name: cached_query
-      sha256: "93bdf1780178bf720e5a49cc6e66f5d4430542d27f53fb234c94a2a5d200ff0f"
+      sha256: "00cd1692bd04ee1ab3afd1dbfd00ed6948121c57f2142373f1647f56c9b5a9e1"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
+    version: "3.3.1"
   cached_query_flutter:
     dependency: "direct main"
     description:
       name: cached_query_flutter
-      sha256: "7962c91a02df8459b792833536c23ad477150d6fe8f3ac9697527a6bf5b61509"
+      sha256: "6f346705200f4439f67b58d3b14dc8b54f01243e64892f5dcaf8f3e0cc268f8c"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
+    version: "3.3.1"
   cached_storage:
     dependency: "direct main"
     description:
       name: cached_storage
-      sha256: "6bfb992b47d3c5d00fcf58f26fbc21ad3390e2e89dc4b0160ce161ee25106712"
+      sha256: "3897db8bdd451372c0f7f9c3c02044f78f29d5cd659b01d3bb9655db3ed75476"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.4"
+    version: "3.2.1"
   characters:
     dependency: "direct dev"
     description:
@@ -469,10 +469,10 @@ packages:
     dependency: "direct dev"
     description:
       name: go_router_builder
-      sha256: e0646fb5586e04e1df92678f539059f38e4314848f06dd4f3cd87fed434e16b5
+      sha256: "07215ebe9d458cc2426f271a6443dbe5ee35cc313088064e013378614453f50a"
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.1"
+    version: "4.1.2"
   graphs:
     dependency: transitive
     description:
@@ -971,10 +971,10 @@ packages:
     dependency: "direct main"
     description:
       name: sqflite_common_ffi_web
-      sha256: "793c1ff5b0c95ac618e7731e209db99e96abff59ad3432a3c91bd2b1454a00d5"
+      sha256: "3c9aed6393dc0c790d514537bca9f982952c516b2c88706f475316046a10df4b"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1+2"
+    version: "1.1.0"
   sqflite_darwin:
     dependency: transitive
     description:
@@ -995,10 +995,10 @@ packages:
     dependency: transitive
     description:
       name: sqlite3
-      sha256: "4fd811bd46d2191ff06fed74d7f1ab8be94944ff75dcb5486c052d1769118476"
+      sha256: "0374add4094d34fcf9d22068b6ddb4056782353ad4a5449bc5b71c5f2175f0ec"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.1"
+    version: "3.1.1"
   stack_trace:
     dependency: transitive
     description:
@@ -1264,5 +1264,5 @@ packages:
     source: hosted
     version: "2.2.2"
 sdks:
-  dart: "3.11.0-163.0.dev"
-  flutter: "3.39.0-1.0.pre-264"
+  dart: ">=3.11.0-189.0.dev <4.0.0"
+  flutter: ">=3.39.0-1.0.pre-339 <4.0.0"
