@@ -145,7 +145,7 @@ class FlashcardsPlayScreen extends HookWidget {
                             Opacity(
                               opacity: eased,
                               child: Transform.translate(
-                                offset: const Offset(0, 10),
+                                offset: const .new(0, 10),
                                 child: Transform.scale(
                                   scale: 0.95,
                                   alignment: .bottomCenter,
@@ -158,7 +158,7 @@ class FlashcardsPlayScreen extends HookWidget {
                               ),
                             ),
                           Transform.translate(
-                            offset: Offset(0, level2Dy),
+                            offset: .new(0, level2Dy),
                             child: Transform.scale(
                               scale: level2Scale,
                               alignment: .bottomCenter,
@@ -305,10 +305,7 @@ class FlashcardView extends HookWidget {
       }
 
       void listener(AnimationStatus status) {
-        onFlipInProgressChange!.call(
-          status == AnimationStatus.forward ||
-              status == AnimationStatus.reverse,
-        );
+        onFlipInProgressChange!.call(status == .forward || status == .reverse);
       }
 
       controller.addStatusListener(listener);
