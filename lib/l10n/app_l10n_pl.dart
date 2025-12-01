@@ -9,10 +9,40 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
+  String get common_back => 'Wróć';
+
+  @override
   String get common_scrollToTop => 'Przewiń do góry';
 
   @override
   String get common_search => 'Szukaj';
+
+  @override
+  String get flashcards_emptyDeck => 'Brak kart w wybranym zakresie';
+
+  @override
+  String get flashcards_end => 'Koniec!';
+
+  @override
+  String get flashcards_mode => 'Tryb';
+
+  @override
+  String get flashcards_modeKanji => 'Znaki';
+
+  @override
+  String get flashcards_modeMixed => 'Wszystko';
+
+  @override
+  String get flashcards_modeWords => 'Słowa';
+
+  @override
+  String get flashcards_selectRange => 'Wybierz zakres';
+
+  @override
+  String get flashcards_start => 'Rozpocznij';
+
+  @override
+  String get flashcards_title => 'Fiszki';
 
   @override
   String get kanjiDetails_strokeOrderNotAvailable =>

@@ -94,6 +94,12 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[Locale('pl')];
 
+  /// No description provided for @common_back.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wróć'**
+  String get common_back;
+
   /// No description provided for @common_scrollToTop.
   ///
   /// In pl, this message translates to:
@@ -105,6 +111,60 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Szukaj'**
   String get common_search;
+
+  /// No description provided for @flashcards_emptyDeck.
+  ///
+  /// In pl, this message translates to:
+  /// **'Brak kart w wybranym zakresie'**
+  String get flashcards_emptyDeck;
+
+  /// No description provided for @flashcards_end.
+  ///
+  /// In pl, this message translates to:
+  /// **'Koniec!'**
+  String get flashcards_end;
+
+  /// No description provided for @flashcards_mode.
+  ///
+  /// In pl, this message translates to:
+  /// **'Tryb'**
+  String get flashcards_mode;
+
+  /// No description provided for @flashcards_modeKanji.
+  ///
+  /// In pl, this message translates to:
+  /// **'Znaki'**
+  String get flashcards_modeKanji;
+
+  /// No description provided for @flashcards_modeMixed.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wszystko'**
+  String get flashcards_modeMixed;
+
+  /// No description provided for @flashcards_modeWords.
+  ///
+  /// In pl, this message translates to:
+  /// **'Słowa'**
+  String get flashcards_modeWords;
+
+  /// No description provided for @flashcards_selectRange.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wybierz zakres'**
+  String get flashcards_selectRange;
+
+  /// No description provided for @flashcards_start.
+  ///
+  /// In pl, this message translates to:
+  /// **'Rozpocznij'**
+  String get flashcards_start;
+
+  /// No description provided for @flashcards_title.
+  ///
+  /// In pl, this message translates to:
+  /// **'Fiszki'**
+  String get flashcards_title;
 
   /// No description provided for @kanjiDetails_strokeOrderNotAvailable.
   ///
