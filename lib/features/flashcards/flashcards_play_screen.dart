@@ -105,16 +105,25 @@ class FlashcardsPlayScreen extends HookWidget {
               ),
               if (animationState.outgoingItem.value case final outgoing?)
                 IgnorePointer(
-                  child: CurrentFlashcard(
-                    item: outgoing,
-                    dragOffset: animationState.outgoingOffset.value,
-                    dismissProgress:
-                        min(
-                          animationState.outgoingOffset.value.distance,
+                  child: Opacity(
+                    opacity:
+                        (1 -
+                                (animationState.outgoingOffset.value -
+                                            animationState.animationStart.value)
+                                        .distance /
+                                    dismissDistance)
+                            .clamp(0.0, 1.0),
+                    child: CurrentFlashcard(
+                      item: outgoing,
+                      dragOffset: animationState.outgoingOffset.value,
+                      dismissProgress:
+                          min(
+                            animationState.outgoingOffset.value.distance,
+                            dismissDistance,
+                          ) /
                           dismissDistance,
-                        ) /
-                        dismissDistance,
-                    onFlipInProgressChange: (_) {},
+                      onFlipInProgressChange: (_) {},
+                    ),
                   ),
                 ),
             ],
