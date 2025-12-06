@@ -12,28 +12,26 @@ List<FlashcardItem> useDeck({
   final context = useContext();
   final kanjiData = context.watch<KanjiData>();
 
-  return useMemoized(() {
-    final entries = kanjiData.entries.where(
-      (e) => e.id >= startId && e.id <= endId,
-    );
-
-    return [
-      for (final entry in entries) ...[
-        if (mode case .kanji || .mixed)
-          .new(
-            frontText: entry.kanji,
-            backText: entry.readings.join('\n'),
-            type: .kanji,
-          ),
-        if (mode case .words || .mixed)
-          for (final word in entry.wordsRequiredNow)
+  return useMemoized(
+    () => [
+      for (final entry in kanjiData.entries)
+        if (entry.id >= startId && entry.id <= endId) ...[
+          if (mode case .kanji || .mixed)
             .new(
-              frontText: word.kanji.isNotEmpty ? word.kanji : word.reading,
-              backText: word.meaning,
-              subTextBack: word.reading,
-              type: .word,
+              frontText: entry.kanji,
+              backText: entry.readings.join('\n'),
+              type: .kanji,
             ),
-      ],
-    ]..shuffle();
-  }, [startId, endId, mode, kanjiData]);
+          if (mode case .words || .mixed)
+            for (final word in entry.wordsRequiredNow)
+              .new(
+                frontText: word.kanji.isNotEmpty ? word.kanji : word.reading,
+                backText: word.meaning,
+                subTextBack: word.reading,
+                type: .word,
+              ),
+        ],
+    ]..shuffle(),
+    [startId, endId, mode, kanjiData],
+  );
 }
