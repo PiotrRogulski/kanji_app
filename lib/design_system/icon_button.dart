@@ -29,24 +29,7 @@ class AppIconButton extends StatelessWidget {
         onTap: onPressed,
         child: AppPadding(
           padding: iconPadding ?? const .all(.small),
-          child: AnimatedSwitcher(
-            duration: Durations.medium1,
-            switchInCurve: Curves.easeInOutCubicEmphasized,
-            switchOutCurve: Curves.easeInOutCubicEmphasized.flipped,
-            transitionBuilder: (child, animation) {
-              return FadeTransition(
-                opacity: animation,
-                child: ScaleTransition(scale: animation, child: child),
-              );
-            },
-            child: AppIcon(
-              key: ValueKey(icon),
-              icon,
-              size: iconSize,
-              color: color,
-              fill: fill,
-            ),
-          ),
+          child: AppIcon(icon, size: iconSize, color: color, fill: fill),
         ),
       ),
     );

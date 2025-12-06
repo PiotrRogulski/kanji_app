@@ -19,30 +19,27 @@ class FlashcardDismissIndicator extends HookWidget {
         : colorScheme.primary;
     final indicatorColor = useColorSpring(color);
 
+    final armedScale = useValueSpring(
+      dismissProgress >= 1 ? 1.25 : 1,
+      ratio: 0.5,
+      stiffness: 1000,
+    );
+
     return Opacity(
       opacity: dismissProgress,
       child: Transform.scale(
-        scale: lerpDouble(0.5, 1, dismissProgress),
+        scale: lerpDouble(0.5, 1, dismissProgress)! * armedScale,
         child: Container(
           padding: const AppEdgeInsets.all(.small),
           decoration: BoxDecoration(
-            color: indicatorColor.withValues(
-              alpha: 0.12 + 0.18 * dismissProgress,
-            ),
+            color: indicatorColor,
             shape: .circle,
             border: Border.all(color: indicatorColor, width: 2),
-            boxShadow: [
-              BoxShadow(
-                color: indicatorColor.withValues(alpha: 0.35 * dismissProgress),
-                blurRadius: 16,
-                spreadRadius: 2,
-              ),
-            ],
           ),
           child: AppIcon(
             dismissProgress == 1 ? .check : .arrowOutward,
-            size: .xlarge,
-            color: color,
+            size: AppUnit.xlarge * 2,
+            color: colorScheme.onPrimary,
           ),
         ),
       ),

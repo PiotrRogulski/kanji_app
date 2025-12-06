@@ -32,13 +32,25 @@ class AppIcon extends HookWidget {
     );
     final color = useColorSpring(this.color ?? IconTheme.of(context).color!);
 
-    return Icon(
-      icon,
-      size: size,
-      opticalSize: size,
-      color: color,
-      fill: fill,
-      weight: weight,
+    return AnimatedSwitcher(
+      duration: Durations.medium1,
+      switchInCurve: Curves.easeInOutCubicEmphasized,
+      switchOutCurve: Curves.easeInOutCubicEmphasized.flipped,
+      transitionBuilder: (child, animation) {
+        return FadeTransition(
+          opacity: animation,
+          child: ScaleTransition(scale: animation, child: child),
+        );
+      },
+      child: Icon(
+        key: ValueKey(icon),
+        icon,
+        size: size,
+        opticalSize: size,
+        color: color,
+        fill: fill,
+        weight: weight,
+      ),
     );
   }
 }

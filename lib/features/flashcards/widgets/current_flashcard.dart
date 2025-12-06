@@ -22,7 +22,7 @@ class CurrentFlashcard extends StatelessWidget {
     final t = Curves.easeOut.transform(dismissProgress);
     final angle = 0.06 * (dragOffset.dx / 200);
     final scale = 1.0 - 0.05 * t;
-    final opacity = 1.0 - 0.25 * t;
+    final opacity = 1.0 - 0.1 * t;
 
     return Transform.translate(
       offset: dragOffset,
