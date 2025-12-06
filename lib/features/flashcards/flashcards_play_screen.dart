@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
 import 'package:kanji_app/features/flashcards/use_deck.dart';
 import 'package:kanji_app/features/flashcards/widgets/current_flashcard.dart';
@@ -47,19 +48,27 @@ class FlashcardsPlayScreen extends HookWidget {
     final animationEnd = useState(Offset.zero);
     final isAnimatingOut = useState(false);
 
+    final outgoingItem = useState<FlashcardItem?>(null);
+    final outgoingOffset = useState(Offset.zero);
+
     useEffect(() {
       void listener() {
-        dragOffset.value = .lerp(
+        final value = Offset.lerp(
           animationStart.value,
           animationEnd.value,
           animationController.value,
         )!;
+        if (isAnimatingOut.value) {
+          outgoingOffset.value = value;
+        } else {
+          dragOffset.value = value;
+        }
       }
 
       void statusListener(AnimationStatus status) {
         if (status == .completed && isAnimatingOut.value) {
-          currentIndex.value++;
-          dragOffset.value = .zero;
+          outgoingItem.value = null;
+          outgoingOffset.value = .zero;
           isAnimatingOut.value = false;
         }
       }
@@ -135,6 +144,10 @@ class FlashcardsPlayScreen extends HookWidget {
                 hasCrossedThreshold: hasCrossedThreshold,
                 animationStart: animationStart,
                 animationEnd: animationEnd,
+                currentIndex: currentIndex,
+                deck: deck,
+                outgoingItem: outgoingItem,
+                outgoingOffset: outgoingOffset,
                 child: CurrentFlashcard(
                   item: deck[currentIndex.value],
                   dragOffset: dragOffset.value,
@@ -145,6 +158,17 @@ class FlashcardsPlayScreen extends HookWidget {
                       flipInProgress.value = value,
                 ),
               ),
+              if (outgoingItem.value case final outgoing?)
+                IgnorePointer(
+                  child: CurrentFlashcard(
+                    item: outgoing,
+                    dragOffset: outgoingOffset.value,
+                    dismissProgress:
+                        min(outgoingOffset.value.distance, _dismissDistance) /
+                        _dismissDistance,
+                    onFlipInProgressChange: (_) {},
+                  ),
+                ),
             ],
           ),
         ),
@@ -163,6 +187,10 @@ class FlashcardGestures extends StatelessWidget {
     required this.hasCrossedThreshold,
     required this.animationStart,
     required this.animationEnd,
+    required this.currentIndex,
+    required this.deck,
+    required this.outgoingItem,
+    required this.outgoingOffset,
     required this.child,
   });
 
@@ -173,6 +201,10 @@ class FlashcardGestures extends StatelessWidget {
   final ValueNotifier<bool> hasCrossedThreshold;
   final ValueNotifier<Offset> animationStart;
   final ValueNotifier<Offset> animationEnd;
+  final ValueNotifier<int> currentIndex;
+  final List<FlashcardItem> deck;
+  final ValueNotifier<FlashcardItem?> outgoingItem;
+  final ValueNotifier<Offset> outgoingOffset;
   final Widget child;
 
   @override
@@ -181,8 +213,9 @@ class FlashcardGestures extends StatelessWidget {
       if (flipInProgress.value) {
         return;
       }
-      animationController.stop();
-      isAnimatingOut.value = false;
+      if (!isAnimatingOut.value) {
+        animationController.stop();
+      }
       hasCrossedThreshold.value = false;
     }
 
@@ -221,6 +254,8 @@ class FlashcardGestures extends StatelessWidget {
         animationStart.value = dragOffset.value;
         animationEnd.value = dragOffset.value + direction * 800.0;
         isAnimatingOut.value = true;
+        outgoingItem.value = deck[currentIndex.value];
+        outgoingOffset.value = animationStart.value;
         final path = animationEnd.value - animationStart.value;
         final pathLen = path.distance;
         double initialVelocityT = 0;
@@ -233,6 +268,9 @@ class FlashcardGestures extends StatelessWidget {
         animationController.animateWith(
           SpringSimulation(_spring, 0, 1, initialVelocityT),
         );
+
+        dragOffset.value = .zero;
+        currentIndex.value++;
       } else {
         animationStart.value = dragOffset.value;
         animationEnd.value = .zero;
