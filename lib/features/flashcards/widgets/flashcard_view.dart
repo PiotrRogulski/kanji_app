@@ -117,7 +117,7 @@ class FlashcardView extends HookWidget {
                               child: Text(
                                 item.frontText,
                                 style: theme.textTheme.displayLarge?.copyWith(
-                                  fontSize: item.type == .kanji ? 140 : 56,
+                                  fontSize: item.type == .kanji ? 140 : 80,
                                 ),
                                 textAlign: .center,
                               ),
