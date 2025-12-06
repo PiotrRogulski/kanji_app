@@ -1,14 +1,17 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/physics.dart';
-import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
+import 'package:flutter/services.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
-import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/features/flashcards/use_deck.dart';
+import 'package:kanji_app/features/flashcards/widgets/current_flashcard.dart';
+import 'package:kanji_app/features/flashcards/widgets/next_flashcards.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
-import 'package:provider/provider.dart';
+
+const _dismissDistance = 200.0;
+const _minVelocity = 800.0;
 
 class FlashcardsPlayScreen extends HookWidget {
   const FlashcardsPlayScreen({
@@ -25,32 +28,8 @@ class FlashcardsPlayScreen extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
-    final kanjiData = context.watch<KanjiData>();
 
-    final deck = useMemoized(() {
-      final entries = kanjiData.entries.where(
-        (e) => e.id >= startId && e.id <= endId,
-      );
-
-      return <FlashcardItem>[
-        for (final entry in entries) ...[
-          if (mode case .kanji || .mixed)
-            .new(
-              frontText: entry.kanji,
-              backText: entry.readings.join('\n'),
-              type: .kanji,
-            ),
-          if (mode case .words || .mixed)
-            for (final word in entry.wordsRequiredNow)
-              .new(
-                frontText: word.kanji.isNotEmpty ? word.kanji : word.reading,
-                backText: word.meaning,
-                subTextBack: word.reading,
-                type: .word,
-              ),
-        ],
-      ]..shuffle();
-    }, [startId, endId, mode, kanjiData]);
+    final deck = useDeck(startId: startId, endId: endId, mode: mode);
 
     final currentIndex = useState(0);
     final dragOffset = useState(Offset.zero);
@@ -65,7 +44,7 @@ class FlashcardsPlayScreen extends HookWidget {
 
     useEffect(() {
       void listener() {
-        final t = Curves.easeOutBack.transform(animationController.value);
+        final t = Curves.decelerate.transform(animationController.value);
         dragOffset.value = .lerp(animationStart.value, animationEnd.value, t)!;
       }
 
@@ -87,6 +66,8 @@ class FlashcardsPlayScreen extends HookWidget {
           ..removeStatusListener(statusListener);
       };
     }, [animationController, animationStart.value, animationEnd.value]);
+
+    final hasCrossedThreshold = useState(false);
 
     if (deck.isEmpty) {
       return Scaffold(
@@ -129,133 +110,31 @@ class FlashcardsPlayScreen extends HookWidget {
             children: [
               if (currentIndex.value + 1 < deck.length)
                 IgnorePointer(
-                  child: Builder(
-                    builder: (context) {
-                      final distance = dragOffset.value.distance.clamp(0, 200);
-                      final eased = Curves.easeOut.transform(distance / 200);
-
-                      final level2Dy = 10 * (1 - eased);
-                      final level2Scale = 0.95 + 0.05 * eased;
-
-                      final hasThird = currentIndex.value + 2 < deck.length;
-
-                      return Stack(
-                        children: [
-                          if (hasThird)
-                            Opacity(
-                              opacity: eased,
-                              child: Transform.translate(
-                                offset: const .new(0, 10),
-                                child: Transform.scale(
-                                  scale: 0.95,
-                                  alignment: .bottomCenter,
-                                  child: FlashcardView(
-                                    key: ValueKey(deck[currentIndex.value + 2]),
-                                    item: deck[currentIndex.value + 2],
-                                    hideContent: flipInProgress.value,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          Transform.translate(
-                            offset: .new(0, level2Dy),
-                            child: Transform.scale(
-                              scale: level2Scale,
-                              alignment: .bottomCenter,
-                              child: FlashcardView(
-                                key: ValueKey(deck[currentIndex.value + 1]),
-                                item: deck[currentIndex.value + 1],
-                                hideContent: flipInProgress.value,
-                              ),
-                            ),
-                          ),
-                        ],
-                      );
-                    },
+                  child: NextFlashcards(
+                    deck: deck,
+                    currentIndex: currentIndex.value,
+                    dismissProgress:
+                        min(dragOffset.value.distance, _dismissDistance) /
+                        _dismissDistance,
+                    flipInProgress: flipInProgress.value,
                   ),
                 ),
-              GestureDetector(
-                onPanStart: (_) {
-                  if (flipInProgress.value) {
-                    return;
-                  }
-                  animationController.stop();
-                  isAnimatingOut.value = false;
-                },
-                onPanUpdate: (details) {
-                  if (flipInProgress.value) {
-                    return;
-                  }
-                  dragOffset.value += details.delta;
-                },
-                onPanEnd: (details) {
-                  final velocity = details.velocity.pixelsPerSecond;
-                  final distance = dragOffset.value.distance;
-                  final velocityMagnitude = velocity.distance;
-
-                  const dismissDistance = 180.0;
-                  const minVelocity = 800.0;
-
-                  final shouldDismiss =
-                      distance > dismissDistance ||
-                      velocityMagnitude > minVelocity;
-
-                  if (shouldDismiss) {
-                    final direction = () {
-                      if (distance > 0) {
-                        return dragOffset.value / distance;
-                      }
-                      if (velocityMagnitude > 0) {
-                        return velocity / velocityMagnitude;
-                      }
-                      return const Offset(1, 0);
-                    }();
-
-                    animationStart.value = dragOffset.value;
-                    animationEnd.value = dragOffset.value + direction * 800.0;
-                    isAnimatingOut.value = true;
-                    animationController
-                      ..value = 0
-                      ..forward();
-                  } else {
-                    animationStart.value = dragOffset.value;
-                    animationEnd.value = .zero;
-                    isAnimatingOut.value = false;
-                    animationController
-                      ..value = 0
-                      ..forward();
-                  }
-                },
-                child: Builder(
-                  builder: (context) {
-                    final distance = dragOffset.value.distance.clamp(
-                      0.0,
-                      200.0,
-                    );
-                    final t = Curves.easeOut.transform(distance / 200);
-                    final angle = 0.06 * (dragOffset.value.dx / 200);
-                    final scale = 1.0 - 0.05 * t;
-                    final opacity = 1.0 - 0.25 * t;
-
-                    return Transform.translate(
-                      offset: dragOffset.value,
-                      child: Transform.rotate(
-                        angle: angle,
-                        child: Transform.scale(
-                          scale: scale,
-                          child: Opacity(
-                            opacity: opacity,
-                            child: FlashcardView(
-                              key: ValueKey(deck[currentIndex.value]),
-                              item: deck[currentIndex.value],
-                              onFlipInProgressChange: (value) =>
-                                  flipInProgress.value = value,
-                            ),
-                          ),
-                        ),
-                      ),
-                    );
-                  },
+              FlashcardGestures(
+                animationController: animationController,
+                dragOffset: dragOffset,
+                flipInProgress: flipInProgress,
+                isAnimatingOut: isAnimatingOut,
+                hasCrossedThreshold: hasCrossedThreshold,
+                animationStart: animationStart,
+                animationEnd: animationEnd,
+                child: CurrentFlashcard(
+                  item: deck[currentIndex.value],
+                  dragOffset: dragOffset.value,
+                  dismissProgress:
+                      min(dragOffset.value.distance, _dismissDistance) /
+                      _dismissDistance,
+                  onFlipInProgressChange: (value) =>
+                      flipInProgress.value = value,
                 ),
               ),
             ],
@@ -266,165 +145,94 @@ class FlashcardsPlayScreen extends HookWidget {
   }
 }
 
-enum FlashcardType { kanji, word }
-
-class FlashcardItem {
-  FlashcardItem({
-    required this.frontText,
-    required this.backText,
-    this.subTextBack,
-    required this.type,
-  });
-
-  final String frontText;
-  final String backText;
-  final String? subTextBack;
-  final FlashcardType type;
-}
-
-class FlashcardView extends HookWidget {
-  const FlashcardView({
+class FlashcardGestures extends StatelessWidget {
+  const FlashcardGestures({
     super.key,
-    required this.item,
-    this.onFlipInProgressChange,
-    this.hideContent = false,
+    required this.animationController,
+    required this.dragOffset,
+    required this.flipInProgress,
+    required this.isAnimatingOut,
+    required this.hasCrossedThreshold,
+    required this.animationStart,
+    required this.animationEnd,
+    required this.child,
   });
 
-  final FlashcardItem item;
-  final ValueChanged<bool>? onFlipInProgressChange;
-  final bool hideContent;
+  final AnimationController animationController;
+  final ValueNotifier<Offset> dragOffset;
+  final ValueNotifier<bool> flipInProgress;
+  final ValueNotifier<bool> isAnimatingOut;
+  final ValueNotifier<bool> hasCrossedThreshold;
+  final ValueNotifier<Offset> animationStart;
+  final ValueNotifier<Offset> animationEnd;
+  final Widget child;
 
   @override
   Widget build(BuildContext context) {
-    final controller = useUnboundedAnimationController();
-    final isFlipped = useState(false);
+    void onPanStart(DragStartDetails details) {
+      if (flipInProgress.value) {
+        return;
+      }
+      animationController.stop();
+      isAnimatingOut.value = false;
+      hasCrossedThreshold.value = false;
+    }
 
-    useEffect(() {
-      if (onFlipInProgressChange == null) {
-        return null;
+    void onPanUpdate(DragUpdateDetails details) {
+      if (flipInProgress.value) {
+        return;
+      }
+      dragOffset.value += details.delta;
+
+      final distanceNow = dragOffset.value.distance;
+      final crossed = distanceNow > _dismissDistance;
+      if (crossed != hasCrossedThreshold.value) {
+        hasCrossedThreshold.value = crossed;
+        HapticFeedback.lightImpact();
+      }
+    }
+
+    void onPanEnd(DragEndDetails details) {
+      final velocity = details.velocity.pixelsPerSecond;
+      final distance = dragOffset.value.distance;
+      final velocityMagnitude = velocity.distance;
+
+      final shouldDismiss =
+          distance > _dismissDistance || velocityMagnitude > _minVelocity;
+
+      if (shouldDismiss) {
+        final Offset direction;
+        if (velocityMagnitude > _minVelocity) {
+          direction = velocity / velocityMagnitude;
+        } else if (distance > 0) {
+          direction = dragOffset.value / distance;
+        } else {
+          direction = const Offset(1, 0);
+        }
+
+        animationStart.value = dragOffset.value;
+        animationEnd.value = dragOffset.value + direction * 800.0;
+        isAnimatingOut.value = true;
+        animationController
+          ..value = 0
+          ..forward();
+      } else {
+        animationStart.value = dragOffset.value;
+        animationEnd.value = .zero;
+        isAnimatingOut.value = false;
+        animationController
+          ..value = 0
+          ..forward();
       }
 
-      void listener(AnimationStatus status) {
-        onFlipInProgressChange!.call(status == .forward || status == .reverse);
-      }
-
-      controller.addStatusListener(listener);
-
-      return () => controller.removeStatusListener(listener);
-    }, [controller, onFlipInProgressChange]);
+      hasCrossedThreshold.value = false;
+    }
 
     return GestureDetector(
-      onTap: () {
-        final spring = SpringDescription.withDampingRatio(
-          mass: 1,
-          stiffness: 300,
-          ratio: 0.8,
-        );
-        if (isFlipped.value) {
-          controller.animateWith(
-            SpringSimulation(spring, controller.value, 0, 0, snapToEnd: true),
-          );
-        } else {
-          controller.animateWith(
-            SpringSimulation(spring, controller.value, 1, 0, snapToEnd: true),
-          );
-        }
-        isFlipped.value = !isFlipped.value;
-      },
-      child: AnimatedBuilder(
-        animation: controller,
-        builder: (context, child) {
-          final angle = controller.value * pi;
-          final isBackVisible = controller.value >= 0.5;
-
-          var transform = Matrix4.identity()
-            ..setEntry(3, 2, 0.001)
-            ..rotateY(angle);
-
-          if (isBackVisible) {
-            transform = Matrix4.identity()
-              ..setEntry(3, 2, 0.001)
-              ..rotateY(angle + pi);
-          }
-
-          return Transform(
-            transform: transform,
-            alignment: .center,
-            child: isBackVisible
-                ? _buildSide(context, isFront: false)
-                : _buildSide(context, isFront: true),
-          );
-        },
-      ),
-    );
-  }
-
-  Widget _buildSide(BuildContext context, {required bool isFront}) {
-    final theme = Theme.of(context);
-
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        final cardWidth = constraints.maxWidth.clamp(280.0, 600.0);
-        final cardHeight = constraints.maxHeight.clamp(260.0, 1600.0);
-
-        return Center(
-          child: Card(
-            key: ValueKey(isFront),
-            elevation: 6,
-            shape: RoundedRectangleBorder(
-              borderRadius: AppBorderRadius.circular(.large),
-            ),
-            child: SizedBox(
-              width: cardWidth,
-              height: cardHeight,
-              child: AppPadding(
-                padding: const .all(.xlarge),
-                child: Opacity(
-                  opacity: hideContent ? 0 : 1,
-                  child: Column(
-                    crossAxisAlignment: .stretch,
-                    mainAxisAlignment: .center,
-                    children: [
-                      if (isFront)
-                        Expanded(
-                          child: Center(
-                            child: FittedBox(
-                              child: Text(
-                                item.frontText,
-                                style: theme.textTheme.displayLarge?.copyWith(
-                                  fontSize: item.type == .kanji ? 140 : 56,
-                                ),
-                                textAlign: .center,
-                              ),
-                            ),
-                          ),
-                        )
-                      else ...[
-                        Center(
-                          child: Text(
-                            item.backText,
-                            style: theme.textTheme.headlineLarge,
-                            textAlign: .center,
-                          ),
-                        ),
-                        AppUnit.medium.gap,
-                        if (item.subTextBack case final subTextBack?)
-                          Text(
-                            subTextBack,
-                            style: theme.textTheme.titleLarge?.copyWith(
-                              color: theme.colorScheme.primary,
-                            ),
-                            textAlign: .center,
-                          ),
-                      ],
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ),
-        );
-      },
+      onPanStart: onPanStart,
+      onPanUpdate: onPanUpdate,
+      onPanEnd: onPanEnd,
+      child: child,
     );
   }
 }
