@@ -1,7 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
+import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
@@ -12,6 +14,11 @@ import 'package:leancode_hooks/leancode_hooks.dart';
 
 const _dismissDistance = 200.0;
 const _minVelocity = 800.0;
+final _spring = SpringDescription.withDampingRatio(
+  mass: 1,
+  stiffness: 800,
+  ratio: 0.5,
+);
 
 class FlashcardsPlayScreen extends HookWidget {
   const FlashcardsPlayScreen({
@@ -35,17 +42,18 @@ class FlashcardsPlayScreen extends HookWidget {
     final dragOffset = useState(Offset.zero);
     final flipInProgress = useState(false);
 
-    final animationController = useAnimationController(
-      duration: Durations.medium3,
-    );
+    final animationController = useUnboundedAnimationController();
     final animationStart = useState(Offset.zero);
     final animationEnd = useState(Offset.zero);
     final isAnimatingOut = useState(false);
 
     useEffect(() {
       void listener() {
-        final t = Curves.decelerate.transform(animationController.value);
-        dragOffset.value = .lerp(animationStart.value, animationEnd.value, t)!;
+        dragOffset.value = .lerp(
+          animationStart.value,
+          animationEnd.value,
+          animationController.value,
+        )!;
       }
 
       void statusListener(AnimationStatus status) {
@@ -213,16 +221,34 @@ class FlashcardGestures extends StatelessWidget {
         animationStart.value = dragOffset.value;
         animationEnd.value = dragOffset.value + direction * 800.0;
         isAnimatingOut.value = true;
-        animationController
-          ..value = 0
-          ..forward();
+        final path = animationEnd.value - animationStart.value;
+        final pathLen = path.distance;
+        double initialVelocityT = 0;
+        if (pathLen > 0) {
+          final dir = path / pathLen;
+          initialVelocityT =
+              (velocity.dx * dir.dx + velocity.dy * dir.dy) / pathLen;
+        }
+        animationController.value = 0;
+        animationController.animateWith(
+          SpringSimulation(_spring, 0, 1, initialVelocityT),
+        );
       } else {
         animationStart.value = dragOffset.value;
         animationEnd.value = .zero;
         isAnimatingOut.value = false;
-        animationController
-          ..value = 0
-          ..forward();
+        final path = animationEnd.value - animationStart.value;
+        final pathLen = path.distance;
+        double initialVelocityT = 0;
+        if (pathLen > 0) {
+          final dir = path / pathLen;
+          initialVelocityT =
+              (velocity.dx * dir.dx + velocity.dy * dir.dy) / pathLen;
+        }
+        animationController.value = 0;
+        animationController.animateWith(
+          SpringSimulation(_spring, 0, 1, initialVelocityT),
+        );
       }
 
       hasCrossedThreshold.value = false;
