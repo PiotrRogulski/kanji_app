@@ -1,15 +1,14 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
+import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
 const _bubbleSize = 64.0;
-const _unarmedScale = 0.75;
 const _triggerThreshold = 100.0;
 
 class KanjiSwipeSwitcher extends HookWidget {
@@ -29,49 +28,32 @@ class KanjiSwipeSwitcher extends HookWidget {
     final previousEntry = kanjiData.get(entry.id - 1);
     final nextEntry = kanjiData.get(entry.id + 1);
 
-    final tickerProvider = useSingleTickerProvider();
-    final dragOffsetController = useDisposable(
-      builder: () => AnimationController.unbounded(vsync: tickerProvider),
-      dispose: (controller) => controller.dispose(),
-      keys: [tickerProvider],
-    );
+    final rawDragOffset = useState<double>(0);
+    final dragOffset = useValueSpring(rawDragOffset.value, stiffness: 5000);
 
     void onDragEnd() {
-      if (dragOffsetController.value > _triggerThreshold &&
-          previousEntry != null) {
+      if (rawDragOffset.value > _triggerThreshold && previousEntry != null) {
         KanjiDetailsRoute(previousEntry.id).go(context);
-      } else if (dragOffsetController.value < -_triggerThreshold &&
+      } else if (rawDragOffset.value < -_triggerThreshold &&
           nextEntry != null) {
         KanjiDetailsRoute(nextEntry.id).go(context);
       }
-      dragOffsetController.animateWith(
-        SpringSimulation(
-          SpringDescription.withDurationAndBounce(duration: Durations.medium1),
-          dragOffsetController.value,
-          0,
-          1,
-        ),
-      );
+      rawDragOffset.value = 0;
     }
-
-    final offset = useListenableSelector(
-      dragOffsetController,
-      () => dragOffsetController.value,
-    );
 
     return GestureDetector(
       onHorizontalDragUpdate: (details) {
-        dragOffsetController.value += details.delta.dx;
+        rawDragOffset.value += details.delta.dx;
       },
       onHorizontalDragCancel: onDragEnd,
       onHorizontalDragEnd: (_) => onDragEnd(),
       child: Stack(
         children: [
           Positioned.fill(child: child),
-          if (previousEntry != null && offset > 0)
-            _PositionedKanjiPreview(previousEntry, offset),
-          if (nextEntry != null && offset < 0)
-            _PositionedKanjiPreview(nextEntry, offset),
+          if (previousEntry != null && dragOffset > 0)
+            _PositionedKanjiPreview(previousEntry, dragOffset),
+          if (nextEntry != null && dragOffset < 0)
+            _PositionedKanjiPreview(nextEntry, dragOffset),
         ],
       ),
     );
@@ -109,36 +91,25 @@ class _KanjiPreviewBubble extends HookWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    final tickerProvider = useSingleTickerProvider();
-    final scaleController = useDisposable(
-      builder: () => AnimationController.unbounded(
-        vsync: tickerProvider,
-        value: _unarmedScale,
-      ),
-      dispose: (controller) => controller.dispose(),
-      keys: [tickerProvider],
-    );
-
     final isArmed = percentArmed == 1;
-    useValueChanged<bool, void>(isArmed, (_, _) {
-      if (isArmed) {
-        HapticFeedback.vibrate();
-      }
-      scaleController.animateBubble(forward: isArmed);
-    });
+    useValueChanged(
+      isArmed,
+      (_, _) => isArmed ? HapticFeedback.vibrate() : null,
+    );
+    final scale = useValueSpring(isArmed ? 1 : 0.75, ratio: 0.5);
 
     return Center(
-      child: ScaleTransition(
-        scale: scaleController,
+      child: Transform.scale(
+        scale: scale,
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: sqrt(stretch)),
+          margin: .symmetric(horizontal: sqrt(stretch)),
           width: _bubbleSize,
           height: _bubbleSize,
           decoration: ShapeDecoration(
             shape: const OvalBorder(),
             color: theme.colorScheme.surface.withValues(alpha: 0.25),
             shadows: [
-              BoxShadow(
+              .new(
                 color: Colors.black.withValues(alpha: 0.5 * percentArmed),
                 blurStyle: .outer,
                 blurRadius: 24 * percentArmed,
@@ -172,17 +143,3 @@ List<double> _saturationMatrix(double s) => [
   0            , 0            , 0            , 1, 0,
 ];
 // dart format on
-
-extension on AnimationController {
-  Future<void> animateBubble({required bool forward}) => animateWith(
-    SpringSimulation(
-      SpringDescription.withDurationAndBounce(
-        duration: Durations.medium4,
-        bounce: forward ? 0.75 : 0.5,
-      ),
-      value,
-      forward ? 1 : _unarmedScale,
-      1,
-    ),
-  );
-}

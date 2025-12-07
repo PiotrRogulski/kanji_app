@@ -28,7 +28,7 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
       return Container(
         margin: switch (isSmall) {
-          false => EdgeInsetsDirectional.only(
+          false => .directional(
             top: max(AppUnit.large, viewPadding.top),
             bottom: max(AppUnit.large, viewPadding.bottom),
             end: AppUnit.large,

@@ -40,20 +40,15 @@ class FlashcardView extends HookWidget {
 
     return GestureDetector(
       onTap: () {
-        final spring = SpringDescription.withDampingRatio(
-          mass: 1,
-          stiffness: 300,
-          ratio: 0.8,
+        controller.animateWith(
+          SpringSimulation(
+            .withDampingRatio(mass: 1, stiffness: 300, ratio: 0.8),
+            controller.value,
+            isFlipped.value ? 0 : 1,
+            0,
+            snapToEnd: true,
+          ),
         );
-        if (isFlipped.value) {
-          controller.animateWith(
-            SpringSimulation(spring, controller.value, 0, 0, snapToEnd: true),
-          );
-        } else {
-          controller.animateWith(
-            SpringSimulation(spring, controller.value, 1, 0, snapToEnd: true),
-          );
-        }
         isFlipped.value = !isFlipped.value;
       },
       child: AnimatedBuilder(
