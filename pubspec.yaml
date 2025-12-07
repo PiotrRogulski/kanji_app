@@ -3,8 +3,8 @@ version: 0.1.0
 publish_to: none
 
 environment:
-  sdk: ^3.11.0-189.0.dev
-  flutter: ^3.39.0-1.0.pre-339
+  sdk: ^3.11.0-217.0.dev
+  flutter: ^3.40.0-1.0.pre-54
 
 dependencies:
   archive: ^4.0.7
@@ -44,8 +44,12 @@ dev_dependencies:
   excel:
     git: https://github.com/justkawal/excel
   file: ^7.0.1
-  go_router_builder: ^4.1.2
-  leancode_lint: ^20.0.0-dev.5
+  go_router_builder: ^4.1.3
+  leancode_lint:
+    git:
+      url: https://github.com/leancodepl/flutter_corelibrary
+      path: packages/leancode_lint
+      ref: migrate-lints-to-analysis-server-plugin
 
 dependency_overrides:
   archive: ^4.0.7

@@ -1,11 +1,13 @@
 include: package:leancode_lint/analysis_options.yaml
 
 plugins:
-  leancode_lint: ^20.0.0-dev.5
+  leancode_lint:
+    git:
+      url: https://github.com/leancodepl/flutter_corelibrary
+      path: packages/leancode_lint
+      ref: migrate-lints-to-analysis-server-plugin
 
 analyzer:
-  plugins:
-    - custom_lint
   exclude:
     - '**.g.dart'
 
