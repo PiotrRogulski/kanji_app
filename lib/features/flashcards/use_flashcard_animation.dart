@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
+import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
@@ -25,6 +26,10 @@ class FlashcardAnimationState {
   final ValueNotifier<FlashcardItem?> outgoingItem;
   final ValueNotifier<Offset> outgoingOffset;
   final ValueNotifier<bool> hasCrossedThreshold;
+
+  double get outgoingOpacity =>
+      1 -
+      (outgoingOffset.value - animationStart.value).dismissProgress.clamp(0, 1);
 }
 
 FlashcardAnimationState useFlashcardAnimation() {

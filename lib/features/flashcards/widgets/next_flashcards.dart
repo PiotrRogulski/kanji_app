@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_view.dart';
 
@@ -7,18 +8,18 @@ class NextFlashcards extends StatelessWidget {
     super.key,
     required this.deck,
     required this.currentIndex,
-    required this.dismissProgress,
+    required this.dragOffset,
     required this.flipInProgress,
   });
 
   final List<FlashcardItem> deck;
   final int currentIndex;
-  final double dismissProgress;
+  final Offset dragOffset;
   final bool flipInProgress;
 
   @override
   Widget build(BuildContext context) {
-    final eased = Curves.easeOut.transform(dismissProgress);
+    final eased = Curves.easeOut.transform(dragOffset.dismissProgress);
 
     final level2Dy = 10 * (1 - eased);
     final level2Scale = 0.95 + 0.05 * eased;
