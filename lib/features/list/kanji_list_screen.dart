@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/design_system/search_bar.dart';
 import 'package:kanji_app/extensions.dart';
@@ -20,7 +19,6 @@ class KanjiListScreen extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
-    final theme = Theme.of(context);
 
     final kanjiData = context.read<KanjiData>();
 
@@ -41,84 +39,33 @@ class KanjiListScreen extends HookWidget {
     });
 
     final scrollController = useScrollController();
-    final position = useListenableSelector(
-      scrollController,
-      () => scrollController.hasClients ? scrollController.offset : 0,
-    );
 
-    final viewPadding = MediaQuery.viewPaddingOf(context);
-
-    return Scaffold(
-      floatingActionButtonLocation: .miniCenterFloat,
-      floatingActionButton: position > 0
-          ? FloatingActionButton(
-              onPressed: () {
-                if (position > 500) {
-                  scrollController.jumpTo(500);
-                }
-                scrollController.animateTo(
-                  0,
-                  duration: Durations.long1,
-                  curve: Curves.easeInOutCubicEmphasized,
-                );
-              },
-              mini: true,
-              elevation: 0,
-              hoverElevation: 0,
-              focusElevation: 0,
-              highlightElevation: 0,
-              tooltip: s.common_scrollToTop,
-              child: const AppIcon(.arrowUpward, size: .large),
-            )
-          : null,
-      body: CustomScrollView(
-        controller: scrollController,
-        cacheExtent: 10_000,
-        slivers: [
-          SliverPadding(
-            padding: viewPadding.add(const AppEdgeInsets.all(.medium)),
-            sliver: SliverMainAxisGroup(
-              slivers: [
-                SliverToBoxAdapter(
-                  child: AppPadding(
-                    padding: const .symmetric(horizontal: .medium),
-                    child: Text(
-                      s.kanjiList_title,
-                      style: theme.textTheme.displayLarge?.apply(
-                        color: theme.colorScheme.secondary,
-                      ),
-                    ),
-                  ),
-                ),
-                AppUnit.xsmall.sliverGap,
-                SliverToBoxAdapter(
-                  child: JDSearchBar(
-                    controller: searchController,
-                    hintText: s.kanjiList_search,
-                  ),
-                ),
-                AppUnit.medium.sliverGap,
-                SliverLayoutBuilder(
-                  builder: (context, constraints) {
-                    return SliverMasonryGrid.count(
-                      crossAxisCount: max(
-                        constraints.crossAxisExtent ~/ 320,
-                        1,
-                      ),
-                      childCount: filteredKanji.value.length,
-                      itemBuilder: (context, index) =>
-                          _Entry(filteredKanji.value[index]),
-                      crossAxisSpacing: AppUnit.medium,
-                      mainAxisSpacing: AppUnit.medium,
-                    );
-                  },
-                ),
-                const SliverGap(48),
-              ],
-            ),
+    return AppBigTitleScaffold(
+      title: s.kanjiList_title,
+      scrollController: scrollController,
+      cacheExtent: 10_000,
+      slivers: [
+        AppUnit.xsmall.sliverGap,
+        SliverToBoxAdapter(
+          child: JDSearchBar(
+            controller: searchController,
+            hintText: s.kanjiList_search,
           ),
-        ],
-      ),
+        ),
+        AppUnit.medium.sliverGap,
+        SliverLayoutBuilder(
+          builder: (context, constraints) {
+            return SliverMasonryGrid.count(
+              crossAxisCount: max(constraints.crossAxisExtent ~/ 320, 1),
+              childCount: filteredKanji.value.length,
+              itemBuilder: (context, index) =>
+                  _Entry(filteredKanji.value[index]),
+              crossAxisSpacing: AppUnit.medium,
+              mainAxisSpacing: AppUnit.medium,
+            );
+          },
+        ),
+      ],
     );
   }
 }

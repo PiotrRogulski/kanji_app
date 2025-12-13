@@ -157,10 +157,10 @@ packages:
     dependency: "direct dev"
     description:
       name: characters
-      sha256: f71061c654a3380576a52b451dd5532377954cf9dbd272a78fc8479606670803
+      sha256: faf38497bda5ead2a8c7615f4f7939df04333478bf32e4173fcb06d428b5716b
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "1.4.1"
   checked_yaml:
     dependency: transitive
     description:
@@ -461,10 +461,10 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: c92d18e1fe994cb06d48aa786c46b142a5633067e8297cff6b5a3ac742620104
+      sha256: eff94d2a6fc79fa8b811dde79c7549808c2346037ee107a1121b4a644c745f2a
       url: "https://pub.dev"
     source: hosted
-    version: "17.0.0"
+    version: "17.0.1"
   go_router_builder:
     dependency: "direct dev"
     description:
@@ -582,7 +582,7 @@ packages:
     description:
       path: "packages/leancode_lint"
       ref: migrate-lints-to-analysis-server-plugin
-      resolved-ref: "84b7abc9010439bc7f32ce3de4cf8575624e54b9"
+      resolved-ref: "8caba6ee7408c067b282d19aa32faa921263b4bd"
       url: "https://github.com/leancodepl/flutter_corelibrary"
     source: git
     version: "19.0.1"
@@ -831,10 +831,10 @@ packages:
     dependency: transitive
     description:
       name: shared_preferences
-      sha256: "6e8bf70b7fef813df4e9a36f658ac46d107db4b4cfe1048b477d4e453a8159f5"
+      sha256: "2939ae520c9024cb197fc20dee269cd8cdbf564c8b5746374ec6cacdc5169e64"
       url: "https://pub.dev"
     source: hosted
-    version: "2.5.3"
+    version: "2.5.4"
   shared_preferences_android:
     dependency: transitive
     description:
@@ -1196,10 +1196,10 @@ packages:
     dependency: transitive
     description:
       name: watcher
-      sha256: "592ab6e2892f67760543fb712ff0177f4ec76c031f02f5b4ff8d3fc5eb9fb61a"
+      sha256: f52385d4f73589977c80797e60fe51014f7f2b957b5e9a62c3f6ada439889249
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.4"
+    version: "1.2.0"
   web:
     dependency: transitive
     description:
@@ -1265,5 +1265,5 @@ packages:
     source: hosted
     version: "2.2.3"
 sdks:
-  dart: ">=3.11.0-217.0.dev <4.0.0"
-  flutter: ">=3.40.0-1.0.pre-54 <4.0.0"
+  dart: ">=3.11.0-227.0.dev <4.0.0"
+  flutter: ">=3.40.0-1.0.pre-109 <4.0.0"

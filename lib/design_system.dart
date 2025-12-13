@@ -1,3 +1,4 @@
+export 'design_system/big_title_scaffold.dart';
 export 'design_system/border_radius.dart';
 export 'design_system/card.dart';
 export 'design_system/dynamic_weight.dart';
