@@ -45,6 +45,7 @@ class FlashcardDismissIndicator extends HookWidget {
             icon,
             size: AppUnit.xlarge * 2,
             color: colorScheme.onPrimary,
+            weight: isArmed ? .bold : .light,
           ),
         ),
       ),
