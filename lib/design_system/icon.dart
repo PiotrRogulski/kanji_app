@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
-import 'package:kanji_app/design_system/dynamic_weight.dart';
-import 'package:kanji_app/design_system/icons.dart';
-import 'package:kanji_app/design_system/sizes.dart';
+import 'package:kanji_app/design_system.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
 class AppIcon extends HookWidget {

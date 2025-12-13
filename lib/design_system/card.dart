@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kanji_app/design_system/ink_well.dart';
+import 'package:kanji_app/design_system.dart';
 
 class AppCard extends StatelessWidget {
   const AppCard({super.key, this.onTap, required this.child});

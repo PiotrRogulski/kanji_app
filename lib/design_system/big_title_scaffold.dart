@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:kanji_app/design_system/icon.dart';
-import 'package:kanji_app/design_system/padding.dart';
+import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
