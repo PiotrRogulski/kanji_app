@@ -72,8 +72,8 @@ class _Item extends StatelessWidget {
       child: Material(
         color: theme.colorScheme.surface,
         borderRadius: AppBorderRadius.horizontal(
-          left: isFirst ? .small : .xsmall,
-          right: isLast ? .small : .xsmall,
+          start: isFirst ? .small : .xsmall,
+          end: isLast ? .small : .xsmall,
         ),
         clipBehavior: .antiAlias,
         child: InkWell(

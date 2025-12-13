@@ -89,8 +89,8 @@ class RadicalEntryView extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: theme.colorScheme.surfaceContainerHighest,
                             borderRadius: AppBorderRadius.horizontal(
-                              left: index == 0 ? .small : .xsmall,
-                              right: index == entry.examples.length - 1
+                              start: index == 0 ? .small : .xsmall,
+                              end: index == entry.examples.length - 1
                                   ? .small
                                   : .xsmall,
                             ),
