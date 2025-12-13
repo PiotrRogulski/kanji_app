@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/physics.dart';
+import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
 import 'package:kanji_app/features/flashcards/use_deck.dart';
 import 'package:kanji_app/features/flashcards/use_flashcard_animation.dart';
@@ -61,43 +64,174 @@ class _FlashcardsPlayBody extends HookWidget {
   Widget build(BuildContext context) {
     final animationState = useFlashcardAnimation();
 
+    void dismissWithAnimation(FlashcardDismissAction action) {
+      if (session.isFinished ||
+          animationState.flipInProgress.value ||
+          animationState.isAnimatingOut.value) {
+        return;
+      }
+
+      final direction = Offset(action == .learned ? 0.2 : -0.2, -0.1);
+
+      animationState.animationController.stop();
+      animationState.animationStart.value = animationState.dragOffset.value;
+      animationState.animationEnd.value =
+          animationState.animationStart.value + direction * minVelocity;
+      animationState.isAnimatingOut.value = true;
+      animationState.outgoingItem.value = session.current;
+      animationState.outgoingOffset.value = animationState.animationStart.value;
+
+      animationState.animationController.value = 0;
+      animationState.animationController.animateWith(
+        SpringSimulation(spring, 0, 1, 0),
+      );
+
+      animationState.dragOffset.value = .zero;
+      session.dismiss(action);
+    }
+
     return AppPadding(
       padding: const .all(.large),
-      child: Center(
-        child: Stack(
-          children: [
-            if (session.deck.length >= 2)
-              IgnorePointer(
-                child: NextFlashcards(
-                  deck: session.deck,
-                  currentIndex: 0,
-                  dragOffset: animationState.dragOffset.value,
-                  flipInProgress: animationState.flipInProgress.value,
-                ),
-              ),
-            FlashcardGestures(
-              animationState: animationState,
-              deck: session.deck,
-              onDismissed: session.dismiss,
-              child: CurrentFlashcard(
-                item: session.current,
-                dragOffset: animationState.dragOffset.value,
-                onFlipInProgressChange: (value) =>
-                    animationState.flipInProgress.value = value,
+      child: Column(
+        children: [
+          Expanded(
+            child: Center(
+              child: Stack(
+                children: [
+                  if (session.deck.length >= 2)
+                    IgnorePointer(
+                      child: NextFlashcards(
+                        deck: session.deck,
+                        currentIndex: 0,
+                        dragOffset: animationState.dragOffset.value,
+                        flipInProgress: animationState.flipInProgress.value,
+                      ),
+                    ),
+                  FlashcardGestures(
+                    animationState: animationState,
+                    deck: session.deck,
+                    onDismissed: session.dismiss,
+                    child: CurrentFlashcard(
+                      item: session.current,
+                      dragOffset: animationState.dragOffset.value,
+                      onFlipInProgressChange: (value) =>
+                          animationState.flipInProgress.value = value,
+                    ),
+                  ),
+                  if (animationState.outgoingItem.value case final outgoing?)
+                    IgnorePointer(
+                      child: Opacity(
+                        opacity: animationState.outgoingOpacity,
+                        child: CurrentFlashcard(
+                          item: outgoing,
+                          dragOffset: animationState.outgoingOffset.value,
+                          onFlipInProgressChange: (_) {},
+                        ),
+                      ),
+                    ),
+                ],
               ),
             ),
-            if (animationState.outgoingItem.value case final outgoing?)
-              IgnorePointer(
-                child: Opacity(
-                  opacity: animationState.outgoingOpacity,
-                  child: CurrentFlashcard(
-                    item: outgoing,
-                    dragOffset: animationState.outgoingOffset.value,
-                    onFlipInProgressChange: (_) {},
-                  ),
-                ),
-              ),
-          ],
+          ),
+          AppUnit.xlarge.gap,
+          _FlashcardsActionRow(
+            enabled:
+                !animationState.flipInProgress.value &&
+                !animationState.isAnimatingOut.value,
+            onSkipped: () => dismissWithAnimation(.skipped),
+            onLearned: () => dismissWithAnimation(.learned),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _FlashcardsActionRow extends StatelessWidget {
+  const _FlashcardsActionRow({
+    required this.enabled,
+    required this.onSkipped,
+    required this.onLearned,
+  });
+
+  final bool enabled;
+  final VoidCallback onSkipped;
+  final VoidCallback onLearned;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      spacing: AppUnit.small,
+      children: [
+        Expanded(
+          child: DynamicWeight(
+            child: _FlashcardsActionButton(
+              enabled: enabled,
+              color: Colors.orange,
+              icon: .undo,
+              onPressed: onSkipped,
+            ),
+          ),
+        ),
+        Expanded(
+          child: DynamicWeight(
+            child: _FlashcardsActionButton(
+              enabled: enabled,
+              color: Colors.lightGreen,
+              icon: .check,
+              onPressed: onLearned,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _FlashcardsActionButton extends HookWidget {
+  const _FlashcardsActionButton({
+    required this.enabled,
+    required this.color,
+    required this.icon,
+    required this.onPressed,
+  });
+
+  final bool enabled;
+  final Color color;
+  final AppIconData icon;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final effectiveColor = useColorSpring(
+      enabled ? color : color.withValues(alpha: color.a * 0.35),
+    );
+
+    final fill = DynamicWeight.of(context).fill;
+    final stadiumProgress = useValueSpring(
+      fill,
+      ratio: fill == 1 ? 1 : 0.5,
+      stiffness: 1000,
+    );
+
+    return Material(
+      color: effectiveColor,
+      shape: StadiumMorphBorder(
+        fixedCornerRadius: .medium,
+        stadiumProgress: stadiumProgress,
+      ),
+      animationDuration: .zero,
+      clipBehavior: .antiAlias,
+      child: AppInkWell(
+        onTap: enabled ? onPressed : null,
+        child: AppPadding(
+          padding: const .all(.small),
+          child: AppIcon(
+            icon,
+            size: AppUnit.xlarge * 2,
+            color: colorScheme.onPrimary,
+          ),
         ),
       ),
     );
