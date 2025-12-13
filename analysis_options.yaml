@@ -11,5 +11,9 @@ analyzer:
   exclude:
     - '**.g.dart'
 
+linter:
+  rules:
+    unsafe_variance: false
+
 leancode_lint:
   application_prefix: App

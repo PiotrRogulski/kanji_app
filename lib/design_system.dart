@@ -1,6 +1,7 @@
 export 'design_system/big_title_scaffold.dart';
 export 'design_system/border_radius.dart';
 export 'design_system/card.dart';
+export 'design_system/connected_button_group.dart';
 export 'design_system/dynamic_weight.dart';
 export 'design_system/grouped_kanji_row.dart';
 export 'design_system/icon.dart';

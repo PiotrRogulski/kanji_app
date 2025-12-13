@@ -86,16 +86,14 @@ class FlashcardsScreen extends HookWidget {
               AppUnit.large.gap,
               Text(s.flashcards_mode, style: theme.textTheme.titleMedium),
               AppUnit.small.gap,
-              SegmentedButton<FlashcardMode>(
+              AppConnectedButtonGroup<FlashcardMode>(
                 segments: [
-                  .new(value: .kanji, label: Text(s.flashcards_modeKanji)),
-                  .new(value: .words, label: Text(s.flashcards_modeWords)),
-                  .new(value: .mixed, label: Text(s.flashcards_modeMixed)),
+                  .new(value: .kanji, label: s.flashcards_modeKanji),
+                  .new(value: .words, label: s.flashcards_modeWords),
+                  .new(value: .mixed, label: s.flashcards_modeMixed),
                 ],
-                selected: {selectedMode.value},
-                onSelectionChanged: (newSelection) {
-                  selectedMode.value = newSelection.first;
-                },
+                selected: selectedMode.value,
+                onSelectionChanged: (value) => selectedMode.value = value,
               ),
             ],
           ),
