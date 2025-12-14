@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/material.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
@@ -12,7 +14,7 @@ class NextFlashcards extends StatelessWidget {
     required this.flipInProgress,
   });
 
-  final List<FlashcardItem> deck;
+  final ListQueue<FlashcardItem> deck;
   final int currentIndex;
   final Offset dragOffset;
   final bool flipInProgress;
@@ -37,8 +39,8 @@ class NextFlashcards extends StatelessWidget {
                 scale: 0.95,
                 alignment: .bottomCenter,
                 child: FlashcardView(
-                  key: ValueKey(deck[currentIndex + 2]),
-                  item: deck[currentIndex + 2],
+                  key: ValueKey(deck.elementAt(currentIndex + 2)),
+                  item: deck.elementAt(currentIndex + 2),
                   hideContent: flipInProgress,
                 ),
               ),
@@ -50,8 +52,8 @@ class NextFlashcards extends StatelessWidget {
             scale: level2Scale,
             alignment: .bottomCenter,
             child: FlashcardView(
-              key: ValueKey(deck[currentIndex + 1]),
-              item: deck[currentIndex + 1],
+              key: ValueKey(deck.elementAt(currentIndex + 1)),
+              item: deck.elementAt(currentIndex + 1),
               hideContent: flipInProgress,
             ),
           ),

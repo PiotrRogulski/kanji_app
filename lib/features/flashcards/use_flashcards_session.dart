@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/foundation.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
@@ -12,7 +14,7 @@ class FlashcardsSession {
   }) : _revision = revision;
 
   final int totalCount;
-  final List<FlashcardItem> deck;
+  final ListQueue<FlashcardItem> deck;
   final ValueNotifier<int> learnedCount;
   final ValueNotifier<int> _revision;
 
@@ -30,7 +32,7 @@ class FlashcardsSession {
       return;
     }
 
-    final item = deck.removeAt(0);
+    final item = deck.removeFirst();
 
     if (action == .skipped) {
       deck.add(item);
@@ -43,7 +45,7 @@ class FlashcardsSession {
 }
 
 FlashcardsSession useFlashcardsSession(List<FlashcardItem> initialDeck) {
-  final deck = useMemoized(() => [...initialDeck], [initialDeck]);
+  final deck = useMemoized(() => ListQueue.of(initialDeck), [initialDeck]);
   final learnedCount = useState(0);
   final revision = useState(0);
 

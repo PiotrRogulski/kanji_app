@@ -21,20 +21,31 @@ class FlashcardsScreen extends HookWidget {
     final rangeStart = useState(kanjiData.entries.first.id);
     final rangeEnd = useState(kanjiData.entries.last.id);
 
+    final startController = useTextEditingController(
+      text: rangeStart.value.toString(),
+    );
+    final endController = useTextEditingController(
+      text: rangeEnd.value.toString(),
+    );
+
     final selectedMode = useState(FlashcardMode.kanji);
 
     final scrollController = useScrollController();
+
+    final isValid = rangeStart.value <= rangeEnd.value;
 
     return AppBigTitleScaffold(
       title: s.flashcards_title,
       scrollController: scrollController,
       showScrollToTopFab: false,
       bottomChild: FilledButton(
-        onPressed: () => FlashcardsPlayRoute(
-          startId: rangeStart.value,
-          endId: rangeEnd.value,
-          mode: selectedMode.value,
-        ).go(context),
+        onPressed: isValid
+            ? () => FlashcardsPlayRoute(
+                startId: rangeStart.value,
+                endId: rangeEnd.value,
+                mode: selectedMode.value,
+              ).go(context)
+            : null,
         child: Text(s.flashcards_start),
       ),
       slivers: [
@@ -52,7 +63,7 @@ class FlashcardsScreen extends HookWidget {
                 children: [
                   Expanded(
                     child: TextFormField(
-                      initialValue: rangeStart.value.toString(),
+                      controller: startController,
                       keyboardType: .number,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(),
@@ -68,7 +79,7 @@ class FlashcardsScreen extends HookWidget {
                   AppUnit.small.gap,
                   Expanded(
                     child: TextFormField(
-                      initialValue: rangeEnd.value.toString(),
+                      controller: endController,
                       keyboardType: .number,
                       decoration: const InputDecoration(
                         border: OutlineInputBorder(),

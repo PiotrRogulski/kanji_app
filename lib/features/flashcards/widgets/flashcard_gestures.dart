@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
@@ -15,7 +17,7 @@ class FlashcardGestures extends StatelessWidget {
   });
 
   final FlashcardAnimationState animationState;
-  final List<FlashcardItem> deck;
+  final ListQueue<FlashcardItem> deck;
   final ValueChanged<FlashcardDismissAction> onDismissed;
   final Widget child;
 
@@ -44,7 +46,7 @@ class _FlashcardPanHandler {
   });
 
   final FlashcardAnimationState animationState;
-  final List<FlashcardItem> deck;
+  final ListQueue<FlashcardItem> deck;
   final ValueChanged<FlashcardDismissAction> onDismissed;
 
   void onPanStart(DragStartDetails details) {

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
@@ -84,8 +85,14 @@ class FlashcardView extends HookWidget {
 
     return LayoutBuilder(
       builder: (context, constraints) {
-        final cardWidth = constraints.maxWidth.clamp(280.0, 600.0);
-        final cardHeight = constraints.maxHeight.clamp(260.0, 1600.0);
+        final cardWidth = constraints.maxWidth.clamp(
+          flashcardWidthMin,
+          flashcardWidthMax,
+        );
+        final cardHeight = constraints.maxHeight.clamp(
+          flashcardHeightMin,
+          flashcardHeightMax,
+        );
 
         return Center(
           child: Card(
@@ -112,7 +119,9 @@ class FlashcardView extends HookWidget {
                               child: Text(
                                 item.frontText,
                                 style: theme.textTheme.displayLarge?.copyWith(
-                                  fontSize: item.type == .kanji ? 140 : 80,
+                                  fontSize: item.type == .kanji
+                                      ? flashcardKanjiFontSize
+                                      : flashcardWordFontSize,
                                 ),
                                 textAlign: .center,
                               ),

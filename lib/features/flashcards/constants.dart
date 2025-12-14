@@ -11,9 +11,17 @@ final spring = SpringDescription.withDampingRatio(
   ratio: 0.5,
 );
 
+const flashcardWidthMin = 280.0;
+const flashcardWidthMax = 600.0;
+const flashcardHeightMin = 260.0;
+const flashcardHeightMax = 1600.0;
+
+const flashcardKanjiFontSize = 140.0;
+const flashcardWordFontSize = 80.0;
+
 enum FlashcardDismissAction { learned, skipped }
 
-extension OffsetX on Offset {
+extension FlashcardDismissOffsetExtension on Offset {
   double get dismissProgress =>
       min(distance, dismissDistance) / dismissDistance;
 }
