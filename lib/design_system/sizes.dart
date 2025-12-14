@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:meta/meta.dart';
@@ -33,4 +35,7 @@ extension type const AppUnit._(double _value) implements double {
 
   @redeclare
   AppUnit operator +(AppUnit other) => ._(_value + other._value);
+
+  static AppUnit lerp(AppUnit a, AppUnit b, double t) =>
+      ._(lerpDouble(a._value, b._value, t)!);
 }

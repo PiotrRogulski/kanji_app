@@ -24,6 +24,12 @@ class AppLocalizationsPl extends AppLocalizations {
   String get flashcards_end => 'Koniec!';
 
   @override
+  String get flashcards_errorEndTooLow => 'Musi być ≥ start';
+
+  @override
+  String get flashcards_errorStartTooHigh => 'Musi być ≤ koniec';
+
+  @override
   String get flashcards_exitLeave => 'Wyjdź';
 
   @override
@@ -31,6 +37,16 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get flashcards_exitTitle => 'Zakończyć sesję?';
+
+  @override
+  String flashcards_max(int value) {
+    return 'Maksimum: $value';
+  }
+
+  @override
+  String flashcards_min(int value) {
+    return 'Minimum: $value';
+  }
 
   @override
   String get flashcards_mode => 'Tryb';
@@ -43,6 +59,12 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get flashcards_modeWords => 'Słowa';
+
+  @override
+  String get flashcards_rangeEnd => 'Koniec';
+
+  @override
+  String get flashcards_rangeStart => 'Start';
 
   @override
   String get flashcards_selectRange => 'Wybierz zakres';

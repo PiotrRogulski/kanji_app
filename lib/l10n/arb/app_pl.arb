@@ -5,13 +5,33 @@
   "common_search": "Szukaj",
   "flashcards_emptyDeck": "Brak kart w wybranym zakresie",
   "flashcards_end": "Koniec!",
+  "flashcards_errorEndTooLow": "Musi być ≥ start",
+  "flashcards_errorStartTooHigh": "Musi być ≤ koniec",
   "flashcards_exitLeave": "Wyjdź",
   "flashcards_exitStay": "Zostań",
   "flashcards_exitTitle": "Zakończyć sesję?",
+  "flashcards_max": "Maksimum: {value}",
+  "@flashcards_max": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "flashcards_min": "Minimum: {value}",
+  "@flashcards_min": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "flashcards_mode": "Tryb",
   "flashcards_modeKanji": "Znaki",
   "flashcards_modeMixed": "Wszystko",
   "flashcards_modeWords": "Słowa",
+  "flashcards_rangeEnd": "Koniec",
+  "flashcards_rangeStart": "Start",
   "flashcards_selectRange": "Wybierz zakres",
   "flashcards_start": "Rozpocznij",
   "flashcards_title": "Fiszki",

@@ -124,6 +124,18 @@ abstract class AppLocalizations {
   /// **'Koniec!'**
   String get flashcards_end;
 
+  /// No description provided for @flashcards_errorEndTooLow.
+  ///
+  /// In pl, this message translates to:
+  /// **'Musi być ≥ start'**
+  String get flashcards_errorEndTooLow;
+
+  /// No description provided for @flashcards_errorStartTooHigh.
+  ///
+  /// In pl, this message translates to:
+  /// **'Musi być ≤ koniec'**
+  String get flashcards_errorStartTooHigh;
+
   /// No description provided for @flashcards_exitLeave.
   ///
   /// In pl, this message translates to:
@@ -141,6 +153,18 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Zakończyć sesję?'**
   String get flashcards_exitTitle;
+
+  /// No description provided for @flashcards_max.
+  ///
+  /// In pl, this message translates to:
+  /// **'Maksimum: {value}'**
+  String flashcards_max(int value);
+
+  /// No description provided for @flashcards_min.
+  ///
+  /// In pl, this message translates to:
+  /// **'Minimum: {value}'**
+  String flashcards_min(int value);
 
   /// No description provided for @flashcards_mode.
   ///
@@ -165,6 +189,18 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Słowa'**
   String get flashcards_modeWords;
+
+  /// No description provided for @flashcards_rangeEnd.
+  ///
+  /// In pl, this message translates to:
+  /// **'Koniec'**
+  String get flashcards_rangeEnd;
+
+  /// No description provided for @flashcards_rangeStart.
+  ///
+  /// In pl, this message translates to:
+  /// **'Start'**
+  String get flashcards_rangeStart;
 
   /// No description provided for @flashcards_selectRange.
   ///
