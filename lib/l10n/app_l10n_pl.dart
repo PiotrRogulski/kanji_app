@@ -24,6 +24,15 @@ class AppLocalizationsPl extends AppLocalizations {
   String get flashcards_end => 'Koniec!';
 
   @override
+  String get flashcards_exitLeave => 'Wyjdź';
+
+  @override
+  String get flashcards_exitStay => 'Zostań';
+
+  @override
+  String get flashcards_exitTitle => 'Zakończyć sesję?';
+
+  @override
   String get flashcards_mode => 'Tryb';
 
   @override

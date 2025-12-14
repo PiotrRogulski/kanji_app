@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
+import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
@@ -48,9 +49,52 @@ class FlashcardsPlayScreen extends HookWidget {
       );
     }
 
-    return Scaffold(
-      appBar: AppBar(title: Text(session.progressText), centerTitle: true),
-      body: _FlashcardsPlayBody(session: session),
+    Future<void> requestExit() async {
+      final navigator = Navigator.of(context);
+
+      final shouldExit = await showDialog<bool>(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text(s.flashcards_exitTitle),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(false),
+                child: Text(s.flashcards_exitStay),
+              ),
+              FilledButton(
+                onPressed: () => Navigator.of(context).pop(true),
+                child: Text(s.flashcards_exitLeave),
+              ),
+            ],
+          );
+        },
+      );
+
+      if (shouldExit ?? false) {
+        navigator.pop();
+      }
+    }
+
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) {
+          return;
+        }
+        requestExit();
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(session.progressText),
+          centerTitle: true,
+          leading: IconButton(
+            onPressed: requestExit,
+            icon: const AppIcon(.arrowBack, size: .large),
+          ),
+        ),
+        body: _FlashcardsPlayBody(session: session),
+      ),
     );
   }
 }
@@ -224,7 +268,12 @@ class _FlashcardsActionButton extends HookWidget {
       animationDuration: .zero,
       clipBehavior: .antiAlias,
       child: AppInkWell(
-        onTap: enabled ? onPressed : null,
+        onTap: enabled
+            ? () {
+                HapticFeedback.lightImpact();
+                onPressed();
+              }
+            : null,
         child: AppPadding(
           padding: const .all(.small),
           child: AppIcon(

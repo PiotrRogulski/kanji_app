@@ -124,6 +124,24 @@ abstract class AppLocalizations {
   /// **'Koniec!'**
   String get flashcards_end;
 
+  /// No description provided for @flashcards_exitLeave.
+  ///
+  /// In pl, this message translates to:
+  /// **'Wyjdź'**
+  String get flashcards_exitLeave;
+
+  /// No description provided for @flashcards_exitStay.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zostań'**
+  String get flashcards_exitStay;
+
+  /// No description provided for @flashcards_exitTitle.
+  ///
+  /// In pl, this message translates to:
+  /// **'Zakończyć sesję?'**
+  String get flashcards_exitTitle;
+
   /// No description provided for @flashcards_mode.
   ///
   /// In pl, this message translates to:

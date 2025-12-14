@@ -94,7 +94,7 @@ class _KanjiPreviewBubble extends HookWidget {
     final isArmed = percentArmed == 1;
     useValueChanged(
       isArmed,
-      (_, _) => isArmed ? HapticFeedback.vibrate() : null,
+      (_, _) => isArmed ? HapticFeedback.lightImpact() : null,
     );
     final scale = useValueSpring(isArmed ? 1 : 0.75, ratio: 0.5);
 
