@@ -12,18 +12,14 @@ const _bubbleSize = 64.0;
 const _triggerThreshold = 100.0;
 
 class KanjiSwipeSwitcher extends HookWidget {
-  const KanjiSwipeSwitcher({
-    super.key,
-    required this.entry,
-    required this.child,
-  });
+  const KanjiSwipeSwitcher({super.key, required this.child});
 
-  final KanjiEntry entry;
   final Widget child;
 
   @override
   Widget build(BuildContext context) {
     final kanjiData = context.read<KanjiData>();
+    final entry = context.watch<KanjiEntry>();
 
     final previousEntry = kanjiData.get(entry.id - 1);
     final nextEntry = kanjiData.get(entry.id + 1);

@@ -36,7 +36,7 @@ PathInfo pathInfoFromSvg(String svg) {
       .map((p) => p.computeMetrics().map((m) => m.length).sum)
       .toList();
 
-  return PathInfo(
+  return .new(
     paths: paths,
     partLengths: partLengths,
     size: .new(.parse(viewBoxWidth), .parse(viewBoxHeight)),

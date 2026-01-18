@@ -17,88 +17,86 @@ class KanjiDetailsScreen extends StatelessWidget {
     // TODO: Add not found screen
     final entry = context.read<KanjiData>().get(id)!;
 
-    return KanjiSwipeSwitcher(
-      entry: entry,
-      child: Scaffold(
-        body: Stack(
-          children: [
-            CustomScrollView(
-              slivers: [
-                SliverAppBar(
-                  actionsPadding: const AppEdgeInsets.only(end: .small),
-                  floating: true,
-                  snap: true,
-                  actions: [
-                    AppIconButton(
-                      icon: .openInNew,
-                      iconSize: .large,
-                      onPressed: () => launchUrl(
-                        Uri(
-                          scheme: 'https',
-                          host: 'jisho.org',
-                          pathSegments: ['search', '${entry.kanji} #kanji'],
+    return Provider.value(
+      value: entry,
+      child: KanjiSwipeSwitcher(
+        child: Scaffold(
+          body: Stack(
+            children: [
+              CustomScrollView(
+                slivers: [
+                  SliverAppBar(
+                    actionsPadding: const AppEdgeInsets.only(end: .small),
+                    floating: true,
+                    snap: true,
+                    actions: [
+                      AppIconButton(
+                        icon: .openInNew,
+                        iconSize: .large,
+                        onPressed: () => launchUrl(
+                          Uri(
+                            scheme: 'https',
+                            host: 'jisho.org',
+                            pathSegments: ['search', '${entry.kanji} #kanji'],
+                          ),
                         ),
                       ),
-                    ),
-                  ],
-                ),
-                SliverPadding(
-                  padding: const AppEdgeInsets.all(.medium),
-                  sliver: SliverLayoutBuilder(
-                    builder: (context, constraints) {
-                      return switch (constraints.crossAxisExtent) {
-                        < 800 => SliverMainAxisGroup(
-                          slivers: [
-                            SliverToBoxAdapter(
-                              child: KanjiSummary(entry: entry),
-                            ),
-                            AppUnit.large.sliverGap,
-                            SliverKanjiWords(entry: entry),
-                            // AppUnit.small.sliverGap,
-                            // SliverKanjiSentences(entry: entry),
-                          ],
-                        ),
-                        // Sentences hidden for now
-                        // ignore: leancode_lint/avoid_single_child_in_multi_child_widgets
-                        _ => SliverMainAxisGroup(
-                          slivers: [
-                            SliverCrossAxisGroup(
-                              slivers: [
-                                SliverToBoxAdapter(
-                                  child: KanjiSummary(entry: entry),
-                                ),
-                                const SliverConstrainedCrossAxis(
-                                  maxExtent: AppUnit.small,
-                                  sliver: SliverToBoxAdapter(),
-                                ),
-                                SliverKanjiWords(entry: entry),
-                              ],
-                            ),
-                            // AppUnit.small.sliverGap,
-                            // SliverKanjiSentences(entry: entry),
-                          ],
-                        ),
-                      };
-                    },
+                    ],
                   ),
-                ),
-                // (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
-              ],
-            ),
-            // Positioned(
-            //   bottom: AppUnit.large,
-            //   left: 0,
-            //   right: 0,
-            //   child: Row(
-            //     mainAxisAlignment: MainAxisAlignment.center,
-            //     children: [
-            //       _NavButton(type: _NavButtonType.previous, id: id),
-            //       AppUnit.tiny.gap,
-            //       _NavButton(type: _NavButtonType.next, id: id),
-            //     ],
-            //   ),
-            // ),
-          ],
+                  SliverPadding(
+                    padding: const AppEdgeInsets.all(.medium),
+                    sliver: SliverLayoutBuilder(
+                      builder: (context, constraints) {
+                        return switch (constraints.crossAxisExtent) {
+                          < 800 => SliverMainAxisGroup(
+                            slivers: [
+                              const SliverToBoxAdapter(child: KanjiSummary()),
+                              AppUnit.large.sliverGap,
+                              const SliverKanjiWords(),
+                              // AppUnit.small.sliverGap,
+                              // SliverKanjiSentences(entry: entry),
+                            ],
+                          ),
+                          // Sentences hidden for now
+                          // ignore: leancode_lint/avoid_single_child_in_multi_child_widgets
+                          _ => const SliverMainAxisGroup(
+                            slivers: [
+                              SliverCrossAxisGroup(
+                                slivers: [
+                                  SliverToBoxAdapter(child: KanjiSummary()),
+                                  SliverConstrainedCrossAxis(
+                                    maxExtent: AppUnit.small,
+                                    sliver: SliverToBoxAdapter(),
+                                  ),
+                                  SliverKanjiWords(),
+                                ],
+                              ),
+                              // AppUnit.small.sliverGap,
+                              // SliverKanjiSentences(entry: entry),
+                            ],
+                          ),
+                        };
+                      },
+                    ),
+                  ),
+                  // (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
+                ],
+              ),
+              // Positioned(
+              //   bottom: AppUnit.large,
+              //   left: 0,
+              //   right: 0,
+              //   child: Row(
+              //     mainAxisAlignment: MainAxisAlignment.center,
+              //     children: [
+              //       _NavButton(type: _NavButtonType.previous, id: id),
+              //       AppUnit.tiny.gap,
+              //       _NavButton(type: _NavButtonType.next, id: id),
+              //     ],
+              //   ),
+              // ),
+            ],
+          ),
         ),
       ),
     );

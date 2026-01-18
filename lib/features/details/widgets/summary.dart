@@ -4,14 +4,15 @@ import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/widgets/readings.dart';
+import 'package:provider/provider.dart';
 
 class KanjiSummary extends StatelessWidget {
-  const KanjiSummary({super.key, required this.entry});
-
-  final KanjiEntry entry;
+  const KanjiSummary({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final entry = context.watch<KanjiEntry>();
+
     return SizedBox(
       width: 300,
       child: Wrap(

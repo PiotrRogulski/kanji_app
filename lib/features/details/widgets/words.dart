@@ -1,9 +1,12 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
+import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:provider/provider.dart';
 
 typedef _SliverWordsSectionData = ({
   String title,
@@ -12,13 +15,12 @@ typedef _SliverWordsSectionData = ({
 });
 
 class SliverKanjiWords extends StatelessWidget {
-  const SliverKanjiWords({super.key, required this.entry});
-
-  final KanjiEntry entry;
+  const SliverKanjiWords({super.key});
 
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
+    final entry = context.watch<KanjiEntry>();
 
     final sections = [
       if (entry.wordsRequiredNow.isNotEmpty)
@@ -111,10 +113,9 @@ class _WordTile extends StatelessWidget {
           children: [
             Row(
               children: [
-                Text(
-                  word.kanji.padRight(maxWordLength, '　'),
-                  style: theme.textTheme.headlineSmall,
-                ),
+                for (final c
+                    in word.kanji.padRight(maxWordLength, '　').characters)
+                  DynamicWeight(child: _SearchableKanji(kanji: c)),
                 AppUnit.xlarge.gap,
                 Text(word.reading, style: theme.textTheme.bodyLarge),
               ],
@@ -134,6 +135,91 @@ class _WordTile extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class _SearchableKanji extends HookWidget {
+  const _SearchableKanji({required this.kanji});
+
+  final String kanji;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
+    final kanjiData = context.watch<KanjiData>();
+    final currentEntry = context.watch<KanjiEntry>();
+    final targetEntry = kanjiData.entries.firstWhereOrNull(
+      (e) => e.kanji == kanji,
+    );
+
+    final controller = DynamicWeight.of(context).controller;
+    final active = useListenableSelector(
+      controller,
+      () => (WidgetState.hovered | WidgetState.pressed).isSatisfiedBy(
+        controller.value,
+      ),
+    );
+
+    final searchable =
+        kanji != '　' && kanji != currentEntry.kanji && targetEntry != null;
+
+    final opacity = useValueSpring(active ? 1 : 0);
+    final scale = useValueSpring(active ? 1 : 0, ratio: active ? 0.5 : null);
+    final textColor = useColorSpring(
+      active ? colorScheme.onPrimary : colorScheme.onSurface,
+    );
+
+    return Stack(
+      clipBehavior: .none,
+      children: [
+        if (searchable)
+          Positioned.fill(
+            left: -AppUnit.tiny,
+            right: -AppUnit.tiny,
+            child: Opacity(
+              opacity: opacity,
+              child: Transform.scale(
+                scale: scale,
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: colorScheme.primary,
+                    borderRadius: AppBorderRadius.circular(.small),
+                  ),
+                ),
+              ),
+            ),
+          ),
+
+        Text(
+          kanji,
+          style: theme.textTheme.headlineSmall!.copyWith(
+            color: textColor,
+            decoration: searchable ? .underline : null,
+            decorationColor: colorScheme.primary,
+            decorationStyle: .dotted,
+          ),
+        ),
+
+        if (searchable)
+          Positioned.fill(
+            left: -AppUnit.tiny,
+            right: -AppUnit.tiny,
+            child: Theme(
+              data: Theme.of(context).copyWith(hoverColor: Colors.transparent),
+              child: Material(
+                type: .transparency,
+                child: AppInkWell(
+                  borderRadius: .circular(.small),
+                  onTap: () =>
+                      KanjiDetailsRoute(targetEntry.id).push<void>(context),
+                ),
+              ),
+            ),
+          ),
+      ],
     );
   }
 }
