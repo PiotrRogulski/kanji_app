@@ -3,8 +3,8 @@ version: 0.1.0
 publish_to: none
 
 environment:
-  sdk: ^3.12.0-43.0.dev
-  flutter: ^3.41.0-1.0.pre-150
+  sdk: ^3.12.0-63.0.dev
+  flutter: ^3.41.0-1.0.pre-250
 
 dependencies:
   archive: ^4.0.7
@@ -36,7 +36,7 @@ dependencies:
   xml: ^6.6.1
 
 dev_dependencies:
-  arb_utils: ^0.10.0
+  arb_utils: ^0.10.1
   build_runner: ^2.10.5
   characters: ^1.4.1
   code_builder: ^4.11.1
@@ -50,9 +50,6 @@ dev_dependencies:
       url: https://github.com/leancodepl/flutter_corelibrary
       path: packages/leancode_lint
       ref: 8caba6ee7408c067b282d19aa32faa921263b4bd
-
-dependency_overrides:
-  archive: ^4.0.7
 
 flutter:
   config:
