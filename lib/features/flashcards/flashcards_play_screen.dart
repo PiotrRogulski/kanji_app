@@ -20,11 +20,13 @@ class FlashcardsPlayScreen extends HookWidget {
     required this.startId,
     required this.endId,
     required this.mode,
+    required this.onSessionActiveChanged,
   });
 
   final int startId;
   final int endId;
   final FlashcardMode mode;
+  final ValueChanged<bool> onSessionActiveChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -32,6 +34,11 @@ class FlashcardsPlayScreen extends HookWidget {
 
     final initialDeck = useDeck(startId: startId, endId: endId, mode: mode);
     final session = useFlashcardsSession(initialDeck);
+
+    useEffect(() {
+      onSessionActiveChanged(!session.isFinished && initialDeck.isNotEmpty);
+      return null;
+    }, [session.isFinished, initialDeck.isEmpty]);
 
     if (initialDeck.isEmpty) {
       return _FlashcardsEmptyScaffold(
@@ -85,14 +92,7 @@ class FlashcardsPlayScreen extends HookWidget {
         requestExit();
       },
       child: Scaffold(
-        appBar: AppBar(
-          title: Text(session.progressText),
-          centerTitle: true,
-          leading: IconButton(
-            onPressed: requestExit,
-            icon: const AppIcon(.arrowBack, size: .large),
-          ),
-        ),
+        appBar: AppBar(title: Text(session.progressText), centerTitle: true),
         body: _FlashcardsPlayBody(session: session),
       ),
     );

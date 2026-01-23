@@ -40,11 +40,13 @@ class FlashcardsScreen extends HookWidget {
       showScrollToTopFab: false,
       bottomChild: FilledButton(
         onPressed: isValid
-            ? () => FlashcardsPlayRoute(
-                startId: rangeStart.value,
-                endId: rangeEnd.value,
-                mode: selectedMode.value,
-              ).go(context)
+            ? () => context.coordinator.go(
+                FlashcardsPlayRoute(
+                  startId: rangeStart.value,
+                  endId: rangeEnd.value,
+                  mode: selectedMode.value,
+                ),
+              )
             : null,
         child: Text(s.flashcards_start),
       ),

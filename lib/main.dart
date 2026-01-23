@@ -3,11 +3,10 @@ import 'package:cached_storage/cached_storage.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:kanji_app/features/kanji_data/loader.dart';
 import 'package:kanji_app/kanji_api.dart';
 import 'package:kanji_app/l10n/app_l10n.dart';
-import 'package:kanji_app/navigation/router.dart';
+import 'package:kanji_app/navigation/coordinator.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:logging/logging.dart';
@@ -18,7 +17,6 @@ import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  GoRouter.optionURLReflectsImperativeAPIs = true;
 
   _setupLogger();
 
@@ -67,13 +65,14 @@ class MainApp extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final router = useGoRouter();
+    final coordinator = useMemoized(AppCoordinator.new);
 
     return MaterialApp.router(
-      routerConfig: router,
+      routerConfig: coordinator,
       theme: appTheme(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      restorationScopeId: 'app',
     );
   }
 }

@@ -79,7 +79,7 @@ class _Entry extends StatelessWidget {
     final theme = Theme.of(context);
 
     return AppCard(
-      onTap: () => KanjiDetailsRoute(entry.id).go(context),
+      onTap: () => context.coordinator.go(KanjiDetailsRoute(entry.id)),
       child: Stack(
         children: [
           AppPadding(

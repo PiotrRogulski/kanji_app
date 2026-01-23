@@ -125,7 +125,7 @@ class _WordTile extends StatelessWidget {
             if (word.reference case final reference?) ...[
               FilledButton(
                 onPressed: () =>
-                    KanjiDetailsRoute(reference).push<void>(context),
+                    context.coordinator.go(KanjiDetailsRoute(reference)),
                 style: FilledButton.styleFrom(
                   padding: const AppEdgeInsets.symmetric(horizontal: .medium),
                 ),
@@ -214,7 +214,7 @@ class _SearchableKanji extends HookWidget {
                 child: AppInkWell(
                   borderRadius: .circular(.small),
                   onTap: () =>
-                      KanjiDetailsRoute(targetEntry.id).push<void>(context),
+                      context.coordinator.go(KanjiDetailsRoute(targetEntry.id)),
                 ),
               ),
             ),
