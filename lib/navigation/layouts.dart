@@ -16,11 +16,11 @@ class RootLayout extends AppRoute with RouteLayout<AppRoute> {
       onTabSelected: (index) {
         switch (index) {
           case 0:
-            coordinator.push(KanjiListRoute());
+            coordinator.pushOrMoveToTop(KanjiListRoute());
           case 1:
-            coordinator.push(RadicalsRoute());
+            coordinator.pushOrMoveToTop(RadicalsRoute());
           case 2:
-            coordinator.push(FlashcardsRoute());
+            coordinator.pushOrMoveToTop(FlashcardsRoute());
         }
       },
       children: [
