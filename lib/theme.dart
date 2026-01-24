@@ -58,9 +58,7 @@ extension on TextStyle {
   ).applyAxes;
 
   TextStyle get applyAxes => copyWith(
-    fontVariations: [
-      .weight((fontWeight ?? .normal).value.toDouble()),
-      if (fontSize case final size?) .opticalSize(size),
-    ],
+    fontWeight: fontWeight ?? .normal,
+    fontVariations: [if (fontSize case final size?) .opticalSize(size)],
   );
 }

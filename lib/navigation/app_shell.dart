@@ -2,19 +2,21 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:go_router/go_router.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:zenrouter/zenrouter.dart';
 
 class ScaffoldWithNavBar extends StatelessWidget {
   const ScaffoldWithNavBar({
-    required this.navigationShell,
-    required this.children,
+    required this.path,
+    required this.child,
+    required this.onTabSelected,
     super.key,
   });
 
-  final StatefulNavigationShell navigationShell;
-  final List<Widget> children;
+  final IndexedStackPath<dynamic> path;
+  final Widget child;
+  final ValueChanged<int> onTabSelected;
 
   @override
   Widget build(BuildContext context) {
@@ -50,94 +52,51 @@ class ScaffoldWithNavBar extends StatelessWidget {
             removeLeft: !isSmall,
             removeRight: !isSmall,
             removeTop: !isSmall,
-            child: AnimatedBranchContainer(
-              currentIndex: navigationShell.currentIndex,
-              children: children,
-            ),
+            child: child,
           ),
         ),
       );
     }
 
-    final currentIndex = navigationShell.currentIndex;
+    return ListenableBuilder(
+      listenable: path,
+      builder: (context, _) {
+        final currentIndex = path.activeIndex;
 
-    return Theme(
-      data: theme.copyWith(
-        scaffoldBackgroundColor: theme.colorScheme.surfaceContainer,
-        navigationRailTheme: theme.navigationRailTheme.copyWith(
-          backgroundColor: theme.colorScheme.surfaceContainer,
-        ),
-      ),
-      child: AdaptiveScaffold(
-        destinations: [
-          AppNavigationDestination(
-            icon: .listAlt,
-            label: s.kanjiList_title,
-            selected: currentIndex == 0,
-          ),
-          AppNavigationDestination(
-            icon: .category,
-            label: s.radicals_title,
-            selected: currentIndex == 1,
-          ),
-          AppNavigationDestination(
-            icon: .style,
-            label: s.flashcards_title,
-            selected: currentIndex == 2,
-          ),
-        ],
-        selectedIndex: currentIndex,
-        onSelectedIndexChange: (index) => navigationShell.goBranch(
-          index,
-          initialLocation: index == currentIndex,
-        ),
-        useDrawer: false,
-        internalAnimations: false,
-        extendedNavigationRailWidth: 210,
-        body: body,
-      ),
-    );
-  }
-}
-
-class AnimatedBranchContainer extends StatelessWidget {
-  const AnimatedBranchContainer({
-    super.key,
-    required this.currentIndex,
-    required this.children,
-  });
-
-  final int currentIndex;
-  final List<Widget> children;
-
-  @override
-  Widget build(BuildContext context) {
-    final baseOffset = switch (Breakpoints.small.isActive(context)) {
-      true => const Offset(0.1, 0),
-      false => const Offset(0, 0.1),
-    };
-
-    return Stack(
-      children: [
-        for (final (index, navigator) in children.indexed)
-          AnimatedSlide(
-            offset: baseOffset * index.compareTo(currentIndex).toDouble(),
-            duration: Durations.medium4,
-            curve: Curves.easeInOutCubicEmphasized,
-            child: AnimatedOpacity(
-              opacity: index == currentIndex ? 1 : 0,
-              duration: Durations.medium4,
-              curve: Curves.easeInOutCubicEmphasized,
-              child: IgnorePointer(
-                ignoring: index != currentIndex,
-                child: TickerMode(
-                  enabled: index == currentIndex,
-                  child: navigator,
-                ),
-              ),
+        return Theme(
+          data: theme.copyWith(
+            scaffoldBackgroundColor: theme.colorScheme.surfaceContainer,
+            navigationRailTheme: theme.navigationRailTheme.copyWith(
+              backgroundColor: theme.colorScheme.surfaceContainer,
             ),
           ),
-      ],
+          child: AdaptiveScaffold(
+            destinations: [
+              AppNavigationDestination(
+                icon: .listAlt,
+                label: s.kanjiList_title,
+                selected: currentIndex == 0,
+              ),
+              AppNavigationDestination(
+                icon: .category,
+                label: s.radicals_title,
+                selected: currentIndex == 1,
+              ),
+              AppNavigationDestination(
+                icon: .style,
+                label: s.flashcards_title,
+                selected: currentIndex == 2,
+              ),
+            ],
+            selectedIndex: currentIndex,
+            onSelectedIndexChange: onTabSelected,
+            useDrawer: false,
+            internalAnimations: false,
+            extendedNavigationRailWidth: 210,
+            body: body,
+          ),
+        );
+      },
     );
   }
 }
