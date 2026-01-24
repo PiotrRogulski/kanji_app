@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
@@ -29,10 +30,10 @@ class KanjiSwipeSwitcher extends HookWidget {
 
     void onDragEnd() {
       if (rawDragOffset.value > _triggerThreshold && previousEntry != null) {
-        context.coordinator.toDetails(previousEntry.id);
+        context.coordinator.push(KanjiDetailsRoute(previousEntry.id));
       } else if (rawDragOffset.value < -_triggerThreshold &&
           nextEntry != null) {
-        context.coordinator.toDetails(nextEntry.id);
+        context.coordinator.push(KanjiDetailsRoute(nextEntry.id));
       }
       rawDragOffset.value = 0;
     }

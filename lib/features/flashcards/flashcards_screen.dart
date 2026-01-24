@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
@@ -39,10 +40,12 @@ class FlashcardsScreen extends HookWidget {
       showScrollToTopFab: false,
       bottomChild: FilledButton(
         onPressed: isValid
-            ? () => context.coordinator.toFlashcardsPlay(
-                rangeStart.value,
-                rangeEnd.value,
-                selectedMode.value,
+            ? () => context.coordinator.push(
+                FlashcardsPlayRoute(
+                  startId: rangeStart.value,
+                  endId: rangeEnd.value,
+                  mode: selectedMode.value,
+                ),
               )
             : null,
         child: Text(s.flashcards_start),

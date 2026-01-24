@@ -4,6 +4,7 @@ import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
@@ -123,7 +124,8 @@ class _WordTile extends StatelessWidget {
               Text(word.meaning, style: theme.textTheme.bodyLarge),
             if (word.reference case final reference?) ...[
               FilledButton(
-                onPressed: () => context.coordinator.toDetails(reference),
+                onPressed: () =>
+                    context.coordinator.push(KanjiDetailsRoute(reference)),
                 style: FilledButton.styleFrom(
                   padding: const AppEdgeInsets.symmetric(horizontal: .medium),
                 ),
@@ -211,8 +213,9 @@ class _SearchableKanji extends HookWidget {
                 type: .transparency,
                 child: AppInkWell(
                   borderRadius: .circular(.small),
-                  onTap: () =>
-                      context.coordinator.toDetails(targetEntry.id),
+                  onTap: () => context.coordinator.push(
+                    KanjiDetailsRoute(targetEntry.id),
+                  ),
                 ),
               ),
             ),

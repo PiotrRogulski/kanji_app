@@ -17,7 +17,7 @@ class KanjiListRoute extends AppRoute {
   Type get layout => KanjiListLayout;
 
   @override
-  Uri toUri() => Uri.parse('/list');
+  Uri toUri() => .parse('/list');
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
@@ -27,6 +27,7 @@ class KanjiListRoute extends AppRoute {
 
 class KanjiDetailsRoute extends AppRoute {
   KanjiDetailsRoute(this.id);
+
   final int id;
 
   @override
@@ -36,7 +37,7 @@ class KanjiDetailsRoute extends AppRoute {
   Type get layout => KanjiListLayout;
 
   @override
-  Uri toUri() => Uri.parse('/list/$id');
+  Uri toUri() => .parse('/list/$id');
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
@@ -51,7 +52,7 @@ class RadicalsRoute extends AppRoute {
   Type get layout => RadicalsLayout;
 
   @override
-  Uri toUri() => Uri.parse('/radicals');
+  Uri toUri() => .parse('/radicals');
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
@@ -66,7 +67,7 @@ class FlashcardsRoute extends AppRoute {
   Type get layout => FlashcardsLayout;
 
   @override
-  Uri toUri() => Uri.parse('/flashcards');
+  Uri toUri() => .parse('/flashcards');
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
@@ -92,12 +93,13 @@ class FlashcardsPlayRoute extends AppRoute {
   Type get layout => FlashcardsLayout;
 
   @override
-  Uri toUri() => Uri.parse('/flashcards/play')
-      .replace(queryParameters: {
-        'startId': startId.toString(),
-        'endId': endId.toString(),
-        'mode': mode.name,
-      });
+  Uri toUri() => .parse('/flashcards/play').replace(
+    queryParameters: {
+      'startId': startId.toString(),
+      'endId': endId.toString(),
+      'mode': mode.name,
+    },
+  );
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
@@ -107,13 +109,14 @@ class FlashcardsPlayRoute extends AppRoute {
 
 class NotFoundRoute extends AppRoute {
   NotFoundRoute(this.uri);
+
   final Uri uri;
 
   @override
   List<Object?> get props => [uri];
 
   @override
-  Uri toUri() => Uri.parse('/404');
+  Uri toUri() => .parse('/404');
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {

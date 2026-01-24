@@ -80,13 +80,4 @@ class AppCoordinator extends Coordinator<AppRoute> {
         return NotFoundRoute(uri);
     }
   }
-
-  // Helpers for easier navigation (optional, but good for migration)
-  void toList() => push(KanjiListRoute());
-  void toDetails(int id) => push(KanjiDetailsRoute(id));
-  void toRadicals() => push(RadicalsRoute());
-  void toFlashcards() => push(FlashcardsRoute());
-  void toFlashcardsPlay(int startId, int endId, FlashcardMode mode) {
-    push(FlashcardsPlayRoute(startId: startId, endId: endId, mode: mode));
-  }
 }
