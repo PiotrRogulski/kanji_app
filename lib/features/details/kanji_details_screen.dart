@@ -4,26 +4,43 @@ import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class KanjiDetailsScreen extends StatelessWidget {
-  const KanjiDetailsScreen(this.id, {super.key});
+class KanjiDetailsScreen extends HookWidget {
+  const KanjiDetailsScreen({
+    required this.id,
+    required this.onIdChanged,
+    super.key,
+  });
 
   final int id;
+  final ValueChanged<int> onIdChanged;
 
   @override
   Widget build(BuildContext context) {
-    // TODO: Add not found screen
-    final entry = context.read<KanjiData>().get(id)!;
+    final kanjiData = context.read<KanjiData>();
+
+    final entry = kanjiData.get(id);
+
+    final scrollController = useScrollController();
+    useValueChanged(id, (_, _) => scrollController.jumpTo(0));
+
+    if (entry == null) {
+      // TODO: Add not found screen
+      return const Scaffold(body: Center(child: Text('Kanji not found')));
+    }
 
     return Provider.value(
       value: entry,
       child: KanjiSwipeSwitcher(
+        onIdChanged: onIdChanged,
         child: Scaffold(
           body: Stack(
             children: [
               CustomScrollView(
+                controller: scrollController,
                 slivers: [
                   SliverAppBar(
                     actionsPadding: const AppEdgeInsets.only(end: .small),

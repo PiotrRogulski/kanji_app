@@ -3,9 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
-import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
-import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:provider/provider.dart';
 
@@ -13,9 +11,14 @@ const _bubbleSize = 64.0;
 const _triggerThreshold = 100.0;
 
 class KanjiSwipeSwitcher extends HookWidget {
-  const KanjiSwipeSwitcher({super.key, required this.child});
+  const KanjiSwipeSwitcher({
+    super.key,
+    required this.child,
+    required this.onIdChanged,
+  });
 
   final Widget child;
+  final ValueChanged<int> onIdChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -30,10 +33,10 @@ class KanjiSwipeSwitcher extends HookWidget {
 
     void onDragEnd() {
       if (rawDragOffset.value > _triggerThreshold && previousEntry != null) {
-        context.coordinator.push(KanjiDetailsRoute(previousEntry.id));
+        onIdChanged(previousEntry.id);
       } else if (rawDragOffset.value < -_triggerThreshold &&
           nextEntry != null) {
-        context.coordinator.push(KanjiDetailsRoute(nextEntry.id));
+        onIdChanged(nextEntry.id);
       }
       rawDragOffset.value = 0;
     }

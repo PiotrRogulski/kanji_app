@@ -25,23 +25,32 @@ class KanjiListRoute extends AppRoute {
   }
 }
 
-class KanjiDetailsRoute extends AppRoute {
-  KanjiDetailsRoute(this.id);
-
-  final int id;
+class KanjiDetailsRoute extends AppRoute with RouteQueryParameters {
+  KanjiDetailsRoute({int? id}) {
+    if (id != null) {
+      queries = {'id': id.toString()};
+    }
+  }
 
   @override
-  List<Object?> get props => [id];
+  final ValueNotifier<Map<String, String>> queryNotifier = .new({});
 
   @override
   Type get layout => KanjiListLayout;
 
   @override
-  Uri toUri() => .parse('/list/$id');
+  Uri toUri() => .parse('/list/details').replace(queryParameters: queries);
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
-    return KanjiDetailsScreen(id);
+    return selectorBuilder(
+      selector: (queries) => int.tryParse(queries['id'] ?? '') ?? 0,
+      builder: (context, id) => KanjiDetailsScreen(
+        id: id,
+        onIdChanged: (id) =>
+            updateQueries(coordinator, queries: {'id': id.toString()}),
+      ),
+    );
   }
 }
 

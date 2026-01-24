@@ -46,8 +46,8 @@ class AppCoordinator extends Coordinator<AppRoute> {
   @override
   AppRoute parseRouteFromUri(Uri uri) => switch (uri.pathSegments) {
     [] || ['list'] => KanjiListRoute(),
-    ['list', final id] when int.tryParse(id) != null => KanjiDetailsRoute(
-      .parse(id),
+    ['list', 'details'] => KanjiDetailsRoute(
+      id: .tryParse(uri.queryParameters['id'] ?? ''),
     ),
     ['radicals'] => RadicalsRoute(),
     ['flashcards'] => FlashcardsRoute(),
