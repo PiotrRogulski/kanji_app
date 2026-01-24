@@ -11,16 +11,29 @@ class RootLayout extends AppRoute with RouteLayout<AppRoute> {
 
   @override
   Widget build(AppCoordinator coordinator, BuildContext context) {
+    final path = resolvePath(coordinator);
     return ScaffoldWithNavBar(
-      path: resolvePath(coordinator),
+      path: path,
       onTabSelected: (index) {
-        switch (index) {
-          case 0:
-            coordinator.pushOrMoveToTop(KanjiListRoute());
-          case 1:
-            coordinator.pushOrMoveToTop(RadicalsRoute());
-          case 2:
-            coordinator.pushOrMoveToTop(FlashcardsRoute());
+        if (path.activeIndex == index) {
+          switch (index) {
+            case 0:
+              coordinator.navigate(KanjiListRoute());
+            case 1:
+              coordinator.navigate(RadicalsRoute());
+            case 2:
+              coordinator.navigate(FlashcardsRoute());
+          }
+        } else {
+          path.goToIndexed(index);
+          switch (index) {
+            case 0 when coordinator.kanjiListStack.stack.isEmpty:
+              coordinator.push(KanjiListRoute());
+            case 1 when coordinator.radicalsStack.stack.isEmpty:
+              coordinator.push(RadicalsRoute());
+            case 2 when coordinator.flashcardsStack.stack.isEmpty:
+              coordinator.push(FlashcardsRoute());
+          }
         }
       },
       children: [
