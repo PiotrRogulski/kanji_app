@@ -44,40 +44,26 @@ class AppCoordinator extends Coordinator<AppRoute> {
   ];
 
   @override
-  AppRoute parseRouteFromUri(Uri uri) {
-    if (uri.pathSegments.isEmpty) {
-      return KanjiListRoute();
-    }
+  AppRoute parseRouteFromUri(Uri uri) => switch (uri.pathSegments) {
+    [] || ['list'] => KanjiListRoute(),
+    ['list', final id] when int.tryParse(id) != null => KanjiDetailsRoute(
+      .parse(id),
+    ),
+    ['radicals'] => RadicalsRoute(),
+    ['flashcards'] => FlashcardsRoute(),
+    ['flashcards', 'play'] => _parseFlashcardsPlay(uri),
+    _ => NotFoundRoute(uri),
+  };
 
-    switch (uri.pathSegments[0]) {
-      case 'list':
-        if (uri.pathSegments.length == 2) {
-          final id = int.tryParse(uri.pathSegments[1]);
-          if (id != null) {
-            return KanjiDetailsRoute(id);
-          }
-        }
-        return KanjiListRoute();
-      case 'radicals':
-        return RadicalsRoute();
-      case 'flashcards':
-        if (uri.pathSegments.length == 2 && uri.pathSegments[1] == 'play') {
-          final startId = int.tryParse(uri.queryParameters['startId'] ?? '');
-          final endId = int.tryParse(uri.queryParameters['endId'] ?? '');
-          final modeStr = uri.queryParameters['mode'];
-          final mode = FlashcardMode.values.asNameMap()[modeStr ?? ''];
+  AppRoute _parseFlashcardsPlay(Uri uri) {
+    final startId = int.tryParse(uri.queryParameters['startId'] ?? '');
+    final endId = int.tryParse(uri.queryParameters['endId'] ?? '');
+    final mode = FlashcardMode.values.asNameMap()[uri.queryParameters['mode']];
 
-          if (startId != null && endId != null && mode != null) {
-            return FlashcardsPlayRoute(
-              startId: startId,
-              endId: endId,
-              mode: mode,
-            );
-          }
-        }
-        return FlashcardsRoute();
-      default:
-        return NotFoundRoute(uri);
+    if (startId != null && endId != null && mode != null) {
+      return FlashcardsPlayRoute(startId: startId, endId: endId, mode: mode);
+    } else {
+      return FlashcardsRoute();
     }
   }
 }
