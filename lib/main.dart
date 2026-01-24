@@ -70,11 +70,11 @@ class MainApp extends HookWidget {
     final coordinator = context.coordinator;
 
     return MaterialApp.router(
-      routerDelegate: coordinator.routerDelegate,
-      routeInformationParser: coordinator.routeInformationParser,
+      routerConfig: coordinator,
       theme: appTheme(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      restorationScopeId: 'app',
     );
   }
 }
