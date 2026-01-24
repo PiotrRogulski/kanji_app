@@ -23,7 +23,11 @@ class RootLayout extends AppRoute with RouteLayout<AppRoute> {
             coordinator.push(FlashcardsRoute());
         }
       },
-      child: buildPath(coordinator),
+      children: [
+        KanjiListLayout().buildPath(coordinator),
+        RadicalsLayout().buildPath(coordinator),
+        FlashcardsLayout().buildPath(coordinator),
+      ],
     );
   }
 }

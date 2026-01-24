@@ -9,13 +9,13 @@ import 'package:zenrouter/zenrouter.dart';
 class ScaffoldWithNavBar extends StatelessWidget {
   const ScaffoldWithNavBar({
     required this.path,
-    required this.child,
+    required this.children,
     required this.onTabSelected,
     super.key,
   });
 
   final IndexedStackPath<dynamic> path;
-  final Widget child;
+  final List<Widget> children;
   final ValueChanged<int> onTabSelected;
 
   @override
@@ -52,7 +52,13 @@ class ScaffoldWithNavBar extends StatelessWidget {
             removeLeft: !isSmall,
             removeRight: !isSmall,
             removeTop: !isSmall,
-            child: child,
+            child: ListenableBuilder(
+              listenable: path,
+              builder: (context, _) => AnimatedBranchContainer(
+                currentIndex: path.activeIndex,
+                children: children,
+              ),
+            ),
           ),
         ),
       );
@@ -97,6 +103,48 @@ class ScaffoldWithNavBar extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+class AnimatedBranchContainer extends StatelessWidget {
+  const AnimatedBranchContainer({
+    super.key,
+    required this.currentIndex,
+    required this.children,
+  });
+
+  final int currentIndex;
+  final List<Widget> children;
+
+  @override
+  Widget build(BuildContext context) {
+    final baseOffset = switch (Breakpoints.small.isActive(context)) {
+      true => const Offset(0.1, 0),
+      false => const Offset(0, 0.1),
+    };
+
+    return Stack(
+      children: [
+        for (final (index, navigator) in children.indexed)
+          AnimatedSlide(
+            offset: baseOffset * index.compareTo(currentIndex).toDouble(),
+            duration: Durations.medium4,
+            curve: Curves.easeInOutCubicEmphasized,
+            child: AnimatedOpacity(
+              opacity: index == currentIndex ? 1 : 0,
+              duration: Durations.medium4,
+              curve: Curves.easeInOutCubicEmphasized,
+              child: IgnorePointer(
+                ignoring: index != currentIndex,
+                child: TickerMode(
+                  enabled: index == currentIndex,
+                  child: navigator,
+                ),
+              ),
+            ),
+          ),
+      ],
     );
   }
 }
