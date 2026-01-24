@@ -3,6 +3,7 @@ import 'package:cached_storage/cached_storage.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/loader.dart';
 import 'package:kanji_app/kanji_api.dart';
 import 'package:kanji_app/l10n/app_l10n.dart';
@@ -42,6 +43,7 @@ void main() async {
       providers: [
         Provider.value(value: kanjiData),
         Provider.value(value: radicalsData),
+        ChangeNotifierProvider(create: (context) => AppCoordinator()),
         Provider(
           create: (context) => KanjiApi(
             Dio()
@@ -65,9 +67,11 @@ class MainApp extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final coordinator = context.coordinator;
+
     return MaterialApp.router(
-      routerDelegate: AppCoordinator.instance.routerDelegate,
-      routeInformationParser: AppCoordinator.instance.routeInformationParser,
+      routerDelegate: coordinator.routerDelegate,
+      routeInformationParser: coordinator.routeInformationParser,
       theme: appTheme(),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,

@@ -4,21 +4,23 @@ import 'package:kanji_app/navigation/routes.dart';
 import 'package:zenrouter/zenrouter.dart';
 
 class AppCoordinator extends Coordinator<AppRoute> {
-  static final AppCoordinator instance = AppCoordinator();
+  late final kanjiListStack = NavigationPath<AppRoute>.createWith(
+    label: 'kanjiList',
+    coordinator: this,
+  );
 
-  // Stacks
-  late final NavigationPath<AppRoute> kanjiListStack =
-      NavigationPath.createWith(label: 'kanjiList', coordinator: this);
+  late final radicalsStack = NavigationPath<AppRoute>.createWith(
+    label: 'radicals',
+    coordinator: this,
+  );
 
-  late final NavigationPath<AppRoute> radicalsStack =
-      NavigationPath.createWith(label: 'radicals', coordinator: this);
-
-  late final NavigationPath<AppRoute> flashcardsStack =
-      NavigationPath.createWith(label: 'flashcards', coordinator: this);
+  late final flashcardsStack = NavigationPath<AppRoute>.createWith(
+    label: 'flashcards',
+    coordinator: this,
+  );
 
   // Tabs
-  late final IndexedStackPath<AppRoute> tabIndexed =
-      IndexedStackPath.createWith(
+  late final tabIndexed = IndexedStackPath<AppRoute>.createWith(
     coordinator: this,
     label: 'tabs',
     [KanjiListLayout(), RadicalsLayout(), FlashcardsLayout()],

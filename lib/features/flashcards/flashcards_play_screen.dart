@@ -12,7 +12,6 @@ import 'package:kanji_app/features/flashcards/use_flashcards_session.dart';
 import 'package:kanji_app/features/flashcards/widgets/current_flashcard.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_gestures.dart';
 import 'package:kanji_app/features/flashcards/widgets/next_flashcards.dart';
-import 'package:kanji_app/navigation/app_coordinator.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
 class FlashcardsPlayScreen extends HookWidget {
@@ -30,6 +29,7 @@ class FlashcardsPlayScreen extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
+    final coordinator = context.coordinator;
 
     final initialDeck = useDeck(startId: startId, endId: endId, mode: mode);
     final session = useFlashcardsSession(initialDeck);
@@ -46,7 +46,7 @@ class FlashcardsPlayScreen extends HookWidget {
         title: s.flashcards_title,
         endText: s.flashcards_end,
         backText: s.common_back,
-        onBack: AppCoordinator.instance.pop,
+        onBack: coordinator.pop,
       );
     }
 
@@ -71,7 +71,7 @@ class FlashcardsPlayScreen extends HookWidget {
       );
 
       if (shouldExit ?? false) {
-        await AppCoordinator.instance.pop();
+        await coordinator.pop();
       }
     }
 
