@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:archive/archive.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/extensions.dart';
@@ -9,7 +8,7 @@ import 'package:kanji_app/features/kanji_data/radicals_data.dart';
 import 'package:logging/logging.dart';
 
 Future<KanjiData> loadKanji() => _load(
-  asset: 'assets/kanji.jsonl.xz',
+  asset: 'assets/kanji.jsonl',
   fromJson: KanjiEntry.fromJson,
   create: KanjiData.new,
   entryId: (e) => e.id,
@@ -17,7 +16,7 @@ Future<KanjiData> loadKanji() => _load(
 );
 
 Future<RadicalsData> loadRadicals() => _load(
-  asset: 'assets/radicals.jsonl.xz',
+  asset: 'assets/radicals.jsonl',
   fromJson: RadicalEntry.fromJson,
   create: RadicalsData.new,
   entryId: (e) => e.id,
@@ -38,7 +37,6 @@ Future<T> _load<T, TEntry>({
 
   final jsons = assetBytes
       .apply(Uint8List.sublistView)
-      .apply(XZDecoder().decodeBytes)
       .apply(utf8.decode)
       .trimRight()
       .split('\n');

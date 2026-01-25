@@ -7,7 +7,6 @@ environment:
   flutter: ^3.41.0-1.0.pre-250
 
 dependencies:
-  archive: ^4.0.7
   cached_query_flutter: ^3.3.3
   cached_storage: ^3.2.3
   collection: ^1.19.1
@@ -59,8 +58,8 @@ flutter:
   generate: true
 
   assets:
-    - assets/kanji.jsonl.xz
-    - assets/radicals.jsonl.xz
+    - assets/kanji.jsonl
+    - assets/radicals.jsonl
 
   fonts:
     - family: Material Symbols Rounded

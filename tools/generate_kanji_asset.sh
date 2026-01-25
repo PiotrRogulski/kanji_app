@@ -7,14 +7,11 @@ if [[ $# -ne 2 ]]; then
   exit 1
 fi
 
-TMP=$(mktemp)
-trap 'rm -f "$TMP"' EXIT
-
 SOURCE_DIR=$1
 OUTPUT_PATH=$2
 
-for f in "$SOURCE_DIR"/*.json; do
-  jq -c '.' "$f" >> "$TMP"
-done
+echo -n '' > "$OUTPUT_PATH"
 
-xz -c "$TMP" > "$OUTPUT_PATH"
+for f in "$SOURCE_DIR"/*.json; do
+  jq -c '.' "$f" >> "$OUTPUT_PATH"
+done
