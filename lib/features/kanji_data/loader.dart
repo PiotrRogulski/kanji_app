@@ -2,55 +2,41 @@ import 'dart:convert';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
-import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/features/kanji_data/radicals_data.dart';
 import 'package:logging/logging.dart';
 
-Future<KanjiData> loadKanji() => _load(
+Future<KanjiData> loadKanji() => _loadEntries(
   asset: 'assets/kanji.jsonl',
   fromJson: KanjiEntry.fromJson,
-  create: KanjiData.new,
   entryId: (e) => e.id,
-  loggerName: 'KanjiLoader',
-);
+).then(KanjiData.new);
 
-Future<RadicalsData> loadRadicals() => _load(
+Future<RadicalsData> loadRadicals() => _loadEntries(
   asset: 'assets/radicals.jsonl',
   fromJson: RadicalEntry.fromJson,
-  create: RadicalsData.new,
   entryId: (e) => e.id,
-  loggerName: 'RadicalLoader',
-);
+).then(RadicalsData.new);
 
-Future<T> _load<T, TEntry>({
+Future<List<TEntry>> _loadEntries<TEntry extends Object>({
   required String asset,
   required TEntry Function(Map<String, dynamic> json) fromJson,
-  required T Function(List<TEntry> entries) create,
   required int Function(TEntry entry) entryId,
-  required String loggerName,
 }) async {
-  final logger = Logger(loggerName);
+  final logger = Logger('Loader $asset');
   final stopwatch = Stopwatch()..start();
 
-  final assetBytes = await rootBundle.load(asset);
-
-  final jsons = assetBytes
-      .apply(Uint8List.sublistView)
-      .apply(utf8.decode)
-      .trimRight()
-      .split('\n');
+  final jsons = (await rootBundle.loadString(asset)).trimRight().split('\n');
 
   final data = jsons
       .map((jsonString) => _parseEntry(jsonString, fromJson, logger))
       .nonNulls
-      .cast<TEntry>()
       .sortedBy(entryId);
 
   final time = stopwatch.elapsed;
   logger.fine('Loaded ${data.length}/${jsons.length} entries in $time');
 
-  return create(data);
+  return data;
 }
 
 TEntry? _parseEntry<TEntry>(
