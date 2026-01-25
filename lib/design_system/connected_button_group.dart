@@ -117,7 +117,6 @@ class _Segment<T> extends HookWidget {
                   alignment: .centerEnd,
                   child: Transform.scale(
                     scale: checkmarkScale,
-                    filterQuality: .high,
                     child: AppIcon(
                       .check,
                       size: .large,
