@@ -57,6 +57,24 @@ class RadicalEntryView extends StatelessWidget {
               ],
             ),
             AppUnit.small.gap,
+            if (entry.relatedRadicals.isNotEmpty) ...[
+              Wrap(
+                spacing: AppUnit.xsmall,
+                runSpacing: AppUnit.xsmall,
+                crossAxisAlignment: .center,
+                children: [
+                  Text(
+                    s.radicals_relatedRadicals,
+                    style: theme.textTheme.bodyLarge?.copyWith(
+                      color: theme.colorScheme.secondary,
+                    ),
+                  ),
+                  for (final related in entry.relatedRadicals)
+                    _RelatedRadicalChip(related),
+                ],
+              ),
+              AppUnit.small.gap,
+            ],
             Container(
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
@@ -105,6 +123,46 @@ class RadicalEntryView extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _RelatedRadicalChip extends StatelessWidget {
+  const _RelatedRadicalChip(this.related);
+
+  final RelatedRadical related;
+
+  @override
+  Widget build(BuildContext context) {
+    final s = context.l10n;
+    final theme = Theme.of(context);
+
+    final backgroundColor = theme.colorScheme.surfaceContainer;
+    final foregroundColor = theme.colorScheme.onSurfaceVariant;
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: backgroundColor,
+        borderRadius: AppBorderRadius.circular(.small),
+        border: .all(color: foregroundColor.withValues(alpha: 0.25)),
+      ),
+      child: AppPadding(
+        padding: const .symmetric(horizontal: .small, vertical: .xsmall),
+        child: Row(
+          mainAxisSize: .min,
+          spacing: AppUnit.small,
+          children: [
+            Text(
+              related.radical,
+              style: theme.textTheme.titleLarge?.apply(color: foregroundColor),
+            ),
+            Text(
+              s.radicals_strokeCount(related.strokeCount),
+              style: theme.textTheme.bodyLarge?.apply(color: foregroundColor),
             ),
           ],
         ),

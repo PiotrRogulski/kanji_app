@@ -298,6 +298,12 @@ abstract class AppLocalizations {
   /// **'Na przykład w'**
   String get radicals_exampleKanji;
 
+  /// No description provided for @radicals_relatedRadicals.
+  ///
+  /// In pl, this message translates to:
+  /// **'Inne formy'**
+  String get radicals_relatedRadicals;
+
   /// No description provided for @radicals_strokeCount.
   ///
   /// In pl, this message translates to:

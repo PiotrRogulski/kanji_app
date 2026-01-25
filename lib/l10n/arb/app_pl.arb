@@ -48,6 +48,7 @@
   "kanji_wordsRequiredLater": "Na później",
   "kanji_wordsRequiredNow": "Słowa",
   "radicals_exampleKanji": "Na przykład w",
+  "radicals_relatedRadicals": "Inne formy",
   "radicals_strokeCount": "{count, plural, one {1 kreska} few {{count} kreski} other {{count} kresek}}",
   "radicals_title": "Pierwiastki"
 }

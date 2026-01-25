@@ -116,6 +116,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get radicals_exampleKanji => 'Na przykład w';
 
   @override
+  String get radicals_relatedRadicals => 'Inne formy';
+
+  @override
   String radicals_strokeCount(num count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
