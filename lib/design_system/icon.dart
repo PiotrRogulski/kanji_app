@@ -42,7 +42,7 @@ class AppIcon extends HookWidget {
       },
       child: Icon(
         key: ValueKey(icon),
-        icon,
+        icon.iconData,
         size: size,
         opticalSize: size,
         color: color,

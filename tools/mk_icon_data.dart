@@ -29,16 +29,16 @@ void main() {
       Enum((e) {
         e
           ..name = 'AppIconData'
-          ..implements.add(refer('IconData', 'package:flutter/widgets.dart'))
-          ..annotations.add(
-            refer('staticIconProvider', 'package:flutter/widgets.dart'),
-          )
           ..values.addAll([
             for (final (:name, :codepoint) in lines.map(parseLine))
               .new((ev) {
                 ev
                   ..name = name
-                  ..arguments.add(CodeExpression(Code('0x$codepoint')));
+                  ..arguments.add(
+                    CodeExpression(
+                      .new('.new(0x$codepoint, fontFamily: fontFamily)'),
+                    ),
+                  );
               }),
           ])
           ..constructors.add(
@@ -49,7 +49,7 @@ void main() {
                   .new((p) {
                     p
                       ..toThis = true
-                      ..name = 'codePoint';
+                      ..name = 'iconData';
                   }),
                 );
             }),
@@ -57,40 +57,16 @@ void main() {
           ..fields.addAll([
             .new((f) {
               f
-                ..name = 'codePoint'
-                ..type = refer('int')
                 ..modifier = .final$
-                ..annotations.add(refer('override'));
+                ..type = refer('IconData', 'package:flutter/widgets.dart')
+                ..name = 'iconData';
             }),
             .new((f) {
               f
+                ..static = true
+                ..modifier = .constant
                 ..name = 'fontFamily'
-                ..modifier = .final$
-                ..annotations.add(refer('override'))
                 ..assignment = literalString('Material Symbols Rounded').code;
-            }),
-            .new((f) {
-              f
-                ..name = 'fontPackage'
-                ..type = refer('String?')
-                ..modifier = .final$
-                ..annotations.add(refer('override'))
-                ..assignment = literalNull.code;
-            }),
-            .new((f) {
-              f
-                ..name = 'fontFamilyFallback'
-                ..type = refer('List<String>?')
-                ..modifier = .final$
-                ..annotations.add(refer('override'))
-                ..assignment = literalNull.code;
-            }),
-            .new((f) {
-              f
-                ..name = 'matchTextDirection'
-                ..modifier = .final$
-                ..annotations.add(refer('override'))
-                ..assignment = literalFalse.code;
             }),
           ]);
       }),
