@@ -2,85 +2,53 @@
 
 import 'dart:io';
 
-import 'package:code_builder/code_builder.dart';
-import 'package:dart_style/dart_style.dart';
+import 'package:dio/dio.dart';
 
-const codepointFile = 'MaterialSymbolsRounded.codepoints';
+const fontName = 'MaterialSymbolsRounded';
+const baseName = '$fontName[FILL,GRAD,opsz,wght]';
+const baseUrl =
+    'https://raw.githubusercontent.com/google/material-design-icons/master/variablefont';
+
+const codepointsFile = '$fontName.codepoints';
+const fontFile = 'assets/fonts/$fontName.ttf';
 const outputFile = 'lib/design_system/icons.dart';
 
-void main() {
+const header = '''
+import 'package:flutter/widgets.dart';
+
+enum AppIconData {
+''';
+
+const footer = '''
+  const AppIconData(this.iconData);
+
+  final IconData iconData;
+
+  static const fontFamily = 'Material Symbols Rounded';
+}''';
+
+Future<void> main() async {
   if (!File('pubspec.yaml').existsSync()) {
     throw Exception('Run this script from the root of the project');
   }
 
-  if (!File(codepointFile).existsSync()) {
-    throw Exception('$codepointFile not found in current directory');
-  }
+  final dio = Dio();
+  await dio.download('$baseUrl/$baseName.codepoints', codepointsFile);
+  await dio.download('$baseUrl/$baseName.ttf', fontFile);
 
-  final output = File(outputFile);
-  if (output.existsSync()) {
-    output.deleteSync();
-  }
+  final lines = File(codepointsFile).readAsLinesSync();
 
-  final lines = File(codepointFile).readAsLinesSync();
+  final libraryBuffer = StringBuffer()
+    ..write(header)
+    ..writeAll(lines.map(makeEnumValue), ',\n')
+    ..writeln(';')
+    ..writeln()
+    ..writeln(footer);
 
-  final iconDataLibrary = Library((l) {
-    l.body.add(
-      Enum((e) {
-        e
-          ..name = 'AppIconData'
-          ..values.addAll([
-            for (final (:name, :codepoint) in lines.map(parseLine))
-              .new((ev) {
-                ev
-                  ..name = name
-                  ..arguments.add(
-                    CodeExpression(
-                      .new('.new(0x$codepoint, fontFamily: fontFamily)'),
-                    ),
-                  );
-              }),
-          ])
-          ..constructors.add(
-            .new((c) {
-              c
-                ..constant = true
-                ..requiredParameters.add(
-                  .new((p) {
-                    p
-                      ..toThis = true
-                      ..name = 'iconData';
-                  }),
-                );
-            }),
-          )
-          ..fields.addAll([
-            .new((f) {
-              f
-                ..modifier = .final$
-                ..type = refer('IconData', 'package:flutter/widgets.dart')
-                ..name = 'iconData';
-            }),
-            .new((f) {
-              f
-                ..static = true
-                ..modifier = .constant
-                ..name = 'fontFamily'
-                ..assignment = literalString('Material Symbols Rounded').code;
-            }),
-          ]);
-      }),
-    );
-  });
-
-  output.writeAsStringSync(
-    DartFormatter(
-      languageVersion: DartFormatter.latestLanguageVersion,
-    ).format(iconDataLibrary.accept(DartEmitter(allocator: .new())).toString()),
-  );
+  File(outputFile).writeAsStringSync(libraryBuffer.toString());
 }
 
-({String name, String codepoint}) parseLine(String line) {
+String makeEnumValue(String line) {
   var [name, codepoint] = line.split(' ');
   codepoint = codepoint.toUpperCase();
   if (RegExp('^([0-9]+)(.*)').firstMatch(name) case final match?) {
@@ -95,7 +63,7 @@ void main() {
     };
   }
 
-  return (name: sanitizeName(snakeToCamel(name)), codepoint: codepoint);
+  return '  ${sanitizeName(snakeToCamel(name))}(.new(0x$codepoint, fontFamily: fontFamily))';
 }
 
 String snakeToCamel(String input) => input.replaceAllMapped(
