@@ -47,7 +47,7 @@ class KanjiAnimationRoute extends GoRouteData with $KanjiAnimationRoute {
   final int id;
 
   @override
-  Page<Function> buildPage(BuildContext context, GoRouterState state) {
+  Page<void> buildPage(BuildContext context, GoRouterState state) {
     return CustomTransitionPage(
       opaque: false,
       barrierDismissible: true,
