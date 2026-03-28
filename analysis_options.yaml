@@ -1,11 +1,7 @@
 include: package:leancode_lint/analysis_options.yaml
 
 plugins:
-  leancode_lint:
-    git:
-      url: https://github.com/leancodepl/flutter_corelibrary
-      path: packages/leancode_lint
-      ref: migrate-lints-to-analysis-server-plugin
+  leancode_lint: ^22.0.0
 
 analyzer:
   exclude:
@@ -14,6 +10,3 @@ analyzer:
 linter:
   rules:
     unsafe_variance: false
-
-leancode_lint:
-  application_prefix: App

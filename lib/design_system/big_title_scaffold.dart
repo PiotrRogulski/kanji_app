@@ -64,7 +64,7 @@ class AppBigTitleScaffold extends HookWidget {
           : null,
       body: CustomScrollView(
         controller: scrollController,
-        cacheExtent: cacheExtent,
+        scrollCacheExtent: cacheExtent?.apply((extent) => .pixels(extent)),
         slivers: [
           SliverPadding(
             padding: viewPadding.add(const AppEdgeInsets.all(.medium)),
