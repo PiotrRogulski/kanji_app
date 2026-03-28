@@ -4,7 +4,12 @@ const listBranch = TypedStatefulShellBranch<KanjiListBranch>(
   routes: [
     TypedGoRoute<KanjiListRoute>(
       path: '/list',
-      routes: [TypedGoRoute<KanjiDetailsRoute>(path: ':id')],
+      routes: [
+        TypedGoRoute<KanjiDetailsRoute>(
+          path: ':id',
+          routes: [TypedGoRoute<KanjiAnimationRoute>(path: 'kanji-animation')],
+        ),
+      ],
     ),
   ],
 );
@@ -33,5 +38,27 @@ class KanjiDetailsRoute extends GoRouteData with $KanjiDetailsRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return KanjiDetailsScreen(id);
+  }
+}
+
+class KanjiAnimationRoute extends GoRouteData with $KanjiAnimationRoute {
+  const KanjiAnimationRoute(this.id);
+
+  final int id;
+
+  @override
+  Page<void> buildPage(BuildContext context, GoRouterState state) {
+    return CustomTransitionPage(
+      opaque: false,
+      barrierDismissible: true,
+      transitionsBuilder: (context, animation, _, child) {
+        final sigma = 8 * animation.value;
+        return BackdropFilter(
+          filter: .blur(sigmaX: sigma, sigmaY: sigma, tileMode: .clamp),
+          child: child,
+        );
+      },
+      child: KanjiAnimationDialog(id),
+    );
   }
 }

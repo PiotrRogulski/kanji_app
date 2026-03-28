@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/features/details/kanji_details_screen.dart';
+import 'package:kanji_app/features/details/widgets/kanji_animation_dialog.dart';
 import 'package:kanji_app/features/flashcards/flashcards_play_screen.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
 import 'package:kanji_app/features/list/kanji_list_screen.dart';
@@ -11,16 +12,9 @@ part 'routes.g.dart';
 part 'list_branch.dart';
 part 'radicals_branch.dart';
 part 'flashcards_branch.dart';
-// part 'sets_branch.dart';
 
 @TypedStatefulShellRoute<RootRoute>(
-  branches: [
-    listBranch,
-    // TODO: define & bring back sets
-    // setsBranch,
-    radicalsBranch,
-    flashcardsBranch,
-  ],
+  branches: [listBranch, radicalsBranch, flashcardsBranch],
 )
 class RootRoute extends StatefulShellRouteData {
   @override

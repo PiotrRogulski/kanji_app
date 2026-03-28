@@ -10,8 +10,8 @@ class FlashcardsSession {
     required this.totalCount,
     required this.deck,
     required this.learnedCount,
-    required ValueNotifier<int> revision,
-  }) : _revision = revision;
+    required this._revision,
+  });
 
   final int totalCount;
   final ListQueue<FlashcardItem> deck;
