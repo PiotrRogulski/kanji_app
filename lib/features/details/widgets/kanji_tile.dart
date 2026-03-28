@@ -1,18 +1,14 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_animation_dialog.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/navigation/routes.dart';
 
 class KanjiTile extends StatelessWidget {
   const KanjiTile(this.kanji, {super.key});
 
   final KanjiEntry kanji;
-
-  static Tween<Rect?> _createRectTween(Rect? begin, Rect? end) =>
-      RectTween(begin: begin, end: end);
 
   @override
   Widget build(BuildContext context) {
@@ -22,45 +18,10 @@ class KanjiTile extends StatelessWidget {
     final contentColor = theme.colorScheme.onSurfaceVariant;
 
     return Hero(
-      tag: 'kanji-${kanji.kanji}',
-      createRectTween: _createRectTween,
+      tag: KanjiAnimationDialog.heroTag(kanji.kanji),
+      createRectTween: KanjiAnimationDialog.createRectTween,
       child: AppCard(
-        onTap: () {
-          Navigator.of(context, rootNavigator: true).push(
-            PageRouteBuilder<void>(
-              opaque: false,
-              barrierDismissible: true,
-              transitionsBuilder: (context, animation, _, child) {
-                final sigma = 8 * animation.value;
-
-                return BackdropFilter(
-                  filter: .blur(sigmaX: sigma, sigmaY: sigma, tileMode: .clamp),
-                  child: child,
-                );
-              },
-              pageBuilder: (context, _, _) {
-                return Center(
-                  child: Hero(
-                    tag: 'kanji-${kanji.kanji}',
-                    createRectTween: _createRectTween,
-                    child: LayoutBuilder(
-                      builder: (context, constraints) {
-                        final biggest = constraints.biggest;
-                        return SizedBox.square(
-                          dimension: min(
-                            biggest.shortestSide - 2 * AppUnit.xlarge,
-                            400,
-                          ),
-                          child: KanjiAnimationDialog(kanji.kanji),
-                        );
-                      },
-                    ),
-                  ),
-                );
-              },
-            ),
-          );
-        },
+        onTap: () => KanjiAnimationRoute(kanji.id).push<void>(context),
         child: Stack(
           children: [
             AppPadding(

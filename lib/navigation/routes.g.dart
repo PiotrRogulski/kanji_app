@@ -24,6 +24,12 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
             GoRouteData.$route(
               path: ':id',
               factory: $KanjiDetailsRoute._fromState,
+              routes: [
+                GoRouteData.$route(
+                  path: 'kanji-animation',
+                  factory: $KanjiAnimationRoute._fromState,
+                ),
+              ],
             ),
           ],
         ),
@@ -92,6 +98,31 @@ mixin $KanjiDetailsRoute on GoRouteData {
   @override
   String get location => GoRouteData.$location(
     '/list/${Uri.encodeComponent(_self.id.toString())}',
+  );
+
+  @override
+  void go(BuildContext context) => context.go(location);
+
+  @override
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  @override
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  @override
+  void replace(BuildContext context) => context.replace(location);
+}
+
+mixin $KanjiAnimationRoute on GoRouteData {
+  static KanjiAnimationRoute _fromState(GoRouterState state) =>
+      KanjiAnimationRoute(int.parse(state.pathParameters['id']!));
+
+  KanjiAnimationRoute get _self => this as KanjiAnimationRoute;
+
+  @override
+  String get location => GoRouteData.$location(
+    '/list/${Uri.encodeComponent(_self.id.toString())}/kanji-animation',
   );
 
   @override
