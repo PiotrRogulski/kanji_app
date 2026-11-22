@@ -8,6 +8,8 @@ class const KanjiData(final List<KanjiEntry> entries) {
 class const KanjiEntry({
   required final int id,
   required final String kanji,
+  final int? radical,
+  final String? radicalForm,
   required final List<String> readings,
   required final List<KanjiWord> wordsRequiredNow,
   required final List<KanjiWord> wordsRequiredLater,
@@ -17,6 +19,8 @@ class const KanjiEntry({
     : this(
         id: json['id'] as int,
         kanji: json['kanji'] as String,
+        radical: json['radical'] as int?,
+        radicalForm: json['radicalForm'] as String?,
         readings: ((json['readings'] as List?) ?? []).cast(),
         wordsRequiredNow: ((json['wordsRequiredNow'] as List?) ?? [])
             .cast<Map<String, dynamic>>()
@@ -36,6 +40,8 @@ class const KanjiEntry({
   List<Object?> get props => [
     id,
     kanji,
+    radical,
+    radicalForm,
     readings,
     wordsRequiredNow,
     wordsRequiredLater,
