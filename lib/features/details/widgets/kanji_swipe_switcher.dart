@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system/liquid_glass.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -70,6 +71,10 @@ class const _PositionedKanjiPreview(final KanjiEntry entry, final double offset)
     final percentArmed = (absOffset / _triggerThreshold).clamp(0, 1);
     final stretch = max(0, absOffset - _triggerThreshold);
     final isArmed = percentArmed == 1;
+    useValueChanged(
+      isArmed,
+      (_, _) => isArmed ? HapticFeedback.lightImpact() : null,
+    );
 
     final scale = useValueSpring(
       isArmed ? 2 : 1,
