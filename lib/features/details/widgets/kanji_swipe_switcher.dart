@@ -28,7 +28,7 @@ class const KanjiSwipeSwitcher({super.key, required final Widget child})
     final rawDragOffset = useState<double>(0);
     final dragOffset = useValueSpring(
       rawDragOffset.value,
-      spring: Springs.expressiveFastSpatial,
+      spring: Springs.expressiveFastEffects,
       animate: !dragging.value,
     );
 

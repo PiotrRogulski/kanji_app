@@ -7,7 +7,6 @@ class const RadicalEntryView(final RadicalEntry entry, {super.key})
     extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final s = context.l10n;
     final theme = Theme.of(context);
 
     return AppCard(
@@ -55,72 +54,10 @@ class const RadicalEntryView(final RadicalEntry entry, {super.key})
             ),
             AppUnit.small.gap,
             if (entry.relatedRadicals.isNotEmpty) ...[
-              Wrap(
-                spacing: AppUnit.xsmall,
-                runSpacing: AppUnit.xsmall,
-                crossAxisAlignment: .center,
-                children: [
-                  Text(
-                    s.radicals_relatedRadicals,
-                    style: theme.textTheme.bodyLarge?.copyWith(
-                      color: theme.colorScheme.secondary,
-                    ),
-                  ),
-                  for (final related in entry.relatedRadicals)
-                    _RelatedRadicalChip(related),
-                ],
-              ),
+              RadicalRelatedForms(entry),
               AppUnit.small.gap,
             ],
-            Container(
-              decoration: BoxDecoration(
-                color: theme.colorScheme.surface,
-                borderRadius: AppBorderRadius.circular(
-                  AppUnit.small + AppUnit.xsmall,
-                ),
-              ),
-              padding: const AppEdgeInsets.only(
-                start: .small,
-                end: .xsmall,
-                top: .xsmall,
-                bottom: .xsmall,
-              ),
-              child: Row(
-                mainAxisSize: .min,
-                children: [
-                  Text(
-                    s.radicals_exampleKanji,
-                    style: theme.textTheme.bodyLarge,
-                  ),
-                  AppUnit.small.gap,
-                  Row(
-                    spacing: AppUnit.tiny,
-                    mainAxisSize: .min,
-                    children: [
-                      for (final (index, kanji) in entry.examples.indexed)
-                        Container(
-                          width: 42,
-                          height: 42,
-                          decoration: BoxDecoration(
-                            color: theme.colorScheme.surfaceContainerHighest,
-                            borderRadius: AppBorderRadius.horizontal(
-                              start: index == 0 ? .small : .xsmall,
-                              end: index == entry.examples.length - 1
-                                  ? .small
-                                  : .xsmall,
-                            ),
-                          ),
-                          alignment: .center,
-                          child: Text(
-                            kanji,
-                            style: theme.textTheme.headlineLarge,
-                          ),
-                        ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
+            RadicalExamples(entry),
           ],
         ),
       ),
@@ -128,8 +65,95 @@ class const RadicalEntryView(final RadicalEntry entry, {super.key})
   }
 }
 
-class const _RelatedRadicalChip(final RelatedRadical related)
+class const RadicalRelatedForms(
+  final RadicalEntry entry, {
+  final Iterable<String> otherForms = const [],
+  final WrapAlignment alignment = .start,
+  super.key,
+}) extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final s = context.l10n;
+    final theme = Theme.of(context);
+
+    return Wrap(
+      spacing: AppUnit.xsmall,
+      runSpacing: AppUnit.xsmall,
+      alignment: alignment,
+      crossAxisAlignment: .center,
+      children: [
+        Text(
+          s.radicals_relatedRadicals,
+          style: theme.textTheme.bodyLarge?.copyWith(
+            color: theme.colorScheme.secondary,
+          ),
+        ),
+        for (final form in otherForms) _RelatedRadicalChip(radical: form),
+        for (final related in entry.relatedRadicals)
+          _RelatedRadicalChip(
+            radical: related.radical,
+            strokeCount: related.strokeCount,
+          ),
+      ],
+    );
+  }
+}
+
+class const RadicalExamples(final RadicalEntry entry, {super.key})
     extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final s = context.l10n;
+    final theme = Theme.of(context);
+
+    return Container(
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surface,
+        borderRadius: AppBorderRadius.circular(AppUnit.small + AppUnit.xsmall),
+      ),
+      padding: const AppEdgeInsets.only(
+        start: .small,
+        end: .xsmall,
+        top: .xsmall,
+        bottom: .xsmall,
+      ),
+      child: Row(
+        mainAxisSize: .min,
+        children: [
+          Text(s.radicals_exampleKanji, style: theme.textTheme.bodyLarge),
+          AppUnit.small.gap,
+          Row(
+            spacing: AppUnit.tiny,
+            mainAxisSize: .min,
+            children: [
+              for (final (index, kanji) in entry.examples.indexed)
+                Container(
+                  width: 42,
+                  height: 42,
+                  decoration: BoxDecoration(
+                    color: theme.colorScheme.surfaceContainerHighest,
+                    borderRadius: AppBorderRadius.horizontal(
+                      start: index == 0 ? .small : .xsmall,
+                      end: index == entry.examples.length - 1
+                          ? .small
+                          : .xsmall,
+                    ),
+                  ),
+                  alignment: .center,
+                  child: Text(kanji, style: theme.textTheme.headlineLarge),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class const _RelatedRadicalChip({
+  required final String radical,
+  final int? strokeCount,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -151,13 +175,14 @@ class const _RelatedRadicalChip(final RelatedRadical related)
           spacing: AppUnit.small,
           children: [
             Text(
-              related.radical,
+              radical,
               style: theme.textTheme.titleLarge?.apply(color: foregroundColor),
             ),
-            Text(
-              s.radicals_strokeCount(related.strokeCount),
-              style: theme.textTheme.bodyLarge?.apply(color: foregroundColor),
-            ),
+            if (strokeCount case final strokeCount?)
+              Text(
+                s.radicals_strokeCount(strokeCount),
+                style: theme.textTheme.bodyLarge?.apply(color: foregroundColor),
+              ),
           ],
         ),
       ),

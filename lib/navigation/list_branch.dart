@@ -7,7 +7,10 @@ const listBranch = TypedStatefulShellBranch<KanjiListBranch>(
       routes: [
         TypedGoRoute<KanjiDetailsRoute>(
           path: ':id',
-          routes: [TypedGoRoute<KanjiAnimationRoute>(path: 'kanji-animation')],
+          routes: [
+            TypedGoRoute<KanjiAnimationRoute>(path: 'kanji-animation'),
+            TypedGoRoute<KanjiRadicalRoute>(path: 'radical'),
+          ],
         ),
       ],
     ),
@@ -51,6 +54,22 @@ class const KanjiAnimationRoute(final int id)
         );
       },
       child: KanjiAnimationDialog(id),
+    );
+  }
+}
+
+class const KanjiRadicalRoute(final int id)
+    extends GoRouteData
+    with $KanjiRadicalRoute {
+  @override
+  Page<void> buildPage(BuildContext context, GoRouterState state) {
+    return CustomTransitionPage(
+      opaque: false,
+      barrierDismissible: true,
+      transitionDuration: RadicalHero.openDuration,
+      reverseTransitionDuration: RadicalHero.closeDuration,
+      transitionsBuilder: (context, animation, _, child) => child,
+      child: RadicalDialog(id),
     );
   }
 }

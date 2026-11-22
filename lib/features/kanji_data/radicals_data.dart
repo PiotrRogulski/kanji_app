@@ -1,6 +1,21 @@
+import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
+import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 
-class const RadicalsData(final List<RadicalEntry> entries);
+class KanjiRadicalData({
+  required final RadicalEntry entry,
+  required final String form,
+});
+
+class const RadicalsData(final List<RadicalEntry> entries) {
+  KanjiRadicalData? of(KanjiEntry kanji) {
+    final entry = entries.firstWhereOrNull((e) => e.id == kanji.radical);
+    if (entry == null) {
+      return null;
+    }
+    return .new(entry: entry, form: kanji.radicalForm ?? entry.radicals.first);
+  }
+}
 
 class const RadicalEntry._({
   required final int id,

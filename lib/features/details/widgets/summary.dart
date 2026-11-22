@@ -1,7 +1,9 @@
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_tile.dart';
+import 'package:kanji_app/features/details/widgets/radical.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:kanji_app/features/kanji_data/radicals_data.dart';
 import 'package:kanji_app/widgets/readings.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
@@ -10,13 +12,26 @@ class const KanjiSummary({super.key}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final entry = context.watch<KanjiEntry>();
+    final radical = context.read<RadicalsData>().of(entry);
 
     return SizedBox(
       width: 300,
       child: Wrap(
         spacing: AppUnit.small,
         runSpacing: AppUnit.small,
-        children: [KanjiTile(entry), _Readings(entry)],
+        children: [
+          IntrinsicWidth(
+            child: Column(
+              spacing: AppUnit.small,
+              crossAxisAlignment: .stretch,
+              children: [
+                KanjiTile(entry),
+                if (radical != null) KanjiRadical(entry, form: radical.form),
+              ],
+            ),
+          ),
+          _Readings(entry),
+        ],
       ),
     );
   }

@@ -1,6 +1,8 @@
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/features/details/kanji_details_screen.dart';
 import 'package:kanji_app/features/details/widgets/kanji_animation_dialog.dart';
+import 'package:kanji_app/features/details/widgets/radical_dialog.dart';
+import 'package:kanji_app/features/details/widgets/radical_hero.dart';
 import 'package:kanji_app/features/flashcards/flashcards_play_screen.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
 import 'package:kanji_app/features/list/kanji_list_screen.dart';

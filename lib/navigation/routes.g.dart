@@ -32,6 +32,11 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
                   hasOverriddenOnExit: false,
                   factory: $KanjiAnimationRoute._fromState,
                 ),
+                GoRouteData.$route(
+                  path: 'radical',
+                  hasOverriddenOnExit: false,
+                  factory: $KanjiRadicalRoute._fromState,
+                ),
               ],
             ),
           ],
@@ -129,6 +134,31 @@ mixin $KanjiAnimationRoute on GoRouteData {
   @override
   String get location => GoRouteData.$location(
     '/list/${Uri.encodeComponent(_self.id.toString())}/kanji-animation',
+  );
+
+  @override
+  void go(BuildContext context) => context.go(location);
+
+  @override
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  @override
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  @override
+  void replace(BuildContext context) => context.replace(location);
+}
+
+mixin $KanjiRadicalRoute on GoRouteData {
+  static KanjiRadicalRoute _fromState(GoRouterState state) =>
+      KanjiRadicalRoute(int.parse(state.pathParameters['id']!));
+
+  KanjiRadicalRoute get _self => this as KanjiRadicalRoute;
+
+  @override
+  String get location => GoRouteData.$location(
+    '/list/${Uri.encodeComponent(_self.id.toString())}/radical',
   );
 
   @override

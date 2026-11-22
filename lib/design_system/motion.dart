@@ -6,6 +6,21 @@ import 'package:material_ui/material_ui.dart';
 /// opacity, colors, sizes or factors animating to 0.
 const defaultSpring = Springs.expressiveDefaultEffects;
 
+/// The path [spring] takes from rest at 0 to 1, overshoot included.
+/// [duration] has to be long enough for the spring to settle.
+final class const SpringCurve(
+  final SpringDescription spring,
+  final Duration duration,
+) extends Curve {
+  @override
+  double transformInternal(double t) => SpringSimulation(
+    spring,
+    0,
+    1,
+    0,
+  ).x(t * duration.inMicroseconds / Duration.microsecondsPerSecond);
+}
+
 extension AnimationControllerSpring on AnimationController {
   /// Animates from the current value to [target] along [spring], which falls
   /// back to [defaultSpring].
