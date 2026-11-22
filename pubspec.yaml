@@ -24,6 +24,7 @@ dependencies:
   intl: any
   kana_kit: ^2.1.1
   leancode_hooks: ^0.1.2+1
+  liquid_glass_renderer: ^1.0.0-dev.2
   logging: ^1.3.0
   material_ui: ^1.11.1
   meta: ^1.19.0
@@ -45,6 +46,9 @@ dev_dependencies:
   file: ^7.0.1
   go_router_builder: ^4.5.3
   leancode_lint: ^28.0.0
+
+dependency_overrides:
+  liquid_glass_renderer: ^1.0.0-dev.2
 
 flutter:
   config:

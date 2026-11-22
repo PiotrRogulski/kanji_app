@@ -9,6 +9,7 @@ import 'package:kanji_app/l10n/app_l10n.dart';
 import 'package:kanji_app/navigation/router.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:liquid_glass_renderer/liquid_glass_renderer.dart';
 import 'package:logging/logging.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
@@ -20,6 +21,8 @@ void main() async {
   hierarchicalLoggingEnabled = true;
   WidgetsFlutterBinding.ensureInitialized();
   GoRouter.optionURLReflectsImperativeAPIs = true;
+
+  await LiquidGlass.precache();
 
   _setupLogger();
 

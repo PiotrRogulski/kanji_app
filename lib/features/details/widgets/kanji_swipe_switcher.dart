@@ -1,10 +1,11 @@
 import 'dart:math';
 
-import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
+import 'package:kanji_app/design_system/liquid_glass.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:liquid_glass_renderer/liquid_glass_renderer.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
@@ -21,30 +22,40 @@ class const KanjiSwipeSwitcher({super.key, required final Widget child})
     final previousEntry = kanjiData.get(entry.id - 1);
     final nextEntry = kanjiData.get(entry.id + 1);
 
-    final dragOffset = useState<double>(0);
+    final dragging = useState(false);
+
+    final rawDragOffset = useState<double>(0);
+    final dragOffset = useValueSpring(
+      rawDragOffset.value,
+      spring: Springs.expressiveFastSpatial,
+      animate: !dragging.value,
+    );
 
     void onDragEnd() {
-      if (dragOffset.value > _triggerThreshold && previousEntry != null) {
+      dragging.value = false;
+      if (rawDragOffset.value > _triggerThreshold && previousEntry != null) {
         KanjiDetailsRoute(previousEntry.id).go(context);
-      } else if (dragOffset.value < -_triggerThreshold && nextEntry != null) {
+      } else if (rawDragOffset.value < -_triggerThreshold &&
+          nextEntry != null) {
         KanjiDetailsRoute(nextEntry.id).go(context);
       }
-      dragOffset.value = 0;
+      rawDragOffset.value = 0;
     }
 
     return GestureDetector(
       onHorizontalDragUpdate: (details) {
-        dragOffset.value += details.delta.dx;
+        dragging.value = true;
+        rawDragOffset.value += details.delta.dx;
       },
       onHorizontalDragCancel: onDragEnd,
       onHorizontalDragEnd: (_) => onDragEnd(),
       child: Stack(
         children: [
           Positioned.fill(child: child),
-          if (previousEntry != null && dragOffset.value > 0)
-            _PositionedKanjiPreview(previousEntry, dragOffset.value),
-          if (nextEntry != null && dragOffset.value < 0)
-            _PositionedKanjiPreview(nextEntry, dragOffset.value),
+          if (previousEntry != null && dragOffset > 0)
+            _PositionedKanjiPreview(previousEntry, dragOffset),
+          if (nextEntry != null && dragOffset < 0)
+            _PositionedKanjiPreview(nextEntry, dragOffset),
         ],
       ),
     );
@@ -52,69 +63,64 @@ class const KanjiSwipeSwitcher({super.key, required final Widget child})
 }
 
 class const _PositionedKanjiPreview(final KanjiEntry entry, final double offset)
-    extends StatelessWidget {
+    extends HookWidget {
   @override
   Widget build(BuildContext context) {
+    final absOffset = offset.abs();
+    final percentArmed = (absOffset / _triggerThreshold).clamp(0, 1);
+    final stretch = max(0, absOffset - _triggerThreshold);
+    final isArmed = percentArmed == 1;
+
+    final scale = useValueSpring(
+      isArmed ? 2 : 1,
+      spring: Springs.expressiveFastSpatial,
+    );
+
     return Positioned.directional(
       textDirection: offset > 0 ? .ltr : .rtl,
       top: 0,
       bottom: 0,
-      start: min(offset.abs(), _triggerThreshold) - _bubbleSize,
-      child: _KanjiPreviewBubble(entry, offset: offset.abs()),
+      start:
+          min(offset.abs(), _triggerThreshold) -
+          _bubbleSize -
+          (scale - 1) * _bubbleSize / 2,
+      child: _KanjiPreviewBubble(
+        entry,
+        percentArmed: percentArmed.toDouble(),
+        stretch: stretch.toDouble(),
+        scale: scale,
+      ),
     );
   }
 }
 
-// https://github.com/dart-lang/sdk/issues/64037
-// ignore: prefer_const_constructors_in_immutables
-class _KanjiPreviewBubble(final KanjiEntry entry, {required double offset})
-    extends HookWidget {
-  final double percentArmed = (offset / _triggerThreshold).clamp(0, 1);
-  final double stretch = max(0, offset - _triggerThreshold);
-
+class const _KanjiPreviewBubble(
+  final KanjiEntry entry, {
+  required final double percentArmed,
+  required final double stretch,
+  required final double scale,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    final isArmed = percentArmed == 1;
-    useValueChanged(
-      isArmed,
-      (_, _) => isArmed ? HapticFeedback.lightImpact() : null,
-    );
-    final scale = useValueSpring(
-      isArmed ? 1.5 : 1,
-      spring: Springs.expressiveFastSpatial,
-    );
-
     return Center(
-      child: Transform.scale(
-        scale: scale,
-        child: Container(
-          margin: .symmetric(horizontal: sqrt(stretch)),
-          width: _bubbleSize,
-          height: _bubbleSize,
-          decoration: ShapeDecoration(
-            shape: const OvalBorder(),
-            color: theme.colorScheme.surface.withValues(alpha: 0.25),
-            shadows: [
-              .new(
-                color: Colors.black.withValues(alpha: 0.5 * percentArmed),
-                blurStyle: .outer,
-                blurRadius: 24 * percentArmed,
-              ),
-            ],
+      child: Container(
+        margin: .symmetric(horizontal: sqrt(stretch)),
+        width: _bubbleSize * scale,
+        height: _bubbleSize * scale,
+        child: LiquidGlass.auto(
+          shape: const LiquidOval(),
+          settings: appLiquidGlassSettings,
+          appearance: appLiquidGlassAppearance.copyWith(
+            tint: theme.colorScheme.surface.withValues(alpha: 0.25),
           ),
-          clipBehavior: .antiAlias,
-          child: BackdropFilter(
-            filter: .compose(
-              outer: .blur(sigmaX: 4, sigmaY: 4),
-              inner: ColorFilter.matrix(_saturationMatrix(1.5)),
-            ),
-            child: Center(
-              child: Text(
-                entry.kanji,
-                style: theme.textTheme.headlineMedium?.copyWith(height: 1),
-              ),
+          child: Center(
+            child: Text(
+              entry.kanji,
+              style: theme.textTheme.headlineMedium
+                  ?.copyWith(height: 1)
+                  .apply(fontSizeFactor: scale),
             ),
           ),
         ),
@@ -122,12 +128,3 @@ class _KanjiPreviewBubble(final KanjiEntry entry, {required double offset})
     );
   }
 }
-
-// dart format off
-List<double> _saturationMatrix(double s) => [
-  0.213*(1-s)+s, 0.715*(1-s)  , 0.072*(1-s)  , 0, 0,
-  0.213*(1-s)  , 0.715*(1-s)+s, 0.072*(1-s)  , 0, 0,
-  0.213*(1-s)  , 0.715*(1-s)  , 0.072*(1-s)+s, 0, 0,
-  0            , 0            , 0            , 1, 0,
-];
-// dart format on
