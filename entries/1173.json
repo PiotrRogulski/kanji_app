@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "提訴",
-      "reading": "テイソ"
+      "reading": "テイソ",
+      "meaning": "wniesienie pozwu"
     },
     {
       "kanji": "訴え",
-      "reading": "うったえ"
+      "reading": "うったえ",
+      "meaning": "skarga; pozew; apel"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "訴訟",
       "reading": "ソショウ",
-      "reference": 1283
+      "reference": 1283,
+      "meaning": "proces sądowy; pozew"
     }
   ],
   "additionalWords": []

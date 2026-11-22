@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "哲学",
-      "reading": "テツガク"
+      "reading": "テツガク",
+      "meaning": "filozofia"
     },
     {
       "kanji": "哲人",
-      "reading": "テツジン"
+      "reading": "テツジン",
+      "meaning": "filozof; mędrzec"
     }
   ],
   "wordsRequiredLater": [],

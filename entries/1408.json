@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "貫く",
-      "reading": "つらぬく"
+      "reading": "つらぬく",
+      "meaning": "przebijać; przeszywać; trwać przy (zasadach)"
     },
     {
       "kanji": "貫通",
-      "reading": "カンツウ"
+      "reading": "カンツウ",
+      "meaning": "przebicie; przejście na wylot"
     }
   ],
   "wordsRequiredLater": [],

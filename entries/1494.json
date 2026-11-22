@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "培う",
-      "reading": "つちかう"
+      "reading": "つちかう",
+      "meaning": "pielęgnować; rozwijać; uprawiać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "栽培",
       "reading": "サイバイ",
-      "reference": 1533
+      "reference": 1533,
+      "meaning": "uprawa (roślin)"
     }
   ],
   "additionalWords": []

@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "妙な",
-      "reading": "ミョウ"
+      "reading": "ミョウ",
+      "meaning": "dziwny; osobliwy"
     },
     {
       "kanji": "微妙な",
-      "reading": "ビミョウ"
+      "reading": "ビミョウ",
+      "meaning": "subtelny; delikatny; niejednoznaczny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "奇妙な",
       "reading": "キミョウ",
-      "reference": 1525
+      "reference": 1525,
+      "meaning": "dziwny; dziwaczny"
     }
   ],
   "additionalWords": []

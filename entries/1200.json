@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "秒",
-      "reading": "ビョウ"
+      "reading": "ビョウ",
+      "meaning": "sekunda"
     },
     {
       "kanji": "秒時計",
-      "reading": "ビョウドケイ"
+      "reading": "ビョウドケイ",
+      "meaning": "stoper"
     }
   ],
   "wordsRequiredLater": [],

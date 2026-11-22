@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "潮流",
-      "reading": "チョウリュウ"
+      "reading": "チョウリュウ",
+      "meaning": "prąd morski; nurt; trend"
     },
     {
       "kanji": "上げ潮",
-      "reading": "あげしお"
+      "reading": "あげしお",
+      "meaning": "przypływ"
     },
     {
       "kanji": "下げ潮",
-      "reading": "さげしお"
+      "reading": "さげしお",
+      "meaning": "odpływ"
     },
     {
       "kanji": "親潮",
-      "reading": "おやしお"
+      "reading": "おやしお",
+      "meaning": "Prąd Oyashio"
     },
     {
       "kanji": "黒潮",
-      "reading": "くろしお"
+      "reading": "くろしお",
+      "meaning": "Kuroshio (ciepły prąd morski)"
     }
   ],
   "wordsRequiredLater": [],

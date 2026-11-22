@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "描く",
-      "reading": "えがく"
+      "reading": "えがく",
+      "meaning": "rysować; malować; opisywać"
     },
     {
       "kanji": "描写",
-      "reading": "ビョウシャ"
+      "reading": "ビョウシャ",
+      "meaning": "opis; przedstawienie"
     }
   ],
   "wordsRequiredLater": [],

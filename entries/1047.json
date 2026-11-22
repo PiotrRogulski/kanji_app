@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "近郷",
-      "reading": "キンゴウ"
+      "reading": "キンゴウ",
+      "meaning": "okoliczne wsie; okolica"
     },
     {
       "kanji": "故郷",
-      "reading": "コキョウ"
+      "reading": "コキョウ",
+      "meaning": "rodzinne strony; ojczyzna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "郷里",
       "reading": "キョウリ",
-      "reference": 1272
+      "reference": 1272,
+      "meaning": "rodzinne strony"
     }
   ],
   "additionalWords": []

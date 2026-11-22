@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "釣る",
-      "reading": "つる"
+      "reading": "つる",
+      "meaning": "łowić (ryby na wędkę)"
     },
     {
       "kanji": "釣り",
-      "reading": "つり"
+      "reading": "つり",
+      "meaning": "wędkarstwo; łowienie ryb"
     },
     {
       "kanji": "（お）釣り",
-      "reading": "おつり"
+      "reading": "おつり",
+      "meaning": "reszta (pieniądze)"
     },
     {
       "kanji": "釣り合い",
-      "reading": "つりあい"
+      "reading": "つりあい",
+      "meaning": "równowaga; proporcja"
     }
   ],
   "wordsRequiredLater": [],

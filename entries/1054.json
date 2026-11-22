@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "巡る",
-      "reading": "めぐる"
+      "reading": "めぐる",
+      "meaning": "krążyć; objeżdżać; dotyczyć"
     },
     {
       "kanji": "巡回",
-      "reading": "ジュンカイ"
+      "reading": "ジュンカイ",
+      "meaning": "patrol; obchód"
     },
     {
       "kanji": "お巡りさん",
-      "reading": "おまわりさん"
+      "reading": "おまわりさん",
+      "meaning": "policjant (potocznie)"
     }
   ],
   "wordsRequiredLater": [],

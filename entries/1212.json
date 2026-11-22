@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "就く",
-      "reading": "つく"
+      "reading": "つく",
+      "meaning": "obejmować (stanowisko); podejmować (pracę)"
     },
     {
       "kanji": "就職",
-      "reading": "シュウショク"
+      "reading": "シュウショク",
+      "meaning": "znalezienie pracy; podjęcie pracy"
     }
   ],
   "wordsRequiredLater": [],

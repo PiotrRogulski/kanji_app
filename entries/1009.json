@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "祈る",
-      "reading": "いのる"
+      "reading": "いのる",
+      "meaning": "modlić się; życzyć"
     },
     {
       "kanji": "祈願",
-      "reading": "キガン"
+      "reading": "キガン",
+      "meaning": "modlitwa błagalna"
     }
   ],
   "wordsRequiredLater": [],

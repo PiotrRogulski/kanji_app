@@ -7,35 +7,43 @@
   "wordsRequiredNow": [
     {
       "kanji": "党",
-      "reading": "トウ"
+      "reading": "トウ",
+      "meaning": "partia (polityczna)"
     },
     {
       "kanji": "政党",
-      "reading": "セイトウ"
+      "reading": "セイトウ",
+      "meaning": "partia polityczna"
     },
     {
       "kanji": "野党",
-      "reading": "ヤトウ"
+      "reading": "ヤトウ",
+      "meaning": "partia opozycyjna; opozycja"
     },
     {
       "kanji": "与党",
-      "reading": "ヨトウ"
+      "reading": "ヨトウ",
+      "meaning": "partia rządząca"
     },
     {
       "kanji": "自民党",
-      "reading": "ジミントウ"
+      "reading": "ジミントウ",
+      "meaning": "Partia Liberalno-Demokratyczna (LDP)"
     },
     {
       "kanji": "社会党",
-      "reading": "シャカイトウ"
+      "reading": "シャカイトウ",
+      "meaning": "partia socjalistyczna"
     },
     {
       "kanji": "共産党",
-      "reading": "キョウサントウ"
+      "reading": "キョウサントウ",
+      "meaning": "partia komunistyczna"
     },
     {
       "kanji": "民主党",
-      "reading": "ミンシュトウ"
+      "reading": "ミンシュトウ",
+      "meaning": "partia demokratyczna"
     }
   ],
   "wordsRequiredLater": [],

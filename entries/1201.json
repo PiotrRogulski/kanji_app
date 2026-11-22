@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "交渉",
-      "reading": "コウショウ"
+      "reading": "コウショウ",
+      "meaning": "negocjacje; rokowania"
     },
     {
       "kanji": "干渉",
-      "reading": "カンショウ"
+      "reading": "カンショウ",
+      "meaning": "ingerencja; wtrącanie się"
     }
   ],
   "wordsRequiredLater": [],

@@ -11,15 +11,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "緩い",
-      "reading": "ゆるい"
+      "reading": "ゆるい",
+      "meaning": "luźny; łagodny"
     },
     {
       "kanji": "緩める",
-      "reading": "ゆるめる"
+      "reading": "ゆるめる",
+      "meaning": "luzować; łagodzić"
     },
     {
       "kanji": "緩和",
-      "reading": "カンワ"
+      "reading": "カンワ",
+      "meaning": "złagodzenie; rozluźnienie"
     }
   ],
   "wordsRequiredLater": [],

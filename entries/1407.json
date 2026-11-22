@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "腕",
-      "reading": "うで"
+      "reading": "うで",
+      "meaning": "ręka (ramię); umiejętności"
     },
     {
       "kanji": "腕前",
-      "reading": "うでまえ"
+      "reading": "うでまえ",
+      "meaning": "umiejętności; biegłość"
     },
     {
       "kanji": "腕時計",
-      "reading": "うでどケイ"
+      "reading": "うでどケイ",
+      "meaning": "zegarek na rękę"
     },
     {
       "kanji": "腕首",
-      "reading": "うでくび"
+      "reading": "うでくび",
+      "meaning": "nadgarstek"
     }
   ],
   "wordsRequiredLater": [],

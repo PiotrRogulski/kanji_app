@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "託する",
-      "reading": "タクする"
+      "reading": "タクする",
+      "meaning": "powierzać"
     },
     {
       "kanji": "委託",
-      "reading": "イタク"
+      "reading": "イタク",
+      "meaning": "zlecenie; powierzenie"
     }
   ],
   "wordsRequiredLater": [],

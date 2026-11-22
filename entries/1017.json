@@ -8,32 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "小児",
-      "reading": "ショウニ"
+      "reading": "ショウニ",
+      "meaning": "małe dziecko"
     },
     {
       "kanji": "小児科",
-      "reading": "ショウニカ"
+      "reading": "ショウニカ",
+      "meaning": "pediatria"
     },
     {
       "kanji": "育児",
-      "reading": "イクジ"
+      "reading": "イクジ",
+      "meaning": "opieka nad dzieckiem; wychowywanie dzieci"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "幼児",
       "reading": "ヨウジ",
-      "reference": 1038
+      "reference": 1038,
+      "meaning": "małe dziecko (w wieku przedszkolnym)"
     },
     {
       "kanji": "児童",
       "reading": "ジドウ",
-      "reference": 1366
+      "reference": 1366,
+      "meaning": "dziecko; dzieci (w wieku szkolnym)"
     },
     {
       "kanji": "孤児",
       "reading": "コジ",
-      "reference": 1464
+      "reference": 1464,
+      "meaning": "sierota"
     }
   ],
   "additionalWords": []

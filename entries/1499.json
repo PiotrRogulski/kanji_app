@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "眼球",
-      "reading": "ガンキュウ"
+      "reading": "ガンキュウ",
+      "meaning": "gałka oczna"
     },
     {
       "kanji": "眼科",
-      "reading": "ガンカ"
+      "reading": "ガンカ",
+      "meaning": "okulistyka"
     },
     {
       "kanji": "眼鏡",
-      "reading": "めがね"
+      "reading": "めがね",
+      "meaning": "okulary"
     }
   ],
   "wordsRequiredLater": [],

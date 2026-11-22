@@ -7,27 +7,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿級",
-      "reading": "キュウ"
+      "reading": "キュウ",
+      "meaning": "… klasa; stopień; poziom (sufiks)"
     },
     {
       "kanji": "階級",
-      "reading": "カイキュウ"
+      "reading": "カイキュウ",
+      "meaning": "klasa; stopień"
     },
     {
       "kanji": "初級",
-      "reading": "ショキュウ"
+      "reading": "ショキュウ",
+      "meaning": "poziom początkujący"
     },
     {
       "kanji": "上級",
-      "reading": "ジョウキュウ"
+      "reading": "ジョウキュウ",
+      "meaning": "poziom zaawansowany"
     },
     {
       "kanji": "高級",
-      "reading": "コウキュウ"
+      "reading": "コウキュウ",
+      "meaning": "wysokiej klasy; luksusowy"
     },
     {
       "kanji": "学級",
-      "reading": "ガッキュウ"
+      "reading": "ガッキュウ",
+      "meaning": "klasa (szkolna)"
     }
   ],
   "wordsRequiredLater": [],

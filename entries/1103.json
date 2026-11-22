@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "診る",
-      "reading": "みる"
+      "reading": "みる",
+      "meaning": "badać (pacjenta)"
     },
     {
       "kanji": "検診",
-      "reading": "ケンシン"
+      "reading": "ケンシン",
+      "meaning": "badanie lekarskie (profilaktyczne)"
     },
     {
       "kanji": "診断",
-      "reading": "シンダン"
+      "reading": "シンダン",
+      "meaning": "diagnoza"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "比較",
-      "reading": "ヒカク"
+      "reading": "ヒカク",
+      "meaning": "porównanie"
     },
     {
       "kanji": "比較的",
-      "reading": "ヒカクテキ"
+      "reading": "ヒカクテキ",
+      "meaning": "stosunkowo; względnie"
     },
     {
       "kanji": "較差",
-      "reading": "カクサ"
+      "reading": "カクサ",
+      "meaning": "różnica (między wartościami); rozstęp"
     }
   ],
   "wordsRequiredLater": [],

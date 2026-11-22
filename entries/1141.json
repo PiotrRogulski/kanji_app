@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "永い",
-      "reading": "ながい"
+      "reading": "ながい",
+      "meaning": "długi (o czasie); wieczny"
     },
     {
       "kanji": "永遠",
-      "reading": "エイエン"
+      "reading": "エイエン",
+      "meaning": "wieczność"
     },
     {
       "kanji": "永久",
-      "reading": "エイキュウ"
+      "reading": "エイキュウ",
+      "meaning": "wieczność; trwałość"
     }
   ],
   "wordsRequiredLater": [],

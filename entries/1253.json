@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "樹木",
-      "reading": "ジュモク"
+      "reading": "ジュモク",
+      "meaning": "drzewa"
     },
     {
       "kanji": "樹立",
-      "reading": "ジュリツ"
+      "reading": "ジュリツ",
+      "meaning": "ustanowienie; utworzenie"
     }
   ],
   "wordsRequiredLater": [],

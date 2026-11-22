@@ -14,27 +14,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "揺れる",
-      "reading": "ゆれる"
+      "reading": "ゆれる",
+      "meaning": "trząść się; kołysać się"
     },
     {
       "kanji": "揺らぐ",
-      "reading": "ゆらぐ"
+      "reading": "ゆらぐ",
+      "meaning": "chwiać się; kołysać się"
     },
     {
       "kanji": "揺さぶる",
-      "reading": "ゆさぶる"
+      "reading": "ゆさぶる",
+      "meaning": "potrząsać; wstrząsać"
     },
     {
       "kanji": "動揺",
-      "reading": "ドウヨウ"
+      "reading": "ドウヨウ",
+      "meaning": "poruszenie; wzburzenie; drżenie"
     },
     {
       "kanji": "揺り返し",
-      "reading": "ゆりかえし"
+      "reading": "ゆりかえし",
+      "meaning": "wstrząs wtórny"
     },
     {
       "kanji": "揺りかご",
-      "reading": "ゆりかご"
+      "reading": "ゆりかご",
+      "meaning": "kołyska"
     }
   ],
   "wordsRequiredLater": [],

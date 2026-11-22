@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "里",
-      "reading": "リ"
+      "reading": "リ",
+      "meaning": "ri (dawna jednostka długości, ok. 3,9 km)"
     },
     {
       "kanji": "里",
-      "reading": "さと"
+      "reading": "さと",
+      "meaning": "wioska; rodzinne strony"
     },
     {
       "kanji": "郷里",
-      "reading": "キョウリ"
+      "reading": "キョウリ",
+      "meaning": "rodzinne strony"
     }
   ],
   "wordsRequiredLater": [],

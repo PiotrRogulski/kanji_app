@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "擁する",
-      "reading": "ヨウする"
+      "reading": "ヨウする",
+      "meaning": "posiadać; mieć; obejmować"
     },
     {
       "kanji": "擁護",
-      "reading": "ヨウゴ"
+      "reading": "ヨウゴ",
+      "meaning": "obrona"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "勇気",
-      "reading": "ユウキ"
+      "reading": "ユウキ",
+      "meaning": "odwaga"
     },
     {
       "kanji": "勇者",
-      "reading": "ユウシャ"
+      "reading": "ユウシャ",
+      "meaning": "bohater; śmiałek"
     },
     {
       "kanji": "勇ましい",
-      "reading": "いさましい"
+      "reading": "いさましい",
+      "meaning": "dzielny; odważny"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "岳",
-      "reading": "たけ"
+      "reading": "たけ",
+      "meaning": "szczyt; góra"
     },
     {
       "kanji": "山岳",
-      "reading": "サンガク"
+      "reading": "サンガク",
+      "meaning": "góry"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "北岳",
-      "reading": "きただけ"
+      "reading": "きただけ",
+      "meaning": "Kita-dake (drugi najwyższy szczyt Japonii)"
     }
   ]
 }

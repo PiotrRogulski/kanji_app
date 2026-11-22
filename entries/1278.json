@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "撤去",
-      "reading": "テッキョ"
+      "reading": "テッキョ",
+      "meaning": "usunięcie; demontaż; likwidacja"
     },
     {
       "kanji": "撤回",
-      "reading": "テッカイ"
+      "reading": "テッカイ",
+      "meaning": "wycofanie; odwołanie"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "補償",
-      "reading": "ホショウ"
+      "reading": "ホショウ",
+      "meaning": "odszkodowanie; rekompensata"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "賠償",
       "reading": "バイショウ",
-      "reference": 1399
+      "reference": 1399,
+      "meaning": "odszkodowanie; reparacje"
     }
   ],
   "additionalWords": []

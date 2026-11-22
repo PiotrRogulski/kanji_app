@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "堀",
-      "reading": "ほり"
+      "reading": "ほり",
+      "meaning": "fosa; kanał"
     },
     {
       "kanji": "外堀",
-      "reading": "そとぼり"
+      "reading": "そとぼり",
+      "meaning": "fosa zewnętrzna"
     }
   ],
   "wordsRequiredLater": [],

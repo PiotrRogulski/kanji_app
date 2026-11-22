@@ -7,39 +7,47 @@
   "wordsRequiredNow": [
     {
       "kanji": "演じる",
-      "reading": "エンじる"
+      "reading": "エンじる",
+      "meaning": "grać (rolę); odgrywać"
     },
     {
       "kanji": "演出",
-      "reading": "エンシュツ"
+      "reading": "エンシュツ",
+      "meaning": "reżyseria; inscenizacja"
     },
     {
       "kanji": "演技",
-      "reading": "エンギ"
+      "reading": "エンギ",
+      "meaning": "aktorstwo; występ"
     },
     {
       "kanji": "演奏",
-      "reading": "エンソウ"
+      "reading": "エンソウ",
+      "meaning": "występ muzyczny"
     },
     {
       "kanji": "演習",
-      "reading": "エンシュウ"
+      "reading": "エンシュウ",
+      "meaning": "ćwiczenia; seminarium"
     },
     {
       "kanji": "出演",
-      "reading": "シュツエン"
+      "reading": "シュツエン",
+      "meaning": "występ (na scenie, w filmie)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "講演",
       "reading": "コウエン",
-      "reference": 1208
+      "reference": 1208,
+      "meaning": "wykład; odczyt"
     },
     {
       "kanji": "演劇",
       "reading": "エンゲキ",
-      "reference": 1217
+      "reference": 1217,
+      "meaning": "teatr; sztuka teatralna"
     }
   ],
   "additionalWords": []

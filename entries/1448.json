@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "簿記",
-      "reading": "ボキ"
+      "reading": "ボキ",
+      "meaning": "księgowość; rachunkowość"
     },
     {
       "kanji": "名簿",
-      "reading": "メイボ"
+      "reading": "メイボ",
+      "meaning": "lista imienna; spis nazwisk"
     }
   ],
   "wordsRequiredLater": [],

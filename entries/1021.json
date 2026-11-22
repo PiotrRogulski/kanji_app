@@ -7,47 +7,57 @@
   "wordsRequiredNow": [
     {
       "kanji": "職",
-      "reading": "ショク"
+      "reading": "ショク",
+      "meaning": "praca; zawód; posada"
     },
     {
       "kanji": "職業",
-      "reading": "ショクギョウ"
+      "reading": "ショクギョウ",
+      "meaning": "zawód"
     },
     {
       "kanji": "職場",
-      "reading": "ショクば"
+      "reading": "ショクば",
+      "meaning": "miejsce pracy"
     },
     {
       "kanji": "職員",
-      "reading": "ショクイン"
+      "reading": "ショクイン",
+      "meaning": "pracownik; personel"
     },
     {
       "kanji": "職人",
-      "reading": "ショクニン"
+      "reading": "ショクニン",
+      "meaning": "rzemieślnik"
     },
     {
       "kanji": "退職",
-      "reading": "タイショク"
+      "reading": "タイショク",
+      "meaning": "odejście z pracy; przejście na emeryturę"
     },
     {
       "kanji": "無職",
-      "reading": "ムショク"
+      "reading": "ムショク",
+      "meaning": "bezrobotny"
     },
     {
       "kanji": "求職",
-      "reading": "キュウショク"
+      "reading": "キュウショク",
+      "meaning": "szukanie pracy"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "就職",
       "reading": "シュウショク",
-      "reference": 1212
+      "reference": 1212,
+      "meaning": "znalezienie pracy; podjęcie pracy"
     },
     {
       "kanji": "辞職",
       "reading": "ジショク",
-      "reference": 1224
+      "reference": 1224,
+      "meaning": "rezygnacja (ze stanowiska); dymisja"
     }
   ],
   "additionalWords": []

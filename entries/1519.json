@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "虚",
-      "reading": "キョ"
+      "reading": "キョ",
+      "meaning": "pustka; fałsz; nieprzygotowanie"
     },
     {
       "kanji": "虚無",
-      "reading": "キョム"
+      "reading": "キョム",
+      "meaning": "nicość; pustka"
     },
     {
       "kanji": "虚偽",
-      "reading": "キョギ"
+      "reading": "キョギ",
+      "meaning": "fałsz; nieprawda"
     },
     {
       "kanji": "虚空",
-      "reading": "コクウ"
+      "reading": "コクウ",
+      "meaning": "pusta przestrzeń; pustka; niebo"
     }
   ],
   "wordsRequiredLater": [],

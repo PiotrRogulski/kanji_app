@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "間柄",
-      "reading": "あいだがら"
+      "reading": "あいだがら",
+      "meaning": "relacja; stosunki (między osobami)"
     },
     {
       "kanji": "人柄",
-      "reading": "ひとがら"
+      "reading": "ひとがら",
+      "meaning": "osobowość; charakter"
     },
     {
       "kanji": "事柄",
-      "reading": "ことがら"
+      "reading": "ことがら",
+      "meaning": "sprawa; kwestia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "銘柄",
       "reading": "メイがら",
-      "reference": 1506
+      "reference": 1506,
+      "meaning": "marka; walor (giełdowy)"
     }
   ],
   "additionalWords": []

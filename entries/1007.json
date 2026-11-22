@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "筆",
-      "reading": "ふで"
+      "reading": "ふで",
+      "meaning": "pędzel (do pisania)"
     },
     {
       "kanji": "筆者",
-      "reading": "ヒッシャ"
+      "reading": "ヒッシャ",
+      "meaning": "autor (tekstu)"
     },
     {
       "kanji": "筆記",
-      "reading": "ヒッキ"
+      "reading": "ヒッキ",
+      "meaning": "notowanie; zapisywanie"
     },
     {
       "kanji": "鉛筆",
-      "reading": "エンピツ"
+      "reading": "エンピツ",
+      "meaning": "ołówek"
     },
     {
       "kanji": "万年筆",
-      "reading": "マンネンヒツ"
+      "reading": "マンネンヒツ",
+      "meaning": "wieczne pióro"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "執筆",
       "reading": "シッピツ",
-      "reference": 1240
+      "reference": 1240,
+      "meaning": "pisanie (tekstu, książki)"
     }
   ],
   "additionalWords": []

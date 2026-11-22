@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "症状",
-      "reading": "ショウジョウ"
+      "reading": "ショウジョウ",
+      "meaning": "objawy (choroby)"
     },
     {
       "kanji": "感染症",
-      "reading": "カンセンショウ"
+      "reading": "カンセンショウ",
+      "meaning": "choroba zakaźna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "炎症",
       "reading": "エンショウ",
-      "reference": 1400
+      "reference": 1400,
+      "meaning": "zapalenie; stan zapalny"
     },
     {
       "kanji": "花粉症",
       "reading": "カフンショウ",
-      "reference": 1476
+      "reference": 1476,
+      "meaning": "alergia na pyłki; katar sienny"
     }
   ],
   "additionalWords": []

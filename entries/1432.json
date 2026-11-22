@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "砲火",
-      "reading": "ホウカ"
+      "reading": "ホウカ",
+      "meaning": "ogień artyleryjski"
     },
     {
       "kanji": "鉄砲",
-      "reading": "テッポウ"
+      "reading": "テッポウ",
+      "meaning": "broń palna; strzelba"
     },
     {
       "kanji": "大砲",
-      "reading": "タイホウ"
+      "reading": "タイホウ",
+      "meaning": "armata; działo"
     }
   ],
   "wordsRequiredLater": [],

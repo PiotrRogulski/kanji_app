@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "童話",
-      "reading": "ドウワ"
+      "reading": "ドウワ",
+      "meaning": "bajka; baśń (dla dzieci)"
     },
     {
       "kanji": "児童",
-      "reading": "ジドウ"
+      "reading": "ジドウ",
+      "meaning": "dziecko; dzieci (w wieku szkolnym)"
     }
   ],
   "wordsRequiredLater": [],

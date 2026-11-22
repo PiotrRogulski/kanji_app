@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "噴く",
-      "reading": "ふく"
+      "reading": "ふく",
+      "meaning": "tryskać; wyrzucać (np. lawę, parę)"
     },
     {
       "kanji": "噴火",
-      "reading": "フンカ"
+      "reading": "フンカ",
+      "meaning": "wybuch wulkanu; erupcja"
     },
     {
       "kanji": "噴き出す",
-      "reading": "ふきだす"
+      "reading": "ふきだす",
+      "meaning": "wytrysnąć; buchnąć; parsknąć śmiechem"
     }
   ],
   "wordsRequiredLater": [],

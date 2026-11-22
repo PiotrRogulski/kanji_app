@@ -7,31 +7,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "要領",
-      "reading": "ヨウリョウ"
+      "reading": "ヨウリョウ",
+      "meaning": "sedno; sposób (na coś); wprawa"
     },
     {
       "kanji": "領土",
-      "reading": "リョウド"
+      "reading": "リョウド",
+      "meaning": "terytorium"
     },
     {
       "kanji": "大統領",
-      "reading": "ダイトウリョウ"
+      "reading": "ダイトウリョウ",
+      "meaning": "prezydent"
     },
     {
       "kanji": "領収書",
-      "reading": "リョウシュウショ"
+      "reading": "リョウシュウショ",
+      "meaning": "paragon; pokwitowanie"
     },
     {
       "kanji": "占領",
-      "reading": "センリョウ"
+      "reading": "センリョウ",
+      "meaning": "okupacja"
     },
     {
       "kanji": "領域",
-      "reading": "リョウイキ"
+      "reading": "リョウイキ",
+      "meaning": "terytorium"
     },
     {
       "kanji": "領事",
-      "reading": "リョウジ"
+      "reading": "リョウジ",
+      "meaning": "konsul"
     }
   ],
   "wordsRequiredLater": [],

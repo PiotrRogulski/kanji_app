@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "捨てる",
-      "reading": "すてる"
+      "reading": "すてる",
+      "meaning": "wyrzucać; porzucać"
     },
     {
       "kanji": "捨て子",
-      "reading": "すてご"
+      "reading": "すてご",
+      "meaning": "porzucone dziecko; podrzutek"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "玄米",
-      "reading": "ゲンマイ"
+      "reading": "ゲンマイ",
+      "meaning": "ryż brązowy (niełuskany)"
     },
     {
       "kanji": "玄関",
-      "reading": "ゲンカン"
+      "reading": "ゲンカン",
+      "meaning": "wejście; przedpokój"
     }
   ],
   "wordsRequiredLater": [],

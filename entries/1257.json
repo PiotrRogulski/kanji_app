@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "致す",
-      "reading": "いたす"
+      "reading": "いたす",
+      "meaning": "robić (skromnie)"
     },
     {
       "kanji": "一致",
-      "reading": "イッチ"
+      "reading": "イッチ",
+      "meaning": "zgodność; zbieżność"
     }
   ],
   "wordsRequiredLater": [],

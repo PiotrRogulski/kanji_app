@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "講演",
-      "reading": "コウエン"
+      "reading": "コウエン",
+      "meaning": "wykład; odczyt"
     },
     {
       "kanji": "講師",
-      "reading": "コウシ"
+      "reading": "コウシ",
+      "meaning": "wykładowca; prowadzący"
     },
     {
       "kanji": "講堂",
-      "reading": "コウドウ"
+      "reading": "コウドウ",
+      "meaning": "aula; sala wykładowa"
     },
     {
       "kanji": "講義",
-      "reading": "コウギ"
+      "reading": "コウギ",
+      "meaning": "wykład"
     },
     {
       "kanji": "休講",
-      "reading": "キュウコウ"
+      "reading": "キュウコウ",
+      "meaning": "odwołanie zajęć (wykładu)"
     }
   ],
   "wordsRequiredLater": [],

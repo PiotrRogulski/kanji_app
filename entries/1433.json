@@ -4,12 +4,14 @@
   "readings": [
     "マ"
   ],
-  "wordsRequiredNow": [
+  "wordsRequiredNow": [],
+  "wordsRequiredLater": [
     {
-      "kanji": "*摩擦",
-      "reading": "マサツ 1634"
+      "kanji": "摩擦",
+      "reading": "マサツ",
+      "reference": 1634,
+      "meaning": "tarcie; tarcia (konflikt)"
     }
   ],
-  "wordsRequiredLater": [],
   "additionalWords": []
 }

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "軟らかい",
-      "reading": "やわらかい"
+      "reading": "やわらかい",
+      "meaning": "miękki"
     },
     {
       "kanji": "柔軟な",
-      "reading": "ジュウナン"
+      "reading": "ジュウナン",
+      "meaning": "elastyczny; giętki"
     }
   ],
   "wordsRequiredLater": [],

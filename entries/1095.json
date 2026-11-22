@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "酵母",
-      "reading": "コウボ"
+      "reading": "コウボ",
+      "meaning": "drożdże"
     },
     {
       "kanji": "発酵",
-      "reading": "ハッコウ"
+      "reading": "ハッコウ",
+      "meaning": "fermentacja"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "旧",
-      "reading": "キュウ"
+      "reading": "キュウ",
+      "meaning": "dawny; stary; były"
     },
     {
       "kanji": "旧市街",
-      "reading": "キュウシガイ"
+      "reading": "キュウシガイ",
+      "meaning": "stare miasto"
     }
   ],
   "wordsRequiredLater": [],

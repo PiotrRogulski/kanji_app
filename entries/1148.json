@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "希望",
-      "reading": "キボウ"
+      "reading": "キボウ",
+      "meaning": "nadzieja"
     },
     {
       "kanji": "希少な",
-      "reading": "キショウ"
+      "reading": "キショウ",
+      "meaning": "rzadki; unikatowy"
     }
   ],
   "wordsRequiredLater": [],

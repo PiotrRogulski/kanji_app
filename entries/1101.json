@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "司会",
-      "reading": "シカイ"
+      "reading": "シカイ",
+      "meaning": "prowadzenie (spotkania, programu); prowadzący"
     },
     {
       "kanji": "上司",
-      "reading": "ジョウシ"
+      "reading": "ジョウシ",
+      "meaning": "przełożony; szef"
     },
     {
       "kanji": "寿司",
-      "reading": "スシ"
+      "reading": "スシ",
+      "meaning": "sushi"
     }
   ],
   "wordsRequiredLater": [],

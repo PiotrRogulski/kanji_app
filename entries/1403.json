@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "肩",
-      "reading": "かた"
+      "reading": "かた",
+      "meaning": "ramię; bark"
     },
     {
       "kanji": "比肩する",
-      "reading": "ヒケン"
+      "reading": "ヒケン",
+      "meaning": "dorównywać"
     }
   ],
   "wordsRequiredLater": [],

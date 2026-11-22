@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "針",
-      "reading": "はり"
+      "reading": "はり",
+      "meaning": "igła; wskazówka (zegara)"
     },
     {
       "kanji": "方針",
-      "reading": "ホウシン"
+      "reading": "ホウシン",
+      "meaning": "kurs; wytyczne; polityka (działania)"
     }
   ],
   "wordsRequiredLater": [],

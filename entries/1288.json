@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "貸す",
-      "reading": "かす"
+      "reading": "かす",
+      "meaning": "pożyczać (komuś); wynajmować (komuś)"
     },
     {
       "kanji": "賃貸",
-      "reading": "チンタイ"
+      "reading": "チンタイ",
+      "meaning": "wynajem"
     },
     {
       "kanji": "貸し出し",
-      "reading": "かしだし"
+      "reading": "かしだし",
+      "meaning": "wypożyczanie; udzielanie pożyczek"
     }
   ],
   "wordsRequiredLater": [],

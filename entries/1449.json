@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "軸",
-      "reading": "ジク"
+      "reading": "ジク",
+      "meaning": "oś; trzon; zwój"
     },
     {
       "kanji": "地軸",
-      "reading": "チジク"
+      "reading": "チジク",
+      "meaning": "oś Ziemi"
     },
     {
       "kanji": "掛け軸",
-      "reading": "かけジク"
+      "reading": "かけジク",
+      "meaning": "zwój wiszący (kakemono)"
     },
     {
       "kanji": "枢軸",
-      "reading": "スウジク"
+      "reading": "スウジク",
+      "meaning": "oś (np. państwa Osi)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "章",
-      "reading": "ショウ"
+      "reading": "ショウ",
+      "meaning": "rozdział; odznaka"
     },
     {
       "kanji": "文章",
-      "reading": "ブンショウ"
+      "reading": "ブンショウ",
+      "meaning": "tekst; zdanie; styl pisania"
     },
     {
       "kanji": "国章",
-      "reading": "コクショウ"
+      "reading": "コクショウ",
+      "meaning": "godło państwowe"
     }
   ],
   "wordsRequiredLater": [],

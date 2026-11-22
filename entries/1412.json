@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "滅びる",
-      "reading": "ほろびる"
+      "reading": "ほろびる",
+      "meaning": "ginąć; upadać; wymierać"
     },
     {
       "kanji": "滅ぼす",
-      "reading": "ほろぼす"
+      "reading": "ほろぼす",
+      "meaning": "niszczyć; unicestwiać"
     },
     {
       "kanji": "壊滅",
-      "reading": "カイメツ"
+      "reading": "カイメツ",
+      "meaning": "zagłada; całkowite zniszczenie"
     },
     {
       "kanji": "絶滅",
-      "reading": "ゼツメツ"
+      "reading": "ゼツメツ",
+      "meaning": "wyginięcie"
     }
   ],
   "wordsRequiredLater": [],

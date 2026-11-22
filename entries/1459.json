@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "礎",
-      "reading": "いしずえ"
+      "reading": "いしずえ",
+      "meaning": "kamień węgielny; fundament"
     },
     {
       "kanji": "基礎",
-      "reading": "キソ"
+      "reading": "キソ",
+      "meaning": "fundament"
     }
   ],
   "wordsRequiredLater": [],

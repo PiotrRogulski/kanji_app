@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "宿舎",
-      "reading": "シュクシャ"
+      "reading": "シュクシャ",
+      "meaning": "kwatera; zakwaterowanie; internat"
     },
     {
       "kanji": "田舎",
-      "reading": "いなか"
+      "reading": "いなか",
+      "meaning": "wieś; prowincja"
     }
   ],
   "wordsRequiredLater": [],

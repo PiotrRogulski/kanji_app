@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "宣伝",
-      "reading": "センデン"
+      "reading": "センデン",
+      "meaning": "reklama"
     },
     {
       "kanji": "宣言",
-      "reading": "センゲン"
+      "reading": "センゲン",
+      "meaning": "deklaracja; oświadczenie"
     }
   ],
   "wordsRequiredLater": [],

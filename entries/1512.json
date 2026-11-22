@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "軍艦",
-      "reading": "グンカン"
+      "reading": "グンカン",
+      "meaning": "okręt wojenny"
     },
     {
       "kanji": "航空母艦",
-      "reading": "コウクウボカン"
+      "reading": "コウクウボカン",
+      "meaning": "lotniskowiec"
     }
   ],
   "wordsRequiredLater": [],

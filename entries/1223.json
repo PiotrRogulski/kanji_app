@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "妻",
-      "reading": "つま"
+      "reading": "つま",
+      "meaning": "żona"
     },
     {
       "kanji": "夫妻",
-      "reading": "フサイ"
+      "reading": "フサイ",
+      "meaning": "małżonkowie; państwo …"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "稲妻",
       "reading": "いなずま",
-      "reference": 1321
+      "reference": 1321,
+      "meaning": "błyskawica"
     }
   ],
   "additionalWords": []

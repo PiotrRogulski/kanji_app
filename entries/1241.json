@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "浦",
-      "reading": "うら"
+      "reading": "うら",
+      "meaning": "zatoczka; wybrzeże"
     },
     {
       "kanji": "津々浦々",
-      "reading": "つつうらうら"
+      "reading": "つつうらうら",
+      "meaning": "cały kraj; wszędzie"
     }
   ],
   "wordsRequiredLater": [],

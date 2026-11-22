@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "射る",
-      "reading": "いる"
+      "reading": "いる",
+      "meaning": "strzelać (z łuku)"
     },
     {
       "kanji": "発射",
-      "reading": "ハッシャ"
+      "reading": "ハッシャ",
+      "meaning": "wystrzelenie; odpalenie"
     },
     {
       "kanji": "放射",
-      "reading": "ホウシャ"
+      "reading": "ホウシャ",
+      "meaning": "promieniowanie; emisja"
     },
     {
       "kanji": "放射線",
-      "reading": "ホウシャセン"
+      "reading": "ホウシャセン",
+      "meaning": "promieniowanie (jonizujące)"
     },
     {
       "kanji": "注射",
-      "reading": "チュウシャ"
+      "reading": "チュウシャ",
+      "meaning": "zastrzyk"
     }
   ],
   "wordsRequiredLater": [],

@@ -10,15 +10,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "尽くす",
-      "reading": "つくす"
+      "reading": "つくす",
+      "meaning": "wyczerpać; robić wszystko, co możliwe; poświęcać się"
     },
     {
       "kanji": "尽きる",
-      "reading": "つきる"
+      "reading": "つきる",
+      "meaning": "wyczerpać się; skończyć się"
     },
     {
       "kanji": "尽力",
-      "reading": "ジンリョク"
+      "reading": "ジンリョク",
+      "meaning": "starania; wysiłki"
     }
   ],
   "wordsRequiredLater": [],

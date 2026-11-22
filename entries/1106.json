@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "勢い",
-      "reading": "いきおい"
+      "reading": "いきおい",
+      "meaning": "impet; siła; rozpęd"
     },
     {
       "kanji": "勢力",
-      "reading": "セイリョク"
+      "reading": "セイリョク",
+      "meaning": "wpływy; siła; potęga"
     },
     {
       "kanji": "姿勢",
-      "reading": "シセイ"
+      "reading": "シセイ",
+      "meaning": "postawa"
     },
     {
       "kanji": "大勢",
-      "reading": "おおゼイ"
+      "reading": "おおゼイ",
+      "meaning": "wielu ludzi; tłum"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "跳ぶ",
-      "reading": "とぶ"
+      "reading": "とぶ",
+      "meaning": "skakać"
     },
     {
       "kanji": "縄跳び",
-      "reading": "なわとび"
+      "reading": "なわとび",
+      "meaning": "skakanie na skakance; skakanka"
     }
   ],
   "wordsRequiredLater": [],

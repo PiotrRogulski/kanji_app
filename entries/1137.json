@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "遣わす",
-      "reading": "つかわす"
+      "reading": "つかわす",
+      "meaning": "wysyłać (posłańca); posyłać"
     },
     {
       "kanji": "派遣",
-      "reading": "ハケン"
+      "reading": "ハケン",
+      "meaning": "wysłanie; delegowanie"
     }
   ],
   "wordsRequiredLater": [],

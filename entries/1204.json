@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "文献",
-      "reading": "ブンケン"
+      "reading": "ブンケン",
+      "meaning": "literatura (przedmiotu); źródła pisane"
     },
     {
       "kanji": "献上",
-      "reading": "ケンジョウ"
+      "reading": "ケンジョウ",
+      "meaning": "ofiarowanie (osobie wyższej rangą)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "貢献",
       "reading": "コウケン",
-      "reference": 1365
+      "reference": 1365,
+      "meaning": "wkład; przyczynienie się"
     }
   ],
   "additionalWords": []

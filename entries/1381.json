@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "斎場",
-      "reading": "サイジョウ"
+      "reading": "サイジョウ",
+      "meaning": "dom pogrzebowy; miejsce ceremonii pogrzebowej"
     },
     {
       "kanji": "潔斎",
-      "reading": "ケッサイ"
+      "reading": "ケッサイ",
+      "meaning": "oczyszczenie"
     }
   ],
   "wordsRequiredLater": [],

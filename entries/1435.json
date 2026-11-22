@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "稼ぐ",
-      "reading": "かせぐ"
+      "reading": "かせぐ",
+      "meaning": "zarabiać"
     },
     {
       "kanji": "稼業",
-      "reading": "カギョウ"
+      "reading": "カギョウ",
+      "meaning": "zawód; fach; zajęcie"
     },
     {
       "kanji": "出稼ぎ",
-      "reading": "でかせぎ"
+      "reading": "でかせぎ",
+      "meaning": "praca zarobkowa z dala od domu; wyjazd za pracą"
     }
   ],
   "wordsRequiredLater": [],

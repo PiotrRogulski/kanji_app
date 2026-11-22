@@ -10,23 +10,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "勤める",
-      "reading": "つとめる"
+      "reading": "つとめる",
+      "meaning": "pracować (w firmie)"
     },
     {
       "kanji": "勤め",
-      "reading": "つとめ"
+      "reading": "つとめ",
+      "meaning": "praca; obowiązek"
     },
     {
       "kanji": "出勤",
-      "reading": "シュッキン"
+      "reading": "シュッキン",
+      "meaning": "pójście do pracy; stawienie się w pracy"
     },
     {
       "kanji": "通勤",
-      "reading": "ツウキン"
+      "reading": "ツウキン",
+      "meaning": "dojazd do pracy"
     },
     {
       "kanji": "勤め先",
-      "reading": "つとめさき"
+      "reading": "つとめさき",
+      "meaning": "miejsce pracy"
     }
   ],
   "wordsRequiredLater": [],

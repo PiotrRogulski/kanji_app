@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "劇場",
-      "reading": "ゲキジョウ"
+      "reading": "ゲキジョウ",
+      "meaning": "teatr (budynek)"
     },
     {
       "kanji": "演劇",
-      "reading": "エンゲキ"
+      "reading": "エンゲキ",
+      "meaning": "teatr; sztuka teatralna"
     },
     {
       "kanji": "悲劇",
-      "reading": "ヒゲキ"
+      "reading": "ヒゲキ",
+      "meaning": "tragedia"
     }
   ],
   "wordsRequiredLater": [],

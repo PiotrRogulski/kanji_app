@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "辞める",
-      "reading": "やめる"
+      "reading": "やめる",
+      "meaning": "rezygnować; odchodzić (z pracy)"
     },
     {
       "kanji": "辞典",
-      "reading": "ジテン"
+      "reading": "ジテン",
+      "meaning": "słownik"
     },
     {
       "kanji": "辞書",
-      "reading": "ジショ"
+      "reading": "ジショ",
+      "meaning": "słownik"
     },
     {
       "kanji": "辞職",
-      "reading": "ジショク"
+      "reading": "ジショク",
+      "meaning": "rezygnacja (ze stanowiska); dymisja"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "超＿",
-      "reading": "チョウ"
+      "reading": "チョウ",
+      "meaning": "super-; ultra-; ponad- (prefiks)"
     },
     {
       "kanji": "超える",
-      "reading": "こえる"
+      "reading": "こえる",
+      "meaning": "przekraczać"
     },
     {
       "kanji": "超す",
-      "reading": "こす"
+      "reading": "こす",
+      "meaning": "przekraczać"
     },
     {
       "kanji": "超過",
-      "reading": "チョウカ"
+      "reading": "チョウカ",
+      "meaning": "przekroczenie; nadwyżka"
     }
   ],
   "wordsRequiredLater": [],

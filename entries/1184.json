@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "兵士",
-      "reading": "ヘイシ"
+      "reading": "ヘイシ",
+      "meaning": "żołnierz"
     },
     {
       "kanji": "兵隊",
-      "reading": "ヘイタイ"
+      "reading": "ヘイタイ",
+      "meaning": "żołnierz; wojak"
     },
     {
       "kanji": "兵器",
-      "reading": "ヘイキ"
+      "reading": "ヘイキ",
+      "meaning": "broń; uzbrojenie"
     },
     {
       "kanji": "核兵器",
-      "reading": "カクヘイキ"
+      "reading": "カクヘイキ",
+      "meaning": "broń jądrowa"
     }
   ],
   "wordsRequiredLater": [],

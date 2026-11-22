@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "有益な",
-      "reading": "ユウエキ"
+      "reading": "ユウエキ",
+      "meaning": "pożyteczny; korzystny"
     },
     {
       "kanji": "利益",
-      "reading": "リエキ"
+      "reading": "リエキ",
+      "meaning": "zysk; korzyść"
     }
   ],
   "wordsRequiredLater": [],

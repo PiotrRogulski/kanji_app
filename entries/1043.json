@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "偏る",
-      "reading": "かたよる"
+      "reading": "かたよる",
+      "meaning": "być stronniczym; być niezrównoważonym; przechylać się"
     },
     {
       "kanji": "偏見",
-      "reading": "ヘンケン"
+      "reading": "ヘンケン",
+      "meaning": "uprzedzenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "偏狭",
       "reading": "ヘンキョウ",
-      "reference": 1044
+      "reference": 1044,
+      "meaning": "ciasnota poglądów; nietolerancja"
     }
   ],
   "additionalWords": []

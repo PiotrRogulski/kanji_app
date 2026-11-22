@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "弦",
-      "reading": "つる"
+      "reading": "つる",
+      "meaning": "cięciwa; struna"
     },
     {
       "kanji": "弦楽器",
-      "reading": "ゲンガッキ"
+      "reading": "ゲンガッキ",
+      "meaning": "instrument strunowy"
     }
   ],
   "wordsRequiredLater": [],

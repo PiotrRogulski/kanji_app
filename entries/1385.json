@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "浅い",
-      "reading": "あさい"
+      "reading": "あさい",
+      "meaning": "płytki"
     },
     {
       "kanji": "浅薄な",
-      "reading": "センパク"
+      "reading": "センパク",
+      "meaning": "płytki; powierzchowny"
     },
     {
       "kanji": "浅瀬",
-      "reading": "あさせ"
+      "reading": "あさせ",
+      "meaning": "mielizna; płycizna"
     }
   ],
   "wordsRequiredLater": [],

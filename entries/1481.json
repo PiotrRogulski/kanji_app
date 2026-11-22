@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "頂く",
-      "reading": "いただく"
+      "reading": "いただく",
+      "meaning": "otrzymywać; jeść/pić (skromnie)"
     },
     {
       "kanji": "頂上",
-      "reading": "チョウジョウ"
+      "reading": "チョウジョウ",
+      "meaning": "szczyt; wierzchołek"
     },
     {
       "kanji": "絶頂",
-      "reading": "ゼッチョウ"
+      "reading": "ゼッチョウ",
+      "meaning": "szczyt; apogeum"
     }
   ],
   "wordsRequiredLater": [],

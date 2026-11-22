@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "沼",
-      "reading": "ぬま"
+      "reading": "ぬま",
+      "meaning": "bagno; moczary"
     },
     {
       "kanji": "沼地",
-      "reading": "ぬまチ"
+      "reading": "ぬまチ",
+      "meaning": "bagno; teren podmokły"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "沼野充義",
-      "reading": "ぬまのみつよし"
+      "reading": "ぬまのみつよし",
+      "meaning": "Numano Mitsuyoshi (slawista, tłumacz)"
     }
   ]
 }

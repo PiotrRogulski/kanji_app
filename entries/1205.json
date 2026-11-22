@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "航空",
-      "reading": "コウクウ"
+      "reading": "コウクウ",
+      "meaning": "lotnictwo"
     },
     {
       "kanji": "航空便",
-      "reading": "コウクウビン"
+      "reading": "コウクウビン",
+      "meaning": "poczta lotnicza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "航空母艦",
       "reading": "コウクウボカン",
-      "reference": 1512
+      "reference": 1512,
+      "meaning": "lotniskowiec"
     }
   ],
   "additionalWords": []

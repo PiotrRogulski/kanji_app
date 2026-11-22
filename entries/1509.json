@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "卸す",
-      "reading": "おろす"
+      "reading": "おろす",
+      "meaning": "sprzedawać hurtowo"
     },
     {
       "kanji": "卸",
-      "reading": "おろし"
+      "reading": "おろし",
+      "meaning": "hurt"
     },
     {
       "kanji": "卸売",
-      "reading": "おろしうり"
+      "reading": "おろしうり",
+      "meaning": "sprzedaż hurtowa"
     },
     {
       "kanji": "卸商",
-      "reading": "おろしショウ"
+      "reading": "おろしショウ",
+      "meaning": "hurtownik"
     }
   ],
   "wordsRequiredLater": [],

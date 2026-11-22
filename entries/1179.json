@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "新郎",
-      "reading": "シンロウ"
+      "reading": "シンロウ",
+      "meaning": "pan młody"
     },
     {
       "kanji": "太郎",
-      "reading": "タロウ"
+      "reading": "タロウ",
+      "meaning": "Tarō (imię męskie; najstarszy syn)"
     },
     {
       "kanji": "次郎",
-      "reading": "ジロウ"
+      "reading": "ジロウ",
+      "meaning": "Jirō (imię męskie; drugi syn)"
     },
     {
       "kanji": "三郎",
-      "reading": "サブロウ"
+      "reading": "サブロウ",
+      "meaning": "Saburō (imię męskie; trzeci syn)"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "巣",
-      "reading": "す"
+      "reading": "す",
+      "meaning": "gniazdo"
     },
     {
       "kanji": "巣箱",
-      "reading": "すばこ"
+      "reading": "すばこ",
+      "meaning": "budka lęgowa (dla ptaków)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "蜘蛛の巣",
-      "reading": "くものす"
+      "reading": "くものす",
+      "meaning": "pajęczyna"
     }
   ]
 }

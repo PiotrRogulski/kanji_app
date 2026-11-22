@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "企てる",
-      "reading": "くわだてる"
+      "reading": "くわだてる",
+      "meaning": "planować; zamierzać; knuć"
     },
     {
       "kanji": "企業",
-      "reading": "キギョウ"
+      "reading": "キギョウ",
+      "meaning": "przedsiębiorstwo; firma"
     },
     {
       "kanji": "企画",
-      "reading": "キカク"
+      "reading": "キカク",
+      "meaning": "plan; projekt; planowanie"
     }
   ],
   "wordsRequiredLater": [],

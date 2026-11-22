@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "預ける",
-      "reading": "あずける"
+      "reading": "あずける",
+      "meaning": "oddawać na przechowanie; powierzać"
     },
     {
       "kanji": "預かる",
-      "reading": "あずかる"
+      "reading": "あずかる",
+      "meaning": "brać na przechowanie; opiekować się"
     },
     {
       "kanji": "預金",
-      "reading": "ヨキン"
+      "reading": "ヨキン",
+      "meaning": "depozyt; oszczędności (w banku)"
     }
   ],
   "wordsRequiredLater": [],

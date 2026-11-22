@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "譲る",
-      "reading": "ゆずる"
+      "reading": "ゆずる",
+      "meaning": "ustępować; przekazywać; odstępować"
     },
     {
       "kanji": "譲歩",
-      "reading": "ジョウホ"
+      "reading": "ジョウホ",
+      "meaning": "ustępstwo"
     }
   ],
   "wordsRequiredLater": [],

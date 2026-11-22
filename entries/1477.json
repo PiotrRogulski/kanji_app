@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "殖やす",
-      "reading": "ふやす"
+      "reading": "ふやす",
+      "meaning": "pomnażać; rozmnażać"
     },
     {
       "kanji": "生殖",
-      "reading": "セイショク"
+      "reading": "セイショク",
+      "meaning": "rozmnażanie; rozród"
     },
     {
       "kanji": "繁殖",
-      "reading": "ハンショク"
+      "reading": "ハンショク",
+      "meaning": "rozmnażanie"
     }
   ],
   "wordsRequiredLater": [],

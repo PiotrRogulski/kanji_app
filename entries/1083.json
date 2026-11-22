@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "疫病",
-      "reading": "エキビョウ／ヤクビョウ"
+      "reading": "エキビョウ／ヤクビョウ",
+      "meaning": "zaraza; epidemia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "検疫",
       "reading": "ケンエキ",
-      "reference": 1094
+      "reference": 1094,
+      "meaning": "kwarantanna"
     }
   ],
   "additionalWords": []

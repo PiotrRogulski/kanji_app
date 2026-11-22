@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "原稿",
-      "reading": "ゲンコウ"
+      "reading": "ゲンコウ",
+      "meaning": "rękopis; maszynopis; tekst (do publikacji)"
     },
     {
       "kanji": "原稿用紙",
-      "reading": "ゲンコウヨウシ"
+      "reading": "ゲンコウヨウシ",
+      "meaning": "papier manuskryptowy (genkō yōshi)"
     }
   ],
   "wordsRequiredLater": [],

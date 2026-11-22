@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "遠慮",
-      "reading": "エンリョ"
+      "reading": "エンリョ",
+      "meaning": "powściągliwość; krępowanie się; powstrzymanie się"
     },
     {
       "kanji": "考慮",
-      "reading": "コウリョ"
+      "reading": "コウリョ",
+      "meaning": "rozważenie; uwzględnienie"
     },
     {
       "kanji": "配慮",
-      "reading": "ハイリョ"
+      "reading": "ハイリョ",
+      "meaning": "wzgląd; troska; uwzględnienie"
     }
   ],
   "wordsRequiredLater": [],

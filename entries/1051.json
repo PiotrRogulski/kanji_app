@@ -7,23 +7,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "略する",
-      "reading": "リャクする"
+      "reading": "リャクする",
+      "meaning": "skracać; pomijać"
     },
     {
       "kanji": "略す",
-      "reading": "リャクす"
+      "reading": "リャクす",
+      "meaning": "skracać; pomijać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "侵略",
       "reading": "シンリャク",
-      "reference": 1062
+      "reference": 1062,
+      "meaning": "inwazja; agresja"
     },
     {
       "kanji": "省略",
       "reading": "ショウリャク",
-      "reference": 1165
+      "reference": 1165,
+      "meaning": "pominięcie; skrót"
     }
   ],
   "additionalWords": []

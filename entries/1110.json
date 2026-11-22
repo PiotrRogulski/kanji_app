@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "誕生",
-      "reading": "タンジョウ"
+      "reading": "タンジョウ",
+      "meaning": "narodziny"
     },
     {
       "kanji": "誕生日",
-      "reading": "タンジョウび"
+      "reading": "タンジョウび",
+      "meaning": "urodziny"
     }
   ],
   "wordsRequiredLater": [],

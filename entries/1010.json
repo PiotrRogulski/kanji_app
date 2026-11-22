@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "協力",
-      "reading": "キョウリョク"
+      "reading": "キョウリョク",
+      "meaning": "współpraca"
     },
     {
       "kanji": "協議",
-      "reading": "キョウギ"
+      "reading": "キョウギ",
+      "meaning": "narada; konsultacje"
     },
     {
       "kanji": "協会",
-      "reading": "キョウカイ"
+      "reading": "キョウカイ",
+      "meaning": "stowarzyszenie; towarzystwo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "妥協",
       "reading": "ダキョウ",
-      "reference": 1342
+      "reference": 1342,
+      "meaning": "kompromis"
     }
   ],
   "additionalWords": []

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "平均",
-      "reading": "ヘイキン"
+      "reading": "ヘイキン",
+      "meaning": "średnia; przeciętna"
     },
     {
       "kanji": "均一",
-      "reading": "キンイツ"
+      "reading": "キンイツ",
+      "meaning": "jednolitość; jednakowy"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "塚",
-      "reading": "つか"
+      "reading": "つか",
+      "meaning": "kopiec; kurhan"
     },
     {
       "kanji": "貝塚",
-      "reading": "かいづか"
+      "reading": "かいづか",
+      "meaning": "kopiec muszlowy (prehistoryczne śmietnisko)"
     }
   ],
   "wordsRequiredLater": [],

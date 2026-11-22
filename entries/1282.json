@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "売却",
-      "reading": "バイキャク"
+      "reading": "バイキャク",
+      "meaning": "sprzedaż; zbycie"
     },
     {
       "kanji": "返却",
-      "reading": "ヘンキャク"
+      "reading": "ヘンキャク",
+      "meaning": "zwrot (np. wypożyczonej rzeczy)"
     }
   ],
   "wordsRequiredLater": [],

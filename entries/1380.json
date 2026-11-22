@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "趣味",
-      "reading": "シュミ"
+      "reading": "シュミ",
+      "meaning": "hobby; gust"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "趣旨",
       "reading": "シュシ",
-      "reference": 1413
+      "reference": 1413,
+      "meaning": "cel; myśl przewodnia; sens"
     }
   ],
   "additionalWords": []

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "宮廷",
-      "reading": "キュウテイ"
+      "reading": "キュウテイ",
+      "meaning": "dwór królewski"
     },
     {
       "kanji": "法廷",
-      "reading": "ホウテイ"
+      "reading": "ホウテイ",
+      "meaning": "sala sądowa; sąd"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "敏感",
-      "reading": "ビンカン"
+      "reading": "ビンカン",
+      "meaning": "wrażliwy; czuły"
     },
     {
       "kanji": "鋭敏な",
-      "reading": "エイビン"
+      "reading": "エイビン",
+      "meaning": "bystry"
     }
   ],
   "wordsRequiredLater": [],

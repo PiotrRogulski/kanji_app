@@ -12,31 +12,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "捕らえる",
-      "reading": "とらえる"
+      "reading": "とらえる",
+      "meaning": "schwytać; ująć"
     },
     {
       "kanji": "捕る",
-      "reading": "とる"
+      "reading": "とる",
+      "meaning": "łapać; chwytać"
     },
     {
       "kanji": "捕まる",
-      "reading": "つかまる"
+      "reading": "つかまる",
+      "meaning": "zostać złapanym"
     },
     {
       "kanji": "捕まえる",
-      "reading": "つかまえる"
+      "reading": "つかまえる",
+      "meaning": "złapać; schwytać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "捕鯨",
       "reading": "ホゲイ",
-      "reference": 1093
+      "reference": 1093,
+      "meaning": "wielorybnictwo"
     },
     {
       "kanji": "逮捕",
       "reading": "タイホ",
-      "reference": 1218
+      "reference": 1218,
+      "meaning": "aresztowanie"
     }
   ],
   "additionalWords": []

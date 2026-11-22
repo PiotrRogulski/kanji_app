@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "鯨",
-      "reading": "くじら"
+      "reading": "くじら",
+      "meaning": "wieloryb"
     },
     {
       "kanji": "捕鯨",
-      "reading": "ホゲイ"
+      "reading": "ホゲイ",
+      "meaning": "wielorybnictwo"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "ゴリラ＋クジラ＝ゴジラ",
-      "reading": null
+      "reading": null,
+      "meaning": "goryl + wieloryb = Godzilla"
     }
   ]
 }

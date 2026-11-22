@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "渋い",
-      "reading": "しぶい"
+      "reading": "しぶい",
+      "meaning": "cierpki; stonowany (gustowny); skwaszony"
     },
     {
       "kanji": "渋滞",
-      "reading": "ジュウタイ"
+      "reading": "ジュウタイ",
+      "meaning": "korek (uliczny); zator"
     },
     {
       "kanji": "渋味",
-      "reading": "しぶみ"
+      "reading": "しぶみ",
+      "meaning": "cierpkość; stonowana elegancja"
     },
     {
       "kanji": "渋谷",
-      "reading": "しぶや"
+      "reading": "しぶや",
+      "meaning": "Shibuya (dzielnica Tokio)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "征服",
-      "reading": "セイフク"
+      "reading": "セイフク",
+      "meaning": "podbój"
     },
     {
       "kanji": "遠征",
-      "reading": "エンセイ"
+      "reading": "エンセイ",
+      "meaning": "wyprawa; ekspedycja (wojskowa, sportowa)"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "織る",
-      "reading": "おる"
+      "reading": "おる",
+      "meaning": "tkać"
     },
     {
       "kanji": "組織",
-      "reading": "ソシキ"
+      "reading": "ソシキ",
+      "meaning": "organizacja; struktura; tkanka"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "織田信長",
-      "reading": "おだのぶなが"
+      "reading": "おだのぶなが",
+      "meaning": "Oda Nobunaga"
     }
   ]
 }

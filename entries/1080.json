@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "胃",
-      "reading": "イ"
+      "reading": "イ",
+      "meaning": "żołądek"
     },
     {
       "kanji": "胃弱",
-      "reading": "イジャク"
+      "reading": "イジャク",
+      "meaning": "słaby żołądek; niestrawność"
     },
     {
       "kanji": "胃腸",
-      "reading": "イチョウ"
+      "reading": "イチョウ",
+      "meaning": "żołądek i jelita"
     }
   ],
   "wordsRequiredLater": [],

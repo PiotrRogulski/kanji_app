@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "孤児",
-      "reading": "コジ"
+      "reading": "コジ",
+      "meaning": "sierota"
     },
     {
       "kanji": "孤独",
-      "reading": "コドク"
+      "reading": "コドク",
+      "meaning": "samotność"
     },
     {
       "kanji": "孤立",
-      "reading": "コリツ"
+      "reading": "コリツ",
+      "meaning": "izolacja; osamotnienie"
     }
   ],
   "wordsRequiredLater": [],

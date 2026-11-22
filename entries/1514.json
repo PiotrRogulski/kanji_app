@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "漫画",
-      "reading": "マンガ"
+      "reading": "マンガ",
+      "meaning": "manga; komiks"
     },
     {
       "kanji": "散漫な",
-      "reading": "サンマン"
+      "reading": "サンマン",
+      "meaning": "rozwlekły; chaotyczny; rozproszony"
     }
   ],
   "wordsRequiredLater": [],

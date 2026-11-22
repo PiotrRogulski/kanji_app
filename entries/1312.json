@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "銃",
-      "reading": "ジュウ"
+      "reading": "ジュウ",
+      "meaning": "broń palna; karabin"
     },
     {
       "kanji": "銃弾",
-      "reading": "ジュウダン"
+      "reading": "ジュウダン",
+      "meaning": "kula; pocisk"
     },
     {
       "kanji": "小銃",
-      "reading": "ショウジュウ"
+      "reading": "ショウジュウ",
+      "meaning": "karabin"
     }
   ],
   "wordsRequiredLater": [],

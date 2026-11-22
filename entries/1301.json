@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "謹賀新年",
-      "reading": "キンガシンネン"
+      "reading": "キンガシンネン",
+      "meaning": "Szczęśliwego Nowego Roku (formuła pisemna)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "謹啓",
       "reading": "キンケイ",
-      "reference": 1454
+      "reference": 1454,
+      "meaning": "Szanowni Państwo (formuła otwierająca list)"
     }
   ],
   "additionalWords": []

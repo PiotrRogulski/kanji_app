@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "創設",
-      "reading": "ソウセツ"
+      "reading": "ソウセツ",
+      "meaning": "założenie; fundacja"
     },
     {
       "kanji": "創造",
-      "reading": "ソウゾウ"
+      "reading": "ソウゾウ",
+      "meaning": "tworzenie"
     }
   ],
   "wordsRequiredLater": [],

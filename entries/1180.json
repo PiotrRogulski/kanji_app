@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "株",
-      "reading": "かぶ"
+      "reading": "かぶ",
+      "meaning": "akcja (giełdowa); pniak; szczep"
     },
     {
       "kanji": "オミクロン株",
-      "reading": null
+      "reading": null,
+      "meaning": "wariant omikron"
     },
     {
       "kanji": "株式",
-      "reading": "かぶシキ"
+      "reading": "かぶシキ",
+      "meaning": "akcje (udziały)"
     },
     {
       "kanji": "株式会社",
-      "reading": "かぶシキガイシャ"
+      "reading": "かぶシキガイシャ",
+      "meaning": "spółka akcyjna"
     }
   ],
   "wordsRequiredLater": [],

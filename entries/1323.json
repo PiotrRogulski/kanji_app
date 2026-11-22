@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "誉れ",
-      "reading": "ほまれ"
+      "reading": "ほまれ",
+      "meaning": "chwała; zaszczyt"
     },
     {
       "kanji": "名誉",
-      "reading": "メイヨ"
+      "reading": "メイヨ",
+      "meaning": "honor; zaszczyt"
     },
     {
       "kanji": "栄誉",
-      "reading": "エイヨ"
+      "reading": "エイヨ",
+      "meaning": "zaszczyt; chwała"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "路上",
-      "reading": "ロジョウ"
+      "reading": "ロジョウ",
+      "meaning": "na drodze; na ulicy"
     },
     {
       "kanji": "道路",
-      "reading": "ドウロ"
+      "reading": "ドウロ",
+      "meaning": "droga; ulica"
     },
     {
       "kanji": "線路",
-      "reading": "センロ"
+      "reading": "センロ",
+      "meaning": "tory kolejowe"
     },
     {
       "kanji": "通路",
-      "reading": "ツウロ"
+      "reading": "ツウロ",
+      "meaning": "przejście; korytarz"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "岐路",
       "reading": "キロ",
-      "reference": 1261
+      "reference": 1261,
+      "meaning": "rozdroże"
     },
     {
       "kanji": "迷路",
       "reading": "メイロ",
-      "reference": 1265
+      "reference": 1265,
+      "meaning": "labirynt"
     }
   ],
   "additionalWords": []

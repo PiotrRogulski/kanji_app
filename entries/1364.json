@@ -11,19 +11,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "紛らわしい",
-      "reading": "まぎらわしい"
+      "reading": "まぎらわしい",
+      "meaning": "mylący; łatwy do pomylenia"
     },
     {
       "kanji": "紛れ",
-      "reading": "まぎれ"
+      "reading": "まぎれ",
+      "meaning": "zamieszanie; pomylenie; (w złożeniach) w przypływie …"
     },
     {
       "kanji": "紛れもない",
-      "reading": "まぎれもない"
+      "reading": "まぎれもない",
+      "meaning": "niewątpliwy; bezsprzeczny"
     },
     {
       "kanji": "紛争",
-      "reading": "フンソウ"
+      "reading": "フンソウ",
+      "meaning": "konflikt"
     }
   ],
   "wordsRequiredLater": [],

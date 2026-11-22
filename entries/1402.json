@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "牧師",
-      "reading": "ボクシ"
+      "reading": "ボクシ",
+      "meaning": "pastor; duchowny"
     },
     {
       "kanji": "牧場",
-      "reading": "ボクジョウ"
+      "reading": "ボクジョウ",
+      "meaning": "ranczo; gospodarstwo hodowlane; pastwisko"
     },
     {
       "kanji": "牧場",
-      "reading": "まきば"
+      "reading": "まきば",
+      "meaning": "pastwisko; łąka"
     }
   ],
   "wordsRequiredLater": [],

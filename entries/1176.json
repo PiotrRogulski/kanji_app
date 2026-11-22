@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿庁",
-      "reading": "チョウ"
+      "reading": "チョウ",
+      "meaning": "… urząd; agencja (sufiks)"
     },
     {
       "kanji": "官庁",
-      "reading": "カンチョウ"
+      "reading": "カンチョウ",
+      "meaning": "urząd państwowy"
     },
     {
       "kanji": "県庁",
-      "reading": "ケンチョウ"
+      "reading": "ケンチョウ",
+      "meaning": "urząd prefekturalny"
     },
     {
       "kanji": "気象庁",
-      "reading": "キショウチョウ"
+      "reading": "キショウチョウ",
+      "meaning": "Japońska Agencja Meteorologiczna"
     }
   ],
   "wordsRequiredLater": [],

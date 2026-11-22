@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "肺",
-      "reading": "ハイ"
+      "reading": "ハイ",
+      "meaning": "płuca"
     },
     {
       "kanji": "肺臓",
-      "reading": "ハイゾウ"
+      "reading": "ハイゾウ",
+      "meaning": "płuca"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "肺炎",
       "reading": "ハイエン",
-      "reference": 1400
+      "reference": 1400,
+      "meaning": "zapalenie płuc"
     }
   ],
   "additionalWords": []

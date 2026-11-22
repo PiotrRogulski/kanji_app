@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "団体",
-      "reading": "ダンタイ"
+      "reading": "ダンタイ",
+      "meaning": "grupa; organizacja"
     },
     {
       "kanji": "集団",
-      "reading": "シュウダン"
+      "reading": "シュウダン",
+      "meaning": "grupa; zbiorowość"
     },
     {
       "kanji": "団地",
-      "reading": "ダンチ"
+      "reading": "ダンチ",
+      "meaning": "osiedle mieszkaniowe"
     },
     {
       "kanji": "布団",
-      "reading": "フトン"
+      "reading": "フトン",
+      "meaning": "futon (japońskie posłanie)"
     }
   ],
   "wordsRequiredLater": [],

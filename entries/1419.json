@@ -10,23 +10,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "甘い",
-      "reading": "あまい"
+      "reading": "あまい",
+      "meaning": "słodki; pobłażliwy; naiwny"
     },
     {
       "kanji": "甘える",
-      "reading": "あまえる"
+      "reading": "あまえる",
+      "meaning": "przymilać się; zachowywać się jak rozpieszczone dziecko; polegać na czyjejś życzliwości"
     },
     {
       "kanji": "甘やかす",
-      "reading": "あまやかす"
+      "reading": "あまやかす",
+      "meaning": "rozpieszczać"
     },
     {
       "kanji": "甘言",
-      "reading": "カンゲン"
+      "reading": "カンゲン",
+      "meaning": "pochlebstwa; słodkie słówka"
     },
     {
       "kanji": "甘口",
-      "reading": "あまくち"
+      "reading": "あまくち",
+      "meaning": "słodki; łagodny (smak, np. sake, curry)"
     }
   ],
   "wordsRequiredLater": [],

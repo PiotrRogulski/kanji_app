@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "浪費",
-      "reading": "ロウヒ"
+      "reading": "ロウヒ",
+      "meaning": "marnotrawstwo; trwonienie"
     },
     {
       "kanji": "浪人",
-      "reading": "ロウニン"
+      "reading": "ロウニン",
+      "meaning": "rōnin (samuraj bez pana); osoba powtarzająca egzaminy na studia"
     }
   ],
   "wordsRequiredLater": [],

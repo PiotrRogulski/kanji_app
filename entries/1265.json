@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "迷う",
-      "reading": "まよう"
+      "reading": "まよう",
+      "meaning": "błądzić; wahać się; gubić się"
     },
     {
       "kanji": "迷路",
-      "reading": "メイロ"
+      "reading": "メイロ",
+      "meaning": "labirynt"
     },
     {
       "kanji": "迷信",
-      "reading": "メイシン"
+      "reading": "メイシン",
+      "meaning": "przesąd"
     },
     {
       "kanji": "迷惑",
-      "reading": "メイワク"
+      "reading": "メイワク",
+      "meaning": "kłopot; uciążliwość"
     },
     {
       "kanji": "迷子",
-      "reading": "まいご"
+      "reading": "まいご",
+      "meaning": "zagubione dziecko; zgubienie się"
     }
   ],
   "wordsRequiredLater": [],

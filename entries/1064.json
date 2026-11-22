@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "騒ぐ",
-      "reading": "さわぐ"
+      "reading": "さわぐ",
+      "meaning": "hałasować; robić zamieszanie"
     },
     {
       "kanji": "騒がしい",
-      "reading": "さわがしい"
+      "reading": "さわがしい",
+      "meaning": "hałaśliwy"
     },
     {
       "kanji": "騒音",
-      "reading": "ソウオン"
+      "reading": "ソウオン",
+      "meaning": "hałas"
     }
   ],
   "wordsRequiredLater": [],

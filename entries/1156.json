@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "典型",
-      "reading": "テンケイ"
+      "reading": "テンケイ",
+      "meaning": "typowy przykład; wzorzec"
     },
     {
       "kanji": "事典",
-      "reading": "ジテン"
+      "reading": "ジテン",
+      "meaning": "encyklopedia"
     },
     {
       "kanji": "古典",
-      "reading": "コテン"
+      "reading": "コテン",
+      "meaning": "klasyka; dzieło klasyczne"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "辞典",
       "reading": "ジテン",
-      "reference": 1224
+      "reference": 1224,
+      "meaning": "słownik"
     }
   ],
   "additionalWords": []

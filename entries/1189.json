@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "融和",
-      "reading": "ユウワ"
+      "reading": "ユウワ",
+      "meaning": "harmonia; pojednanie"
     },
     {
       "kanji": "金融",
-      "reading": "キンユウ"
+      "reading": "キンユウ",
+      "meaning": "finanse"
     }
   ],
   "wordsRequiredLater": [],

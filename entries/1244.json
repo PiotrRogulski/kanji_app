@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "募る",
-      "reading": "つのる"
+      "reading": "つのる",
+      "meaning": "rekrutować; zbierać; nasilać się"
     },
     {
       "kanji": "募集",
-      "reading": "ボシュウ"
+      "reading": "ボシュウ",
+      "meaning": "nabór; rekrutacja"
     },
     {
       "kanji": "募集中",
-      "reading": "ボシュウチュウ"
+      "reading": "ボシュウチュウ",
+      "meaning": "trwa nabór"
     },
     {
       "kanji": "応募",
-      "reading": "オウボ"
+      "reading": "オウボ",
+      "meaning": "zgłoszenie; aplikacja (np. o pracę)"
     }
   ],
   "wordsRequiredLater": [],

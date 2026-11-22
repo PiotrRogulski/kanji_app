@@ -11,19 +11,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "焦げる",
-      "reading": "こげる"
+      "reading": "こげる",
+      "meaning": "przypalać się"
     },
     {
       "kanji": "焦がす",
-      "reading": "こがす"
+      "reading": "こがす",
+      "meaning": "przypalać"
     },
     {
       "kanji": "焦る",
-      "reading": "あせる"
+      "reading": "あせる",
+      "meaning": "niecierpliwić się; denerwować się; spieszyć się"
     },
     {
       "kanji": "焦点",
-      "reading": "ショウテン"
+      "reading": "ショウテン",
+      "meaning": "punkt ogniskowy; punkt skupienia"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "街",
-      "reading": "まち"
+      "reading": "まち",
+      "meaning": "miasto; dzielnica; ulica (handlowa)"
     },
     {
       "kanji": "街道",
-      "reading": "カイドウ"
+      "reading": "カイドウ",
+      "meaning": "trakt; główna droga"
     },
     {
       "kanji": "市街",
-      "reading": "シガイ"
+      "reading": "シガイ",
+      "meaning": "ulice miasta; obszar miejski"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "旧市街",
       "reading": "キュウシガイ",
-      "reference": 1203
+      "reference": 1203,
+      "meaning": "stare miasto"
     }
   ],
   "additionalWords": []

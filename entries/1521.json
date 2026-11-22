@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "筒",
-      "reading": "つつ"
+      "reading": "つつ",
+      "meaning": "rura; tuba; cylinder"
     },
     {
       "kanji": "封筒",
-      "reading": "フウトウ"
+      "reading": "フウトウ",
+      "meaning": "koperta"
     }
   ],
   "wordsRequiredLater": [],

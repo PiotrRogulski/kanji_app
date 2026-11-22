@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "執る",
-      "reading": "とる"
+      "reading": "とる",
+      "meaning": "sprawować; ujmować (np. pióro); prowadzić"
     },
     {
       "kanji": "執筆",
-      "reading": "シッピツ"
+      "reading": "シッピツ",
+      "meaning": "pisanie (tekstu, książki)"
     },
     {
       "kanji": "執行",
-      "reading": "シッコウ"
+      "reading": "シッコウ",
+      "meaning": "wykonanie; egzekucja (wyroku)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "指揮",
-      "reading": "シキ"
+      "reading": "シキ",
+      "meaning": "dowodzenie; dyrygowanie"
     },
     {
       "kanji": "指揮者",
-      "reading": "シキシャ"
+      "reading": "シキシャ",
+      "meaning": "dyrygent; dowódca"
     },
     {
       "kanji": "発揮する",
-      "reading": "ハッキ"
+      "reading": "ハッキ",
+      "meaning": "wykazywać; przejawiać (zdolności)"
     }
   ],
   "wordsRequiredLater": [],

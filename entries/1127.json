@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "抑える",
-      "reading": "おさえる"
+      "reading": "おさえる",
+      "meaning": "tłumić; powstrzymywać; ograniczać"
     },
     {
       "kanji": "抑制",
-      "reading": "ヨクセイ"
+      "reading": "ヨクセイ",
+      "meaning": "powstrzymywanie; hamowanie; ograniczanie"
     }
   ],
   "wordsRequiredLater": [],

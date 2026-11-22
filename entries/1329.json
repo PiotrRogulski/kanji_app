@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "優雅な",
-      "reading": "ユウガ"
+      "reading": "ユウガ",
+      "meaning": "elegancki"
     },
     {
       "kanji": "風雅な",
-      "reading": "フウガ"
+      "reading": "フウガ",
+      "meaning": "wytworny; elegancki"
     }
   ],
   "wordsRequiredLater": [],

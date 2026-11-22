@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "効く",
-      "reading": "きく"
+      "reading": "きく",
+      "meaning": "działać; być skutecznym"
     },
     {
       "kanji": "効果",
-      "reading": "コウカ"
+      "reading": "コウカ",
+      "meaning": "efekt; skuteczność"
     },
     {
       "kanji": "有効な",
-      "reading": "ユウコウ"
+      "reading": "ユウコウ",
+      "meaning": "ważny; skuteczny"
     }
   ],
   "wordsRequiredLater": [],

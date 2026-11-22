@@ -10,23 +10,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "競う",
-      "reading": "きそう"
+      "reading": "きそう",
+      "meaning": "rywalizować; konkurować"
     },
     {
       "kanji": "競争",
-      "reading": "キョウソウ"
+      "reading": "キョウソウ",
+      "meaning": "konkurencja; rywalizacja"
     },
     {
       "kanji": "競技",
-      "reading": "キョウギ"
+      "reading": "キョウギ",
+      "meaning": "zawody; konkurencja sportowa"
     },
     {
       "kanji": "競馬",
-      "reading": "ケイバ"
+      "reading": "ケイバ",
+      "meaning": "wyścigi konne"
     },
     {
       "kanji": "競り売り",
-      "reading": "せりうり"
+      "reading": "せりうり",
+      "meaning": "licytacja; aukcja"
     }
   ],
   "wordsRequiredLater": [],

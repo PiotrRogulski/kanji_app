@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "成績",
-      "reading": "セイセキ"
+      "reading": "セイセキ",
+      "meaning": "wyniki; oceny"
     },
     {
       "kanji": "実績",
-      "reading": "ジッセキ"
+      "reading": "ジッセキ",
+      "meaning": "osiągnięcia; wyniki"
     }
   ],
   "wordsRequiredLater": [],

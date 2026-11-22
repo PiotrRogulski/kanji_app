@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "剣",
-      "reading": "つるぎ"
+      "reading": "つるぎ",
+      "meaning": "miecz (obosieczny)"
     },
     {
       "kanji": "剣道",
-      "reading": "ケンドウ"
+      "reading": "ケンドウ",
+      "meaning": "kendo"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "草薙の剣",
-      "reading": "くさなぎのつるぎ"
+      "reading": "くさなぎのつるぎ",
+      "meaning": "Kusanagi no Tsurugi (legendarny miecz, jedno z regaliów cesarskich)"
     }
   ]
 }

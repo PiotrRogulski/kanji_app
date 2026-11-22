@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "浄化",
-      "reading": "ジョウカ"
+      "reading": "ジョウカ",
+      "meaning": "oczyszczanie"
     },
     {
       "kanji": "清浄",
-      "reading": "セイジョウ"
+      "reading": "セイジョウ",
+      "meaning": "czystość"
     }
   ],
   "wordsRequiredLater": [],

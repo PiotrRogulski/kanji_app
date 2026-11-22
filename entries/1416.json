@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "詩",
-      "reading": "シ"
+      "reading": "シ",
+      "meaning": "wiersz; poezja"
     },
     {
       "kanji": "詩人",
-      "reading": "シジン"
+      "reading": "シジン",
+      "meaning": "poeta"
     },
     {
       "kanji": "詩集",
-      "reading": "シシュウ"
+      "reading": "シシュウ",
+      "meaning": "tomik poezji; zbiór wierszy"
     }
   ],
   "wordsRequiredLater": [],

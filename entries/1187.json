@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "審査",
-      "reading": "シンサ"
+      "reading": "シンサ",
+      "meaning": "ocena; weryfikacja; kwalifikacja"
     },
     {
       "kanji": "審判",
-      "reading": "シンパン"
+      "reading": "シンパン",
+      "meaning": "sędzia (sportowy); wyrok"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "旗",
-      "reading": "はた"
+      "reading": "はた",
+      "meaning": "flaga; sztandar"
     },
     {
       "kanji": "国旗",
-      "reading": "コッキ"
+      "reading": "コッキ",
+      "meaning": "flaga państwowa"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "旗本",
-      "reading": "はたもと"
+      "reading": "はたもと",
+      "meaning": "hatamoto (bezpośredni wasal szoguna)"
     }
   ]
 }

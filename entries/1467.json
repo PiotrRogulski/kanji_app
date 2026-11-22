@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "瞬く",
-      "reading": "またたく"
+      "reading": "またたく",
+      "meaning": "migotać; mrugać"
     },
     {
       "kanji": "瞬間",
-      "reading": "シュンカン"
+      "reading": "シュンカン",
+      "meaning": "chwila; moment"
     },
     {
       "kanji": "一瞬",
-      "reading": "イッシュン"
+      "reading": "イッシュン",
+      "meaning": "chwila; mgnienie oka"
     }
   ],
   "wordsRequiredLater": [],

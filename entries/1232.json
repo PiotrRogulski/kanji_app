@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "踏む",
-      "reading": "ふむ"
+      "reading": "ふむ",
+      "meaning": "deptać; nadepnąć"
     },
     {
       "kanji": "踏まえる",
-      "reading": "ふまえる"
+      "reading": "ふまえる",
+      "meaning": "opierać się na; brać pod uwagę"
     },
     {
       "kanji": "踏切",
-      "reading": "ふみきり"
+      "reading": "ふみきり",
+      "meaning": "przejazd kolejowy"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "踏み絵",
-      "reading": "ふみえ"
+      "reading": "ふみえ",
+      "meaning": "fumi-e (obrazek do deptania – test wiary; próba lojalności)"
     }
   ]
 }

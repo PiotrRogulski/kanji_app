@@ -10,22 +10,26 @@
     {
       "kanji": "健康",
       "reading": "ケンコウ",
-      "reference": 1050
+      "reference": 1050,
+      "meaning": "zdrowie"
     },
     {
       "kanji": "保健",
       "reading": "ホケン",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "ochrona zdrowia; higiena"
     },
     {
       "kanji": "保健所",
       "reading": "ホケンショ",
-      "reference": 1071
+      "reference": 1071,
+      "meaning": "ośrodek zdrowia publicznego (sanepid)"
     },
     {
       "kanji": "剛健な",
       "reading": "ゴウケン",
-      "reference": 1505
+      "reference": 1505,
+      "meaning": "krzepki; hartowny"
     }
   ],
   "additionalWords": []

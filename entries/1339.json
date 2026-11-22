@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "獲る",
-      "reading": "える"
+      "reading": "える",
+      "meaning": "zdobywać; upolować"
     },
     {
       "kanji": "獲得",
-      "reading": "カクトク"
+      "reading": "カクトク",
+      "meaning": "zdobycie; nabycie"
     },
     {
       "kanji": "獲物",
-      "reading": "えもの"
+      "reading": "えもの",
+      "meaning": "zdobycz; łup"
     }
   ],
   "wordsRequiredLater": [],

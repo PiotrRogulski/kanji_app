@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "好奇心",
-      "reading": "コウキシン"
+      "reading": "コウキシン",
+      "meaning": "ciekawość"
     },
     {
       "kanji": "奇妙な",
-      "reading": "キミョウ"
+      "reading": "キミョウ",
+      "meaning": "dziwny; dziwaczny"
     }
   ],
   "wordsRequiredLater": [],

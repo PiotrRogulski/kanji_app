@@ -7,27 +7,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "芸術",
-      "reading": "ゲイジュツ"
+      "reading": "ゲイジュツ",
+      "meaning": "sztuka"
     },
     {
       "kanji": "芸能",
-      "reading": "ゲイノウ"
+      "reading": "ゲイノウ",
+      "meaning": "rozrywka; sztuki sceniczne"
     },
     {
       "kanji": "芸能人",
-      "reading": "ゲイノウジン"
+      "reading": "ゲイノウジン",
+      "meaning": "artysta; celebryta"
     },
     {
       "kanji": "芸者",
-      "reading": "ゲイシャ"
+      "reading": "ゲイシャ",
+      "meaning": "gejsza"
     },
     {
       "kanji": "工芸",
-      "reading": "コウゲイ"
+      "reading": "コウゲイ",
+      "meaning": "rzemiosło artystyczne"
     },
     {
       "kanji": "文芸",
-      "reading": "ブンゲイ"
+      "reading": "ブンゲイ",
+      "meaning": "literatura (piękna); sztuka i literatura"
     }
   ],
   "wordsRequiredLater": [],

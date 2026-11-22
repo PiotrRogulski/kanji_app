@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "兼ねる",
-      "reading": "かねる"
+      "reading": "かねる",
+      "meaning": "łączyć (funkcje); pełnić jednocześnie; nie móc (grzecznie)"
     },
     {
       "kanji": "兼用する",
-      "reading": "ケンヨウ"
+      "reading": "ケンヨウ",
+      "meaning": "używać do dwóch celów; współużytkować"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "陣",
-      "reading": "ジン"
+      "reading": "ジン",
+      "meaning": "obóz (wojskowy); szyk bojowy"
     },
     {
       "kanji": "陣営",
-      "reading": "ジンエイ"
+      "reading": "ジンエイ",
+      "meaning": "obóz; stronnictwo"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "陣笠",
-      "reading": "ジンがさ"
+      "reading": "ジンがさ",
+      "meaning": "kapelusz bojowy (szeregowych żołnierzy); szeregowy członek partii"
     }
   ]
 }

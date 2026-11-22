@@ -10,30 +10,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "混じる",
-      "reading": "まじる"
+      "reading": "まじる",
+      "meaning": "mieszać się; być domieszanym"
     },
     {
       "kanji": "混ざる",
-      "reading": "まざる"
+      "reading": "まざる",
+      "meaning": "mieszać się"
     },
     {
       "kanji": "混ぜる",
-      "reading": "まぜる"
+      "reading": "まぜる",
+      "meaning": "mieszać"
     },
     {
       "kanji": "混合",
-      "reading": "コンゴウ"
+      "reading": "コンゴウ",
+      "meaning": "mieszanie; mieszanka"
     },
     {
       "kanji": "混雑な",
-      "reading": "コンザツ"
+      "reading": "コンザツ",
+      "meaning": "zatłoczony"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "混乱",
       "reading": "コンラン",
-      "reference": 1075
+      "reference": 1075,
+      "meaning": "zamieszanie; chaos"
     }
   ],
   "additionalWords": []

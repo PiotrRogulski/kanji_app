@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "購入",
-      "reading": "コウニュウ"
+      "reading": "コウニュウ",
+      "meaning": "zakup"
     },
     {
       "kanji": "購読",
-      "reading": "コウドク"
+      "reading": "コウドク",
+      "meaning": "prenumerata"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "蓄える",
-      "reading": "たくわえる"
+      "reading": "たくわえる",
+      "meaning": "gromadzić; odkładać"
     },
     {
       "kanji": "蓄え",
-      "reading": "たくわえ"
+      "reading": "たくわえ",
+      "meaning": "zapasy; oszczędności"
     },
     {
       "kanji": "蓄積",
-      "reading": "チクセキ"
+      "reading": "チクセキ",
+      "meaning": "akumulacja; nagromadzenie"
     }
   ],
   "wordsRequiredLater": [],

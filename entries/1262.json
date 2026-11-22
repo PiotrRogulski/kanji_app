@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "著しい",
-      "reading": "いちじるしい"
+      "reading": "いちじるしい",
+      "meaning": "znaczny; wyraźny"
     },
     {
       "kanji": "著者",
-      "reading": "チョシャ"
+      "reading": "チョシャ",
+      "meaning": "autor"
     },
     {
       "kanji": "著名な",
-      "reading": "チョメイ"
+      "reading": "チョメイ",
+      "meaning": "sławny; znany"
     },
     {
       "kanji": "著書",
-      "reading": "チョショ"
+      "reading": "チョショ",
+      "meaning": "dzieło; książka (danego autora)"
     }
   ],
   "wordsRequiredLater": [],

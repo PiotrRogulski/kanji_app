@@ -8,34 +8,41 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿札",
-      "reading": "サツ"
+      "reading": "サツ",
+      "meaning": "banknot o nominale … (sufiks)"
     },
     {
       "kanji": "札",
-      "reading": "ふだ"
+      "reading": "ふだ",
+      "meaning": "tabliczka; etykieta; karta"
     },
     {
       "kanji": "名札",
-      "reading": "なふだ"
+      "reading": "なふだ",
+      "meaning": "identyfikator; plakietka z nazwiskiem"
     },
     {
       "kanji": "札入れ",
-      "reading": "サツいれ"
+      "reading": "サツいれ",
+      "meaning": "portfel (na banknoty)"
     },
     {
       "kanji": "改札",
-      "reading": "カイサツ"
+      "reading": "カイサツ",
+      "meaning": "bramka biletowa"
     },
     {
       "kanji": "改札口",
-      "reading": "カイサツぐち"
+      "reading": "カイサツぐち",
+      "meaning": "bramka biletowa"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "札幌市",
-      "reading": "さっぽろシ"
+      "reading": "さっぽろシ",
+      "meaning": "miasto Sapporo"
     }
   ]
 }

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "刑罰",
-      "reading": "ケイバツ"
+      "reading": "ケイバツ",
+      "meaning": "kara (sądowa)"
     },
     {
       "kanji": "刑事",
-      "reading": "ケイジ"
+      "reading": "ケイジ",
+      "meaning": "detektyw (policyjny); sprawa karna"
     },
     {
       "kanji": "刑務所",
-      "reading": "ケイムショ"
+      "reading": "ケイムショ",
+      "meaning": "więzienie"
     }
   ],
   "wordsRequiredLater": [],

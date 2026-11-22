@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "阻止",
-      "reading": "ソシ"
+      "reading": "ソシ",
+      "meaning": "powstrzymanie; zablokowanie"
     },
     {
       "kanji": "阻害",
-      "reading": "ソガイ"
+      "reading": "ソガイ",
+      "meaning": "utrudnianie; hamowanie"
     }
   ],
   "wordsRequiredLater": [],

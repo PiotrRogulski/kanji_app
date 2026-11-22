@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "炎",
-      "reading": "ほのお"
+      "reading": "ほのお",
+      "meaning": "płomień"
     },
     {
       "kanji": "＿炎",
-      "reading": "エン"
+      "reading": "エン",
+      "meaning": "zapalenie … (sufiks)"
     },
     {
       "kanji": "肺炎",
-      "reading": "ハイエン"
+      "reading": "ハイエン",
+      "meaning": "zapalenie płuc"
     },
     {
       "kanji": "炎症",
-      "reading": "エンショウ"
+      "reading": "エンショウ",
+      "meaning": "zapalenie; stan zapalny"
     }
   ],
   "wordsRequiredLater": [],

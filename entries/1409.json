@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "腹",
-      "reading": "はら"
+      "reading": "はら",
+      "meaning": "brzuch"
     },
     {
       "kanji": "空腹",
-      "reading": "クウフク"
+      "reading": "クウフク",
+      "meaning": "głód; pusty żołądek"
     },
     {
       "kanji": "切腹",
-      "reading": "セップク"
+      "reading": "セップク",
+      "meaning": "seppuku (rytualne samobójstwo)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "腹切",
-      "reading": "はらきり"
+      "reading": "はらきり",
+      "meaning": "harakiri"
     }
   ]
 }

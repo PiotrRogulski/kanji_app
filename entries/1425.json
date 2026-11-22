@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "諭す",
-      "reading": "さとす"
+      "reading": "さとす",
+      "meaning": "napominać; pouczać; przekonywać"
     },
     {
       "kanji": "教諭",
-      "reading": "キョウユ"
+      "reading": "キョウユ",
+      "meaning": "nauczyciel (dyplomowany)"
     }
   ],
   "wordsRequiredLater": [],

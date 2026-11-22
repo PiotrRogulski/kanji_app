@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "杯",
-      "reading": "さかずき"
+      "reading": "さかずき",
+      "meaning": "czarka (do sake)"
     },
     {
       "kanji": "一杯",
-      "reading": "イッパイ"
+      "reading": "イッパイ",
+      "meaning": "jedna szklanka/czarka; pełno; dużo"
     },
     {
       "kanji": "精一杯",
-      "reading": "セイイッパイ"
+      "reading": "セイイッパイ",
+      "meaning": "ze wszystkich sił"
     },
     {
       "kanji": "祝杯",
-      "reading": "シュクハイ"
+      "reading": "シュクハイ",
+      "meaning": "toast (z okazji)"
     },
     {
       "kanji": "乾杯",
-      "reading": "カンパイ"
+      "reading": "カンパイ",
+      "meaning": "toast; na zdrowie!"
     }
   ],
   "wordsRequiredLater": [],

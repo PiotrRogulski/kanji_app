@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "裁き",
-      "reading": "さばき"
+      "reading": "さばき",
+      "meaning": "osąd; wyrok"
     },
     {
       "kanji": "裁判",
-      "reading": "サイバン"
+      "reading": "サイバン",
+      "meaning": "proces sądowy"
     }
   ],
   "wordsRequiredLater": [],

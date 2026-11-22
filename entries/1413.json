@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "趣旨",
-      "reading": "シュシ"
+      "reading": "シュシ",
+      "meaning": "cel; myśl przewodnia; sens"
     },
     {
       "kanji": "本旨",
-      "reading": "ホンシ"
+      "reading": "ホンシ",
+      "meaning": "główny cel; właściwa intencja"
     }
   ],
   "wordsRequiredLater": [],

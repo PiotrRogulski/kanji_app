@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "障害",
-      "reading": "ショウガイ"
+      "reading": "ショウガイ",
+      "meaning": "przeszkoda; zaburzenie; niepełnosprawność"
     },
     {
       "kanji": "障子",
-      "reading": "ショウジ"
+      "reading": "ショウジ",
+      "meaning": "shōji (przesuwane drzwi z papieru)"
     },
     {
       "kanji": "故障",
-      "reading": "コショウ"
+      "reading": "コショウ",
+      "meaning": "awaria; usterka; uszkodzenie"
     }
   ],
   "wordsRequiredLater": [],

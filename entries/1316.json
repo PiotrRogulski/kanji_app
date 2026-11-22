@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "崎",
-      "reading": "さき"
+      "reading": "さき",
+      "meaning": "przylądek; cypel"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "岡崎先生",
-      "reading": "おかざきセンセイ"
+      "reading": "おかざきセンセイ",
+      "meaning": "profesor Okazaki"
     }
   ]
 }

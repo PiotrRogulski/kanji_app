@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "床",
-      "reading": "ゆか"
+      "reading": "ゆか",
+      "meaning": "podłoga"
     },
     {
       "kanji": "起床する",
-      "reading": "キショウ"
+      "reading": "キショウ",
+      "meaning": "wstawać z łóżka"
     },
     {
       "kanji": "床の間",
-      "reading": "とこのま"
+      "reading": "とこのま",
+      "meaning": "tokonoma (wnęka ozdobna w pokoju japońskim)"
     }
   ],
   "wordsRequiredLater": [],

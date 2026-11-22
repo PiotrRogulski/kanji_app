@@ -8,32 +8,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "与える",
-      "reading": "あたえる"
+      "reading": "あたえる",
+      "meaning": "dawać; udzielać; przyznawać"
     },
     {
       "kanji": "給与",
-      "reading": "キュウヨ"
+      "reading": "キュウヨ",
+      "meaning": "wynagrodzenie; świadczenia"
     },
     {
       "kanji": "関与",
-      "reading": "カンヨ"
+      "reading": "カンヨ",
+      "meaning": "udział; zaangażowanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "与党",
       "reading": "ヨトウ",
-      "reference": 1164
+      "reference": 1164,
+      "meaning": "partia rządząca"
     },
     {
       "kanji": "贈与",
       "reading": "ゾウヨ",
-      "reference": 1294
+      "reference": 1294,
+      "meaning": "darowizna"
     },
     {
       "kanji": "贈与者",
       "reading": "ゾウヨシャ",
-      "reference": 1294
+      "reference": 1294,
+      "meaning": "darczyńca"
     }
   ],
   "additionalWords": []

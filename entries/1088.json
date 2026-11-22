@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "狂う",
-      "reading": "くるう"
+      "reading": "くるう",
+      "meaning": "oszaleć; rozregulować się"
     },
     {
       "kanji": "狂気",
-      "reading": "キョウキ"
+      "reading": "キョウキ",
+      "meaning": "szaleństwo; obłęd"
     },
     {
       "kanji": "狂言",
-      "reading": "キョウゲン"
+      "reading": "キョウゲン",
+      "meaning": "kyōgen (tradycyjna farsa japońska)"
     }
   ],
   "wordsRequiredLater": [],

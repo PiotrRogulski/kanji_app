@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "妨げる",
-      "reading": "さまたげる"
+      "reading": "さまたげる",
+      "meaning": "przeszkadzać; utrudniać"
     },
     {
       "kanji": "妨げ",
-      "reading": "さまたげ"
+      "reading": "さまたげ",
+      "meaning": "przeszkoda"
     },
     {
       "kanji": "妨害",
-      "reading": "ボウガイ"
+      "reading": "ボウガイ",
+      "meaning": "zakłócanie; utrudnianie; sabotaż"
     }
   ],
   "wordsRequiredLater": [],

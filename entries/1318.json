@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "銭",
-      "reading": "セン"
+      "reading": "セン",
+      "meaning": "sen (1/100 jena)"
     },
     {
       "kanji": "銭湯",
-      "reading": "セントウ"
+      "reading": "セントウ",
+      "meaning": "łaźnia publiczna"
     },
     {
       "kanji": "小銭",
-      "reading": "こぜに"
+      "reading": "こぜに",
+      "meaning": "drobne (pieniądze)"
     }
   ],
   "wordsRequiredLater": [],

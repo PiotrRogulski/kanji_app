@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "菊",
-      "reading": "キク"
+      "reading": "キク",
+      "meaning": "chryzantema"
     },
     {
       "kanji": "菊花",
-      "reading": "キッカ"
+      "reading": "キッカ",
+      "meaning": "kwiat chryzantemy"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "菊花紋章",
-      "reading": "キクカモンショウ"
+      "reading": "キクカモンショウ",
+      "meaning": "herb chryzantemy (godło cesarskie)"
     }
   ]
 }

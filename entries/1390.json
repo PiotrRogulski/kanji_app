@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "鎖",
-      "reading": "くさり"
+      "reading": "くさり",
+      "meaning": "łańcuch"
     },
     {
       "kanji": "鎖国",
-      "reading": "サコク"
+      "reading": "サコク",
+      "meaning": "izolacja kraju (sakoku)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "封鎖",
       "reading": "フウサ",
-      "reference": 1395
+      "reference": 1395,
+      "meaning": "blokada"
     }
   ],
   "additionalWords": []

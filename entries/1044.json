@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "狭い",
-      "reading": "せまい"
+      "reading": "せまい",
+      "meaning": "wąski; ciasny"
     },
     {
       "kanji": "狭める",
-      "reading": "せばめる"
+      "reading": "せばめる",
+      "meaning": "zwężać"
     },
     {
       "kanji": "狭まる",
-      "reading": "せばまる"
+      "reading": "せばまる",
+      "meaning": "zwężać się"
     },
     {
       "kanji": "偏狭",
-      "reading": "ヘンキョウ"
+      "reading": "ヘンキョウ",
+      "meaning": "ciasnota poglądów; nietolerancja"
     }
   ],
   "wordsRequiredLater": [],

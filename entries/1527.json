@@ -11,19 +11,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "悔やむ",
-      "reading": "くやむ"
+      "reading": "くやむ",
+      "meaning": "żałować; opłakiwać"
     },
     {
       "kanji": "悔しい",
-      "reading": "くやしい"
+      "reading": "くやしい",
+      "meaning": "sfrustrowany; rozżalony (np. po porażce); przykry"
     },
     {
       "kanji": "悔み",
-      "reading": "くやみ"
+      "reading": "くやみ",
+      "meaning": "kondolencje; żal"
     },
     {
       "kanji": "後悔",
-      "reading": "コウカイ"
+      "reading": "コウカイ",
+      "meaning": "żal; skrucha (po fakcie)"
     }
   ],
   "wordsRequiredLater": [],

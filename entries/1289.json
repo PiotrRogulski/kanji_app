@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "誘う",
-      "reading": "さそう"
+      "reading": "さそう",
+      "meaning": "zapraszać; namawiać; kusić"
     },
     {
       "kanji": "誘惑",
-      "reading": "ユウワク"
+      "reading": "ユウワク",
+      "meaning": "pokusa; kuszenie"
     },
     {
       "kanji": "誘導",
-      "reading": "ユウドウ"
+      "reading": "ユウドウ",
+      "meaning": "prowadzenie; zachęta"
     }
   ],
   "wordsRequiredLater": [],

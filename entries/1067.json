@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "停止",
-      "reading": "テイシ"
+      "reading": "テイシ",
+      "meaning": "zatrzymanie; wstrzymanie"
     },
     {
       "kanji": "停車",
-      "reading": "テイシャ"
+      "reading": "テイシャ",
+      "meaning": "zatrzymanie się (pojazdu); postój"
     },
     {
       "kanji": "停電",
-      "reading": "テイデン"
+      "reading": "テイデン",
+      "meaning": "przerwa w dostawie prądu"
     },
     {
       "kanji": "停留所",
-      "reading": "テイリュウジョ"
+      "reading": "テイリュウジョ",
+      "meaning": "przystanek"
     }
   ],
   "wordsRequiredLater": [],

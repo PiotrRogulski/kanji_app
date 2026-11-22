@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "襲う",
-      "reading": "おそう"
+      "reading": "おそう",
+      "meaning": "atakować; napadać"
     },
     {
       "kanji": "襲撃",
-      "reading": "シュウゲキ"
+      "reading": "シュウゲキ",
+      "meaning": "atak (nagły)"
     }
   ],
   "wordsRequiredLater": [],

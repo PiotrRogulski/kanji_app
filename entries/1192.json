@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "討つ",
-      "reading": "うつ"
+      "reading": "うつ",
+      "meaning": "pokonać; zabić (wroga); zaatakować"
     },
     {
       "kanji": "討論",
-      "reading": "トウロン"
+      "reading": "トウロン",
+      "meaning": "debata; dyskusja"
     },
     {
       "kanji": "検討",
-      "reading": "ケントウ"
+      "reading": "ケントウ",
+      "meaning": "rozważenie; przeanalizowanie"
     }
   ],
   "wordsRequiredLater": [],

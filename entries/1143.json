@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "冠",
-      "reading": "かんむり"
+      "reading": "かんむり",
+      "meaning": "korona; wieniec"
     },
     {
       "kanji": "栄冠",
-      "reading": "エイカン"
+      "reading": "エイカン",
+      "meaning": "laur; wieniec zwycięstwa"
     },
     {
       "kanji": "王冠",
-      "reading": "オウカン"
+      "reading": "オウカン",
+      "meaning": "korona (królewska)"
     }
   ],
   "wordsRequiredLater": [],

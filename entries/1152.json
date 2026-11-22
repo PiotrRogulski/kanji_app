@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "恒久",
-      "reading": "コウキュウ"
+      "reading": "コウキュウ",
+      "meaning": "trwałość; wieczność"
     },
     {
       "kanji": "恒常的",
-      "reading": "コウジョウテキ"
+      "reading": "コウジョウテキ",
+      "meaning": "stały; trwały"
     }
   ],
   "wordsRequiredLater": [],

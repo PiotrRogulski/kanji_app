@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "慰める",
-      "reading": "なぐさめる"
+      "reading": "なぐさめる",
+      "meaning": "pocieszać"
     },
     {
       "kanji": "慰問",
-      "reading": "イモン"
+      "reading": "イモン",
+      "meaning": "odwiedziny dla wsparcia"
     }
   ],
   "wordsRequiredLater": [],

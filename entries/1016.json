@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "砕く",
-      "reading": "くだく"
+      "reading": "くだく",
+      "meaning": "kruszyć; rozbijać"
     },
     {
       "kanji": "砕ける",
-      "reading": "くだける"
+      "reading": "くだける",
+      "meaning": "kruszyć się; rozbijać się"
     }
   ],
   "wordsRequiredLater": [],

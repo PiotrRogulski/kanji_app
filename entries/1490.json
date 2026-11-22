@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿匹",
-      "reading": "ヒキ"
+      "reading": "ヒキ",
+      "meaning": "… sztuk (klasyfikator małych zwierząt)"
     },
     {
       "kanji": "匹敵する",
-      "reading": "ヒッテキ"
+      "reading": "ヒッテキ",
+      "meaning": "dorównywać"
     }
   ],
   "wordsRequiredLater": [],

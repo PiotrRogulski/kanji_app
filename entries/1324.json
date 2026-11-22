@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "孝行",
-      "reading": "コウコウ"
+      "reading": "コウコウ",
+      "meaning": "synowskie oddanie; troska o rodziców"
     },
     {
       "kanji": "不孝",
-      "reading": "フコウ"
+      "reading": "フコウ",
+      "meaning": "brak szacunku dla rodziców; niewdzięczność wobec rodziców"
     }
   ],
   "wordsRequiredLater": [],

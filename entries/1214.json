@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "批判",
-      "reading": "ヒハン"
+      "reading": "ヒハン",
+      "meaning": "krytyka"
     },
     {
       "kanji": "批評",
-      "reading": "ヒヒョウ"
+      "reading": "ヒヒョウ",
+      "meaning": "krytyka (recenzja)"
     }
   ],
   "wordsRequiredLater": [],

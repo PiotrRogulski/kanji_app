@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "栽培",
-      "reading": "サイバイ"
+      "reading": "サイバイ",
+      "meaning": "uprawa (roślin)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "盆栽",
-      "reading": "ボンサイ"
+      "reading": "ボンサイ",
+      "meaning": "bonsai"
     }
   ]
 }

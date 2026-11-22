@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "輸出",
-      "reading": "ユシュツ"
+      "reading": "ユシュツ",
+      "meaning": "eksport"
     },
     {
       "kanji": "輸入",
-      "reading": "ユニュウ"
+      "reading": "ユニュウ",
+      "meaning": "import"
     },
     {
       "kanji": "輸送",
-      "reading": "ユソウ"
+      "reading": "ユソウ",
+      "meaning": "transport; przewóz"
     },
     {
       "kanji": "輸血",
-      "reading": "ユケツ"
+      "reading": "ユケツ",
+      "meaning": "transfuzja krwi"
     }
   ],
   "wordsRequiredLater": [],

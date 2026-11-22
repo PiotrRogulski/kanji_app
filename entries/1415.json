@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "賢い",
-      "reading": "かしこい"
+      "reading": "かしこい",
+      "meaning": "mądry; bystry"
     },
     {
       "kanji": "賢明な",
-      "reading": "ケンメイ"
+      "reading": "ケンメイ",
+      "meaning": "mądry; rozsądny"
     },
     {
       "kanji": "賢者",
-      "reading": "ケンジャ"
+      "reading": "ケンジャ",
+      "meaning": "mędrzec"
     }
   ],
   "wordsRequiredLater": [],

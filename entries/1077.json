@@ -9,23 +9,27 @@
   "wordsRequiredNow": [
     {
       "kanji": "干す",
-      "reading": "ほす"
+      "reading": "ほす",
+      "meaning": "suszyć (na powietrzu)"
     },
     {
       "kanji": "若干",
-      "reading": "ジャッカン"
+      "reading": "ジャッカン",
+      "meaning": "nieco; kilka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "干渉",
       "reading": "カンショウ",
-      "reference": 1201
+      "reference": 1201,
+      "meaning": "ingerencja; wtrącanie się"
     },
     {
       "kanji": "梅干し",
       "reading": "うめぼし",
-      "reference": 1350
+      "reference": 1350,
+      "meaning": "umeboshi (marynowane śliwki japońskie)"
     }
   ],
   "additionalWords": []

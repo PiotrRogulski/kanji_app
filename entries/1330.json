@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "鋼",
-      "reading": "はがね"
+      "reading": "はがね",
+      "meaning": "stal"
     },
     {
       "kanji": "鋼鉄",
-      "reading": "コウテツ"
+      "reading": "コウテツ",
+      "meaning": "stal"
     }
   ],
   "wordsRequiredLater": [],

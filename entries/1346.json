@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "文句",
-      "reading": "モンク"
+      "reading": "モンク",
+      "meaning": "skarga; narzekanie; fraza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "俳句",
       "reading": "ハイク",
-      "reference": 1441
+      "reference": 1441,
+      "meaning": "haiku"
     }
   ],
   "additionalWords": []

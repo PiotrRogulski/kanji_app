@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "手帳",
-      "reading": "てチョウ"
+      "reading": "てチョウ",
+      "meaning": "notes; terminarz"
     },
     {
       "kanji": "通帳",
-      "reading": "ツウチョウ"
+      "reading": "ツウチョウ",
+      "meaning": "książeczka bankowa"
     }
   ],
   "wordsRequiredLater": [],

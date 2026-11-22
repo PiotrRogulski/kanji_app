@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "年齢",
-      "reading": "ネンレイ"
+      "reading": "ネンレイ",
+      "meaning": "wiek"
     },
     {
       "kanji": "高齢化",
-      "reading": "コウレイカ"
+      "reading": "コウレイカ",
+      "meaning": "starzenie się społeczeństwa"
     }
   ],
   "wordsRequiredLater": [],

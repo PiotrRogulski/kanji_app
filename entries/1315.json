@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "甲板",
-      "reading": "カンパン"
+      "reading": "カンパン",
+      "meaning": "pokład (statku)"
     },
     {
       "kanji": "甲高い",
-      "reading": "カンだかい"
+      "reading": "カンだかい",
+      "meaning": "piskliwy; wysoki (o głosie)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,19 +7,22 @@
   "wordsRequiredNow": [
     {
       "kanji": "年賀状",
-      "reading": "ネンガジョウ"
+      "reading": "ネンガジョウ",
+      "meaning": "kartka noworoczna"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "謹賀新年",
       "reading": "キンガシンネン",
-      "reference": 1301
+      "reference": 1301,
+      "meaning": "Szczęśliwego Nowego Roku (formuła pisemna)"
     },
     {
       "kanji": "慶賀",
       "reading": "ケイガ",
-      "reference": 1397
+      "reference": 1397,
+      "meaning": "gratulacje; powinszowanie"
     }
   ],
   "additionalWords": []

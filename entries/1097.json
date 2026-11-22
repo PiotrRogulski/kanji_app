@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "飼う",
-      "reading": "かう"
+      "reading": "かう",
+      "meaning": "hodować; trzymać (zwierzę)"
     },
     {
       "kanji": "飼育",
-      "reading": "シイク"
+      "reading": "シイク",
+      "meaning": "hodowla"
     },
     {
       "kanji": "飼料",
-      "reading": "シリョウ"
+      "reading": "シリョウ",
+      "meaning": "pasza"
     }
   ],
   "wordsRequiredLater": [],

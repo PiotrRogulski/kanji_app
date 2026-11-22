@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "免れる",
-      "reading": "まぬかれる"
+      "reading": "まぬかれる",
+      "meaning": "uniknąć; ujść"
     },
     {
       "kanji": "免許",
-      "reading": "メンキョ"
+      "reading": "メンキョ",
+      "meaning": "licencja; prawo (np. jazdy)"
     },
     {
       "kanji": "免除",
-      "reading": "メンジョ"
+      "reading": "メンジョ",
+      "meaning": "zwolnienie (z obowiązku/opłaty)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "免税",
       "reading": "メンゼイ",
-      "reference": 1166
+      "reference": 1166,
+      "meaning": "zwolnienie z podatku; wolny od cła"
     }
   ],
   "additionalWords": []

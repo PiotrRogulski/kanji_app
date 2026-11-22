@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "索引",
-      "reading": "サクイン"
+      "reading": "サクイン",
+      "meaning": "indeks; skorowidz"
     },
     {
       "kanji": "検索",
-      "reading": "ケンサク"
+      "reading": "ケンサク",
+      "meaning": "wyszukiwanie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "捜索",
       "reading": "ソウサク",
-      "reference": 1358
+      "reference": 1358,
+      "meaning": "poszukiwania; przeszukanie"
     }
   ],
   "additionalWords": []

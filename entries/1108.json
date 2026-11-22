@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "改善",
-      "reading": "カイゼン"
+      "reading": "カイゼン",
+      "meaning": "ulepszenie"
     },
     {
       "kanji": "善悪",
-      "reading": "ゼンアク"
+      "reading": "ゼンアク",
+      "meaning": "dobro i zło"
     },
     {
       "kanji": "善良",
-      "reading": "ゼンリョウ"
+      "reading": "ゼンリョウ",
+      "meaning": "dobry; poczciwy"
     }
   ],
   "wordsRequiredLater": [],

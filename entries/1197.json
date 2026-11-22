@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "城",
-      "reading": "しろ"
+      "reading": "しろ",
+      "meaning": "zamek"
     },
     {
       "kanji": "＿城",
-      "reading": "ジョウ"
+      "reading": "ジョウ",
+      "meaning": "zamek … (sufiks)"
     },
     {
       "kanji": "城下町",
-      "reading": "ジョウカまち"
+      "reading": "ジョウカまち",
+      "meaning": "miasto przyzamkowe"
     },
     {
       "kanji": "大阪城",
-      "reading": "おおさかジョウ"
+      "reading": "おおさかジョウ",
+      "meaning": "zamek w Osace"
     },
     {
       "kanji": "王城",
-      "reading": "オウジョウ"
+      "reading": "オウジョウ",
+      "meaning": "zamek królewski"
     }
   ],
   "wordsRequiredLater": [],

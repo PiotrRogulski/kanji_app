@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "稲",
-      "reading": "いね"
+      "reading": "いね",
+      "meaning": "ryż (roślina)"
     },
     {
       "kanji": "稲作",
-      "reading": "いなサク"
+      "reading": "いなサク",
+      "meaning": "uprawa ryżu"
     },
     {
       "kanji": "稲妻",
-      "reading": "いなずま"
+      "reading": "いなずま",
+      "meaning": "błyskawica"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "稲穂",
       "reading": "いなほ",
-      "reference": 1450
+      "reference": 1450,
+      "meaning": "kłos ryżu"
     }
   ],
   "additionalWords": []

@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "銘",
-      "reading": "めい"
+      "reading": "めい",
+      "meaning": "napis; sygnatura; inskrypcja"
     },
     {
       "kanji": "銘柄",
-      "reading": "メイがら"
+      "reading": "メイがら",
+      "meaning": "marka; walor (giełdowy)"
     },
     {
       "kanji": "銘々",
-      "reading": "メイメイ"
+      "reading": "メイメイ",
+      "meaning": "każdy z osobna; poszczególni"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "碑銘",
       "reading": "ヒメイ",
-      "reference": 1632
+      "reference": 1632,
+      "meaning": "inskrypcja (na pomniku); epitafium"
     }
   ],
   "additionalWords": []

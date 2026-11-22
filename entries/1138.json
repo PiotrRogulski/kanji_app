@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "誤る",
-      "reading": "あやまる"
+      "reading": "あやまる",
+      "meaning": "mylić się; popełniać błąd"
     },
     {
       "kanji": "誤り",
-      "reading": "あやまり"
+      "reading": "あやまり",
+      "meaning": "błąd; pomyłka"
     },
     {
       "kanji": "誤解",
-      "reading": "ゴカイ"
+      "reading": "ゴカイ",
+      "meaning": "nieporozumienie"
     },
     {
       "kanji": "誤差",
-      "reading": "ゴサ"
+      "reading": "ゴサ",
+      "meaning": "błąd (pomiaru); odchyłka"
     }
   ],
   "wordsRequiredLater": [],

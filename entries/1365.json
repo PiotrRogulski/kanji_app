@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "貢献",
-      "reading": "コウケン"
+      "reading": "コウケン",
+      "meaning": "wkład; przyczynienie się"
     },
     {
       "kanji": "年貢",
-      "reading": "ネング"
+      "reading": "ネング",
+      "meaning": "coroczna danina (podatek gruntowy)"
     }
   ],
   "wordsRequiredLater": [],

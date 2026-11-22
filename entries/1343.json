@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "誠",
-      "reading": "まこと"
+      "reading": "まこと",
+      "meaning": "szczerość; prawda"
     },
     {
       "kanji": "誠実",
-      "reading": "セイジツ"
+      "reading": "セイジツ",
+      "meaning": "szczerość; uczciwość"
     },
     {
       "kanji": "忠誠",
-      "reading": "チュウセイ"
+      "reading": "チュウセイ",
+      "meaning": "lojalność; wierność"
     }
   ],
   "wordsRequiredLater": [],

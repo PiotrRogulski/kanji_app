@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "絡む",
-      "reading": "からむ"
+      "reading": "からむ",
+      "meaning": "oplatać się; wplątywać się; czepiać się"
     },
     {
       "kanji": "絡まる",
-      "reading": "からまる"
+      "reading": "からまる",
+      "meaning": "plątać się; oplątywać się"
     },
     {
       "kanji": "連絡",
-      "reading": "レンラク"
+      "reading": "レンラク",
+      "meaning": "kontakt"
     },
     {
       "kanji": "連絡船",
-      "reading": "レンラクセン"
+      "reading": "レンラクセン",
+      "meaning": "statek połączeniowy; prom"
     }
   ],
   "wordsRequiredLater": [],

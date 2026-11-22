@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "顧みる",
-      "reading": "かえりみる"
+      "reading": "かえりみる",
+      "meaning": "oglądać się wstecz; rozpamiętywać; zważać na"
     },
     {
       "kanji": "顧問",
-      "reading": "コモン"
+      "reading": "コモン",
+      "meaning": "doradca; konsultant"
     },
     {
       "kanji": "顧客",
-      "reading": "コキャク"
+      "reading": "コキャク",
+      "meaning": "klient; kontrahent"
     }
   ],
   "wordsRequiredLater": [],

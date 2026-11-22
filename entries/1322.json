@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "沿う",
-      "reading": "そう"
+      "reading": "そう",
+      "meaning": "biec wzdłuż; być zgodnym z"
     },
     {
       "kanji": "沿岸",
-      "reading": "エンガン"
+      "reading": "エンガン",
+      "meaning": "wybrzeże; pas przybrzeżny"
     },
     {
       "kanji": "川沿い",
-      "reading": "かわぞい"
+      "reading": "かわぞい",
+      "meaning": "wzdłuż rzeki; nad rzeką"
     }
   ],
   "wordsRequiredLater": [],

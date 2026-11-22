@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "堅い",
-      "reading": "かたい"
+      "reading": "かたい",
+      "meaning": "twardy; solidny; mocny"
     },
     {
       "kanji": "堅実な",
-      "reading": "ケンジツ"
+      "reading": "ケンジツ",
+      "meaning": "solidny; rzetelny; rozważny"
     },
     {
       "kanji": "堅固な",
-      "reading": "ケンゴ"
+      "reading": "ケンゴ",
+      "meaning": "mocny; solidny; niezłomny"
     }
   ],
   "wordsRequiredLater": [],

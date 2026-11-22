@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "掲げる",
-      "reading": "かかげる"
+      "reading": "かかげる",
+      "meaning": "wywieszać; podnosić (flagę); głosić"
     },
     {
       "kanji": "掲示",
-      "reading": "ケイジ"
+      "reading": "ケイジ",
+      "meaning": "ogłoszenie; wywieszka"
     },
     {
       "kanji": "掲載",
-      "reading": "ケイサイ"
+      "reading": "ケイサイ",
+      "meaning": "zamieszczenie; publikacja (w prasie)"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "梅",
-      "reading": "うめ"
+      "reading": "うめ",
+      "meaning": "śliwa japońska (morela japońska)"
     },
     {
       "kanji": "梅雨",
-      "reading": "つゆ／バイウ"
+      "reading": "つゆ／バイウ",
+      "meaning": "pora deszczowa (czerwiec–lipiec)"
     },
     {
       "kanji": "松竹梅",
-      "reading": "ショウチクバイ"
+      "reading": "ショウチクバイ",
+      "meaning": "sosna, bambus i śliwa (pomyślny symbol; trzy stopnie jakości)"
     },
     {
       "kanji": "梅干し",
-      "reading": "うめぼし"
+      "reading": "うめぼし",
+      "meaning": "umeboshi (marynowane śliwki japońskie)"
     },
     {
       "kanji": "梅酒",
-      "reading": "うめシュ"
+      "reading": "うめシュ",
+      "meaning": "likier śliwkowy (umeshu)"
     }
   ],
   "wordsRequiredLater": [],

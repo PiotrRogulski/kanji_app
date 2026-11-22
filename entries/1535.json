@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "塗る",
-      "reading": "ぬる"
+      "reading": "ぬる",
+      "meaning": "malować; smarować; powlekać"
     },
     {
       "kanji": "塗装",
-      "reading": "トソウ"
+      "reading": "トソウ",
+      "meaning": "malowanie (powierzchni); powłoka"
     },
     {
       "kanji": "塗料",
-      "reading": "トリョウ"
+      "reading": "トリョウ",
+      "meaning": "farba; lakier"
     }
   ],
   "wordsRequiredLater": [],

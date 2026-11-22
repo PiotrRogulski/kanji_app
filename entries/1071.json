@@ -8,39 +8,48 @@
   "wordsRequiredNow": [
     {
       "kanji": "保つ",
-      "reading": "たもつ"
+      "reading": "たもつ",
+      "meaning": "utrzymywać; zachowywać"
     },
     {
       "kanji": "保証",
-      "reading": "ホショウ"
+      "reading": "ホショウ",
+      "meaning": "gwarancja; poręczenie"
     },
     {
       "kanji": "保存",
-      "reading": "ホゾン"
+      "reading": "ホゾン",
+      "meaning": "zachowanie; konserwacja; zapisanie (pliku)"
     },
     {
       "kanji": "保存料",
-      "reading": "ホゾンリョウ"
+      "reading": "ホゾンリョウ",
+      "meaning": "konserwant"
     },
     {
       "kanji": "保険",
-      "reading": "ホケン"
+      "reading": "ホケン",
+      "meaning": "ubezpieczenie"
     },
     {
       "kanji": "確保",
-      "reading": "カクホ"
+      "reading": "カクホ",
+      "meaning": "zapewnienie"
     },
     {
       "kanji": "保健",
-      "reading": "ホケン"
+      "reading": "ホケン",
+      "meaning": "ochrona zdrowia; higiena"
     },
     {
       "kanji": "保健所",
-      "reading": "ホケンショ"
+      "reading": "ホケンショ",
+      "meaning": "ośrodek zdrowia publicznego (sanepid)"
     },
     {
       "kanji": "保護",
-      "reading": "ホゴ"
+      "reading": "ホゴ",
+      "meaning": "ochrona"
     }
   ],
   "wordsRequiredLater": [],

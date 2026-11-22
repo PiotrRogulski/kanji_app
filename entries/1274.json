@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "鈴",
-      "reading": "すず"
+      "reading": "すず",
+      "meaning": "dzwoneczek"
     },
     {
       "kanji": "風鈴",
-      "reading": "フウリン"
+      "reading": "フウリン",
+      "meaning": "dzwonek wietrzny (fūrin)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "鈴木さん",
-      "reading": "すずき"
+      "reading": "すずき",
+      "meaning": "pan/pani Suzuki"
     }
   ]
 }

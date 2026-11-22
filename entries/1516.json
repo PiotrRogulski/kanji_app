@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "訂正",
-      "reading": "テイセイ"
+      "reading": "テイセイ",
+      "meaning": "korekta; sprostowanie"
     },
     {
       "kanji": "改訂",
-      "reading": "カイテイ"
+      "reading": "カイテイ",
+      "meaning": "korekta"
     }
   ],
   "wordsRequiredLater": [],

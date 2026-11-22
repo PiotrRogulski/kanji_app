@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "掘る",
-      "reading": "ほる"
+      "reading": "ほる",
+      "meaning": "kopać"
     },
     {
       "kanji": "発掘",
-      "reading": "ハックツ"
+      "reading": "ハックツ",
+      "meaning": "wykopaliska; odkopanie"
     }
   ],
   "wordsRequiredLater": [],

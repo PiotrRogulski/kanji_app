@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "歓迎",
-      "reading": "カンゲイ"
+      "reading": "カンゲイ",
+      "meaning": "powitanie; serdeczne przyjęcie"
     },
     {
       "kanji": "歓迎会",
-      "reading": "カンゲイカイ"
+      "reading": "カンゲイカイ",
+      "meaning": "przyjęcie powitalne"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "臣下",
-      "reading": "シンカ"
+      "reading": "シンカ",
+      "meaning": "wasal; poddany"
     },
     {
       "kanji": "大臣",
-      "reading": "ダイジン"
+      "reading": "ダイジン",
+      "meaning": "minister"
     },
     {
       "kanji": "家臣",
-      "reading": "カシン"
+      "reading": "カシン",
+      "meaning": "wasal; sługa (rodu)"
     },
     {
       "kanji": "総理大臣",
-      "reading": "ソウリダイジン"
+      "reading": "ソウリダイジン",
+      "meaning": "premier"
     }
   ],
   "wordsRequiredLater": [],

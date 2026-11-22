@@ -11,23 +11,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "従う",
-      "reading": "したがう"
+      "reading": "したがう",
+      "meaning": "słuchać; podporządkować się; stosować się"
     },
     {
       "kanji": "従って",
-      "reading": "したがって"
+      "reading": "したがって",
+      "meaning": "w związku z tym; zatem"
     },
     {
       "kanji": "従事する",
-      "reading": "ジュウジ"
+      "reading": "ジュウジ",
+      "meaning": "zajmować się (czymś); pracować w"
     },
     {
       "kanji": "従来",
-      "reading": "ジュウライ"
+      "reading": "ジュウライ",
+      "meaning": "dotychczas; tradycyjnie"
     },
     {
       "kanji": "従属",
-      "reading": "ジュウゾク"
+      "reading": "ジュウゾク",
+      "meaning": "podporządkowanie"
     }
   ],
   "wordsRequiredLater": [],

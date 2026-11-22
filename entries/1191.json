@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "署名",
-      "reading": "ショメイ"
+      "reading": "ショメイ",
+      "meaning": "podpis"
     },
     {
       "kanji": "警察署",
-      "reading": "ケイサツショ"
+      "reading": "ケイサツショ",
+      "meaning": "komisariat policji"
     },
     {
       "kanji": "消防署",
-      "reading": "ショウボウショ"
+      "reading": "ショウボウショ",
+      "meaning": "remiza strażacka; jednostka straży pożarnej"
     }
   ],
   "wordsRequiredLater": [],

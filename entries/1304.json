@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "奪う",
-      "reading": "うばう"
+      "reading": "うばう",
+      "meaning": "odbierać siłą; rabować; pozbawiać"
     },
     {
       "kanji": "奪取",
-      "reading": "ダッシュ"
+      "reading": "ダッシュ",
+      "meaning": "zdobycie; przejęcie siłą; zajęcie"
     },
     {
       "kanji": "争奪",
-      "reading": "ソウダツ"
+      "reading": "ソウダツ",
+      "meaning": "walka o (zdobycie)"
     }
   ],
   "wordsRequiredLater": [],

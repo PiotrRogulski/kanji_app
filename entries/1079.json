@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "大腸",
-      "reading": "ダイチョウ"
+      "reading": "ダイチョウ",
+      "meaning": "jelito grube"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "胃腸",
       "reading": "イチョウ",
-      "reference": 1080
+      "reference": 1080,
+      "meaning": "żołądek i jelita"
     }
   ],
   "additionalWords": []

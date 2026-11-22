@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "監視",
-      "reading": "カンシ"
+      "reading": "カンシ",
+      "meaning": "nadzór; monitoring; obserwacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "監督",
       "reading": "カントク",
-      "reference": 1182
+      "reference": 1182,
+      "meaning": "reżyser; trener; nadzór"
     }
   ],
   "additionalWords": []

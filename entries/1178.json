@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "補佐",
-      "reading": "ホサ"
+      "reading": "ホサ",
+      "meaning": "asysta; pomoc"
     },
     {
       "kanji": "補佐官",
-      "reading": "ホサカン"
+      "reading": "ホサカン",
+      "meaning": "asystent; doradca"
     }
   ],
   "wordsRequiredLater": [],

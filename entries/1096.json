@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "枝",
-      "reading": "えだ"
+      "reading": "えだ",
+      "meaning": "gałąź"
     },
     {
       "kanji": "枝豆",
-      "reading": "えだまめ"
+      "reading": "えだまめ",
+      "meaning": "edamame (zielona soja w strąkach)"
     }
   ],
   "wordsRequiredLater": [],

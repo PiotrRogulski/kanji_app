@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "粉",
-      "reading": "こな"
+      "reading": "こな",
+      "meaning": "proszek; mąka"
     },
     {
       "kanji": "花粉",
-      "reading": "カフン"
+      "reading": "カフン",
+      "meaning": "pyłek (kwiatowy)"
     },
     {
       "kanji": "花粉症",
-      "reading": "カフンショウ"
+      "reading": "カフンショウ",
+      "meaning": "alergia na pyłki; katar sienny"
     },
     {
       "kanji": "小麦粉",
-      "reading": "こむぎこ"
+      "reading": "こむぎこ",
+      "meaning": "mąka pszenna"
     }
   ],
   "wordsRequiredLater": [],

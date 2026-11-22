@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "雄",
-      "reading": "おす"
+      "reading": "おす",
+      "meaning": "samiec"
     },
     {
       "kanji": "雄大な",
-      "reading": "ユウダイ"
+      "reading": "ユウダイ",
+      "meaning": "majestatyczny; wspaniały"
     },
     {
       "kanji": "英雄",
-      "reading": "エイユウ"
+      "reading": "エイユウ",
+      "meaning": "bohater"
     }
   ],
   "wordsRequiredLater": [],

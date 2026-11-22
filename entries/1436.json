@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "縁",
-      "reading": "エン"
+      "reading": "エン",
+      "meaning": "więź; związek; przeznaczenie"
     },
     {
       "kanji": "縁結び",
-      "reading": "エンむすび"
+      "reading": "エンむすび",
+      "meaning": "swatanie; łączenie par; zawarcie małżeństwa"
     },
     {
       "kanji": "縁談",
-      "reading": "エンダン"
+      "reading": "エンダン",
+      "meaning": "propozycja małżeństwa; swaty"
     },
     {
       "kanji": "血縁",
-      "reading": "ケツエン"
+      "reading": "ケツエン",
+      "meaning": "pokrewieństwo; więzy krwi"
     }
   ],
   "wordsRequiredLater": [],

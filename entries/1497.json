@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "鑑賞",
-      "reading": "カンショウ"
+      "reading": "カンショウ",
+      "meaning": "aprecjacja"
     },
     {
       "kanji": "鑑定",
-      "reading": "カンテイ"
+      "reading": "カンテイ",
+      "meaning": "ekspertyza; wycena"
     }
   ],
   "wordsRequiredLater": [],

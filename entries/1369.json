@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "歯",
-      "reading": "は"
+      "reading": "は",
+      "meaning": "ząb"
     },
     {
       "kanji": "歯科",
-      "reading": "シカ"
+      "reading": "シカ",
+      "meaning": "stomatologia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "歯磨き",
       "reading": "はみがき",
-      "reference": 1495
+      "reference": 1495,
+      "meaning": "mycie zębów; pasta do zębów"
     }
   ],
   "additionalWords": []

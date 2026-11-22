@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "率",
-      "reading": "リツ"
+      "reading": "リツ",
+      "meaning": "współczynnik; stopa; odsetek"
     },
     {
       "kanji": "率直な",
-      "reading": "ソッチョク"
+      "reading": "ソッチョク",
+      "meaning": "szczery; bezpośredni"
     },
     {
       "kanji": "確率",
-      "reading": "カクリツ"
+      "reading": "カクリツ",
+      "meaning": "prawdopodobieństwo"
     }
   ],
   "wordsRequiredLater": [],

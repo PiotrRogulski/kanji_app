@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "傷",
-      "reading": "きず"
+      "reading": "きず",
+      "meaning": "rana; skaleczenie; rysa"
     },
     {
       "kanji": "重傷",
-      "reading": "ジュウショウ"
+      "reading": "ジュウショウ",
+      "meaning": "ciężka rana"
     }
   ],
   "wordsRequiredLater": [],

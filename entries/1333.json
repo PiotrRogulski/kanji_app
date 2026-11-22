@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "忠告",
-      "reading": "チュウコク"
+      "reading": "チュウコク",
+      "meaning": "rada"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "忠誠",
       "reading": "チュウセイ",
-      "reference": 1343
+      "reference": 1343,
+      "meaning": "lojalność; wierność"
     }
   ],
   "additionalWords": []

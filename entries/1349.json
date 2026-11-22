@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "綱",
-      "reading": "つな"
+      "reading": "つな",
+      "meaning": "lina"
     },
     {
       "kanji": "横綱",
-      "reading": "よこづな"
+      "reading": "よこづな",
+      "meaning": "yokozuna (wielki mistrz sumo)"
     }
   ],
   "wordsRequiredLater": [],

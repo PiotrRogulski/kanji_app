@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "救う",
-      "reading": "すくう"
+      "reading": "すくう",
+      "meaning": "ratować; zbawiać"
     },
     {
       "kanji": "救助",
-      "reading": "キュウジョ"
+      "reading": "キュウジョ",
+      "meaning": "ratunek; akcja ratunkowa"
     },
     {
       "kanji": "救急車",
-      "reading": "キュウキュウシャ"
+      "reading": "キュウキュウシャ",
+      "meaning": "karetka pogotowia"
     }
   ],
   "wordsRequiredLater": [],

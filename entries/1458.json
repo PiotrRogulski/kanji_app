@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "聖＿",
-      "reading": "セイ"
+      "reading": "セイ",
+      "meaning": "święty … (prefiks)"
     },
     {
       "kanji": "聖書",
-      "reading": "セイショ"
+      "reading": "セイショ",
+      "meaning": "Biblia; Pismo Święte"
     },
     {
       "kanji": "聖人",
-      "reading": "セイジン"
+      "reading": "セイジン",
+      "meaning": "święty; mędrzec"
     },
     {
       "kanji": "聖母マリア",
-      "reading": "セイボ"
+      "reading": "セイボ",
+      "meaning": "Najświętsza Maryja Panna; Matka Boska"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "聖フランシスコ・ザビエル",
-      "reading": null
+      "reading": null,
+      "meaning": "św. Franciszek Ksawery"
     }
   ]
 }

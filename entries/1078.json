@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "空欄",
-      "reading": "クウラン"
+      "reading": "クウラン",
+      "meaning": "puste pole; rubryka do wypełnienia"
     },
     {
       "kanji": "欄間",
-      "reading": "ランマ"
+      "reading": "ランマ",
+      "meaning": "ranma (ażurowy panel nad drzwiami przesuwnymi)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "解釈",
-      "reading": "カイシャク"
+      "reading": "カイシャク",
+      "meaning": "interpretacja"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "釈迦",
-      "reading": "シャカ"
+      "reading": "シャカ",
+      "meaning": "Budda Siakjamuni"
     }
   ]
 }

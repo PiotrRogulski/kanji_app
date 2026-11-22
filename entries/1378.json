@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "抵抗",
-      "reading": "テイコウ"
+      "reading": "テイコウ",
+      "meaning": "opór; rezystancja"
     },
     {
       "kanji": "大抵",
-      "reading": "タイテイ"
+      "reading": "タイテイ",
+      "meaning": "zazwyczaj; przeważnie"
     }
   ],
   "wordsRequiredLater": [],

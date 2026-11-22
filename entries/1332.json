@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "携わる",
-      "reading": "たずさわる"
+      "reading": "たずさわる",
+      "meaning": "zajmować się; brać udział w"
     },
     {
       "kanji": "携帯（電話）",
-      "reading": "ケイタイ（デンワ）"
+      "reading": "ケイタイ（デンワ）",
+      "meaning": "telefon komórkowy"
     }
   ],
   "wordsRequiredLater": [],

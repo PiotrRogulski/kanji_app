@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "麻",
-      "reading": "あさ"
+      "reading": "あさ",
+      "meaning": "konopie; len"
     },
     {
       "kanji": "麻薬",
-      "reading": "マヤク"
+      "reading": "マヤク",
+      "meaning": "narkotyk"
     }
   ],
   "wordsRequiredLater": [],

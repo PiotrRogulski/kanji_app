@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "疑う",
-      "reading": "うたがう"
+      "reading": "うたがう",
+      "meaning": "wątpić; podejrzewać"
     },
     {
       "kanji": "疑わしい",
-      "reading": "うたがわしい"
+      "reading": "うたがわしい",
+      "meaning": "wątpliwy; podejrzany"
     },
     {
       "kanji": "疑問",
-      "reading": "ギモン"
+      "reading": "ギモン",
+      "meaning": "wątpliwość"
     }
   ],
   "wordsRequiredLater": [],

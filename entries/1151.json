@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "直径",
-      "reading": "チョッケイ"
+      "reading": "チョッケイ",
+      "meaning": "średnica"
     },
     {
       "kanji": "半径",
-      "reading": "ハンケイ"
+      "reading": "ハンケイ",
+      "meaning": "promień (okręgu)"
     }
   ],
   "wordsRequiredLater": [],

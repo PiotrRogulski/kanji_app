@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "敷く",
-      "reading": "しく"
+      "reading": "しく",
+      "meaning": "rozkładać; rozściełać; układać"
     },
     {
       "kanji": "敷設",
-      "reading": "フセツ"
+      "reading": "フセツ",
+      "meaning": "układanie (np. torów, kabli)"
     },
     {
       "kanji": "屋敷",
-      "reading": "やしき"
+      "reading": "やしき",
+      "meaning": "posiadłość; dwór"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "風呂敷",
-      "reading": "フロしき"
+      "reading": "フロしき",
+      "meaning": "furoshiki (chusta do pakowania)"
     }
   ]
 }

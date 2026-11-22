@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "魅力",
-      "reading": "ミリョク"
+      "reading": "ミリョク",
+      "meaning": "urok; atrakcyjność"
     },
     {
       "kanji": "魅惑",
-      "reading": "ミワク"
+      "reading": "ミワク",
+      "meaning": "urok; oczarowanie"
     }
   ],
   "wordsRequiredLater": [],

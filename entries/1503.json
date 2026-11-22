@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "髪",
-      "reading": "かみ"
+      "reading": "かみ",
+      "meaning": "włosy"
     },
     {
       "kanji": "髪の毛",
-      "reading": "かみのけ"
+      "reading": "かみのけ",
+      "meaning": "włos; włosy (na głowie)"
     },
     {
       "kanji": "金髪",
-      "reading": "キンパツ"
+      "reading": "キンパツ",
+      "meaning": "blond włosy"
     },
     {
       "kanji": "黒髪",
-      "reading": "くろかみ"
+      "reading": "くろかみ",
+      "meaning": "czarne włosy"
     }
   ],
   "wordsRequiredLater": [],

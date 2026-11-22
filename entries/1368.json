@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "贈賄",
-      "reading": "ゾウワイ"
+      "reading": "ゾウワイ",
+      "meaning": "wręczenie łapówki; przekupstwo"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "賄賂",
-      "reading": "ワイロ"
+      "reading": "ワイロ",
+      "meaning": "łapówka"
     }
   ]
 }

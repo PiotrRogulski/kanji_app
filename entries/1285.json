@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "盗む",
-      "reading": "ぬすむ"
+      "reading": "ぬすむ",
+      "meaning": "kraść"
     },
     {
       "kanji": "盗難",
-      "reading": "トウナン"
+      "reading": "トウナン",
+      "meaning": "kradzież"
     },
     {
       "kanji": "強盗",
-      "reading": "ゴウトウ"
+      "reading": "ゴウトウ",
+      "meaning": "rozbój; napad"
     }
   ],
   "wordsRequiredLater": [],

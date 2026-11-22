@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "損",
-      "reading": "ソン"
+      "reading": "ソン",
+      "meaning": "strata"
     },
     {
       "kanji": "損なう",
-      "reading": "そこなう"
+      "reading": "そこなう",
+      "meaning": "szkodzić; uszkadzać; psuć"
     },
     {
       "kanji": "損害",
-      "reading": "ソンガイ"
+      "reading": "ソンガイ",
+      "meaning": "szkoda; strata"
     }
   ],
   "wordsRequiredLater": [],

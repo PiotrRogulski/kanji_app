@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "仲",
-      "reading": "なか"
+      "reading": "なか",
+      "meaning": "relacje; stosunki (między ludźmi)"
     },
     {
       "kanji": "仲介",
-      "reading": "チュウカイ"
+      "reading": "チュウカイ",
+      "meaning": "pośrednictwo"
     },
     {
       "kanji": "仲間",
-      "reading": "なかま"
+      "reading": "なかま",
+      "meaning": "kolega; towarzysz; grupa"
     },
     {
       "kanji": "仲良し",
-      "reading": "なかよし"
+      "reading": "なかよし",
+      "meaning": "bliski przyjaciel; zażyłość"
     },
     {
       "kanji": "仲直り",
-      "reading": "なかなおり"
+      "reading": "なかなおり",
+      "meaning": "pogodzenie się"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "犬猿の仲",
       "reading": "ケンエンのなか",
-      "reference": 1005
+      "reference": 1005,
+      "meaning": "żyć jak pies z kotem (dosł. relacja psa i małpy)"
     }
   ],
   "additionalWords": []

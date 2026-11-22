@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "大吉",
-      "reading": "ダイキチ"
+      "reading": "ダイキチ",
+      "meaning": "wielkie szczęście (we wróżbie)"
     },
     {
       "kanji": "不吉",
-      "reading": "フキツ"
+      "reading": "フキツ",
+      "meaning": "zły omen; złowróżbny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "吉祥",
       "reading": "キッショウ",
-      "reference": 1518
+      "reference": 1518,
+      "meaning": "dobry omen; pomyślność"
     }
   ],
   "additionalWords": []

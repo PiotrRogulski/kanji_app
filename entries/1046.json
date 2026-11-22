@@ -11,15 +11,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "群れ",
-      "reading": "むれ"
+      "reading": "むれ",
+      "meaning": "stado; gromada"
     },
     {
       "kanji": "群衆",
-      "reading": "グンシュウ"
+      "reading": "グンシュウ",
+      "meaning": "tłum"
     },
     {
       "kanji": "大群",
-      "reading": "タイグン"
+      "reading": "タイグン",
+      "meaning": "wielkie stado; chmara"
     }
   ],
   "wordsRequiredLater": [],

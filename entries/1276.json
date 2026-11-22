@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "伴う",
-      "reading": "ともなう"
+      "reading": "ともなう",
+      "meaning": "towarzyszyć; pociągać za sobą"
     },
     {
       "kanji": "同伴する",
-      "reading": "ドウハン"
+      "reading": "ドウハン",
+      "meaning": "towarzyszyć (komuś)"
     }
   ],
   "wordsRequiredLater": [],

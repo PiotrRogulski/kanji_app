@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "頑固な",
-      "reading": "ガンコ"
+      "reading": "ガンコ",
+      "meaning": "uparty"
     },
     {
       "kanji": "頑張る",
-      "reading": "ガンばる"
+      "reading": "ガンばる",
+      "meaning": "starać się"
     }
   ],
   "wordsRequiredLater": [],

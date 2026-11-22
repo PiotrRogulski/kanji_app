@@ -11,18 +11,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "貴重な",
-      "reading": "キチョウ"
+      "reading": "キチョウ",
+      "meaning": "cenny; wartościowy"
     },
     {
       "kanji": "貴方",
-      "reading": "あなた"
+      "reading": "あなた",
+      "meaning": "ty; Pan/Pani"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "貴殿",
       "reading": "キデン",
-      "reference": 1334
+      "reference": 1334,
+      "meaning": "Szanowny Pan (w listach)"
     }
   ],
   "additionalWords": []

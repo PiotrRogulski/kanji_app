@@ -9,23 +9,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "境",
-      "reading": "さかい"
+      "reading": "さかい",
+      "meaning": "granica"
     },
     {
       "kanji": "国境",
-      "reading": "コッキョウ"
+      "reading": "コッキョウ",
+      "meaning": "granica państwowa"
     },
     {
       "kanji": "境界",
-      "reading": "キョウカイ"
+      "reading": "キョウカイ",
+      "meaning": "granica; rozgraniczenie"
     },
     {
       "kanji": "境内",
-      "reading": "ケイダイ"
+      "reading": "ケイダイ",
+      "meaning": "teren świątyni"
     },
     {
       "kanji": "環境",
-      "reading": "カンキョウ"
+      "reading": "カンキョウ",
+      "meaning": "środowisko; otoczenie"
     }
   ],
   "wordsRequiredLater": [],

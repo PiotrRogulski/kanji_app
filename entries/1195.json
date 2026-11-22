@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "旅券",
-      "reading": "リョケン"
+      "reading": "リョケン",
+      "meaning": "paszport"
     },
     {
       "kanji": "乗車券",
-      "reading": "ジョウシャケン"
+      "reading": "ジョウシャケン",
+      "meaning": "bilet (na przejazd)"
     },
     {
       "kanji": "食券",
-      "reading": "ショッケン"
+      "reading": "ショッケン",
+      "meaning": "bon na posiłek"
     }
   ],
   "wordsRequiredLater": [],

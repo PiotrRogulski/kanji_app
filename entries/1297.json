@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "薦める",
-      "reading": "すすめる"
+      "reading": "すすめる",
+      "meaning": "polecać; rekomendować"
     },
     {
       "kanji": "推薦",
-      "reading": "スイセン"
+      "reading": "スイセン",
+      "meaning": "rekomendacja; polecenie"
     },
     {
       "kanji": "推薦状",
-      "reading": "スイセンジョウ"
+      "reading": "スイセンジョウ",
+      "meaning": "list polecający"
     }
   ],
   "wordsRequiredLater": [],

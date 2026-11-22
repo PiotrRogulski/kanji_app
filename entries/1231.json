@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "帯",
-      "reading": "おび"
+      "reading": "おび",
+      "meaning": "obi (pas do kimona); pas"
     },
     {
       "kanji": "地帯",
-      "reading": "チタイ"
+      "reading": "チタイ",
+      "meaning": "strefa; pas (terenu)"
     },
     {
       "kanji": "連帯",
-      "reading": "レンタイ"
+      "reading": "レンタイ",
+      "meaning": "solidarność"
     },
     {
       "kanji": "世帯",
-      "reading": "セタイ"
+      "reading": "セタイ",
+      "meaning": "gospodarstwo domowe"
     },
     {
       "kanji": "包帯",
-      "reading": "ホウタイ"
+      "reading": "ホウタイ",
+      "meaning": "bandaż"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "携帯（電話）",
       "reading": "ケイタイ（デンワ）",
-      "reference": 1332
+      "reference": 1332,
+      "meaning": "telefon komórkowy"
     }
   ],
   "additionalWords": []

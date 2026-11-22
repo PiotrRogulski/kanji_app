@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "促す",
-      "reading": "うながす"
+      "reading": "うながす",
+      "meaning": "ponaglać; zachęcać; pobudzać"
     },
     {
       "kanji": "促進",
-      "reading": "ソクシン"
+      "reading": "ソクシン",
+      "meaning": "promowanie; przyspieszanie; wspieranie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "催促",
       "reading": "サイソク",
-      "reference": 1199
+      "reference": 1199,
+      "meaning": "ponaglenie; monit"
     }
   ],
   "additionalWords": []

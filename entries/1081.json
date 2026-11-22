@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "肝",
-      "reading": "きも"
+      "reading": "きも",
+      "meaning": "wątroba; odwaga"
     },
     {
       "kanji": "肝臓",
-      "reading": "カンゾウ"
+      "reading": "カンゾウ",
+      "meaning": "wątroba"
     },
     {
       "kanji": "肝要な",
-      "reading": "カンヨウ"
+      "reading": "カンヨウ",
+      "meaning": "kluczowy"
     },
     {
       "kanji": "肝心な",
-      "reading": "カンジン"
+      "reading": "カンジン",
+      "meaning": "kluczowy; najważniejszy"
     }
   ],
   "wordsRequiredLater": [],

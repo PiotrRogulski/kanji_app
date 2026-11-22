@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "微細な",
-      "reading": "ビサイ"
+      "reading": "ビサイ",
+      "meaning": "bardzo drobny; mikroskopijny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "微妙な",
       "reading": "ビミョウ",
-      "reference": 1037
+      "reference": 1037,
+      "meaning": "subtelny; delikatny; niejednoznaczny"
     }
   ],
   "additionalWords": []

@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "紅",
-      "reading": "べに／くれない"
+      "reading": "べに／くれない",
+      "meaning": "czerwień; szkarłat; róż (kosmetyk)"
     },
     {
       "kanji": "紅葉",
-      "reading": "コウヨウ／もみじ"
+      "reading": "コウヨウ／もみじ",
+      "meaning": "jesienne liście; klon (momiji)"
     },
     {
       "kanji": "紅茶",
-      "reading": "コウチャ"
+      "reading": "コウチャ",
+      "meaning": "czarna herbata"
     },
     {
       "kanji": "口紅",
-      "reading": "くちべに"
+      "reading": "くちべに",
+      "meaning": "szminka"
     }
   ],
   "wordsRequiredLater": [],

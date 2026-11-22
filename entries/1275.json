@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "秘める",
-      "reading": "ひめる"
+      "reading": "ひめる",
+      "meaning": "skrywać; taić"
     },
     {
       "kanji": "秘密",
-      "reading": "ヒミツ"
+      "reading": "ヒミツ",
+      "meaning": "tajemnica"
     },
     {
       "kanji": "秘書",
-      "reading": "ヒショ"
+      "reading": "ヒショ",
+      "meaning": "sekretarz; sekretarka"
     }
   ],
   "wordsRequiredLater": [],

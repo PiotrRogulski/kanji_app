@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "裕福な",
-      "reading": "ユウフク"
+      "reading": "ユウフク",
+      "meaning": "zamożny; bogaty"
     },
     {
       "kanji": "余裕",
-      "reading": "ヨユウ"
+      "reading": "ヨユウ",
+      "meaning": "swoboda"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "俵",
-      "reading": "たわら"
+      "reading": "たわら",
+      "meaning": "worek ze słomy ryżowej"
     },
     {
       "kanji": "土俵",
-      "reading": "ドヒョウ"
+      "reading": "ドヒョウ",
+      "meaning": "dohyō (ring sumo)"
     }
   ],
   "wordsRequiredLater": [],

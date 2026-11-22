@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "帝王",
-      "reading": "テイオウ"
+      "reading": "テイオウ",
+      "meaning": "monarcha; władca; cesarz"
     },
     {
       "kanji": "皇帝",
-      "reading": "コウテイ"
+      "reading": "コウテイ",
+      "meaning": "cesarz"
     },
     {
       "kanji": "帝国",
-      "reading": "テイコク"
+      "reading": "テイコク",
+      "meaning": "imperium; cesarstwo"
     },
     {
       "kanji": "女帝",
-      "reading": "ジョテイ"
+      "reading": "ジョテイ",
+      "meaning": "cesarzowa (panująca)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "銀河帝国",
-      "reading": "ギンガテイコク"
+      "reading": "ギンガテイコク",
+      "meaning": "Imperium Galaktyczne"
     }
   ]
 }

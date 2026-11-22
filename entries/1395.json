@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "封鎖",
-      "reading": "フウサ"
+      "reading": "フウサ",
+      "meaning": "blokada"
     },
     {
       "kanji": "封建",
-      "reading": "ホウケン"
+      "reading": "ホウケン",
+      "meaning": "feudalizm; feudalny"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "封筒",
       "reading": "フウトウ",
-      "reference": 1521
+      "reference": 1521,
+      "meaning": "koperta"
     }
   ],
   "additionalWords": []

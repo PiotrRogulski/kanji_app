@@ -10,11 +10,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "漏れる",
-      "reading": "もれる"
+      "reading": "もれる",
+      "meaning": "wyciekać; przeciekać; wyjść na jaw"
     },
     {
       "kanji": "漏らす",
-      "reading": "もらす"
+      "reading": "もらす",
+      "meaning": "wylać; ujawnić (tajemnicę); pominąć"
     }
   ],
   "wordsRequiredLater": [],

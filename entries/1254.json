@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "恵まれる",
-      "reading": "めぐまれる"
+      "reading": "めぐまれる",
+      "meaning": "być obdarzonym; mieć szczęście (do czegoś)"
     },
     {
       "kanji": "恩恵",
-      "reading": "オンケイ"
+      "reading": "オンケイ",
+      "meaning": "korzyść"
     },
     {
       "kanji": "知恵",
-      "reading": "チエ"
+      "reading": "チエ",
+      "meaning": "mądrość; rozum"
     }
   ],
   "wordsRequiredLater": [],

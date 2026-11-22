@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "磨く",
-      "reading": "みがく"
+      "reading": "みがく",
+      "meaning": "polerować; szczotkować; doskonalić"
     },
     {
       "kanji": "歯磨き",
-      "reading": "はみがき"
+      "reading": "はみがき",
+      "meaning": "mycie zębów; pasta do zębów"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "脳",
-      "reading": "ノウ"
+      "reading": "ノウ",
+      "meaning": "mózg"
     },
     {
       "kanji": "頭脳",
-      "reading": "ズノウ"
+      "reading": "ズノウ",
+      "meaning": "umysł"
     }
   ],
   "wordsRequiredLater": [],

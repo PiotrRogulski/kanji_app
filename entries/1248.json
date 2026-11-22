@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "載る",
-      "reading": "のる"
+      "reading": "のる",
+      "meaning": "być zamieszczonym (np. w gazecie); leżeć na"
     },
     {
       "kanji": "載せる",
-      "reading": "のせる"
+      "reading": "のせる",
+      "meaning": "zamieszczać; kłaść na; ładować"
     },
     {
       "kanji": "記載",
-      "reading": "キサイ"
+      "reading": "キサイ",
+      "meaning": "zapis; wzmianka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "掲載",
       "reading": "ケイサイ",
-      "reference": 1256
+      "reference": 1256,
+      "meaning": "zamieszczenie; publikacja (w prasie)"
     }
   ],
   "additionalWords": []

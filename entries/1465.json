@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "沈没",
-      "reading": "チンボツ"
+      "reading": "チンボツ",
+      "meaning": "zatonięcie"
     },
     {
       "kanji": "没収",
-      "reading": "ボッシュウ"
+      "reading": "ボッシュウ",
+      "meaning": "konfiskata; przepadek"
     },
     {
       "kanji": "没落",
-      "reading": "ボツラク"
+      "reading": "ボツラク",
+      "meaning": "upadek; ruina"
     },
     {
       "kanji": "没する",
-      "reading": "ボッする"
+      "reading": "ボッする",
+      "meaning": "zatonąć; zajść (o słońcu); umrzeć"
     }
   ],
   "wordsRequiredLater": [],

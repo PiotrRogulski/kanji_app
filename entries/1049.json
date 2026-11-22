@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "誇る",
-      "reading": "ほこる"
+      "reading": "ほこる",
+      "meaning": "szczycić się; być dumnym"
     },
     {
       "kanji": "誇り",
-      "reading": "ほこり"
+      "reading": "ほこり",
+      "meaning": "duma"
     },
     {
       "kanji": "誇示",
-      "reading": "コジ"
+      "reading": "コジ",
+      "meaning": "ostentacja; afiszowanie się"
     }
   ],
   "wordsRequiredLater": [],

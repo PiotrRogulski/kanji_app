@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "侵略",
-      "reading": "シンリャク"
+      "reading": "シンリャク",
+      "meaning": "inwazja; agresja"
     },
     {
       "kanji": "侵入",
-      "reading": "シンニュウ"
+      "reading": "シンニュウ",
+      "meaning": "wtargnięcie; włamanie"
     }
   ],
   "wordsRequiredLater": [],

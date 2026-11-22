@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "浸る",
-      "reading": "ひたる"
+      "reading": "ひたる",
+      "meaning": "być zanurzonym; pogrążać się (w czymś)"
     },
     {
       "kanji": "浸す",
-      "reading": "ひたす"
+      "reading": "ひたす",
+      "meaning": "zanurzać; moczyć"
     },
     {
       "kanji": "浸水",
-      "reading": "シンスイ"
+      "reading": "シンスイ",
+      "meaning": "zalanie; podtopienie"
     }
   ],
   "wordsRequiredLater": [],

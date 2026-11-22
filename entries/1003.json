@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "行為",
-      "reading": "コウイ"
+      "reading": "コウイ",
+      "meaning": "czyn; postępowanie"
     },
     {
       "kanji": "為替",
-      "reading": "かわせ"
+      "reading": "かわせ",
+      "meaning": "przekaz pieniężny; kurs wymiany walut"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "為",
-      "reading": "ため"
+      "reading": "ため",
+      "meaning": "dla; z powodu; w celu"
     }
   ]
 }

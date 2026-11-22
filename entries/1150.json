@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "巨大な",
-      "reading": "キョダイ"
+      "reading": "キョダイ",
+      "meaning": "ogromny; olbrzymi"
     },
     {
       "kanji": "巨人",
-      "reading": "キョジン"
+      "reading": "キョジン",
+      "meaning": "olbrzym; gigant"
     }
   ],
   "wordsRequiredLater": [],

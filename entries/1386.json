@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "権威",
-      "reading": "ケンイ"
+      "reading": "ケンイ",
+      "meaning": "autorytet"
     },
     {
       "kanji": "威張る",
-      "reading": "イばる"
+      "reading": "イばる",
+      "meaning": "być aroganckim"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "脅威",
       "reading": "キョウイ",
-      "reference": 1422
+      "reference": 1422,
+      "meaning": "zagrożenie; groźba"
     }
   ],
   "additionalWords": []

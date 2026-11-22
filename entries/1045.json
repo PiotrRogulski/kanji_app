@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "禁止",
-      "reading": "キンシ"
+      "reading": "キンシ",
+      "meaning": "zakaz"
     },
     {
       "kanji": "禁煙",
-      "reading": "キンエン"
+      "reading": "キンエン",
+      "meaning": "zakaz palenia"
     },
     {
       "kanji": "禁じる",
-      "reading": "キンじる"
+      "reading": "キンじる",
+      "meaning": "zakazywać"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "浴びる",
-      "reading": "あびる"
+      "reading": "あびる",
+      "meaning": "oblewać się; brać (prysznic); kąpać się w (np. słońcu)"
     },
     {
       "kanji": "浴室",
-      "reading": "ヨクシツ"
+      "reading": "ヨクシツ",
+      "meaning": "łazienka"
     },
     {
       "kanji": "入浴",
-      "reading": "ニュウヨク"
+      "reading": "ニュウヨク",
+      "meaning": "kąpiel"
     },
     {
       "kanji": "浴衣",
-      "reading": "ゆかた"
+      "reading": "ゆかた",
+      "meaning": "yukata (letnie kimono)"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "瀬戸",
-      "reading": "せと"
+      "reading": "せと",
+      "meaning": "cieśnina"
     },
     {
       "kanji": "瀬戸内海",
-      "reading": "せとナイカイ"
+      "reading": "せとナイカイ",
+      "meaning": "Morze Wewnętrzne (Seto)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "浅瀬",
       "reading": "あさせ",
-      "reference": 1385
+      "reference": 1385,
+      "meaning": "mielizna; płycizna"
     }
   ],
   "additionalWords": []

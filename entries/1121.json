@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "幅",
-      "reading": "はば"
+      "reading": "はば",
+      "meaning": "szerokość"
     },
     {
       "kanji": "一幅",
-      "reading": "イップク"
+      "reading": "イップク",
+      "meaning": "jeden zwój (obraz)"
     },
     {
       "kanji": "大幅",
-      "reading": "おおはば"
+      "reading": "おおはば",
+      "meaning": "znaczny; duży (o zmianie)"
     }
   ],
   "wordsRequiredLater": [],

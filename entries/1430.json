@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "恐竜",
-      "reading": "キョウリュウ"
+      "reading": "キョウリュウ",
+      "meaning": "dinozaur"
     },
     {
       "kanji": "竜巻",
-      "reading": "たつまき"
+      "reading": "たつまき",
+      "meaning": "trąba powietrzna"
     }
   ],
   "wordsRequiredLater": [],

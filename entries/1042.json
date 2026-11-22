@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "奥",
-      "reading": "おく"
+      "reading": "おく",
+      "meaning": "głąb; wnętrze"
     },
     {
       "kanji": "奥さん",
-      "reading": "おくさん"
+      "reading": "おくさん",
+      "meaning": "(czyjaś) żona"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "称する",
-      "reading": "ショウする"
+      "reading": "ショウする",
+      "meaning": "nazywać (się); podawać się za"
     },
     {
       "kanji": "名称",
-      "reading": "メイショウ"
+      "reading": "メイショウ",
+      "meaning": "nazwa"
     }
   ],
   "wordsRequiredLater": [],

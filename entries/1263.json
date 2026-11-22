@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "刊行",
-      "reading": "カンコウ"
+      "reading": "カンコウ",
+      "meaning": "wydanie; publikacja"
     },
     {
       "kanji": "朝刊",
-      "reading": "チョウカン"
+      "reading": "チョウカン",
+      "meaning": "wydanie poranne (gazety)"
     },
     {
       "kanji": "夕刊",
-      "reading": "ユウカン"
+      "reading": "ユウカン",
+      "meaning": "wydanie wieczorne (gazety)"
     }
   ],
   "wordsRequiredLater": [],

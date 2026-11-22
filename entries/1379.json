@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "一括",
-      "reading": "イッカツ"
+      "reading": "イッカツ",
+      "meaning": "zbiorczo; łącznie; jednorazowo"
     },
     {
       "kanji": "包括的",
-      "reading": "ホウカツテキ"
+      "reading": "ホウカツテキ",
+      "meaning": "kompleksowy; całościowy"
     }
   ],
   "wordsRequiredLater": [],

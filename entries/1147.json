@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "依頼",
-      "reading": "イライ"
+      "reading": "イライ",
+      "meaning": "prośba; zlecenie"
     },
     {
       "kanji": "依然",
-      "reading": "イゼン"
+      "reading": "イゼン",
+      "meaning": "nadal; wciąż"
     }
   ],
   "wordsRequiredLater": [],

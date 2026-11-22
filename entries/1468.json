@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "郊外",
-      "reading": "コウガイ"
+      "reading": "コウガイ",
+      "meaning": "przedmieścia"
     },
     {
       "kanji": "近郊",
-      "reading": "キンコウ"
+      "reading": "キンコウ",
+      "meaning": "okolice miasta; przedmieścia"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "摘む",
-      "reading": "つむ"
+      "reading": "つむ",
+      "meaning": "zrywać; skubać"
     },
     {
       "kanji": "指摘",
-      "reading": "シテキ"
+      "reading": "シテキ",
+      "meaning": "wskazanie; zwrócenie uwagi"
     }
   ],
   "wordsRequiredLater": [],

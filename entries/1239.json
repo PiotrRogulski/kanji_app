@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "出版",
-      "reading": "シュッパン"
+      "reading": "シュッパン",
+      "meaning": "publikacja; wydanie"
     },
     {
       "kanji": "出版社",
-      "reading": "シュッパンシャ"
+      "reading": "シュッパンシャ",
+      "meaning": "wydawnictwo"
     },
     {
       "kanji": "木版画",
-      "reading": "モクハンガ"
+      "reading": "モクハンガ",
+      "meaning": "drzeworyt"
     }
   ],
   "wordsRequiredLater": [],

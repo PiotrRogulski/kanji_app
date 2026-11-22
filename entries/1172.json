@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "松",
-      "reading": "まつ"
+      "reading": "まつ",
+      "meaning": "sosna"
     },
     {
       "kanji": "門松",
-      "reading": "かどまつ"
+      "reading": "かどまつ",
+      "meaning": "kadomatsu (noworoczna dekoracja z sosny przy wejściu)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "松竹梅",
       "reading": "ショウチクバイ",
-      "reference": 1350
+      "reference": 1350,
+      "meaning": "sosna, bambus i śliwa (pomyślny symbol; trzy stopnie jakości)"
     }
   ],
   "additionalWords": []

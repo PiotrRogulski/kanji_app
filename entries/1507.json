@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "耕す",
-      "reading": "たがやす"
+      "reading": "たがやす",
+      "meaning": "orać; uprawiać (ziemię)"
     },
     {
       "kanji": "耕作",
-      "reading": "コウサク"
+      "reading": "コウサク",
+      "meaning": "uprawa roli"
     },
     {
       "kanji": "耕地",
-      "reading": "コウチ"
+      "reading": "コウチ",
+      "meaning": "ziemia uprawna"
     }
   ],
   "wordsRequiredLater": [],

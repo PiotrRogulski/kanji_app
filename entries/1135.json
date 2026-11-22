@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "敬う",
-      "reading": "うやまう"
+      "reading": "うやまう",
+      "meaning": "szanować; czcić"
     },
     {
       "kanji": "敬意",
-      "reading": "ケイイ"
+      "reading": "ケイイ",
+      "meaning": "szacunek; uszanowanie"
     },
     {
       "kanji": "敬語",
-      "reading": "ケイゴ"
+      "reading": "ケイゴ",
+      "meaning": "język honoryfikatywny (keigo)"
     },
     {
       "kanji": "尊敬",
-      "reading": "ソンケイ"
+      "reading": "ソンケイ",
+      "meaning": "szacunek; poważanie"
     },
     {
       "kanji": "敬具",
-      "reading": "ケイグ"
+      "reading": "ケイグ",
+      "meaning": "z poważaniem (na końcu listu)"
     }
   ],
   "wordsRequiredLater": [],

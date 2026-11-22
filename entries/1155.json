@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "炭",
-      "reading": "すみ"
+      "reading": "すみ",
+      "meaning": "węgiel drzewny"
     },
     {
       "kanji": "炭鉱",
-      "reading": "タンコウ"
+      "reading": "タンコウ",
+      "meaning": "kopalnia węgla"
     },
     {
       "kanji": "石炭",
-      "reading": "セキタン"
+      "reading": "セキタン",
+      "meaning": "węgiel kamienny"
     },
     {
       "kanji": "木炭",
-      "reading": "モクタン"
+      "reading": "モクタン",
+      "meaning": "węgiel drzewny"
     }
   ],
   "wordsRequiredLater": [],

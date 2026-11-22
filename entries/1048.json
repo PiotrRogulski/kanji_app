@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿個",
-      "reading": "コ"
+      "reading": "コ",
+      "meaning": "… sztuk (klasyfikator małych przedmiotów)"
     },
     {
       "kanji": "個人",
-      "reading": "コジン"
+      "reading": "コジン",
+      "meaning": "jednostka; osoba prywatna"
     },
     {
       "kanji": "個性",
-      "reading": "コセイ"
+      "reading": "コセイ",
+      "meaning": "indywidualność"
     },
     {
       "kanji": "個別",
-      "reading": "コベツ"
+      "reading": "コベツ",
+      "meaning": "indywidualny; osobny; poszczególny"
     }
   ],
   "wordsRequiredLater": [],

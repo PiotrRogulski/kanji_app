@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "悩む",
-      "reading": "なやむ"
+      "reading": "なやむ",
+      "meaning": "martwić się; zadręczać się"
     },
     {
       "kanji": "悩み",
-      "reading": "なやみ"
+      "reading": "なやみ",
+      "meaning": "zmartwienie; kłopot"
     },
     {
       "kanji": "悩ましい",
-      "reading": "なやましい"
+      "reading": "なやましい",
+      "meaning": "kłopotliwy; dręczący; uwodzicielski"
     },
     {
       "kanji": "苦悩",
-      "reading": "クノウ"
+      "reading": "クノウ",
+      "meaning": "cierpienie; udręka"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "液体",
-      "reading": "エキタイ"
+      "reading": "エキタイ",
+      "meaning": "ciecz; płyn"
     },
     {
       "kanji": "血液",
-      "reading": "ケツエキ"
+      "reading": "ケツエキ",
+      "meaning": "krew"
     },
     {
       "kanji": "血液型",
-      "reading": "ケツエキがた"
+      "reading": "ケツエキがた",
+      "meaning": "grupa krwi"
     }
   ],
   "wordsRequiredLater": [],

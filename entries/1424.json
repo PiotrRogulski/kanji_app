@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "刷る",
-      "reading": "する"
+      "reading": "する",
+      "meaning": "drukować"
     },
     {
       "kanji": "印刷",
-      "reading": "インサツ"
+      "reading": "インサツ",
+      "meaning": "drukowanie"
     }
   ],
   "wordsRequiredLater": [],

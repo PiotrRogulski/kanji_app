@@ -11,15 +11,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "肥やす",
-      "reading": "こやす"
+      "reading": "こやす",
+      "meaning": "użyźniać; tuczyć"
     },
     {
       "kanji": "肥やし",
-      "reading": "こやし"
+      "reading": "こやし",
+      "meaning": "nawóz; obornik"
     },
     {
       "kanji": "肥料",
-      "reading": "ヒリョウ"
+      "reading": "ヒリョウ",
+      "meaning": "nawóz"
     }
   ],
   "wordsRequiredLater": [],

@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "探る",
-      "reading": "さぐる"
+      "reading": "さぐる",
+      "meaning": "szukać po omacku; badać; sondować"
     },
     {
       "kanji": "探す",
-      "reading": "さがす"
+      "reading": "さがす",
+      "meaning": "szukać"
     },
     {
       "kanji": "探究",
-      "reading": "タンキュウ"
+      "reading": "タンキュウ",
+      "meaning": "dociekanie; badanie"
     },
     {
       "kanji": "探求",
-      "reading": "タンキュウ"
+      "reading": "タンキュウ",
+      "meaning": "poszukiwanie; badanie"
     }
   ],
   "wordsRequiredLater": [],

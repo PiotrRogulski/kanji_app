@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "併用",
-      "reading": "ヘイヨウ"
+      "reading": "ヘイヨウ",
+      "meaning": "jednoczesne stosowanie; łączne używanie"
     },
     {
       "kanji": "併せて",
-      "reading": "あわせて"
+      "reading": "あわせて",
+      "meaning": "łącznie; zarazem"
     }
   ],
   "wordsRequiredLater": [],

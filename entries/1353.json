@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "芝生",
-      "reading": "しばふ"
+      "reading": "しばふ",
+      "meaning": "trawnik"
     },
     {
       "kanji": "芝居",
-      "reading": "しばい"
+      "reading": "しばい",
+      "meaning": "sztuka teatralna"
     }
   ],
   "wordsRequiredLater": [],

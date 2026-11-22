@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "冒険",
-      "reading": "ボウケン"
+      "reading": "ボウケン",
+      "meaning": "przygoda"
     },
     {
       "kanji": "冒頭",
-      "reading": "ボウトウ"
+      "reading": "ボウトウ",
+      "meaning": "początek"
     }
   ],
   "wordsRequiredLater": [],

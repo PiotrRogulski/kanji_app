@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "援助",
-      "reading": "エンジョ"
+      "reading": "エンジョ",
+      "meaning": "pomoc; wsparcie"
     },
     {
       "kanji": "応援",
-      "reading": "オウエン"
+      "reading": "オウエン",
+      "meaning": "doping; wsparcie"
     }
   ],
   "wordsRequiredLater": [],

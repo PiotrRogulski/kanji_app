@@ -9,19 +9,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "陥る",
-      "reading": "おちいる"
+      "reading": "おちいる",
+      "meaning": "wpaść (w coś); popaść"
     },
     {
       "kanji": "陥れる",
-      "reading": "おとしいれる"
+      "reading": "おとしいれる",
+      "meaning": "wciągnąć w pułapkę; wrobić; wpędzić"
     },
     {
       "kanji": "陥落",
-      "reading": "カンラク"
+      "reading": "カンラク",
+      "meaning": "upadek; kapitulacja"
     },
     {
       "kanji": "欠陥",
-      "reading": "ケッカン"
+      "reading": "ケッカン",
+      "meaning": "wada; defekt"
     }
   ],
   "wordsRequiredLater": [],

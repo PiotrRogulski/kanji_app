@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "武力",
-      "reading": "ブリョク"
+      "reading": "ブリョク",
+      "meaning": "siła zbrojna"
     },
     {
       "kanji": "武士",
-      "reading": "ブシ"
+      "reading": "ブシ",
+      "meaning": "samuraj"
     },
     {
       "kanji": "武器",
-      "reading": "ブキ"
+      "reading": "ブキ",
+      "meaning": "broń"
     },
     {
       "kanji": "武者",
-      "reading": "ムシャ"
+      "reading": "ムシャ",
+      "meaning": "wojownik"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "影武者",
-      "reading": "かげムシャ"
+      "reading": "かげムシャ",
+      "meaning": "sobowtór (wodza); szara eminencja"
     }
   ]
 }

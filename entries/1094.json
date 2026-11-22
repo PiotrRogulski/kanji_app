@@ -7,32 +7,38 @@
   "wordsRequiredNow": [
     {
       "kanji": "検査",
-      "reading": "ケンサ"
+      "reading": "ケンサ",
+      "meaning": "badanie; kontrola; test"
     },
     {
       "kanji": "検事",
-      "reading": "ケンジ"
+      "reading": "ケンジ",
+      "meaning": "prokurator"
     },
     {
       "kanji": "検事局",
-      "reading": "ケンジキョク"
+      "reading": "ケンジキョク",
+      "meaning": "prokuratura"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "検診",
       "reading": "ケンシン",
-      "reference": 1103
+      "reference": 1103,
+      "meaning": "badanie lekarskie (profilaktyczne)"
     },
     {
       "kanji": "検討",
       "reading": "ケントウ",
-      "reference": 1192
+      "reference": 1192,
+      "meaning": "rozważenie; przeanalizowanie"
     },
     {
       "kanji": "検索",
       "reading": "ケンサク",
-      "reference": 1357
+      "reference": 1357,
+      "meaning": "wyszukiwanie"
     }
   ],
   "additionalWords": []

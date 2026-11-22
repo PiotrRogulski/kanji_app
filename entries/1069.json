@@ -8,26 +8,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "提供",
-      "reading": "テイキョウ"
+      "reading": "テイキョウ",
+      "meaning": "świadczenie; dostarczanie; udostępnianie"
     },
     {
       "kanji": "提出",
-      "reading": "テイシュツ"
+      "reading": "テイシュツ",
+      "meaning": "złożenie; przedłożenie (dokumentów)"
     },
     {
       "kanji": "提案",
-      "reading": "テイアン"
+      "reading": "テイアン",
+      "meaning": "propozycja"
     },
     {
       "kanji": "前提",
-      "reading": "ゼンテイ"
+      "reading": "ゼンテイ",
+      "meaning": "założenie; przesłanka"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "提訴",
       "reading": "テイソ",
-      "reference": 1173
+      "reference": 1173,
+      "meaning": "wniesienie pozwu"
     }
   ],
   "additionalWords": []

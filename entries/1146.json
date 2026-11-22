@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "輝く",
-      "reading": "かがやく"
+      "reading": "かがやく",
+      "meaning": "błyszczeć; lśnić"
     },
     {
       "kanji": "輝き",
-      "reading": "かがやき"
+      "reading": "かがやき",
+      "meaning": "blask"
     },
     {
       "kanji": "輝かしい",
-      "reading": "かがやかしい"
+      "reading": "かがやかしい",
+      "meaning": "świetlany; znakomity"
     }
   ],
   "wordsRequiredLater": [],

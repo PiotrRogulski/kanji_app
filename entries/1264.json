@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "雇う",
-      "reading": "やとう"
+      "reading": "やとう",
+      "meaning": "zatrudniać"
     },
     {
       "kanji": "雇用",
-      "reading": "コヨウ"
+      "reading": "コヨウ",
+      "meaning": "zatrudnienie"
     },
     {
       "kanji": "雇用者",
-      "reading": "コヨウシャ"
+      "reading": "コヨウシャ",
+      "meaning": "pracodawca (także: pracownik najemny)"
     }
   ],
   "wordsRequiredLater": [],

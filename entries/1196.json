@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "天守閣",
-      "reading": "テンシュカク"
+      "reading": "テンシュカク",
+      "meaning": "główna wieża zamku (donżon)"
     },
     {
       "kanji": "内閣",
-      "reading": "ナイカク"
+      "reading": "ナイカク",
+      "meaning": "rada ministrów; gabinet"
     },
     {
       "kanji": "金閣寺",
-      "reading": "キンカクジ"
+      "reading": "キンカクジ",
+      "meaning": "Kinkaku-ji (Złoty Pawilon)"
     },
     {
       "kanji": "銀閣寺",
-      "reading": "ギンカクジ"
+      "reading": "ギンカクジ",
+      "meaning": "Ginkaku-ji (Srebrny Pawilon)"
     }
   ],
   "wordsRequiredLater": [],

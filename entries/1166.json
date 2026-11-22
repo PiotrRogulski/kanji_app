@@ -7,27 +7,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "税",
-      "reading": "ゼイ"
+      "reading": "ゼイ",
+      "meaning": "podatek"
     },
     {
       "kanji": "税金",
-      "reading": "ゼイキン"
+      "reading": "ゼイキン",
+      "meaning": "podatek"
     },
     {
       "kanji": "税関",
-      "reading": "ゼイカン"
+      "reading": "ゼイカン",
+      "meaning": "urząd celny"
     },
     {
       "kanji": "課税",
-      "reading": "カゼイ"
+      "reading": "カゼイ",
+      "meaning": "opodatkowanie"
     },
     {
       "kanji": "免税",
-      "reading": "メンゼイ"
+      "reading": "メンゼイ",
+      "meaning": "zwolnienie z podatku; wolny od cła"
     },
     {
       "kanji": "納税",
-      "reading": "ノウゼイ"
+      "reading": "ノウゼイ",
+      "meaning": "płacenie podatków"
     }
   ],
   "wordsRequiredLater": [],

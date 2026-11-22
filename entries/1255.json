@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "郵便",
-      "reading": "ユウビン"
+      "reading": "ユウビン",
+      "meaning": "poczta"
     },
     {
       "kanji": "郵便局",
-      "reading": "ユウビンキョク"
+      "reading": "ユウビンキョク",
+      "meaning": "urząd pocztowy"
     },
     {
       "kanji": "郵送",
-      "reading": "ユウソウ"
+      "reading": "ユウソウ",
+      "meaning": "wysyłka pocztą"
     }
   ],
   "wordsRequiredLater": [],

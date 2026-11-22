@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿畳",
-      "reading": "ジョウ"
+      "reading": "ジョウ",
+      "meaning": "… mat tatami (licznik powierzchni pokoju)"
     },
     {
       "kanji": "畳",
-      "reading": "たたみ"
+      "reading": "たたみ",
+      "meaning": "mata tatami"
     },
     {
       "kanji": "畳む",
-      "reading": "たたむ"
+      "reading": "たたむ",
+      "meaning": "składać (np. ubrania)"
     }
   ],
   "wordsRequiredLater": [],

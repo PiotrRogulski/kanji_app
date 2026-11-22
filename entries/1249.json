@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "爆発",
-      "reading": "バクハツ"
+      "reading": "バクハツ",
+      "meaning": "wybuch; eksplozja"
     },
     {
       "kanji": "原爆",
-      "reading": "ゲンバク"
+      "reading": "ゲンバク",
+      "meaning": "bomba atomowa"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "爆弾",
       "reading": "バクダン",
-      "reference": 1290
+      "reference": 1290,
+      "meaning": "bomba"
     }
   ],
   "additionalWords": []

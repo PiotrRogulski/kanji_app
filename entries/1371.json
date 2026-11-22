@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "滑る",
-      "reading": "すべる"
+      "reading": "すべる",
+      "meaning": "ślizgać się; poślizgnąć się"
     },
     {
       "kanji": "滑らかな",
-      "reading": "なめらかな"
+      "reading": "なめらかな",
+      "meaning": "gładki; płynny"
     },
     {
       "kanji": "円滑な",
-      "reading": "エンカツ"
+      "reading": "エンカツ",
+      "meaning": "sprawny; gładki; bezproblemowy"
     }
   ],
   "wordsRequiredLater": [],

@@ -11,22 +11,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "弾く",
-      "reading": "ひく"
+      "reading": "ひく",
+      "meaning": "grać (na instrumencie strunowym, klawiszowym)"
     },
     {
       "kanji": "弾圧",
-      "reading": "ダンアツ"
+      "reading": "ダンアツ",
+      "meaning": "represje"
     },
     {
       "kanji": "爆弾",
-      "reading": "バクダン"
+      "reading": "バクダン",
+      "meaning": "bomba"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "銃弾",
       "reading": "ジュウダン",
-      "reference": 1312
+      "reference": 1312,
+      "meaning": "kula; pocisk"
     }
   ],
   "additionalWords": []

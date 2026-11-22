@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "諮る",
-      "reading": "はかる"
+      "reading": "はかる",
+      "meaning": "konsultować; zasięgać opinii"
     },
     {
       "kanji": "諮問",
-      "reading": "シモン"
+      "reading": "シモン",
+      "meaning": "zapytanie konsultacyjne"
     }
   ],
   "wordsRequiredLater": [],

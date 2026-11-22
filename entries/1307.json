@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "項目",
-      "reading": "コウモク"
+      "reading": "コウモク",
+      "meaning": "punkt; pozycja; hasło"
     },
     {
       "kanji": "条項",
-      "reading": "ジョウコウ"
+      "reading": "ジョウコウ",
+      "meaning": "klauzula; postanowienie (umowy)"
     }
   ],
   "wordsRequiredLater": [],

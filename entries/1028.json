@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "怠る",
-      "reading": "おこたる"
+      "reading": "おこたる",
+      "meaning": "zaniedbywać"
     },
     {
       "kanji": "怠ける",
-      "reading": "なまける"
+      "reading": "なまける",
+      "meaning": "lenić się; próżnować"
     },
     {
       "kanji": "怠け者",
-      "reading": "なまけもの"
+      "reading": "なまけもの",
+      "meaning": "leń"
     }
   ],
   "wordsRequiredLater": [],

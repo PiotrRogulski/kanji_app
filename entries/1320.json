@@ -8,30 +8,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "宝",
-      "reading": "たから"
+      "reading": "たから",
+      "meaning": "skarb"
     },
     {
       "kanji": "宝庫",
-      "reading": "ホウコ"
+      "reading": "ホウコ",
+      "meaning": "skarbiec"
     },
     {
       "kanji": "国宝",
-      "reading": "コクホウ"
+      "reading": "コクホウ",
+      "meaning": "skarb narodowy"
     },
     {
       "kanji": "人間国宝",
-      "reading": "ニンゲンコクホウ"
+      "reading": "ニンゲンコクホウ",
+      "meaning": "żywy skarb narodowy"
     },
     {
       "kanji": "宝物",
-      "reading": "たからもの"
+      "reading": "たからもの",
+      "meaning": "skarb; coś cennego"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "宝くじ",
-      "reading": "たからくじ"
+      "reading": "たからくじ",
+      "meaning": "loteria; los na loterię"
     }
   ]
 }

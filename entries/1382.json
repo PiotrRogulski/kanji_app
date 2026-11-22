@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "偽る",
-      "reading": "いつわる"
+      "reading": "いつわる",
+      "meaning": "kłamać; udawać; fałszować"
     },
     {
       "kanji": "真偽",
-      "reading": "シンギ"
+      "reading": "シンギ",
+      "meaning": "prawdziwość (prawda czy fałsz)"
     },
     {
       "kanji": "偽物",
-      "reading": "にせもの"
+      "reading": "にせもの",
+      "meaning": "podróbka; falsyfikat"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "虚偽",
       "reading": "キョギ",
-      "reference": 1519
+      "reference": 1519,
+      "meaning": "fałsz; nieprawda"
     }
   ],
   "additionalWords": []

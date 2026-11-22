@@ -11,19 +11,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "抜く",
-      "reading": "ぬく"
+      "reading": "ぬく",
+      "meaning": "wyciągać; wyprzedzać; pomijać"
     },
     {
       "kanji": "抜ける",
-      "reading": "ぬける"
+      "reading": "ぬける",
+      "meaning": "wypadać; odpadać; przechodzić przez"
     },
     {
       "kanji": "選抜",
-      "reading": "センバツ"
+      "reading": "センバツ",
+      "meaning": "selekcja; nabór"
     },
     {
       "kanji": "腰抜け",
-      "reading": "こしぬけ"
+      "reading": "こしぬけ",
+      "meaning": "tchórz"
     }
   ],
   "wordsRequiredLater": [],

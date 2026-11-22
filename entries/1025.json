@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "分析",
-      "reading": "ブンセキ"
+      "reading": "ブンセキ",
+      "meaning": "analiza"
     },
     {
       "kanji": "解析",
-      "reading": "カイセキ"
+      "reading": "カイセキ",
+      "meaning": "analiza"
     }
   ],
   "wordsRequiredLater": [],

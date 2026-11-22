@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "叫ぶ",
-      "reading": "さけぶ"
+      "reading": "さけぶ",
+      "meaning": "krzyczeć"
     },
     {
       "kanji": "絶叫",
-      "reading": "ゼッキョウ"
+      "reading": "ゼッキョウ",
+      "meaning": "krzyk"
     }
   ],
   "wordsRequiredLater": [],

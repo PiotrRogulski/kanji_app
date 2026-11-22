@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "源",
-      "reading": "みなもと"
+      "reading": "みなもと",
+      "meaning": "źródło; początek"
     },
     {
       "kanji": "資源",
-      "reading": "シゲン"
+      "reading": "シゲン",
+      "meaning": "zasoby; surowce"
     },
     {
       "kanji": "起源",
-      "reading": "キゲン"
+      "reading": "キゲン",
+      "meaning": "pochodzenie; geneza"
     },
     {
       "kanji": "電源",
-      "reading": "デンゲン"
+      "reading": "デンゲン",
+      "meaning": "źródło zasilania; zasilanie"
     },
     {
       "kanji": "源氏物語",
-      "reading": "ゲンジものがたり"
+      "reading": "ゲンジものがたり",
+      "meaning": "Opowieść o księciu Genjim"
     }
   ],
   "wordsRequiredLater": [],

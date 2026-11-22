@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "我慢",
-      "reading": "ガマン"
+      "reading": "ガマン",
+      "meaning": "cierpliwość; wytrzymałość"
     },
     {
       "kanji": "自慢",
-      "reading": "ジマン"
+      "reading": "ジマン",
+      "meaning": "chwalenie się; duma"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "盾",
-      "reading": "たて"
+      "reading": "たて",
+      "meaning": "tarcza"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "矛盾",
       "reading": "ムジュン",
-      "reference": 1159
+      "reference": 1159,
+      "meaning": "sprzeczność"
     }
   ],
   "additionalWords": []

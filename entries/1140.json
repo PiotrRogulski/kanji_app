@@ -9,55 +9,68 @@
   "wordsRequiredNow": [
     {
       "kanji": "付く",
-      "reading": "つく"
+      "reading": "つく",
+      "meaning": "przyczepić się; być dołączonym"
     },
     {
       "kanji": "付ける",
-      "reading": "つける"
+      "reading": "つける",
+      "meaning": "przyczepiać; dołączać; zakładać"
     },
     {
       "kanji": "付近",
-      "reading": "フキン"
+      "reading": "フキン",
+      "meaning": "okolica; pobliże"
     },
     {
       "kanji": "受付",
-      "reading": "うけつけ"
+      "reading": "うけつけ",
+      "meaning": "recepcja; przyjmowanie (zgłoszeń)"
     },
     {
       "kanji": "近付く",
-      "reading": "ちかづく"
+      "reading": "ちかづく",
+      "meaning": "zbliżać się"
     },
     {
       "kanji": "気付く",
-      "reading": "きづく"
+      "reading": "きづく",
+      "meaning": "zauważyć; zorientować się"
     },
     {
       "kanji": "日付",
-      "reading": "ひづけ"
+      "reading": "ひづけ",
+      "meaning": "data"
     },
     {
       "kanji": "付き合う",
-      "reading": "つきあう"
+      "reading": "つきあう",
+      "meaning": "spotykać się (z kimś); towarzyszyć"
     },
     {
       "kanji": "寄付",
-      "reading": "キフ"
+      "reading": "キフ",
+      "meaning": "darowizna; datek"
     },
     {
       "kanji": "片付ける",
-      "reading": "かたづける"
+      "reading": "かたづける",
+      "meaning": "sprzątać; porządkować; dokończyć; uporządkować"
     },
     {
       "kanji": "片付く",
-      "reading": "かたづく"
+      "reading": "かたづく",
+      "meaning": "zostać uporządkowanym; zostać załatwionym; dobiec końca"
     },
     {
       "kanji": "付属",
-      "reading": "フゾク"
+      "reading": "フゾク",
+      "meaning": "załączony"
     },
     {
       "kanji": "添付",
-      "reading": "テンプ"
+      "reading": "テンプ",
+      "meaning": "załącznik"
     }
   ],
   "wordsRequiredLater": [],

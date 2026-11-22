@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "恨む",
-      "reading": "うらむ"
+      "reading": "うらむ",
+      "meaning": "mieć żal; żywić urazę"
     },
     {
       "kanji": "恨み",
-      "reading": "うらみ"
+      "reading": "うらみ",
+      "meaning": "uraza; żal"
     },
     {
       "kanji": "痛恨",
-      "reading": "ツウコン"
+      "reading": "ツウコン",
+      "meaning": "bolesny żal; gorzki żal"
     }
   ],
   "wordsRequiredLater": [],

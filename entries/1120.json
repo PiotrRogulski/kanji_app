@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "怖い",
-      "reading": "こわい"
+      "reading": "こわい",
+      "meaning": "straszny; przerażający"
     },
     {
       "kanji": "恐怖",
-      "reading": "キョウフ"
+      "reading": "キョウフ",
+      "meaning": "strach"
     }
   ],
   "wordsRequiredLater": [],

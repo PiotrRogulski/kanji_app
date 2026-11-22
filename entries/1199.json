@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "開催",
-      "reading": "カイサイ"
+      "reading": "カイサイ",
+      "meaning": "zorganizowanie; odbycie się (wydarzenia)"
     },
     {
       "kanji": "催促",
-      "reading": "サイソク"
+      "reading": "サイソク",
+      "meaning": "ponaglenie; monit"
     }
   ],
   "wordsRequiredLater": [],

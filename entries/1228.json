@@ -7,22 +7,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "湾",
-      "reading": "ワン"
+      "reading": "ワン",
+      "meaning": "zatoka"
     },
     {
       "kanji": "台湾",
-      "reading": "タイワン"
+      "reading": "タイワン",
+      "meaning": "Tajwan"
     },
     {
       "kanji": "大阪湾",
-      "reading": "おおさかワン"
+      "reading": "おおさかワン",
+      "meaning": "Zatoka Osakijska"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "真珠湾",
-      "reading": "シンジュワン"
+      "reading": "シンジュワン",
+      "meaning": "Pearl Harbor"
     }
   ]
 }

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "飾る",
-      "reading": "かざる"
+      "reading": "かざる",
+      "meaning": "dekorować; ozdabiać"
     },
     {
       "kanji": "飾り",
-      "reading": "かざり"
+      "reading": "かざり",
+      "meaning": "ozdoba; dekoracja"
     },
     {
       "kanji": "着飾る",
-      "reading": "きかざる"
+      "reading": "きかざる",
+      "meaning": "stroić się"
     }
   ],
   "wordsRequiredLater": [],

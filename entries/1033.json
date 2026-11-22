@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "販売",
-      "reading": "ハンバイ"
+      "reading": "ハンバイ",
+      "meaning": "sprzedaż"
     },
     {
       "kanji": "自動販売機",
-      "reading": "ジドウハンバイキ"
+      "reading": "ジドウハンバイキ",
+      "meaning": "automat sprzedający"
     }
   ],
   "wordsRequiredLater": [],

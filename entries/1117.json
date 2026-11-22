@@ -7,19 +7,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "肌",
-      "reading": "はだ"
+      "reading": "はだ",
+      "meaning": "skóra"
     },
     {
       "kanji": "肌色",
-      "reading": "はだいろ"
+      "reading": "はだいろ",
+      "meaning": "kolor cielisty"
     },
     {
       "kanji": "肌着",
-      "reading": "はだぎ"
+      "reading": "はだぎ",
+      "meaning": "bielizna"
     },
     {
       "kanji": "鳥肌",
-      "reading": "とりはだ"
+      "reading": "とりはだ",
+      "meaning": "gęsia skórka"
     }
   ],
   "wordsRequiredLater": [],

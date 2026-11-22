@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "幼い",
-      "reading": "おさない"
+      "reading": "おさない",
+      "meaning": "bardzo młody; dziecinny"
     },
     {
       "kanji": "幼児",
-      "reading": "ヨウジ"
+      "reading": "ヨウジ",
+      "meaning": "małe dziecko (w wieku przedszkolnym)"
     }
   ],
   "wordsRequiredLater": [],

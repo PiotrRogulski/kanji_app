@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "需要",
-      "reading": "ジュヨウ"
+      "reading": "ジュヨウ",
+      "meaning": "popyt; zapotrzebowanie"
     },
     {
       "kanji": "需給",
-      "reading": "ジュキュウ"
+      "reading": "ジュキュウ",
+      "meaning": "popyt i podaż"
     }
   ],
   "wordsRequiredLater": [],

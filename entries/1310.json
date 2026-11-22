@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "充電",
-      "reading": "ジュウデン"
+      "reading": "ジュウデン",
+      "meaning": "ładowanie (baterii)"
     },
     {
       "kanji": "充実",
-      "reading": "ジュウジツ"
+      "reading": "ジュウジツ",
+      "meaning": "pełnia; bogata zawartość; poczucie spełnienia"
     },
     {
       "kanji": "充分",
-      "reading": "ジュウブン"
+      "reading": "ジュウブン",
+      "meaning": "wystarczająco; dostatecznie"
     }
   ],
   "wordsRequiredLater": [],

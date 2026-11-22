@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "俳句",
-      "reading": "ハイク"
+      "reading": "ハイク",
+      "meaning": "haiku"
     },
     {
       "kanji": "俳優",
-      "reading": "ハイユウ"
+      "reading": "ハイユウ",
+      "meaning": "aktor"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "猿",
-      "reading": "さる"
+      "reading": "さる",
+      "meaning": "małpa"
     },
     {
       "kanji": "犬猿の仲",
-      "reading": "ケンエンのなか"
+      "reading": "ケンエンのなか",
+      "meaning": "żyć jak pies z kotem (dosł. relacja psa i małpy)"
     }
   ],
   "wordsRequiredLater": [],

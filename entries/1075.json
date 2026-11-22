@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "乱",
-      "reading": "ラン"
+      "reading": "ラン",
+      "meaning": "bunt; zamieszki; wojna (domowa)"
     },
     {
       "kanji": "乱れる",
-      "reading": "みだれる"
+      "reading": "みだれる",
+      "meaning": "być w nieładzie; ulegać zaburzeniu"
     },
     {
       "kanji": "乱す",
-      "reading": "みだす"
+      "reading": "みだす",
+      "meaning": "zakłócać; wprowadzać nieład"
     },
     {
       "kanji": "混乱",
-      "reading": "コンラン"
+      "reading": "コンラン",
+      "meaning": "zamieszanie; chaos"
     },
     {
       "kanji": "反乱",
-      "reading": "ハンラン"
+      "reading": "ハンラン",
+      "meaning": "bunt; rebelia"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "乱暴",
       "reading": "ランボウ",
-      "reference": 1124
+      "reference": 1124,
+      "meaning": "przemoc; brutalność; gwałtowność"
     }
   ],
   "additionalWords": []

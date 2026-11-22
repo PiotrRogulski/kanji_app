@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "恋",
-      "reading": "こい"
+      "reading": "こい",
+      "meaning": "miłość; zakochanie"
     },
     {
       "kanji": "恋愛",
-      "reading": "レンアイ"
+      "reading": "レンアイ",
+      "meaning": "miłość romantyczna"
     },
     {
       "kanji": "失恋",
-      "reading": "シツレン"
+      "reading": "シツレン",
+      "meaning": "zawód miłosny; nieszczęśliwa miłość"
     },
     {
       "kanji": "恋人",
-      "reading": "こいびと"
+      "reading": "こいびと",
+      "meaning": "ukochany; ukochana; chłopak/dziewczyna"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,19 +8,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "壇上",
-      "reading": "ダンジョウ"
+      "reading": "ダンジョウ",
+      "meaning": "na podium; na mównicy"
     },
     {
       "kanji": "文壇",
-      "reading": "ブンダン"
+      "reading": "ブンダン",
+      "meaning": "świat literacki"
     },
     {
       "kanji": "祭壇",
-      "reading": "サイダン"
+      "reading": "サイダン",
+      "meaning": "ołtarz"
     },
     {
       "kanji": "仏壇",
-      "reading": "ブツダン"
+      "reading": "ブツダン",
+      "meaning": "domowy ołtarz buddyjski"
     }
   ],
   "wordsRequiredLater": [],

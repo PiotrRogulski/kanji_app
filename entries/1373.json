@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "仁義",
-      "reading": "ジンギ"
+      "reading": "ジンギ",
+      "meaning": "humanitaryzm i sprawiedliwość; kodeks moralny (np. yakuzy)"
     },
     {
       "kanji": "仁王",
-      "reading": "ニオウ"
+      "reading": "ニオウ",
+      "meaning": "Niō (dwaj strażnicy bram świątynnych)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "明仁",
-      "reading": "あきひと"
+      "reading": "あきひと",
+      "meaning": "Akihito (cesarz ery Heisei)"
     },
     {
       "kanji": "徳仁",
-      "reading": "なるひと"
+      "reading": "なるひと",
+      "meaning": "Naruhito (cesarz ery Reiwa)"
     }
   ]
 }

@@ -10,31 +10,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "栄える",
-      "reading": "さかえる"
+      "reading": "さかえる",
+      "meaning": "prosperować; kwitnąć"
     },
     {
       "kanji": "栄養",
-      "reading": "エイヨウ"
+      "reading": "エイヨウ",
+      "meaning": "odżywianie"
     },
     {
       "kanji": "光栄",
-      "reading": "コウエイ"
+      "reading": "コウエイ",
+      "meaning": "zaszczyt; honor"
     },
     {
       "kanji": "繁栄",
-      "reading": "ハンエイ"
+      "reading": "ハンエイ",
+      "meaning": "dobrobyt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "栄冠",
       "reading": "エイカン",
-      "reference": 1143
+      "reference": 1143,
+      "meaning": "laur; wieniec zwycięstwa"
     },
     {
       "kanji": "栄誉",
       "reading": "エイヨ",
-      "reference": 1323
+      "reference": 1323,
+      "meaning": "zaszczyt; chwała"
     }
   ],
   "additionalWords": []

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "泉",
-      "reading": "いずみ"
+      "reading": "いずみ",
+      "meaning": "źródło (wody)"
     },
     {
       "kanji": "温泉",
-      "reading": "オンセン"
+      "reading": "オンセン",
+      "meaning": "gorące źródła"
     }
   ],
   "wordsRequiredLater": [],

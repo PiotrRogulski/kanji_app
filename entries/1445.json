@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "棟",
-      "reading": "むね"
+      "reading": "むね",
+      "meaning": "budynek; kalenica"
     },
     {
       "kanji": "病棟",
-      "reading": "ビョウトウ"
+      "reading": "ビョウトウ",
+      "meaning": "oddział szpitalny (budynek)"
     }
   ],
   "wordsRequiredLater": [],

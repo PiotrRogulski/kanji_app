@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "昇る",
-      "reading": "のぼる"
+      "reading": "のぼる",
+      "meaning": "wznosić się; wschodzić"
     },
     {
       "kanji": "昇進",
-      "reading": "ショウシン"
+      "reading": "ショウシン",
+      "meaning": "awans"
     },
     {
       "kanji": "上昇",
-      "reading": "ジョウショウ"
+      "reading": "ジョウショウ",
+      "meaning": "wzrost; wznoszenie się"
     }
   ],
   "wordsRequiredLater": [],

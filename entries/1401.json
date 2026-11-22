@@ -10,18 +10,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "柔らかい",
-      "reading": "やわらかい"
+      "reading": "やわらかい",
+      "meaning": "miękki; delikatny"
     },
     {
       "kanji": "柔道",
-      "reading": "ジュウドウ"
+      "reading": "ジュウドウ",
+      "meaning": "judo"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "柔軟な",
       "reading": "ジュウナン",
-      "reference": 1484
+      "reference": 1484,
+      "meaning": "elastyczny; giętki"
     }
   ],
   "additionalWords": []

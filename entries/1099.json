@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "熟れる",
-      "reading": "うれる"
+      "reading": "うれる",
+      "meaning": "dojrzewać (o owocach)"
     },
     {
       "kanji": "成熟",
-      "reading": "セイジュク"
+      "reading": "セイジュク",
+      "meaning": "dojrzałość"
     },
     {
       "kanji": "熟語",
-      "reading": "ジュクゴ"
+      "reading": "ジュクゴ",
+      "meaning": "złożenie znaków kanji; idiom"
     }
   ],
   "wordsRequiredLater": [],

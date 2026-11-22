@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "啓発",
-      "reading": "ケイハツ"
+      "reading": "ケイハツ",
+      "meaning": "oświecanie; uświadamianie; rozwój (osobisty)"
     },
     {
       "kanji": "謹啓",
-      "reading": "キンケイ"
+      "reading": "キンケイ",
+      "meaning": "Szanowni Państwo (formuła otwierająca list)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "拝啓",
-      "reading": "ハイケイ"
+      "reading": "ハイケイ",
+      "meaning": "Szanowny Panie / Szanowna Pani (formuła otwierająca list)"
     }
   ]
 }

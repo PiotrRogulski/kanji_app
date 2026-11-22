@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "蔭",
-      "reading": "かげ"
+      "reading": "かげ",
+      "meaning": "cień; ukrycie"
     },
     {
       "kanji": "陰気な",
-      "reading": "インキ"
+      "reading": "インキ",
+      "meaning": "ponury; posępny"
     },
     {
       "kanji": "日陰",
-      "reading": "ひかげ"
+      "reading": "ひかげ",
+      "meaning": "cień (miejsce zacienione)"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "陰陽",
-      "reading": "インヨウ／オンミョウ"
+      "reading": "インヨウ／オンミョウ",
+      "meaning": "yin i yang"
     }
   ]
 }

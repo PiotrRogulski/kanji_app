@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "彩る",
-      "reading": "いろどる"
+      "reading": "いろどる",
+      "meaning": "barwić; ozdabiać"
     },
     {
       "kanji": "彩り",
-      "reading": "いろどり"
+      "reading": "いろどり",
+      "meaning": "kolorystyka; barwy; ubarwienie"
     },
     {
       "kanji": "色彩",
-      "reading": "シキサイ"
+      "reading": "シキサイ",
+      "meaning": "barwa; koloryt"
     }
   ],
   "wordsRequiredLater": [],

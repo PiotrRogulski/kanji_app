@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "猫",
-      "reading": "ねこ"
+      "reading": "ねこ",
+      "meaning": "kot"
     },
     {
       "kanji": "愛猫",
-      "reading": "アイビョウ"
+      "reading": "アイビョウ",
+      "meaning": "ukochany kot"
     }
   ],
   "wordsRequiredLater": [],

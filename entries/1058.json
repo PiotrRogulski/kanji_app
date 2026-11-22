@@ -7,18 +7,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "序文",
-      "reading": "ジョブン"
+      "reading": "ジョブン",
+      "meaning": "przedmowa; wstęp"
     },
     {
       "kanji": "順序",
-      "reading": "ジュンジョ"
+      "reading": "ジュンジョ",
+      "meaning": "porządek; kolejność"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "秩序",
       "reading": "チツジョ",
-      "reference": 1534
+      "reference": 1534,
+      "meaning": "porządek; ład"
     }
   ],
   "additionalWords": []

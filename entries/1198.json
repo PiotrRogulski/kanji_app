@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "網",
-      "reading": "あみ"
+      "reading": "あみ",
+      "meaning": "sieć"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "蜘蛛の網",
-      "reading": "くものあみ"
+      "reading": "くものあみ",
+      "meaning": "pajęczyna"
     }
   ]
 }

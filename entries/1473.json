@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "＿冊",
-      "reading": "サツ"
+      "reading": "サツ",
+      "meaning": "… tomów (klasyfikator książek)"
     },
     {
       "kanji": "別冊",
-      "reading": "ベッサツ"
+      "reading": "ベッサツ",
+      "meaning": "osobny tom; dodatek (do czasopisma)"
     }
   ],
   "wordsRequiredLater": [],

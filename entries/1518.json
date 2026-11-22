@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "発祥地",
-      "reading": "ハッショウチ"
+      "reading": "ハッショウチ",
+      "meaning": "miejsce narodzin; kolebka"
     },
     {
       "kanji": "吉祥",
-      "reading": "キッショウ"
+      "reading": "キッショウ",
+      "meaning": "dobry omen; pomyślność"
     }
   ],
   "wordsRequiredLater": [],

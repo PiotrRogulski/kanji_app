@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "暖炉",
-      "reading": "ダンロ"
+      "reading": "ダンロ",
+      "meaning": "kominek"
     },
     {
       "kanji": "原子炉",
-      "reading": "ゲンシロ"
+      "reading": "ゲンシロ",
+      "meaning": "reaktor jądrowy"
     },
     {
       "kanji": "電気炉",
-      "reading": "デンキロ"
+      "reading": "デンキロ",
+      "meaning": "piec elektryczny"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,15 +8,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "捜す",
-      "reading": "さがす"
+      "reading": "さがす",
+      "meaning": "szukać (czegoś zagubionego, kogoś zaginionego)"
     },
     {
       "kanji": "捜索",
-      "reading": "ソウサク"
+      "reading": "ソウサク",
+      "meaning": "poszukiwania; przeszukanie"
     },
     {
       "kanji": "捜査",
-      "reading": "ソウサ"
+      "reading": "ソウサ",
+      "meaning": "śledztwo; dochodzenie (policyjne)"
     }
   ],
   "wordsRequiredLater": [],

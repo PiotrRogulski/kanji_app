@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "浜",
-      "reading": "はま"
+      "reading": "はま",
+      "meaning": "plaża; brzeg morza"
     },
     {
       "kanji": "砂浜",
-      "reading": "すなはま"
+      "reading": "すなはま",
+      "meaning": "piaszczysta plaża"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "浜松市",
-      "reading": "はままつシ"
+      "reading": "はままつシ",
+      "meaning": "miasto Hamamatsu"
     }
   ]
 }

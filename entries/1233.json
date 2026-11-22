@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "塁",
-      "reading": "ルイ"
+      "reading": "ルイ",
+      "meaning": "baza (w baseballu); szaniec"
     },
     {
       "kanji": "土塁",
-      "reading": "ドルイ"
+      "reading": "ドルイ",
+      "meaning": "wał ziemny"
     }
   ],
   "wordsRequiredLater": [],

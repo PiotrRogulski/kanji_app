@@ -10,19 +10,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "延びる",
-      "reading": "のびる"
+      "reading": "のびる",
+      "meaning": "przedłużać się; być odroczonym"
     },
     {
       "kanji": "延ばす",
-      "reading": "のばす"
+      "reading": "のばす",
+      "meaning": "przedłużać; odraczać"
     },
     {
       "kanji": "延長",
-      "reading": "エンチョウ"
+      "reading": "エンチョウ",
+      "meaning": "przedłużenie"
     },
     {
       "kanji": "延期",
-      "reading": "エンキ"
+      "reading": "エンキ",
+      "meaning": "przełożenie; odroczenie"
     }
   ],
   "wordsRequiredLater": [],

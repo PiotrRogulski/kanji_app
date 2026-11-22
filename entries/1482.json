@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "悟り",
-      "reading": "さとり"
+      "reading": "さとり",
+      "meaning": "oświecenie (satori); zrozumienie"
     },
     {
       "kanji": "覚悟",
-      "reading": "カクゴ"
+      "reading": "カクゴ",
+      "meaning": "gotowość (na najgorsze); determinacja"
     }
   ],
   "wordsRequiredLater": [],

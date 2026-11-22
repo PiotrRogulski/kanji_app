@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "津",
-      "reading": "つ"
+      "reading": "つ",
+      "meaning": "przystań; port"
     },
     {
       "kanji": "津波",
-      "reading": "つなみ"
+      "reading": "つなみ",
+      "meaning": "tsunami"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "津々浦々",
       "reading": "つつうらうら",
-      "reference": 1241
+      "reference": 1241,
+      "meaning": "cały kraj; wszędzie"
     }
   ],
   "additionalWords": []

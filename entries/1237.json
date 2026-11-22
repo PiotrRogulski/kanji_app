@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "壊す",
-      "reading": "こわす"
+      "reading": "こわす",
+      "meaning": "niszczyć; psuć"
     },
     {
       "kanji": "壊れる",
-      "reading": "こわれる"
+      "reading": "こわれる",
+      "meaning": "psuć się; rozpadać się"
     },
     {
       "kanji": "破壊",
-      "reading": "ハカイ"
+      "reading": "ハカイ",
+      "meaning": "zniszczenie; destrukcja"
     },
     {
       "kanji": "崩壊",
-      "reading": "ホウカイ"
+      "reading": "ホウカイ",
+      "meaning": "rozpad"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "壊滅",
       "reading": "カイメツ",
-      "reference": 1412
+      "reference": 1412,
+      "meaning": "zagłada; całkowite zniszczenie"
     }
   ],
   "additionalWords": []

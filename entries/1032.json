@@ -7,26 +7,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "総じて",
-      "reading": "ソウじて"
+      "reading": "ソウじて",
+      "meaning": "ogólnie; na ogół"
     },
     {
       "kanji": "総合する",
-      "reading": "ソウゴウ"
+      "reading": "ソウゴウ",
+      "meaning": "łączyć w całość; syntetyzować"
     },
     {
       "kanji": "総合的な",
-      "reading": "ソウゴウテキ"
+      "reading": "ソウゴウテキ",
+      "meaning": "całościowy; wszechstronny"
     },
     {
       "kanji": "総務",
-      "reading": "ソウム"
+      "reading": "ソウム",
+      "meaning": "zarządzanie ogólne; administracja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "総理大臣",
       "reading": "ソウリダイジン",
-      "reference": 1372
+      "reference": 1372,
+      "meaning": "premier"
     }
   ],
   "additionalWords": []

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "政策",
-      "reading": "セイサク"
+      "reading": "セイサク",
+      "meaning": "polityka (program działania)"
     },
     {
       "kanji": "対策",
-      "reading": "タイサク"
+      "reading": "タイサク",
+      "meaning": "środki zaradcze; przeciwdziałanie"
     }
   ],
   "wordsRequiredLater": [],

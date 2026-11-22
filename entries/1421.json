@@ -8,22 +8,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "翼",
-      "reading": "つばさ"
+      "reading": "つばさ",
+      "meaning": "skrzydło"
     },
     {
       "kanji": "右翼",
-      "reading": "ウヨク"
+      "reading": "ウヨク",
+      "meaning": "prawica; prawe skrzydło"
     },
     {
       "kanji": "左翼",
-      "reading": "サヨク"
+      "reading": "サヨク",
+      "meaning": "lewica; lewe skrzydło"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "キャプテン翼",
-      "reading": "キャプテンつばさ"
+      "reading": "キャプテンつばさ",
+      "meaning": "Kapitan Tsubasa (manga/anime)"
     }
   ]
 }

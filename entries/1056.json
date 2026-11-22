@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "合唱",
-      "reading": "ガッショウ"
+      "reading": "ガッショウ",
+      "meaning": "chór; śpiew chóralny"
     },
     {
       "kanji": "独唱",
-      "reading": "ドクショウ"
+      "reading": "ドクショウ",
+      "meaning": "śpiew solowy"
     }
   ],
   "wordsRequiredLater": [],

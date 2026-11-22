@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "倫理",
-      "reading": "リンリ"
+      "reading": "リンリ",
+      "meaning": "etyka; moralność"
     },
     {
       "kanji": "不倫",
-      "reading": "フリン"
+      "reading": "フリン",
+      "meaning": "zdrada małżeńska; romans pozamałżeński"
     }
   ],
   "wordsRequiredLater": [],

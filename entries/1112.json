@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "敵",
-      "reading": "テキ／かたき"
+      "reading": "テキ／かたき",
+      "meaning": "wróg; przeciwnik"
     },
     {
       "kanji": "敵対",
-      "reading": "テキタイ"
+      "reading": "テキタイ",
+      "meaning": "wrogość; antagonizm"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "匹敵する",
       "reading": "ヒッテキ",
-      "reference": 1490
+      "reference": 1490,
+      "meaning": "dorównywać"
     }
   ],
   "additionalWords": []

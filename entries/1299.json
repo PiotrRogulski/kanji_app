@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "駐車",
-      "reading": "チュウシャ"
+      "reading": "チュウシャ",
+      "meaning": "parkowanie"
     },
     {
       "kanji": "駐車場",
-      "reading": "チュウシャジョウ"
+      "reading": "チュウシャジョウ",
+      "meaning": "parking"
     },
     {
       "kanji": "駐在",
-      "reading": "チュウザイ"
+      "reading": "チュウザイ",
+      "meaning": "stały pobyt; rezydowanie; stacjonowanie"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "同盟",
-      "reading": "ドウメイ"
+      "reading": "ドウメイ",
+      "meaning": "sojusz"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "反乱同盟軍",
-      "reading": "ハンランドウメイグン"
+      "reading": "ハンランドウメイグン",
+      "meaning": "Sojusz Rebeliantów (Gwiezdne wojny)"
     }
   ]
 }

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "天井",
-      "reading": "テンジョウ"
+      "reading": "テンジョウ",
+      "meaning": "sufit"
     },
     {
       "kanji": "井戸",
-      "reading": "いど"
+      "reading": "いど",
+      "meaning": "studnia"
     }
   ],
   "wordsRequiredLater": [],

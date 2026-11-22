@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "滞在",
-      "reading": "タイザイ"
+      "reading": "タイザイ",
+      "meaning": "pobyt"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "渋滞",
       "reading": "ジュウタイ",
-      "reference": 1331
+      "reference": 1331,
+      "meaning": "korek (uliczny); zator"
     }
   ],
   "additionalWords": []

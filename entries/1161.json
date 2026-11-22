@@ -9,15 +9,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "膨らむ",
-      "reading": "ふくらむ"
+      "reading": "ふくらむ",
+      "meaning": "puchnąć; nadymać się; rosnąć"
     },
     {
       "kanji": "膨張",
-      "reading": "ボウチョウ"
+      "reading": "ボウチョウ",
+      "meaning": "ekspansja"
     },
     {
       "kanji": "膨大な",
-      "reading": "ボウダイ"
+      "reading": "ボウダイ",
+      "meaning": "ogromny; olbrzymi"
     }
   ],
   "wordsRequiredLater": [],

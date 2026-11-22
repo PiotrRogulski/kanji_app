@@ -8,23 +8,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "犯す",
-      "reading": "おかす"
+      "reading": "おかす",
+      "meaning": "popełniać (przestępstwo); naruszać"
     },
     {
       "kanji": "犯罪",
-      "reading": "ハンザイ"
+      "reading": "ハンザイ",
+      "meaning": "przestępstwo"
     },
     {
       "kanji": "犯罪者",
-      "reading": "ハンザイシャ"
+      "reading": "ハンザイシャ",
+      "meaning": "przestępca"
     },
     {
       "kanji": "犯人",
-      "reading": "ハンニン"
+      "reading": "ハンニン",
+      "meaning": "sprawca; przestępca"
     },
     {
       "kanji": "防犯",
-      "reading": "ボウハン"
+      "reading": "ボウハン",
+      "meaning": "zapobieganie przestępczości; prewencja antywłamaniowa"
     }
   ],
   "wordsRequiredLater": [],

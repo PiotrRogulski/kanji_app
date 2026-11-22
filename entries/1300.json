@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "曜日",
-      "reading": "ヨウび"
+      "reading": "ヨウび",
+      "meaning": "dzień tygodnia"
     },
     {
       "kanji": "月火水木金土日・曜日",
-      "reading": null
+      "reading": null,
+      "meaning": "dni tygodnia: pon., wt., śr., czw., pt., sob., niedz."
     }
   ],
   "wordsRequiredLater": [],

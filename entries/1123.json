@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "露",
-      "reading": "つゆ"
+      "reading": "つゆ",
+      "meaning": "rosa"
     },
     {
       "kanji": "露天",
-      "reading": "ロテン"
+      "reading": "ロテン",
+      "meaning": "pod gołym niebem"
     },
     {
       "kanji": "日露戦争",
-      "reading": "ニチロセンソウ"
+      "reading": "ニチロセンソウ",
+      "meaning": "wojna rosyjsko-japońska"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "披露",
       "reading": "ヒロウ",
-      "reference": 1523
+      "reference": 1523,
+      "meaning": "ogłoszenie; zaprezentowanie"
     }
   ],
   "additionalWords": []

@@ -8,31 +8,37 @@
   "wordsRequiredNow": [
     {
       "kanji": "罰",
-      "reading": "バツ"
+      "reading": "バツ",
+      "meaning": "kara"
     },
     {
       "kanji": "罰金",
-      "reading": "バッキン"
+      "reading": "バッキン",
+      "meaning": "grzywna; mandat"
     },
     {
       "kanji": "処罰",
-      "reading": "ショバツ"
+      "reading": "ショバツ",
+      "meaning": "ukaranie; kara"
     },
     {
       "kanji": "罰する",
-      "reading": "バッする"
+      "reading": "バッする",
+      "meaning": "karać"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "刑罰",
       "reading": "ケイバツ",
-      "reference": 1229
+      "reference": 1229,
+      "meaning": "kara (sądowa)"
     },
     {
       "kanji": "懲罰",
       "reading": "チョウバツ",
-      "reference": 1434
+      "reference": 1434,
+      "meaning": "kara dyscyplinarna"
     }
   ],
   "additionalWords": []

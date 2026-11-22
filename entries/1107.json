@@ -9,30 +9,36 @@
   "wordsRequiredNow": [
     {
       "kanji": "占める",
-      "reading": "しめる"
+      "reading": "しめる",
+      "meaning": "zajmować; stanowić (część)"
     },
     {
       "kanji": "占う",
-      "reading": "うらなう"
+      "reading": "うらなう",
+      "meaning": "wróżyć"
     },
     {
       "kanji": "占い",
-      "reading": "うらない"
+      "reading": "うらない",
+      "meaning": "wróżba; wróżenie"
     },
     {
       "kanji": "独占",
-      "reading": "ドクセン"
+      "reading": "ドクセン",
+      "meaning": "monopol"
     },
     {
       "kanji": "占拠",
-      "reading": "センキョ"
+      "reading": "センキョ",
+      "meaning": "zajęcie; okupacja (np. budynku)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "占領",
       "reading": "センリョウ",
-      "reference": 1168
+      "reference": 1168,
+      "meaning": "okupacja"
     }
   ],
   "additionalWords": []

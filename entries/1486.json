@@ -7,14 +7,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "東亜",
-      "reading": "トウア"
+      "reading": "トウア",
+      "meaning": "Azja Wschodnia"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "大東亜共栄圏",
-      "reading": "ダイトウアキョウエイケン"
+      "reading": "ダイトウアキョウエイケン",
+      "meaning": "Strefa Wspólnego Dobrobytu Wielkiej Azji Wschodniej"
     }
   ]
 }

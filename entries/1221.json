@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "締める",
-      "reading": "しめる"
+      "reading": "しめる",
+      "meaning": "zaciskać; zawiązywać; zapinać"
     },
     {
       "kanji": "締め切り",
-      "reading": "しめきり"
+      "reading": "しめきり",
+      "meaning": "termin (ostateczny)"
     }
   ],
   "wordsRequiredLater": [],

@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "皇室",
-      "reading": "コウシツ"
+      "reading": "コウシツ",
+      "meaning": "rodzina cesarska"
     },
     {
       "kanji": "天皇",
-      "reading": "テンノウ"
+      "reading": "テンノウ",
+      "meaning": "cesarz (Japonii)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "皇帝",
       "reading": "コウテイ",
-      "reference": 1452
+      "reference": 1452,
+      "meaning": "cesarz"
     }
   ],
   "additionalWords": []

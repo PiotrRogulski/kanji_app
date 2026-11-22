@@ -8,28 +8,33 @@
   "wordsRequiredNow": [
     {
       "kanji": "惑星",
-      "reading": "ワクセイ"
+      "reading": "ワクセイ",
+      "meaning": "planeta"
     },
     {
       "kanji": "戸惑う",
-      "reading": "とまどう"
+      "reading": "とまどう",
+      "meaning": "być zdezorientowanym; nie wiedzieć, co zrobić"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "迷惑",
       "reading": "メイワク",
-      "reference": 1265
+      "reference": 1265,
+      "meaning": "kłopot; uciążliwość"
     },
     {
       "kanji": "誘惑",
       "reading": "ユウワク",
-      "reference": 1289
+      "reference": 1289,
+      "meaning": "pokusa; kuszenie"
     },
     {
       "kanji": "魅惑",
       "reading": "ミワク",
-      "reference": 1451
+      "reference": 1451,
+      "meaning": "urok; oczarowanie"
     }
   ],
   "additionalWords": []

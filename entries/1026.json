@@ -7,27 +7,32 @@
   "wordsRequiredNow": [
     {
       "kanji": "臓器",
-      "reading": "ゾウキ"
+      "reading": "ゾウキ",
+      "meaning": "narząd wewnętrzny"
     },
     {
       "kanji": "内臓",
-      "reading": "ナイゾウ"
+      "reading": "ナイゾウ",
+      "meaning": "narządy wewnętrzne; wnętrzności"
     },
     {
       "kanji": "心臓",
-      "reading": "シンゾウ"
+      "reading": "シンゾウ",
+      "meaning": "serce"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "肝臓",
       "reading": "カンゾウ",
-      "reference": 1081
+      "reference": 1081,
+      "meaning": "wątroba"
     },
     {
       "kanji": "肺臓",
       "reading": "ハイゾウ",
-      "reference": 1116
+      "reference": 1116,
+      "meaning": "płuca"
     }
   ],
   "additionalWords": []

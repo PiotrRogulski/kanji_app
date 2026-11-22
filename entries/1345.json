@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "書籍",
-      "reading": "ショセキ"
+      "reading": "ショセキ",
+      "meaning": "książki; publikacje"
     },
     {
       "kanji": "戸籍",
-      "reading": "コセキ"
+      "reading": "コセキ",
+      "meaning": "rejestr rodzinny (koseki)"
     },
     {
       "kanji": "国籍",
-      "reading": "コクセキ"
+      "reading": "コクセキ",
+      "meaning": "obywatelstwo; narodowość"
     }
   ],
   "wordsRequiredLater": [],

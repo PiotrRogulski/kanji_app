@@ -8,18 +8,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "沢",
-      "reading": "さわ"
+      "reading": "さわ",
+      "meaning": "górski strumień; mokradło"
     },
     {
       "kanji": "沢山",
-      "reading": "タクサン"
+      "reading": "タクサン",
+      "meaning": "dużo; wiele"
     }
   ],
   "wordsRequiredLater": [],
   "additionalWords": [
     {
       "kanji": "黒澤監督",
-      "reading": "くろさわカントク"
+      "reading": "くろさわカントク",
+      "meaning": "reżyser Kurosawa"
     }
   ]
 }

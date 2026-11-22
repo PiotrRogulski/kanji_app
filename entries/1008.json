@@ -9,18 +9,21 @@
   "wordsRequiredNow": [
     {
       "kanji": "乾く",
-      "reading": "かわく"
+      "reading": "かわく",
+      "meaning": "wysychać; schnąć"
     },
     {
       "kanji": "乾かす",
-      "reading": "かわかす"
+      "reading": "かわかす",
+      "meaning": "suszyć"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "乾杯",
       "reading": "カンパイ",
-      "reference": 1384
+      "reference": 1384,
+      "meaning": "toast; na zdrowie!"
     }
   ],
   "additionalWords": []

@@ -9,11 +9,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "怒る",
-      "reading": "おこる"
+      "reading": "おこる",
+      "meaning": "złościć się; gniewać się"
     },
     {
       "kanji": "怒り",
-      "reading": "いかり"
+      "reading": "いかり",
+      "meaning": "gniew; złość"
     }
   ],
   "wordsRequiredLater": [],

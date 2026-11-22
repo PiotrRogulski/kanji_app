@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "掛ける",
-      "reading": "かける"
+      "reading": "かける",
+      "meaning": "wieszać; nakładać; dzwonić; mnożyć"
     },
     {
       "kanji": "掛かる",
-      "reading": "かかる"
+      "reading": "かかる",
+      "meaning": "wisieć; zajmować (czas); kosztować"
     },
     {
       "kanji": "手掛かり",
-      "reading": "てがかり"
+      "reading": "てがかり",
+      "meaning": "trop; wskazówka; punkt zaczepienia"
     },
     {
       "kanji": "掛け算",
-      "reading": "かけザン"
+      "reading": "かけザン",
+      "meaning": "mnożenie"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "掛け軸",
       "reading": "かけジク",
-      "reference": 1449
+      "reference": 1449,
+      "meaning": "zwój wiszący (kakemono)"
     }
   ],
   "additionalWords": []

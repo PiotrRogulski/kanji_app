@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "否定",
-      "reading": "ヒテイ"
+      "reading": "ヒテイ",
+      "meaning": "zaprzeczenie; negacja"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "拒否",
       "reading": "キョヒ",
-      "reference": 1306
+      "reference": 1306,
+      "meaning": "odmowa; odrzucenie"
     }
   ],
   "additionalWords": []

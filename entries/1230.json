@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "聴く",
-      "reading": "きく"
+      "reading": "きく",
+      "meaning": "słuchać (uważnie, np. muzyki)"
     },
     {
       "kanji": "聴衆",
-      "reading": "チョウシュウ"
+      "reading": "チョウシュウ",
+      "meaning": "publiczność (słuchacze); audytorium"
     }
   ],
   "wordsRequiredLater": [],

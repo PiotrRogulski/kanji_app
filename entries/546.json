@@ -41,12 +41,14 @@
     {
       "kanji": "市街",
       "reading": "シガイ",
-      "reference": 1202
+      "reference": 1202,
+      "meaning": "ulice miasta; obszar miejski"
     },
     {
       "kanji": "旧市街",
       "reading": "キュウシガイ",
-      "reference": 1203
+      "reference": 1203,
+      "meaning": "stare miasto"
     },
     {
       "kanji": "新潟市",

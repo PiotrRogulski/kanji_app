@@ -7,23 +7,28 @@
   "wordsRequiredNow": [
     {
       "kanji": "紀元",
-      "reading": "キゲン"
+      "reading": "キゲン",
+      "meaning": "era; początek ery"
     },
     {
       "kanji": "紀元前",
-      "reading": "キゲンゼン"
+      "reading": "キゲンゼン",
+      "meaning": "przed naszą erą"
     },
     {
       "kanji": "紀元後",
-      "reading": "キゲンゴ"
+      "reading": "キゲンゴ",
+      "meaning": "naszej ery (po Chrystusie)"
     },
     {
       "kanji": "世紀",
-      "reading": "セイキ"
+      "reading": "セイキ",
+      "meaning": "wiek; stulecie"
     },
     {
       "kanji": "日本書紀",
-      "reading": "ニホンショキ"
+      "reading": "ニホンショキ",
+      "meaning": "Nihon shoki (Kronika japońska)"
     }
   ],
   "wordsRequiredLater": [],

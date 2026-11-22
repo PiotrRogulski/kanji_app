@@ -9,26 +9,31 @@
   "wordsRequiredNow": [
     {
       "kanji": "贈る",
-      "reading": "おくる"
+      "reading": "おくる",
+      "meaning": "darować; wręczać"
     },
     {
       "kanji": "贈与",
-      "reading": "ゾウヨ"
+      "reading": "ゾウヨ",
+      "meaning": "darowizna"
     },
     {
       "kanji": "贈与者",
-      "reading": "ゾウヨシャ"
+      "reading": "ゾウヨシャ",
+      "meaning": "darczyńca"
     },
     {
       "kanji": "贈り物",
-      "reading": "おくりもの"
+      "reading": "おくりもの",
+      "meaning": "prezent; podarunek"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "贈賄",
       "reading": "ゾウワイ",
-      "reference": 1368
+      "reference": 1368,
+      "meaning": "wręczenie łapówki; przekupstwo"
     }
   ],
   "additionalWords": []

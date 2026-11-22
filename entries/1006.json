@@ -8,14 +8,16 @@
   "wordsRequiredNow": [
     {
       "kanji": "鉛",
-      "reading": "なまり"
+      "reading": "なまり",
+      "meaning": "ołów"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "鉛筆",
       "reading": "エンピツ",
-      "reference": 1007
+      "reference": 1007,
+      "meaning": "ołówek"
     }
   ],
   "additionalWords": []

@@ -9,22 +9,26 @@
   "wordsRequiredNow": [
     {
       "kanji": "替える",
-      "reading": "かえる"
+      "reading": "かえる",
+      "meaning": "wymieniać; zamieniać"
     },
     {
       "kanji": "両替",
-      "reading": "リョウがえ"
+      "reading": "リョウがえ",
+      "meaning": "wymiana pieniędzy (walut)"
     },
     {
       "kanji": "交替",
-      "reading": "コウタイ"
+      "reading": "コウタイ",
+      "meaning": "zmiana; zastępowanie się (na zmianę)"
     }
   ],
   "wordsRequiredLater": [
     {
       "kanji": "為替",
       "reading": "かわせ",
-      "reference": 1003
+      "reference": 1003,
+      "meaning": "przekaz pieniężny; kurs wymiany walut"
     }
   ],
   "additionalWords": []

@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "彫る",
-      "reading": "ほる"
+      "reading": "ほる",
+      "meaning": "rzeźbić; ryć; grawerować"
     },
     {
       "kanji": "彫刻する",
-      "reading": "チョウコク"
+      "reading": "チョウコク",
+      "meaning": "rzeźbić; rzeźba"
     }
   ],
   "wordsRequiredLater": [],

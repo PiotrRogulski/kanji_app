@@ -7,15 +7,18 @@
   "wordsRequiredNow": [
     {
       "kanji": "先輩",
-      "reading": "センパイ"
+      "reading": "センパイ",
+      "meaning": "senpai (starszy stażem kolega)"
     },
     {
       "kanji": "後輩",
-      "reading": "コウハイ"
+      "reading": "コウハイ",
+      "meaning": "kōhai (młodszy stażem kolega)"
     },
     {
       "kanji": "同輩",
-      "reading": "ドウハイ"
+      "reading": "ドウハイ",
+      "meaning": "rówieśnik; kolega równy stażem"
     }
   ],
   "wordsRequiredLater": [],

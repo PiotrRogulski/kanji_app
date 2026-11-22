@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "双方",
-      "reading": "ソウホウ"
+      "reading": "ソウホウ",
+      "meaning": "obie strony"
     },
     {
       "kanji": "双子",
-      "reading": "ふたご"
+      "reading": "ふたご",
+      "meaning": "bliźnięta"
     }
   ],
   "wordsRequiredLater": [],

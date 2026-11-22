@@ -8,11 +8,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "懇親会",
-      "reading": "コンシンカイ"
+      "reading": "コンシンカイ",
+      "meaning": "spotkanie integracyjne"
     },
     {
       "kanji": "懇切な",
-      "reading": "コンセツ"
+      "reading": "コンセツ",
+      "meaning": "życzliwy; uprzejmy; szczegółowy"
     }
   ],
   "wordsRequiredLater": [],

@@ -7,11 +7,13 @@
   "wordsRequiredNow": [
     {
       "kanji": "債務",
-      "reading": "サイム"
+      "reading": "サイム",
+      "meaning": "zobowiązanie (dług)"
     },
     {
       "kanji": "債務者",
-      "reading": "サイムシャ"
+      "reading": "サイムシャ",
+      "meaning": "dłużnik"
     }
   ],
   "wordsRequiredLater": [],

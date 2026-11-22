@@ -13,19 +13,23 @@
   "wordsRequiredNow": [
     {
       "kanji": "汚す",
-      "reading": "よごす"
+      "reading": "よごす",
+      "meaning": "brudzić"
     },
     {
       "kanji": "汚れる",
-      "reading": "よごれる"
+      "reading": "よごれる",
+      "meaning": "brudzić się"
     },
     {
       "kanji": "汚い",
-      "reading": "きたない"
+      "reading": "きたない",
+      "meaning": "brudny"
     },
     {
       "kanji": "汚染",
-      "reading": "オセン"
+      "reading": "オセン",
+      "meaning": "zanieczyszczenie"
     }
   ],
   "wordsRequiredLater": [],
