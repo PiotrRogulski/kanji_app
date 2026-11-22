@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:cached_query_flutter/cached_query_flutter.dart' show Query;
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/grid_painter.dart';
@@ -10,13 +9,11 @@ import 'package:kanji_app/kanji_api.dart';
 import 'package:kanji_app/query/use_query.dart';
 import 'package:kanji_app/svg_drawing_animation.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-class KanjiAnimationDialog extends StatelessWidget {
-  const KanjiAnimationDialog(this.id, {super.key});
-
-  final int id;
-
+class const KanjiAnimationDialog(final int id, {super.key})
+    extends StatelessWidget {
   static Tween<Rect?> createRectTween(Rect? begin, Rect? end) =>
       RectTween(begin: begin, end: end);
 
@@ -59,10 +56,10 @@ class KanjiAnimationDialog extends StatelessWidget {
   }
 }
 
-class _KanjiDetailsBody extends HookWidget {
-  _KanjiDetailsBody(this.kanji) : super(key: GlobalObjectKey(kanji));
-
-  final String kanji;
+// https://github.com/dart-lang/sdk/issues/64037
+// ignore: prefer_const_constructors_in_immutables
+class _KanjiDetailsBody(final String kanji) extends HookWidget {
+  this : super(key: GlobalObjectKey(kanji));
 
   @override
   Widget build(BuildContext context) {
@@ -102,11 +99,7 @@ class _KanjiDetailsBody extends HookWidget {
   }
 }
 
-class _KanjiDetailsLoaded extends HookWidget {
-  const _KanjiDetailsLoaded(this.svg);
-
-  final String svg;
-
+class const _KanjiDetailsLoaded(final String svg) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
@@ -148,11 +141,7 @@ class _KanjiDetailsLoaded extends HookWidget {
   }
 }
 
-class _KanjiGrid extends StatelessWidget {
-  const _KanjiGrid({required this.child});
-
-  final Widget child;
-
+class const _KanjiGrid({required final Widget child}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

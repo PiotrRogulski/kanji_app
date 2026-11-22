@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
-class KanjiSetsScreen extends StatelessWidget {
-  const KanjiSetsScreen({super.key});
-
+class const KanjiSetsScreen({super.key}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(backgroundColor: Colors.green);

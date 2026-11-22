@@ -1,17 +1,14 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
 import 'package:kanji_app/features/details/widgets/words.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class KanjiDetailsScreen extends StatelessWidget {
-  const KanjiDetailsScreen(this.id, {super.key});
-
-  final int id;
-
+class const KanjiDetailsScreen(final int id, {super.key})
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: Add not found screen

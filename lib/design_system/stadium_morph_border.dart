@@ -1,17 +1,12 @@
 import 'dart:ui';
 
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class StadiumMorphBorder extends ShapeBorder {
-  const StadiumMorphBorder({
-    required this.fixedCornerRadius,
-    required this.stadiumProgress,
-  });
-
-  final AppUnit fixedCornerRadius;
-  final double stadiumProgress;
-
+class const StadiumMorphBorder({
+  required final AppUnit fixedCornerRadius,
+  required final double stadiumProgress,
+}) extends ShapeBorder {
   @override
   EdgeInsetsGeometry get dimensions => .zero;
 

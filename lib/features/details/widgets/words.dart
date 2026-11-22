@@ -1,11 +1,11 @@
 import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
 typedef _SliverWordsSectionData = ({
@@ -14,9 +14,7 @@ typedef _SliverWordsSectionData = ({
   bool showRef,
 });
 
-class SliverKanjiWords extends StatelessWidget {
-  const SliverKanjiWords({super.key});
-
+class const SliverKanjiWords({super.key}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -54,11 +52,8 @@ class SliverKanjiWords extends StatelessWidget {
   }
 }
 
-class _SliverWordsSection extends StatelessWidget {
-  const _SliverWordsSection(this.section);
-
-  final _SliverWordsSectionData section;
-
+class const _SliverWordsSection(final _SliverWordsSectionData section)
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -86,13 +81,11 @@ class _SliverWordsSection extends StatelessWidget {
   }
 }
 
-class _WordTile extends StatelessWidget {
-  const _WordTile(this.word, this.allWords, {this.showReference = false});
-
-  final KanjiWord word;
-  final List<KanjiWord> allWords;
-  final bool showReference;
-
+class const _WordTile(
+  final KanjiWord word,
+  final List<KanjiWord> allWords, {
+  final bool showReference = false,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -139,11 +132,7 @@ class _WordTile extends StatelessWidget {
   }
 }
 
-class _SearchableKanji extends HookWidget {
-  const _SearchableKanji({required this.kanji});
-
-  final String kanji;
-
+class const _SearchableKanji({required final String kanji}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -167,7 +156,10 @@ class _SearchableKanji extends HookWidget {
         kanji != '　' && kanji != currentEntry.kanji && targetEntry != null;
 
     final opacity = useValueSpring(active ? 1 : 0);
-    final scale = useValueSpring(active ? 1 : 0, ratio: active ? 0.5 : null);
+    final scale = useValueSpring(
+      active ? 1 : 0,
+      spring: active ? Springs.expressiveFastSpatial : null,
+    );
     final textColor = useColorSpring(
       active ? colorScheme.onPrimary : colorScheme.onSurface,
     );

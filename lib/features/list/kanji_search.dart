@@ -79,7 +79,7 @@ SearchMatch matchEntry(KanjiEntry entry, String rawQuery) {
   return .none;
 }
 
-enum SearchMatch implements Comparable<SearchMatch> {
+enum SearchMatch() implements Comparable<SearchMatch> {
   id,
   kanji,
   fullReading,
@@ -94,10 +94,7 @@ enum SearchMatch implements Comparable<SearchMatch> {
   int compareTo(SearchMatch other) => index.compareTo(other.index);
 }
 
-class _Query {
-  _Query(this._rawQuery);
-
-  final String _rawQuery;
+class _Query(final String _rawQuery) {
   late final query = _stripMiddleDots(_rawQuery);
   late final id = _idFromQuery(_rawQuery);
   late final hira = _stripMiddleDots(_kanaKit.toHiragana(_rawQuery));

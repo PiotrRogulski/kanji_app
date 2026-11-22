@@ -1,21 +1,15 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:kanji_app/features/flashcards/widgets/dismiss_indicator.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_view.dart';
+import 'package:material_ui/material_ui.dart';
 
-class CurrentFlashcard extends StatelessWidget {
-  const CurrentFlashcard({
-    super.key,
-    required this.item,
-    required this.dragOffset,
-    required this.onFlipInProgressChange,
-  });
-
-  final FlashcardItem item;
-  final Offset dragOffset;
-  final ValueChanged<bool> onFlipInProgressChange;
-
+class const CurrentFlashcard({
+  super.key,
+  required final FlashcardItem item,
+  required final Offset dragOffset,
+  required final ValueChanged<bool> onFlipInProgressChange,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dismissProgress = dragOffset.dismissProgress;

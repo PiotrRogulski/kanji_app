@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
@@ -13,19 +12,14 @@ import 'package:kanji_app/features/flashcards/widgets/current_flashcard.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_gestures.dart';
 import 'package:kanji_app/features/flashcards/widgets/next_flashcards.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class FlashcardsPlayScreen extends HookWidget {
-  const FlashcardsPlayScreen({
-    super.key,
-    required this.startId,
-    required this.endId,
-    required this.mode,
-  });
-
-  final int startId;
-  final int endId;
-  final FlashcardMode mode;
-
+class const FlashcardsPlayScreen({
+  super.key,
+  required final int startId,
+  required final int endId,
+  required final FlashcardMode mode,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -99,11 +93,8 @@ class FlashcardsPlayScreen extends HookWidget {
   }
 }
 
-class _FlashcardsPlayBody extends HookWidget {
-  const _FlashcardsPlayBody({required this.session});
-
-  final FlashcardsSession session;
-
+class const _FlashcardsPlayBody({required final FlashcardsSession session})
+    extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final animationState = useFlashcardAnimation();
@@ -191,17 +182,11 @@ class _FlashcardsPlayBody extends HookWidget {
   }
 }
 
-class _FlashcardsActionRow extends StatelessWidget {
-  const _FlashcardsActionRow({
-    required this.enabled,
-    required this.onSkipped,
-    required this.onLearned,
-  });
-
-  final bool enabled;
-  final VoidCallback onSkipped;
-  final VoidCallback onLearned;
-
+class const _FlashcardsActionRow({
+  required final bool enabled,
+  required final VoidCallback onSkipped,
+  required final VoidCallback onLearned,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -232,19 +217,12 @@ class _FlashcardsActionRow extends StatelessWidget {
   }
 }
 
-class _FlashcardsActionButton extends HookWidget {
-  const _FlashcardsActionButton({
-    required this.enabled,
-    required this.color,
-    required this.icon,
-    required this.onPressed,
-  });
-
-  final bool enabled;
-  final Color color;
-  final AppIconData icon;
-  final VoidCallback onPressed;
-
+class const _FlashcardsActionButton({
+  required final bool enabled,
+  required final Color color,
+  required final AppIconData icon,
+  required final VoidCallback onPressed,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
@@ -255,8 +233,7 @@ class _FlashcardsActionButton extends HookWidget {
     final fill = DynamicWeight.of(context).fill;
     final stadiumProgress = useValueSpring(
       fill,
-      ratio: fill == 1 ? 1 : 0.5,
-      stiffness: 1000,
+      spring: fill == 1 ? null : Springs.expressiveFastSpatial,
     );
 
     return Material(
@@ -287,12 +264,10 @@ class _FlashcardsActionButton extends HookWidget {
   }
 }
 
-class _FlashcardsEmptyScaffold extends StatelessWidget {
-  const _FlashcardsEmptyScaffold({required this.title, required this.message});
-
-  final String title;
-  final String message;
-
+class const _FlashcardsEmptyScaffold({
+  required final String title,
+  required final String message,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -302,19 +277,12 @@ class _FlashcardsEmptyScaffold extends StatelessWidget {
   }
 }
 
-class _FlashcardsEndScaffold extends StatelessWidget {
-  const _FlashcardsEndScaffold({
-    required this.title,
-    required this.endText,
-    required this.backText,
-    required this.onBack,
-  });
-
-  final String title;
-  final String endText;
-  final String backText;
-  final VoidCallback onBack;
-
+class const _FlashcardsEndScaffold({
+  required final String title,
+  required final String endText,
+  required final String backText,
+  required final VoidCallback onBack,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

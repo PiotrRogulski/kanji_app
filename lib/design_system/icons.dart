@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-enum AppIconData {
+enum AppIconData(final IconData iconData) {
   tenK(.new(0xE951, fontFamily: fontFamily)),
   tenMp(.new(0xE952, fontFamily: fontFamily)),
   elevenMp(.new(0xE953, fontFamily: fontFamily)),
@@ -4208,10 +4208,6 @@ enum AppIconData {
   zoomInMap(.new(0xEB2D, fontFamily: fontFamily)),
   zoomOut(.new(0xE900, fontFamily: fontFamily)),
   zoomOutMap(.new(0xE56B, fontFamily: fontFamily));
-
-  const AppIconData(this.iconData);
-
-  final IconData iconData;
 
   static const fontFamily = 'Material Symbols Rounded';
 }

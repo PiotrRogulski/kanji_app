@@ -1,24 +1,17 @@
 import 'dart:collection';
 
-import 'package:flutter/material.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_view.dart';
+import 'package:material_ui/material_ui.dart';
 
-class NextFlashcards extends StatelessWidget {
-  const NextFlashcards({
-    super.key,
-    required this.deck,
-    required this.currentIndex,
-    required this.dragOffset,
-    required this.flipInProgress,
-  });
-
-  final ListQueue<FlashcardItem> deck;
-  final int currentIndex;
-  final Offset dragOffset;
-  final bool flipInProgress;
-
+class const NextFlashcards({
+  super.key,
+  required final ListQueue<FlashcardItem> deck,
+  required final int currentIndex,
+  required final Offset dragOffset,
+  required final bool flipInProgress,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final eased = Curves.easeOut.transform(dragOffset.dismissProgress);

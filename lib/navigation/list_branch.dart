@@ -14,38 +14,30 @@ const listBranch = TypedStatefulShellBranch<KanjiListBranch>(
   ],
 );
 
-class KanjiListBranch extends StatefulShellBranchData {
-  const KanjiListBranch();
-
+class const KanjiListBranch() extends StatefulShellBranchData {
   static final $navigatorKey = GlobalKey<NavigatorState>();
   static const $restorationScopeId = 'kanjiListBranch';
 }
 
-class KanjiListRoute extends GoRouteData with $KanjiListRoute {
-  const KanjiListRoute();
-
+class const KanjiListRoute() extends GoRouteData with $KanjiListRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const KanjiListScreen();
   }
 }
 
-class KanjiDetailsRoute extends GoRouteData with $KanjiDetailsRoute {
-  const KanjiDetailsRoute(this.id);
-
-  final int id;
-
+class const KanjiDetailsRoute(final int id)
+    extends GoRouteData
+    with $KanjiDetailsRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return KanjiDetailsScreen(id);
   }
 }
 
-class KanjiAnimationRoute extends GoRouteData with $KanjiAnimationRoute {
-  const KanjiAnimationRoute(this.id);
-
-  final int id;
-
+class const KanjiAnimationRoute(final int id)
+    extends GoRouteData
+    with $KanjiAnimationRoute {
   @override
   Page<void> buildPage(BuildContext context, GoRouterState state) {
     return CustomTransitionPage(

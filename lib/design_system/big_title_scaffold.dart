@@ -1,27 +1,18 @@
-import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppBigTitleScaffold extends HookWidget {
-  const AppBigTitleScaffold({
-    super.key,
-    required this.title,
-    required this.scrollController,
-    this.cacheExtent,
-    this.showScrollToTopFab = true,
-    this.bottomChild,
-    required this.slivers,
-  });
-
-  final String title;
-  final ScrollController scrollController;
-  final double? cacheExtent;
-  final bool showScrollToTopFab;
-  final Widget? bottomChild;
-  final List<Widget> slivers;
-
+class const AppBigTitleScaffold({
+  super.key,
+  required final String title,
+  required final ScrollController scrollController,
+  final double? cacheExtent,
+  final bool showScrollToTopFab = true,
+  final Widget? bottomChild,
+  required final List<Widget> slivers,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;

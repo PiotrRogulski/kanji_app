@@ -1,10 +1,6 @@
 import 'package:dio/dio.dart';
 
-class KanjiApi {
-  KanjiApi(this.dio);
-
-  final Dio dio;
-
+class KanjiApi(final Dio dio) {
   Future<String> kanjiSvg(String kanji) async {
     if (kanji.length != 1) {
       throw ArgumentError.value(

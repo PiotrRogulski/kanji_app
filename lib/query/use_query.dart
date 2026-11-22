@@ -33,36 +33,23 @@ import 'package:leancode_hooks/leancode_hooks.dart';
   );
 }
 
-sealed class QueryResult<T extends Object> with EquatableMixin {
-  const QueryResult();
-}
+sealed class const QueryResult<T extends Object>() with Equatable;
 
-final class QueryLoading extends QueryResult<Never> {
-  const QueryLoading();
-
+final class const QueryLoading() extends QueryResult<Never> {
   @override
   List<Object?> get props => [];
 }
 
-sealed class FinalQueryResult<T extends Object> extends QueryResult<T> {
-  const FinalQueryResult();
-}
+sealed class const FinalQueryResult<T extends Object>() extends QueryResult<T>;
 
-final class QuerySuccess<T extends Object> extends FinalQueryResult<T> {
-  const QuerySuccess(this.value);
-
-  final T value;
-
+final class const QuerySuccess<T extends Object>(final T value)
+    extends FinalQueryResult<T> {
   @override
   List<Object?> get props => [value];
 }
 
-final class QueryFailure extends FinalQueryResult<Never> {
-  const QueryFailure(this.error, this.stackTrace);
-
-  final dynamic error;
-  final StackTrace stackTrace;
-
+final class const QueryFailure(final dynamic error, final StackTrace stackTrace)
+    extends FinalQueryResult<Never> {
   bool get isNetworkError => error is SocketException || error is DioException;
 
   @override

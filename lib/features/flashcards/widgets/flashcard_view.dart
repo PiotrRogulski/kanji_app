@@ -1,25 +1,19 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class FlashcardView extends HookWidget {
-  const FlashcardView({
-    super.key,
-    required this.item,
-    this.onFlipInProgressChange,
-    this.hideContent = false,
-  });
-
-  final FlashcardItem item;
-  final ValueChanged<bool>? onFlipInProgressChange;
-  final bool hideContent;
-
+class const FlashcardView({
+  super.key,
+  required final FlashcardItem item,
+  final ValueChanged<bool>? onFlipInProgressChange,
+  final bool hideContent = false,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final controller = useUnboundedAnimationController();

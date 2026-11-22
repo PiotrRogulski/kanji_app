@@ -1,20 +1,13 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/svg_drawing_animation/clipped_path_canvas_proxy.dart';
 import 'package:kanji_app/svg_drawing_animation/pen.dart';
+import 'package:material_ui/material_ui.dart';
 
-class ClippedPathPainter extends CustomPainter {
-  ClippedPathPainter(
-    this.paths, {
-    required this.pathLengthLimit,
-    required this.strokePaint,
-    this.pen,
-  });
-
-  final Iterable<Path> paths;
-  final double pathLengthLimit;
-  final Paint strokePaint;
-  final Pen? pen;
-
+class ClippedPathPainter(
+  final Iterable<Path> paths, {
+  required final double pathLengthLimit,
+  required final Paint strokePaint,
+  final Pen? pen,
+}) extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final proxy = ClippedPathCanvasProxy(

@@ -5,19 +5,12 @@ import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 
-class FlashcardsSession {
-  FlashcardsSession._({
-    required this.totalCount,
-    required this.deck,
-    required this.learnedCount,
-    required this._revision,
-  });
-
-  final int totalCount;
-  final ListQueue<FlashcardItem> deck;
-  final ValueNotifier<int> learnedCount;
-  final ValueNotifier<int> _revision;
-
+class FlashcardsSession._({
+  required final int totalCount,
+  required final ListQueue<FlashcardItem> deck,
+  required final ValueNotifier<int> learnedCount,
+  required final ValueNotifier<int> _revision,
+}) {
   bool get isFinished => deck.isEmpty;
 
   FlashcardItem get current => deck.first;

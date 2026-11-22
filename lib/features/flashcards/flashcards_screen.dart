@@ -1,16 +1,18 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-enum FlashcardMode { kanji, words, mixed }
+enum FlashcardMode() {
+  kanji,
+  words,
+  mixed,
+}
 
-class FlashcardsScreen extends HookWidget {
-  const FlashcardsScreen({super.key});
-
+class const FlashcardsScreen({super.key}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -116,23 +118,14 @@ class FlashcardsScreen extends HookWidget {
   }
 }
 
-class _RangeTextField extends StatelessWidget {
-  const _RangeTextField({
-    required this.controller,
-    required this.labelText,
-    required this.helperText,
-    this.errorText,
-    required this.onChanged,
-    required this.isStart,
-  });
-
-  final TextEditingController controller;
-  final String labelText;
-  final String helperText;
-  final String? errorText;
-  final ValueChanged<String> onChanged;
-  final bool isStart;
-
+class const _RangeTextField({
+  required final TextEditingController controller,
+  required final String labelText,
+  required final String helperText,
+  final String? errorText,
+  required final ValueChanged<String> onChanged,
+  required final bool isStart,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final delegate = _RangeTextFieldLayoutDelegate(
@@ -157,25 +150,15 @@ class _RangeTextField extends StatelessWidget {
   }
 }
 
-class _RangeTextFieldLayoutDelegate extends SingleChildLayoutDelegate {
-  _RangeTextFieldLayoutDelegate({
-    required this.context,
-    required this.isStart,
-    required this.controller,
-    required this.labelText,
-    required this.helperText,
-    this.errorText,
-    required this.onChanged,
-  });
-
-  final BuildContext context;
-  final bool isStart;
-  final TextEditingController controller;
-  final String labelText;
-  final String helperText;
-  final String? errorText;
-  final ValueChanged<String> onChanged;
-
+class _RangeTextFieldLayoutDelegate({
+  required final BuildContext context,
+  required final bool isStart,
+  required final TextEditingController controller,
+  required final String labelText,
+  required final String helperText,
+  final String? errorText,
+  required final ValueChanged<String> onChanged,
+}) extends SingleChildLayoutDelegate {
   double? _cachedHeight;
   double? _cachedWidth;
 
@@ -295,14 +278,10 @@ class _RangeTextFieldLayoutDelegate extends SingleChildLayoutDelegate {
   }
 }
 
-class _RangeInputBorder extends InputBorder {
-  const _RangeInputBorder({
-    required super.borderSide,
-    required this.borderRadius,
-  });
-
-  final BorderRadiusDirectional borderRadius;
-
+class const _RangeInputBorder({
+  required super.borderSide,
+  required final BorderRadiusDirectional borderRadius,
+}) extends InputBorder {
   @override
   bool get isOutline => false;
 

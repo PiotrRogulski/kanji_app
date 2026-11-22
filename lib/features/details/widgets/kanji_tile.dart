@@ -1,15 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/details/widgets/kanji_animation_dialog.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
+import 'package:material_ui/material_ui.dart';
 
-class KanjiTile extends StatelessWidget {
-  const KanjiTile(this.kanji, {super.key});
-
-  final KanjiEntry kanji;
-
+class const KanjiTile(final KanjiEntry kanji, {super.key})
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;

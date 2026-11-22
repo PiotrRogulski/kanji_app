@@ -6,25 +6,16 @@ import 'package:flutter/animation.dart';
 import 'package:flutter/foundation.dart';
 import 'package:kanji_app/svg_drawing_animation/path_info.dart';
 
-class SvgController {
-  SvgController({
-    required this.pathInfo,
-    required this.startDelay,
-    required this.speed,
-    required this.delayBetweenStrokes,
-    required this.strokeAnimationCurve,
-    required AnimationController animationController,
-  }) : _controller = animationController,
-       _strokeTimes = _calculateLengthTimes(pathInfo.partLengths, speed);
-
-  final PathInfo pathInfo;
-  final Duration startDelay;
-  final double speed;
-  final Duration delayBetweenStrokes;
-  final Curve strokeAnimationCurve;
-
-  final AnimationController _controller;
-  final List<Duration> _strokeTimes;
+class SvgController({
+  required final PathInfo pathInfo,
+  required final Duration startDelay,
+  required final double speed,
+  required final Duration delayBetweenStrokes,
+  required final Curve strokeAnimationCurve,
+  required AnimationController animationController,
+}) {
+  final _controller = animationController;
+  final _strokeTimes = _calculateLengthTimes(pathInfo.partLengths, speed);
 
   final _drawnStrokes = ValueNotifier<int?>(null);
 
@@ -106,11 +97,8 @@ class SvgController {
   }
 }
 
-class PathLengthTween extends Animatable<double> {
-  PathLengthTween({required this.partLengths});
-
-  final List<double> partLengths;
-
+class PathLengthTween({required final List<double> partLengths})
+    extends Animatable<double> {
   @override
   double transform(double t) {
     assert(t >= 0 && t <= partLengths.length);

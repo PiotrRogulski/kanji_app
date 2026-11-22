@@ -1,26 +1,19 @@
 import 'dart:collection';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcard_item.dart';
 import 'package:kanji_app/features/flashcards/use_flashcard_animation.dart';
+import 'package:material_ui/material_ui.dart';
 
-class FlashcardGestures extends StatelessWidget {
-  const FlashcardGestures({
-    super.key,
-    required this.animationState,
-    required this.deck,
-    required this.onDismissed,
-    required this.child,
-  });
-
-  final FlashcardAnimationState animationState;
-  final ListQueue<FlashcardItem> deck;
-  final ValueChanged<FlashcardDismissAction> onDismissed;
-  final Widget child;
-
+class const FlashcardGestures({
+  super.key,
+  required final FlashcardAnimationState animationState,
+  required final ListQueue<FlashcardItem> deck,
+  required final ValueChanged<FlashcardDismissAction> onDismissed,
+  required final Widget child,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final handler = _FlashcardPanHandler(
@@ -38,17 +31,11 @@ class FlashcardGestures extends StatelessWidget {
   }
 }
 
-class _FlashcardPanHandler {
-  _FlashcardPanHandler({
-    required this.animationState,
-    required this.deck,
-    required this.onDismissed,
-  });
-
-  final FlashcardAnimationState animationState;
-  final ListQueue<FlashcardItem> deck;
-  final ValueChanged<FlashcardDismissAction> onDismissed;
-
+class _FlashcardPanHandler({
+  required final FlashcardAnimationState animationState,
+  required final ListQueue<FlashcardItem> deck,
+  required final ValueChanged<FlashcardDismissAction> onDismissed,
+}) {
   void onPanStart(DragStartDetails details) {
     if (animationState.flipInProgress.value) {
       return;

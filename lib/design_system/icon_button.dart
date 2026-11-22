@@ -1,24 +1,15 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppIconButton extends StatelessWidget {
-  const AppIconButton({
-    super.key,
-    required this.icon,
-    required this.iconSize,
-    this.onPressed,
-    this.color,
-    this.fill,
-    this.iconPadding,
-  });
-
-  final AppIconData icon;
-  final AppUnit iconSize;
-  final VoidCallback? onPressed;
-  final Color? color;
-  final double? fill;
-  final AppEdgeInsets? iconPadding;
-
+class const AppIconButton({
+  super.key,
+  required final AppIconData icon,
+  required final AppUnit iconSize,
+  final VoidCallback? onPressed,
+  final Color? color,
+  final double? fill,
+  final AppEdgeInsets? iconPadding,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(

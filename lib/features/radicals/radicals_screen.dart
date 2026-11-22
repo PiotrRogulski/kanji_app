@@ -1,15 +1,13 @@
 import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/radicals_data.dart';
 import 'package:kanji_app/features/radicals/radical_entry_view.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-class RadicalsScreen extends HookWidget {
-  const RadicalsScreen({super.key});
-
+class const RadicalsScreen({super.key}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;

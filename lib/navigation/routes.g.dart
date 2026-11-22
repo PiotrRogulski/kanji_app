@@ -19,14 +19,17 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
       routes: [
         GoRouteData.$route(
           path: '/list',
+          hasOverriddenOnExit: false,
           factory: $KanjiListRoute._fromState,
           routes: [
             GoRouteData.$route(
               path: ':id',
+              hasOverriddenOnExit: false,
               factory: $KanjiDetailsRoute._fromState,
               routes: [
                 GoRouteData.$route(
                   path: 'kanji-animation',
+                  hasOverriddenOnExit: false,
                   factory: $KanjiAnimationRoute._fromState,
                 ),
               ],
@@ -41,6 +44,7 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
       routes: [
         GoRouteData.$route(
           path: '/radicals',
+          hasOverriddenOnExit: false,
           factory: $RadicalsRoute._fromState,
         ),
       ],
@@ -51,10 +55,12 @@ RouteBase get $rootRoute => StatefulShellRouteData.$route(
       routes: [
         GoRouteData.$route(
           path: '/flashcards',
+          hasOverriddenOnExit: false,
           factory: $FlashcardsRoute._fromState,
           routes: [
             GoRouteData.$route(
               path: 'play',
+              hasOverriddenOnExit: false,
               factory: $FlashcardsPlayRoute._fromState,
             ),
           ],

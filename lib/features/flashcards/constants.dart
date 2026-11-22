@@ -19,7 +19,10 @@ const flashcardHeightMax = 1600.0;
 const flashcardKanjiFontSize = 140.0;
 const flashcardWordFontSize = 80.0;
 
-enum FlashcardDismissAction { learned, skipped }
+enum FlashcardDismissAction() {
+  learned,
+  skipped,
+}
 
 extension FlashcardDismissOffsetExtension on Offset {
   double get dismissProgress =>

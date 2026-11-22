@@ -9,33 +9,23 @@ const flashcardsBranch = TypedStatefulShellBranch<FlashcardsBranch>(
   ],
 );
 
-class FlashcardsBranch extends StatefulShellBranchData {
-  const FlashcardsBranch();
-
+class const FlashcardsBranch() extends StatefulShellBranchData {
   static final $navigatorKey = GlobalKey<NavigatorState>();
   static const $restorationScopeId = 'flashcardsBranch';
 }
 
-class FlashcardsRoute extends GoRouteData with $FlashcardsRoute {
-  const FlashcardsRoute();
-
+class const FlashcardsRoute() extends GoRouteData with $FlashcardsRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const FlashcardsScreen();
   }
 }
 
-class FlashcardsPlayRoute extends GoRouteData with $FlashcardsPlayRoute {
-  const FlashcardsPlayRoute({
-    required this.startId,
-    required this.endId,
-    required this.mode,
-  });
-
-  final int startId;
-  final int endId;
-  final FlashcardMode mode;
-
+class const FlashcardsPlayRoute({
+  required final int startId,
+  required final int endId,
+  required final FlashcardMode mode,
+}) extends GoRouteData with $FlashcardsPlayRoute {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return FlashcardsPlayScreen(startId: startId, endId: endId, mode: mode);

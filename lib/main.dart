@@ -2,7 +2,6 @@ import 'package:cached_query_flutter/cached_query_flutter.dart';
 import 'package:cached_storage/cached_storage.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/features/kanji_data/loader.dart';
 import 'package:kanji_app/kanji_api.dart';
@@ -11,6 +10,7 @@ import 'package:kanji_app/navigation/router.dart';
 import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:logging/logging.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 import 'package:provider/provider.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -63,9 +63,7 @@ void main() async {
   );
 }
 
-class MainApp extends HookWidget {
-  const MainApp({super.key});
-
+class const MainApp({super.key}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final router = useGoRouter();
@@ -73,7 +71,10 @@ class MainApp extends HookWidget {
     return MaterialApp.router(
       routerConfig: router,
       theme: appTheme(),
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      localizationsDelegates: const [
+        ...GlobalMaterialLocalizations.delegates,
+        ...AppLocalizations.localizationsDelegates,
+      ],
       supportedLocales: AppLocalizations.supportedLocales,
     );
   }

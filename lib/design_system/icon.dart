@@ -1,24 +1,16 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppIcon extends HookWidget {
-  const AppIcon(
-    this.icon, {
-    super.key,
-    required this.size,
-    this.color,
-    this.fill,
-    this.weight,
-  });
-
-  final AppIconData icon;
-  final AppUnit size;
-  final Color? color;
-  final double? fill;
-  final AppDynamicWeight? weight;
-
+class const AppIcon(
+  final AppIconData icon, {
+  super.key,
+  required final AppUnit size,
+  final Color? color,
+  final double? fill,
+  final AppDynamicWeight? weight,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final size = useValueSpring(this.size);

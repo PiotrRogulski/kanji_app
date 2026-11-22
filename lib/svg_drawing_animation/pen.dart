@@ -1,8 +1,3 @@
 import 'dart:ui';
 
-class Pen {
-  Pen({required this.paint, required this.radius});
-
-  final Paint paint;
-  final double radius;
-}
+class Pen({required final Paint paint, required final double radius});

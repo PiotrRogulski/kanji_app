@@ -1,27 +1,19 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppButtonSegment<T> {
-  const AppButtonSegment({required this.value, required this.label});
+class const AppButtonSegment<T>({
+  required final T value,
+  required final String label,
+});
 
-  final T value;
-  final String label;
-}
-
-class AppConnectedButtonGroup<T> extends StatelessWidget {
-  const AppConnectedButtonGroup({
-    super.key,
-    required this.segments,
-    required this.selected,
-    required this.onSelectionChanged,
-  });
-
-  final List<AppButtonSegment<T>> segments;
-  final T selected;
-  final ValueChanged<T> onSelectionChanged;
-
+class const AppConnectedButtonGroup<T>({
+  super.key,
+  required final List<AppButtonSegment<T>> segments,
+  required final T selected,
+  required final ValueChanged<T> onSelectionChanged,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IntrinsicHeight(
@@ -49,7 +41,7 @@ enum _SegmentPosition {
   middle,
   last;
 
-  factory _SegmentPosition.fromIndex(int index, int length) {
+  factory fromIndex(int index, int length) {
     if (index == 0) {
       return first;
     } else if (index == length - 1) {
@@ -60,20 +52,13 @@ enum _SegmentPosition {
   }
 }
 
-class _Segment<T> extends HookWidget {
-  const _Segment({
-    required this.segment,
-    required this.selectedValue,
-    required this.onSelectionChanged,
-    required this.position,
-    super.key,
-  });
-
-  final AppButtonSegment<T> segment;
-  final T selectedValue;
-  final ValueChanged<T> onSelectionChanged;
-  final _SegmentPosition position;
-
+class const _Segment<T>({
+  required final AppButtonSegment<T> segment,
+  required final T selectedValue,
+  required final ValueChanged<T> onSelectionChanged,
+  required final _SegmentPosition position,
+  super.key,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -91,7 +76,7 @@ class _Segment<T> extends HookWidget {
 
     final stadiumProgress = useValueSpring(
       selected ? 1 : 0,
-      ratio: selected ? 1 : 0.5,
+      spring: selected ? null : Springs.expressiveFastSpatial,
     );
 
     final checkmarkScale = useValueSpring(selected ? 1 : 0);

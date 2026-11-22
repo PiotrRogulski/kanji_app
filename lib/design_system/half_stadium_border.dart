@@ -1,12 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class HalfStadiumBorder extends ShapeBorder {
-  const HalfStadiumBorder({this.startRadius, this.endRadius});
-
-  final AppUnit? startRadius;
-  final AppUnit? endRadius;
-
+class const HalfStadiumBorder({
+  final AppUnit? startRadius,
+  final AppUnit? endRadius,
+}) extends ShapeBorder {
   @override
   EdgeInsetsGeometry get dimensions => .zero;
 

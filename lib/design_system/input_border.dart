@@ -1,20 +1,14 @@
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppInputBorder extends InputBorder {
-  const AppInputBorder({
-    super.borderSide,
-    this.borderRadius = .medium,
-    this.gapPadding = .xsmall,
-  });
-
-  final AppUnit borderRadius;
-
-  final AppUnit gapPadding;
-
+class const AppInputBorder({
+  super.borderSide,
+  final AppUnit borderRadius = .medium,
+  final AppUnit gapPadding = .xsmall,
+}) extends InputBorder {
   @override
   bool get isOutline => true;
 

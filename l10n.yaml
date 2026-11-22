@@ -4,3 +4,5 @@ output-localization-file: app_l10n.dart
 output-dir: lib/l10n
 nullable-getter: false
 format: true
+header: |
+  // ignore_for_file: deprecated_member_use

@@ -1,33 +1,29 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppPadding extends Padding {
-  const AppPadding({
-    super.key,
-    required AppEdgeInsets super.padding,
-    super.child,
-  });
-}
+class const AppPadding({
+  super.key,
+  required AppEdgeInsets super.padding,
+  super.child,
+}) extends Padding;
 
-class AppSliverPadding extends SliverPadding {
-  const AppSliverPadding({
-    super.key,
-    required AppEdgeInsets super.padding,
-    super.sliver,
-  });
-}
+class const AppSliverPadding({
+  super.key,
+  required AppEdgeInsets super.padding,
+  super.sliver,
+}) extends SliverPadding;
 
 class AppEdgeInsets extends EdgeInsetsDirectional {
-  const AppEdgeInsets.all(AppUnit super.value) : super.all();
+  const new all(AppUnit super.value) : super.all();
 
-  const AppEdgeInsets.only({
+  const new only({
     AppUnit super.start = .zero,
     AppUnit super.top = .zero,
     AppUnit super.end = .zero,
     AppUnit super.bottom = .zero,
   }) : super.only();
 
-  const AppEdgeInsets.symmetric({
+  const new symmetric({
     AppUnit super.horizontal = .zero,
     AppUnit super.vertical = .zero,
   }) : super.symmetric();

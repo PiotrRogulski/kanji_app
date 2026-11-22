@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 ThemeData appTheme() {
   final colorScheme = ColorScheme.fromSeed(seedColor: const .new(0xFFC8AE7E));

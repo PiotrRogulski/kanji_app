@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
@@ -10,11 +9,10 @@ import 'package:kanji_app/features/list/kanji_search.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:kanji_app/widgets/readings.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-class KanjiListScreen extends HookWidget {
-  const KanjiListScreen({super.key});
-
+class const KanjiListScreen({super.key}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -69,11 +67,7 @@ class KanjiListScreen extends HookWidget {
   }
 }
 
-class _Entry extends StatelessWidget {
-  const _Entry(this.entry);
-
-  final KanjiEntry entry;
-
+class const _Entry(final KanjiEntry entry) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

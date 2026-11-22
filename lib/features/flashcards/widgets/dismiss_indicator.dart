@@ -1,16 +1,15 @@
 import 'dart:ui';
 
-import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class FlashcardDismissIndicator extends HookWidget {
-  const FlashcardDismissIndicator({super.key, required this.dragOffset});
-
-  final Offset dragOffset;
-
+class const FlashcardDismissIndicator({
+  super.key,
+  required final Offset dragOffset,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
@@ -25,9 +24,8 @@ class FlashcardDismissIndicator extends HookWidget {
     final indicatorColor = useColorSpring(color);
 
     final armedScale = useValueSpring(
-      isArmed ? 1.25 : 1,
-      ratio: 0.5,
-      stiffness: 1000,
+      isArmed ? 1.5 : 1,
+      spring: Springs.expressiveFastSpatial,
     );
 
     return Opacity(

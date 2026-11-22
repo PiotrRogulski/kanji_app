@@ -1,11 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class KanjiGridPainter extends CustomPainter {
-  KanjiGridPainter({required this.colorScheme});
-
-  final ColorScheme colorScheme;
-
+class KanjiGridPainter({required final ColorScheme colorScheme})
+    extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final side = size.longestSide;

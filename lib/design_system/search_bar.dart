@@ -1,23 +1,16 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 
-class JDSearchBar extends HookWidget {
-  const JDSearchBar({
-    super.key,
-    required this.controller,
-    this.onSubmitted,
-    this.autoFocus = false,
-    this.hintText,
-  });
-
-  final TextEditingController controller;
-  final ValueChanged<String>? onSubmitted;
-  final bool autoFocus;
-  final String? hintText;
-
+class const JDSearchBar({
+  super.key,
+  required final TextEditingController controller,
+  final ValueChanged<String>? onSubmitted,
+  final bool autoFocus = false,
+  final String? hintText,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -27,7 +20,10 @@ class JDSearchBar extends HookWidget {
       () => controller.text.isEmpty,
     );
 
-    final progress = useValueSpring(searchEmpty ? 0 : 1, stiffness: 1000);
+    final progress = useValueSpring(
+      searchEmpty ? 0 : 1,
+      spring: Springs.expressiveSlowEffects,
+    );
 
     return Row(
       children: [

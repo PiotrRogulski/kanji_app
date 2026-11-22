@@ -1,21 +1,18 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-const _bubbleSize = 64.0;
+const _bubbleSize = 48.0;
 const _triggerThreshold = 100.0;
 
-class KanjiSwipeSwitcher extends HookWidget {
-  const KanjiSwipeSwitcher({super.key, required this.child});
-
-  final Widget child;
-
+class const KanjiSwipeSwitcher({super.key, required final Widget child})
+    extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final kanjiData = context.read<KanjiData>();
@@ -24,44 +21,38 @@ class KanjiSwipeSwitcher extends HookWidget {
     final previousEntry = kanjiData.get(entry.id - 1);
     final nextEntry = kanjiData.get(entry.id + 1);
 
-    final rawDragOffset = useState<double>(0);
-    final dragOffset = useValueSpring(rawDragOffset.value, stiffness: 5000);
+    final dragOffset = useState<double>(0);
 
     void onDragEnd() {
-      if (rawDragOffset.value > _triggerThreshold && previousEntry != null) {
+      if (dragOffset.value > _triggerThreshold && previousEntry != null) {
         KanjiDetailsRoute(previousEntry.id).go(context);
-      } else if (rawDragOffset.value < -_triggerThreshold &&
-          nextEntry != null) {
+      } else if (dragOffset.value < -_triggerThreshold && nextEntry != null) {
         KanjiDetailsRoute(nextEntry.id).go(context);
       }
-      rawDragOffset.value = 0;
+      dragOffset.value = 0;
     }
 
     return GestureDetector(
       onHorizontalDragUpdate: (details) {
-        rawDragOffset.value += details.delta.dx;
+        dragOffset.value += details.delta.dx;
       },
       onHorizontalDragCancel: onDragEnd,
       onHorizontalDragEnd: (_) => onDragEnd(),
       child: Stack(
         children: [
           Positioned.fill(child: child),
-          if (previousEntry != null && dragOffset > 0)
-            _PositionedKanjiPreview(previousEntry, dragOffset),
-          if (nextEntry != null && dragOffset < 0)
-            _PositionedKanjiPreview(nextEntry, dragOffset),
+          if (previousEntry != null && dragOffset.value > 0)
+            _PositionedKanjiPreview(previousEntry, dragOffset.value),
+          if (nextEntry != null && dragOffset.value < 0)
+            _PositionedKanjiPreview(nextEntry, dragOffset.value),
         ],
       ),
     );
   }
 }
 
-class _PositionedKanjiPreview extends StatelessWidget {
-  const _PositionedKanjiPreview(this.entry, this.offset);
-
-  final KanjiEntry entry;
-  final double offset;
-
+class const _PositionedKanjiPreview(final KanjiEntry entry, final double offset)
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned.directional(
@@ -74,14 +65,12 @@ class _PositionedKanjiPreview extends StatelessWidget {
   }
 }
 
-class _KanjiPreviewBubble extends HookWidget {
-  _KanjiPreviewBubble(this.entry, {required double offset})
-    : percentArmed = (offset / _triggerThreshold).clamp(0, 1),
-      stretch = max(0, offset - _triggerThreshold);
-
-  final KanjiEntry entry;
-  final double percentArmed;
-  final double stretch;
+// https://github.com/dart-lang/sdk/issues/64037
+// ignore: prefer_const_constructors_in_immutables
+class _KanjiPreviewBubble(final KanjiEntry entry, {required double offset})
+    extends HookWidget {
+  final double percentArmed = (offset / _triggerThreshold).clamp(0, 1);
+  final double stretch = max(0, offset - _triggerThreshold);
 
   @override
   Widget build(BuildContext context) {
@@ -92,7 +81,10 @@ class _KanjiPreviewBubble extends HookWidget {
       isArmed,
       (_, _) => isArmed ? HapticFeedback.lightImpact() : null,
     );
-    final scale = useValueSpring(isArmed ? 1 : 0.75, ratio: 0.5);
+    final scale = useValueSpring(
+      isArmed ? 1.5 : 1,
+      spring: Springs.expressiveFastSpatial,
+    );
 
     return Center(
       child: Transform.scale(
@@ -121,7 +113,7 @@ class _KanjiPreviewBubble extends HookWidget {
             child: Center(
               child: Text(
                 entry.kanji,
-                style: theme.textTheme.headlineLarge?.copyWith(height: 1),
+                style: theme.textTheme.headlineMedium?.copyWith(height: 1),
               ),
             ),
           ),

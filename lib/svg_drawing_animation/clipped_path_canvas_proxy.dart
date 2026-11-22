@@ -1,20 +1,14 @@
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:kanji_app/svg_drawing_animation/pen.dart';
+import 'package:material_ui/material_ui.dart';
 
-class ClippedPathCanvasProxy implements Canvas {
-  ClippedPathCanvasProxy(
-    this.canvas, {
-    required this.pathLengthLimit,
-    this.pen,
-  });
-
-  final Canvas canvas;
-  final double pathLengthLimit;
-  final Pen? pen;
-
+class ClippedPathCanvasProxy(
+  final Canvas canvas, {
+  required final double pathLengthLimit,
+  final Pen? pen,
+}) implements Canvas {
   double _drawnPathLength = 0;
 
   @override

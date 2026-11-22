@@ -21,5 +21,5 @@ Future<int> main() async {
     stderr.addStream(process.stderr),
   ).wait;
 
-  return process.exitCode;
+  return await process.exitCode;
 }

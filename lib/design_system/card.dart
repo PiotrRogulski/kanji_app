@@ -1,12 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class AppCard extends StatelessWidget {
-  const AppCard({super.key, this.onTap, required this.child});
-
-  final VoidCallback? onTap;
-  final Widget child;
-
+class const AppCard({
+  super.key,
+  final VoidCallback? onTap,
+  required final Widget child,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card.filled(

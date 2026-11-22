@@ -1,13 +1,17 @@
 import 'package:equatable/equatable.dart';
 
-class RadicalsData {
-  const RadicalsData(this.entries);
+class const RadicalsData(final List<RadicalEntry> entries);
 
-  final List<RadicalEntry> entries;
-}
-
-class RadicalEntry with EquatableMixin {
-  factory RadicalEntry({
+class const RadicalEntry._({
+  required final int id,
+  required final int strokeCount,
+  required final List<String> radicals,
+  required final String names,
+  required final List<RelatedRadical> relatedRadicals,
+  required final List<String> examples,
+  required final String meaning,
+}) with Equatable {
+  factory({
     required int id,
     required int strokeCount,
     required List<String> radicals,
@@ -27,17 +31,7 @@ class RadicalEntry with EquatableMixin {
     );
   }
 
-  const RadicalEntry._({
-    required this.id,
-    required this.strokeCount,
-    required this.radicals,
-    required this.names,
-    required this.relatedRadicals,
-    required this.examples,
-    required this.meaning,
-  });
-
-  factory RadicalEntry.fromJson(Map<String, dynamic> json) => RadicalEntry(
+  factory fromJson(Map<String, dynamic> json) => RadicalEntry(
     id: json['id'] as int,
     strokeCount: json['strokeCount'] as int,
     radicals: (json['radicals'] as List).cast(),
@@ -77,14 +71,6 @@ class RadicalEntry with EquatableMixin {
     return (primaryNames, related);
   }
 
-  final int id;
-  final int strokeCount;
-  final List<String> radicals;
-  final String names;
-  final List<RelatedRadical> relatedRadicals;
-  final List<String> examples;
-  final String meaning;
-
   @override
   List<Object?> get props => [
     id,
@@ -97,12 +83,10 @@ class RadicalEntry with EquatableMixin {
   ];
 }
 
-class RelatedRadical with EquatableMixin {
-  const RelatedRadical({required this.radical, required this.strokeCount});
-
-  final String radical;
-  final int strokeCount;
-
+class const RelatedRadical({
+  required final String radical,
+  required final int strokeCount,
+}) with Equatable {
   @override
   List<Object?> get props => [radical, strokeCount];
 }

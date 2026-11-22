@@ -1,21 +1,16 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
-import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
+import 'package:custom_adaptive_scaffold/custom_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:material_ui/material_ui.dart' hide NavigationDestination;
 
-class ScaffoldWithNavBar extends StatelessWidget {
-  const ScaffoldWithNavBar({
-    required this.navigationShell,
-    required this.children,
-    super.key,
-  });
-
-  final StatefulNavigationShell navigationShell;
-  final List<Widget> children;
-
+class const ScaffoldWithNavBar({
+  required final StatefulNavigationShell navigationShell,
+  required final List<Widget> children,
+  super.key,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -100,16 +95,11 @@ class ScaffoldWithNavBar extends StatelessWidget {
   }
 }
 
-class AnimatedBranchContainer extends StatelessWidget {
-  const AnimatedBranchContainer({
-    super.key,
-    required this.currentIndex,
-    required this.children,
-  });
-
-  final int currentIndex;
-  final List<Widget> children;
-
+class const AnimatedBranchContainer({
+  super.key,
+  required final int currentIndex,
+  required final List<Widget> children,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final baseOffset = switch (Breakpoints.small.isActive(context)) {
@@ -142,18 +132,21 @@ class AnimatedBranchContainer extends StatelessWidget {
   }
 }
 
-class AppNavigationDestination extends NavigationDestination {
-  AppNavigationDestination({
-    super.key,
-    required super.label,
-    required AppIconData icon,
-    required bool selected,
-  }) : super(
-         icon: AppIcon(
-           icon,
-           size: .large,
-           fill: selected ? 1 : 0,
-           weight: selected ? .bold : .light,
-         ),
-       );
+// https://github.com/dart-lang/sdk/issues/64037
+// ignore: prefer_const_constructors_in_immutables
+class AppNavigationDestination({
+  super.key,
+  required super.label,
+  required AppIconData icon,
+  required bool selected,
+}) extends NavigationDestination {
+  this
+    : super(
+        icon: AppIcon(
+          icon,
+          size: .large,
+          fill: selected ? 1 : 0,
+          weight: selected ? .bold : .light,
+        ),
+      );
 }

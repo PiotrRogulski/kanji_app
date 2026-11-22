@@ -16,14 +16,10 @@ const outputFile = 'lib/design_system/icons.dart';
 const header = '''
 import 'package:flutter/widgets.dart';
 
-enum AppIconData {
+enum AppIconData(final IconData iconData) {
 ''';
 
 const footer = '''
-  const AppIconData(this.iconData);
-
-  final IconData iconData;
-
   static const fontFamily = 'Material Symbols Rounded';
 }''';
 

@@ -1,12 +1,16 @@
 include: package:leancode_lint/analysis_options.yaml
 
 plugins:
-  leancode_lint: ^22.0.0
+  leancode_lint:
+    version: ^28.0.0
+    diagnostics:
+      prefer_dot_shorthand: true
 
 analyzer:
   exclude:
     - '**.g.dart'
-
-linter:
-  rules:
-    unsafe_variance: false
+    - build/**
+    - android/**
+    - web/**
+    - macos/**
+    - linux/**

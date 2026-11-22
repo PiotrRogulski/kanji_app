@@ -1,14 +1,13 @@
 import 'package:collection/collection.dart';
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class KanjiReadings extends StatelessWidget {
-  KanjiReadings(Iterable<String> readings, {super.key})
-    : kunyomi = readings.where(_hiraganaRegex.hasMatch).toList(),
-      onyomi = readings.whereNot(_hiraganaRegex.hasMatch).toList();
-
-  final List<String> onyomi;
-  final List<String> kunyomi;
+// https://github.com/dart-lang/sdk/issues/64037
+// ignore: prefer_const_constructors_in_immutables
+class KanjiReadings(Iterable<String> readings, {super.key})
+    extends StatelessWidget {
+  final onyomi = readings.whereNot(_hiraganaRegex.hasMatch).toList();
+  final kunyomi = readings.where(_hiraganaRegex.hasMatch).toList();
 
   static final _hiraganaRegex = RegExp(r'^\p{Script=Hiragana}', unicode: true);
 
@@ -26,11 +25,8 @@ class KanjiReadings extends StatelessWidget {
   }
 }
 
-class _ReadingsColumn extends StatelessWidget {
-  const _ReadingsColumn(this.readings);
-
-  final List<String> readings;
-
+class const _ReadingsColumn(final List<String> readings)
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

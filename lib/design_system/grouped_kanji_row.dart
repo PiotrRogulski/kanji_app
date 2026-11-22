@@ -1,18 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:material_ui/material_ui.dart';
 
-class GroupedKanjiRow extends StatelessWidget {
-  const GroupedKanjiRow({
-    super.key,
-    this.onItemTapHandlerGetter,
-    required this.label,
-    required this.items,
-  });
-
-  final VoidCallback? Function(String item)? onItemTapHandlerGetter;
-  final String label;
-  final List<String> items;
-
+class const GroupedKanjiRow({
+  super.key,
+  final VoidCallback? Function(String item)? onItemTapHandlerGetter,
+  required final String label,
+  required final List<String> items,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -50,19 +44,12 @@ class GroupedKanjiRow extends StatelessWidget {
   }
 }
 
-class _Item extends StatelessWidget {
-  const _Item({
-    required this.onTap,
-    required this.isFirst,
-    required this.isLast,
-    required this.item,
-  });
-
-  final VoidCallback? onTap;
-  final bool isFirst;
-  final bool isLast;
-  final String item;
-
+class const _Item({
+  required final VoidCallback? onTap,
+  required final bool isFirst,
+  required final bool isLast,
+  required final String item,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

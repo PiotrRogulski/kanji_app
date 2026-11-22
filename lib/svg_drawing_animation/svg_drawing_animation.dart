@@ -1,21 +1,15 @@
-import 'package:flutter/material.dart' hide ErrorWidgetBuilder;
 import 'package:kanji_app/svg_drawing_animation/clipped_path_painter.dart';
 import 'package:kanji_app/svg_drawing_animation/pen.dart';
 import 'package:kanji_app/svg_drawing_animation/svg_controller.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
+import 'package:material_ui/material_ui.dart' hide ErrorWidgetBuilder;
 
-class SvgDrawingAnimation extends HookWidget {
-  const SvgDrawingAnimation({
-    super.key,
-    required this.controller,
-    required this.strokePaint,
-    this.pen,
-  });
-
-  final SvgController controller;
-  final Paint strokePaint;
-  final Pen? pen;
-
+class const SvgDrawingAnimation({
+  super.key,
+  required final SvgController controller,
+  required final Paint strokePaint,
+  final Pen? pen,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = ColorScheme.of(context);
