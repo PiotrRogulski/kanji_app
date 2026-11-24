@@ -8,6 +8,7 @@ class const KanjiData(final List<KanjiEntry> entries) {
 class const KanjiEntry({
   required final int id,
   required final String kanji,
+  required final String meaning,
   final int? radical,
   final String? radicalForm,
   required final List<String> readings,
@@ -19,6 +20,7 @@ class const KanjiEntry({
     : this(
         id: json['id'] as int,
         kanji: json['kanji'] as String,
+        meaning: json['meaning'] as String,
         radical: json['radical'] as int?,
         radicalForm: json['radicalForm'] as String?,
         readings: ((json['readings'] as List?) ?? []).cast(),
@@ -40,6 +42,7 @@ class const KanjiEntry({
   List<Object?> get props => [
     id,
     kanji,
+    meaning,
     radical,
     radicalForm,
     readings,
