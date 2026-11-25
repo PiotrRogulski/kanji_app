@@ -74,10 +74,7 @@ class const MainApp({super.key}) extends HookWidget {
     return MaterialApp.router(
       routerConfig: router,
       theme: appTheme(),
-      localizationsDelegates: const [
-        ...GlobalMaterialLocalizations.delegates,
-        ...AppLocalizations.localizationsDelegates,
-      ],
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
     );
   }

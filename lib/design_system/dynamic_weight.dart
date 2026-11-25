@@ -13,10 +13,10 @@ const _stateMap = {
   WidgetState.any: (AppDynamicWeight.light, 0.0),
 };
 
-typedef DynamicWeightData = ({
-  AppDynamicWeight weight,
-  double fill,
-  WidgetStatesController controller,
+class const DynamicWeightData({
+  required final AppDynamicWeight weight,
+  required final double fill,
+  required final WidgetStatesController controller,
 });
 
 class const DynamicWeight({super.key, required final Widget child})
@@ -27,7 +27,11 @@ class const DynamicWeight({super.key, required final Widget child})
     if (data == null) {
       return null;
     }
-    return (weight: data.weight, fill: data.fill, controller: data.controller);
+    return .new(
+      weight: data.weight,
+      fill: data.fill,
+      controller: data.controller,
+    );
   }
 
   static DynamicWeightData of(BuildContext context) {

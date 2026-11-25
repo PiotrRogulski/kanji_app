@@ -17,9 +17,6 @@ class AppBorderRadius extends BorderRadiusDirectional {
     super.bottomEnd,
   }) : super.only();
 
-  const new _zero() : super.all(.zero);
-  static const zero = AppBorderRadius._zero();
-
   @override
   AppBorderRadius operator *(double other) => ._only(
     topStart: topStart * other,

@@ -69,10 +69,10 @@ packages:
     dependency: transitive
     description:
       name: bloc
-      sha256: e03b235924e4f509c27b5d6b2f949200e0a91149a9818b4f65eeb56662b75413
+      sha256: c3e0f19010c7a337d789b17993863563e6847f17871bcd0b96232cded59d675c
       url: "https://pub.dev"
     source: hosted
-    version: "9.2.1"
+    version: "9.2.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -1103,10 +1103,10 @@ packages:
     dependency: transitive
     description:
       name: sqlite3
-      sha256: "8765980411f9b6733534efe9d014fad0750fa649590598772c04692deb34886b"
+      sha256: "1ae2e821614e7b69628ecb64273e8bc5401b14ab166ee7ea0035c35bb136cbd7"
       url: "https://pub.dev"
     source: hosted
-    version: "3.9.1"
+    version: "3.9.2"
   stack_trace:
     dependency: transitive
     description:
@@ -1372,5 +1372,5 @@ packages:
     source: hosted
     version: "2.2.4"
 sdks:
-  dart: ">=3.15.0-171.0.dev <4.0.0"
-  flutter: ">=3.51.0-1.0.pre-285 <4.0.0"
+  dart: ">=3.15.0-178.0.dev <4.0.0"
+  flutter: ">=3.51.0-1.0.pre-375 <4.0.0"

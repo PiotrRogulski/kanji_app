@@ -7,7 +7,11 @@ import 'package:characters/characters.dart';
 import 'package:excel/excel.dart';
 import 'package:file/local.dart';
 
-typedef Word = ({String kanji, String? reading});
+class const Word({required final String kanji, required final String? reading});
+class const WordRequiredLater({
+  required final Word word,
+  required final int reference,
+});
 
 const fs = LocalFileSystem();
 
@@ -55,7 +59,7 @@ Future<void> extractWords(Excel excel) async {
     final readings = row[2]!.value!.toString().split('、');
 
     final wordsRequiredNow = <Word>[];
-    final wordsRequiredLater = <({Word word, int reference})>[];
+    final wordsRequiredLater = <WordRequiredLater>[];
     final additionalWords = <Word>[];
 
     for (final word in row.skip(3).map((e) => e?.value?.toString()).nonNulls) {
@@ -65,17 +69,21 @@ Future<void> extractWords(Excel excel) async {
       final reference = parts.elementAtOrNull(2);
 
       if (word.startsWith('＊')) {
-        wordsRequiredLater.add((
-          word: (kanji: kanji.substring(1), reading: reading),
-          reference: .tryParse(reference ?? '') ?? 0,
-        ));
+        wordsRequiredLater.add(
+          .new(
+            word: .new(kanji: kanji.substring(1), reading: reading),
+            reference: .tryParse(reference ?? '') ?? 0,
+          ),
+        );
       } else if (word.startsWith('ciekawostka: ')) {
-        additionalWords.add((
-          kanji: kanji.substring('ciekawostka: '.length),
-          reading: reading,
-        ));
+        additionalWords.add(
+          .new(
+            kanji: kanji.substring('ciekawostka: '.length),
+            reading: reading,
+          ),
+        );
       } else {
-        wordsRequiredNow.add((kanji: kanji, reading: reading));
+        wordsRequiredNow.add(.new(kanji: kanji, reading: reading));
       }
     }
 

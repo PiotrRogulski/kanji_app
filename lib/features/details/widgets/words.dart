@@ -8,10 +8,9 @@ import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
-typedef _SliverWordsSectionData = ({
-  String title,
-  List<KanjiWord> words,
-  bool showRef,
+class const _SliverWordsSectionData({
+  required final String title,
+  required final List<KanjiWord> words,
 });
 
 class const SliverKanjiWords({super.key}) extends StatelessWidget {
@@ -20,25 +19,16 @@ class const SliverKanjiWords({super.key}) extends StatelessWidget {
     final s = context.l10n;
     final entry = context.watch<KanjiEntry>();
 
-    final sections = [
+    final sections = <_SliverWordsSectionData>[
       if (entry.wordsRequiredNow.isNotEmpty)
-        (
-          title: s.kanji_wordsRequiredNow,
-          words: entry.wordsRequiredNow,
-          showRef: false,
-        ),
+        .new(title: s.kanji_wordsRequiredNow, words: entry.wordsRequiredNow),
       if (entry.wordsRequiredLater.isNotEmpty)
-        (
+        .new(
           title: s.kanji_wordsRequiredLater,
           words: entry.wordsRequiredLater,
-          showRef: true,
         ),
       if (entry.additionalWords.isNotEmpty)
-        (
-          title: s.kanji_additionalWords,
-          words: entry.additionalWords,
-          showRef: false,
-        ),
+        .new(title: s.kanji_additionalWords, words: entry.additionalWords),
     ];
 
     return SliverMainAxisGroup(
@@ -69,11 +59,8 @@ class const _SliverWordsSection(final _SliverWordsSectionData section)
         AppUnit.tiny.sliverGap,
         SliverList.separated(
           itemCount: section.words.length,
-          itemBuilder: (context, i) => _WordTile(
-            section.words[i],
-            section.words,
-            showReference: section.showRef,
-          ),
+          itemBuilder: (context, i) =>
+              _WordTile(section.words[i], section.words),
           separatorBuilder: (context, _) => AppUnit.small.gap,
         ),
       ],
@@ -81,11 +68,8 @@ class const _SliverWordsSection(final _SliverWordsSectionData section)
   }
 }
 
-class const _WordTile(
-  final KanjiWord word,
-  final List<KanjiWord> allWords, {
-  final bool showReference = false,
-}) extends StatelessWidget {
+class const _WordTile(final KanjiWord word, final List<KanjiWord> allWords)
+    extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);

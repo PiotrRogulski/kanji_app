@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -89,13 +87,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get kanjiList_title => 'Znaki';
 
   @override
-  String get kanjiSets_title => 'Zestawy';
-
-  @override
   String get kanji_additionalWords => 'Dodatkowe';
-
-  @override
-  String get kanji_antonyms => 'Antonimy';
 
   @override
   String get kanji_radical => 'Pierwiastek';
@@ -105,9 +97,6 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get kanji_strokeOrder => 'Kolejność pisania';
-
-  @override
-  String get kanji_synonyms => 'Synonimy';
 
   @override
   String get kanji_wordsRequiredLater => 'Na później';

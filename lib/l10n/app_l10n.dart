@@ -1,10 +1,8 @@
-// ignore_for_file: deprecated_member_use
-
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:material_ui/material_ui.dart' show GlobalMaterialLocalizations;
 import 'package:intl/intl.dart' as intl;
 
 import 'app_l10n_pl.dart';
@@ -79,8 +77,7 @@ abstract class AppLocalizations {
   /// delegates.
   ///
   /// Returns a list of localizations delegates containing this delegate along with
-  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
-  /// and GlobalWidgetsLocalizations.delegate.
+  /// GlobalMaterialLocalizations.delegates.
   ///
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
@@ -88,9 +85,7 @@ abstract class AppLocalizations {
   static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
       <LocalizationsDelegate<dynamic>>[
         delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
+        ...GlobalMaterialLocalizations.delegates,
       ];
 
   /// A list of this localizations delegate's supported locales.
@@ -240,23 +235,11 @@ abstract class AppLocalizations {
   /// **'Znaki'**
   String get kanjiList_title;
 
-  /// No description provided for @kanjiSets_title.
-  ///
-  /// In pl, this message translates to:
-  /// **'Zestawy'**
-  String get kanjiSets_title;
-
   /// No description provided for @kanji_additionalWords.
   ///
   /// In pl, this message translates to:
   /// **'Dodatkowe'**
   String get kanji_additionalWords;
-
-  /// No description provided for @kanji_antonyms.
-  ///
-  /// In pl, this message translates to:
-  /// **'Antonimy'**
-  String get kanji_antonyms;
 
   /// No description provided for @kanji_radical.
   ///
@@ -275,12 +258,6 @@ abstract class AppLocalizations {
   /// In pl, this message translates to:
   /// **'Kolejność pisania'**
   String get kanji_strokeOrder;
-
-  /// No description provided for @kanji_synonyms.
-  ///
-  /// In pl, this message translates to:
-  /// **'Synonimy'**
-  String get kanji_synonyms;
 
   /// No description provided for @kanji_wordsRequiredLater.
   ///

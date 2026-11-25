@@ -1,3 +1,0 @@
-[submodule "kanji_data"]
-	path = kanji_data
-	url = git@github.com:PiotrRogulski/kanji_data.git

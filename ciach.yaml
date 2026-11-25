@@ -1,0 +1,3 @@
+exclude:
+  - lib/design_system/icons.dart
+set-exit-if-changed: true
