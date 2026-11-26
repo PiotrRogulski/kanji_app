@@ -12,11 +12,12 @@ double useValueSpring(
   double value, {
   SpringDescription? spring,
   bool animate = true,
+  bool snapToEnd = false,
 }) {
   final controller = useUnboundedAnimationController(initialValue: value);
   useValueChanged<(double, bool), void>((value, animate), (_, _) {
     if (animate) {
-      controller.springTo(value, spring: spring);
+      controller.springTo(value, spring: spring, snapToEnd: snapToEnd);
     } else {
       controller.value = value;
     }

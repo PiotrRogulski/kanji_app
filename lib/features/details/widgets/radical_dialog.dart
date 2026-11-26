@@ -205,8 +205,6 @@ class const _Outline({
   required final Rect? from,
   required final double progress,
 }) {
-  // The corner radius of a filled card, which is what the row is.
-  static const _rowRadius = 12.0;
   static const _dialogRadius = 48.0;
 
   Rect rect(Size size) {
@@ -214,14 +212,21 @@ class const _Outline({
     return from == null ? to : Rect.lerp(from, to, progress)!;
   }
 
-  RRect rrect(Size size) => .fromRectAndRadius(
-    rect(size),
-    .circular(
+  RRect rrect(Size size) {
+    Radius radius(double rowRadius) => .circular(
       from == null
           ? _dialogRadius
-          : lerpDouble(_rowRadius, _dialogRadius, progress)!,
-    ),
-  );
+          : lerpDouble(rowRadius, _dialogRadius, progress)!,
+    );
+
+    return .fromRectAndCorners(
+      rect(size),
+      topLeft: radius(KanjiRadical.topRadius),
+      topRight: radius(KanjiRadical.topRadius),
+      bottomLeft: radius(KanjiRadical.bottomRadius),
+      bottomRight: radius(KanjiRadical.bottomRadius),
+    );
+  }
 
   @override
   bool operator ==(Object other) =>

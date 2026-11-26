@@ -38,11 +38,15 @@ class const RadicalsScreen({super.key}) extends HookWidget {
               ),
             ),
           ),
+          AppUnit.small.sliverGap,
           SliverList.separated(
             itemCount: group.value.length,
-            itemBuilder: (context, index) =>
-                RadicalEntryView(group.value[index]),
-            separatorBuilder: (context, _) => AppUnit.medium.gap,
+            itemBuilder: (context, index) => RadicalEntryView(
+              group.value[index],
+              isFirst: index == 0,
+              isLast: index == group.value.length - 1,
+            ),
+            separatorBuilder: (context, _) => AppUnit.tiny.gap,
           ),
         ],
       ],

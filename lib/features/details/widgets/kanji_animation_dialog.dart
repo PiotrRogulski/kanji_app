@@ -73,7 +73,7 @@ class _KanjiDetailsBody(final String kanji) extends HookWidget {
     );
 
     return switch (result) {
-      QueryLoading() => const Center(child: CircularProgressIndicator()),
+      QueryLoading() => const Center(child: AppLoadingIndicator(size: 96)),
       QuerySuccess(:final value) => _KanjiDetailsLoaded(value),
       QueryFailure() => FittedBox(
         fit: .scaleDown,

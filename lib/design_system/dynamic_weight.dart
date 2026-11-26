@@ -9,6 +9,7 @@ enum AppDynamicWeight(final double value) {
 
 const _stateMap = {
   WidgetState.pressed: (AppDynamicWeight.bold, 1.0),
+  WidgetState.focused: (AppDynamicWeight.bold, 0.0),
   WidgetState.hovered: (AppDynamicWeight.regular, 1.0),
   WidgetState.any: (AppDynamicWeight.light, 0.0),
 };
@@ -17,7 +18,11 @@ class const DynamicWeightData({
   required final AppDynamicWeight weight,
   required final double fill,
   required final WidgetStatesController controller,
-});
+}) {
+  bool get pressed => controller.value.contains(WidgetState.pressed);
+
+  bool get focused => controller.value.contains(WidgetState.focused);
+}
 
 class const DynamicWeight({super.key, required final Widget child})
     extends HookWidget {

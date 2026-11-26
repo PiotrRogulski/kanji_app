@@ -22,10 +22,10 @@ class const KanjiSummary({super.key}) extends StatelessWidget {
         children: [
           IntrinsicWidth(
             child: Column(
-              spacing: AppUnit.small,
+              spacing: AppUnit.tiny,
               crossAxisAlignment: .stretch,
               children: [
-                KanjiTile(entry),
+                KanjiTile(entry, connectedBelow: radical != null),
                 if (radical != null) KanjiRadical(entry, form: radical.form),
               ],
             ),
@@ -45,14 +45,19 @@ class const _Readings(final KanjiEntry kanji) extends StatelessWidget {
 
     return AppCard(
       child: AppPadding(
-        padding: const .all(.xsmall),
+        padding: const .all(.small),
         child: Column(
-          spacing: AppUnit.tiny,
+          spacing: AppUnit.small,
           crossAxisAlignment: .start,
           children: [
             AppPadding(
               padding: const .symmetric(horizontal: .xsmall),
-              child: Text(s.kanji_readings, style: theme.textTheme.bodyLarge),
+              child: Text(
+                s.kanji_readings,
+                style: theme.textTheme.labelLarge?.apply(
+                  color: theme.colorScheme.onSurfaceVariant,
+                ),
+              ),
             ),
             KanjiReadings(kanji.readings),
           ],

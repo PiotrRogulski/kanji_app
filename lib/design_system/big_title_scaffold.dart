@@ -1,8 +1,11 @@
-import 'package:gap/gap.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/design_system/motion.dart';
+import 'package:kanji_app/design_system/sliver_inset_pinned_header.dart';
 import 'package:kanji_app/extensions.dart';
+import 'package:kanji_app/navigation/shell_chrome.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:material_ui/material_ui.dart';
+import 'package:provider/provider.dart';
 
 class const AppBigTitleScaffold({
   super.key,
@@ -10,55 +13,59 @@ class const AppBigTitleScaffold({
   required final ScrollController scrollController,
   final double? cacheExtent,
   final bool showScrollToTopFab = true,
+  final Widget? pinnedHeader,
   final Widget? bottomChild,
   required final List<Widget> slivers,
 }) extends HookWidget {
+  static const _scrollToTopThreshold = 300.0;
+
+  static const _scrollToTopDistance = 500.0;
+
   @override
   Widget build(BuildContext context) {
-    final s = context.l10n;
     final theme = Theme.of(context);
     final viewPadding = MediaQuery.viewPaddingOf(context);
 
-    final scrollOffset = useListenableSelector(
+    final scrolled = useListenableSelector(
       scrollController,
-      () => scrollController.hasClients ? scrollController.offset : 0,
+      () =>
+          scrollController.hasClients &&
+          scrollController.offset > _scrollToTopThreshold,
     );
 
+    final onTop =
+        TickerMode.valuesOf(context).enabled &&
+        (ModalRoute.isCurrentOf(context) ?? true);
+    final offersScrollToTop = showScrollToTopFab && scrolled && onTop;
+
+    final owner = useMemoized(Object.new);
+    useEffect(() {
+      final chrome = context.read<ShellChrome?>();
+      if (chrome == null || !offersScrollToTop) {
+        return null;
+      }
+
+      chrome.offerScrollToTop(owner, () {
+        if (!scrollController.hasClients) {
+          return;
+        }
+        if (scrollController.offset > _scrollToTopDistance) {
+          scrollController.jumpTo(_scrollToTopDistance);
+        }
+        scrollController.springTo(0);
+      });
+      return () => chrome.withdrawScrollToTop(owner);
+    }, [offersScrollToTop]);
+
     return Scaffold(
-      floatingActionButtonLocation:
-          FloatingActionButtonLocation.miniCenterFloat,
-      floatingActionButton: showScrollToTopFab && scrollOffset > 0
-          ? FloatingActionButton(
-              onPressed: () {
-                if (!scrollController.hasClients) {
-                  return;
-                }
-
-                if (scrollOffset > 500) {
-                  scrollController.jumpTo(500);
-                }
-
-                scrollController.animateTo(
-                  0,
-                  duration: Durations.long1,
-                  curve: Curves.easeInOutCubicEmphasized,
-                );
-              },
-              mini: true,
-              elevation: 0,
-              hoverElevation: 0,
-              focusElevation: 0,
-              highlightElevation: 0,
-              tooltip: s.common_scrollToTop,
-              child: const AppIcon(.arrowUpward, size: .large),
-            )
-          : null,
       body: CustomScrollView(
         controller: scrollController,
         scrollCacheExtent: cacheExtent?.apply((extent) => .pixels(extent)),
         slivers: [
           SliverPadding(
-            padding: viewPadding.add(const AppEdgeInsets.all(.medium)),
+            padding: viewPadding
+                .copyWith(bottom: bottomChild == null ? null : 0)
+                .add(const AppEdgeInsets.all(.medium)),
             sliver: SliverMainAxisGroup(
               slivers: [
                 SliverToBoxAdapter(
@@ -72,8 +79,14 @@ class const AppBigTitleScaffold({
                     ),
                   ),
                 ),
+                if (pinnedHeader case final pinnedHeader?) ...[
+                  AppUnit.xsmall.sliverGap,
+                  SliverInsetPinnedHeader(
+                    inset: viewPadding.top + AppUnit.small,
+                    child: pinnedHeader,
+                  ),
+                ],
                 ...slivers,
-                if (showScrollToTopFab) const SliverGap(48),
               ],
             ),
           ),
@@ -82,7 +95,8 @@ class const AppBigTitleScaffold({
               hasScrollBody: false,
               child: Container(
                 alignment: .bottomCenter,
-                padding: const AppEdgeInsets.all(.medium),
+                padding: EdgeInsets.only(bottom: viewPadding.bottom)
+                    .add(const AppEdgeInsets.all(.medium)),
                 child: ConstrainedBox(
                   constraints: const .tightFor(width: .infinity),
                   child: bottomChild,

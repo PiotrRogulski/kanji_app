@@ -5,8 +5,14 @@ import 'package:kanji_app/features/kanji_data/kanji_data.dart';
 import 'package:kanji_app/navigation/routes.dart';
 import 'package:material_ui/material_ui.dart';
 
-class const KanjiTile(final KanjiEntry kanji, {super.key})
-    extends StatelessWidget {
+class const KanjiTile(
+  final KanjiEntry kanji, {
+  final bool connectedBelow = false,
+  super.key,
+}) extends StatelessWidget {
+  static const _glyphSize = 160.0;
+  static const _footerHeight = 40.0;
+
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
@@ -19,62 +25,63 @@ class const KanjiTile(final KanjiEntry kanji, {super.key})
       createRectTween: KanjiAnimationDialog.createRectTween,
       child: AppCard(
         onTap: () => KanjiAnimationRoute(kanji.id).push<void>(context),
+        borderRadius: .vertical(
+          top: AppCard.defaultRadius,
+          bottom: connectedBelow ? .xsmall : AppCard.defaultRadius,
+        ),
         child: Stack(
           children: [
             AppPadding(
               padding: const .only(
                 top: .medium,
-                start: .xsmall,
-                end: .xsmall,
+                start: .small,
+                end: .small,
                 bottom: .xsmall,
               ),
               child: Column(
                 mainAxisSize: .min,
-                spacing: AppUnit.medium,
                 children: [
                   Text(
                     kanji.kanji,
                     style: theme.textTheme.displayLarge?.copyWith(
-                      fontSize: 160,
+                      fontSize: _glyphSize,
                       color: contentColor,
                       height: 1,
                     ),
                   ),
-                  Row(
-                    mainAxisSize: .min,
-                    children: [
-                      AppUnit.small.gap,
-                      Text(
-                        s.kanji_strokeOrder,
-                        style: theme.textTheme.bodyLarge?.apply(
+                  SizedBox(
+                    height: _footerHeight,
+                    child: Row(
+                      children: [
+                        AppUnit.small.gap,
+                        Expanded(
+                          child: DynamicWeightText(
+                            s.kanji_strokeOrder,
+                            maxLines: 1,
+                            overflow: .fade,
+                            softWrap: false,
+                            style: theme.textTheme.bodyMedium?.apply(
+                              color: contentColor,
+                            ),
+                          ),
+                        ),
+                        AppIcon(
+                          .chevronForward,
+                          size: .large,
                           color: contentColor,
                         ),
-                      ),
-                      AppIcon(
-                        .chevronForward,
-                        size: .large,
-                        color: contentColor,
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
             ),
             PositionedDirectional(
-              top: AppUnit.xsmall,
-              start: AppUnit.xsmall,
-              child: DecoratedBox(
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.surface,
-                  borderRadius: AppBorderRadius.circular(.small),
-                ),
-                child: AppPadding(
-                  padding: const .symmetric(horizontal: .xsmall),
-                  child: Text(
-                    kanji.id.toString(),
-                    style: theme.textTheme.bodyLarge,
-                  ),
-                ),
+              top: AppUnit.small + AppUnit.xsmall,
+              start: AppUnit.medium,
+              child: DynamicWeightText(
+                kanji.id.toString(),
+                style: theme.textTheme.labelLarge?.apply(color: contentColor),
               ),
             ),
           ],

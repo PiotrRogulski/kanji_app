@@ -23,11 +23,13 @@ class const AppConnectedButtonGroup<T>({
         children: [
           for (final (index, segment) in segments.indexed)
             Expanded(
-              child: _Segment(
-                segment: segment,
-                selectedValue: selected,
-                onSelectionChanged: onSelectionChanged,
-                position: .fromIndex(index, segments.length),
+              child: DynamicWeight(
+                child: _Segment(
+                  segment: segment,
+                  selectedValue: selected,
+                  onSelectionChanged: onSelectionChanged,
+                  position: .fromIndex(index, segments.length),
+                ),
               ),
             ),
         ],
@@ -110,8 +112,10 @@ class const _Segment<T>({
                     ),
                   ),
                 ),
-                Text(
+                DynamicWeightText(
                   segment.label,
+                  weight: selected ? .bold : null,
+                  textAlign: .center,
                   style: theme.textTheme.labelLarge?.copyWith(color: textColor),
                 ),
               ],

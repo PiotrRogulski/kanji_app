@@ -40,7 +40,9 @@ class const FlashcardsScreen({super.key}) extends HookWidget {
       title: s.flashcards_title,
       scrollController: scrollController,
       showScrollToTopFab: false,
-      bottomChild: FilledButton(
+      bottomChild: AppButton(
+        label: s.flashcards_start,
+        icon: .playArrow,
         onPressed: isValid
             ? () => FlashcardsPlayRoute(
                 startId: rangeStart.value,
@@ -48,7 +50,6 @@ class const FlashcardsScreen({super.key}) extends HookWidget {
                 mode: selectedMode.value,
               ).go(context)
             : null,
-        child: Text(s.flashcards_start),
       ),
       slivers: [
         AppUnit.medium.sliverGap,

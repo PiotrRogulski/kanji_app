@@ -1,7 +1,12 @@
+import 'dart:math';
+
 import 'package:flutter/physics.dart';
 import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
+import 'package:kanji_app/common/use_unbounded_animation_controller.dart';
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/design_system/liquid_glass.dart';
+import 'package:kanji_app/design_system/motion.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/flashcards/constants.dart';
 import 'package:kanji_app/features/flashcards/flashcards_screen.dart';
@@ -52,13 +57,16 @@ class const FlashcardsPlayScreen({
           return AlertDialog(
             title: Text(s.flashcards_exitTitle),
             actions: [
-              TextButton(
+              AppButton(
+                label: s.flashcards_exitStay,
+                size: .small,
+                variant: .text,
                 onPressed: () => Navigator.of(context).pop(false),
-                child: Text(s.flashcards_exitStay),
               ),
-              FilledButton(
+              AppButton(
+                label: s.flashcards_exitLeave,
+                size: .small,
                 onPressed: () => Navigator.of(context).pop(true),
-                child: Text(s.flashcards_exitLeave),
               ),
             ],
           );
@@ -79,24 +87,22 @@ class const FlashcardsPlayScreen({
         requestExit();
       },
       child: Scaffold(
-        appBar: AppBar(
-          title: Text(session.progressText),
-          centerTitle: true,
-          leading: IconButton(
-            onPressed: requestExit,
-            icon: const AppIcon(.arrowBack, size: .large),
-          ),
-        ),
-        body: _FlashcardsPlayBody(session: session),
+        body: _FlashcardsPlayBody(session: session, onExit: requestExit),
       ),
     );
   }
 }
 
-class const _FlashcardsPlayBody({required final FlashcardsSession session})
-    extends HookWidget {
+class const _FlashcardsPlayBody({
+  required final FlashcardsSession session,
+  required final VoidCallback onExit,
+}) extends HookWidget {
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final viewPadding = MediaQuery.viewPaddingOf(context);
+    final chromeTop = viewPadding.top + AppUnit.small;
+
     final animationState = useFlashcardAnimation();
 
     void dismissWithAnimation(FlashcardDismissAction action) {
@@ -125,59 +131,96 @@ class const _FlashcardsPlayBody({required final FlashcardsSession session})
       session.dismiss(action);
     }
 
-    return AppPadding(
-      padding: const .all(.large),
-      child: Column(
-        children: [
-          Expanded(
-            child: Center(
-              child: Stack(
-                children: [
-                  if (session.deck.length >= 2)
-                    IgnorePointer(
-                      child: NextFlashcards(
+    return Stack(
+      children: [
+        Padding(
+          padding: viewPadding
+              .copyWith(top: chromeTop + AppGlassIconButton.size)
+              .add(const AppEdgeInsets.all(.large)),
+          child: Column(
+            children: [
+              Expanded(
+                child: Center(
+                  child: Stack(
+                    children: [
+                      if (session.deck.length >= 2)
+                        IgnorePointer(
+                          child: NextFlashcards(
+                            deck: session.deck,
+                            currentIndex: 0,
+                            dragOffset: animationState.dragOffset.value,
+                            flipInProgress: animationState.flipInProgress.value,
+                          ),
+                        ),
+                      FlashcardGestures(
+                        animationState: animationState,
                         deck: session.deck,
-                        currentIndex: 0,
-                        dragOffset: animationState.dragOffset.value,
-                        flipInProgress: animationState.flipInProgress.value,
-                      ),
-                    ),
-                  FlashcardGestures(
-                    animationState: animationState,
-                    deck: session.deck,
-                    onDismissed: session.dismiss,
-                    child: CurrentFlashcard(
-                      item: session.current,
-                      dragOffset: animationState.dragOffset.value,
-                      onFlipInProgressChange: (value) =>
-                          animationState.flipInProgress.value = value,
-                    ),
-                  ),
-                  if (animationState.outgoingItem.value case final outgoing?)
-                    IgnorePointer(
-                      child: Opacity(
-                        opacity: animationState.outgoingOpacity,
+                        onDismissed: session.dismiss,
                         child: CurrentFlashcard(
-                          item: outgoing,
-                          dragOffset: animationState.outgoingOffset.value,
-                          onFlipInProgressChange: (_) {},
+                          item: session.current,
+                          dragOffset: animationState.dragOffset.value,
+                          onFlipInProgressChange: (value) =>
+                              animationState.flipInProgress.value = value,
                         ),
                       ),
-                    ),
-                ],
+                      if (animationState.outgoingItem.value
+                          case final outgoing?)
+                        IgnorePointer(
+                          child: Opacity(
+                            opacity: animationState.outgoingOpacity,
+                            child: CurrentFlashcard(
+                              item: outgoing,
+                              dragOffset: animationState.outgoingOffset.value,
+                              onFlipInProgressChange: (_) {},
+                            ),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
               ),
-            ),
+              AppUnit.xlarge.gap,
+              _FlashcardsActionRow(
+                enabled:
+                    !animationState.flipInProgress.value &&
+                    !animationState.isAnimatingOut.value,
+                onSkipped: () => dismissWithAnimation(.skipped),
+                onLearned: () => dismissWithAnimation(.learned),
+              ),
+            ],
           ),
-          AppUnit.xlarge.gap,
-          _FlashcardsActionRow(
-            enabled:
-                !animationState.flipInProgress.value &&
-                !animationState.isAnimatingOut.value,
-            onSkipped: () => dismissWithAnimation(.skipped),
-            onLearned: () => dismissWithAnimation(.learned),
+        ),
+        Positioned(
+          top: chromeTop,
+          left: viewPadding.left + AppUnit.medium,
+          right: viewPadding.right + AppUnit.medium,
+          child: Row(
+            spacing: AppUnit.medium,
+            children: [
+              AppGlassIconButton(
+                icon: .arrowBack,
+                tooltip: MaterialLocalizations.of(context).backButtonTooltip,
+                onPressed: onExit,
+              ),
+              Expanded(
+                child: AppWavyProgress(
+                  value: session.learnedCount.value / session.totalCount,
+                ),
+              ),
+              AppPadding(
+                padding: const .only(end: .small),
+                child: Text(
+                  session.progressText,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                    fontFeatures: const [.tabularFigures()],
+                  ),
+                ),
+              ),
+            ],
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }
@@ -291,9 +334,57 @@ class const _FlashcardsEndScaffold({
         child: Column(
           mainAxisAlignment: .center,
           children: [
+            const _FinishedBadge(),
+            AppUnit.xlarge.gap,
             Text(endText, style: Theme.of(context).textTheme.headlineMedium),
             AppUnit.large.gap,
-            FilledButton(onPressed: onBack, child: Text(backText)),
+            AppButton(label: backText, onPressed: onBack),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class const _FinishedBadge() extends HookWidget {
+  static const _size = 168.0;
+  static final _shape = MaterialShapeBorder(shape: MaterialShapes.softBurst);
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    final controller = useUnboundedAnimationController();
+    useEffect(() {
+      controller.springTo(1, spring: Springs.expressiveSlowSpatial);
+      return null;
+    }, [controller]);
+    final arrival = useAnimation(controller);
+
+    return Transform.scale(
+      scale: arrival,
+      child: SizedBox.square(
+        dimension: _size,
+        child: Stack(
+          fit: .expand,
+          children: [
+            Transform.rotate(
+              angle: (1 - arrival) * -pi / 2,
+              child: DecoratedBox(
+                decoration: ShapeDecoration(
+                  shape: _shape,
+                  color: colorScheme.primaryContainer,
+                ),
+              ),
+            ),
+            Center(
+              child: AppIcon(
+                .check,
+                size: AppUnit.xlarge * 2.5,
+                color: colorScheme.onPrimaryContainer,
+                weight: .bold,
+              ),
+            ),
           ],
         ),
       ),

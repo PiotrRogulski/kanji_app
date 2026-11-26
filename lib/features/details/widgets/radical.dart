@@ -14,6 +14,9 @@ class const KanjiRadical(
 }) extends HookWidget {
   static const glyphSize = 36.0;
 
+  static const topRadius = AppUnit.xsmall;
+  static const bottomRadius = AppCard.defaultRadius;
+
   static final _rects = <int, List<ValueGetter<Rect?>>>{};
 
   /// Where the row of [kanjiId] is on the screen. Its dialog grows out of
@@ -39,16 +42,15 @@ class const KanjiRadical(
       return () => _rects[kanji.id]?.remove(rect);
     }, [kanji.id]);
 
-    return Card.filled(
-      child: AppInkWell(
-        onTap: () => KanjiRadicalRoute(kanji.id).push<void>(context),
-        child: KanjiRadicalContent(
-          glyph: RadicalHero(
-            key: ValueKey(kanji.id),
-            kanjiId: kanji.id,
-            form: form,
-            child: RadicalGlyph.chip(form, theme),
-          ),
+    return AppCard(
+      onTap: () => KanjiRadicalRoute(kanji.id).push<void>(context),
+      borderRadius: .vertical(top: topRadius, bottom: bottomRadius),
+      child: KanjiRadicalContent(
+        glyph: RadicalHero(
+          key: ValueKey(kanji.id),
+          kanjiId: kanji.id,
+          form: form,
+          child: RadicalGlyph.chip(form, theme),
         ),
       ),
     );
@@ -66,20 +68,20 @@ class const KanjiRadicalContent({final Widget? glyph, super.key})
 
     return AppPadding(
       padding: .only(
-        start: AppUnit.small + AppUnit.xsmall,
-        end: .xsmall,
-        top: .xsmall,
-        bottom: .xsmall,
+        start: .medium,
+        end: .small,
+        top: AppUnit.xsmall + AppUnit.tiny,
+        bottom: AppUnit.xsmall + AppUnit.tiny,
       ),
       child: Row(
         children: [
           Expanded(
-            child: Text(
+            child: DynamicWeightText(
               s.kanji_radical,
               maxLines: 1,
               overflow: .fade,
               softWrap: false,
-              style: theme.textTheme.bodyLarge?.apply(color: contentColor),
+              style: theme.textTheme.bodyMedium?.apply(color: contentColor),
             ),
           ),
           SizedBox.square(dimension: KanjiRadical.glyphSize, child: glyph),

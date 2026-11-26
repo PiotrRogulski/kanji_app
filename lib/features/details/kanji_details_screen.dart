@@ -1,4 +1,5 @@
 import 'package:kanji_app/design_system.dart';
+import 'package:kanji_app/design_system/liquid_glass.dart';
 import 'package:kanji_app/features/details/widgets/kanji_swipe_switcher.dart';
 import 'package:kanji_app/features/details/widgets/meaning.dart';
 import 'package:kanji_app/features/details/widgets/summary.dart';
@@ -15,6 +16,9 @@ class const KanjiDetailsScreen(final int id, {super.key})
     // TODO: Add not found screen
     final entry = context.read<KanjiData>().get(id)!;
 
+    final viewPadding = MediaQuery.viewPaddingOf(context);
+    final chromeTop = viewPadding.top + AppUnit.small;
+
     return Provider.value(
       value: entry,
       child: KanjiSwipeSwitcher(
@@ -23,26 +27,10 @@ class const KanjiDetailsScreen(final int id, {super.key})
             children: [
               CustomScrollView(
                 slivers: [
-                  SliverAppBar(
-                    actionsPadding: const AppEdgeInsets.only(end: .small),
-                    floating: true,
-                    snap: true,
-                    actions: [
-                      AppIconButton(
-                        icon: .openInNew,
-                        iconSize: .large,
-                        onPressed: () => launchUrl(
-                          Uri(
-                            scheme: 'https',
-                            host: 'jisho.org',
-                            pathSegments: ['search', '${entry.kanji} #kanji'],
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                   SliverPadding(
-                    padding: const AppEdgeInsets.all(.medium),
+                    padding: viewPadding
+                        .copyWith(top: chromeTop + AppGlassIconButton.size)
+                        .add(const AppEdgeInsets.all(.medium)),
                     sliver: SliverMainAxisGroup(
                       slivers: [
                         const SliverToBoxAdapter(child: KanjiMeaning()),
@@ -87,6 +75,35 @@ class const KanjiDetailsScreen(final int id, {super.key})
                   ),
                   // (AppUnit.xlarge * 2 + AppUnit.large).sliverGap,
                 ],
+              ),
+              Positioned(
+                top: chromeTop,
+                left: viewPadding.left + AppUnit.medium,
+                right: viewPadding.right + AppUnit.medium,
+                child: AppGlassLayer(
+                  child: Row(
+                    children: [
+                      if (Navigator.canPop(context))
+                        AppGlassIconButton(
+                          icon: .arrowBack,
+                          tooltip: MaterialLocalizations.of(context)
+                              .backButtonTooltip,
+                          onPressed: () => Navigator.maybePop(context),
+                        ),
+                      const Spacer(),
+                      AppGlassIconButton(
+                        icon: .openInNew,
+                        onPressed: () => launchUrl(
+                          Uri(
+                            scheme: 'https',
+                            host: 'jisho.org',
+                            pathSegments: ['search', '${entry.kanji} #kanji'],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
               // Positioned(
               //   bottom: AppUnit.large,

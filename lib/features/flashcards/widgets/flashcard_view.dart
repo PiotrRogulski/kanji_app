@@ -93,7 +93,7 @@ class const FlashcardView({
             key: ValueKey(isFront),
             elevation: 6,
             shape: RoundedRectangleBorder(
-              borderRadius: AppBorderRadius.circular(.large),
+              borderRadius: AppBorderRadius.circular(.xlarge),
             ),
             child: SizedBox(
               width: cardWidth,

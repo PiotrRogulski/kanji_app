@@ -56,20 +56,28 @@ class const _SliverWordsSection(final _SliverWordsSectionData section)
             child: Text(section.title, style: theme.textTheme.headlineSmall),
           ),
         ),
-        AppUnit.tiny.sliverGap,
+        AppUnit.small.sliverGap,
         SliverList.separated(
           itemCount: section.words.length,
-          itemBuilder: (context, i) =>
-              _WordTile(section.words[i], section.words),
-          separatorBuilder: (context, _) => AppUnit.small.gap,
+          itemBuilder: (context, i) => _WordTile(
+            section.words[i],
+            section.words,
+            isFirst: i == 0,
+            isLast: i == section.words.length - 1,
+          ),
+          separatorBuilder: (context, _) => AppUnit.tiny.gap,
         ),
       ],
     );
   }
 }
 
-class const _WordTile(final KanjiWord word, final List<KanjiWord> allWords)
-    extends StatelessWidget {
+class const _WordTile(
+  final KanjiWord word,
+  final List<KanjiWord> allWords, {
+  required final bool isFirst,
+  required final bool isLast,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -77,13 +85,12 @@ class const _WordTile(final KanjiWord word, final List<KanjiWord> allWords)
     final maxWordLength = allWords.map((w) => w.kanji.length).max;
 
     return AppCard(
+      borderRadius: .vertical(
+        top: isFirst ? AppCard.defaultRadius : .xsmall,
+        bottom: isLast ? AppCard.defaultRadius : .xsmall,
+      ),
       child: AppPadding(
-        padding: .only(
-          start: .small,
-          end: .small,
-          top: .small,
-          bottom: word.reference == null ? .xsmall : .small,
-        ),
+        padding: .all(AppUnit.small + AppUnit.xsmall),
         child: Column(
           spacing: AppUnit.xsmall,
           crossAxisAlignment: .start,
@@ -100,13 +107,11 @@ class const _WordTile(final KanjiWord word, final List<KanjiWord> allWords)
             if (word.meaning.isNotEmpty)
               Text(word.meaning, style: theme.textTheme.bodyLarge),
             if (word.reference case final reference?) ...[
-              FilledButton(
+              AppButton(
+                label: '#$reference',
+                size: .small,
                 onPressed: () =>
                     KanjiDetailsRoute(reference).push<void>(context),
-                style: FilledButton.styleFrom(
-                  padding: const AppEdgeInsets.symmetric(horizontal: .medium),
-                ),
-                child: Text('#$reference'),
               ),
             ],
           ],

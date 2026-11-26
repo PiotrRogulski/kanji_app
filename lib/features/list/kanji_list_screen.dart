@@ -41,14 +41,11 @@ class const KanjiListScreen({super.key}) extends HookWidget {
       title: s.kanjiList_title,
       scrollController: scrollController,
       cacheExtent: 10_000,
+      pinnedHeader: JDSearchBar(
+        controller: searchController,
+        hintText: s.kanjiList_search,
+      ),
       slivers: [
-        AppUnit.xsmall.sliverGap,
-        SliverToBoxAdapter(
-          child: JDSearchBar(
-            controller: searchController,
-            hintText: s.kanjiList_search,
-          ),
-        ),
         AppUnit.medium.sliverGap,
         SliverLayoutBuilder(
           builder: (context, constraints) {
@@ -94,9 +91,9 @@ class const _Entry(final KanjiEntry entry) extends StatelessWidget {
             ),
           ),
           PositionedDirectional(
-            start: AppUnit.small,
+            start: AppUnit.medium,
             top: AppUnit.xsmall,
-            child: Text(
+            child: DynamicWeightText(
               entry.id.toString(),
               style: theme.textTheme.labelSmall?.apply(
                 color: theme.colorScheme.onSurfaceVariant,

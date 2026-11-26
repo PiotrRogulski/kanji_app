@@ -1,3 +1,4 @@
+import 'package:kanji_app/design_system.dart';
 import 'package:material_ui/material_ui.dart';
 
 ThemeData appTheme() {
@@ -15,11 +16,17 @@ ThemeData appTheme() {
     cardTheme: baseTheme.cardTheme.copyWith(
       clipBehavior: .antiAlias,
       margin: .zero,
+      shape: RoundedRectangleBorder(
+        borderRadius: AppBorderRadius.circular(AppCard.defaultRadius),
+      ),
     ),
-    searchBarTheme: .new(
-      elevation: .all(0),
-      textStyle: .all(const TextStyle().body),
+    dialogTheme: baseTheme.dialogTheme.copyWith(
+      backgroundColor: colorScheme.surfaceContainerHigh,
+      shape: RoundedRectangleBorder(
+        borderRadius: AppBorderRadius.circular(.xlarge),
+      ),
     ),
+    iconButtonTheme: const .new(variant: .material3Expressive),
     pageTransitionsTheme: const PageTransitionsTheme(
       builders: {.android: PredictiveBackPageTransitionsBuilder()},
     ),

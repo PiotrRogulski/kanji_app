@@ -41,14 +41,17 @@ class const _ReadingsColumn(final List<String> readings)
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
                 borderRadius: AppBorderRadius.vertical(
-                  top: index == 0 ? .small : .xsmall,
-                  bottom: index == readings.length - 1 ? .small : .xsmall,
+                  top: index == 0 ? .medium : .xsmall,
+                  bottom: index == readings.length - 1 ? .medium : .xsmall,
                 ),
               ),
               child: AppPadding(
                 padding: const .symmetric(vertical: .tiny, horizontal: .xsmall),
-                child: Text(
+                child: DynamicWeightText(
                   reading,
+                  maxLines: 1,
+                  softWrap: false,
+                  overflow: .fade,
                   style: theme.textTheme.bodyLarge?.apply(
                     color: theme.colorScheme.onSurface,
                   ),

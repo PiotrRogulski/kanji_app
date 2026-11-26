@@ -3,13 +3,21 @@ import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/radicals_data.dart';
 import 'package:material_ui/material_ui.dart';
 
-class const RadicalEntryView(final RadicalEntry entry, {super.key})
-    extends StatelessWidget {
+class const RadicalEntryView(
+  final RadicalEntry entry, {
+  final bool isFirst = true,
+  final bool isLast = true,
+  super.key,
+}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
     return AppCard(
+      borderRadius: .vertical(
+        top: isFirst ? AppCard.defaultRadius : .xsmall,
+        bottom: isLast ? AppCard.defaultRadius : .xsmall,
+      ),
       child: AppPadding(
         padding: const .all(.medium),
         child: Column(
