@@ -9,6 +9,7 @@ export 'design_system/icon.dart';
 export 'design_system/icon_button.dart';
 export 'design_system/icons.dart';
 export 'design_system/ink_well.dart';
+export 'design_system/labeled_scrollbar.dart';
 export 'design_system/loading_indicator.dart';
 export 'design_system/padding.dart';
 export 'design_system/search_bar.dart';

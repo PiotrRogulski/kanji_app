@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:material_ui/material_ui.dart';
 
 /// A vertical sliver that places children of known heights in columns, each
@@ -20,6 +21,7 @@ class const SliverMasonryGrid({
   required final List<double> itemExtents,
   required final double minCrossAxisExtent,
   final double spacing = 0,
+  final ValueChanged<int>? onFirstVisibleIndexChanged,
 }) extends SliverMultiBoxAdaptorWidget {
   @override
   RenderSliverMultiBoxAdaptor createRenderObject(BuildContext context) =>
@@ -28,6 +30,7 @@ class const SliverMasonryGrid({
         itemExtents: itemExtents,
         minCrossAxisExtent: minCrossAxisExtent,
         spacing: spacing,
+        onFirstVisibleIndexChanged: onFirstVisibleIndexChanged,
       );
 
   @override
@@ -38,7 +41,8 @@ class const SliverMasonryGrid({
     renderObject
       ..itemExtents = itemExtents
       ..minCrossAxisExtent = minCrossAxisExtent
-      ..spacing = spacing;
+      ..spacing = spacing
+      ..onFirstVisibleIndexChanged = onFirstVisibleIndexChanged;
   }
 }
 
@@ -47,6 +51,7 @@ class _RenderSliverMasonryGrid({
   required var List<double> _itemExtents,
   required var double _minCrossAxisExtent,
   required var double _spacing,
+  required var ValueChanged<int>? onFirstVisibleIndexChanged,
 }) extends RenderSliverMultiBoxAdaptor {
   List<double> get itemExtents => _itemExtents;
   set itemExtents(List<double> value) {
@@ -129,14 +134,12 @@ class _RenderSliverMasonryGrid({
       }
     }
 
-    int firstIndexEndingAfter(double offset) => min(
-      _firstIndexWhere(count, (index) => arrangement.ends[index] > offset),
-      count - 1,
-    );
-
     final cacheStart = constraints.scrollOffset + constraints.cacheOrigin;
     final cacheEnd = cacheStart + constraints.remainingCacheExtent;
-    final firstIndex = firstIndexEndingAfter(cacheStart);
+    final firstIndex = min(
+      _firstIndexWhere(count, (i) => arrangement.ends[i] > cacheStart),
+      count - 1,
+    );
     final lastIndex = max(
       _firstIndexWhere(count, (i) => arrangement.offsets[i] >= cacheEnd) - 1,
       firstIndex,
@@ -180,7 +183,17 @@ class _RenderSliverMasonryGrid({
             (reversed ? columnCount - 1 - column : column) * stride;
     }
 
-    _firstVisibleIndex = firstIndexEndingAfter(constraints.scrollOffset);
+    final visibleStart = constraints.scrollOffset + constraints.overlap;
+    final firstVisibleIndex = min(
+      _firstIndexWhere(count, (i) => arrangement.offsets[i] >= visibleStart),
+      count - 1,
+    );
+    if (firstVisibleIndex != _firstVisibleIndex) {
+      _firstVisibleIndex = firstVisibleIndex;
+      SchedulerBinding.instance.addPostFrameCallback((_) {
+        onFirstVisibleIndexChanged?.call(firstVisibleIndex);
+      });
+    }
 
     final scrollExtent = arrangement.ends.last;
     final leadingOffset = arrangement.offsets[firstIndex];

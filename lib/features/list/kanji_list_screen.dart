@@ -38,24 +38,62 @@ class const KanjiListScreen({super.key}) extends HookWidget {
     final scrollController = useScrollController();
 
     final entryHeight = _Entry.heightIn(context);
+    final firstVisibleIndex = useValueNotifier(0);
 
-    return AppBigTitleScaffold(
-      title: s.kanjiList_title,
-      scrollController: scrollController,
-      pinnedHeader: JDSearchBar(
-        controller: searchController,
-        hintText: s.kanjiList_search,
+    return LabeledScrollbar(
+      controller: scrollController,
+      label: ValueListenableBuilder(
+        valueListenable: firstVisibleIndex,
+        builder: (context, index, _) =>
+            switch (filteredKanji.value.elementAtOrNull(index)) {
+              final entry? => _ScrollbarLabel(entry),
+              null => const SizedBox(),
+            },
       ),
-      slivers: [
-        AppUnit.medium.sliverGap,
-        SliverMasonryGrid(
-          itemExtents: filteredKanji.value.map(entryHeight).toList(),
-          minCrossAxisExtent: 320,
-          spacing: AppUnit.medium,
-          delegate: SliverChildBuilderDelegate(
-            (context, index) => _Entry(filteredKanji.value[index]),
-            childCount: filteredKanji.value.length,
+      child: AppBigTitleScaffold(
+        title: s.kanjiList_title,
+        scrollController: scrollController,
+        pinnedHeader: JDSearchBar(
+          controller: searchController,
+          hintText: s.kanjiList_search,
+        ),
+        slivers: [
+          AppUnit.medium.sliverGap,
+          SliverMasonryGrid(
+            itemExtents: filteredKanji.value.map(entryHeight).toList(),
+            minCrossAxisExtent: 320,
+            spacing: AppUnit.medium,
+            onFirstVisibleIndexChanged: (index) =>
+                firstVisibleIndex.value = index,
+            delegate: SliverChildBuilderDelegate(
+              (context, index) => _Entry(filteredKanji.value[index]),
+              childCount: filteredKanji.value.length,
+            ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+class const _ScrollbarLabel(final KanjiEntry entry) extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final color = theme.colorScheme.onPrimary;
+
+    return Column(
+      mainAxisSize: .min,
+      children: [
+        Text(
+          entry.id.toString(),
+          style: theme.textTheme.labelMedium?.apply(color: color),
+        ),
+        Text(
+          entry.kanji,
+          style: theme.textTheme.displaySmall
+              ?.apply(color: color)
+              .copyWith(height: 1),
         ),
       ],
     );
