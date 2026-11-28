@@ -73,7 +73,8 @@ class const MainApp({super.key}) extends HookWidget {
 
     return MaterialApp.router(
       routerConfig: router,
-      theme: appTheme(),
+      theme: appTheme(.light),
+      darkTheme: appTheme(.dark),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
     );

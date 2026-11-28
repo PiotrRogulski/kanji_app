@@ -1,8 +1,11 @@
 import 'package:kanji_app/design_system.dart';
 import 'package:material_ui/material_ui.dart';
 
-ThemeData appTheme() {
-  final colorScheme = ColorScheme.fromSeed(seedColor: const .new(0xFFC8AE7E));
+ThemeData appTheme(Brightness brightness) {
+  final colorScheme = ColorScheme.fromSeed(
+    seedColor: const .new(0xFFC8AE7E),
+    brightness: brightness,
+  );
 
   final baseTheme = ThemeData.from(colorScheme: colorScheme);
 
