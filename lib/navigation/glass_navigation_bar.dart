@@ -1,24 +1,19 @@
 import 'dart:math';
-import 'dart:ui';
 
-import 'package:flutter/services.dart';
 import 'package:kanji_app/common/use_spring.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/design_system/liquid_glass.dart';
+import 'package:kanji_app/navigation/navigation_item.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:liquid_glass_renderer/liquid_glass_renderer.dart';
 import 'package:material_ui/material_ui.dart';
 
-class const AppGlassDestination({
-  required final AppIconData icon,
-  required final String label,
-});
-
 class const AppGlassNavigationBar({
   super.key,
-  required final List<AppGlassDestination> destinations,
+  required final List<AppDestination> destinations,
   required final int selectedIndex,
   required final ValueChanged<int> onSelected,
+  required final Axis itemDirection,
   required final String scrollToTopTooltip,
   final VoidCallback? onScrollToTop,
 }) extends HookWidget {
@@ -55,6 +50,7 @@ class const AppGlassNavigationBar({
                       destinations: destinations,
                       selectedIndex: selectedIndex,
                       onSelected: onSelected,
+                      itemDirection: itemDirection,
                     ),
                   ),
                 ),
@@ -105,20 +101,21 @@ class const AppGlassNavigationBar({
 }
 
 class const _Destinations({
-  required final List<AppGlassDestination> destinations,
+  required final List<AppDestination> destinations,
   required final int selectedIndex,
   required final ValueChanged<int> onSelected,
+  required final Axis itemDirection,
 }) extends HookWidget {
-  static const _indicatorSize = Size(64, 32);
-  static const _indicatorTop = 6.0;
-
   static const _indicatorStretch = 56.0;
+
+  static const _inlineIndicatorHeight = 40.0;
+  static const _inlineIndicatorInset =
+      (AppGlassNavigationBar.height - _inlineIndicatorHeight) / 2;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
-    final count = destinations.length;
     // One end of the indicator gets to where it's headed sooner than the
     // other. So it stretches out as it sets off, and gathers itself as it
     // arrives, with no jump in its size at either end.
@@ -133,116 +130,52 @@ class const _Destinations({
     final position = (leading + trailing) / 2;
     final distance = (leading - trailing).abs();
 
-    return Stack(
-      children: [
-        Positioned.fill(
-          child: Align(
-            alignment: AlignmentDirectional(
-              count < 2 ? 0 : lerpDouble(-1, 1, position / (count - 1))!,
-              -1,
-            ),
-            child: FractionallySizedBox(
-              widthFactor: 1 / count,
-              child: Align(
-                alignment: .topCenter,
-                child: Container(
-                  margin: const .only(top: _indicatorTop),
-                  width: _indicatorSize.width + _indicatorStretch * distance,
-                  height: _indicatorSize.height,
-                  decoration: ShapeDecoration(
-                    shape: const StadiumBorder(),
-                    color: colorScheme.secondaryContainer,
-                  ),
-                ),
-              ),
-            ),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final slot = constraints.maxWidth / destinations.length;
+        final (top, size) = switch (itemDirection) {
+          .vertical => (
+            NavigationItem.stackedIndicatorTop,
+            NavigationItem.stackedIndicatorSize,
           ),
-        ),
-        Row(
+          .horizontal => (
+            _inlineIndicatorInset,
+            Size(slot - _inlineIndicatorInset * 2, _inlineIndicatorHeight),
+          ),
+        };
+        final width = size.width + _indicatorStretch * distance;
+
+        return Stack(
           children: [
-            for (final (index, destination) in destinations.indexed)
-              Expanded(
-                child: DynamicWeight(
-                  child: _Destination(
-                    destination: destination,
-                    selected: index == selectedIndex,
-                    onTap: () => onSelected(index),
-                  ),
+            PositionedDirectional(
+              start: slot * (position + 0.5) - width / 2,
+              top: top,
+              width: width,
+              height: size.height,
+              child: DecoratedBox(
+                decoration: ShapeDecoration(
+                  shape: const StadiumBorder(),
+                  color: colorScheme.secondaryContainer,
                 ),
               ),
-          ],
-        ),
-      ],
-    );
-  }
-}
-
-class const _Destination({
-  required final AppGlassDestination destination,
-  required final bool selected,
-  required final VoidCallback onTap,
-}) extends HookWidget {
-  static const _pressedScale = 0.88;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-
-    final pressed = DynamicWeight.of(context).pressed;
-    final scale = useValueSpring(
-      pressed ? _pressedScale : 1,
-      spring: Springs.expressiveFastSpatial,
-    );
-
-    final color = useColorSpring(
-      selected ? colorScheme.onSecondaryContainer : colorScheme.onSurface,
-    );
-
-    return Semantics(
-      selected: selected,
-      child: AppInkWell(
-        onTap: () {
-          HapticFeedback.selectionClick();
-          onTap();
-        },
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
-        hoverColor: Colors.transparent,
-        focusColor: Colors.transparent,
-        child: Transform.scale(
-          scale: scale,
-          child: Padding(
-            padding: const .only(top: _Destinations._indicatorTop),
-            child: Column(
-              spacing: AppUnit.xsmall,
+            ),
+            Row(
+              crossAxisAlignment: .stretch,
               children: [
-                SizedBox(
-                  height: _Destinations._indicatorSize.height,
-                  child: Center(
-                    child: AppIcon(
-                      destination.icon,
-                      size: .large,
-                      color: color,
-                      fill: selected ? 1 : null,
-                      weight: selected ? .bold : null,
+                for (final (index, destination) in destinations.indexed)
+                  Expanded(
+                    child: NavigationItem(
+                      destination: destination,
+                      selected: index == selectedIndex,
+                      onTap: () => onSelected(index),
+                      direction: itemDirection,
                     ),
                   ),
-                ),
-                DynamicWeightText(
-                  destination.label,
-                  weight: selected ? .bold : null,
-                  textAlign: .center,
-                  maxLines: 1,
-                  overflow: .fade,
-                  softWrap: false,
-                  style: theme.textTheme.labelMedium?.apply(color: color),
-                ),
               ],
             ),
-          ),
-        ),
-      ),
+          ],
+        );
+      },
     );
   }
 }
