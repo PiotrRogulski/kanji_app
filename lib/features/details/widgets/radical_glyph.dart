@@ -12,7 +12,7 @@ class const RadicalGlyph(
     : this(
         form,
         shape: _chipShape,
-        color: theme.colorScheme.surface,
+        color: theme.colorScheme.surfaceBright,
         foregroundColor: theme.colorScheme.onSurface,
         key: key,
       );

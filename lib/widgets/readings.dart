@@ -65,7 +65,7 @@ class const _ReadingsColumn(final List<String> readings)
                 Expanded(
                   child: DecoratedBox(
                     decoration: BoxDecoration(
-                      color: theme.colorScheme.surface,
+                      color: theme.colorScheme.surfaceBright,
                       borderRadius: AppBorderRadius.vertical(
                         top: index == 0 ? .medium : .xsmall,
                         bottom: index == readings.length - 1

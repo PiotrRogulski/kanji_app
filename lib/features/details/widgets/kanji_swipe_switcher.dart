@@ -117,9 +117,7 @@ class const _KanjiPreviewBubble(
         child: LiquidGlass.auto(
           shape: const LiquidOval(),
           settings: appLiquidGlassSettings,
-          appearance: appLiquidGlassAppearance.copyWith(
-            tint: theme.colorScheme.surface.withValues(alpha: 0.25),
-          ),
+          appearance: appGlassAppearanceOf(context),
           child: Center(
             child: Text(
               entry.kanji,

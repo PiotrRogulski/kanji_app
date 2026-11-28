@@ -1,10 +1,28 @@
 import 'package:kanji_app/design_system.dart';
 import 'package:material_ui/material_ui.dart';
 
+class FlashcardColors() extends ThemeExtension<FlashcardColors> {
+  final skipped = ColorScheme.fromSeed(
+    seedColor: Colors.orange,
+    dynamicSchemeVariant: .fidelity,
+  );
+  final learned = ColorScheme.fromSeed(
+    seedColor: Colors.lightGreen,
+    dynamicSchemeVariant: .fidelity,
+  );
+
+  @override
+  FlashcardColors copyWith() => this;
+
+  @override
+  FlashcardColors lerp(FlashcardColors? other, double t) => this;
+}
+
 ThemeData appTheme(Brightness brightness) {
   final colorScheme = ColorScheme.fromSeed(
     seedColor: const .new(0xFFC8AE7E),
     brightness: brightness,
+    dynamicSchemeVariant: .vibrant,
   );
 
   final baseTheme = ThemeData.from(colorScheme: colorScheme);
@@ -33,6 +51,7 @@ ThemeData appTheme(Brightness brightness) {
     pageTransitionsTheme: const .new(
       builders: {.android: PredictiveBackPageTransitionsBuilder()},
     ),
+    extensions: [FlashcardColors()],
   );
 }
 

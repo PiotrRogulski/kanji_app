@@ -16,6 +16,7 @@ import 'package:kanji_app/features/flashcards/use_flashcards_session.dart';
 import 'package:kanji_app/features/flashcards/widgets/current_flashcard.dart';
 import 'package:kanji_app/features/flashcards/widgets/flashcard_gestures.dart';
 import 'package:kanji_app/features/flashcards/widgets/next_flashcards.dart';
+import 'package:kanji_app/theme.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -230,6 +231,8 @@ class const _FlashcardsActionRow({
 }) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).extension<FlashcardColors>()!;
+
     return Row(
       spacing: AppUnit.small,
       children: [
@@ -237,7 +240,7 @@ class const _FlashcardsActionRow({
           child: DynamicWeight(
             child: _FlashcardsActionButton(
               enabled: enabled,
-              color: Colors.orange,
+              colors: colors.skipped,
               icon: .undo,
               onPressed: onSkipped,
             ),
@@ -247,7 +250,7 @@ class const _FlashcardsActionRow({
           child: DynamicWeight(
             child: _FlashcardsActionButton(
               enabled: enabled,
-              color: Colors.lightGreen,
+              colors: colors.learned,
               icon: .check,
               onPressed: onLearned,
             ),
@@ -260,16 +263,13 @@ class const _FlashcardsActionRow({
 
 class const _FlashcardsActionButton({
   required final bool enabled,
-  required final Color color,
+  required final ColorScheme colors,
   required final AppIconData icon,
   required final VoidCallback onPressed,
 }) extends HookWidget {
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    final effectiveColor = useColorSpring(
-      enabled ? color : color.withValues(alpha: color.a * 0.35),
-    );
+    final opacity = useValueSpring(enabled ? 1 : 0.5);
 
     final fill = DynamicWeight.of(context).fill;
     final stadiumProgress = useValueSpring(
@@ -277,27 +277,30 @@ class const _FlashcardsActionButton({
       spring: fill == 1 ? null : Springs.expressiveFastSpatial,
     );
 
-    return Material(
-      color: effectiveColor,
-      shape: StadiumMorphBorder(
-        fixedCornerRadius: .medium,
-        stadiumProgress: stadiumProgress,
-      ),
-      animationDuration: .zero,
-      clipBehavior: .antiAlias,
-      child: AppInkWell(
-        onTap: enabled
-            ? () {
-                HapticFeedback.lightImpact();
-                onPressed();
-              }
-            : null,
-        child: AppPadding(
-          padding: const .all(.small),
-          child: AppIcon(
-            icon,
-            size: AppUnit.xlarge * 2,
-            color: colorScheme.onPrimary,
+    return Opacity(
+      opacity: opacity,
+      child: Material(
+        color: colors.primaryContainer,
+        shape: StadiumMorphBorder(
+          fixedCornerRadius: .medium,
+          stadiumProgress: stadiumProgress,
+        ),
+        animationDuration: .zero,
+        clipBehavior: .antiAlias,
+        child: AppInkWell(
+          onTap: enabled
+              ? () {
+                  HapticFeedback.lightImpact();
+                  onPressed();
+                }
+              : null,
+          child: AppPadding(
+            padding: const .all(.small),
+            child: AppIcon(
+              icon,
+              size: AppUnit.xlarge * 2,
+              color: colors.onPrimaryContainer,
+            ),
           ),
         ),
       ),

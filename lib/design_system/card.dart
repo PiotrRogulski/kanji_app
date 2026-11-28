@@ -36,7 +36,7 @@ class const _CardSurface({
       container: true,
       child: Material(
         type: .card,
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        color: Theme.of(context).colorScheme.surfaceContainerHigh,
         shape: RoundedRectangleBorder(borderRadius: borderRadius),
         animationDuration: .zero,
         clipBehavior: .antiAlias,

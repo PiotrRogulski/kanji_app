@@ -39,7 +39,7 @@ class const RadicalEntryView(
                         height: 64,
                         decoration: BoxDecoration(
                           borderRadius: AppBorderRadius.circular(.small),
-                          color: theme.colorScheme.surface,
+                          color: theme.colorScheme.surfaceBright,
                         ),
                         alignment: Alignment.center,
                         child: Text(
@@ -116,7 +116,7 @@ class const RadicalExamples(final RadicalEntry entry, {super.key})
 
     return Container(
       decoration: BoxDecoration(
-        color: theme.colorScheme.surface,
+        color: theme.colorScheme.surfaceBright,
         borderRadius: AppBorderRadius.circular(AppUnit.small + AppUnit.xsmall),
       ),
       padding: const AppEdgeInsets.only(
@@ -139,7 +139,7 @@ class const RadicalExamples(final RadicalEntry entry, {super.key})
                   width: 42,
                   height: 42,
                   decoration: BoxDecoration(
-                    color: theme.colorScheme.surfaceContainerHighest,
+                    color: theme.colorScheme.surfaceContainerHigh,
                     borderRadius: AppBorderRadius.horizontal(
                       start: index == 0 ? .small : .xsmall,
                       end: index == entry.examples.length - 1

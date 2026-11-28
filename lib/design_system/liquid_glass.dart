@@ -10,7 +10,9 @@ const appLiquidGlassSettings = LiquidGlassSettings(
   refractionFitsShape: false,
 );
 
-const appLiquidGlassAppearance = LiquidGlassAppearance.ios27Clear();
+LiquidGlassAppearance appGlassAppearanceOf(BuildContext context) => .new(
+  tint: Theme.of(context).colorScheme.surfaceBright.withValues(alpha: 0.25),
+);
 
 const appLiquidGlassShadows = [
   BoxShadow(color: .new(0x1F000000), offset: .new(0, 6), blurRadius: 20),
@@ -22,7 +24,7 @@ class const AppGlassLayer({super.key, required final Widget child})
   Widget build(BuildContext context) {
     return LiquidGlassLayer(
       settings: appLiquidGlassSettings,
-      defaultAppearance: appLiquidGlassAppearance,
+      defaultAppearance: appGlassAppearanceOf(context),
       child: child,
     );
   }
@@ -66,7 +68,7 @@ class const _GlassIconButton({
       child: LiquidGlass.auto(
         shape: const LiquidOval(),
         settings: appLiquidGlassSettings,
-        appearance: appLiquidGlassAppearance,
+        appearance: appGlassAppearanceOf(context),
         shadows: appLiquidGlassShadows,
         child: SizedBox.square(
           dimension: AppGlassIconButton.size,
