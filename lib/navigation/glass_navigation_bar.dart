@@ -13,17 +13,21 @@ class const AppGlassNavigationBar({
   required final List<AppDestination> destinations,
   required final int selectedIndex,
   required final ValueChanged<int> onSelected,
+  required final Axis direction,
   required final Axis itemDirection,
   required final String scrollToTopTooltip,
   final VoidCallback? onScrollToTop,
 }) extends HookWidget {
   static const height = 64.0;
+  static const sidebarWidth = 200.0;
 
+  static const _sidebarItemHeight = 56.0;
   static const _buttonGap = AppUnit.small;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final horizontal = direction == .horizontal;
 
     final split = useValueSpring(
       onScrollToTop != null ? 1 : 0,
@@ -34,22 +38,33 @@ class const AppGlassNavigationBar({
     return AppGlassLayer(
       child: LiquidGlassBlendGroup(
         blend: 24,
-        child: Row(
+        child: Flex(
+          direction: direction,
+          mainAxisSize: .min,
           children: [
-            Expanded(
+            Flexible(
+              flex: horizontal ? 1 : 0,
+              fit: .tight,
               child: LiquidGlass.grouped(
-                shape: const LiquidRoundedSuperellipse(
-                  borderRadius: height / 2,
+                shape: LiquidRoundedSuperellipse(
+                  borderRadius: horizontal
+                      ? height / 2
+                      : _sidebarItemHeight / 2 + _Destinations._inlineInset,
                 ),
                 shadows: appLiquidGlassShadows,
                 child: Material(
                   type: .transparency,
                   child: SizedBox(
-                    height: height,
+                    width: horizontal ? null : sidebarWidth,
+                    height: horizontal
+                        ? height
+                        : _sidebarItemHeight * destinations.length +
+                              _Destinations._inlineInset * 2,
                     child: _Destinations(
                       destinations: destinations,
                       selectedIndex: selectedIndex,
                       onSelected: onSelected,
+                      direction: direction,
                       itemDirection: itemDirection,
                     ),
                   ),
@@ -57,7 +72,7 @@ class const AppGlassNavigationBar({
               ),
             ),
             if (hasButton)
-              // The button is laid out from the end of the row, over the end
+              // The button is laid out from the end of the bar, over the end
               // of the bar, which is as round as it is. So with no room at
               // all it's a part of the bar, and it comes apart as it gets it.
               SizedBox(
@@ -104,13 +119,10 @@ class const _Destinations({
   required final List<AppDestination> destinations,
   required final int selectedIndex,
   required final ValueChanged<int> onSelected,
+  required final Axis direction,
   required final Axis itemDirection,
 }) extends HookWidget {
-  static const _indicatorStretch = 56.0;
-
-  static const _inlineIndicatorHeight = 40.0;
-  static const _inlineIndicatorInset =
-      (AppGlassNavigationBar.height - _inlineIndicatorHeight) / 2;
+  static const _inlineInset = 12.0;
 
   @override
   Widget build(BuildContext context) {
@@ -128,54 +140,89 @@ class const _Destinations({
       spring: Springs.expressiveDefaultSpatial,
     );
     final position = (leading + trailing) / 2;
-    final distance = (leading - trailing).abs();
-
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        final slot = constraints.maxWidth / destinations.length;
-        final (top, size) = switch (itemDirection) {
-          .vertical => (
-            NavigationItem.stackedIndicatorTop,
-            NavigationItem.stackedIndicatorSize,
-          ),
-          .horizontal => (
-            _inlineIndicatorInset,
-            Size(slot - _inlineIndicatorInset * 2, _inlineIndicatorHeight),
-          ),
+    final stretch =
+        (leading - trailing).abs() *
+        switch (direction) {
+          .horizontal => 28,
+          .vertical => 12,
         };
-        final width = size.width + _indicatorStretch * distance;
 
-        return Stack(
-          children: [
-            PositionedDirectional(
-              start: slot * (position + 0.5) - width / 2,
-              top: top,
-              width: width,
-              height: size.height,
-              child: DecoratedBox(
-                decoration: ShapeDecoration(
-                  shape: const StadiumBorder(),
-                  color: colorScheme.secondaryContainer,
+    return Padding(
+      padding: switch (itemDirection) {
+        .vertical => .zero,
+        .horizontal => const .all(_inlineInset),
+      },
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final slot = switch (direction) {
+            .horizontal => Size(
+              constraints.maxWidth / destinations.length,
+              constraints.maxHeight,
+            ),
+            .vertical => Size(
+              constraints.maxWidth,
+              constraints.maxHeight / destinations.length,
+            ),
+          };
+          final inSlot = switch (itemDirection) {
+            .vertical => Alignment.topCenter.inscribe(
+              NavigationItem.stackedIndicatorSize,
+              const Offset(0, NavigationItem.stackedIndicatorTop) & slot,
+            ),
+            .horizontal => Offset.zero & slot,
+          };
+          final indicator = switch (direction) {
+            .horizontal => Rect.fromLTRB(
+              inSlot.left - stretch,
+              inSlot.top,
+              inSlot.right + stretch,
+              inSlot.bottom,
+            ).translate(slot.width * position, 0),
+            .vertical => Rect.fromLTRB(
+              inSlot.left,
+              inSlot.top - stretch,
+              inSlot.right,
+              inSlot.bottom + stretch,
+            ).translate(0, slot.height * position),
+          };
+
+          return Stack(
+            clipBehavior: .none,
+            children: [
+              PositionedDirectional(
+                start: indicator.left,
+                top: indicator.top,
+                width: indicator.width,
+                height: indicator.height,
+                child: DecoratedBox(
+                  decoration: ShapeDecoration(
+                    shape: const StadiumBorder(),
+                    color: colorScheme.secondaryContainer,
+                  ),
                 ),
               ),
-            ),
-            Row(
-              crossAxisAlignment: .stretch,
-              children: [
-                for (final (index, destination) in destinations.indexed)
-                  Expanded(
-                    child: NavigationItem(
-                      destination: destination,
-                      selected: index == selectedIndex,
-                      onTap: () => onSelected(index),
-                      direction: itemDirection,
+              Flex(
+                direction: direction,
+                crossAxisAlignment: .stretch,
+                children: [
+                  for (final (index, destination) in destinations.indexed)
+                    Expanded(
+                      child: NavigationItem(
+                        destination: destination,
+                        selected: index == selectedIndex,
+                        onTap: () => onSelected(index),
+                        direction: itemDirection,
+                        alignment: direction == .vertical
+                            ? .centerStart
+                            : .center,
+                      ),
                     ),
-                  ),
-              ],
-            ),
-          ],
-        );
-      },
+                ],
+              ),
+            ],
+          );
+        },
+      ),
     );
   }
 }

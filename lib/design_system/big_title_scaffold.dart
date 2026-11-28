@@ -92,7 +92,8 @@ class const AppBigTitleScaffold({
               hasScrollBody: false,
               child: Container(
                 alignment: .bottomCenter,
-                padding: EdgeInsets.only(bottom: viewPadding.bottom)
+                padding: viewPadding
+                    .copyWith(top: 0)
                     .add(const AppEdgeInsets.all(.medium)),
                 child: ConstrainedBox(
                   constraints: const .tightFor(width: .infinity),

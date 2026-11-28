@@ -15,6 +15,7 @@ class const NavigationItem({
   required final bool selected,
   required final VoidCallback onTap,
   required final Axis direction,
+  final AlignmentGeometry alignment = .center,
 }) extends StatelessWidget {
   static const stackedIndicatorSize = Size(64, 32);
   static const stackedIndicatorTop = 6.0;
@@ -27,6 +28,7 @@ class const NavigationItem({
         selected: selected,
         onTap: onTap,
         direction: direction,
+        alignment: alignment,
       ),
     );
   }
@@ -37,6 +39,7 @@ class const _Item({
   required final bool selected,
   required final VoidCallback onTap,
   required final Axis direction,
+  required final AlignmentGeometry alignment,
 }) extends HookWidget {
   static const _pressedScale = 0.88;
 
@@ -99,8 +102,8 @@ class const _Item({
                 ],
               ),
             ),
-            .horizontal => Center(
-              widthFactor: 1,
+            .horizontal => Align(
+              alignment: alignment,
               child: AppPadding(
                 padding: const .symmetric(horizontal: .medium),
                 child: Row(

@@ -7,7 +7,6 @@ import 'package:kanji_app/design_system/liquid_glass.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/navigation/glass_navigation_bar.dart';
 import 'package:kanji_app/navigation/navigation_item.dart';
-import 'package:kanji_app/navigation/navigation_rail.dart';
 import 'package:kanji_app/navigation/shell_chrome.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:material_ui/material_ui.dart';
@@ -36,52 +35,54 @@ class const ScaffoldWithNavBar({
       .new(icon: .style, label: s.flashcards_title),
     ];
 
+    final (direction, itemDirection) = switch (width) {
+      < _mediumWidth => (Axis.horizontal, Axis.vertical),
+      < _expandedWidth => (Axis.horizontal, Axis.horizontal),
+      _ => (Axis.vertical, Axis.horizontal),
+    };
+
     return ChangeNotifierProvider(
       create: (context) => ShellChrome(),
-      child: switch (width) {
-        < _mediumWidth => _BarShell(
-          destinations: destinations,
-          currentIndex: currentIndex,
-          onSelected: select,
-          itemDirection: .vertical,
-          children: children,
-        ),
-        < _expandedWidth => _BarShell(
-          destinations: destinations,
-          currentIndex: currentIndex,
-          onSelected: select,
-          itemDirection: .horizontal,
-          children: children,
-        ),
-        _ => _RailShell(
-          destinations: destinations,
-          currentIndex: currentIndex,
-          onSelected: select,
-          children: children,
-        ),
-      },
+      child: _Shell(
+        destinations: destinations,
+        currentIndex: currentIndex,
+        onSelected: select,
+        direction: direction,
+        itemDirection: itemDirection,
+        children: children,
+      ),
     );
   }
 }
 
-class const _BarShell({
+class const _Shell({
   required final List<AppDestination> destinations,
   required final int currentIndex,
   required final ValueChanged<int> onSelected,
+  required final Axis direction,
   required final Axis itemDirection,
   required final List<Widget> children,
 }) extends StatelessWidget {
-  static const _barMargin = AppUnit.medium;
+  static const _margin = AppUnit.medium;
 
   @override
   Widget build(BuildContext context) {
     final s = context.l10n;
     final theme = Theme.of(context);
     final mediaQuery = MediaQuery.of(context);
+    final viewPadding = mediaQuery.viewPadding;
 
-    final barBottom = max(mediaQuery.viewPadding.bottom, _barMargin);
-    final contentBottom =
-        barBottom + AppGlassNavigationBar.height + AppUnit.small;
+    final barBottom = max(viewPadding.bottom, _margin);
+    final barLeft = viewPadding.left + _margin;
+
+    EdgeInsets clearOfBar(EdgeInsets padding) => switch (direction) {
+      .horizontal => padding.copyWith(
+        bottom: barBottom + AppGlassNavigationBar.height + AppUnit.small,
+      ),
+      .vertical => padding.copyWith(
+        left: barLeft + AppGlassNavigationBar.sidebarWidth,
+      ),
+    };
 
     return ColoredBox(
       color: theme.colorScheme.surface,
@@ -90,23 +91,32 @@ class const _BarShell({
           Positioned.fill(
             child: MediaQuery(
               data: mediaQuery.copyWith(
-                padding: mediaQuery.padding.copyWith(bottom: contentBottom),
-                viewPadding: mediaQuery.viewPadding.copyWith(
-                  bottom: contentBottom,
-                ),
+                padding: clearOfBar(mediaQuery.padding),
+                viewPadding: clearOfBar(viewPadding),
               ),
               child: AnimatedBranchContainer(
                 currentIndex: currentIndex,
-                direction: .horizontal,
+                direction: direction,
                 children: children,
               ),
             ),
           ),
+          if (direction == .vertical)
+            Positioned(
+              right: viewPadding.right + _margin,
+              bottom: barBottom,
+              child: _ScrollToTopButton(tooltip: s.common_scrollToTop),
+            ),
           Positioned(
-            left: mediaQuery.viewPadding.left + _barMargin,
-            right: mediaQuery.viewPadding.right + _barMargin,
+            left: barLeft,
+            top: floatingTopInsetOf(context),
+            right: viewPadding.right + _margin,
             bottom: barBottom,
-            child: Center(
+            child: Align(
+              alignment: switch (direction) {
+                .horizontal => .bottomCenter,
+                .vertical => .topLeft,
+              },
               child: ConstrainedBox(
                 constraints: .new(
                   maxWidth: switch (itemDirection) {
@@ -118,78 +128,17 @@ class const _BarShell({
                   destinations: destinations,
                   selectedIndex: currentIndex,
                   onSelected: onSelected,
+                  direction: direction,
                   itemDirection: itemDirection,
-                  onScrollToTop: context.watch<ShellChrome>().onScrollToTop,
+                  onScrollToTop: direction == .horizontal
+                      ? context.watch<ShellChrome>().onScrollToTop
+                      : null,
                   scrollToTopTooltip: s.common_scrollToTop,
                 ),
               ),
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class const _RailShell({
-  required final List<AppDestination> destinations,
-  required final int currentIndex,
-  required final ValueChanged<int> onSelected,
-  required final List<Widget> children,
-}) extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final s = context.l10n;
-
-    return ColoredBox(
-      color: Theme.of(context).colorScheme.surfaceContainer,
-      child: SafeArea(
-        minimum: const .all(AppUnit.large),
-        child: Row(
-          spacing: AppUnit.large,
-          crossAxisAlignment: .stretch,
-          children: [
-            Align(
-              alignment: .topCenter,
-              child: Material(
-                type: .transparency,
-                child: AppNavigationRail(
-                  destinations: destinations,
-                  selectedIndex: currentIndex,
-                  onSelected: onSelected,
-                ),
-              ),
-            ),
-            Expanded(
-              child: ClipRRect(
-                borderRadius: AppBorderRadius.circular(.xlarge),
-                child: MediaQuery.removeViewPadding(
-                  context: context,
-                  removeBottom: true,
-                  removeLeft: true,
-                  removeRight: true,
-                  removeTop: true,
-                  child: Stack(
-                    children: [
-                      AnimatedBranchContainer(
-                        currentIndex: currentIndex,
-                        direction: .vertical,
-                        children: children,
-                      ),
-                      PositionedDirectional(
-                        bottom: AppUnit.medium,
-                        end: AppUnit.medium,
-                        child: _ScrollToTopButton(
-                          tooltip: s.common_scrollToTop,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
       ),
     );
   }
