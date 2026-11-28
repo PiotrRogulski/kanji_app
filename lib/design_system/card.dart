@@ -21,11 +21,28 @@ class const AppCard({
       final onTap? => DynamicWeight(
         child: _TappableCard(onTap: onTap, borderRadius: radius, child: child),
       ),
-      null => Card.filled(
-        shape: RoundedRectangleBorder(borderRadius: radius),
+      null => _CardSurface(borderRadius: radius, child: child),
+    };
+  }
+}
+
+class const _CardSurface({
+  required final BorderRadiusGeometry borderRadius,
+  required final Widget child,
+}) extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      container: true,
+      child: Material(
+        type: .card,
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        shape: RoundedRectangleBorder(borderRadius: borderRadius),
+        animationDuration: .zero,
+        clipBehavior: .antiAlias,
         child: child,
       ),
-    };
+    );
   }
 }
 
@@ -38,8 +55,6 @@ class const _TappableCard({
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-
     final pressed = DynamicWeight.of(context).pressed;
     final squish = useValueSpring(
       pressed ? 1 : 0,
@@ -57,27 +72,18 @@ class const _TappableCard({
       bottomEnd: pressedCorner(borderRadius.bottomEnd),
     );
 
-    return Semantics(
-      container: true,
-      child: Material(
-        type: .card,
-        color: colorScheme.surfaceContainerHighest,
-        shape: RoundedRectangleBorder(
-          borderRadius: .lerp(borderRadius, pressedBorderRadius, squish)!,
-        ),
-        animationDuration: .zero,
-        clipBehavior: .antiAlias,
-        child: Stack(
-          children: [
-            child,
-            Positioned.fill(
-              child: Material(
-                color: Colors.transparent,
-                child: AppInkWell(onTap: onTap),
-              ),
+    return _CardSurface(
+      borderRadius: .lerp(borderRadius, pressedBorderRadius, squish)!,
+      child: Stack(
+        children: [
+          child,
+          Positioned.fill(
+            child: Material(
+              color: Colors.transparent,
+              child: AppInkWell(onTap: onTap),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
