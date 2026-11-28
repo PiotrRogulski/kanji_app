@@ -16,9 +16,8 @@ class const FlashcardsBranch() extends StatefulShellBranchData {
 
 class const FlashcardsRoute() extends GoRouteData with $FlashcardsRoute {
   @override
-  Widget build(BuildContext context, GoRouterState state) {
-    return const FlashcardsScreen();
-  }
+  Widget build(BuildContext context, GoRouterState state) =>
+      const FlashcardsScreen();
 }
 
 class const FlashcardsPlayRoute({
@@ -27,7 +26,6 @@ class const FlashcardsPlayRoute({
   required final FlashcardMode mode,
 }) extends GoRouteData with $FlashcardsPlayRoute {
   @override
-  Widget build(BuildContext context, GoRouterState state) {
-    return FlashcardsPlayScreen(startId: startId, endId: endId, mode: mode);
-  }
+  Widget build(BuildContext context, GoRouterState state) =>
+      FlashcardsPlayScreen(startId: startId, endId: endId, mode: mode);
 }

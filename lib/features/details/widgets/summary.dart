@@ -12,7 +12,7 @@ class const KanjiSummary({super.key}) extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final entry = context.watch<KanjiEntry>();
-    final radical = context.read<RadicalsData>().of(entry);
+    final radical = context.watch<RadicalsData>().of(entry);
 
     return SizedBox(
       width: 300,

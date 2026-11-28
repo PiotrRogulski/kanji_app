@@ -27,7 +27,7 @@ ThemeData appTheme() {
       ),
     ),
     iconButtonTheme: const .new(variant: .material3Expressive),
-    pageTransitionsTheme: const PageTransitionsTheme(
+    pageTransitionsTheme: const .new(
       builders: {.android: PredictiveBackPageTransitionsBuilder()},
     ),
   );

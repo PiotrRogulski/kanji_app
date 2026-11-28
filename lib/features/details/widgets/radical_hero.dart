@@ -30,30 +30,31 @@ class const RadicalHero({
       curve: _openCurve,
       reverseCurve: _closeCurve.flipped,
       createRectTween: (begin, end) => RectTween(begin: begin, end: end),
-      flightShuttleBuilder: (flightContext, animation, _, _, _) {
-        final theme = Theme.of(flightContext);
-        final chip = RadicalGlyph.chip(form, theme);
-        final badge = RadicalGlyph.badge(form, theme);
+      flightShuttleBuilder:
+          (flightContext, animation, _, fromHeroContext, toHeroContext) {
+            final theme = Theme.of(flightContext);
+            final chip = RadicalGlyph.chip(form, theme);
+            final badge = RadicalGlyph.badge(form, theme);
 
-        return AnimatedBuilder(
-          animation: animation,
-          builder: (context, _) {
-            final progress = animation.value;
+            return AnimatedBuilder(
+              animation: animation,
+              builder: (context, _) {
+                final progress = animation.value;
 
-            return RadicalGlyph(
-              form,
-              shape: ShapeBorder.lerp(chip.shape, badge.shape, progress)!,
-              color: Color.lerp(chip.color, badge.color, progress)!,
-              foregroundColor: Color.lerp(
-                chip.foregroundColor,
-                badge.foregroundColor,
-                progress,
-              )!,
-              shapeAngle: (1 - progress) * _flightAngle,
+                return RadicalGlyph(
+                  form,
+                  shape: ShapeBorder.lerp(chip.shape, badge.shape, progress)!,
+                  color: Color.lerp(chip.color, badge.color, progress)!,
+                  foregroundColor: Color.lerp(
+                    chip.foregroundColor,
+                    badge.foregroundColor,
+                    progress,
+                  )!,
+                  shapeAngle: (1 - progress) * _flightAngle,
+                );
+              },
             );
           },
-        );
-      },
       child: child,
     );
   }

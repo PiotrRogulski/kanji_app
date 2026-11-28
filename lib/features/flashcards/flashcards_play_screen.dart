@@ -53,24 +53,22 @@ class const FlashcardsPlayScreen({
 
       final shouldExit = await showDialog<bool>(
         context: context,
-        builder: (context) {
-          return AlertDialog(
-            title: Text(s.flashcards_exitTitle),
-            actions: [
-              AppButton(
-                label: s.flashcards_exitStay,
-                size: .small,
-                variant: .text,
-                onPressed: () => Navigator.of(context).pop(false),
-              ),
-              AppButton(
-                label: s.flashcards_exitLeave,
-                size: .small,
-                onPressed: () => Navigator.of(context).pop(true),
-              ),
-            ],
-          );
-        },
+        builder: (context) => AlertDialog(
+          title: Text(s.flashcards_exitTitle),
+          actions: [
+            AppButton(
+              label: s.flashcards_exitStay,
+              size: .small,
+              variant: .text,
+              onPressed: () => Navigator.of(context).pop(false),
+            ),
+            AppButton(
+              label: s.flashcards_exitLeave,
+              size: .small,
+              onPressed: () => Navigator.of(context).pop(true),
+            ),
+          ],
+        ),
       );
 
       if (shouldExit ?? false) {

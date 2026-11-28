@@ -17,7 +17,7 @@ class const KanjiSwipeSwitcher({super.key, required final Widget child})
     extends HookWidget {
   @override
   Widget build(BuildContext context) {
-    final kanjiData = context.read<KanjiData>();
+    final kanjiData = context.watch<KanjiData>();
     final entry = context.watch<KanjiEntry>();
 
     final previousEntry = kanjiData.get(entry.id - 1);

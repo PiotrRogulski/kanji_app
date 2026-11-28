@@ -14,7 +14,7 @@ class const KanjiDetailsScreen(final int id, {super.key})
   @override
   Widget build(BuildContext context) {
     // TODO: Add not found screen
-    final entry = context.read<KanjiData>().get(id)!;
+    final entry = context.watch<KanjiData>().get(id)!;
 
     final viewPadding = MediaQuery.viewPaddingOf(context);
     final chromeTop = viewPadding.top + AppUnit.small;
@@ -94,7 +94,7 @@ class const KanjiDetailsScreen(final int id, {super.key})
                       AppGlassIconButton(
                         icon: .openInNew,
                         onPressed: () => launchUrl(
-                          Uri(
+                          .new(
                             scheme: 'https',
                             host: 'jisho.org',
                             pathSegments: ['search', '${entry.kanji} #kanji'],

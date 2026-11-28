@@ -20,9 +20,9 @@ class const RadicalDialog(final int kanjiId, {super.key})
   @override
   Widget build(BuildContext context) {
     final radical = context
-        .read<KanjiData>()
+        .watch<KanjiData>()
         .get(kanjiId)
-        ?.apply(context.read<RadicalsData>().of);
+        ?.apply(context.watch<RadicalsData>().of);
     // TODO: Add not found screen
     if (radical == null) {
       return const SizedBox.shrink();
@@ -92,7 +92,7 @@ class const _RadicalDialog(final int kanjiId, final KanjiRadicalData data)
           clipBehavior: .none,
           padding: const AppEdgeInsets.all(.large),
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 360),
+            constraints: const .new(maxWidth: 360),
             child: Material(
               type: .transparency,
               child: _Container(
@@ -296,7 +296,7 @@ class const _Staggered({
     return Opacity(
       opacity: opacity,
       child: Transform.translate(
-        offset: Offset(0, (1 - position) * _rise),
+        offset: .new(0, (1 - position) * _rise),
         child: child,
       ),
     );

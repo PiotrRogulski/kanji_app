@@ -24,7 +24,7 @@ class const KanjiAnimationDialog(final int id, {super.key})
     final colorScheme = ColorScheme.of(context);
 
     // TODO: Add not found screen
-    final kanji = context.read<KanjiData>().get(id)!.kanji;
+    final kanji = context.watch<KanjiData>().get(id)!.kanji;
 
     return Center(
       child: Hero(
@@ -66,7 +66,7 @@ class _KanjiDetailsBody(final String kanji) extends HookWidget {
     final s = context.l10n;
     final theme = Theme.of(context);
 
-    final kanjiApi = context.read<KanjiApi>();
+    final kanjiApi = context.watch<KanjiApi>();
 
     final (result, _) = useQuery(
       Query(key: 'kanjiSvg-$kanji', queryFn: () => kanjiApi.kanjiSvg(kanji)),
@@ -106,9 +106,9 @@ class const _KanjiDetailsLoaded(final String svg) extends HookWidget {
 
     final controller = useSvgController(
       svg,
-      startDelay: const Duration(milliseconds: 1000),
+      startDelay: const .new(milliseconds: 1000),
       speed: 0.1,
-      delayBetweenStrokes: const Duration(milliseconds: 200),
+      delayBetweenStrokes: const .new(milliseconds: 200),
       strokeAnimationCurve: Curves.easeInOut,
     );
 
@@ -123,14 +123,14 @@ class const _KanjiDetailsLoaded(final String svg) extends HookWidget {
           child: _KanjiGrid(
             child: SvgDrawingAnimation(
               controller: controller,
-              strokePaint: Paint()
+              strokePaint: .new()
                 ..style = .stroke
                 ..color = colorScheme.onSurfaceVariant
                 ..strokeWidth = 2
                 ..strokeCap = .round,
-              pen: Pen(
+              pen: .new(
                 radius: 4,
-                paint: Paint()
+                paint: .new()
                   ..color = colorScheme.primary.withValues(alpha: 0.5),
               ),
             ),

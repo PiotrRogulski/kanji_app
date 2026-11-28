@@ -75,9 +75,9 @@ class const RadicalEntry._({
       final match = radicalRegex.firstMatch(part);
       if (match != null) {
         related.add(
-          RelatedRadical(
+          .new(
             radical: match.group(1)!.trim(),
-            strokeCount: int.parse(match.group(2)!),
+            strokeCount: .parse(match.group(2)!),
           ),
         );
       }

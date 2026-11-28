@@ -11,7 +11,6 @@ class const RadicalsBranch() extends StatefulShellBranchData {
 
 class RadicalsRoute() extends GoRouteData with $RadicalsRoute {
   @override
-  Widget build(BuildContext context, GoRouterState state) {
-    return const RadicalsScreen();
-  }
+  Widget build(BuildContext context, GoRouterState state) =>
+      const RadicalsScreen();
 }

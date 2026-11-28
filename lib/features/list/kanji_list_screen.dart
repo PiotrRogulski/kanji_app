@@ -17,7 +17,7 @@ class const KanjiListScreen({super.key}) extends HookWidget {
   Widget build(BuildContext context) {
     final s = context.l10n;
 
-    final kanjiData = context.read<KanjiData>();
+    final kanjiData = context.watch<KanjiData>();
 
     final filteredKanji = useState(kanjiData.entries);
 

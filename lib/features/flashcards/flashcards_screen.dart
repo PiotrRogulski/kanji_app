@@ -191,21 +191,18 @@ class _RangeTextFieldLayoutDelegate({
   }
 
   @override
-  Size getSize(BoxConstraints constraints) {
-    final height = _computeIntrinsicHeight(constraints.maxWidth);
-    return Size(constraints.maxWidth, height);
-  }
+  Size getSize(BoxConstraints constraints) =>
+      .new(constraints.maxWidth, _computeIntrinsicHeight(constraints.maxWidth));
 
   @override
-  BoxConstraints getConstraintsForChild(BoxConstraints constraints) {
-    final height = _computeIntrinsicHeight(constraints.maxWidth);
-    return BoxConstraints.tightFor(width: constraints.maxWidth, height: height);
-  }
+  BoxConstraints getConstraintsForChild(BoxConstraints constraints) =>
+      .tightFor(
+        width: constraints.maxWidth,
+        height: _computeIntrinsicHeight(constraints.maxWidth),
+      );
 
   @override
-  Offset getPositionForChild(Size size, Size childSize) {
-    return Offset.zero;
-  }
+  Offset getPositionForChild(Size size, Size childSize) => .zero;
 
   Widget _buildTextField(double height) {
     final theme = Theme.of(context);

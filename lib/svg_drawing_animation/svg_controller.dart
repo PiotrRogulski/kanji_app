@@ -68,14 +68,14 @@ class SvgController({
     var isCanceled = false;
 
     unawaited(
-      Future(() async {
+      .new(() async {
         _drawnStrokes.value = null;
         while (true) {
           if (_drawnStrokes.value == null ||
               _drawnStrokes.value == pathInfo.partLengths.length - 1) {
-            await Future<void>.delayed(startDelay);
+            await Future.pause(startDelay);
           } else {
-            await Future<void>.delayed(delayBetweenStrokes);
+            await Future.pause(delayBetweenStrokes);
           }
           if (isCanceled) {
             break;

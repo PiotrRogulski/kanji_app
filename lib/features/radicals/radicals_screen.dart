@@ -13,7 +13,7 @@ class const RadicalsScreen({super.key}) extends HookWidget {
     final s = context.l10n;
     final theme = Theme.of(context);
 
-    final radicalsData = context.read<RadicalsData>();
+    final radicalsData = context.watch<RadicalsData>();
     final groups = radicalsData.entries
         .groupListsBy((e) => e.strokeCount)
         .entries

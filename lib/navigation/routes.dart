@@ -24,9 +24,7 @@ class RootRoute() extends StatefulShellRouteData {
     BuildContext context,
     GoRouterState state,
     StatefulNavigationShell navigationShell,
-  ) {
-    return navigationShell;
-  }
+  ) => navigationShell;
 
   static const $restorationScopeId = 'root';
 
@@ -34,10 +32,5 @@ class RootRoute() extends StatefulShellRouteData {
     BuildContext context,
     StatefulNavigationShell navigationShell,
     List<Widget> children,
-  ) {
-    return ScaffoldWithNavBar(
-      navigationShell: navigationShell,
-      children: children,
-    );
-  }
+  ) => ScaffoldWithNavBar(navigationShell: navigationShell, children: children);
 }

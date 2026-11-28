@@ -104,7 +104,7 @@ class _FlashcardPanHandler({
     if (distance > 0) {
       return dragOffset / distance;
     }
-    return const Offset(1, 0);
+    return const .new(1, 0);
   }
 
   void _animateOut({
