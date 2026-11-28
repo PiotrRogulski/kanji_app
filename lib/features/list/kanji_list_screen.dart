@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:collection/collection.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:kanji_app/common/text_line_height.dart';
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/features/kanji_data/kanji_data.dart';
@@ -37,27 +37,25 @@ class const KanjiListScreen({super.key}) extends HookWidget {
 
     final scrollController = useScrollController();
 
+    final entryHeight = _Entry.heightIn(context);
+
     return AppBigTitleScaffold(
       title: s.kanjiList_title,
       scrollController: scrollController,
-      cacheExtent: 10_000,
       pinnedHeader: JDSearchBar(
         controller: searchController,
         hintText: s.kanjiList_search,
       ),
       slivers: [
         AppUnit.medium.sliverGap,
-        SliverLayoutBuilder(
-          builder: (context, constraints) {
-            return SliverMasonryGrid.count(
-              crossAxisCount: max(constraints.crossAxisExtent ~/ 320, 1),
-              childCount: filteredKanji.value.length,
-              itemBuilder: (context, index) =>
-                  _Entry(filteredKanji.value[index]),
-              crossAxisSpacing: AppUnit.medium,
-              mainAxisSpacing: AppUnit.medium,
-            );
-          },
+        SliverMasonryGrid(
+          itemExtents: filteredKanji.value.map(entryHeight).toList(),
+          minCrossAxisExtent: 320,
+          spacing: AppUnit.medium,
+          delegate: SliverChildBuilderDelegate(
+            (context, index) => _Entry(filteredKanji.value[index]),
+            childCount: filteredKanji.value.length,
+          ),
         ),
       ],
     );
@@ -65,6 +63,26 @@ class const KanjiListScreen({super.key}) extends HookWidget {
 }
 
 class const _Entry(final KanjiEntry entry) extends StatelessWidget {
+  static const _padding = AppUnit.medium;
+
+  static TextStyle? _kanjiStyle(ThemeData theme) => theme
+      .textTheme
+      .displayMedium
+      ?.apply(color: theme.colorScheme.onSurfaceVariant)
+      .copyWith(height: 1);
+
+  static double Function(KanjiEntry entry) heightIn(BuildContext context) {
+    final kanjiHeight = textLineHeight(
+      context,
+      '字',
+      _kanjiStyle(Theme.of(context)),
+    );
+    final readingsHeight = KanjiReadings.heightIn(context);
+
+    return (entry) =>
+        max(kanjiHeight, readingsHeight(entry.readings)) + _padding * 2;
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -74,18 +92,13 @@ class const _Entry(final KanjiEntry entry) extends StatelessWidget {
       child: Stack(
         children: [
           AppPadding(
-            padding: const .all(.medium),
+            padding: const .all(_padding),
             child: Row(
               key: ValueKey(entry.id),
               crossAxisAlignment: .start,
               spacing: AppUnit.large,
               children: [
-                Text(
-                  entry.kanji,
-                  style: theme.textTheme.displayMedium
-                      ?.apply(color: theme.colorScheme.onSurfaceVariant)
-                      .copyWith(height: 1),
-                ),
+                Text(entry.kanji, style: _kanjiStyle(theme)),
                 if (entry.readings.isNotEmpty) KanjiReadings(entry.readings),
               ],
             ),
@@ -95,6 +108,7 @@ class const _Entry(final KanjiEntry entry) extends StatelessWidget {
             top: AppUnit.xsmall,
             child: DynamicWeightText(
               entry.id.toString(),
+              reserveBoldWidth: false,
               style: theme.textTheme.labelSmall?.apply(
                 color: theme.colorScheme.onSurfaceVariant,
               ),

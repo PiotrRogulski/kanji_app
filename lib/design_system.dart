@@ -13,5 +13,6 @@ export 'design_system/loading_indicator.dart';
 export 'design_system/padding.dart';
 export 'design_system/search_bar.dart';
 export 'design_system/sizes.dart';
+export 'design_system/sliver_masonry_grid.dart';
 export 'design_system/stadium_morph_border.dart';
 export 'design_system/wavy_progress.dart';

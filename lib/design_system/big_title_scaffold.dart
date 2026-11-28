@@ -1,7 +1,6 @@
 import 'package:kanji_app/design_system.dart';
 import 'package:kanji_app/design_system/motion.dart';
 import 'package:kanji_app/design_system/sliver_inset_pinned_header.dart';
-import 'package:kanji_app/extensions.dart';
 import 'package:kanji_app/navigation/shell_chrome.dart';
 import 'package:leancode_hooks/leancode_hooks.dart';
 import 'package:material_ui/material_ui.dart';
@@ -11,7 +10,6 @@ class const AppBigTitleScaffold({
   super.key,
   required final String title,
   required final ScrollController scrollController,
-  final double? cacheExtent,
   final bool showScrollToTopFab = true,
   final Widget? pinnedHeader,
   final Widget? bottomChild,
@@ -60,7 +58,6 @@ class const AppBigTitleScaffold({
     return Scaffold(
       body: CustomScrollView(
         controller: scrollController,
-        scrollCacheExtent: cacheExtent?.apply((extent) => .pixels(extent)),
         slivers: [
           SliverPadding(
             padding: viewPadding

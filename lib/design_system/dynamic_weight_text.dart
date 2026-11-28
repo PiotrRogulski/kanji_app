@@ -12,6 +12,7 @@ class const DynamicWeightText(
   final int? maxLines,
   final TextOverflow? overflow,
   final bool? softWrap,
+  final bool reserveBoldWidth = true,
 }) extends HookWidget {
   @override
   Widget build(BuildContext context) {
@@ -37,7 +38,7 @@ class const DynamicWeightText(
       ),
     );
 
-    if (dynamicWeight == null) {
+    if (dynamicWeight == null || !reserveBoldWidth) {
       return text(fontWeight);
     }
 
