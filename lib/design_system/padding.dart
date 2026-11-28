@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:kanji_app/design_system.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -30,3 +32,6 @@ class AppEdgeInsets extends EdgeInsetsDirectional {
 
   static const zero = AppEdgeInsets.only();
 }
+
+double floatingTopInsetOf(BuildContext context) =>
+    max(MediaQuery.viewPaddingOf(context).top + AppUnit.small, AppUnit.medium);

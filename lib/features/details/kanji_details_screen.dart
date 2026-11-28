@@ -17,7 +17,7 @@ class const KanjiDetailsScreen(final int id, {super.key})
     final entry = context.watch<KanjiData>().get(id)!;
 
     final viewPadding = MediaQuery.viewPaddingOf(context);
-    final chromeTop = viewPadding.top + AppUnit.small;
+    final chromeTop = floatingTopInsetOf(context);
 
     return Provider.value(
       value: entry,

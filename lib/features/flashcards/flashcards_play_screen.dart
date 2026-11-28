@@ -99,7 +99,7 @@ class const _FlashcardsPlayBody({
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final viewPadding = MediaQuery.viewPaddingOf(context);
-    final chromeTop = viewPadding.top + AppUnit.small;
+    final chromeTop = floatingTopInsetOf(context);
 
     final animationState = useFlashcardAnimation();
 

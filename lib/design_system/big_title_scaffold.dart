@@ -79,7 +79,7 @@ class const AppBigTitleScaffold({
                 if (pinnedHeader case final pinnedHeader?) ...[
                   AppUnit.xsmall.sliverGap,
                   SliverInsetPinnedHeader(
-                    inset: viewPadding.top + AppUnit.small,
+                    inset: floatingTopInsetOf(context),
                     child: pinnedHeader,
                   ),
                 ],
